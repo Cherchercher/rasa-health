@@ -26,9 +26,13 @@ You can put in **file path** or **directory path** as the "user_dicts" value. (s
 
 ### Usage:
 
+Add intents and entities under `core/cn/`
+
 Generate training phrases `npx chatito core/cn --format=rasa --outputPath=core/cn --trainingFileName=training_data.json`
 
 Train the model `rasa train nlu --config configs/cn/rasa_config.yml --nlu ./core/cn/training_data.json`
+
+Add proposed phrases with their corresponding intents and entities under `data/cn/ground_truth_data.json`
 
 Test the model `sh ./tests/cn/test.sh`
 
@@ -45,9 +49,13 @@ Install `python -m spacy download de_trf_bertbasecased_lg`
 
 ### Usage:
 
+Add intents and entities under `core/de/`
+
 Generate training phrases `npx chatito core/de --format=rasa --outputPath=core/de --trainingFileName=training_data.json`
 
 Train the model `rasa train nlu --config configs/de/rasa_config.yml --nlu ./core/de/training_data.json`
+
+Add proposed phrases with their corresponding intents and entities under `data/de/ground_truth_data.json`
 
 Test the model `sh ./tests/de/test.sh`
 
@@ -59,9 +67,13 @@ Test the model `sh ./tests/de/test.sh`
 
 ### English NLP
 
+Add intents and entities under `core/en/`
+
 Generate training phrases `npx chatito core/en --format=rasa --outputPath=core/en --trainingFileName=training_data.json`
 
 Train the model `rasa train nlu --config configs/en/rasa_config.yml --nlu ./core/en/training_data.json`
+
+Add proposed phrases with their corresponding intents and entities under `data/en/ground_truth_data.json`
 
 Test the model `sh ./tests/en/test.sh`
 
