@@ -4,6 +4,7 @@ Currently it supports training in Chinese, English and German. We are expanding 
 
 ### Setup
 `pip install rasa-x --extra-index-url https://pypi.rasa.com/simple`
+
 `python setup.py install`
 
 
