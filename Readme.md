@@ -3,6 +3,7 @@ This is the repo for the training data for the multilingual bot.
 Currently it supports training in Chinese, English and German. We are expanding its capacity to Spanish, and 8 other languages.
 
 ### Setup
+`pip install rasa-x --extra-index-url https://pypi.rasa.com/simple`
 `python setup.py install`
 
 
