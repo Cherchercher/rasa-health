@@ -5,7 +5,7 @@ Currently it supports training in Chinese, English and German. We are expanding 
 ### Setup
 `python setup.py install`
 
-Chinese NLP
+### Chinese NLP
 ### Pretrained Model
 file you need to have: https://drive.google.com/file/d/1G4BLpB_OQcCwEm4bVbpXjzlHnuBDlICG/view?usp=sharing
 
@@ -29,7 +29,7 @@ Train the model `rasa train nlu --config configs/cn/rasa_config.yml --nlu ./core
 Test the model `sh ./tests/cn/test.sh`
 
 
-Germain NLP
+### Germain NLP
 ### Pretrained Model
 https://deepset.ai/german-bert
 
@@ -46,7 +46,7 @@ Test the model `sh ./tests/de/test.sh`
 
 
 
-English NLP
+### English NLP
 
 Generate training phrases `npx chatito core/en --format=rasa --outputPath=core/en --trainingFileName=training_data.json`
 
