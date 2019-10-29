@@ -1,0 +1,11 @@
+import ../entities/make.chatito
+
+%[compare#price]('training': '100')
+    ~[cars]和~[cars]价格相比怎么样呢
+    ~[cars]和~[cars]比起来，哪个比较便宜呢
+
+%[compare#size]('training': '100')
+    ~[cars]和~[cars]比起来，哪个比较宽敞呢
+
+%[compare#power]('training': '100')
+    哪个马力强一些，~[cars]还是~[cars]？ 

@@ -1,0 +1,17 @@
+@[sorento]('entity': 'make', 'value': 'sorento')
+    sorento
+
+@[niro]('entity': 'make', 'value': 'niro')
+    niro
+
+@[stinger]('entity': 'make', 'value': 'stinger')
+    stinger
+
+@[cadenza]('entity': 'make', 'value': 'cadenza')
+    cadenza
+
+~[cars]
+    @[cadenza]
+    @[stinger]
+    @[niro]
+    @[sorento]

@@ -1,0 +1,49 @@
+language: de
+pipeline:
+- name: nlp_spacy
+  case_sentitive: 1
+  model: de_trf_bertbasecased_lg
+- name: tokenizer_whitespace
+- name: intent_entity_featurizer_regex
+- features:
+  - - low
+    - title
+    - upper
+  - - bias
+    - low
+    - prefix5
+    - prefix2
+    - suffix5
+    - suffix3
+    - suffix2
+    - upper
+    - title
+    - digit
+    - pattern
+  - - low
+    - title
+    - upper
+  fuzzy_matching: true
+  fuzzy_threshold: 0.9
+  name: ner_crf
+- dimensions:
+  - number
+  - ordinal
+  - time
+  - distance
+  - duration
+  - amount-of-money
+  - email
+  - phone-number
+  - url
+  - volume
+  - temperature
+  name: ner_duckling_http
+  url: http://127.0.0.1:8000
+- name: tokenizer_whitespace
+- name: intent_featurizer_count_vectors
+- droprate: 0.5
+  epochs: 200
+  intent_split_symbol: .
+  intent_tokenization_flag: true
+  name: intent_classifier_tensorflow_embedding

@@ -1,0 +1,7 @@
+/ignore
+*.json
+!data/*.json
+node_modules
+/models
+*.log
+*.egg-info/

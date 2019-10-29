@@ -1,0 +1,10 @@
+import ../entities/make.chatito
+
+%[compare#price]('training': '50')
+    which one is cheaper, ~[cars] or ~[cars]
+
+%[compare#size]('training': '50')
+    i want a spacious car. Do you recommend ~[cars] or ~[cars]
+
+%[compare#power]('training': '50')
+    i want a model with excellent horse power. i am considering ~[cars] and ~[cars] 

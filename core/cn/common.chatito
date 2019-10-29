@@ -1,0 +1,74 @@
+~[year]
+    2020
+    2019
+    2018
+    2017
+
+~[car]
+    ~[only-car]
+    ~[each-make] ~[model?] ~[year?]
+
+~[only-car]
+    车
+    车
+    汽车
+    小轿车
+
+~[model]
+    optima
+
+~[dislike]
+    我不喜欢
+    不要了
+    不能
+
+~[cant]
+    不能
+    不能够
+
+~[issue-request]
+    为什么不能
+
+~[look]
+    参观
+    看
+
+~[what-ifs]
+    如果
+    会怎么样呢
+
+~[received]
+    received
+    given
+    got
+
+~[me]
+    我
+    我们
+
+// Asking the bot to do stuffs or asking how to do stuff,
+// Either way an action will be performed
+// This should generally preceed a verb
+// A pattern is `~[request] change password`
+~[request]
+    请问
+    需要帮助
+
+~[where-do-i]
+    哪儿
+    地址
+    地址是什么
+    在哪里
+
+~[make-payment]
+    付款
+    给钱
+    买单
+    结账
+
+~[time-preposition]
+    什么时候
+
+~[states]
+    广东省
+    山东省

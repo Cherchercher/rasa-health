@@ -1,0 +1,4 @@
+import ../entities/make.chatito
+
+%[recommend]('training': '100')
+    wie viel kostet ~[cars]

@@ -1,0 +1,13 @@
+import ../entities/make.chatito
+
+%[compare#general]('training': '50')
+    Wie vergleicht sich der ~[cars] mit ~[cars]?
+
+%[compare#price]('training': '50')
+    welches ist günstiger, ~[cars] oder ~[cars]
+
+%[compare#size]('training': '50')
+    welches ist geräumiger, ~[cars] oder ~[cars]
+
+%[compare#power]('training': '50')
+    welches hat bessere PS, ~[cars] oder ~[cars]
