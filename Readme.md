@@ -36,7 +36,7 @@ Train the model `rasa train nlu --config configs/cn/rasa_config.yml --nlu ./core
 
 Add proposed phrases with their corresponding intents and entities under `data/cn/ground_truth_data.json`
 
-Test the model `sh ./tests/cn/test.sh`
+Test the model `sh ./tests/cn/test.sh`. Wrong classifications are listed in `result/intent_errors.json`.
 
 
 
@@ -59,7 +59,7 @@ Train the model `rasa train nlu --config configs/de/rasa_config.yml --nlu ./core
 
 Add proposed phrases with their corresponding intents and entities under `data/de/ground_truth_data.json`
 
-Test the model `sh ./tests/de/test.sh`
+Test the model `sh ./tests/de/test.sh`. Wrong classifications are listed in `result/intent_errors.json`
 
 
 
@@ -77,6 +77,6 @@ Train the model `rasa train nlu --config configs/en/rasa_config.yml --nlu ./core
 
 Add proposed phrases with their corresponding intents and entities under `data/en/ground_truth_data.json`
 
-Test the model `sh ./tests/en/test.sh`
+Test the model `sh ./tests/en/test.sh`. Wrong classifications are listed in `result/intent_errors.json`
 
 
