@@ -1,0 +1,343 @@
+///////////////////////
+//       Specs       //
+///////////////////////
+
+
+//seat counts
+@[Total Seat Count]('entity': 'specs.seats', 'value':'1600')
+    total seat count
+    seating capacity
+    how many seats
+    passengers fit
+    people fit
+
+@[1st Row Seating Count]('entity': 'specs.seats', 'value':'1601')
+    ~[first row]
+
+@[2nd Row Seating Count]('entity': 'specs.seats', 'value':'1602')
+    ~[second row]
+    full ~[second row]
+
+@[3rd Row Seating Count]('entity': 'specs.seats', 'value':'1603')
+    ~[third row]
+    full ~[third row]
+    
+@[4th Row Seating Count]('entity': 'specs.seats', 'value':'1604')
+    ~[fourth row]
+
+@[Heated Driver Seat]('entity': 'specs.seats', 'value':'1605')
+    ~[heated seats]
+
+@[Cooled Driver Seat]('entity': 'specs.seats', 'value':'1606')
+    ~[cooled seats]
+
+@[Heated Passenger Seat]('entity': 'specs.seats', 'value':'1607')
+    ~[heated seats] passenger
+    passenger ~[heated seats]
+
+@[Cooled Passenger Seat]('entity': 'specs.seats', 'value':'1608')
+    ~[cooled seats] passenger
+    passenger ~[cooled seats]
+
+@[Front Seating Type]('entity': 'specs.seats', 'value':'1609')
+    front seating type
+    front bucket seats
+
+@[Front Seating Material]('entity': 'specs.seats', 'value':'1610')
+    front seating material
+
+@[Front Whiplash Protection]('entity': 'specs.seats', 'value':'1611')
+@[Folding Passenger]('entity': 'specs.seats', 'value':'1612')
+@[Folding 2nd Row Seat]('entity': 'specs.seats', 'value':'1613')
+    folding  ~[second row]
+    ~[second row] fold down
+    ~[second row] fold
+
+@[Folding 3rd Row Seat]('entity': 'specs.seats', 'value':'1614')
+     folding  ~[third row]
+    ~[third row] fold
+    ~[third row] fold down
+
+@[Seating Configuration]('entity': 'specs.seats', 'value':'1615')
+
+@[Heated Rear Seat]('entity': 'specs.seats', 'value':'1616')
+    heated rear seat
+    heated rear seats
+    heated back seat
+    heated back seats
+    back seat warmers
+
+@[Ventilated Driver]('entity': 'specs.seats', 'value':'1617')
+
+@[Ventilated Pass]('entity': 'specs.seats', 'value':'1618')
+
+@[Lumbar Support Driver]('entity': 'specs.seats', 'value':'1619')
+
+@[Front Adjustable Seat Height]('entity': 'specs.seats', 'value':'1620')
+
+@[Memory Seat Controls]('entity': 'specs.seats', 'value':'1621')
+    memory seat controls 
+    seat memory
+
+@[Power Driver Seat]('entity': 'specs.seats', 'value':'1622')
+    power driver seat
+    power seats
+
+@[Power Passenger Seat]('entity': 'specs.seats', 'value':'1623')
+    power passenger
+
+@[Power Lumbar Control]('entity': 'specs.seats', 'value':'1624')
+    power lumbar control
+    power lumbar support
+
+@[Active Head Restraints]('entity': 'specs.seats', 'value':'1625')
+    active head restraints
+
+@[Second Row Head Restraints]('entity': 'specs.seats', 'value':'1626')
+    
+
+@[Third Row Head Restraints]('entity': 'specs.seats', 'value':'1627')
+
+@[Second Row Folding Armrest]('entity': 'specs.seats', 'value':'1628')
+
+@[Power Driver Memory]('entity': 'specs.seats', 'value':'1629')
+    power driver memory
+    power seats with memory
+
+@[Third Row Seats]('entity': 'specs.seats', 'value':'1630')
+
+@[Multi Adjust Driver]('entity': 'specs.seats', 'value':'1631')
+
+@[Multi Adjust Pass]('entity': 'specs.seats', 'value':'1632')
+
+@[Second Row Captains Chair]('entity': 'specs.seats', 'value':'1633')
+    ~[second row] ~[captain chair]
+    ~[second row] bucket seats
+    reclining ~[second row]
+
+@[Leather Seats]('entity': 'specs.seats', 'value':'1634')
+    leather seats
+    nappa leather seats
+    ~[color] leather
+
+//seats speak
+
+//row count
+~[row]
+    row
+    rows
+    row seats
+    row seat
+    row of seats
+    rows of seats
+
+~[first row]
+    first ~[row]
+    1st ~[row]
+
+~[second row]
+    second ~[row]
+    2nd ~[row]
+
+~[third row]
+    third ~[row]
+    3rd ~[row]
+    three ~[row]
+
+~[fourth row]
+    fourth ~[row]
+    4th ~[row]
+
+//seat count
+~[number]
+
+//seat types
+~[captain chair]
+    captain chair
+    captain chairs
+    captain seats
+    captain seat
+
+//seating climate
+~[heated seats]
+    heated seats
+    seat warmers
+    butt warmers
+
+~[cooled seats]
+    cooled seats
+    cooling seats
+    a/c seats
+    air condintioned
+
+@[seats-spec]('entity': 'specs', 'value': '1610')
+    seats
+    seating capacity
+    number of seats
+    passenger limit
+    second row captains
+    adjustment
+    adjustments
+    carry
+
+@[seats-spec#fit]('entity': 'specs', 'value': '1610')
+    fit
+    sit
+    seat
+    drive
+    carry
+    accommodate
+    haul
+
+@[seats-spec#people]('entity': 'specs', 'value': '1610')
+    people
+    people
+    adults
+    adults
+    adult
+    adult
+    passengers
+    passengers
+    passenger
+    passenger
+    seats
+    seat
+    car seats
+    car seat
+
+@[third row]('entity': 'specs', 'value': '1614')
+    third row
+    3rd row
+    third-row
+    3rd-row
+    thirdrow
+    three rows
+    three rows of seats
+    extra seating in the back
+    3 rows
+    3rd row of seats
+    3 row
+    7 seats
+    seven seats
+    7 seat
+    seven seat
+    seven seater
+    extra row of seats
+    extra row of seating
+    thirdow
+    additional seats on the back
+    family carrier
+    family carrier
+    more passengers
+    more seats
+    more people
+
+@[thirdrow#verb]('entity': 'specs', 'value': '1614')
+    seat 7
+    seat seven
+    seat 7 people
+    seat seven people
+    seat 7 adults
+    seat seven adults
+    seats 7
+    seats seven
+    seats 7 people
+    seats seven people
+    seats 7 adults
+    seats seven adults
+
+// What do we call a car with this?
+@[third row#car]('entity': 'specs', 'value': '1614')
+    family hauler
+    seven seater
+    7 seater
+
+~[rear seats]
+    rear seats
+    rear seat
+    rear seats
+    seats
+    seat
+    second row of seats
+    rear passenger seats
+    rear passenger seat
+    seats in the rear
+    seat in the rear
+    passenger seats
+    passenger seat
+    passenger rear seats
+    passenger rear seat
+
+@[rear seats#fold]('entity': 'specs', 'value': '1613')
+    fold
+    fold down
+    fold into the floor
+    fold out of sight
+    fold down out of sight
+    fold or remove
+
+@[rear seats#be-folded]('entity': 'specs', 'value': '1613')
+    be removed
+    be folded
+    be folded down
+    be folded into the floor
+
+@[cooling seats]('entity': 'specs', 'value': '1617')
+    cooling seats
+    vented seats
+    air conditioned seats
+    cooled seats
+    A/C seating
+    ventilated seats
+    ventilated front seats
+    ac seats
+    a/c seats
+    a.c seats
+    cooling seat
+    cooled seat
+    ventilation seats
+    cool seats
+    seats cooled
+
+@[lumbar support driver]('entity': 'specs', 'value': '1619')
+    lumbar support driver
+
+@[front adjustable seat height]('entity': 'specs', 'value': '1620')
+    front adjustable seat height
+
+@[memory seat controls]('entity': 'specs', 'value': '1621')
+    memory seat controls
+
+@[power driver seat]('entity': 'specs', 'value': '1622')
+    power driver seat
+    power driver memory
+
+@[power lumbar control]('entity': 'specs', 'value': '1624')
+    power lumbar control
+
+@[active head restraints]('entity': 'specs', 'value': '1625')
+    active head restraints
+
+@[second row head restraints]('entity': 'specs', 'value': '1626')
+    second row head restraints
+
+@[multi adjust driver]('entity': 'specs', 'value': '1631')
+    Multi Adjust Driver
+    adjustable
+    Power seats
+
+@[multi adjust pass]('entity': 'specs', 'value': '1632')
+    Multi Adjust Pass
+
+@[leather seats]('entity': 'specs', 'value': '1634')
+    leather seats
+    leather
+    leatherette
+    cloth
+    material
+    upholestry
+    nappa leather
+    quilted nappa leather
+    quilted leather
+    fabric
+    texture

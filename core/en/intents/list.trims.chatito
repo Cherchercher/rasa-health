@@ -1,0 +1,144 @@
+import ../entities/model.chatito
+import ../entities/specs.chatito
+import ../entities/contexts.chatito
+import ../entities/trim_levels.chatito
+
+%[list.trims#price]('training': '100')
+
+    ~[declaritive] in the ~[model], what is the best price?
+    ~[quantify] for a ~[trim_level] ~[make] ~[model]?
+    ~[quantify] is this ~[model_year] ~[model]
+
+%[list.trims#specs]('training': '100')
+    I was wondering for the ~[make] ~[model] ~[model_year], which models come with the ~[spec]?
+
+Prices for ~[make] ~[model] ~[model_year]
+~[model_year] ~[make] ~[model]sx turbo
+Is there an AWD ~[model]?
+Base price for ~[model]
+Do all ~[model]s come with wireless charging
+What is the price for the ~[make] ~[model]
+is remote start available on ~[make] ~[model]?
+What is the price of this ~[model_year] ~[model]
+I am interested in solely the ~[model]
+The starting price for the ~[model_year] ~[model]
+iam looking at the ~[model_year] ~[make] ~[model]
+what is the cost or price range
+Is WiFi available on the ~[model]
+how expensive is the ~[model]?
+How much is a ~[make] ~[model]
+how much is the ~[model]
+Is there an AWD option on the ~[model]
+~[model_year] ~[model] AWD GTS
+~[model]price
+is sirius xm sat only available on the EX and GT-Line Turbo Trims?
+~[model] price
+What trim package do I have to get to get heated and ventilated seats and a Harman Kardon stereo?
+Is a compass standard on all trim levels?
+    Does it have the [trim_name] trim
+    ~[model]~[model trim] trim?
+I have a question about the ~[model]. Can I get leather seating with any trim?
+What trim level of the nitro has heated seats
+i just want to know if the ~[model_year] ~[model] is available in the SXL trim model.
+Is a compass standard on all trim levels of ~[model]?
+is the ~[model_year] ~[model] available in the SXL trim?
+What the cheapest trim of the sorrento that comes with a panaromic sunroof?
+Does ~[model] hybird have both heated and ventilated front seats? Or you have to choose which one?
+I am interested in the ~[model] GT
+does the ~[make] ~[model]have remote start?
+can you remote start the ~[model]
+I like the ~[model], but would like clothe seats and exte~[model]r olive
+i want a ~[model] with 2nd row bucket seats, which model has that?
+in the ~[model] which models come with leather seating?
+Does ~[model] to come with air-conditioned seats
+I would like to know more about the ~[model].
+Can you get leather inte~[model]r on the ~[model]
+~[model], which model is standard awd?
+~[model] LX with a panoramic sunroof?
+What is gas mileage of ~[model]
+Oh it’s the ~[model_year] ~[model] SX
+interested in ~[model]
+Exploring ~[model]
+~[model] SX
+show me ~[model] price
+Does the ~[model_year] ~[make] ~[model]have only heated seats or are cooling seats included as well
+Hi can you please tell me which ~[model] model has leather seats and movie screen
+Hi, I would like to kindly get information about the new ~[model] ~[model_year] tires.
+I want the best price for ~[model] Tourin with all leather seats.
+what is he best price for a ~[make] ~[model]with heated seats
+you're telling me that the ~[model] has power folding mirrors?
+I want to know if the plug in ~[make] ~[model] has 4 wheel drive.
+What model of ~[model] hybrid has available leather seats?
+want an suv with leather seats.  looking at the ~[model]
+hi ~[make]n, can i get a power liftgate in a ~[model]?
+Hello I’m looking for some prices on a ~[model]
+Does ~[make] ~[model] have front parking sensors?
+does the automatic ~[model] have heated seats?
+How much for a ~[model_year] ~[model] fully loaded?
+can i get a power liftgate in a ~[model]
+Is there an all wheel drive ~[make] ~[model]
+DOES THE ~[model] HAVE 4 WHEEL DRIVE?
+does ~[model] have folding mirrors?
+does ~[make] ~[model] have fog lamps?
+~[make] ~[model]least expensive
+~[model] heated steering wheels
+does ~[model] have AC
+Base model ~[model]
+~[model] turbo
+~[make] ~[model]v6
+~[make] ~[model] Base
+~[model] v4
+what model ~[model] has ~[spec] and ~[spec] and ~[spec]
+Does ~[model] offer 360 degree camera?
+~[model_year] ~[model]leather seats camera 
+what price range is a ~[model] loaded to the hilt?????
+Do they navagration ?
+does the ~[model] have heated seats
+Do any come with more than 7 seats?
+Can you purchase the ~[model] with 5 or 7 seats?
+Does the ~[model_year] ~[make] ~[model] have ventilated front seats?
+~[model] with cooled front seats?
+A ~[model] with ~[spec] and ~[spec]
+I am just trying to figure out a ~[make] ~[model]with navigation system, sunroof and remote start
+Do you have a black ~[model_year] ~[make] ~[model]with a sunroof?
+Which ~[model]model has a sunroof
+Does the ~[model] have an option for middle row captain seats?
+Does the ~[model] come with vented seats?
+Does the ~[model] have captain seats
+does ~[model] EX have folding side mirrors?
+Does the ~[model] have a DVD player option?
+does the ~[model] have trailer tow hitch
+Is there a Sorrento in exte~[model]r in red and just with 2 row seats and power seats in front
+Does the ~[model]LX come in Snow White Pearl?
+Is red leather an option for all trim levels?
+which ~[make] ~[model] has electric adjustable seats
+i want electric adjustable seats in the ~[model]
+which models of the ~[model] have power doors and liftgate
+What is the ~[model] premium launch edition
+Interested in the all electric ~[model]! Cu~[model]us about price?
+Is the ~[make] ~[model] EX the only ~[model] that comes with heated seats?
+Do you have a ~[model] with the see-through roof?
+Phone charger in ~[model]
+how expensive is a ~[make] ~[model] g2?
+Can u tow with the ~[model_year] ~[make] ~[model]
+website provides no info on towing capability.  What weight will the ~[model] tow?
+Hello! Does the ~[make] ~[model] come with remote start
+Back up camera?
+I have a question about the ~[make] ~[model]. what is the highest model of the ~[model]?
+Which ~[make] ~[model] has sun roof?
+I was wondering if the seats come out of the ~[model]
+Does this car have heated and cool seats front and back
+Does it still have the 2nd row recliner seats???
+I prefer a newer ~[make] ~[model] with leather seats
+Want the [model/trim] SX trim with 2nd row captains seats
+I am interested in the ~[model]e and its price tag
+Can you get the ~[model] with leather seats
+does the ~[make] ~[model] have reclining 2nd row seats?
+Do any models of the ~[make] ~[model] come with remote starters?
+What are all of the features on the ~[model]?
+What's the starting price on the ~[make] 900
+Does the ~[model] come with Bucket seats?
+I am looking for a ~[model_year] ~[make] ~[model] with manual transmissipn
+Will the ~[model] have a head up option?
+How much for power seats
+I am interested in the ~[make] ~[model]

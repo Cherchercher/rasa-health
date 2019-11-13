@@ -1,0 +1,5 @@
+import ../entities/model.chatito
+import ../entities/specs.chatito
+import ../entities/inventory.chatito
+
+%[inventory]('training': '100')

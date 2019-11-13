@@ -6,7 +6,7 @@
 
 ~[car]
     ~[only-car]
-    ~[each-make] ~[model?] ~[year?]
+    ~[each-model] ~[model?] ~[year?]
 
 ~[only-car]
     车
@@ -60,7 +60,7 @@
     地址是什么
     在哪里
 
-~[make-payment]
+~[model-payment]
     付款
     给钱
     买单

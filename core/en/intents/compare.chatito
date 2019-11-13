@@ -1,4 +1,4 @@
-import ../entities/make.chatito
+import ../entities/model.chatito
 
 %[compare#price]('training': '50')
     which one is cheaper, ~[cars] or ~[cars]

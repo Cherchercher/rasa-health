@@ -1,0 +1,5 @@
+import ../entities/model.chatito
+import ../entities/specs.chatito
+
+%[request.spec]('training': '100')
+

@@ -1,0 +1,26 @@
+///////////////////////
+//       Specs       //
+///////////////////////
+
+@[invoice price]('entity': 'specs', 'value': '100')
+    invoice price
+    invoice cost
+
+@[msrp]('entity': 'specs', 'value': '101')
+    msrp
+    price
+    recommended price
+    suggested price
+    retail price
+    suggested retail price
+
+@[delivery fee]('entity': 'specs', 'value': '102')
+    delivery fee
+    cost of delivery
+    delivery cost
+    fees
+
+@[base price]('entity': 'specs', 'value': '103')
+    base price
+    starting price
+    lowest price

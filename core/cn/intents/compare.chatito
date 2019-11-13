@@ -1,4 +1,4 @@
-import ../entities/make.chatito
+import ../entities/model.chatito
 
 %[compare#price]('training': '100')
     ~[cars]和~[cars]价格相比怎么样呢

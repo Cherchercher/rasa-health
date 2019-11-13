@@ -1,0 +1,125 @@
+@[cadenza]('entity': 'model', 'value': 'cadenza')
+    cadenza
+    cadenzas
+    credenza
+    credenzas
+
+@[forte]('entity': 'model', 'value': 'forte')
+    forte
+
+@[k900]('entity': 'model', 'value': 'k900')
+    k900
+    k 900
+    k900s
+
+@[niro]('entity': 'model', 'value': 'niro')
+    niro
+    niros
+    nero
+    neros
+    nitro
+
+@[niro ev]('entity': 'model', 'value': 'niro ev')
+    niro ev
+    niro ~[ev]
+    nitro ~[ev]
+    ~[ev] nitro
+    ~[ev] niro
+    nero ~[ev]
+    ~[ev] nero
+
+@[niro plug-in hybrid]('entity': 'model', 'value': 'niro plug-in hybrid')
+    niro plug-in hybrid
+    niro ~[phev]
+
+@[optima]('entity': 'model', 'value': 'optima')
+    optima
+    optimas
+
+@[optima hybrid]('entity': 'model', 'value': 'optima hybrid')
+   optima hybrid
+   optima ~[hybrid]
+   ~[hybrid] optima
+
+@[optima plug-in hybrid]('entity': 'model', 'value': 'optima plug-in hybrid')
+    optima plug-in hybrid
+    optima ~[phev]
+    ~[phev] optima
+
+@[rio]('entity': 'model', 'value': 'rio')
+    rio
+    rio ~[sedan]
+
+@[rio 5-door]('entity': 'model', 'value': 'rio 5-door')
+    rio 5-door
+    rio ~[5-door]
+
+@[soul]('entity': 'model', 'value': 'soul')
+    soul
+    regular soul
+
+@[soul ev]('entity': 'model', 'value': 'soul ev')
+    soul ev
+    soul ~[ev]
+    ~[ev] soul
+
+@[sportage]('entity': 'model', 'value': 'sportage')
+    sportage
+
+@[stinger]('entity': 'model', 'value': 'stinger')
+    stinger
+    stringer
+@[telluride]('entity': 'model', 'value': 'telluride')
+    telluride
+
+~[model]
+    @[cadenza]
+    @[forte]
+    @[k900]
+    @[niro]
+    @[niro ev]
+    @[niro plug-in hybrid]
+    @[optima]
+    @[optima hybrid]
+    @[optima plug-in hybrid]
+    @[rio]
+    @[rio 5-door]
+    @[stinger]
+    @[sorento]
+    @[telluride]
+
+//model version differentiators -- often included in the name of a model version
+~[phev]
+    phev
+    plug-in hybrid
+    plugin hybrid
+    plug in hybrid
+
+~[hybrid]
+    hybrid
+    regular hybrid
+
+~[ev]
+    ev
+    electric vehicle
+    electric
+    all electric
+    plug-in
+    plugin
+    plug in
+
+~[5-door]
+    5-door
+    5 door
+    5dr
+    five door
+    hatchback
+    hatch
+
+~[sedan]
+    sedan
+    4-door
+    4 door
+    4 dr
+    4-dr
+    four door
