@@ -1,0 +1,77 @@
+//////////////////////////
+//     Common parts     //
+//////////////////////////
+//import ../entities/attributes.chatito
+import ./entities/bodystyle.chatito
+import ./entities/make.chatito
+import ./entities/specs.chatito
+import ./entities/trim.chatito
+import ./entities/trim_levels.chatito
+
+//ways users ask for cars when asking for a list of unspecified models that fit some criteria
+~[model-type]
+    models
+    cars
+    ~[make] cars
+    ~[make] models
+    ~[bodystyle]
+
+//    ~[model-year] ~[make] ~[bodystyle]
+//ways users ask about specific models with or without criteria
+//~[model1]
+//    ~[model-year]
+
+//~[model-year] ~[make?] ~[model]
+
+//ways users ask about specific model trim with or without criteria
+
+//~[trim-entity]
+//    ~[model-trim]
+
+~[declaritive]
+    ~[I?] have a question
+    ~[I?] have a question about
+    ~[I?] was wondering
+    ~[I?] wondering
+    ~[I?] interested in
+    i would like to know
+
+~[I]
+    i
+    i am
+    im
+
+~[posseses]
+    has
+    come with
+    comes with
+    included on
+    included in
+    have
+    available on
+
+~[what-which]
+    what
+    whats
+    what is
+    which
+    which is
+
+~[on-in]
+    on
+    in
+    on the
+    in the
+
+~[exist]
+    are any
+    are there any
+    do any
+    do any of
+    does the
+    is there
+
+~[searching]
+    looking for
+    trying to find
+    looking at

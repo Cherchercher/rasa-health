@@ -37,7 +37,7 @@
                 "text": "What’s the difference in LX and SX"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "What is the ground clearance on the 2019 Niro?"
             },
             {
@@ -301,11 +301,11 @@
                 "text": "Does it come in charcoal metallic color?"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "Does the Kia Niro Lx Ex or touring require a charging station"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "Does the hybrid need 220 volt charging"
             },
             {
@@ -313,7 +313,7 @@
                 "text": "Phone charger in forte"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "How many miles does a Kia Niro get on a full charge?"
             },
             {
@@ -321,55 +321,55 @@
                 "text": "Can u tow with the 2020 Kia soul"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "What’s the Stinger’s 0-60"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "What is the 0-60 speed"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "Does the 2019 Kia Optima S come with remote start as a standard feature?"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "Does the 2019 Kia Optima S come with remote start?"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "I would like to know if all Telluride s are front wheel drive are all of them all wheel drive"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "Hi! I was just wondering if there is a captains chair option on the Telluride EX?"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "How many seats does the Kia telluride S have?"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "Isnt telluride sx comes with 20inch wheels?"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "How many seats are in the Telluride?"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "can i get a power liftgate in a sportage ex"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "Kian do Kia stinger comes with a built in back upper camera"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "Does the 2019 Kia Optima S have a push start?"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "how many gallons is the fuel tank?"
             },
             {
@@ -377,7 +377,7 @@
                 "text": "Want the [model/trim] SX trim with 2nd row captains seats"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "What is the RANGE I can expect?"
             },
             {
@@ -385,7 +385,7 @@
                 "text": "I am looking for a niro ev"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "How many seats in the rio?"
             },
             {
@@ -397,11 +397,11 @@
                 "text": "I am looking for a new optima plug in hybrid"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "How many seats does the kia Sedona have"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "Fabric seats available in ex model"
             },
             {
@@ -409,7 +409,7 @@
                 "text": "What's the starting price on the Kia 900"
             },
             {
-                "intent": "request.spec",
+                "intent": "list.trims",
                 "text": "does it have heated seats"
             }
         ]

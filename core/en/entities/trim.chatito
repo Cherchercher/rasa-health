@@ -1,25 +1,26 @@
-@[cadenza]('entity': 'model', 'value': 'cadenza')
+//ambiguous models 
+@[cadenza]('entity': 'trim', 'value': 'cadenza')
     cadenza
     cadenzas
     credenza
     credenzas
 
-@[forte]('entity': 'model', 'value': 'forte')
+@[forte]('entity': 'trim', 'value': 'forte')
     forte
 
-@[k900]('entity': 'model', 'value': 'k900')
+@[k900]('entity': 'trim', 'value': 'k900')
     k900
     k 900
     k900s
 
-@[niro]('entity': 'model', 'value': 'niro')
+@[niro]('entity': 'trim', 'value': 'niro')
     niro
     niros
     nero
     neros
     nitro
 
-@[niro ev]('entity': 'model', 'value': 'niro ev')
+@[niro ev]('entity': 'trim', 'value': 'niro ev')
     niro ev
     niro ~[ev]
     nitro ~[ev]
@@ -28,50 +29,54 @@
     nero ~[ev]
     ~[ev] nero
 
-@[niro plug-in hybrid]('entity': 'model', 'value': 'niro plug-in hybrid')
+@[niro plug-in hybrid]('entity': 'trim', 'value': 'niro plug-in hybrid')
     niro plug-in hybrid
     niro ~[phev]
 
-@[optima]('entity': 'model', 'value': 'optima')
+@[optima]('entity': 'trim', 'value': 'optima')
     optima
     optimas
 
-@[optima hybrid]('entity': 'model', 'value': 'optima hybrid')
-   optima hybrid
-   optima ~[hybrid]
-   ~[hybrid] optima
+@[optima hybrid]('entity': 'trim', 'value': 'optima hybrid')
+    optima hybrid
+    optima ~[hybrid]
+    ~[hybrid] optima
 
-@[optima plug-in hybrid]('entity': 'model', 'value': 'optima plug-in hybrid')
+@[optima plug-in hybrid]('entity': 'trim', 'value': 'optima plug-in hybrid')
     optima plug-in hybrid
     optima ~[phev]
     ~[phev] optima
 
-@[rio]('entity': 'model', 'value': 'rio')
+@[rio]('entity': 'trim', 'value': 'rio')
     rio
     rio ~[sedan]
 
-@[rio 5-door]('entity': 'model', 'value': 'rio 5-door')
+@[rio 5-door]('entity': 'trim', 'value': 'rio 5-door')
     rio 5-door
     rio ~[5-door]
 
-@[soul]('entity': 'model', 'value': 'soul')
+@[soul]('entity': 'trim', 'value': 'soul')
     soul
     regular soul
 
-@[soul ev]('entity': 'model', 'value': 'soul ev')
+@[soul ev]('entity': 'trim', 'value': 'soul ev')
     soul ev
     soul ~[ev]
     ~[ev] soul
 
-@[sportage]('entity': 'model', 'value': 'sportage')
+@[sorento]('entity': 'trim', 'value': 'sorento')
+    sorento
+
+@[sportage]('entity': 'trim', 'value': 'sportage')
     sportage
 
-@[stinger]('entity': 'model', 'value': 'stinger')
+@[stinger]('entity': 'trim', 'value': 'stinger')
     stinger
     stringer
-@[telluride]('entity': 'model', 'value': 'telluride')
+@[telluride]('entity': 'trim', 'value': 'telluride')
     telluride
 
+//model without a specified trim
 ~[model]
     @[cadenza]
     @[forte]
@@ -88,7 +93,9 @@
     @[sorento]
     @[telluride]
 
-//model version differentiators -- often included in the name of a model version
+//trim specific models
+
+//trim version differentiators -- often included in the name of a trim version
 ~[phev]
     phev
     plug-in hybrid

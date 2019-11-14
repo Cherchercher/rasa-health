@@ -2,21 +2,27 @@
 //       Specs       //
 ///////////////////////
 
-//price
-
+//price-spec
 @[invoice price]('entity': 'specs', 'value': '100')
     invoice price
     invoice cost
+    dealer price
+    dealer cost
 
+//primary spec in category
 @[msrp]('entity': 'specs', 'value': '101')
     msrp
     price
+    cost
     the price
     prices
+    price range
+    sticker price
     recommended price
     suggested price
     retail price
     suggested retail price
+    manufacturer price
 
 @[delivery fee]('entity': 'specs', 'value': '102')
     delivery fee
@@ -29,10 +35,10 @@
     starting price
     lowest price
 
-~[price spec]
-   @[invoice price]
-   @[msrp]
-   @[delivery fee] 
+~[price-spec]
+    @[invoice price]
+    @[msrp]
+    @[delivery fee]
 
 @[front a/c]('entity': 'specs', 'value': '200')
     front a/c
@@ -569,8 +575,15 @@
 @[bed length]('entity': 'specs', 'value': '910')
     bed length
 
+//trim indicator
 @[engine description]('entity': 'specs', 'value': '1000')
     engine description
+    engine
+    engine size
+    size engine
+
+~[engine-spec]
+    @[engine description]
 
 @[displacement cc]('entity': 'specs', 'value': '1002')
     displacement cc
@@ -581,6 +594,7 @@
 @[number of cylinders]('entity': 'specs', 'value': '1004')
     number of cylinders
     cylinders
+
 
 @[engine valve count]('entity': 'specs', 'value': '1005')
     engine valve count
@@ -598,14 +612,15 @@
 @[torque]('entity': 'specs', 'value': '1009')
     Torque
 
+//trim indicator
 @[fuel]('entity': 'specs', 'value': '1010')
     fuel
     fuel type
-    without stopping
-    range
-    driving range
     gas
     diesel
+    regular gas
+    gasoline
+    electric
 
 @[recommended fuel type]('entity': 'specs', 'value': '1011')
     Recommended Fuel Type
@@ -637,17 +652,12 @@
 @[cvvt]('entity': 'specs', 'value': '1022')
     cvvt
 
+//trim indicator
 @[transmission type]('entity': 'specs', 'value': '1100')
     Transmission Type
     transmission
     manual
     automatic
-    clutchless
-    trigger shift
-    gear shift
-    gearshift
-    steptronic
-    tiptronic
     automanual
     transmission type
     manual transmission
@@ -664,30 +674,27 @@
 
 @[driven wheels]('entity': 'specs', 'value': '1200')
     Driven Wheels
-    4-wheel drive
-    4matic
-    4WD
-    4x4
-    all wheel
-    all wheel control
-    all wheel drive
-    all-wheel-drive
-    AWC
-    awd
     AWD
+    awd
+    all wheel drive
+    all wheel
+    4 wheel drive
+    4x4
+    4 wheel drive
+    4 wheel
     four wheel drive
     four-wheel-drive
     front wheel drive
     fwd
-    quattro
     rear wheel drive
     rwd
-    SH-AWD
-    xdrive
-    snow
-    offroad
-    offroading
-    dirt
+
+//specs that indicate trim level
+~[indicator-spec]
+    @[driven wheels]
+    @[transmission type]
+    @[fuel]
+    @[engine description]
 
 @[awd type]('entity': 'specs', 'value': '1201')
     awd type
@@ -746,65 +753,71 @@
 @[trim name]('entity': 'specs', 'value': '1503')
     trim name
 
-//replace existing seats category with this:
-
-@[Total Seat Count]('entity': 'specs.seats', 'value':'1600')
+//seat-specs
+//count-spec
+@[total seat count]('entity': 'specs', 'value':'1600')
     total seat count
     seating capacity
     how many seats
     passengers fit
-    people fit
+    people can fit
+    people can it fit
+    how many people
 
-@[1st Row Seating Count]('entity': 'specs.seats', 'value':'1601')
+@[1st Row Seating Count]('entity': 'specs', 'value':'1601')
     ~[first row]
 
-@[2nd Row Seating Count]('entity': 'specs.seats', 'value':'1602')
+@[2nd Row Seating Count]('entity': 'specs', 'value':'1602')
     ~[second row]
     full ~[second row]
 
-@[3rd Row Seating Count]('entity': 'specs.seats', 'value':'1603')
+@[3rd Row Seating Count]('entity': 'specs', 'value':'1603')
     ~[third row]
     full ~[third row]
-    
-@[4th Row Seating Count]('entity': 'specs.seats', 'value':'1604')
+@[4th Row Seating Count]('entity': 'specs', 'value':'1604')
     ~[fourth row]
 
-@[Heated Driver Seat]('entity': 'specs.seats', 'value':'1605')
+@[heated driver deat]('entity': 'specs', 'value':'1605')
     ~[heated seats]
 
-@[Cooled Driver Seat]('entity': 'specs.seats', 'value':'1606')
+@[Cooled Driver Seat]('entity': 'specs', 'value':'1606')
     ~[cooled seats]
 
-@[Heated Passenger Seat]('entity': 'specs.seats', 'value':'1607')
+@[Heated Passenger Seat]('entity': 'specs', 'value':'1607')
     ~[heated seats] passenger
     passenger ~[heated seats]
 
-@[Cooled Passenger Seat]('entity': 'specs.seats', 'value':'1608')
+@[Cooled Passenger Seat]('entity': 'specs', 'value':'1608')
     ~[cooled seats] passenger
     passenger ~[cooled seats]
 
-@[Front Seating Type]('entity': 'specs.seats', 'value':'1609')
+@[Front Seating Type]('entity': 'specs', 'value':'1609')
     front seating type
     front bucket seats
 
-@[Front Seating Material]('entity': 'specs.seats', 'value':'1610')
+@[Front Seating Material]('entity': 'specs', 'value':'1610')
     front seating material
 
-@[Front Whiplash Protection]('entity': 'specs.seats', 'value':'1611')
-@[Folding Passenger]('entity': 'specs.seats', 'value':'1612')
-@[Folding 2nd Row Seat]('entity': 'specs.seats', 'value':'1613')
+@[Front Whiplash Protection]('entity': 'specs', 'value':'1611')
+    front whiplash protection
+
+@[Folding Passenger]('entity': 'specs', 'value':'1612')
+    folding passenger
+
+@[Folding 2nd Row Seat]('entity': 'specs', 'value':'1613')
     folding  ~[second row]
     ~[second row] fold down
     ~[second row] fold
 
-@[Folding 3rd Row Seat]('entity': 'specs.seats', 'value':'1614')
-     folding  ~[third row]
+@[Folding 3rd Row Seat]('entity': 'specs', 'value':'1614')
+    folding  ~[third row]
     ~[third row] fold
     ~[third row] fold down
 
-@[Seating Configuration]('entity': 'specs.seats', 'value':'1615')
+@[Seating Configuration]('entity': 'specs', 'value':'1615')
+    seating configuration
 
-@[Heated Rear Seat]('entity': 'specs.seats', 'value':'1616')
+@[Heated Rear Seat]('entity': 'specs', 'value':'1616')
     heated rear seat
     heated rear seats
     heated back seat
@@ -813,356 +826,120 @@
     back ~[heated seats]
     reat ~[heated seats]
 
-@[Ventilated Driver]('entity': 'specs.seats', 'value':'1617')
+@[Ventilated Driver]('entity': 'specs', 'value':'1617')
     ventilated driver seat
     ventilated drivers seat
 
-@[Ventilated Pass]('entity': 'specs.seats', 'value':'1618')
+@[Ventilated Pass]('entity': 'specs', 'value':'1618')
+    ventilated pass
 
-@[Lumbar Support Driver]('entity': 'specs.seats', 'value':'1619')
+@[lumbar support driver]('entity': 'specs', 'value':'1619')
+    lumbar support driver
 
-@[Front Adjustable Seat Height]('entity': 'specs.seats', 'value':'1620')
+@[front adjustable seat height]('entity': 'specs', 'value':'1620')
+    front adjustble seat height
 
-@[Memory Seat Controls]('entity': 'specs.seats', 'value':'1621')
+@[memory seat controls]('entity': 'specs', 'value':'1621')
     memory seat controls 
     seat memory
 
-@[Power Driver Seat]('entity': 'specs.seats', 'value':'1622')
+@[power driver seat]('entity': 'specs', 'value':'1622')
     power driver seat
     power seats
 
-@[Power Passenger Seat]('entity': 'specs.seats', 'value':'1623')
+@[power passenger seat]('entity': 'specs', 'value':'1623')
     power passenger
 
-@[Power Lumbar Control]('entity': 'specs.seats', 'value':'1624')
+@[power lumbar control]('entity': 'specs', 'value':'1624')
     power lumbar control
     power lumbar support
 
-@[Active Head Restraints]('entity': 'specs.seats', 'value':'1625')
+@[active head restraints]('entity': 'specs', 'value':'1625')
     active head restraints
 
-@[Second Row Head Restraints]('entity': 'specs.seats', 'value':'1626')
+@[second row head restraints]('entity': 'specs', 'value':'1626')
     second row head restraints
 
-@[Third Row Head Restraints]('entity': 'specs.seats', 'value':'1627')
+@[third row head restraints]('entity': 'specs', 'value':'1627')
     third row head restraints
 
-@[Second Row Folding Armrest]('entity': 'specs.seats', 'value':'1628')
+@[second row folding armrest]('entity': 'specs', 'value':'1628')
     second row folding armrest
 
-@[Power Driver Memory]('entity': 'specs.seats', 'value':'1629')
+@[power driver memory]('entity': 'specs', 'value':'1629')
     power driver memory
     power seats with memory
 
-@[Third Row Seats]('entity': 'specs.seats', 'value':'1630')
+@[third row]('entity': 'specs', 'value':'1630')
     third row
 
-@[Multi Adjust Driver]('entity': 'specs.seats', 'value':'1631')
+@[multi adjust driver]('entity': 'specs', 'value':'1631')
+    multi adjust driver
 
-@[Multi Adjust Pass]('entity': 'specs.seats', 'value':'1632')
+@[multi adjust pass]('entity': 'specs', 'value':'1632')
+    multi adjust pass
 
-@[Second Row Captains Chair]('entity': 'specs.seats', 'value':'1633')
+@[second row captains chair]('entity': 'specs', 'value':'1633')
     ~[second row] ~[captain chair]
     ~[second row] bucket seats
     reclining ~[second row]
 
-@[Leather Seats]('entity': 'specs.seats', 'value':'1634')
+@[leather seats]('entity': 'specs', 'value':'1634')
     leather seats
     nappa leather seats
     ~[color] leather
 
+~[seats-spec]
+    @[total seat count]
+    @[1st Row Seating Count]
+    @[2nd Row Seating Count]
+
 //seats speak
 
 //row count
-    ~[row]
-        row
-        rows
-        row seats
-        row seat
-        row of seats
-        rows of seats
+~[row]
+    row
+    rows
+    row seats
+    row seat
+    row of seats
+    rows of seats
 
-    ~[first row]
-        first ~[row]
-        1st ~[row]
+~[first row]
+    first ~[row]
+    1st ~[row]
 
-    ~[second row]
-        second ~[row]
-        2nd ~[row]
+~[second row]
+    second ~[row]
+    2nd ~[row]
 
-    ~[third row]
-        third ~[row]
-        3rd ~[row]
-        three ~[row]
+~[third row]
+    third ~[row]
+    3rd ~[row]
+    three ~[row]
 
-    ~[fourth row]
-        fourth ~[row]
-        4th ~[row]
-
-//seat count
-    ~[number]
+~[fourth row]
+    fourth ~[row]
+    4th ~[row]
 
 //seat types
-    ~[captain chair]
-        captain chair
-        captain chairs
-        captain seats
-        captain seat
+~[captain chair]
+    captain chair
+    captain chairs
+    captain seats
+    captain seat
 
-    //seating climate
-    ~[heated seats]
-        heated seats
-        seat warmers
-        butt warmers
-
-    ~[cooled seats]
-        cooled seats
-        cooling seats
-        a/c seats
-        air condintioned seats
-
-//end replacement chunk
-//begin delete portion
-@[total seat count]('entity': 'specs', 'value': '1600')
-    Total Seat Count
-    number seats
-    total seats
-
-@[heated driver seat]('entity': 'specs', 'value': '1605')
-    heated driver seat
-
-@[heated seats]('entity': 'specs', 'value': '1607')
+//seating climate
+~[heated seats]
     heated seats
-    heated seat
-    heated driver seat
-    butt warmers
     seat warmers
-    heated
-    drivers seat heated
+    butt warmers
 
-@[front seating type]('entity': 'specs', 'value': '1609')
-    front seating type
-
-@[seats-spec]('entity': 'specs', 'value': '1610')
-    seats
-    seating capacity
-    number of seats
-    passenger limit
-    second row captains
-    adjustment
-    adjustments
-    carry
-
-@[seats-spec#fit]('entity': 'specs', 'value': '1610')
-    fit
-    sit
-    seat
-    drive
-    carry
-    accommodate
-    haul
-
-@[seats-spec#people]('entity': 'specs', 'value': '1610')
-    people
-    people
-    adults
-    adults
-    adult
-    adult
-    passengers
-    passengers
-    passenger
-    passenger
-    seats
-    seat
-    car seats
-    car seat
-
-@[third row]('entity': 'specs', 'value': '1614')
-    third row
-    3rd row
-    third-row
-    3rd-row
-    thirdrow
-    three rows
-    three rows of seats
-    extra seating in the back
-    3 rows
-    3rd row of seats
-    3 row
-    7 seats
-    seven seats
-    7 seat
-    seven seat
-    seven seater
-    extra row of seats
-    extra row of seating
-    thirdow
-    additional seats on the back
-    family carrier
-    family carrier
-    more passengers
-    more seats
-    more people
-
-@[thirdrow#verb]('entity': 'specs', 'value': '1614')
-    seat 7
-    seat seven
-    seat 7 people
-    seat seven people
-    seat 7 adults
-    seat seven adults
-    seats 7
-    seats seven
-    seats 7 people
-    seats seven people
-    seats 7 adults
-    seats seven adults
-
-// What do we call a car with this?
-@[third row#car]('entity': 'specs', 'value': '1614')
-    family hauler
-    seven seater
-    7 seater
-
-~[rear seats]
-    rear seats
-    rear seat
-    rear seats
-    seats
-    seat
-    second row of seats
-    rear passenger seats
-    rear passenger seat
-    seats in the rear
-    seat in the rear
-    passenger seats
-    passenger seat
-    passenger rear seats
-    passenger rear seat
-
-@[rear seats#fold]('entity': 'specs', 'value': '1613')
-    fold
-    fold down
-    fold into the floor
-    fold out of sight
-    fold down out of sight
-    fold or remove
-
-@[rear seats#be-folded]('entity': 'specs', 'value': '1613')
-    be removed
-    be folded
-    be folded down
-    be folded into the floor
-
-@[cooling seats]('entity': 'specs', 'value': '1617')
-    cooling seats
-    vented seats
-    air conditioned seats
+~[cooled seats]
     cooled seats
-    A/C seating
-    ventilated seats
-    ventilated front seats
-    ac seats
+    cooling seats
     a/c seats
-    a.c seats
-    cooling seat
-    cooled seat
-    ventilation seats
-    cool seats
-    seats cooled
-
-@[lumbar support driver]('entity': 'specs', 'value': '1619')
-    lumbar support driver
-
-@[front adjustable seat height]('entity': 'specs', 'value': '1620')
-    front adjustable seat height
-
-@[memory seat controls]('entity': 'specs', 'value': '1621')
-    memory seat controls
-
-@[power driver seat]('entity': 'specs', 'value': '1622')
-    power driver seat
-    power driver memory
-
-@[power lumbar control]('entity': 'specs', 'value': '1624')
-    power lumbar control
-
-@[active head restraints]('entity': 'specs', 'value': '1625')
-    active head restraints
-
-@[second row head restraints]('entity': 'specs', 'value': '1626')
-    second row head restraints
-
-@[multi adjust driver]('entity': 'specs', 'value': '1631')
-    Multi Adjust Driver
-    adjustable
-    Power seats
-
-@[multi adjust pass]('entity': 'specs', 'value': '1632')
-    Multi Adjust Pass
-
-@[leather seats]('entity': 'specs', 'value': '1634')
-    leather seats
-    leather
-    leatherette
-    cloth
-    material
-    upholestry
-    nappa leather
-    quilted nappa leather
-    quilted leather
-    fabric
-    texture
-//end delete chunk of seats
-
-@[basic warranty type]('entity': 'specs', 'value': '1700')
-    basic warranty type
-
-@[basic warranty maximum miles]('entity': 'specs', 'value': '1701')
-    Basic Warranty Maximum Miles
-    warranty miles
-
-@[basic warranty maximum years]('entity': 'specs', 'value': '1702')
-    Basic Warranty Maximum Years
-    warranty months
-    warranty years
-
-@[basic warranty miles type]('entity': 'specs', 'value': '1703')
-    Basic Warranty Miles Type
-
-@[basic warranty years type]('entity': 'specs', 'value': '1704')
-    Basic Warranty Years Type
-
-@[rust warranty type]('entity': 'specs', 'value': '1705')
-    Rust Warranty Type
-
-@[rust warranty maximum miles]('entity': 'specs', 'value': '1706')
-    Rust Warranty Maximum Miles
-
-@[rust warranty max years]('entity': 'specs', 'value': '1707')
-    Rust Warranty Max Years
-
-@[rust warranty miles type]('entity': 'specs', 'value': '1708')
-    Rust Warranty Miles Type
-
-@[rust warranty years type]('entity': 'specs', 'value': '1709')
-    Rust Warranty Years Type
-
-@[drivetrain warranty type]('entity': 'specs', 'value': '1715')
-    Drivetrain Warranty Type
-
-@[drivetrain warranty maximum miles]('entity': 'specs', 'value': '1716')
-    Drivetrain Warranty Maximum Miles
-
-@[drivetrain warranty maximum years]('entity': 'specs', 'value': '1717')
-    Drivetrain Warranty Maximum Years
-
-@[drivetrain warranty miles type]('entity': 'specs', 'value': '1718')
-    Drivetrain Warranty Miles Type
-
-@[drivetrain warranty years type]('entity': 'specs', 'value': '1719')
-    Drivetrain Warranty Years Type
+    air condintioned seats
 
 @[auxilary audio input]('entity': 'specs', 'value': '1804')
     Auxilary Audio Input
@@ -1427,7 +1204,6 @@
 
 @[power side mirror description]('entity': 'specs', 'value': '2515')
     power side mirror description
-    
 
 @[front wheel diameter]('entity': 'specs', 'value': '2600')
     Front Wheel Diameter
@@ -1775,6 +1551,53 @@
 @[push button start]('entity': 'specs', 'value': '5207')
     Push Button Start
     push start
+@[basic warranty type]('entity': 'warranty_warranty_specs', 'value': '1700')
+    basic warranty type
+
+@[basic warranty maximum miles]('entity': 'warranty_specs', 'value': '1701')
+    Basic Warranty Maximum Miles
+    warranty miles
+
+@[basic warranty maximum years]('entity': 'warranty_specs', 'value': '1702')
+    Basic Warranty Maximum Years
+    warranty months
+    warranty years
+
+@[basic warranty miles type]('entity': 'warranty_specs', 'value': '1703')
+    Basic Warranty Miles Type
+
+@[basic warranty years type]('entity': 'warranty_specs', 'value': '1704')
+    Basic Warranty Years Type
+
+@[rust warranty type]('entity': 'warranty_specs', 'value': '1705')
+    Rust Warranty Type
+
+@[rust warranty maximum miles]('entity': 'warranty_specs', 'value': '1706')
+    Rust Warranty Maximum Miles
+
+@[rust warranty max years]('entity': 'warranty_specs', 'value': '1707')
+    Rust Warranty Max Years
+
+@[rust warranty miles type]('entity': 'warranty_specs', 'value': '1708')
+    Rust Warranty Miles Type
+
+@[rust warranty years type]('entity': 'warranty_specs', 'value': '1709')
+    Rust Warranty Years Type
+
+@[drivetrain warranty type]('entity': 'warranty_specs', 'value': '1715')
+    Drivetrain Warranty Type
+
+@[drivetrain warranty maximum miles]('entity': 'warranty_specs', 'value': '1716')
+    Drivetrain Warranty Maximum Miles
+
+@[drivetrain warranty maximum years]('entity': 'warranty_specs', 'value': '1717')
+    Drivetrain Warranty Maximum Years
+
+@[drivetrain warranty miles type]('entity': 'warranty_specs', 'value': '1718')
+    Drivetrain Warranty Miles Type
+
+@[drivetrain warranty years type]('entity': 'warranty_specs', 'value': '1719')
+    Drivetrain Warranty Years Type
 
 // All specs
 ~[spec]
@@ -1803,7 +1626,6 @@
     @[combined mpg]
     @[city mpg]
     @[battery-range]
-    @[seats-spec]
     @[quarter mile time]
     @[quarter mile mph]
     @[co2]
@@ -1827,7 +1649,6 @@
     @[rear cross traffic alert]
     @[forward collision warning]
     @[lane change assist]
-    @[third row]
     @[front a/c zones]
     @[rear a/c]
     @[total a/c zones]
@@ -1887,8 +1708,6 @@
     @[make]
     @[model]
     @[trim name]
-    @[heated driver seat]
-    @[front seating type]
     @[lumbar support driver]
     @[front adjustable seat height]
     @[memory seat controls]
@@ -2069,7 +1888,10 @@
     @[doors]
     @[horsepower]
     @[fuel]
-    @[heated seats]
     @[leather seats]
-    @[cooling seats]
 
+~[count-spec]
+    @[total seat count]
+    @[highway mpg]
+    @[combined mpg]
+    @[city mpg]

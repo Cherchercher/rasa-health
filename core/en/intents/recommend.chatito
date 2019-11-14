@@ -1,6 +1,0 @@
-import ../entities/model.chatito
-
-%[recommend]('training': '100')
-    how is ~[cars]
-    what is the performace of ~[cars]
-    i am single. which ~[cars] is good
