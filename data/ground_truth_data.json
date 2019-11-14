@@ -1,0 +1,417 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [{
+                "intent": "compare.models",
+                "text": "What's the difference between the Kia stinger and the Kia cs300"
+            },
+            {
+                "intent": "compare.trims",
+                "text": "Hello, I am interested in a new kia and would like some help compareing trims"
+            },
+            {
+                "intent": "compare.trims",
+                "text": "2019 Sonata what's the difference between S and SE"
+            },
+            {
+                "intent": "compare.trims",
+                "text": "What the difference between L XL and se"
+            },
+            {
+                "intent": "inventory",
+                "text": "Is there a Telluride SX in an inventory in south Florida?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "I am interested in the Sorrento ,what is the best price"
+            },
+            {
+                "intent": "compare.trims",
+                "text": "What’s the difference in the LX and SX"
+            },
+            {
+                "intent": "inventory",
+                "text": "Yes I would like to take another look at inventory for model trim"
+            },
+            {
+                "intent": "compare.trims",
+                "text": "What’s the difference in LX and SX"
+            },
+            {
+                "intent": "list.trims",
+                "text": "What is the ground clearance on the 2019 Niro?"
+            },
+            {
+                "intent": "availability",
+                "text": "when will it come to massachusetts kia dealers"
+            },
+            {
+                "intent": "compare.trims",
+                "text": "what is the difference in the Forte models LXS, S & FE?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "How much for a top of the line Kia stinger?"
+            },
+            {
+                "intent": "compare.trims",
+                "text": "i just wanted to know the difference in the kia forte models"
+            },
+            {
+                "intent": "availability.where",
+                "text": "Is the Kia Niro available in Southern CA"
+            },
+            {
+                "intent": "compare.trims",
+                "text": "What is the difference between the soul and the soul lx?"
+            },
+            {
+                "intent": "compare.trims",
+                "text": "What’s the difference between Stinger Premium Collection and Premium package?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "i was wondering for the kia soul 2020, which models come with the wireless charging feature?"
+            },
+            {
+                "intent": "compare.trims",
+                "text": "what is the difference between a G1 and G2 Stinger"
+            },
+            {
+                "intent": "availability.when",
+                "text": "When is the 2020 Kia Soul available?"
+            },
+            {
+                "intent": "availability.when",
+                "text": "When would the Optima s model be available"
+            },
+            {
+                "intent": "find dealers",
+                "text": "Do you have a dealer in west Colorado"
+            },
+            {
+                "intent": "compare.trims",
+                "text": "Which Rio has more features? the LX or S"
+            },
+            {
+                "intent": "find dealers",
+                "text": "Can you send me my nearest dealer?"
+            },
+            {
+                "intent": "compare.yoy",
+                "text": "What’s the price difference in a 2018 & a 2019 Sportage?"
+            },
+            {
+                "intent": "avaialability.when",
+                "text": "When will it become available?"
+            },
+            {
+                "intent": "avaialability.when",
+                "text": "is the tulluride available now"
+            },
+            {
+                "intent": "inventory",
+                "text": "I am looking for inventory for a telluride with 7 seats.  I want captains chairs and not folding bench seating."
+            },
+            {
+                "intent": "list.trims",
+                "text": "How much is this 2018 Soul EV"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Prices for Kia Sportage 2019"
+            },
+            {
+                "intent": "inventory",
+                "text": "Dealer near me with stinger"
+            },
+            {
+                "intent": "inventory",
+                "text": "Looking for Kia inventory"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Is there an AWD optima?"
+            },
+            {
+                "intent": "inventory",
+                "text": "i need help finding the Telluride"
+            },
+            {
+                "intent": "list.models",
+                "text": "Are there any All Wheel, or 4 wheel drive Kia’s?"
+            },
+            {
+                "intent": "list.models",
+                "text": "do you have any cars with four wheel drive?"
+            },
+            {
+                "intent": "list.models",
+                "text": "do you have cars that can fit 8 people?"
+            },
+            {
+                "intent": "list.models",
+                "text": "do you have cars that can fit 7 people"
+            },
+            {
+                "intent": "list.models",
+                "text": "What Kia SUV has the largest cargo volume with rear seats down"
+            },
+            {
+                "intent": "list.models",
+                "text": "Looking for family vehicle that seats 7 or 8"
+            },
+            {
+                "intent": "list.models",
+                "text": "Something that seats 6"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Do all fortes come with wireless charging"
+            },
+            {
+                "intent": "list.trims",
+                "text": "What is the price for the Kia stinger"
+            },
+            {
+                "intent": "list.trims",
+                "text": "What is the price of this 2018 Sportage"
+            },
+            {
+                "intent": "list.trims",
+                "text": "The starting price for the 2019 soul"
+            },
+            {
+                "intent": "list.trims",
+                "text": "iam looking at the 2019 kia niro"
+            },
+            {
+                "intent": "list.trims",
+                "text": "how much is the stinger"
+            },
+            {
+                "intent": "availability.when",
+                "text": "When does the 2020 GT forte come out"
+            },
+            {
+                "intent": "list.trims",
+                "text": "i just want to know if the 2019 sedona is available in the SXL trim model."
+            },
+            {
+                "intent": "list.trims",
+                "text": "Is a compass standard on all trim levels of Sedona?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "I am interested in the Stinger GT"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Does Telluride to come with air-conditioned seats"
+            },
+            {
+                "intent": "list.trims",
+                "text": "I would like to know more about the Telluride."
+            },
+            {
+                "intent": "list.trims",
+                "text": "Telluride LX with a panoramic sunroof?"
+            },
+            {
+                "intent": "availability.when",
+                "text": "When will the Telluride SX models be available in the Houston Texas area"
+            },
+            {
+                "intent": "list.trims",
+                "text": "show me telluride price"
+            },
+            {
+                "intent": "list.trims",
+                "text": "I want to know if the plug in Kia Niro has 4 wheel drive."
+            },
+            {
+                "intent": "list.trims",
+                "text": "What model of Niro hybrid has available leather seats?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "want an suv with leather seats.  looking at the Niro"
+            },
+            {
+                "intent": "list.trims",
+                "text": "hi kian, can i get a power liftgate in a soul?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "How much for a 2020 Soul ev fully loaded?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "can i get a power liftgate in a sportage"
+            },
+            {
+                "intent": "list.trims",
+                "text": "does Forte5 have folding mirrors?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "does Kia Optima have fog lamps?"
+            },
+            {
+                "intent": "inventory",
+                "text": "I am looking for the Telluride"
+            },
+            {
+                "intent": "list.trims",
+                "text": "does the Rio have heated seats"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Does the 2020 Kia Soul have ventilated front seats?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Stinger cooled front seats?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Which Sportage model has a sunroof"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Does the optima come with vented seats?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Does the Sportage LX come in Snow White Pearl?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Is red leather an option for all trim levels?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "which kia soul has electric adjustable seats"
+            },
+            {
+                "intent": "list.trims",
+                "text": "which models of the sedona have power doors and liftgate"
+            },
+            {
+                "intent": "colors.exterior",
+                "text": "Does it come in charcoal metallic color?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Does the Kia Niro Lx Ex or touring require a charging station"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Does the hybrid need 220 volt charging"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Phone charger in forte"
+            },
+            {
+                "intent": "list.trims",
+                "text": "How many miles does a Kia Niro get on a full charge?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Can u tow with the 2020 Kia soul"
+            },
+            {
+                "intent": "list.trims",
+                "text": "What’s the Stinger’s 0-60"
+            },
+            {
+                "intent": "list.trims",
+                "text": "What is the 0-60 speed"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Does the 2019 Kia Optima S come with remote start as a standard feature?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Does the 2019 Kia Optima S come with remote start?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "I would like to know if all Telluride s are front wheel drive are all of them all wheel drive"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Hi! I was just wondering if there is a captains chair option on the Telluride EX?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "How many seats does the Kia telluride S have?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Isnt telluride sx comes with 20inch wheels?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "How many seats are in the Telluride?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "can i get a power liftgate in a sportage ex"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Kian do Kia stinger comes with a built in back upper camera"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Does the 2019 Kia Optima S have a push start?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "how many gallons is the fuel tank?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Want the [model/trim] SX trim with 2nd row captains seats"
+            },
+            {
+                "intent": "list.trims",
+                "text": "What is the RANGE I can expect?"
+            },
+            {
+                "intent": "inventory",
+                "text": "I am looking for a niro ev"
+            },
+            {
+                "intent": "list.trims",
+                "text": "How many seats in the rio?"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Can you get the soul with leather seats"
+            },
+            {
+                "intent": "inventory",
+                "text": "I am looking for a new optima plug in hybrid"
+            },
+            {
+                "intent": "list.trims",
+                "text": "How many seats does the kia Sedona have"
+            },
+            {
+                "intent": "list.trims",
+                "text": "Fabric seats available in ex model"
+            },
+            {
+                "intent": "list.trims",
+                "text": "What's the starting price on the Kia 900"
+            },
+            {
+                "intent": "list.trims",
+                "text": "does it have heated seats"
+            }
+        ]
+    }
+}

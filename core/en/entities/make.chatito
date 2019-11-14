@@ -1,17 +1,8 @@
-@[sorento]('entity': 'make', 'value': 'sorento')
-    sorento
+~[make]
+    @[kia]
 
-@[niro]('entity': 'make', 'value': 'niro')
-    niro
-
-@[stinger]('entity': 'make', 'value': 'stinger')
-    stinger
-
-@[cadenza]('entity': 'make', 'value': 'cadenza')
-    cadenza
-
-~[cars]
-    @[cadenza]
-    @[stinger]
-    @[niro]
-    @[sorento]
+@[kia]('entity': 'make', 'value': 'Kia')
+    Kia
+    kias
+    kai
+    kia

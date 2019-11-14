@@ -1,4 +1,4 @@
-import ../entities/make.chatito
+import ../entities/model.chatito
 
 %[recommend]('training': '100')
     wie viel kostet ~[cars]

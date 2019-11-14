@@ -1,0 +1,11 @@
+//import ../entities/attributes.chatito
+import ../entities/bodystyle.chatito
+import ../entities/make.chatito
+import ../entities/specs.chatito
+import ../entities/trim.chatito
+import ../entities/trim_levels.chatito
+
+%[inventory]('training': '20')
+    ~[searching] ~[model-trim]
+    ~[searching] ~[model-trim]
+    I want ~[model-trim]

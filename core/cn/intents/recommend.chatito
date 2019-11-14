@@ -1,4 +1,4 @@
-import ../entities/make.chatito
+import ../entities/model.chatito
 
 %[recommend]('training': '300')
     ~[cars]怎么样呢

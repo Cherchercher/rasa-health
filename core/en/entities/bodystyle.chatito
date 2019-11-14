@@ -1,0 +1,83 @@
+@[convertible]('entity': 'bodystyle')
+    convertible
+    convertibles
+    cabriolet
+    cabrio
+    drophead
+    landau
+    roadster
+
+@[coupe]('entity': 'bodystyle')
+    coupe
+    coupes
+    2dr
+    two door  
+    2 door
+
+@[sedan]('entity': 'bodystyle')
+    sedan
+    sedans
+
+@[wagon]('entity': 'bodystyle')
+    wagon
+    wagons
+    station wagon
+
+@[suv]('entity': 'bodystyle')
+    suv
+    sport utility vehicle
+    suvs
+    sport utility vehicles
+    SUVs
+
+@[crossover]('entity': 'bodystyle')
+    cuv
+    cuvs
+    crossover
+    cross over
+    crossovers
+    cross overs
+
+@[hatchback]('entity': 'bodystyle')
+    hatchback
+    hatchbacks
+    hachback
+    hachbacks
+    5 door
+    5door
+
+@[minivan]('entity': 'bodystyle')
+    minivan
+    minivans
+    van
+    mini van
+
+@[truck]('entity': 'bodystyle')
+    truck
+    pickup
+    trucks
+    pickups
+    crew cab
+    extended cab
+    regular cab
+
+@[sports car]('entity': 'bodystyle')
+    sports car
+    sports cars
+
+@[micro car]('entity': 'bodystyle')
+    microcar
+    micro car
+
+~[bodystyle]
+    @[convertible]
+    @[coupe]
+    @[sedan]
+    @[wagon]
+    @[suv]
+    @[crossover]
+    @[hatchback]
+    @[minivan]
+    @[truck]
+    @[sports car]
+    @[micro car]

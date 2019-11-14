@@ -1,0 +1,63 @@
+import ../common.chatito
+
+%[list.trims]('training': '100')
+    how many trims are there for ~[trim-entity]
+    ~[declaritive] ~[trim-entity]
+    ~[trim-entity]
+
+%[list.trims#price]('training': '100')
+    ~[declaritive] in the ~[trim-entity], what is the ~[price-spec]?
+    ~[quantify-price] ~[model]
+    ~[price-spec] for ~[model]
+    ~[what-which] ~[price-spec] for the ~[model]
+    ~[what-which] ~[price-spec]
+    ~[price-spec] for ~[model]
+    ~[model] ~[price-spec]
+
+~[quantify-price]
+    how much is the
+    how much for a
+    how much for the
+    how much is this
+    how much is the
+    how much would the
+    how much does the
+    how expensive is the
+    how expensive for a
+    how expensive for the
+    how expensive is this
+
+%[list.trims#modifier]('training': '100')
+    ~[exist] ~[indicator-spec] ~[model]?
+    ~[engine] on ~[model]
+    ~[what-which] options for ~[model] ~[engine]
+    ~[what-which] ~[engine] options are available for ~[model]
+    ~[exist] ~[model] ~[posseses] ~[indicator-spec]
+
+%[list.trims#optional]('training': '100')
+    ~[declaritive?] for the ~[model], which models ~[posseses] the ~[optional-spec]
+    Do all ~[model] ~[posseses] ~[optional-spec]
+    is ~[optional-spec] available on ~[model]
+    is ~[optional-spec] included on all ~[model]
+    is ~[optional-spec] only available on the ~[car-trim] and ~[car-trim] trims
+    what trim package do I have to buy in order to get ~[optional-spec]
+    what trim package do I have to buy in order to get ~[optional-spec] and ~[optional-spec]
+    is ~[optional-spec] standard on all trim levels
+    Can I get ~[optional-spec] with any trim
+    What trim level of ~[model] ~[posseses] ~[optional-spec]
+    Can you get the ~[model] with ~[optional-spec]
+    ~[exist] ~[trim-level] ~[model-trim] ~[posseses] ~[optional-spec]
+    ~[does the] ~[model-trim] ~[possess] ~[optional-spec]
+    is ~[spec] available ~[on-in] ~[model-trim]
+    are ~[spec] available ~[on-in] ~[model-trim]
+
+%[list.trims#count-specs]
+    ~[quantity-spec] ~[count-spec] does the ~[make] ~[model-trim] ~[posseses]
+
+
+~[quantify-spec]
+    how many
+    how much
+    how long
+    how far
+
