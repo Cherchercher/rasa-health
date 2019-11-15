@@ -1,4 +1,4 @@
-import ../entities/trim.chatito
+import ../common.chatito
 
 %[compare#price]('training': '50')
     which one is cheaper, ~[cars] or ~[cars]

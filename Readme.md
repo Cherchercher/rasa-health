@@ -34,9 +34,9 @@ Generate training phrases `npx chatito core/cn --format=rasa --outputPath=core/c
 
 Train the model `rasa train nlu --config configs/cn/rasa_config.yml --nlu ./core/cn/training_data.json`
 
-Add proposed phrases with their corresponding intents and entities under `data/cn/ground_truth_data.json`
+Add proposed phrases with their corresponding intents and entities under `data/ground_truth_data_de.json`
 
-Test the model `sh ./tests/cn/test.sh`. Wrong classifications are listed in `result/intent_errors.json`.
+Test the model at the root of project directory `sh ./tests/cn/test.sh`. Wrong classifications are listed in `result/intent_errors.json`.
 
 
 
@@ -57,9 +57,9 @@ Generate training phrases `npx chatito core/de --format=rasa --outputPath=core/d
 
 Train the model `rasa train nlu --config configs/de/rasa_config.yml --nlu ./core/de/training_data.json`
 
-Add proposed phrases with their corresponding intents and entities under `data/de/ground_truth_data.json`
+Add proposed phrases with their corresponding intents and entities under `data/ground_truth_data_de.json`
 
-Test the model `sh ./tests/de/test.sh`. Wrong classifications are listed in `result/intent_errors.json`
+Test the model at the root of project directory `sh ./tests/de/test.sh`. Wrong classifications are listed in `result/intent_errors.json`
 
 
 
@@ -75,8 +75,8 @@ Generate training phrases `npx chatito core/en --format=rasa --outputPath=core/e
 
 Train the model `rasa train nlu --config configs/en/rasa_config.yml --nlu ./core/en/training_data.json`
 
-Add proposed phrases with their corresponding intents and entities under `data/en/ground_truth_data.json`
+Add proposed phrases with their corresponding intents and entities under `data/ground_truth_data_en.json`
 
-Test the model `sh ./tests/en/test.sh`. Wrong classifications are listed in `result/intent_errors.json`
+Test the model at the root of project directory `sh ./tests/en/test.sh`. Wrong classifications are listed in `result/intent_errors.json`
 
 
