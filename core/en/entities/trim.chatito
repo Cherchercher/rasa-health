@@ -77,7 +77,7 @@
     telluride
 
 //model without a specified trim
-~[model]
+~[model-ent]
     @[cadenza]
     @[forte]
     @[k900]
@@ -94,8 +94,247 @@
     @[telluride]
 
 //trim specific models
+@[Cadenza Limited]('entity': 'trim')
+    Cadenza Limited
+@[Cadenza Premium]('entity': 'trim')
+    Cadenza Premium
+@[Cadenza Technology]('entity': 'trim')
+    Cadenza Technology
+@[Forte EX IVT]('entity': 'trim')
+    Forte EX IVT
+@[Forte FE 6MT]('entity': 'trim')
+    Forte FE 6MT
+@[Forte FE IVT]('entity': 'trim')
+    Forte FE IVT
+@[Forte GT 6MT]('entity': 'trim')
+    Forte GT 6MT
+@[Forte GT DCT]('entity': 'trim')
+    Forte GT DCT
+@[Forte GT-Line IVT]('entity': 'trim')
+    Forte GT-Line IVT
+@[Forte LXS IVT]('entity': 'trim')
+    Forte LXS IVT
+@[K900 Luxury]('entity': 'trim')
+    K900 Luxury
+@[Niro EX]('entity': 'trim')
+    Niro EX
+@[Niro FE]('entity': 'trim')
+    Niro FE
+@[Niro LX]('entity': 'trim')
+    Niro LX
+@[Niro S Touring]('entity': 'trim')
+    Niro S Touring
+@[Niro Touring]('entity': 'trim')
+    Niro Touring
+@[Niro EV EX]('entity': 'trim')
+    Niro EV EX
+@[Niro EV EX Premium]('entity': 'trim')
+    Niro EV EX Premium
+@[Niro Plug-in Hybrid EX]('entity': 'trim')
+    Niro Plug-in Hybrid EX
+@[Niro Plug-in Hybrid EX Premium]('entity': 'trim')
+    Niro Plug-in Hybrid EX Premium
+@[Niro Plug-in Hybrid LX]('entity': 'trim')
+    Niro Plug-in Hybrid LX
+@[Optima EX]('entity': 'trim')
+    Optima EX
+@[Optima EX Premium]('entity': 'trim')
+    Optima EX Premium
+@[Optima LX]('entity': 'trim')
+    Optima LX
+@[Optima S]('entity': 'trim')
+    Optima S
+@[Optima SX]('entity': 'trim')
+    Optima SX
+@[Optima Hybrid EX]('entity': 'trim')
+    Optima Hybrid EX
+@[Optima Plug-in Hybrid EX]('entity': 'trim')
+    Optima Plug-in Hybrid EX
+@[Rio LX]('entity': 'trim')
+    Rio LX
+@[Rio S]('entity': 'trim')
+    Rio S
+@[Rio 5-Door S]('entity': 'trim')
+    Rio 5-Door S
+@[Sedona EX]('entity': 'trim')
+    Sedona EX
+@[Sedona L]('entity': 'trim')
+    Sedona L
+@[Sedona LX]('entity': 'trim')
+    Sedona LX
+@[Sedona SX]('entity': 'trim')
+    Sedona SX
+@[Sorento EX V6 AWD]('entity': 'trim')
+    Sorento EX V6 AWD
+@[Sorento EX V6 FWD]('entity': 'trim')
+    Sorento EX V6 FWD
+@[Sorento L FWD]('entity': 'trim')
+    Sorento L FWD
+@[Sorento LX AWD]('entity': 'trim')
+    Sorento LX AWD
+@[Sorento LX FWD]('entity': 'trim')
+    Sorento LX FWD
+@[Sorento S V6 AWD]('entity': 'trim')
+    Sorento S V6 AWD
+@[Sorento S V6 FWD]('entity': 'trim')
+    Sorento S V6 FWD
+@[Sorento SX AWD]('entity': 'trim')
+    Sorento SX AWD
+@[Sorento SX FWD]('entity': 'trim')
+    Sorento SX FWD
+@[Soul EX]('entity': 'trim')
+    Soul EX
+@[Soul GT-Line]('entity': 'trim')
+    Soul GT-Line
+@[Soul GT-Line Turbo]('entity': 'trim')
+    Soul GT-Line Turbo
+@[Soul LX 6MT]('entity': 'trim')
+    Soul LX 6MT
+@[Soul LX IVT]('entity': 'trim')
+    Soul LX IVT
+@[Soul S]('entity': 'trim')
+    Soul S
+@[Soul X-Line]('entity': 'trim')
+    Soul X-Line
+@[Sportage EX AWD]('entity': 'trim')
+    Sportage EX AWD
+@[Sportage EX FWD]('entity': 'trim')
+    Sportage EX FWD
+@[Sportage LX AWD]('entity': 'trim')
+    Sportage LX AWD
+@[Sportage LX FWD]('entity': 'trim')
+    Sportage LX FWD
+@[Sportage S AWD]('entity': 'trim')
+    Sportage S AWD
+@[Sportage S FWD]('entity': 'trim')
+    Sportage S FWD
+@[Sportage SX AWD]('entity': 'trim')
+    Sportage SX AWD
+@[Sportage SX FWD]('entity': 'trim')
+    Sportage SX FWD
+@[Stinger AWD]('entity': 'trim')
+    Stinger AWD
+@[Stinger GT AWD]('entity': 'trim')
+    Stinger GT AWD
+@[Stinger GT RWD]('entity': 'trim')
+    Stinger GT RWD
+@[Stinger GT1 AWD]('entity': 'trim')
+    Stinger GT1 AWD
+@[Stinger GT1 RWD]('entity': 'trim')
+    Stinger GT1 RWD
+@[Stinger GT2 AWD]('entity': 'trim')
+    Stinger GT2 AWD
+@[Stinger GT2 RWD]('entity': 'trim')
+    Stinger GT2 RWD
+@[Stinger GTS AWD]('entity': 'trim')
+    Stinger GTS AWD
+@[Stinger GTS RWD]('entity': 'trim')
+    Stinger GTS RWD
+@[Stinger Premium AWD]('entity': 'trim')
+    Stinger Premium AWD
+@[Stinger Premium RWD]('entity': 'trim')
+    Stinger Premium RWD
+@[Stinger RWD]('entity': 'trim')
+    Stinger RWD
+@[Telluride EX AWD]('entity': 'trim')
+    Telluride EX AWD
+@[Telluride EX FWD]('entity': 'trim')
+    Telluride EX FWD
+@[Telluride LX AWD]('entity': 'trim')
+    Telluride LX AWD
+@[Telluride LX FWD]('entity': 'trim')
+    Telluride LX FWD
+@[Telluride S AWD]('entity': 'trim')
+    Telluride S AWD
+@[Telluride S FWD]('entity': 'trim')
+    Telluride S FWD
+@[Telluride SX AWD]('entity': 'trim')
+    Telluride SX AWD
+@[Telluride SX FWD]('entity': 'trim')
+    Telluride SX FWD
 
-//trim version differentiators -- often included in the name of a trim version
+~[model-trim]
+    @[Cadenza Limited]
+    @[Cadenza Premium]
+    @[Cadenza Technology]
+    @[Forte EX IVT]
+    @[Forte FE 6MT]
+    @[Forte FE IVT]
+    @[Forte GT 6MT]
+    @[Forte GT DCT]
+    @[Forte GT-Line IVT]
+    @[Forte LXS IVT]
+    @[K900 Luxury]
+    @[Niro EX]
+    @[Niro FE]
+    @[Niro LX]
+    @[Niro S Touring]
+    @[Niro Touring]
+    @[Niro EV EX]
+    @[Niro EV EX Premium]
+    @[Niro Plug-in Hybrid EX]
+    @[Niro Plug-in Hybrid EX Premium]
+    @[Niro Plug-in Hybrid LX]
+    @[Optima EX]
+    @[Optima EX Premium]
+    @[Optima LX]
+    @[Optima S]
+    @[Optima SX]
+    @[Optima Hybrid EX]
+    @[Optima Plug-in Hybrid EX]
+    @[Rio LX]
+    @[Rio S]
+    @[Rio 5-Door S]
+    @[Sedona EX]
+    @[Sedona L]
+    @[Sedona LX]
+    @[Sedona SX]
+    @[Sorento EX V6 AWD]
+    @[Sorento EX V6 FWD]
+    @[Sorento L FWD]
+    @[Sorento LX AWD]
+    @[Sorento LX FWD]
+    @[Sorento S V6 AWD]
+    @[Sorento S V6 FWD]
+    @[Sorento SX AWD]
+    @[Sorento SX FWD]
+    @[Soul EX]
+    @[Soul GT-Line]
+    @[Soul GT-Line Turbo]
+    @[Soul LX 6MT]
+    @[Soul LX IVT]
+    @[Soul S]
+    @[Soul X-Line]
+    @[Sportage EX AWD]
+    @[Sportage EX FWD]
+    @[Sportage LX AWD]
+    @[Sportage LX FWD]
+    @[Sportage S AWD]
+    @[Sportage S FWD]
+    @[Sportage SX AWD]
+    @[Sportage SX FWD]
+    @[Stinger AWD]
+    @[Stinger GT AWD]
+    @[Stinger GT RWD]
+    @[Stinger GT1 AWD]
+    @[Stinger GT1 RWD]
+    @[Stinger GT2 AWD]
+    @[Stinger GT2 RWD]
+    @[Stinger GTS AWD]
+    @[Stinger GTS RWD]
+    @[Stinger Premium AWD]
+    @[Stinger Premium RWD]
+    @[Stinger RWD]
+    @[Telluride EX AWD]
+    @[Telluride EX FWD]
+    @[Telluride LX AWD]
+    @[Telluride LX FWD]
+    @[Telluride S AWD]
+    @[Telluride S FWD]
+    @[Telluride SX AWD]
+    @[Telluride SX FWD]
+
+//model trim version differentiators -- often included in the name of a trim version
 ~[phev]
     phev
     plug-in hybrid
@@ -130,3 +369,4 @@
     4 dr
     4-dr
     four door
+

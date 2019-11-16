@@ -27,14 +27,14 @@ import ../common.chatito
     how expensive for the
     how expensive is this
 
-%[list.trims#modifier]('training': '100')
+%[list.trims#indicator]('training': '100')
     ~[exist] ~[indicator-spec] ~[model]?
     ~[engine] on ~[model]
     ~[what-which] options for ~[model] ~[engine]
     ~[what-which] ~[engine] options are available for ~[model]
     ~[exist] ~[model] ~[posseses] ~[indicator-spec]
 
-%[list.trims#optional]('training': '100')
+%[list.trims#optional]('training': '200')
     ~[declaritive?] for the ~[model], which models ~[posseses] the ~[optional-spec]
     Do all ~[model] ~[posseses] ~[optional-spec]
     is ~[optional-spec] available on ~[model]
@@ -50,14 +50,14 @@ import ../common.chatito
     ~[does the] ~[model-trim] ~[possess] ~[optional-spec]
     is ~[spec] available ~[on-in] ~[model-trim]
     are ~[spec] available ~[on-in] ~[model-trim]
+    ~[declaritive] can i get a ~[optional-spec] in a ~[model]
+    does the ~[model]
 
 %[list.trims#count-specs]
     ~[quantity-spec] ~[count-spec] does the ~[make] ~[model-trim] ~[posseses]
-
 
 ~[quantify-spec]
     how many
     how much
     how long
     how far
-

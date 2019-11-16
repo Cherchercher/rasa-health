@@ -9,24 +9,25 @@ import ./entities/trim.chatito
 import ./entities/trim_levels.chatito
 
 //ways users ask for cars when asking for a list of unspecified models that fit some criteria
+//this is kinda specific to the demo... will need to be reworked as anything kia should be linked to 'make' entity
+~[model]
+    ~[model-ent]
+    ~[model-trim]
+    ~[model-year] ~[model-ent]
+    ~[model-year] ~[model-trim]
+
+~[model-year]
+    2016
+    2017
+    2018
+    2019
+    2020
+    2021
+
 ~[model-type]
-    models
-    cars
-    ~[make] cars
-    ~[make] models
+    kia
+    kias
     ~[bodystyle]
-
-//    ~[model-year] ~[make] ~[bodystyle]
-//ways users ask about specific models with or without criteria
-//~[model1]
-//    ~[model-year]
-
-//~[model-year] ~[make?] ~[model]
-
-//ways users ask about specific model trim with or without criteria
-
-//~[trim-entity]
-//    ~[model-trim]
 
 ~[declaritive]
     ~[I?] have a question
@@ -36,7 +37,7 @@ import ./entities/trim_levels.chatito
     ~[I?] interested in
     i would like to know
 
-~[I]
+~[i]
     i
     i am
     im
@@ -49,6 +50,11 @@ import ./entities/trim_levels.chatito
     included in
     have
     available on
+
+~[what]
+    what
+    whats
+    what is
 
 ~[what-which]
     what
@@ -75,3 +81,29 @@ import ./entities/trim_levels.chatito
     looking for
     trying to find
     looking at
+
+~[hello]
+    hi
+    hey
+    hello
+    howdy
+    hola
+
+~[relative-size]
+    more
+    less
+    larger
+    bigger
+    smaller
+
+~[definite-size]
+    largest
+    biggest
+    smallest
+    with the most
+    with the least
+
+~[greeting]
+    ~[hello]
+    good morning
+    good afternoon

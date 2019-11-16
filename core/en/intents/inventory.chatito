@@ -1,11 +1,41 @@
-//import ../entities/attributes.chatito
-import ../entities/bodystyle.chatito
-import ../entities/make.chatito
-import ../entities/specs.chatito
-import ../entities/trim.chatito
-import ../entities/trim_levels.chatito
+import ../common.chatito
 
-%[inventory]('training': '20')
-    ~[searching] ~[model-trim]
-    ~[searching] ~[model-trim]
-    I want ~[model-trim]
+%[inventory]('training': '100', 'distribution': 'even')
+    ~[searching] ~[model]
+    ~[greeting] ~[searching] ~[model-trim]
+    ~[i] want ~[model-trim]
+    do you have ~[model] in stock
+    would you be able to tell me the local inventory for the area surrounding zip ~[zipcode] that would offer the ~[spec] in the ~[model]
+    ~[dealer] near me with ~[model]
+    is there a ~[model] in inventory in ~[location-region]
+    looking for ~[make] inventory
+    i want to look at the telluride ~[model]
+    i want to look at the ~[model] where can i go see it
+    i would like to take another look at inventory for ~[model]
+    how can i find a ~[model] to ~[buy]
+    where can i go look at the ~[model] in ~[state-location]
+    i know what i want but no ~[dealer] has it
+    new car inventory
+    search inventory
+    ~[model] where can i look at this car in ~[city-location]
+    where can i look at ~[model] in ~[city-location]
+    i want to see ~[model] inventory with prices
+    i want to see the ~[model] where can i see it
+    how do i view there inventory
+    ~[model] inventory
+
+%[inventory#spec]('training': '100', 'distribution': 'even')
+    ~[searching] an ~[model] preferably ~[ext-color] with ~[int-color] interior and ~[spec]
+    ~[searching] for inventory for a ~[model] with ~[spec]
+    ~[dealer] inventory ~[model] ~[ext-color] ~[int-color] near zip code 39183
+
+//variations for inventory intent only
+~[dealer]
+    dealer
+    dealership
+    dealers
+    dealerships
+
+~[buy]
+    buy
+    purchase
