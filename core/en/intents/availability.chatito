@@ -1,6 +1,6 @@
 import ../common.chatito
 
-%[availability#when]('training': '100')
+%[availability#when]('training': '100', 'distribution': 'even')
     when will ~[model] become available
     are ~[model] at the dealer already
     is the ~[model] available now

@@ -42,10 +42,12 @@ import ./entities/trim_levels.chatito
     i am
     im
 
-~[posseses]
+~[has]
     has
     come with
     comes with
+    include
+    includes
     included on
     included in
     have

@@ -5,7 +5,7 @@ import ../common.chatito
     ~[declaritive] ~[trim-entity]
     ~[trim-entity]
 
-%[list.trims#price]('training': '100')
+%[list.trims#price]('training': '100', 'distribution': 'even')
     ~[declaritive] in the ~[trim-entity], what is the ~[price-spec]?
     ~[quantify-price] ~[model]
     ~[price-spec] for ~[model]
@@ -27,14 +27,14 @@ import ../common.chatito
     how expensive for the
     how expensive is this
 
-%[list.trims#indicator]('training': '100')
+%[list.trims#indicator]('training': '100', 'distribution': 'even')
     ~[exist] ~[indicator-spec] ~[model]?
     ~[engine] on ~[model]
     ~[what-which] options for ~[model] ~[engine]
     ~[what-which] ~[engine] options are available for ~[model]
     ~[exist] ~[model] ~[posseses] ~[indicator-spec]
 
-%[list.trims#optional]('training': '200')
+%[list.trims#optional]('training': '100', 'distribution': 'even')
     ~[declaritive?] for the ~[model], which models ~[posseses] the ~[optional-spec]
     Do all ~[model] ~[posseses] ~[optional-spec]
     is ~[optional-spec] available on ~[model]
@@ -51,13 +51,22 @@ import ../common.chatito
     is ~[spec] available ~[on-in] ~[model-trim]
     are ~[spec] available ~[on-in] ~[model-trim]
     ~[declaritive] can i get a ~[optional-spec] in a ~[model]
-    does the ~[model]
+    does the ~[model] ~[posseses] ~[spec]
 
-%[list.trims#count-specs]
-    ~[quantity-spec] ~[count-spec] does the ~[make] ~[model-trim] ~[posseses]
+%[list.trims#count-specs]('training': '100', 'distribution': 'even')
+    ~[quantify] ~[count-spec] does the ~[make] ~[model-trim] ~[posseses]
 
-~[quantify-spec]
+~[quantify]
     how many
     how much
     how long
     how far
+
+~[posseses]
+    has
+    come with
+    comes with
+    included on
+    included in
+    have
+    available on

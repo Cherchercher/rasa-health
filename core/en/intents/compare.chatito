@@ -2,7 +2,7 @@ import ../common.chatito
 
 //all compare categories should support comparisons by spec and spec categories
 
-%[compare#models]('training': '50')
+%[compare#models]('training': '50', 'distribution': 'even')
     is there more ~[size-spec] in a ~[model] or a ~[model]
     what is the difference between the ~[model] and ~[model]
     difference between ~[make] ~[model] and ~[make] ~[model]
@@ -10,18 +10,18 @@ import ../common.chatito
     hi does the ~[model] or ~[model] come with a ~[optional-spec]
     im interested in the ~[model] or ~[model]
     i like the ~[model] or ~[model]
-    does the ~[model] ~[posseses] more ~[size-spec] than a ~[model]
+    does the ~[model] ~[has] more ~[size-spec] than a ~[model]
     is there a ~[make] with ~[relative-size] ~[size-spec] than the ~[model]
 
-%[compare#trims]('training': '50')
+%[compare#trims]('training': '50', 'distribution': 'even')
     want to know what the difference is in the different ~[trims]
     ~[what] ~[difference] the different types of ~[model]
     ~[what] ~[difference] ~[model-trim] ~[model-trim] and ~[model-trim]
     ~[what] ~[difference] the ~[model-trim] and ~[model-trim]
     ~[what] ~[difference] in the ~[trims]
-    ~[what-which] ~[model] ~[posseses] more features? the ~[model-trim] or ~[model-trim]
+    ~[what-which] ~[model] ~[has] more features? the ~[model-trim] or ~[model-trim]
 
-%[compare#yoy]('training': '50')
+%[compare#yoy]('training': '50','distribution': 'even')
     ~[declaritive] in a ~[model-year] ~[model]. Can you tell me the difference between the ~[model-year] and ~[model-year]?
     ~[what] ~[price-spec] difference in a ~[model-year] and a ~[model-year] ~[model]
     does ~[model-year] ~[model] have the same ~[spec] as ~[model-year] ~[model]

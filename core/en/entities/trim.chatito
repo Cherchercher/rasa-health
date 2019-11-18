@@ -94,163 +94,163 @@
     @[telluride]
 
 //trim specific models
-@[Cadenza Limited]('entity': 'trim')
+@[Cadenza Limited]('entity': 'trim', 'value': 'Cadenza Limited')
     Cadenza Limited
-@[Cadenza Premium]('entity': 'trim')
+@[Cadenza Premium]('entity': 'trim', 'value': 'Cadenza Premium')
     Cadenza Premium
-@[Cadenza Technology]('entity': 'trim')
+@[Cadenza Technology]('entity': 'trim', 'value': 'Cadenza Technology')
     Cadenza Technology
-@[Forte EX IVT]('entity': 'trim')
+@[Forte EX IVT]('entity': 'trim', 'value': 'Forte EX IVT')
     Forte EX IVT
-@[Forte FE 6MT]('entity': 'trim')
+@[Forte FE 6MT]('entity': 'trim', 'value': 'Forte FE 6MT')
     Forte FE 6MT
-@[Forte FE IVT]('entity': 'trim')
+@[Forte FE IVT]('entity': 'trim', 'value': 'Forte FE IVT')
     Forte FE IVT
-@[Forte GT 6MT]('entity': 'trim')
+@[Forte GT 6MT]('entity': 'trim', 'value': 'Forte GT 6MT')
     Forte GT 6MT
-@[Forte GT DCT]('entity': 'trim')
+@[Forte GT DCT]('entity': 'trim', 'value': 'Forte GT DCT')
     Forte GT DCT
-@[Forte GT-Line IVT]('entity': 'trim')
+@[Forte GT-Line IVT]('entity': 'trim', 'value': 'Forte GT-Line IVT')
     Forte GT-Line IVT
-@[Forte LXS IVT]('entity': 'trim')
+@[Forte LXS IVT]('entity': 'trim', 'value': 'Forte LXS IVT')
     Forte LXS IVT
-@[K900 Luxury]('entity': 'trim')
+@[K900 Luxury]('entity': 'trim', 'value': 'K900 Luxury')
     K900 Luxury
-@[Niro EX]('entity': 'trim')
+@[Niro EX]('entity': 'trim', 'value': 'Niro EX')
     Niro EX
-@[Niro FE]('entity': 'trim')
+@[Niro FE]('entity': 'trim', 'value': 'Niro FE')
     Niro FE
-@[Niro LX]('entity': 'trim')
+@[Niro LX]('entity': 'trim', 'value': 'Niro LX')
     Niro LX
-@[Niro S Touring]('entity': 'trim')
+@[Niro S Touring]('entity': 'trim', 'value': 'Niro S Touring')
     Niro S Touring
-@[Niro Touring]('entity': 'trim')
+@[Niro Touring]('entity': 'trim', 'value': 'Niro Touring')
     Niro Touring
-@[Niro EV EX]('entity': 'trim')
+@[Niro EV EX]('entity': 'trim', 'value': 'Niro EV EX')
     Niro EV EX
-@[Niro EV EX Premium]('entity': 'trim')
+@[Niro EV EX Premium]('entity': 'trim', 'value': 'Niro EV EX Premium')
     Niro EV EX Premium
-@[Niro Plug-in Hybrid EX]('entity': 'trim')
+@[Niro Plug-in Hybrid EX]('entity': 'trim', 'value': 'Niro Plug-in Hybrid EX')
     Niro Plug-in Hybrid EX
-@[Niro Plug-in Hybrid EX Premium]('entity': 'trim')
+@[Niro Plug-in Hybrid EX Premium]('entity': 'trim', 'value': 'Niro Plug-in Hybrid EX Premium')
     Niro Plug-in Hybrid EX Premium
-@[Niro Plug-in Hybrid LX]('entity': 'trim')
+@[Niro Plug-in Hybrid LX]('entity': 'trim', 'value': 'Niro Plug-in Hybrid LX')
     Niro Plug-in Hybrid LX
-@[Optima EX]('entity': 'trim')
+@[Optima EX]('entity': 'trim', 'value': 'Optima EX')
     Optima EX
-@[Optima EX Premium]('entity': 'trim')
+@[Optima EX Premium]('entity': 'trim', 'value': 'Optima EX Premium')
     Optima EX Premium
-@[Optima LX]('entity': 'trim')
+@[Optima LX]('entity': 'trim', 'value': 'Optima LX')
     Optima LX
-@[Optima S]('entity': 'trim')
+@[Optima S]('entity': 'trim', 'value': 'Optima S')
     Optima S
-@[Optima SX]('entity': 'trim')
+@[Optima SX]('entity': 'trim', 'value': 'Optima SX')
     Optima SX
-@[Optima Hybrid EX]('entity': 'trim')
+@[Optima Hybrid EX]('entity': 'trim', 'value': 'Optima Hybrid EX')
     Optima Hybrid EX
-@[Optima Plug-in Hybrid EX]('entity': 'trim')
+@[Optima Plug-in Hybrid EX]('entity': 'trim', 'value': 'Optima Plug-in Hybrid EX')
     Optima Plug-in Hybrid EX
-@[Rio LX]('entity': 'trim')
+@[Rio LX]('entity': 'trim', 'value': 'Rio LX')
     Rio LX
-@[Rio S]('entity': 'trim')
+@[Rio S]('entity': 'trim', 'value': 'Rio S')
     Rio S
-@[Rio 5-Door S]('entity': 'trim')
+@[Rio 5-Door S]('entity': 'trim', 'value': 'Rio 5-Door S')
     Rio 5-Door S
-@[Sedona EX]('entity': 'trim')
+@[Sedona EX]('entity': 'trim', 'value': 'Sedona EX')
     Sedona EX
-@[Sedona L]('entity': 'trim')
+@[Sedona L]('entity': 'trim', 'value': 'Sedona L')
     Sedona L
-@[Sedona LX]('entity': 'trim')
+@[Sedona LX]('entity': 'trim', 'value': 'Sedona LX')
     Sedona LX
-@[Sedona SX]('entity': 'trim')
+@[Sedona SX]('entity': 'trim', 'value': 'Sedona SX')
     Sedona SX
-@[Sorento EX V6 AWD]('entity': 'trim')
+@[Sorento EX V6 AWD]('entity': 'trim', 'value': 'Sorento EX V6 AWD')
     Sorento EX V6 AWD
-@[Sorento EX V6 FWD]('entity': 'trim')
+@[Sorento EX V6 FWD]('entity': 'trim', 'value': 'Sorento EX V6 FWD')
     Sorento EX V6 FWD
-@[Sorento L FWD]('entity': 'trim')
+@[Sorento L FWD]('entity': 'trim', 'value': 'Sorento L FWD')
     Sorento L FWD
-@[Sorento LX AWD]('entity': 'trim')
+@[Sorento LX AWD]('entity': 'trim', 'value': 'Sorento LX AWD')
     Sorento LX AWD
-@[Sorento LX FWD]('entity': 'trim')
+@[Sorento LX FWD]('entity': 'trim', 'value': 'Sorento LX FWD')
     Sorento LX FWD
-@[Sorento S V6 AWD]('entity': 'trim')
+@[Sorento S V6 AWD]('entity': 'trim', 'value': 'Sorento S V6 AWD')
     Sorento S V6 AWD
-@[Sorento S V6 FWD]('entity': 'trim')
+@[Sorento S V6 FWD]('entity': 'trim', 'value': 'Sorento S V6 FWD')
     Sorento S V6 FWD
-@[Sorento SX AWD]('entity': 'trim')
+@[Sorento SX AWD]('entity': 'trim', 'value': 'Sorento SX AWD')
     Sorento SX AWD
-@[Sorento SX FWD]('entity': 'trim')
+@[Sorento SX FWD]('entity': 'trim', 'value': 'Sorento SX FWD')
     Sorento SX FWD
-@[Soul EX]('entity': 'trim')
+@[Soul EX]('entity': 'trim', 'value': 'Soul EX')
     Soul EX
-@[Soul GT-Line]('entity': 'trim')
+@[Soul GT-Line]('entity': 'trim', 'value': 'Soul GT-Line')
     Soul GT-Line
-@[Soul GT-Line Turbo]('entity': 'trim')
+@[Soul GT-Line Turbo]('entity': 'trim', 'value': 'Soul GT-Line Turbo')
     Soul GT-Line Turbo
-@[Soul LX 6MT]('entity': 'trim')
+@[Soul LX 6MT]('entity': 'trim', 'value': 'Soul LX 6MT')
     Soul LX 6MT
-@[Soul LX IVT]('entity': 'trim')
+@[Soul LX IVT]('entity': 'trim', 'value': 'Soul LX IVT')
     Soul LX IVT
-@[Soul S]('entity': 'trim')
+@[Soul S]('entity': 'trim', 'value': 'Soul S')
     Soul S
-@[Soul X-Line]('entity': 'trim')
+@[Soul X-Line]('entity': 'trim', 'value': 'Soul X-Line')
     Soul X-Line
-@[Sportage EX AWD]('entity': 'trim')
+@[Sportage EX AWD]('entity': 'trim', 'value': 'Sportage EX AWD')
     Sportage EX AWD
-@[Sportage EX FWD]('entity': 'trim')
+@[Sportage EX FWD]('entity': 'trim', 'value': 'Sportage EX FWD')
     Sportage EX FWD
-@[Sportage LX AWD]('entity': 'trim')
+@[Sportage LX AWD]('entity': 'trim', 'value': 'Sportage LX AWD')
     Sportage LX AWD
-@[Sportage LX FWD]('entity': 'trim')
+@[Sportage LX FWD]('entity': 'trim', 'value': 'Sportage LX FWD')
     Sportage LX FWD
-@[Sportage S AWD]('entity': 'trim')
+@[Sportage S AWD]('entity': 'trim', 'value': 'Sportage S AWD')
     Sportage S AWD
-@[Sportage S FWD]('entity': 'trim')
+@[Sportage S FWD]('entity': 'trim', 'value': 'Sportage S FWD')
     Sportage S FWD
-@[Sportage SX AWD]('entity': 'trim')
+@[Sportage SX AWD]('entity': 'trim', 'value': 'Sportage SX AWD')
     Sportage SX AWD
-@[Sportage SX FWD]('entity': 'trim')
+@[Sportage SX FWD]('entity': 'trim', 'value': 'Sportage SX FWD')
     Sportage SX FWD
-@[Stinger AWD]('entity': 'trim')
+@[Stinger AWD]('entity': 'trim', 'value': 'Stinger AWD')
     Stinger AWD
-@[Stinger GT AWD]('entity': 'trim')
+@[Stinger GT AWD]('entity': 'trim', 'value': 'Stinger GT AWD')
     Stinger GT AWD
-@[Stinger GT RWD]('entity': 'trim')
+@[Stinger GT RWD]('entity': 'trim', 'value': 'Stinger GT RWD')
     Stinger GT RWD
-@[Stinger GT1 AWD]('entity': 'trim')
+@[Stinger GT1 AWD]('entity': 'trim', 'value': 'Stinger GT1 AWD')
     Stinger GT1 AWD
-@[Stinger GT1 RWD]('entity': 'trim')
+@[Stinger GT1 RWD]('entity': 'trim', 'value': 'Stinger GT1 RWD')
     Stinger GT1 RWD
-@[Stinger GT2 AWD]('entity': 'trim')
+@[Stinger GT2 AWD]('entity': 'trim', 'value': 'Stinger GT2 AWD')
     Stinger GT2 AWD
-@[Stinger GT2 RWD]('entity': 'trim')
+@[Stinger GT2 RWD]('entity': 'trim', 'value': 'Stinger GT2 RWD')
     Stinger GT2 RWD
-@[Stinger GTS AWD]('entity': 'trim')
+@[Stinger GTS AWD]('entity': 'trim', 'value': 'Stinger GTS AWD')
     Stinger GTS AWD
-@[Stinger GTS RWD]('entity': 'trim')
+@[Stinger GTS RWD]('entity': 'trim', 'value': 'Stinger GTS RWD')
     Stinger GTS RWD
-@[Stinger Premium AWD]('entity': 'trim')
+@[Stinger Premium AWD]('entity': 'trim', 'value': 'Stinger Premium AWD')
     Stinger Premium AWD
-@[Stinger Premium RWD]('entity': 'trim')
+@[Stinger Premium RWD]('entity': 'trim', 'value': 'Stinger Premium RWD')
     Stinger Premium RWD
-@[Stinger RWD]('entity': 'trim')
+@[Stinger RWD]('entity': 'trim', 'value': 'Stinger RWD')
     Stinger RWD
-@[Telluride EX AWD]('entity': 'trim')
+@[Telluride EX AWD]('entity': 'trim', 'value': 'Telluride EX AWD')
     Telluride EX AWD
-@[Telluride EX FWD]('entity': 'trim')
+@[Telluride EX FWD]('entity': 'trim', 'value': 'Telluride EX FWD')
     Telluride EX FWD
-@[Telluride LX AWD]('entity': 'trim')
+@[Telluride LX AWD]('entity': 'trim', 'value': 'Telluride LX AWD')
     Telluride LX AWD
-@[Telluride LX FWD]('entity': 'trim')
+@[Telluride LX FWD]('entity': 'trim', 'value': 'Telluride LX FWD')
     Telluride LX FWD
-@[Telluride S AWD]('entity': 'trim')
+@[Telluride S AWD]('entity': 'trim', 'value': 'Telluride S AWD')
     Telluride S AWD
-@[Telluride S FWD]('entity': 'trim')
+@[Telluride S FWD]('entity': 'trim', 'value': 'Telluride S FWD')
     Telluride S FWD
-@[Telluride SX AWD]('entity': 'trim')
+@[Telluride SX AWD]('entity': 'trim', 'value': 'Telluride SX AWD')
     Telluride SX AWD
-@[Telluride SX FWD]('entity': 'trim')
+@[Telluride SX FWD]('entity': 'trim', 'value': 'Telluride SX FWD')
     Telluride SX FWD
 
 ~[model-trim]
