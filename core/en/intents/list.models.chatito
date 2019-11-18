@@ -1,8 +1,12 @@
 import ../common.chatito
 
-%[list.models]('training': '100')
-    ~[what-which] ~[make] ~[posseses] ~[spec]
-    ~[what-which] ~[make?] ~[model-type] ~[posseses] ~[spec]
-    ~[declaritive] ~[modifier-spec] what does ~[make] have
-    ~[exist] ~[model-type] ~[posseses]
-    ~[exist] ~[make] ~[posseses] ~[spec]
+%[list.models]('training': '100', 'distribution': 'even')
+    ~[what-which] ~[model-type] ~[has] ~[spec]
+    ~[what-which] ~[model-type?] ~[has] ~[spec]
+    ~[declaritive] ~[modifier-spec] what does ~[model-type] have
+    ~[exist] ~[model-type] ~[has]
+    ~[exist] ~[model-type] ~[has] ~[spec]
+
+//ways people ask about unspecified models by 'sizey' words which may describe the model itself or by a model containing a 'size-spec'
+%[list.models#size]('training': '100', 'distribution': 'even')
+    ~[what-which] ~[model-type] ~[has] the ~[definite-size] ~[size-spec]

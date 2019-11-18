@@ -1,7 +1,4 @@
 //trim levels
-
-//top trims
-
 @[top trim]('entity': 'trim_level')
     top of the line
     loaded

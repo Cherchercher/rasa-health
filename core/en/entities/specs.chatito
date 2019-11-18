@@ -9,7 +9,6 @@
     dealer price
     dealer cost
 
-//primary spec in category
 @[msrp]('entity': 'specs', 'value': '101')
     msrp
     price
@@ -35,41 +34,53 @@
     starting price
     lowest price
 
-~[price-spec]
-    @[invoice price]
-    @[msrp]
-    @[delivery fee]
-
 @[front a/c]('entity': 'specs', 'value': '200')
     front a/c
-    air condition
     a/c
-    cooling
-    air cooling
+    air conditioning
+    aircon
+    ac
 
 @[front a/c zones]('entity': 'specs', 'value': '201')
     front a/c zones
+    dual zone
+    dual zone heating
+    dual zone cooling
+    dual zone heat control
+    single zone
 
 @[rear a/c]('entity': 'specs', 'value': '202')
-    rear a/c
+    rear seat ~[air conditioning]
+    rear ~[air conditioning]
+    ~[air conditioning] vent in back seat
+    ~[second row] a/c
 
 @[sun sensor]('entity': 'specs', 'value': '204')
     sun sensor
 
-@[air filtration]('entity': 'specs', 'value': '205')
-    air filtration
+//@[air filtration]('entity': 'specs', 'value': '205')
+//    air filtration
 
-@[total a/c zones]('entity': 'specs', 'value': '207')
-    total a/c zones
+//@[total a/c zones]('entity': 'specs', 'value': '207')
+///    total a/c zones
 
 @[a/c control type]('entity': 'specs', 'value': '208')
     a/c control type
+    automatic climate control
+    automatic ~[air conditioning]
 
-@[a/c control location]('entity': 'specs', 'value': '209')
-    a/c control location
+~[air conditioning]
+    air conditioning
+    a/c
+    ac
+    aircon
+    air condintioned
 
-@[air condition optional]('entity': 'specs', 'value': '210')
-    air condition optional
+//@[a/c control location]('entity': 'specs', 'value': '209')
+//    a/c control location
+
+//@[air condition optional]('entity': 'specs', 'value': '210')
+//    air condition optional
 
 @[front parking assist]('entity': 'specs', 'value': '300')
     front parking assist
@@ -111,8 +122,16 @@
 
 @[doors]('entity': 'specs', 'value': '400')
     doors
-    dr
-    door
+    ~[door count] door
+    ~[door count] doors
+
+~[door count]
+    2
+    4
+    5
+    two
+    four
+    five
 
 @[vehicle body type]('entity': 'specs', 'value': '401')
     vehicle body type
@@ -582,9 +601,6 @@
     engine size
     size engine
 
-~[engine-spec]
-    @[engine description]
-
 @[displacement cc]('entity': 'specs', 'value': '1002')
     displacement cc
 
@@ -594,7 +610,6 @@
 @[number of cylinders]('entity': 'specs', 'value': '1004')
     number of cylinders
     cylinders
-
 
 @[engine valve count]('entity': 'specs', 'value': '1005')
     engine valve count
@@ -689,13 +704,6 @@
     rear wheel drive
     rwd
 
-//specs that indicate trim level
-~[indicator-spec]
-    @[driven wheels]
-    @[transmission type]
-    @[fuel]
-    @[engine description]
-
 @[awd type]('entity': 'specs', 'value': '1201')
     awd type
 
@@ -754,7 +762,6 @@
     trim name
 
 //seat-specs
-//count-spec
 @[total seat count]('entity': 'specs', 'value':'1600')
     total seat count
     seating capacity
@@ -889,11 +896,6 @@
     nappa leather seats
     ~[color] leather
 
-~[seats-spec]
-    @[total seat count]
-    @[1st Row Seating Count]
-    @[2nd Row Seating Count]
-
 //seats speak
 
 //row count
@@ -974,12 +976,10 @@
 @[navigation]('entity': 'specs', 'value': '2000')
     navigation
     gps
-    map
-    nav
     nav system
     navigation system
+    navigation package
     gps system
-    guidance
 
 @[navigation real time traffic]('entity': 'specs', 'value': '2001')
     navigation real time traffic
@@ -1607,7 +1607,6 @@
     @[base price]
     @[front a/c]
     @[sun sensor]
-    @[air filtration]
     @[auto parking system]
     @[surround view monitor]
     @[ABS]
@@ -1651,10 +1650,6 @@
     @[lane change assist]
     @[front a/c zones]
     @[rear a/c]
-    @[total a/c zones]
-    @[a/c control type]
-    @[a/c control location]
-    @[air condition optional]
     @[front parking assist]
     @[rear parking assist]
     @[parking assist description]
@@ -1890,8 +1885,35 @@
     @[fuel]
     @[leather seats]
 
+//spec types
+~[price-spec]
+    @[invoice price]
+    @[msrp]
+    @[delivery fee]
+
+~[optional-spec]
+    @[navigation]
+
+~[indicator-spec]
+    @[driven wheels]
+    @[transmission type]
+    @[fuel]
+    @[engine description]
+
+~[engine-spec]
+    @[engine description]
+    @[horsepower]
+
 ~[count-spec]
     @[total seat count]
     @[highway mpg]
     @[combined mpg]
     @[city mpg]
+
+~[size-spec]
+    @[cargo volume]
+
+~[seats-spec]
+    @[total seat count]
+    @[1st Row Seating Count]
+    @[2nd Row Seating Count]

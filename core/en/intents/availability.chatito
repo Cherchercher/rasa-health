@@ -1,0 +1,17 @@
+import ../common.chatito
+
+%[availability#when]('training': '100', 'distribution': 'even')
+    when will ~[model] become available
+    are ~[model] at the dealer already
+    is the ~[model] available now
+    when does the ~[model] come out
+    when will the ~[model] models be available in the ~[city-location] area
+    ~[greeting] when will the ~[model] be available for pick up in ~[state-location]
+    when will the ~[model] be available in ~[region-location]
+    can you let me know when the ~[model] will be released in ~[state-location]
+    when do you expect to have the ~[model] in ~[region-location]
+    is the ~[model] out yet or when is it expected to be released
+    just want to know when the ~[model] is available in ~[state-location]
+    when is the ~[model] going to be available in ~[city-location]
+    when will the ~[model] be released
+    when will we hear about the ~[model]
