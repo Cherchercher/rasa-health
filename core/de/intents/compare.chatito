@@ -1,13 +1,10 @@
-import ../entities/model.chatito
-
-%[compare#general]('training': '50')
-    Wie vergleicht sich der ~[cars] mit ~[cars]?
+import ../common.chatito
 
 %[compare#price]('training': '50')
-    welches ist günstiger, ~[cars] oder ~[cars]
+    welcher is billiger, ~[cars] or ~[cars]
 
 %[compare#size]('training': '50')
-    welches ist geräumiger, ~[cars] oder ~[cars]
+    Ich suche ein geräumiges Auto. Empfehlen Sie ~[cars] or ~[cars]
 
 %[compare#power]('training': '50')
-    welches hat bessere PS, ~[cars] oder ~[cars]
+    Ich möchte ein Auto mit viel PS. Ich ziehe ~[cars] und ~[cars] in Erwägung.
