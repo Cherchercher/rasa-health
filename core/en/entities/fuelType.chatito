@@ -1,0 +1,108 @@
+@[hydrogen#fuel-type]('entity': 'fuelType', 'value': 'hydrogen')
+    hydrogen
+    Hydrogen
+    fuel cell
+    fuel cells
+    fuelcell
+    fuelcells
+    fuel-cell
+    fuel-cells
+    fuel - cell
+    fuel - cells
+    fc
+    fcs
+
+@[diesel#fuel-type]('entity': 'fuelType', 'value': 'diesel')
+    diesel
+    Diesel
+
+@[electric#car]('entity': 'fuelType', 'value': 'electric')
+    electric
+    electrics
+    fully electric
+    fully electrics
+    ev
+    evs
+
+@[electric#fuel-type]('entity': 'fuelType', 'value': 'electric')
+    electricity
+    electricity only
+    only on electricity
+
+@[flex-fuel#fuel-type]('entity': 'fuelType', 'value': 'flex-fuel')
+    flex-fuel
+    ffv
+    FFV
+    Flex Fuel
+    flex fuel
+    E85
+    Ethanol
+
+@[hybrid#fuel-type]('entity': 'fuelType', 'value': 'hybrid')
+    gasoline and electricity
+    electricity and gasoline
+    gas and electricity
+    electricity and gas
+    petrol and electricity
+    electricity and petrol
+    gasoline and electic
+    electric and gasoline
+    gas and electric
+    electric and gas
+    petrol and electric
+    electric and petrol
+
+@[hybrid#car]('entity': 'fuelType', 'value': 'hybrid')
+    hybrid
+    hybrids
+
+@[plug-in hybrid#car]('entity': 'fuelType', 'value': 'plug-in hybrid')
+    plug-in hybrid
+    plug-in hybrids
+    plug - in hybrid
+    plug - in hybrids
+    plug in hybrid
+    plug in hybrids
+    plugin hybrid
+    plugin hybrids
+    plug-in
+    plug-ins
+    plug - in
+    plug - ins
+    plug in
+    plug ins
+    plugin
+    plugins
+    plugs in
+    phev
+    phevs
+
+@[cng#fuel-type]('entity': 'fuelType', 'value': 'cng')
+    cng
+    Natural Gas
+    natural gas
+    CNG
+
+@[gasoline#fuel-type]('entity': 'fuelType', 'value': 'gasoline')
+    gasoline
+    gas
+    petrol
+
+
+~[each-fuel-type]
+    @[hybrid#fuel-type]
+    @[gasoline#fuel-type]
+    @[cng#fuel-type]
+    @[hydrogen#fuel-type]
+    @[flex-fuel#fuel-type]
+    @[diesel#fuel-type]
+    @[electric#fuel-type]
+
+~[each-fuel-car]
+    @[hybrid#car]
+    @[plug-in hybrid#car]
+    @[electric#car]
+
+~[fuel]
+    ~[each-fuel-type]
+    ~[each-fuel-car]

@@ -1,0 +1,36 @@
+@[invoice price]('entity': 'priceSpecs', 'value': '100')
+    invoice price
+    invoice cost
+    dealer price
+    dealer cost
+
+@[msrp]('entity': 'priceSpecs', 'value': '101')
+    msrp
+    price
+    cost
+    the price
+    prices
+    price range
+    sticker price
+    recommended price
+    suggested price
+    retail price
+    suggested retail price
+    manufacturer price
+
+@[delivery fee]('entity': 'priceSpecs', 'value': '102')
+    delivery fee
+    cost of delivery
+    delivery cost
+    fees
+
+@[base price]('entity': 'priceSpecs', 'value': '103')
+    base price
+    starting price
+    lowest price
+
+~[price-spec]
+    @[invoice price]
+    @[msrp]
+    @[delivery fee]
+    @[base price]

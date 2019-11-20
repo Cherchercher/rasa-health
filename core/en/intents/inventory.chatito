@@ -29,6 +29,9 @@ import ../common.chatito
     ~[searching] for inventory for a ~[model] with ~[spec]
     ~[dealer] inventory ~[model] ~[ext-color] ~[int-color] near zip code 39183
 
+%[inventory#cantFind]('training': '10', 'distribution': 'even')
+    i want to buy a ~[model] but no dealers ever have one in stock
+
 //variations for inventory intent only
 ~[dealer]
     dealer

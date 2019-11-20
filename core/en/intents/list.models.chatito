@@ -1,12 +1,27 @@
 import ../common.chatito
 
 %[list.models]('training': '100', 'distribution': 'even')
-    ~[what-which] ~[model-type] ~[has] ~[spec]
-    ~[what-which] ~[model-type?] ~[has] ~[spec]
+    ~[what-which] ~[model-type] ~[has] ~[optional-spec]
+    ~[what-which] ~[model-type?] ~[has] ~[optional-spec]
     ~[declaritive] ~[modifier-spec] what does ~[model-type] have
     ~[exist] ~[model-type] ~[has]
     ~[exist] ~[model-type] ~[has] ~[spec]
+    do all models have ~[optional-spec]
+    do all ~[model-type] have ~[optional-spec]
+    looking for ~[seats-spec] ~[model-type] ~[modifier]
 
 //ways people ask about unspecified models by 'sizey' words which may describe the model itself or by a model containing a 'size-spec'
 %[list.models#size]('training': '100', 'distribution': 'even')
     ~[what-which] ~[model-type] ~[has] the ~[definite-size] ~[size-spec]
+    whats your ~[definite-size] ~[model-type] with ~[indicator-spec]
+    whats your ~[definite-size] ~[model-type] with ~[optional-spec]
+
+%[list.models#indicator]('training': '100', 'distribution': 'even')
+    ~[what-which] ~[model-type] have ~[indicator-spec]
+    ~[what-which] models have ~[indicator-spec] or ~[indicator-spec]
+    ~[what-which] 
+
+%[list.models#seats]('training': '100', 'distribution': 'even')
+    need 7 seats
+    a ~[model-type] 8 passengers
+    which model come with

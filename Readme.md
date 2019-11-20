@@ -67,7 +67,7 @@ Test the model `sh ./tests/de/test.sh`. Wrong classifications are listed in `res
 
 
 
-### English NLP
+### English NLP Training
 
 Add intents and entities under `core/en/`
 
@@ -79,4 +79,4 @@ Add proposed phrases with their corresponding intents and entities under `data/e
 
 Test the model `sh ./tests/en/test.sh`. Wrong classifications are listed in `result/intent_errors.json`
 
-
+### Enlish NLU Notes

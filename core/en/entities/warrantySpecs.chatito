@@ -1,0 +1,47 @@
+@[basic warranty type]('entity': 'warranty_warrantySpecs', 'value': '1700')
+    basic warranty type
+
+@[basic warranty maximum miles]('entity': 'warrantySpecs', 'value': '1701')
+    Basic Warranty Maximum Miles
+    warranty miles
+
+@[basic warranty maximum years]('entity': 'warrantySpecs', 'value': '1702')
+    Basic Warranty Maximum Years
+    warranty months
+    warranty years
+
+@[basic warranty miles type]('entity': 'warrantySpecs', 'value': '1703')
+    Basic Warranty Miles Type
+
+@[basic warranty years type]('entity': 'warrantySpecs', 'value': '1704')
+    Basic Warranty Years Type
+
+@[rust warranty type]('entity': 'warrantySpecs', 'value': '1705')
+    Rust Warranty Type
+
+@[rust warranty maximum miles]('entity': 'warrantySpecs', 'value': '1706')
+    Rust Warranty Maximum Miles
+
+@[rust warranty max years]('entity': 'warrantySpecs', 'value': '1707')
+    Rust Warranty Max Years
+
+@[rust warranty miles type]('entity': 'warrantySpecs', 'value': '1708')
+    Rust Warranty Miles Type
+
+@[rust warranty years type]('entity': 'warrantySpecs', 'value': '1709')
+    Rust Warranty Years Type
+
+@[drivetrain warranty type]('entity': 'warrantySpecs', 'value': '1715')
+    Drivetrain Warranty Type
+
+@[drivetrain warranty maximum miles]('entity': 'warrantySpecs', 'value': '1716')
+    Drivetrain Warranty Maximum Miles
+
+@[drivetrain warranty maximum years]('entity': 'warrantySpecs', 'value': '1717')
+    Drivetrain Warranty Maximum Years
+
+@[drivetrain warranty miles type]('entity': 'warrantySpecs', 'value': '1718')
+    Drivetrain Warranty Miles Type
+
+@[drivetrain warranty years type]('entity': 'warrantySpecs', 'value': '1719')
+    Drivetrain Warranty Years Type
