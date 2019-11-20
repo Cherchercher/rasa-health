@@ -6,7 +6,7 @@ import ./entities/bodystyle.chatito
 import ./entities/make.chatito
 import ./entities/specs.chatito
 import ./entities/trim.chatito
-import ./entities/trim_levels.chatito
+import ./entities/specValues.chatito
 
 //ways users ask for cars when asking for a list of unspecified models that fit some criteria
 //this is kinda specific to the demo... will need to be reworked as anything kia should be linked to 'make' entity
@@ -16,17 +16,27 @@ import ./entities/trim_levels.chatito
     ~[model-year] ~[model-ent]
     ~[model-year] ~[model-trim]
 
+~[cars-general]
+    models
+    cars
+    trims
+
 ~[model-year]
-    2016
-    2017
-    2018
-    2019
-    2020
-    2021
+    @[model year-current]
+    @[model year-future]
+    @[model year-past]
+
+~[future-model]
+    @[model year-future] ~[model-ent]
+    new ~[model-ent]
 
 ~[model-type]
     kia
     kias
+    model
+    models
+    car
+    cars
     ~[bodystyle]
 
 ~[declaritive]

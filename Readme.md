@@ -67,7 +67,7 @@ Test the model at the root of project directory `sh ./tests/de/test.sh`. Wrong c
 
 
 
-### English NLP
+### English NLP Training
 
 Add intents and entities under `core/en/`
 
@@ -79,4 +79,4 @@ Add proposed phrases with their corresponding intents and entities under `data/g
 
 Test the model at the root of project directory `sh ./tests/en/test.sh`. Wrong classifications are listed in `result/intent_errors.json`
 
-
+### Enlish NLU Notes

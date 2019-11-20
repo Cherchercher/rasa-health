@@ -1,32 +1,17 @@
 import ../common.chatito
 
-%[list.trims]('training': '100')
+//this intent is to find model trims that
+///     1. have declared feature
+////        i.e. 'which tellurides have leather seats'
+///     2. are part of some attribute group by spec value
+////        i.e. '7 seater' is a 
+
+%[list.trims]('training': '25', 'distribution': 'even')
     how many trims are there for ~[trim-entity]
     ~[declaritive] ~[trim-entity]
     ~[trim-entity]
 
-%[list.trims#price]('training': '100', 'distribution': 'even')
-    ~[declaritive] in the ~[trim-entity], what is the ~[price-spec]?
-    ~[quantify-price] ~[model]
-    ~[price-spec] for ~[model]
-    ~[what-which] ~[price-spec] for the ~[model]
-    ~[what-which] ~[price-spec]
-    ~[price-spec] for ~[model]
-    ~[model] ~[price-spec]
-
-~[quantify-price]
-    how much is the
-    how much for a
-    how much for the
-    how much is this
-    how much is the
-    how much would the
-    how much does the
-    how expensive is the
-    how expensive for a
-    how expensive for the
-    how expensive is this
-
+//indicator specs help identify a specific trim level
 %[list.trims#indicator]('training': '100', 'distribution': 'even')
     ~[exist] ~[indicator-spec] ~[model]?
     ~[engine] on ~[model]
@@ -34,6 +19,7 @@ import ../common.chatito
     ~[what-which] ~[engine] options are available for ~[model]
     ~[exist] ~[model] ~[posseses] ~[indicator-spec]
 
+//list trims that have some declared optional spec
 %[list.trims#optional]('training': '100', 'distribution': 'even')
     ~[declaritive?] for the ~[model], which models ~[posseses] the ~[optional-spec]
     Do all ~[model] ~[posseses] ~[optional-spec]
@@ -48,13 +34,10 @@ import ../common.chatito
     Can you get the ~[model] with ~[optional-spec]
     ~[exist] ~[trim-level] ~[model-trim] ~[posseses] ~[optional-spec]
     ~[does the] ~[model-trim] ~[possess] ~[optional-spec]
-    is ~[spec] available ~[on-in] ~[model-trim]
-    are ~[spec] available ~[on-in] ~[model-trim]
+    is ~[optional-spec] available ~[on-in] ~[model-trim]
+    are ~[optional-spec] available ~[on-in] ~[model-trim]
     ~[declaritive] can i get a ~[optional-spec] in a ~[model]
     does the ~[model] ~[posseses] ~[spec]
-
-%[list.trims#count-specs]('training': '100', 'distribution': 'even')
-    ~[quantify] ~[count-spec] does the ~[make] ~[model-trim] ~[posseses]
 
 ~[quantify]
     how many

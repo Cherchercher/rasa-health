@@ -1,39 +1,6 @@
 ///////////////////////
 //       Specs       //
 ///////////////////////
-
-//price-spec
-@[invoice price]('entity': 'specs', 'value': '100')
-    invoice price
-    invoice cost
-    dealer price
-    dealer cost
-
-@[msrp]('entity': 'specs', 'value': '101')
-    msrp
-    price
-    cost
-    the price
-    prices
-    price range
-    sticker price
-    recommended price
-    suggested price
-    retail price
-    suggested retail price
-    manufacturer price
-
-@[delivery fee]('entity': 'specs', 'value': '102')
-    delivery fee
-    cost of delivery
-    delivery cost
-    fees
-
-@[base price]('entity': 'specs', 'value': '103')
-    base price
-    starting price
-    lowest price
-
 @[front a/c]('entity': 'specs', 'value': '200')
     front a/c
     a/c
@@ -48,6 +15,7 @@
     dual zone cooling
     dual zone heat control
     single zone
+    dual zone air
 
 @[rear a/c]('entity': 'specs', 'value': '202')
     rear seat ~[air conditioning]
@@ -55,8 +23,8 @@
     ~[air conditioning] vent in back seat
     ~[second row] a/c
 
-@[sun sensor]('entity': 'specs', 'value': '204')
-    sun sensor
+//@[sun sensor]('entity': 'specs', 'value': '204')
+//    sun sensor
 
 //@[air filtration]('entity': 'specs', 'value': '205')
 //    air filtration
@@ -82,31 +50,28 @@
 //@[air condition optional]('entity': 'specs', 'value': '210')
 //    air condition optional
 
-@[front parking assist]('entity': 'specs', 'value': '300')
-    front parking assist
+//@[front parking assist]('entity': 'specs', 'value': '300')
+//    front parking assist
 
-@[rear parking assist]('entity': 'specs', 'value': '301')
-    rear parking assist
+//@[rear parking assist]('entity': 'specs', 'value': '301')
+//    rear parking assist
 
 @[parking assist description]('entity': 'specs', 'value': '302')
     parking assist description
+    parking assist
+    park assist
+    parking sensors
+    parking assistance
+    auto park system
 
-@[ultrasonic parking assist]('entity': 'specs', 'value': '303')
-    ultrasonic parking assist
+//@[ultrasonic parking assist]('entity': 'specs', 'value': '303')
+//    ultrasonic parking assist
 
-@[camera parking assist]('entity': 'specs', 'value': '304')
-    camera parking assist
+//@[camera parking assist]('entity': 'specs', 'value': '304')
+//    camera parking assist
 
-@[auto parking system]('entity': 'specs', 'value': '305')
-    automatic parking system
-    auto parking system
-    auto parking
-
-@[auto parking system#verb]('entity': 'specs', 'value': '305')
-    park itself
-    park automatically
-    park by itself
-    park on its own
+//@[auto parking system]('entity': 'specs', 'value': '305')
+//    automatic parking system
 
 @[surround view monitor]('entity': 'specs', 'value': '306')
     360 monitor
@@ -133,78 +98,67 @@
     four
     five
 
-@[vehicle body type]('entity': 'specs', 'value': '401')
-    vehicle body type
+//@[vehicle body type]('entity': 'specs', 'value': '401')
+//    vehicle body type
 
-@[vehicle body style]('entity': 'specs', 'value': '402')
-    vehicle body style
+//@[vehicle body style]('entity': 'specs', 'value': '402')
+//    vehicle body style
 
-@[vehicle size]('entity': 'specs', 'value': '403')
-    vehicle size
+//@[vehicle size]('entity': 'specs', 'value': '403')
+//    vehicle size
 
-@[sliding driver van door]('entity': 'specs', 'value': '404')
-    sliding driver van door
+//@[sliding driver van door]('entity': 'specs', 'value': '404')
+//    sliding driver van door
 
-@[sliding passenger van door]('entity': 'specs', 'value': '405')
-    sliding passenger van door
+//@[sliding passenger van door]('entity': 'specs', 'value': '405')
+//    sliding passenger van door
 
-@[power sliding doors]('entity': 'specs', 'value': '406')
-    power sliding doors
+//@[power sliding doors]('entity': 'specs', 'value': '406')
+//    power sliding doors
 
-@[body description]('entity': 'specs', 'value': '407')
-    body description
+//@[body description]('entity': 'specs', 'value': '407')
+//    body description
 
-@[underbody protection]('entity': 'specs', 'value': '408')
-    Underbody Protection
+//@[underbody protection]('entity': 'specs', 'value': '408')
+//    Underbody Protection
 
-@[side door beams]('entity': 'specs', 'value': '409')
-    Side Door Beams
-    anti-intrusion beams
-    side impact beams
-    side-impact beams
+//@[side door beams]('entity': 'specs', 'value': '409')
+//    Side Door Beams
+//    anti-intrusion beams
+//    side impact beams
+//    side-impact beams
 
-@[body color bumpers]('entity': 'specs', 'value': '410')
-    Body Color Bumpers
+//@[body color bumpers]('entity': 'specs', 'value': '410')
+//    Body Color Bumpers
 
-@[body color side cladding]('entity': 'specs', 'value': '411')
-    Body Color Side Cladding
+//@[body color side cladding]('entity': 'specs', 'value': '411')
+//    Body Color Side Cladding
 
-@[front brake type]('entity': 'specs', 'value': '500')
-    front brake type
+//@[front brake type]('entity': 'specs', 'value': '500')
+//    front brake type
 
-@[rear brake type]('entity': 'specs', 'value': '501')
-    rear brake type
+//@[rear brake type]('entity': 'specs', 'value': '501')
+//    rear brake type
 
 @[ABS]('entity': 'specs', 'value': '502')
     abs
     abs braking
     abs brakes
     anti blocking system
-    anti-blocking system
-    anti - blocking system
-    anti-lock braking system
-    anti - lock braking system
-    anti lock braking system
-    anti-lock braking
-    anti - lock braking
-    anti lock braking
-    anti-lock brakes
-    anti - lock brakes
-    anti lock brakes
 
 @[hill start assist]('entity': 'specs', 'value': '503')
     hill start assist
     hill assist
     hill start
 
-@[EBD]('entity': 'specs', 'value': '504')
-    electronic brake distribution
-    ebd
+//@[EBD]('entity': 'specs', 'value': '504')
+//    electronic brake distribution
 
 @[brake assist]('entity': 'specs', 'value': '505')
     brake assist
     brakes assist
     braking assist
+    automatic braking
 
 @[cargo volume]('entity': 'specs', 'value': '600')
     cargo volume
@@ -215,20 +169,18 @@
     cargo size
     cargo space
     luggage
-
-@[cargo volume seats in]('entity': 'specs', 'value': '601')
-    cargo volume seats in
-    cargo volume with closed seats
-    cargo volume without seats
-
-@[cargo volume seats out]('entity': 'specs', 'value': '602')
-    cargo volume seats out
     cargo volume with open seats
     cargo volume with seats
     cargo volume with seats opened
 
-@[turning diameter]('entity': 'specs', 'value': '700')
-    turning diameter
+//@[cargo volume seats in]('entity': 'specs', 'value': '601')
+//    cargo volume seats in
+
+//@[cargo volume seats out]('entity': 'specs', 'value': '602')
+//    cargo volume seats out
+
+//@[turning diameter]('entity': 'specs', 'value': '700')
+//    turning diameter
 
 @[towing capacity]('entity': 'specs', 'value': '701')
     towing capacity
@@ -236,6 +188,9 @@
     tow capacity
     tow package
     towing package
+    weight it can tow
+    weight for towing
+    tow wieght
 
 @[payload]('entity': 'specs', 'value': '702')
     payload
@@ -259,19 +214,22 @@
     zero to sixty miles
     zero to sixty mph time
 
-@[0 to 60 mph time calculated]('entity': 'specs', 'value': '705')
-    0 to 60 MPH Time Calculated
+//@[0 to 60 mph time calculated]('entity': 'specs', 'value': '705')
+//    0 to 60 MPH Time Calculated
 
-@[0 to 100 kph time calculated]('entity': 'specs', 'value': '706')
-    0 to 100 KPH Time Calculated
+//@[0 to 100 kph time calculated]('entity': 'specs', 'value': '706')
+//    0 to 100 KPH Time Calculated
 
 @[curb weight]('entity': 'specs', 'value': '707')
     curb weight
-    weigh
-    weight
+    the weight
+    weight of car
+    cars weight
+    car's weight
 
 @[gross weight]('entity': 'specs', 'value': '708')
     gross weight
+    train weight
 
 @[fuel tank capacity]('entity': 'specs', 'value': '709')
     fuel tank capacity
@@ -290,38 +248,6 @@
     battery change
     charging duration
 
-@[battery recharge time#charging]('entity': 'specs', 'value': '710')
-    charging
-    charging
-    charging
-    charging
-    charging
-    charging battery
-    charging the battery
-    fully charging
-    fully charging battery
-    fully charging the battery
-
-@[battery recharge time#full-charge]('entity': 'specs', 'value': '710')
-    full charge
-    full battery charge
-    battery charge
-
-@[battery recharge time#charge]('entity': 'specs', 'value': '710')
-    charge
-
-@[battery recharge time#fully-charge]('entity': 'specs', 'value': '710')
-    charge
-    charge
-    charge
-    charge
-    charge
-    charge battery
-    charge the battery
-    fully charge
-    fully charge battery
-    fully charge the battery
-
 @[highway mpg]('entity': 'specs', 'value': '711')
     highway mpg
     mpg highway
@@ -330,18 +256,18 @@
     mpg on highway
     maximum mpg
     max mpg
+    fuel efficient
 
+//primary routing
 @[combined mpg]('entity': 'specs', 'value': '712')
     mpg
+    mpg
+    the mpg
+    miles per gallon
+    gas mileage
     combined mpg
     mpg combined
-    mileage
-    em pee gee
-    miles per gallon
-    fuel efficient
-    gas mileage
     mpgs
-    efficient
     fuel economic
     fuel consumption
     gas consumption
@@ -368,11 +294,8 @@
     quarter mile time
     quarter mile
 
-@[quarter mile mph]('entity': 'specs', 'value': '716')
-    quarter mile mph
-    quarter mile miles
-    quarter mile speed
-    quarter mile speeds
+//@[quarter mile mph]('entity': 'specs', 'value': '716')
+//    quarter mile mph
 
 @[co2]('entity': 'specs', 'value': '719')
     co2 grams/mile
@@ -390,6 +313,7 @@
     range in a city
     range in the city
 
+//primary routing
 @[combined range]('entity': 'specs', 'value': '721')
     range
     combined range
@@ -401,18 +325,23 @@
     range on highway
     range on a highway
     range on the highway
+    max range
 
-@[power to weight ratio]('entity': 'specs', 'value': '723')
-    Power To Weight Ratio
+//@[power to weight ratio]('entity': 'specs', 'value': '723')
+//    Power To Weight Ratio
 
 @[battery-range]('entity': 'specs', 'value': '725')
-    charge distance
-    electric range
     battery range
+    electric range
+    full charge
+    single full charge
+    one charge
+    electric mode
+    ev only
     miles on battery
     electric car range
     range on electric
-    range on battery
+    on ~[the] battery
     all electric range
 
 @[battery-range#without-recharge]('entity': 'specs', 'value': '725')
@@ -448,22 +377,17 @@
 @[highway mpge]('entity': 'specs', 'value': '728')
     highway mpge
     mpge highway
-    mpge on a highway
+    mpge highway
     mpge on the highway
     mpge on highway
     maximum mpge
     max mpge
 
+//primary routing
 @[combined mpge]('entity': 'specs', 'value': '729')
     mpge
     combined mpge
     mpge combined
-    miles per gallon of gasoline-equivalent
-    miles per gallon gasoline-equivalent
-    miles per gallon of gasoline - equivalent
-    miles per gallon gasoline - equivalent
-    miles per gallon of gasoline equivalent
-    miles per gallon gasoline equivalent
     miles per gallon equivalent
     gas equivalent mileage
     mpges
@@ -478,21 +402,19 @@
     minimum mpge
     min mpge
 
+//interior dimension
 @[front head room]('entity': 'specs', 'value': '800')
     front head room
-    front head space
+    headroom
     front headroom
     head room
     head space
-    headroom
     room for head
-    room above the head
     room above head
     space above the head
     space above head
     space for head
     front room for head
-    front room above the head
     front room above head
     front space above the head
     front space above head
@@ -569,6 +491,8 @@
 
 @[vehicle width]('entity': 'specs', 'value': '901')
     vehicle width
+    width
+    full width
 
 @[vehicle length]('entity': 'specs', 'value': '902')
     vehicle length
@@ -1601,21 +1525,11 @@
 
 // All specs
 ~[spec]
-    @[invoice price]
-    @[msrp]
-    @[delivery fee]
-    @[base price]
     @[front a/c]
-    @[sun sensor]
-    @[auto parking system]
     @[surround view monitor]
-    @[ABS]
     @[hill start assist]
-    @[EBD]
     @[brake assist]
     @[cargo volume]
-    @[cargo volume seats in]
-    @[cargo volume seats out]
     @[0-60 mph]
     @[curb weight]
     @[gross weight]
@@ -1626,7 +1540,6 @@
     @[city mpg]
     @[battery-range]
     @[quarter mile time]
-    @[quarter mile mph]
     @[co2]
     @[city range]
     @[combined range]
@@ -1650,21 +1563,7 @@
     @[lane change assist]
     @[front a/c zones]
     @[rear a/c]
-    @[front parking assist]
-    @[rear parking assist]
     @[parking assist description]
-    @[ultrasonic parking assist]
-    @[camera parking assist]
-    @[vehicle body type]
-    @[vehicle body style]
-    @[vehicle size]
-    @[sliding driver van door]
-    @[sliding passenger van door]
-    @[power sliding doors]
-    @[body description]
-    @[front brake type]
-    @[rear brake type]
-    @[turning diameter]
     @[payload]
     @[third row hip room]
     @[third row leg room]
@@ -1716,6 +1615,7 @@
     @[usb connection]
     @[auxilary mp3 input]
     @[navigation real time traffic]
+    @[navigation]
     @[panoramic]
     @[side airbags]
     @[passenger airbags]
@@ -1799,14 +1699,7 @@
     @[remote trunk release]
     @[remote trunk lock]
     @[wireless phone charger]
-    @[underbody protection]
-    @[side door beams]
-    @[body color bumpers]
-    @[body color side cladding]
     @[towing capacity]
-    @[0 to 60 mph time calculated]
-    @[0 to 100 kph time calculated]
-    @[power to weight ratio]
     @[front hip room]
     @[second row hip room]
     @[front track width]
@@ -1825,20 +1718,6 @@
     @[total seat count]
     @[multi adjust driver]
     @[multi adjust pass]
-    @[basic warranty maximum miles]
-    @[basic warranty maximum years]
-    @[basic warranty miles type]
-    @[basic warranty years type]
-    @[rust warranty type]
-    @[rust warranty maximum miles]
-    @[rust warranty max years]
-    @[rust warranty miles type]
-    @[rust warranty years type]
-    @[drivetrain warranty type]
-    @[drivetrain warranty maximum miles]
-    @[drivetrain warranty maximum years]
-    @[drivetrain warranty miles type]
-    @[drivetrain warranty years type]
     @[auxilary audio input]
     @[total speaker count]
     @[lane departure warning]
@@ -1886,12 +1765,27 @@
     @[leather seats]
 
 //spec types
-~[price-spec]
-    @[invoice price]
-    @[msrp]
-    @[delivery fee]
-
 ~[optional-spec]
+    @[navigation]
+    @[rear a/c]
+    @[parking assist description]
+    @[usb-ports]
+    @[collision avoidance]
+    @[automatic emergency braking]
+    @[blind spot detection]
+    @[rear cross traffic alert]
+    @[forward collision warning]
+    @[lane change assist]
+    @[lumbar support driver]
+    @[memory seat controls]
+    @[power driver seat]
+    @[power lumbar control]
+    @[active head restraints]
+    @[second row head restraints]
+    @[satellite radio]
+    @[usb connection]
+    @[auxilary mp3 input]
+    @[navigation real time traffic]
     @[navigation]
 
 ~[indicator-spec]
@@ -1917,3 +1811,8 @@
     @[total seat count]
     @[1st Row Seating Count]
     @[2nd Row Seating Count]
+
+~[measure-spec]
+    @[curb weight]
+    @[vehicle width]
+    @[vehicle height]

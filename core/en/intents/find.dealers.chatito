@@ -1,46 +1,83 @@
 import ../common.chatito
 
-%[availability#when]('training': '100', 'distribution': 'even')
-    when will ~[future-model] become available
-    are ~[future-model] at the dealer already
-    is the ~[future-model] available now
-    when does the ~[future-model] come out
-    when will the ~[future-model] models be available in the ~[relativelocation] area
-    ~[greeting] when will the ~[future-model] be available for pick up in ~[US state]
-    when will the ~[future-model] be available in ~[US state]
-    can you let me know when the ~[future-model] will be released in ~[US state]
-    when do you expect to have the ~[future-model] in ~[relative location]
-    is the ~[future-model] out yet or when is it expected to be released
-    just want to know when the ~[future-model] is available in ~[relative location]
-    when is the ~[future-model] going to be available in ~[relative location]
-    when will the ~[future-model] be released
-    when will we hear about the ~[future-model]
+%[find.dealers]('training': '100', 'distribution': 'even')
+    i need a dealer in ~[relative location] to test drive the ~[model]
+    do you have a dealer in ~[relative location]
+    where is the nearest ~[make] dealership
+    can you send me my nearest dealer
+    where is a dealer near ~[relative location]
+    want to find nearest dealer to me
+    where can i find a dealership
+    dealer in ~[relative location]
+    where can i test drive in ~[relative location]
+    nearest ~[make] dealership
+    dealers near me
+    is there a ~[make] dealership in ~[relative location]
+    ~[make] dealers near me
+    how can I get ~[make] dealership in ~[relative location]
+    want to know dealers in ~[relative location]
+    ~[make] dealers open on Sunday near me
+    dealership for ~[make]
+
+~[relative location]
+    ~[US state]
+    ~[region fragment] ~[US State]
+    ~[region fragment] ~[US State] area
+    ~[US city]
+    ~[zipcode]
 
 ~[US state]
+    Alabama
+    Alabama
     Alaska
+    Arizona
+    Arkansas
     California
     Colorado
     Connecticut
+    Delaware
+    Florida
+    Georgia
     Hawaii
+    Idaho
     Illinois
+    Indiana
+    Iowa
+    Kansas
+    Kentucky
+    Louisiana
+    Maine
     Maryland
     Massachusetts
     Michigan
     Minnesota
+    Mississippi
+    Missouri
     Montana
+    Nebraska
+    Nevada
+    New Hampshire
     New Jersey
+    New Mexico
     New York
+    North Carolina
+    North Dakota
+    Ohio
+    Oklahoma
     Oregon
     Pennsylvania
     Rhode Island
     South Carolina
+    South Dakota
     Tennessee
     Texas
     Utah
     Vermont
     Virginia
     Washington
+    West Virginia
     Wisconsin
+    Wyoming
 
 ~[region fragment]
     north
@@ -122,10 +159,3 @@ import ../common.chatito
     35440
     79311
     68001
-
-~[relative location]
-    ~[US state]
-    ~[region fragment] ~[US state]
-    ~[region fragment] ~[US state] area
-    ~[US city]
-    ~[zipcode]
