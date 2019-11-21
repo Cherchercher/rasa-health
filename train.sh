@@ -1,4 +1,5 @@
 #! /bin/bash
+cd /Linguist
 
 python -m rasa_nlu.train \
     -c /Linguist/configs/en/rasa_config.yml \
