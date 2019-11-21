@@ -9,7 +9,8 @@ docker run --rm -v $(pwd)/core/en:/core/en 261695625069.dkr.ecr.us-east-1.amazon
 
 # Preprocess and Train the data
 docker pull 261695625069.dkr.ecr.us-east-1.amazonaws.com/rasa-pipeline:latest
-docker run --runtime=nvidia --rm -v $(pwd):/Linguist 261695625069.dkr.ecr.us-east-1.amazonaws.com/rasa-pipeline:latest /Linguist/train.sh
+# Disable nvidia for now since we dont have to much examples now
+docker run --rm -v $(pwd):/Linguist 261695625069.dkr.ecr.us-east-1.amazonaws.com/rasa-pipeline:latest /Linguist/train.sh
 
 # Get the current version
 export version=$(cat VERSION)
