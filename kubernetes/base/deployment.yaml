@@ -1,0 +1,56 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rasa
+  labels:
+    app: rasa
+spec:
+  replicas: 1
+  revisionHistoryLimit: 2
+  selector:
+    matchLabels:
+      app: rasa
+  template:
+    metadata:
+      labels:
+        app: rasa
+    spec:
+      containers:
+      - name: duckling
+        image: rasa/duckling:0.1.6.2
+        resources:
+          requests:
+            cpu: "0.1"
+            memory: "50Mi"
+          limits:
+            cpu: "0.5"
+            memory: "250Mi"
+      - name: rasa
+        image: 261695625069.dkr.ecr.us-east-1.amazonaws.com/linguist-rasa:latest
+        ports:
+        - name: api
+          containerPort: 5000
+        envFrom:
+        - configMapRef:
+            name: rasa
+        - secretRef:
+            name: rasa
+        readinessProbe:
+          exec:
+            command:
+            - /readiness-probe.sh
+          initialDelaySeconds: 30
+          periodSeconds: 30
+        livenessProbe:
+          tcpSocket:
+            port: 5000
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        resources:
+          requests:
+            cpu: "0.1"
+            memory: "3Gi"
+          limits:
+            cpu: "1.0"
+            memory: "10Gi"
