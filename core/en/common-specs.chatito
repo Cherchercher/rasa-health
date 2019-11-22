@@ -1,0 +1,81 @@
+import ../entities/specs.chatito
+import ../entities/specs.drivetrain.chatito
+import ../entities/specs.fuelconsumption.chatito
+import ../entities/specs.infotainment.chatito
+import ../entities/specs.prices.chatito
+import ../entities/specs.safety.chatito
+import ../entities/specs.seating.chatito
+import ../entities/specs.storage.chatito
+import ../entities/specs.warranty.chatito
+import ../entities/specs.wheels.chatito
+
+~[any-spec]
+    ~[optional-spec]
+    ~[indicator-spec]
+    ~[engine-spec]
+    ~[count-spec]
+    ~[size-spec]
+    ~[measure-spec]
+    ~[safety-spec]
+
+~[optional-spec]
+    @[navigation]
+    @[rear a/c]
+    @[parking assist description]
+    @[usb-ports]
+    @[collision avoidance]
+    @[automatic emergency braking]
+    @[blind spot detection]
+    @[rear cross traffic alert]
+    @[forward collision warning]
+    @[lane change assist]
+    @[lumbar support driver]
+    @[memory seat controls]
+    @[power driver seat]
+    @[power lumbar control]
+    @[active head restraints]
+    @[second row head restraints]
+    @[satellite radio]
+    @[usb connection]
+    @[auxilary mp3 input]
+    @[navigation real time traffic]
+    @[navigation]
+
+~[indicator-spec]
+    @[driven wheels]
+    @[engine description]
+    @[transmission type]
+    @[fuel]
+    @[compressor type]
+
+~[engine-spec]
+    @[engine description]
+    @[horsepower]
+    @[compressor type]
+    @[fuel]
+    @[recommended fuel type]
+
+~[count-spec]
+    @[total seat count]
+    @[highway mpg]
+    @[combined mpg]
+    @[city mpg]
+
+~[size-spec]
+    @[cargo volume]
+
+~[seats-spec]
+    @[total seat count]
+    @[1st Row Seating Count]
+    @[2nd Row Seating Count]
+
+~[measure-spec]
+    @[curb weight]
+    @[ground clearance]
+    @[vehicle width]
+    @[vehicle height]
+    @[vehicle length]
+    @[wheelbase]
+    @[bed width]
+    @[bed height]
+    @[front track width]

@@ -1,0 +1,78 @@
+@[center console]('entity': 'specs', 'value': '1304')
+    Center Console
+
+@[overhead console]('entity': 'specs', 'value': '1305')
+    Overhead Console
+
+@[seat back storage]('entity': 'specs', 'value': '1308')
+    seat back storage
+
+@[under seat storage]('entity': 'specs', 'value': '1309')
+    under seat storage
+
+@[door pocket storage]('entity': 'specs', 'value': '1310')
+    door pocket storage
+
+@[armreset storage]('entity': 'specs', 'value': '1311')
+    armreset storage
+
+@[cargo volume]('entity': 'specs', 'value': '600')
+    cargo volume
+    max cargo volume
+    cargo max volume
+    cargo capacity
+    max cargo capacity
+    cargo size
+    cargo space
+    cargo volume with open seats
+    cargo volume with seats
+    cargo volume with seats opened
+
+@[cup holders]('entity': 'specs', 'value': '1312')
+    cup holders
+    Cup Holders
+    cup-holders
+    cupholders
+    beverage holders
+
+@[roof rack]('entity': 'specs', 'value': '3601')
+    roof rack
+
+@[hands free trunk lock]('entity': 'specs', 'value': '3602')
+    hands free trunk lock
+
+@[locking bed storage]('entity': 'specs', 'value': '3603')
+    locking bed storage
+
+@[power liftgate]('entity': 'specs', 'value': '3604')
+    power liftgate
+
+@[hands free liftgate]('entity': 'specs', 'value': '3605')
+    hands free liftgate
+
+@[power trunk]('entity': 'specs', 'value': '3606')
+    power trunk
+
+@[roof rails]('entity': 'specs', 'value': '3607')
+    roof rails
+
+@[cargo tie downs]('entity': 'specs', 'value': '1303')
+    cargo tie downs
+
+~[storage-spec]
+    @[center console]
+    @[overhead console]
+    @[seat back storage]
+    @[under seat storage]
+    @[door pocket storage]
+    @[armreset storage]
+    @[cargo volume]
+    @[cup holders]
+    @[roof rack]
+    @[hands free trunk lock]
+    @[locking bed storage]
+    @[power liftgate]
+    @[hands free liftgate]
+    @[power trunk]
+    @[roof rails]
+    @[cargo tie downs]

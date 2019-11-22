@@ -35,10 +35,10 @@ import ../entities/fuelType.chatito
     how far can i drive with ~[atcl] ~[model-ent]
 
 %[request.spec#ground clearance]('training': '25', 'distribution': 'even')
-    how far [off the ground] is the telluride
-    how high [off the ground] is the car
-    how far [from ground] to entry
-    how far [off the road] is it
+    how far off the ground is the ~[model]
+    how high off the ground is the ~[model]
+    how far from ground to entry is it
+    how far off the road is ~[model]
 
 ~[atcl]
     a

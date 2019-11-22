@@ -1,4 +1,6 @@
 import ../common.chatito
+import ../common-specs.chatito
+import ../entities/locations.chatito
 
 %[inventory]('training': '100', 'distribution': 'even')
     ~[searching] ~[model]

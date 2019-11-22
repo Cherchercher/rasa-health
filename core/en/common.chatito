@@ -1,12 +1,11 @@
 //////////////////////////
 //     Common parts     //
 //////////////////////////
-//import ../entities/attributes.chatito
+import ./entities/makes.chatito 
+import ./entities/models.chatito
+import ./entities/models-trims.chatito
 import ./entities/bodystyle.chatito
 import ./entities/make.chatito
-import ./entities/specs.chatito
-import ./entities/trim.chatito
-import ./entities/specValues.chatito
 
 //ways users ask for cars when asking for a list of unspecified models that fit some criteria
 //this is kinda specific to the demo... will need to be reworked as anything kia should be linked to 'make' entity
@@ -16,10 +15,19 @@ import ./entities/specValues.chatito
     ~[model-year] ~[model-ent]
     ~[model-year] ~[model-trim]
 
+
+
 ~[cars-general]
     models
     cars
     trims
+    vehicles
+
+~[cars-general]
+    models
+    cars
+    trims
+    vehicles
 
 ~[model-year]
     @[model year-current]

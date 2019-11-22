@@ -1,0 +1,149 @@
+//technically, not all of these are 'infotainment', but 'audio', 'electronics misc', etc. but are used in
+//user queries simalarily...
+
+@[auxilary audio input]('entity': 'specs', 'value': '1804')
+    Auxilary Audio Input
+    aux
+
+@[radio type]('entity': 'specs', 'value': '1808')
+    radio type
+
+@[satellite radio]('entity': 'specs', 'value': '1810')
+    sirius
+    siriusxm
+    sirius-xm
+    sirius - xm
+    xm
+    satellite radio
+    sat radio
+    SiriusXM
+
+@[usb connection]('entity': 'specs', 'value': '1811')
+    usb connection
+
+@[total speaker count]('entity': 'specs', 'value': '1812')
+    total speaker count
+    sound system
+    speakers
+    speaker system
+
+@[auxilary mp3 input]('entity': 'specs', 'value': '1815')
+    auxilary mp3 input
+
+@[navigation]('entity': 'specs', 'value': '2000')
+    navigation
+    gps
+    nav system
+    navigation system
+    navigation package
+    gps system
+
+@[navigation real time traffic]('entity': 'specs', 'value': '2001')
+    navigation real time traffic
+
+@[12v power outlet]('entity': 'specs', 'value': '2300')
+    12v power outlet
+
+@[ac power outlet]('entity': 'specs', 'value': '2301')
+    ac power outlet
+
+@[usb-ports]('entity': 'specs', 'value': '2304')
+    USB port
+    USB ports
+    USB plug
+    USB plugs
+    USB outlet
+    USB outlets
+    USB
+    USBs
+    phone charging port
+    phone charging ports
+    charging port
+    charging ports
+    usb i can plug
+    usbs i can plug
+    phone charger
+    phone charging
+
+@[usb-ports#plug-in]('entity': 'specs', 'value': '2304')
+    plug ~[in?] ~[my?] usb
+    plug ~[in?] ~[a-the?] usb
+    plug ~[in?] ~[my?] usbs
+    plug ~[in?] ~[a-the?] usbs
+    plug ~[in?] ~[my?] phone
+    plug ~[in?] ~[a-the?] phone
+    plug ~[in?] ~[my?] phones
+    plug ~[in?] ~[a-the?] phones
+
+@[tire pressure display]('entity': 'specs', 'value': '2800')
+    Tire Pressure Display
+    tpms
+    tire pressure
+
+@[external temperature display]('entity': 'specs', 'value': '2803')
+    external temperature display
+
+@[heads up display]('entity': 'specs', 'value': '2805')
+    heads up display
+    heads up
+    heads-up
+    heads - up
+    heads-up display
+    heads - up display
+    headsup
+    head up
+    head-up display
+    head - up display
+    head up display
+
+@[tachometer]('entity': 'specs', 'value': '2807')
+    tachometer
+
+@[bluetooth]('entity': 'specs', 'value': '2900')
+    bluetooth
+    blue tooth
+    bluetooth access
+    wireless
+
+@[android auto]('entity': 'specs', 'value': '2904')
+    android auto
+
+@[apple carplay]('entity': 'specs', 'value': '2905')
+    apple carplay
+
+@[voice system name]('entity': 'specs', 'value': '3832')
+    voice system name
+
+@[touch screen]('entity': 'specs', 'value': '3835')
+    touchscreen
+    touch-screen
+    touch - screen
+    touch screen
+    touch screen radio
+    touch screen dashboard
+
+@[voice command]('entity': 'specs', 'value': '3836')
+    voice command
+    voice controls
+    voice activated
+    voice recognition
+
+@[remote trunk release]('entity': 'specs', 'value': '5203')
+    remote trunk release
+
+@[remote trunk lock]('entity': 'specs', 'value': '5204')
+    remote trunk lock
+
+@[cruise control]('entity': 'specs', 'value': '5205')
+    Cruise Control
+
+@[wireless phone charger]('entity': 'specs', 'value': '5206')
+    wireless phone charger
+
+@[push button start]('entity': 'specs', 'value': '5207')
+    Push Button Start
+    push start
+
+~[infotainment-spec]
+
+~[audio-spec]

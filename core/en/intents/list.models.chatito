@@ -1,5 +1,7 @@
 import ../common.chatito
 
+//seeks [trims Y] with [specified entity value X]
+
 %[list.models]('training': '100', 'distribution': 'even')
     ~[what-which] ~[model-type] ~[has] ~[optional-spec]
     ~[what-which] ~[model-type?] ~[has] ~[optional-spec]

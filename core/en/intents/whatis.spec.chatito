@@ -1,0 +1,18 @@
+
+
+%[whatis.spec]('training': '10', 'distribution': 'even')
+    does forward collision avoidance mean the car can stop on its own
+    does @[specsSafety] mean ~[the car] can ~[do some function]
+    what is @[specsSafety]
+    in a ~[old-my-model-trim] if in a side impact collision will both side airbags deploy
+
+~[the car]
+    the car
+    it
+
+~[do some function]
+    stop on its own
+
+~[in an accident]
+    in a side impact collision
+    in a collision
