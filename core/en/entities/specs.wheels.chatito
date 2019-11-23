@@ -1,5 +1,4 @@
-//wheels
-@[wheel description]('entity': 'specs', value: 'wheel description')
+@[wheel description]('entity': 'specs', 'value': 'wheel description')
     wheel description
     wheels
     size wheels
@@ -18,7 +17,7 @@
     type of tires
 
 @[run flat tires]('entity': 'specs', 'value': '3501')
-    Run Flat Tires
+    run flat tires
     run flat
     run flats
 

@@ -1,1 +1,32 @@
 //attributes or classes
+@[2 seater]('entity': 'attribute', 'value': '2 seater')
+    2 seater
+    two seater
+
+@[4 seater]('entity': 'attribute', 'value': '4 seater')
+    4 seater
+    four seater
+
+@[5 seater]('entity': 'attribute', 'value': '5 seater')
+    5 seater
+    five seater
+
+@[6 seater]('entity': 'attribute', 'value': '6 seater')
+    6 seater
+    six seater
+
+@[7 seater]('entity': 'attribute', 'value': '7 seater')
+    7 seater
+    seven seater
+
+@[8 seater]('entity': 'attribute', 'value': '8 seater')
+    8 seater
+    eight seater
+
+~[seater]
+    @[2 seater]
+    @[4 seater]
+    @[5 seater]
+    @[6 seater]
+    @[7 seater]
+    @[8 seater]

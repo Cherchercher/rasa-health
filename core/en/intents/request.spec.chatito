@@ -1,17 +1,20 @@
 import ../common.chatito
-import ../entities/fuelType.chatito
+import ../common-specs.chatito
+import ../entities/fuel-type.chatito
 
 //this intent is to get a definite value for a specification
 //requesting the spec's value by matching the specs name or synonym
+//seeks [unknown entity value X] of [specified entity name E] as related to [specified model/trim Y]
+//seeks binary value of specified entity name as related to specified model/trim Y
 
-%[request.spec#count-specs]('training': '25', 'distribution': 'even')
+%[request.spec.count]('training': '25', 'distribution': 'even')
     ~[quantify] ~[count-spec] does the ~[make] ~[model-trim] ~[posseses]
 
 %[request.spec#weightsMeasures]('training': '25', 'distribution': 'even')
     ~[what] the ~[measure-spec]
     ~[what] the ~[measure-spec] of the ~[model]
 
-%[request.spec#batteryRange]('training': '25', 'distribution': 'even')
+%[request.spec.range]('training': '25', 'distribution': 'even')
     how far can it go on the battery
     how far does a ~[model-ent] go on @[battery-range]
     ~[the] ~[model-ent] goes how far on a @[battery-range]
@@ -26,13 +29,15 @@ import ../entities/fuelType.chatito
     How far can the ~[model-ent] go
     how far will it go on a full charge
     ~[what] ~[the?] battery range on the ~[model]
+    how far can i drive with ~[atcl] ~[model-ent]
+    how far on a charge can you go
+    how far can you ~[battery-range]
+    how many miles with full tank of gas and full charging
+    what is the range of the ~[ev-model]
 
 ~[plug-in-fuelType]
     @[plug-in hybrid#car]
     @[electric#car]
-
-%[request.spec#totalRange]('training': '25', 'distribution': 'even')
-    how far can i drive with ~[atcl] ~[model-ent]
 
 %[request.spec#ground clearance]('training': '25', 'distribution': 'even')
     how far off the ground is the ~[model]

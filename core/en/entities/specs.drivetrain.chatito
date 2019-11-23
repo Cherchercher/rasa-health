@@ -51,9 +51,9 @@
 
 @[fuel system description]('entity': 'specs', 'value': '1020')
     Fuel System Description
-    Direct Injection
+    direct injection
     GDI
-    Diesel Direct Injection
+    diesel direct injection
     Sequential Electronic Fuel Injected
     Multi Port Fuel Injected
     multi port
@@ -113,3 +113,7 @@
     traction
     traction-control
     traction control
+
+@[remote start]('entity': 'specs', 'value': 'remote start')
+    remote start
+    remote engine start

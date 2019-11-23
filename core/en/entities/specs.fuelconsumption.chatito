@@ -1,0 +1,155 @@
+@[fuel tank capacity]('entity': 'specs', 'value': '709')
+    fuel tank capacity
+    fuel tank size
+    fuel tank volume
+    fuel tank
+    gas tank
+    tank size
+    fuel tank holding capacity
+
+@[battery recharge time]('entity': 'specs', 'value': '710')
+    battery recharge time
+    recharge time
+    charge time
+    charging time
+    time to charge
+    battery change
+    charging duration
+
+@[highway mpg]('entity': 'specs', 'value': '711')
+    highway mpg
+    mpg highway
+    mpg on a highway
+    mpg on the highway
+    mpg on highway
+    maximum mpg
+    max mpg
+    fuel efficient
+
+@[combined mpg]('entity': 'specs', 'value': '712')
+    mpg
+    mpg
+    the mpg
+    miles per gallon
+    gas mileage
+    combined mpg
+    mpg combined
+    mpgs
+    fuel economic
+    fuel consumption
+    gas consumption
+    fuel economy
+    fuel efficiency
+    gas economy
+    km / l
+    kilometers per liter
+    fuel savers
+    gasoline consumption
+    economic fuel
+    kmpl
+
+@[city mpg]('entity': 'specs', 'value': '713')
+    city mpg
+    mpg city
+    mpg in a city
+    mpg in city
+    mpg in the city
+    minimum mpg
+    min mpg
+
+@[quarter mile time]('entity': 'specs', 'value': '715')
+    quarter mile time
+    quarter mile
+
+@[city range]('entity': 'specs', 'value': '720')
+    city range
+    range city
+    range in city
+    range in a city
+    range in the city
+
+@[combined range]('entity': 'specs', 'value': '721')
+    range
+    combined range
+    range combined
+    how far can i drive
+
+@[highway range]('entity': 'specs', 'value': '722')
+    highway range
+    range highway
+    range on highway
+    range on a highway
+    range on the highway
+    max range
+
+@[battery-range]('entity': 'specs', 'value': '725')
+    battery range
+    electric range
+    full charge
+    single full charge
+    one charge
+    electric mode
+    ev only
+    miles on battery
+    electric car range
+    range on electric
+    on ~[the] battery
+    all electric range
+
+@[battery-range#without-recharge]('entity': 'specs', 'value': '725')
+    without recharge
+    without recharging
+    before recharge
+    before recharging
+    before running out of battery
+    before running out of battery charge
+    before needing to recharge
+    before needing to recharge ~[the?] battery
+    on ~[a?] charge
+    on ~[a?] single charge
+    on ~[a?] full charge
+    on electric
+    in all electric
+    drive on a single charge
+
+~[battery-range-without-recharge]
+    without recharge
+    without recharging
+    before recharge
+    before recharging
+    before running out of battery
+    before running out of battery charge
+    before needing to recharge
+    before needing to recharge ~[the?] battery
+    on ~[a?] charge
+    on ~[a?] single charge
+    on ~[a?] full charge
+    on electric
+    in all electric
+
+@[highway mpge]('entity': 'specs', 'value': '728')
+    highway mpge
+    mpge highway
+    mpge highway
+    mpge on the highway
+    mpge on highway
+    maximum mpge
+    max mpge
+
+@[combined mpge]('entity': 'specs', 'value': '729')
+    mpge
+    combined mpge
+    mpge combined
+    miles per gallon equivalent
+    gas equivalent mileage
+    mpges
+    mpge
+
+@[city mpge]('entity': 'specs', 'value': '730')
+    city mpge
+    mpge city
+    mpge in a city
+    mpge in the city
+    mpge in city
+    minimum mpge
+    min mpge

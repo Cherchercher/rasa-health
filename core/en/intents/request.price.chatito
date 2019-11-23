@@ -1,5 +1,5 @@
 import ../common.chatito
-import ../entities/priceSpecs.chatito
+import ../entities/specs.prices.chatito
 
 %[list.trims#price]('training': '50', 'distribution': 'even')
     ~[declaritive] in the ~[trim-entity], what is the ~[price-spec]?

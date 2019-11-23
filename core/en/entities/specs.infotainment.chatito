@@ -2,7 +2,12 @@
 //user queries simalarily...
 
 @[auxilary audio input]('entity': 'specs', 'value': '1804')
-    Auxilary Audio Input
+    ~[auxilary] audio input
+    ~[auxilary] input
+    ~[auxilary] cable
+
+~[auxilary]
+    auxilary
     aux
 
 @[radio type]('entity': 'specs', 'value': '1808')
@@ -103,24 +108,32 @@
     bluetooth
     blue tooth
     bluetooth access
-    wireless
 
 @[android auto]('entity': 'specs', 'value': '2904')
     android auto
+    androidauto
 
 @[apple carplay]('entity': 'specs', 'value': '2905')
-    apple carplay
+    apple ~[carplay]
+    ~[carplay]
+
+~[carplay]
+    carplay
+    car play
 
 @[voice system name]('entity': 'specs', 'value': '3832')
     voice system name
 
 @[touch screen]('entity': 'specs', 'value': '3835')
+    ~[touchscreen]
+    ~[touchscreen] radio
+    ~[touchscreen] dashboard
+    ~[touchscreen] system
+
+~[touchscreen]
     touchscreen
-    touch-screen
-    touch - screen
     touch screen
-    touch screen radio
-    touch screen dashboard
+    touch display
 
 @[voice command]('entity': 'specs', 'value': '3836')
     voice command
@@ -135,15 +148,29 @@
     remote trunk lock
 
 @[cruise control]('entity': 'specs', 'value': '5205')
-    Cruise Control
+    ~[cruise-control]
+
+~[cruise-control]
+    cruise control
+    cruise
+
+@[adaptive cruise control]('entity': 'specs', 'value': 'adaptive cruise control')
+    adaptive ~[cruise-control]
+    ~[cruise-control] following assist
+    automatic ~[cruise-control]
+    smart ~[cruise-control]
+    radar ~[cruise-control]
 
 @[wireless phone charger]('entity': 'specs', 'value': '5206')
     wireless phone charger
+    wireless charger
 
 @[push button start]('entity': 'specs', 'value': '5207')
-    Push Button Start
+    push button start
     push start
 
-~[infotainment-spec]
+@[multi function remote]('entity': 'specs', 'value': '5200')
+    multi function remote
 
-~[audio-spec]
+@[stereo anti-theft]('entity': 'specs', 'value': '3204')
+    Stereo Anti-Theft

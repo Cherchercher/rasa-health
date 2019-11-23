@@ -93,6 +93,13 @@
     @[sorento]
     @[telluride]
 
+~[ev-model]
+    @[niro] ~[ev]
+    @[niro ev]
+    @[niro plug-in hybrid]
+    @[optima hybrid]
+    @[optima plug-in hybrid]
+
 ~[phev]
     phev
     plug-in hybrid

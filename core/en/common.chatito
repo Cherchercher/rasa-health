@@ -1,27 +1,29 @@
 //////////////////////////
 //     Common parts     //
 //////////////////////////
+
+import ./entities/bodystyle.chatito
 import ./entities/makes.chatito 
 import ./entities/models.chatito
-import ./entities/models-trims.chatito
-import ./entities/bodystyle.chatito
-import ./entities/make.chatito
+import ./entities/model-trims.chatito
+import ./entities/spec-values.chatito
 
-//ways users ask for cars when asking for a list of unspecified models that fit some criteria
-//this is kinda specific to the demo... will need to be reworked as anything kia should be linked to 'make' entity
 ~[model]
     ~[model-ent]
     ~[model-trim]
     ~[model-year] ~[model-ent]
     ~[model-year] ~[model-trim]
 
+//model without model year - for controlling frequency of model-year appearing in training data
+~[model-nomy]
+    ~[model-ent]
+    ~[model-trim]
 
-
-~[cars-general]
-    models
-    cars
-    trims
-    vehicles
+~[car-general]
+    model
+    car
+    trim
+    vehicle
 
 ~[cars-general]
     models
@@ -101,6 +103,8 @@ import ./entities/make.chatito
     looking for
     trying to find
     looking at
+    I'm looking for
+    im looking for
 
 ~[hello]
     hi
@@ -120,10 +124,11 @@ import ./entities/make.chatito
     largest
     biggest
     smallest
-    with the most
-    with the least
+    the most
+    the least
 
 ~[greeting]
     ~[hello]
     good morning
     good afternoon
+    hi there

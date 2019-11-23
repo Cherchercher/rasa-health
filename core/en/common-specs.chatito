@@ -1,13 +1,14 @@
-import ../entities/specs.chatito
-import ../entities/specs.drivetrain.chatito
-import ../entities/specs.fuelconsumption.chatito
-import ../entities/specs.infotainment.chatito
-import ../entities/specs.prices.chatito
-import ../entities/specs.safety.chatito
-import ../entities/specs.seating.chatito
-import ../entities/specs.storage.chatito
-import ../entities/specs.warranty.chatito
-import ../entities/specs.wheels.chatito
+import ./entities/color.chatito
+import ./entities/specs.chatito
+import ./entities/specs.drivetrain.chatito
+import ./entities/specs.fuelconsumption.chatito
+import ./entities/specs.infotainment.chatito
+import ./entities/specs.prices.chatito
+import ./entities/specs.safety.chatito
+import ./entities/specs.seating.chatito
+import ./entities/specs.storage.chatito
+import ./entities/specs.warranty.chatito
+import ./entities/specs.wheels.chatito
 
 ~[any-spec]
     ~[optional-spec]
@@ -18,7 +19,10 @@ import ../entities/specs.wheels.chatito
     ~[measure-spec]
     ~[safety-spec]
 
+//optional-spec is a group of specs that may or may not be included with/on/in some model or model-trim
+//these specs most often appear in "{{models/trims}} that have ~[optional-spec]" or binary queries "does {{models/trims}} have ~[optional-spec]"
 ~[optional-spec]
+    @[remote start]
     @[navigation]
     @[rear a/c]
     @[parking assist description]
@@ -39,7 +43,11 @@ import ../entities/specs.wheels.chatito
     @[usb connection]
     @[auxilary mp3 input]
     @[navigation real time traffic]
-    @[navigation]
+
+//these specs [most often part of the drivetrain category] are often used by users to help specify a specific trim - 
+//that is to say, the value of these specs are used to indicate a particular trim level... 
+//examples "the 3.0L V6 {{model}}" -- 3.0L V6 is the value of @[engine desctiption]
+//and given this value, we can discern they are interested in the trim or trims that have this particular drivetrain configurartion
 
 ~[indicator-spec]
     @[driven wheels]
@@ -53,6 +61,7 @@ import ../entities/specs.wheels.chatito
     @[horsepower]
     @[compressor type]
     @[fuel]
+    @[torque]
     @[recommended fuel type]
 
 ~[count-spec]
@@ -64,11 +73,6 @@ import ../entities/specs.wheels.chatito
 ~[size-spec]
     @[cargo volume]
 
-~[seats-spec]
-    @[total seat count]
-    @[1st Row Seating Count]
-    @[2nd Row Seating Count]
-
 ~[measure-spec]
     @[curb weight]
     @[ground clearance]
@@ -79,3 +83,14 @@ import ../entities/specs.wheels.chatito
     @[bed width]
     @[bed height]
     @[front track width]
+
+~[remote-spec]
+    @[remote start]
+
+~[fuel-econ-spec]
+    @[highway mpg]
+    @[combined mpg]
+    @[city mpg]
+    @[highway mpge]
+    @[combined mpge]
+    @[city mpge]

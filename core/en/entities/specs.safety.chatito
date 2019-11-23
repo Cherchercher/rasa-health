@@ -1,10 +1,11 @@
 @[collision avoidance]('entity': 'specs', 'value': '2400')
-    collision avoidance
-    collision ~[assist]
-    collision avoidance ~[assist]
-    forward collision avoidance
-    forward collision avoidance ~[assist]
-    forward collision ~[brake]
+    ~[collision] avoidance
+    ~[collision] ~[assist]
+    ~[collision] avoidance ~[assist]
+    forward ~[collision] avoidance
+    forward ~[collision] avoidance ~[assist]
+    forward ~[collision] ~[brake]
+    anti ~[collision]
 
 ~[brake]
     brakes
@@ -23,23 +24,31 @@
     auto
     automatic
 
+~[collision]
+    collision
+    accident
+
 @[blind spot detection]('entity': 'specs', 'value': '2404')
-    blind spot detection
-    blind spot collision warning
-    blind spot collision avoidance
-    blind spot alert
-    blind spot warning
+    blind spot ~[detection]
+    blind spot ~[collision] ~[alert]
+    blind spot ~[collision] avoidance
+    blind spot ~[alert]
+
+~[detection]
+    detection
+    monitoring
+    monitor
 
 @[rear cross traffic alert]('entity': 'specs', 'value': '2405')
     rear ~[cross-traffic] ~[alert] ~[system?]
-    rear ~[cross-traffic] collision ~[alert]
+    rear ~[cross-traffic] ~[collision] ~[alert]
     RCCW
     rccw
 
 @[forward collision warning]('entity': 'specs', 'value': '2406')
-    forward collision warning
-    forward collision ~[alert]
-    collision ~[alert]
+    forward ~[collision] warning
+    forward ~[collision] ~[alert]
+    ~[collision] ~[alert]
     FCW
 
 @[lane change assist]('entity': 'specs', 'value': '2407')
@@ -52,32 +61,40 @@
     lane departure ~[alert]
     ~[lane-keep] ~[alert]
 
+@[airbags]('entity': 'specs', 'value': 'airbags')
+    ~[airbags]
+
+~[airbag]
+    airbag
+    air bag
+    airbags
+    air bags
+
 @[side airbags]('entity': 'specs', 'value': '2200')
-    side airbags
+    side ~[airbags]
 
 @[passenger airbags]('entity': 'specs', 'value': '2201')
-    passenger airbags
+    passenger ~[airbags]
 
 @[driver airbags]('entity': 'specs', 'value': '2204')
-    driver airbags
+    driver ~[airbags]
 
 @[passenger airbags deactivation]('entity': 'specs', 'value': '2205')
-    passenger airbags deactivation
+    passenger ~[airbags] deactivation
 
 @[side airbags curtain]('entity': 'specs', 'value': '2208')
-    side airbags curtain
+    side ~[airbags] curtain
 
 @[airbag rollover sensor]('entity': 'specs', 'value': '2209')
-    airbag rollover sensor
+    ~[airbags] rollover sensor
 
 @[exterior view camera]('entity': 'specs', 'value': '3600')
-    Exterior View Camera
+    exterior view camera
     camera
     backup camera
 
 @[child proof door locks]('entity': 'specs', 'value': '4302')
-    Child Proof Door Locks
-    child
+    child proof door locks
     child locks
     child safety locks
 
@@ -90,11 +107,14 @@
 
 @[parking assist description]('entity': 'specs', 'value': '302')
     parking assist description
-    parking assist
-    park assist
-    parking sensors
+    ~[park] ~[assist]
+    ~[park] sensors
     parking assistance
-    auto park system
+    ~[auto] ~[park] system
+
+~[park]
+    park
+    parking
 
 @[surround view monitor]('entity': 'specs', 'value': '306')
     360 monitor
@@ -114,31 +134,9 @@
     hill start
 
 @[brake assist]('entity': 'specs', 'value': '505')
-    brake assist
-    brakes assist
-    braking assist
-    automatic braking
-
-
-Is an anti-theft system standard in all Rio models?
-Does the Rio LX come with an anti-theft system?
-No thank you. Does the 2019 Rio LX come with an anti-theft system?
-My Kia Sorento has stalled and won’t start due to anti-theft
-Does my Kia forte 2016 have Anti-theft tracking?
-Anti-theft
-does the kia soul + come standard with anti-theft device?
-Does it have Anti-Theft?
-Which anti-theft device does this 2018 Kia Sportage LX AWD have?
-Does the 2018 Kia Forte have an anti-theft system?
-do the 2018 Forte have an anti-theft system?
-does the base kia soul have an anti-theft system
-Does the 2109 Kia Forte have an anti theft device?
-what anti theft device does the 2018 Sportage have
-2016 anti theft kia
-Does Kia sell anti theft tire valve stem caps for 2013 Kia forte ex
-I bought  a used 2014 Sportage with 17 " mag whls with the special anti theft lug nut. I can't find the special socket to rmv the whl. Where should it be?  How much is a new one??
-does Kia lx+AT have anti theft option 
-does the 2018 sportage have a anti theft system
+    ~[brake] ~[assist]
+    ~[auto] ~[brake]
+    ~[auto] ~[brake] ~[assist]
 
 ~[anti-theft]
     anti-theft
@@ -158,12 +156,14 @@ does the 2018 sportage have a anti theft system
     @[surround view monitor]
 
 ~[airbag-spec]
+    @[airbags]
     @[side airbags]
     @[passenger airbags]
     @[driver airbags]
     @[passenger airbags deactivation]
     @[side airbags curtain]
     @[airbag rollover sensor]
+
 
 ~[assist-spec]
     @[parking assist description]

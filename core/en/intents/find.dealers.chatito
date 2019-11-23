@@ -19,10 +19,3 @@ import ../entities/locations.chatito
     want to know dealers in ~[relative location]
     ~[make] dealers open on Sunday near me
     dealership for ~[make]
-
-~[relative location]
-    ~[US state]
-    ~[region fragment] ~[US State]
-    ~[region fragment] ~[US State] area
-    ~[US city]
-    ~[zipcode]

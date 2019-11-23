@@ -1,6 +1,3 @@
-//unsure this will work or not but giving it a shot
-
-//current year + 6 months forward (i.e. if it's July or after, include the next year too)
 @[model year-current]('entity': 'spec_value')
     2019
     2020

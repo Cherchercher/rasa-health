@@ -1,7 +1,4 @@
-~[make]
-    @[kia]
-
-@[kia]('entity': 'make', 'value': 'Kia')
+@[kia]('entity': 'makes', 'value': 'Kia')
     Kia
     kias
     kai

@@ -1,8 +1,9 @@
 import ../common.chatito
+import ../common-specs.chatito
 
 //all compare categories should support comparisons by spec and spec categories
 
-%[compare#models]('training': '50', 'distribution': 'even')
+%[compare.models]('training': '50', 'distribution': 'even')
     is there more ~[size-spec] in a ~[model] or a ~[model]
     what is the difference between the ~[model] and ~[model]
     difference between ~[make] ~[model] and ~[make] ~[model]
@@ -13,18 +14,19 @@ import ../common.chatito
     does the ~[model] ~[has] more ~[size-spec] than a ~[model]
     is there a ~[make] with ~[relative-size] ~[size-spec] than the ~[model]
 
-%[compare#trims]('training': '50', 'distribution': 'even')
+%[compare.trims]('training': '50', 'distribution': 'even')
     want to know what the difference is in the different ~[trims]
     ~[what] ~[difference] the different types of ~[model]
     ~[what] ~[difference] ~[model-trim] ~[model-trim] and ~[model-trim]
     ~[what] ~[difference] the ~[model-trim] and ~[model-trim]
     ~[what] ~[difference] in the ~[trims]
     ~[what-which] ~[model] ~[has] more features? the ~[model-trim] or ~[model-trim]
+    ~[searching] on the different ~[model] ~[optional-spec]
 
-%[compare#yoy]('training': '50','distribution': 'even')
+%[compare.yoy]('training': '50','distribution': 'even')
     ~[declaritive] in a ~[model-year] ~[model]. Can you tell me the difference between the ~[model-year] and ~[model-year]?
     ~[what] ~[price-spec] difference in a ~[model-year] and a ~[model-year] ~[model]
-    does ~[model-year] ~[model] have the same ~[spec] as ~[model-year] ~[model]
+    does ~[model-year] ~[model-nomy] have the same ~[spec] as ~[model-year] ~[model-nomy]
 
 //ways users refer to trims
 ~[trims]
