@@ -1,4 +1,4 @@
-@[hydrogen#fuel-type]('entity': 'fuelType', 'value': 'hydrogen')
+@[hydrogen#fuel-type]('entity': 'fuelType')
     hydrogen
     Hydrogen
     fuel cell
@@ -12,11 +12,11 @@
     fc
     fcs
 
-@[diesel#fuel-type]('entity': 'fuelType', 'value': 'diesel')
+@[diesel#fuel-type]('entity': 'fuelType')
     diesel
     Diesel
 
-@[electric#car]('entity': 'fuelType', 'value': 'electric')
+@[electric#car]('entity': 'fuelType')
     electric
     electrics
     fully electric
@@ -24,12 +24,12 @@
     ev
     evs
 
-@[electric#fuel-type]('entity': 'fuelType', 'value': 'electric')
+@[electric#fuel-type]('entity': 'fuelType')
     electricity
     electricity only
     only on electricity
 
-@[flex-fuel#fuel-type]('entity': 'fuelType', 'value': 'flex-fuel')
+@[flex-fuel#fuel-type]('entity': 'fuelType')
     flex-fuel
     ffv
     FFV
@@ -38,7 +38,7 @@
     E85
     Ethanol
 
-@[hybrid#fuel-type]('entity': 'fuelType', 'value': 'hybrid')
+@[hybrid#fuel-type]('entity': 'fuelType')
     gasoline and electricity
     electricity and gasoline
     gas and electricity
@@ -52,11 +52,11 @@
     petrol and electric
     electric and petrol
 
-@[hybrid#car]('entity': 'fuelType', 'value': 'hybrid')
+@[hybrid#car]('entity': 'fuelType')
     hybrid
     hybrids
 
-@[plug-in hybrid#car]('entity': 'fuelType', 'value': 'plug-in hybrid')
+@[plug-in hybrid#car]('entity': 'fuelType')
     plug-in hybrid
     plug-in hybrids
     plug - in hybrid
@@ -77,13 +77,13 @@
     phev
     phevs
 
-@[cng#fuel-type]('entity': 'fuelType', 'value': 'cng')
+@[cng#fuel-type]('entity': 'fuelType')
     cng
     Natural Gas
     natural gas
     CNG
 
-@[gasoline#fuel-type]('entity': 'fuelType', 'value': 'gasoline')
+@[gasoline#fuel-type]('entity': 'fuelType')
     gasoline
     gas
     petrol

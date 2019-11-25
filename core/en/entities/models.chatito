@@ -1,25 +1,25 @@
-@[cadenza]('entity': 'models', 'value': 'cadenza')
+@[cadenza]('entity': 'model')
     cadenza
     cadenzas
     credenza
     credenzas
 
-@[forte]('entity': 'models', 'value': 'forte')
+@[forte]('entity': 'model')
     forte
 
-@[k900]('entity': 'models', 'value': 'k900')
+@[k900]('entity': 'model')
     k900
     k 900
     k900s
 
-@[niro]('entity': 'models', 'value': 'niro')
+@[niro]('entity': 'model')
     niro
     niros
     nero
     neros
     nitro
 
-@[niro ev]('entity': 'models', 'value': 'niro ev')
+@[niro ev]('entity': 'model')
     niro ev
     niro ~[ev]
     nitro ~[ev]
@@ -28,52 +28,51 @@
     nero ~[ev]
     ~[ev] nero
 
-@[niro plug-in hybrid]('entity': 'models', 'value': 'niro plug-in hybrid')
+@[niro plug-in hybrid]('entity': 'model')
     niro plug-in hybrid
     niro ~[phev]
 
-@[optima]('entity': 'models', 'value': 'optima')
+@[optima]('entity': 'model')
     optima
     optimas
 
-@[optima hybrid]('entity': 'models', 'value': 'optima hybrid')
+@[optima hybrid]('entity': 'model')
     optima hybrid
     optima ~[hybrid]
     ~[hybrid] optima
 
-@[optima plug-in hybrid]('entity': 'models', 'value': 'optima plug-in hybrid')
+@[optima plug-in hybrid]('entity': 'model')
     optima plug-in hybrid
     optima ~[phev]
     ~[phev] optima
 
-@[rio]('entity': 'models', 'value': 'rio')
+@[rio]('entity': 'model')
     rio
     rio ~[sedan]
 
-@[rio 5-door]('entity': 'models', 'value': 'rio 5-door')
+@[rio 5-door]('entity': 'model')
     rio 5-door
     rio ~[5-door]
 
-@[soul]('entity': 'models', 'value': 'soul')
-    soul
+@[soul]('entity': 'model')
     regular soul
 
-@[soul ev]('entity': 'models', 'value': 'soul ev')
+@[soul ev]('entity': 'model')
     soul ev
     soul ~[ev]
     ~[ev] soul
 
-@[sorento]('entity': 'models', 'value': 'sorento')
+@[sorento]('entity': 'model')
     sorento
 
-@[sportage]('entity': 'models', 'value': 'sportage')
+@[sportage]('entity': 'model')
     sportage
 
-@[stinger]('entity': 'models', 'value': 'stinger')
+@[stinger]('entity': 'model')
     stinger
     stringer
 
-@[telluride]('entity': 'models', 'value': 'telluride')
+@[telluride]('entity': 'model')
     telluride
 
 //model without a specified trim

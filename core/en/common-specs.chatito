@@ -48,7 +48,6 @@ import ./entities/specs.wheels.chatito
 //that is to say, the value of these specs are used to indicate a particular trim level... 
 //examples "the 3.0L V6 {{model}}" -- 3.0L V6 is the value of @[engine desctiption]
 //and given this value, we can discern they are interested in the trim or trims that have this particular drivetrain configurartion
-
 ~[indicator-spec]
     @[driven wheels]
     @[engine description]
@@ -69,6 +68,7 @@ import ./entities/specs.wheels.chatito
     @[highway mpg]
     @[combined mpg]
     @[city mpg]
+    @[usb-ports]
 
 ~[size-spec]
     @[cargo volume]

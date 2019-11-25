@@ -32,14 +32,14 @@ import ../entities/fuel-type.chatito
     how far can i drive with ~[atcl] ~[model-ent]
     how far on a charge can you go
     how far can you ~[battery-range]
-    how many miles with full tank of gas and full charging
+    how many miles with full tank of gas and ~[battery-range]
     what is the range of the ~[ev-model]
 
 ~[plug-in-fuelType]
     @[plug-in hybrid#car]
     @[electric#car]
 
-%[request.spec#ground clearance]('training': '25', 'distribution': 'even')
+%[request.spec]('training': '25', 'distribution': 'even')
     how far off the ground is the ~[model]
     how high off the ground is the ~[model]
     how far from ground to entry is it
