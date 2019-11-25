@@ -1,6 +1,6 @@
 import ../common.chatito
 import ../common-specs.chatito
-import ../entities/fuel-type.chatitov
+import ../entities/fuel-type.chatito
 import ../entities/trim-levels.chatito
 
 //this intent is to find model trims that
