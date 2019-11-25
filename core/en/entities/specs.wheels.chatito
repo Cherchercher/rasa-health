@@ -1,0 +1,60 @@
+@[wheel description]('entity': 'specs', 'value': 'wheel description')
+    wheel description
+    wheels
+    size wheels
+    rim size
+    size rims
+    wheel diameter
+    rim diameter
+
+@[tire description]('entity': 'specs', 'value': '3510')
+    tire description
+    tires
+    kind of tires
+
+@[tire type]('entity': 'specs', 'value': '3500')
+    tire type
+    type of tires
+
+@[run flat tires]('entity': 'specs', 'value': '3501')
+    run flat tires
+    run flat
+    run flats
+
+@[front wheel diameter]('entity': 'specs', 'value': '2600')
+    front wheel diameter
+
+@[rear wheel diameter]('entity': 'specs', 'value': '2602')
+    rear wheel diameter
+
+@[wheel material]('entity': 'specs', 'value': '2604')
+    wheel material
+
+@[front tire width]('entity': 'specs', 'value': '3502')
+    front tire width
+
+@[front tire profile]('entity': 'specs', 'value': '3503')
+    front tire profile
+
+@[front tire diameter]('entity': 'specs', 'value': '3504')
+    front tire diameter
+
+@[rear tire width]('entity': 'specs', 'value': '3505')
+    rear tire width
+
+@[rear tire profile]('entity': 'specs', 'value': '3506')
+    rear tire profile
+
+@[rear tire diameter]('entity': 'specs', 'value': '3507')
+    rear tire diameter
+
+@[front tire rating]('entity': 'specs', 'value': '3508')
+    front tire rating
+
+@[rear tire rating]('entity': 'specs', 'value': '3509')
+    rear tire rating
+
+~[wheel-tire]
+    @[wheel description]
+    @[tire description]
+

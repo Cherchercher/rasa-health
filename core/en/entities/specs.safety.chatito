@@ -1,0 +1,194 @@
+@[collision avoidance]('entity': 'specs', 'value': '2400')
+    ~[collision] avoidance
+    ~[collision] ~[assist]
+    ~[collision] avoidance ~[assist]
+    forward ~[collision] avoidance
+    forward ~[collision] avoidance ~[assist]
+    forward ~[collision] ~[brake]
+    anti ~[collision]
+
+~[brake]
+    brakes
+    breaks
+    braking
+    breaking
+
+@[automatic emergency braking]('entity': 'specs', 'value': '2403')
+    ~[auto] emergency ~[brake]
+    ~[auto] ~[brake]
+    ~[auto] ~[brake] ~[assist]
+    stop automatically
+    aeb
+
+~[auto]
+    auto
+    automatic
+
+~[collision]
+    collision
+    accident
+
+@[blind spot detection]('entity': 'specs', 'value': '2404')
+    blind spot ~[detection]
+    blind spot ~[collision] ~[alert]
+    blind spot ~[collision] avoidance
+    blind spot ~[alert]
+
+~[detection]
+    detection
+    monitoring
+    monitor
+
+@[rear cross traffic alert]('entity': 'specs', 'value': '2405')
+    rear ~[cross-traffic] ~[alert] ~[system?]
+    rear ~[cross-traffic] ~[collision] ~[alert]
+    RCCW
+    rccw
+
+@[forward collision warning]('entity': 'specs', 'value': '2406')
+    forward ~[collision] warning
+    forward ~[collision] ~[alert]
+    ~[collision] ~[alert]
+    FCW
+
+@[lane change assist]('entity': 'specs', 'value': '2407')
+    ~[lane-keep] ~[assist]
+    lane ~[assist]
+    lane keep
+    LKA
+
+@[lane departure warning]('entity': 'specs', 'value': '2408')
+    lane departure ~[alert]
+    ~[lane-keep] ~[alert]
+
+@[airbags]('entity': 'specs', 'value': 'airbags')
+    ~[airbags]
+
+~[airbag]
+    airbag
+    air bag
+    airbags
+    air bags
+
+@[side airbags]('entity': 'specs', 'value': '2200')
+    side ~[airbags]
+
+@[passenger airbags]('entity': 'specs', 'value': '2201')
+    passenger ~[airbags]
+
+@[driver airbags]('entity': 'specs', 'value': '2204')
+    driver ~[airbags]
+
+@[passenger airbags deactivation]('entity': 'specs', 'value': '2205')
+    passenger ~[airbags] deactivation
+
+@[side airbags curtain]('entity': 'specs', 'value': '2208')
+    side ~[airbags] curtain
+
+@[airbag rollover sensor]('entity': 'specs', 'value': '2209')
+    ~[airbags] rollover sensor
+
+@[exterior view camera]('entity': 'specs', 'value': '3600')
+    exterior view camera
+    camera
+    backup camera
+
+@[child proof door locks]('entity': 'specs', 'value': '4302')
+    child proof door locks
+    child locks
+    child safety locks
+
+@[anti-theft alarm system]('entity': 'specs', 'value': '3200')
+    ~[anti-theft] system
+    ~[anti-theft] device
+    ~[anti-theft] alarm system
+    ~[anti-theft] ~[alert]
+    ~[anti-theft] tracking
+
+@[parking assist description]('entity': 'specs', 'value': '302')
+    parking assist description
+    ~[park] ~[assist]
+    ~[park] sensors
+    parking assistance
+    ~[auto] ~[park] system
+
+~[park]
+    park
+    parking
+
+@[surround view monitor]('entity': 'specs', 'value': '306')
+    360 monitor
+    360 view
+    360 display
+    360 degree view
+    360 degree
+    surround view
+    surround view monitor
+    surround view display
+    multi angle monitor
+    multi angle display
+
+@[hill start assist]('entity': 'specs', 'value': '503')
+    hill start assist
+    hill assist
+    hill start
+
+@[brake assist]('entity': 'specs', 'value': '505')
+    ~[brake] ~[assist]
+    ~[auto] ~[brake]
+    ~[auto] ~[brake] ~[assist]
+
+~[anti-theft]
+    anti-theft
+    anti theft
+    antitheft
+
+~[safety-spec]
+    @[collision avoidance]
+    @[automatic emergency braking]
+    @[blind spot detection]
+    @[rear cross traffic alert]
+    @[forward collision warning]
+    @[lane change assist]
+    @[lane departure warning]
+    @[exterior view camera]
+    @[anti-theft alarm system]
+    @[surround view monitor]
+
+~[airbag-spec]
+    @[airbags]
+    @[side airbags]
+    @[passenger airbags]
+    @[driver airbags]
+    @[passenger airbags deactivation]
+    @[side airbags curtain]
+    @[airbag rollover sensor]
+
+
+~[assist-spec]
+    @[parking assist description]
+    @[hill start assist]
+    @[brake assist]
+
+~[lane-keep]
+    lane change
+    lane keep
+
+~[cross-traffic]
+    cross traffic
+    cross-traffic
+    crosstraffic
+
+~[alert]
+    alert
+    warning
+    alert system
+    warning system
+    alarm
+    alarm system
+    device
+
+~[assist]
+    assist
+    assistance
+    assistant

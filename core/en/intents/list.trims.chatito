@@ -1,18 +1,19 @@
 import ../common.chatito
+import ../common-specs.chatito
+import ../entities/fuel-type.chatitov
+import ../entities/trim-levels.chatito
 
 //this intent is to find model trims that
-///     1. have declared feature
-////        i.e. 'which tellurides have leather seats'
-///     2. are part of some attribute group by spec value
-////        i.e. '7 seater' is a 
+//seeks [trims Y] with [specified entity value X]
 
 %[list.trims]('training': '25', 'distribution': 'even')
     how many trims are there for ~[trim-entity]
     ~[declaritive] ~[trim-entity]
     ~[trim-entity]
+    is ~[a-an-the] ~[spec] standard ~[in-on] all ~[model-ent] models
 
 //indicator specs help identify a specific trim level
-%[list.trims#indicator]('training': '100', 'distribution': 'even')
+%[list.trims#indicator]('training': '25', 'distribution': 'even')
     ~[exist] ~[indicator-spec] ~[model]?
     ~[engine] on ~[model]
     ~[what-which] options for ~[model] ~[engine]
@@ -20,7 +21,7 @@ import ../common.chatito
     ~[exist] ~[model] ~[posseses] ~[indicator-spec]
 
 //list trims that have some declared optional spec
-%[list.trims#optional]('training': '100', 'distribution': 'even')
+%[list.trims#optional]('training': '25', 'distribution': 'even')
     ~[declaritive?] for the ~[model], which models ~[posseses] the ~[optional-spec]
     Do all ~[model] ~[posseses] ~[optional-spec]
     is ~[optional-spec] available on ~[model]
@@ -38,6 +39,28 @@ import ../common.chatito
     are ~[optional-spec] available ~[on-in] ~[model-trim]
     ~[declaritive] can i get a ~[optional-spec] in a ~[model]
     does the ~[model] ~[posseses] ~[spec]
+    I need a Niro that has [cloth seats(spec_value)], [remote engine start] and autonomous forward collision breaking.  which model would get me that?
+    does the ~[model-ent] have ~[optional-spec] or ~[optional-spec] on the ~[trim-fragment] with ~[indicator-spec]
+
+%[list.trims#safetySpec]('training': '25', 'distribution': 'even')
+    ~[what-which] trim do i need to get ~[optional-spec]
+    what ~[model] trim lines offer forward collision warning
+    does the ~[model] have pre-collision trch
+    Which Sorentos have forward collision warning system
+    Does the new all electric Nero come with Lane correction collision warning and blind spot
+    Is forward collision avoidance available on a cheaper trim than the EX?
+    Im looking for Front Collision Avoidance on the Kia Sportage.  What model does it come in?
+    Sorrento with leather seats and collision avoidance
+
+~[a-an-the]
+    a
+    an
+    the
+
+~[in-on]
+    in
+    on
+    included with
 
 ~[quantify]
     how many

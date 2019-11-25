@@ -1,0 +1,58 @@
+@[black]('entity': 'color')
+    black
+    midnight
+
+@[grey]('entity': 'color')
+    grey
+    gray
+    stone
+
+@[light grey]('entity': 'color')
+    light gray
+    light grey
+
+@[beige]('entity': 'color')
+    beige
+    champagne
+    tan
+
+@[white]('entity': 'color')
+    white
+    pearl
+
+@[silver]('entity': 'color')
+    silver
+
+@[red]('entity': 'color')
+    red
+    blood
+
+@[orange]('entity': 'color')
+    orange
+
+@[yellow]('entity': 'color')
+    yellow
+    lime
+
+@[purple]('entity': 'color')
+    purple
+    maroon
+    indigo
+    violet
+
+@[green]('entity': 'color')
+    green
+
+@[blue]('entity': 'color')
+    blue
+    navy
+    sky
+
+@[brown]('entity': 'color')
+    brown
+
+@[electric blue]('entity': 'color')
+    electric blue
+
+@[gravity blue]('entity': 'color')
+    gravity blue

@@ -1,27 +1,39 @@
 import ../common.chatito
+import ../common-specs.chatito
+import ../entities/fuel-type.chatito
+import ../entities/attributes.chatito
 
-%[list.models]('training': '100', 'distribution': 'even')
+//seeks [trims Y] with [specified entity value X]
+
+%[list.models]('training': '25', 'distribution': 'even')
     ~[what-which] ~[model-type] ~[has] ~[optional-spec]
     ~[what-which] ~[model-type?] ~[has] ~[optional-spec]
     ~[declaritive] ~[modifier-spec] what does ~[model-type] have
-    ~[exist] ~[model-type] ~[has]
-    ~[exist] ~[model-type] ~[has] ~[spec]
+    ~[exist] ~[model-type] ~[has] ~[spec-value]
+    ~[exist] ~[model-type] ~[has] ~[optional-spec]
     do all models have ~[optional-spec]
     do all ~[model-type] have ~[optional-spec]
     looking for ~[seats-spec] ~[model-type] ~[modifier]
 
 //ways people ask about unspecified models by 'sizey' words which may describe the model itself or by a model containing a 'size-spec'
-%[list.models#size]('training': '100', 'distribution': 'even')
+%[list.models#size]('training': '25', 'distribution': 'even')
     ~[what-which] ~[model-type] ~[has] the ~[definite-size] ~[size-spec]
     whats your ~[definite-size] ~[model-type] with ~[indicator-spec]
     whats your ~[definite-size] ~[model-type] with ~[optional-spec]
 
-%[list.models#indicator]('training': '100', 'distribution': 'even')
+%[list.models#indicator]('training': '25', 'distribution': 'even')
     ~[what-which] ~[model-type] have ~[indicator-spec]
     ~[what-which] models have ~[indicator-spec] or ~[indicator-spec]
-    ~[what-which] 
+    ~[what-which] ~[cars-general] 
 
-%[list.models#seats]('training': '100', 'distribution': 'even')
+%[list.models#seats]('training': '25', 'distribution': 'even')
     need 7 seats
     a ~[model-type] 8 passengers
-    which model come with
+    ~[what-which] ~[make] come with
+    ~[greeting] does ~[make] have ~[seater] ~[optional-spec] and ~[optional-spec]
+
+%[list.models#optionalspec]('training': '25', 'distribution': 'even')
+    [hello] which Kia cars have the ability to automatically use the brakes to avoid a collision
+    hi does Kia have collision avoidance in 2 row seats and moon roof
+    do you have a vehicle that has collision assist to stop the vehicle
+    looking for ~[model] with ~[safety-spec] ~[safety-spec] ~[optional-spec] ~[otpional-spec]

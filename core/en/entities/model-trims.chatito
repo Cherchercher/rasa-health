@@ -1,0 +1,239 @@
+@[Cadenza Limited]('entity': 'model', 'value': 'Cadenza Limited')
+    Cadenza Limited
+@[Cadenza Premium]('entity': 'model', 'value': 'Cadenza Premium')
+    Cadenza Premium
+@[Cadenza Technology]('entity': 'model', 'value': 'Cadenza Technology')
+    Cadenza Technology
+@[Forte EX IVT]('entity': 'model', 'value': 'Forte EX IVT')
+    Forte EX IVT
+@[Forte FE 6MT]('entity': 'model', 'value': 'Forte FE 6MT')
+    Forte FE 6MT
+@[Forte FE IVT]('entity': 'model', 'value': 'Forte FE IVT')
+    Forte FE IVT
+@[Forte GT 6MT]('entity': 'model', 'value': 'Forte GT 6MT')
+    Forte GT 6MT
+@[Forte GT DCT]('entity': 'model', 'value': 'Forte GT DCT')
+    Forte GT DCT
+@[Forte GT-Line IVT]('entity': 'model', 'value': 'Forte GT-Line IVT')
+    Forte GT-Line IVT
+@[Forte LXS IVT]('entity': 'model', 'value': 'Forte LXS IVT')
+    Forte LXS IVT
+@[K900 Luxury]('entity': 'model', 'value': 'K900 Luxury')
+    K900 Luxury
+@[Niro EX]('entity': 'model', 'value': 'Niro EX')
+    Niro EX
+@[Niro FE]('entity': 'model', 'value': 'Niro FE')
+    Niro FE
+@[Niro LX]('entity': 'model', 'value': 'Niro LX')
+    Niro LX
+@[Niro S Touring]('entity': 'model', 'value': 'Niro S Touring')
+    Niro S Touring
+@[Niro Touring]('entity': 'model', 'value': 'Niro Touring')
+    Niro Touring
+@[Niro EV EX]('entity': 'model', 'value': 'Niro EV EX')
+    Niro EV EX
+@[Niro EV EX Premium]('entity': 'model', 'value': 'Niro EV EX Premium')
+    Niro EV EX Premium
+@[Niro Plug-in Hybrid EX]('entity': 'model', 'value': 'Niro Plug-in Hybrid EX')
+    Niro Plug-in Hybrid EX
+@[Niro Plug-in Hybrid EX Premium]('entity': 'model', 'value': 'Niro Plug-in Hybrid EX Premium')
+    Niro Plug-in Hybrid EX Premium
+@[Niro Plug-in Hybrid LX]('entity': 'model', 'value': 'Niro Plug-in Hybrid LX')
+    Niro Plug-in Hybrid LX
+@[Optima EX]('entity': 'model', 'value': 'Optima EX')
+    Optima EX
+@[Optima EX Premium]('entity': 'model', 'value': 'Optima EX Premium')
+    Optima EX Premium
+@[Optima LX]('entity': 'model', 'value': 'Optima LX')
+    Optima LX
+@[Optima S]('entity': 'model', 'value': 'Optima S')
+    Optima S
+@[Optima SX]('entity': 'model', 'value': 'Optima SX')
+    Optima SX
+@[Optima Hybrid EX]('entity': 'model', 'value': 'Optima Hybrid EX')
+    Optima Hybrid EX
+@[Optima Plug-in Hybrid EX]('entity': 'model', 'value': 'Optima Plug-in Hybrid EX')
+    Optima Plug-in Hybrid EX
+@[Rio LX]('entity': 'model', 'value': 'Rio LX')
+    Rio LX
+@[Rio S]('entity': 'model', 'value': 'Rio S')
+    Rio S
+@[Rio 5-Door S]('entity': 'model', 'value': 'Rio 5-Door S')
+    Rio 5-Door S
+@[Sedona EX]('entity': 'model', 'value': 'Sedona EX')
+    Sedona EX
+@[Sedona L]('entity': 'model', 'value': 'Sedona L')
+    Sedona L
+@[Sedona LX]('entity': 'model', 'value': 'Sedona LX')
+    Sedona LX
+@[Sedona SX]('entity': 'model', 'value': 'Sedona SX')
+    Sedona SX
+@[Sorento EX V6 AWD]('entity': 'model', 'value': 'Sorento EX V6 AWD')
+    Sorento EX V6 AWD
+@[Sorento EX V6 FWD]('entity': 'model', 'value': 'Sorento EX V6 FWD')
+    Sorento EX V6 FWD
+@[Sorento L FWD]('entity': 'model', 'value': 'Sorento L FWD')
+    Sorento L FWD
+@[Sorento LX AWD]('entity': 'model', 'value': 'Sorento LX AWD')
+    Sorento LX AWD
+@[Sorento LX FWD]('entity': 'model', 'value': 'Sorento LX FWD')
+    Sorento LX FWD
+@[Sorento S V6 AWD]('entity': 'model', 'value': 'Sorento S V6 AWD')
+    Sorento S V6 AWD
+@[Sorento S V6 FWD]('entity': 'model', 'value': 'Sorento S V6 FWD')
+    Sorento S V6 FWD
+@[Sorento SX AWD]('entity': 'model', 'value': 'Sorento SX AWD')
+    Sorento SX AWD
+@[Sorento SX FWD]('entity': 'model', 'value': 'Sorento SX FWD')
+    Sorento SX FWD
+@[Soul EX]('entity': 'model', 'value': 'Soul EX')
+    Soul EX
+@[Soul GT-Line]('entity': 'model', 'value': 'Soul GT-Line')
+    Soul GT-Line
+@[Soul GT-Line Turbo]('entity': 'model', 'value': 'Soul GT-Line Turbo')
+    Soul GT-Line Turbo
+@[Soul LX 6MT]('entity': 'model', 'value': 'Soul LX 6MT')
+    Soul LX 6MT
+@[Soul LX IVT]('entity': 'model', 'value': 'Soul LX IVT')
+    Soul LX IVT
+@[Soul S]('entity': 'model', 'value': 'Soul S')
+    Soul S
+@[Soul X-Line]('entity': 'model', 'value': 'Soul X-Line')
+    Soul X-Line
+@[Sportage EX AWD]('entity': 'model', 'value': 'Sportage EX AWD')
+    Sportage EX AWD
+@[Sportage EX FWD]('entity': 'model', 'value': 'Sportage EX FWD')
+    Sportage EX FWD
+@[Sportage LX AWD]('entity': 'model', 'value': 'Sportage LX AWD')
+    Sportage LX AWD
+@[Sportage LX FWD]('entity': 'model', 'value': 'Sportage LX FWD')
+    Sportage LX FWD
+@[Sportage S AWD]('entity': 'model', 'value': 'Sportage S AWD')
+    Sportage S AWD
+@[Sportage S FWD]('entity': 'model', 'value': 'Sportage S FWD')
+    Sportage S FWD
+@[Sportage SX AWD]('entity': 'model', 'value': 'Sportage SX AWD')
+    Sportage SX AWD
+@[Sportage SX FWD]('entity': 'model', 'value': 'Sportage SX FWD')
+    Sportage SX FWD
+@[Stinger AWD]('entity': 'model', 'value': 'Stinger AWD')
+    Stinger AWD
+@[Stinger GT AWD]('entity': 'model', 'value': 'Stinger GT AWD')
+    Stinger GT AWD
+@[Stinger GT RWD]('entity': 'model', 'value': 'Stinger GT RWD')
+    Stinger GT RWD
+@[Stinger GT1 AWD]('entity': 'model', 'value': 'Stinger GT1 AWD')
+    Stinger GT1 AWD
+@[Stinger GT1 RWD]('entity': 'model', 'value': 'Stinger GT1 RWD')
+    Stinger GT1 RWD
+@[Stinger GT2 AWD]('entity': 'model', 'value': 'Stinger GT2 AWD')
+    Stinger GT2 AWD
+@[Stinger GT2 RWD]('entity': 'model', 'value': 'Stinger GT2 RWD')
+    Stinger GT2 RWD
+@[Stinger GTS AWD]('entity': 'model', 'value': 'Stinger GTS AWD')
+    Stinger GTS AWD
+@[Stinger GTS RWD]('entity': 'model', 'value': 'Stinger GTS RWD')
+    Stinger GTS RWD
+@[Stinger Premium AWD]('entity': 'model', 'value': 'Stinger Premium AWD')
+    Stinger Premium AWD
+@[Stinger Premium RWD]('entity': 'model', 'value': 'Stinger Premium RWD')
+    Stinger Premium RWD
+@[Stinger RWD]('entity': 'model', 'value': 'Stinger RWD')
+    Stinger RWD
+@[Telluride EX AWD]('entity': 'model', 'value': 'Telluride EX AWD')
+    Telluride EX AWD
+@[Telluride EX FWD]('entity': 'model', 'value': 'Telluride EX FWD')
+    Telluride EX FWD
+@[Telluride LX AWD]('entity': 'model', 'value': 'Telluride LX AWD')
+    Telluride LX AWD
+@[Telluride LX FWD]('entity': 'model', 'value': 'Telluride LX FWD')
+    Telluride LX FWD
+@[Telluride S AWD]('entity': 'model', 'value': 'Telluride S AWD')
+    Telluride S AWD
+@[Telluride S FWD]('entity': 'model', 'value': 'Telluride S FWD')
+    Telluride S FWD
+@[Telluride SX AWD]('entity': 'model', 'value': 'Telluride SX AWD')
+    Telluride SX AWD
+@[Telluride SX FWD]('entity': 'model', 'value': 'Telluride SX FWD')
+    Telluride SX FWD
+
+~[model-trim]
+    @[Cadenza Limited]
+    @[Cadenza Premium]
+    @[Cadenza Technology]
+    @[Forte EX IVT]
+    @[Forte FE 6MT]
+    @[Forte FE IVT]
+    @[Forte GT 6MT]
+    @[Forte GT DCT]
+    @[Forte GT-Line IVT]
+    @[Forte LXS IVT]
+    @[K900 Luxury]
+    @[Niro EX]
+    @[Niro FE]
+    @[Niro LX]
+    @[Niro S Touring]
+    @[Niro Touring]
+    @[Niro EV EX]
+    @[Niro EV EX Premium]
+    @[Niro Plug-in Hybrid EX]
+    @[Niro Plug-in Hybrid EX Premium]
+    @[Niro Plug-in Hybrid LX]
+    @[Optima EX]
+    @[Optima EX Premium]
+    @[Optima LX]
+    @[Optima S]
+    @[Optima SX]
+    @[Optima Hybrid EX]
+    @[Optima Plug-in Hybrid EX]
+    @[Rio LX]
+    @[Rio S]
+    @[Rio 5-Door S]
+    @[Sedona EX]
+    @[Sedona L]
+    @[Sedona LX]
+    @[Sedona SX]
+    @[Sorento EX V6 AWD]
+    @[Sorento EX V6 FWD]
+    @[Sorento L FWD]
+    @[Sorento LX AWD]
+    @[Sorento LX FWD]
+    @[Sorento S V6 AWD]
+    @[Sorento S V6 FWD]
+    @[Sorento SX AWD]
+    @[Sorento SX FWD]
+    @[Soul EX]
+    @[Soul GT-Line]
+    @[Soul GT-Line Turbo]
+    @[Soul LX 6MT]
+    @[Soul LX IVT]
+    @[Soul S]
+    @[Soul X-Line]
+    @[Sportage EX AWD]
+    @[Sportage EX FWD]
+    @[Sportage LX AWD]
+    @[Sportage LX FWD]
+    @[Sportage S AWD]
+    @[Sportage S FWD]
+    @[Sportage SX AWD]
+    @[Sportage SX FWD]
+    @[Stinger AWD]
+    @[Stinger GT AWD]
+    @[Stinger GT RWD]
+    @[Stinger GT1 AWD]
+    @[Stinger GT1 RWD]
+    @[Stinger GT2 AWD]
+    @[Stinger GT2 RWD]
+    @[Stinger GTS AWD]
+    @[Stinger GTS RWD]
+    @[Stinger Premium AWD]
+    @[Stinger Premium RWD]
+    @[Stinger RWD]
+    @[Telluride EX AWD]
+    @[Telluride EX FWD]
+    @[Telluride LX AWD]
+    @[Telluride LX FWD]
+    @[Telluride S AWD]
+    @[Telluride S FWD]
+    @[Telluride SX AWD]
+    @[Telluride SX FWD]

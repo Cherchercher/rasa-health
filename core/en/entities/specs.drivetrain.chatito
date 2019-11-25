@@ -1,0 +1,119 @@
+@[engine description]('entity': 'specs', 'value': '1000')
+    engine description
+    engine
+    engine size
+    size engine
+    displacement
+    cylinders
+    litres
+    engine configuration
+
+@[horsepower]('entity': 'specs', 'value': '1008')
+    horsepower
+    hp
+    horse power
+    HP
+
+@[torque]('entity': 'specs', 'value': '1009')
+    Torque
+    the torque
+
+@[fuel]('entity': 'specs', 'value': '1010')
+    fuel
+    fuel type
+    gas
+    diesel
+    regular gas
+    gasoline
+    electric
+
+@[recommended fuel type]('entity': 'specs', 'value': '1011')
+    Recommended Fuel Type
+    regular unleaded
+    premium fuel
+    premium gas
+    type of gas
+    premium unleaded
+    unleaded
+
+@[compressor type]('entity': 'specs', 'value': '1012')
+    compressor type
+    turbo
+    turbocharger
+    turbocharged
+
+@[electric horsepower]('entity': 'specs', 'value': '1018')
+    electric horsepower
+    ev horsepower
+
+@[emission description]('entity': 'specs', 'value': '1019')
+    emission description
+
+@[fuel system description]('entity': 'specs', 'value': '1020')
+    Fuel System Description
+    direct injection
+    GDI
+    diesel direct injection
+    Sequential Electronic Fuel Injected
+    Multi Port Fuel Injected
+    multi port
+
+@[transmission type]('entity': 'specs', 'value': '1100')
+    Transmission Type
+    transmission
+    manual
+    automatic
+    automanual
+    transmission type
+    manual transmission
+    automatic transmission
+
+@[co2]('entity': 'specs', 'value': '719')
+    co2 grams/mile
+    co2
+    co2 per mile
+    co2 grams per mile
+    emissions
+    vehicle emissions
+    car emissions
+
+@[manual transmission option]('entity': 'specs', 'value': '1106')
+    manual transmission option
+
+@[automatic transmission option]('entity': 'specs', 'value': '1107')
+    Automatic Transmission Option
+
+@[manually interactive transmission]('entity': 'specs', 'value': '1108')
+    manually interactive transmission
+
+@[driven wheels]('entity': 'specs', 'value': '1200')
+    Driven Wheels
+    AWD
+    awd
+    all wheel drive
+    all wheel
+    4 wheel drive
+    4x4
+    4 wheel drive
+    4 wheel
+    four wheel drive
+    four-wheel-drive
+    front wheel drive
+    fwd
+    rear wheel drive
+    rwd
+
+@[awd type]('entity': 'specs', 'value': '1201')
+    awd type
+
+@[traction control]('entity': 'specs', 'value': '1207')
+    Traction Control
+    stability control
+    tcs
+    traction
+    traction-control
+    traction control
+
+@[remote start]('entity': 'specs', 'value': 'remote start')
+    remote start
+    remote engine start

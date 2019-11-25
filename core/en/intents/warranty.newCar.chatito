@@ -1,5 +1,8 @@
 import ../common.chatito
-//import ../entities/warrantySpecs.chatito
+import ../entities/specs.chatito
 
 %[warranty.newCar]('training': '10', 'distribution': 'even')
     whats included in the warranty
+
+%[warranty.coverage]
+    Does [my warranty cover] the cost of a [rental car] after a [collision]
