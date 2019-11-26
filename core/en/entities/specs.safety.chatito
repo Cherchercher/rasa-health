@@ -1,4 +1,4 @@
-@[collision avoidance]('entity': 'specs', 'value': '2400')
+~[collision avoidance]('synonym':'true')
     ~[collision] avoidance
     ~[collision] ~[assist]
     ~[collision] avoidance ~[assist]
@@ -13,7 +13,7 @@
     braking
     breaking
 
-@[automatic emergency braking]('entity': 'specs', 'value': '2403')
+~[automatic emergency braking]('synonym':'true')
     ~[auto] emergency ~[brake]
     ~[auto] ~[brake]
     ~[auto] ~[brake] ~[assist]
@@ -28,7 +28,7 @@
     collision
     accident
 
-@[blind spot detection]('entity': 'specs', 'value': '2404')
+~[blind spot detection]('synonym':'true')
     blind spot ~[detection]
     blind spot ~[collision] ~[alert]
     blind spot ~[collision] avoidance
@@ -39,30 +39,30 @@
     monitoring
     monitor
 
-@[rear cross traffic alert]('entity': 'specs', 'value': '2405')
+~[rear cross traffic alert]('synonym':'true')
     rear ~[cross-traffic] ~[alert] ~[system?]
     rear ~[cross-traffic] ~[collision] ~[alert]
     RCCW
     rccw
 
-@[forward collision warning]('entity': 'specs', 'value': '2406')
+~[forward collision warning]('synonym':'true')
     forward ~[collision] warning
     forward ~[collision] ~[alert]
     ~[collision] ~[alert]
     FCW
 
-@[lane change assist]('entity': 'specs', 'value': '2407')
+~[lane change assist]('synonym':'true')
     ~[lane-keep] ~[assist]
     lane ~[assist]
     lane keep
     LKA
 
-@[lane departure warning]('entity': 'specs', 'value': '2408')
+~[lane departure warning]('synonym':'true')
     lane departure ~[alert]
     ~[lane-keep] ~[alert]
 
-@[airbags]('entity': 'specs', 'value': 'airbags')
-    ~[airbags]
+~[airbags]('synonym':'true')
+    ~[airbag]
 
 ~[airbag]
     airbag
@@ -70,42 +70,42 @@
     airbags
     air bags
 
-@[side airbags]('entity': 'specs', 'value': '2200')
+~[side airbags]('synonym':'true')
     side ~[airbags]
 
-@[passenger airbags]('entity': 'specs', 'value': '2201')
+~[passenger airbags]('synonym':'true')
     passenger ~[airbags]
 
-@[driver airbags]('entity': 'specs', 'value': '2204')
+~[driver airbags]('synonym':'true')
     driver ~[airbags]
 
-@[passenger airbags deactivation]('entity': 'specs', 'value': '2205')
+~[passenger airbags deactivation]('synonym':'true')
     passenger ~[airbags] deactivation
 
-@[side airbags curtain]('entity': 'specs', 'value': '2208')
+~[side airbags curtain]('synonym':'true')
     side ~[airbags] curtain
 
-@[airbag rollover sensor]('entity': 'specs', 'value': '2209')
+~[airbag rollover sensor]('synonym':'true')
     ~[airbags] rollover sensor
 
-@[exterior view camera]('entity': 'specs', 'value': '3600')
+~[exterior view camera]('synonym':'true')
     exterior view camera
     camera
     backup camera
 
-@[child proof door locks]('entity': 'specs', 'value': '4302')
+~[child proof door locks]('synonym':'true')
     child proof door locks
     child locks
     child safety locks
 
-@[anti-theft alarm system]('entity': 'specs', 'value': '3200')
+~[anti-theft alarm system]('synonym':'true')
     ~[anti-theft] system
     ~[anti-theft] device
     ~[anti-theft] alarm system
     ~[anti-theft] ~[alert]
     ~[anti-theft] tracking
 
-@[parking assist description]('entity': 'specs', 'value': '302')
+~[parking assist description]('synonym':'true')
     parking assist description
     ~[park] ~[assist]
     ~[park] sensors
@@ -116,7 +116,7 @@
     park
     parking
 
-@[surround view monitor]('entity': 'specs', 'value': '306')
+~[surround view monitor]('synonym':'true')
     360 monitor
     360 view
     360 display
@@ -128,12 +128,12 @@
     multi angle monitor
     multi angle display
 
-@[hill start assist]('entity': 'specs', 'value': '503')
+~[hill start assist]('synonym':'true')
     hill start assist
     hill assist
     hill start
 
-@[brake assist]('entity': 'specs', 'value': '505')
+~[brake assist]('synonym':'true')
     ~[brake] ~[assist]
     ~[auto] ~[brake]
     ~[auto] ~[brake] ~[assist]
@@ -144,31 +144,31 @@
     antitheft
 
 ~[safety-spec]
-    @[collision avoidance]
-    @[automatic emergency braking]
-    @[blind spot detection]
-    @[rear cross traffic alert]
-    @[forward collision warning]
-    @[lane change assist]
-    @[lane departure warning]
-    @[exterior view camera]
-    @[anti-theft alarm system]
-    @[surround view monitor]
+    ~[collision avoidance]
+    ~[automatic emergency braking]
+    ~[blind spot detection]
+    ~[rear cross traffic alert]
+    ~[forward collision warning]
+    ~[lane change assist]
+    ~[lane departure warning]
+    ~[exterior view camera]
+    ~[anti-theft alarm system]
+    ~[surround view monitor]
 
 ~[airbag-spec]
-    @[airbags]
-    @[side airbags]
-    @[passenger airbags]
-    @[driver airbags]
-    @[passenger airbags deactivation]
-    @[side airbags curtain]
-    @[airbag rollover sensor]
+    ~[airbags]
+    ~[side airbags]
+    ~[passenger airbags]
+    ~[driver airbags]
+    ~[passenger airbags deactivation]
+    ~[side airbags curtain]
+    ~[airbag rollover sensor]
 
 
 ~[assist-spec]
-    @[parking assist description]
-    @[hill start assist]
-    @[brake assist]
+    ~[parking assist description]
+    ~[hill start assist]
+    ~[brake assist]
 
 ~[lane-keep]
     lane change
@@ -192,3 +192,26 @@
     assist
     assistance
     assistant
+
+@[specs.safety]
+    ~[collision avoidance]
+    ~[automatic emergency braking]
+    ~[blind spot detection]
+    ~[rear cross traffic alert]
+    ~[forward collision warning]
+    ~[lane change assist]
+    ~[lane departure warning]
+    ~[airbags]
+    ~[side airbags]
+    ~[passenger airbags]
+    ~[driver airbags]
+    ~[passenger airbags deactivation]
+    ~[side airbags curtain]
+    ~[airbag rollover sensor]
+    ~[exterior view camera]
+    ~[child proof door locks]
+    ~[anti-theft alarm system]
+    ~[parking assist description]
+    ~[surround view monitor]
+    ~[hill start assist]
+    ~[brake assist]

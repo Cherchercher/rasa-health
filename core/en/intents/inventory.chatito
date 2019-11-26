@@ -1,18 +1,15 @@
 import ../common.chatito
-import ../common-specs.chatito
-import ../entities/locations.chatito
 
 %[inventory]('training': '100', 'distribution': 'even')
     ~[searching] ~[model]
-    ~[greeting] ~[searching] ~[model-trim]
-    ~[i] want ~[model-trim]
+    ~[greeting] ~[searching] @[model-trim]
+    ~[i] want @[model-trim]
     do you have ~[model] in stock
-    would you be able to tell me the local inventory for the area surrounding zip ~[zipcode] that would offer the ~[spec] in the ~[model]
+    would you be able to tell me the local inventory for the area surrounding zip ~[zipcode] that would offer the ~[specs] in the ~[model]
     ~[dealer] near me with ~[model]
     is there a ~[model] in inventory in ~[location-region]
-    ~[searching] ~[make] inventory
-    ~[searching] ~[model] inventory
-    i want to look at the ~[model]
+    looking for @[make] inventory
+    i want to look at the telluride ~[model]
     i want to look at the ~[model] where can i go see it
     i would like to take another look at inventory for ~[model]
     how can i find a ~[model] to ~[buy]
@@ -27,15 +24,13 @@ import ../entities/locations.chatito
     how do i view there inventory
     ~[model] inventory
 
-%[inventory#spec]('training': '100', 'distribution': 'even')
-    ~[searching] an ~[model] preferably ~[ext-color] with ~[int-color] interior and ~[spec]
-    ~[searching] for inventory for a ~[model] with ~[spec]
+%[inventory.spec]('training': '100', 'distribution': 'even')
+    ~[searching] an ~[model] preferably ~[ext-color] with ~[int-color] interior and ~[specs]
+    ~[searching] for inventory for a ~[model] with ~[specs]
     ~[dealer] inventory ~[model] ~[ext-color] ~[int-color] near zip code 39183
-    ~[searching] ~[make?] ~[model-ent] ~[model-year] or ~[model-year] with a ~[color] interior with ~[optional-spec] ~[optional-spec] ~[optional-spec]
 
-%[inventory#cantFind]('training': '10', 'distribution': 'even')
+%[inventory.cantFind]('training': '10', 'distribution': 'even')
     i want to buy a ~[model] but no dealers ever have one in stock
-    I want a ~[model] with the ~[optional-spec] and cant find one available in my area
 
 //variations for inventory intent only
 ~[dealer]

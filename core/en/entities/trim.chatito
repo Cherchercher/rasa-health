@@ -1,3 +1,99 @@
+//ambiguous models 
+~[cadenza]('synonym':'true')
+    cadenza
+    cadenzas
+    credenza
+    credenzas
+
+~[forte]('synonym':'true')
+    forte
+
+~[k900]('synonym':'true')
+    k900
+    k 900
+    k900s
+
+~[niro]('synonym':'true')
+    niro
+    niros
+    nero
+    neros
+    nitro
+
+~[niro ev]('synonym':'true')
+    niro ev
+    niro ~[ev]
+    nitro ~[ev]
+    ~[ev] nitro
+    ~[ev] niro
+    nero ~[ev]
+    ~[ev] nero
+
+~[niro plug-in hybrid]('synonym':'true')
+    niro plug-in hybrid
+    niro ~[phev]
+
+~[optima]('synonym':'true')
+    optima
+    optimas
+
+~[optima hybrid]('synonym':'true')
+    optima hybrid
+    optima ~[hybrid]
+    ~[hybrid] optima
+
+~[optima plug-in hybrid]('synonym':'true')
+    optima plug-in hybrid
+    optima ~[phev]
+    ~[phev] optima
+
+~[rio]('synonym':'true')
+    rio
+    rio ~[sedan]
+
+~[rio 5-door]('synonym':'true')
+    rio 5-door
+    rio ~[5-door]
+
+~[soul]('synonym':'true')
+    soul
+    regular soul
+
+~[soul ev]('synonym':'true')
+    soul ev
+    soul ~[ev]
+    ~[ev] soul
+
+~[sorento]('synonym':'true')
+    sorento
+
+~[sportage]('synonym':'true')
+    sportage
+
+~[stinger]('synonym':'true')
+    stinger
+    stringer
+~[telluride]('synonym':'true')
+    telluride
+
+//model without a specified trim
+@[model-ent]
+    ~[cadenza]
+    ~[forte]
+    ~[k900]
+    ~[niro]
+    ~[niro ev]
+    ~[niro plug-in hybrid]
+    ~[optima]
+    ~[optima hybrid]
+    ~[optima plug-in hybrid]
+    ~[rio]
+    ~[rio 5-door]
+    ~[stinger]
+    ~[sorento]
+    ~[telluride]
+
+//trim specific models
 ~[Cadenza Limited]('synonym':'true')
     Cadenza Limited
 ~[Cadenza Premium]('synonym':'true')
@@ -237,3 +333,24 @@
     ~[Telluride S FWD]
     ~[Telluride SX AWD]
     ~[Telluride SX FWD]
+
+//model trim version differentiators -- often included in the name of a trim version
+~[phev]('synonym':'true')
+    phev
+    plug-in hybrid
+    plugin hybrid
+    plug in hybrid
+
+~[hybrid]('synonym':'true')
+    hybrid
+    regular hybrid
+
+~[ev]('synonym':'true')
+    ev
+    electric vehicle
+    electric
+    all electric
+    plug-in
+    plugin
+    plug in
+

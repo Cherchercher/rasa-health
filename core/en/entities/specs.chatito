@@ -1,16 +1,25 @@
 ///////////////////////
 //       Specs       //
 ///////////////////////
+import ./specs.drivetrain.chatito
+import ./specs.fuelconsumption.chatito
+import ./specs.infotainment.chatito
+import ./specs.prices.chatito
+import ./specs.safety.chatito
+import ./specs.seating.chatito
+import ./specs.storage.chatito
+import ./specs.warranty.chatito
+import ./specs.wheels.chatito
 
-// ================ ac-specs =================
-@[front a/c]('entity': 'specs', 'value': '200')
+
+~[front a/c]('synonym':'true')
     front a/c
     a/c
     air conditioning
     aircon
     ac
 
-@[front a/c zones]('entity': 'specs', 'value': '201')
+~[front a/c zones]('synonym':'true')
     front a/c zones
     dual zone
     dual zone heating
@@ -19,13 +28,22 @@
     single zone
     dual zone air
 
-@[rear a/c]('entity': 'specs', 'value': '202')
+~[rear a/c]('synonym':'true')
     rear seat ~[air conditioning]
     rear ~[air conditioning]
     ~[air conditioning] vent in back seat
     ~[second row] a/c
 
-@[a/c control type]('entity': 'specs', 'value': '208')
+//~[sun sensor]('synonym':'true')
+//    sun sensor
+
+//~[air filtration]('synonym':'true')
+//    air filtration
+
+//~[total a/c zones]('synonym':'true')
+///    total a/c zones
+
+~[a/c control type]('synonym':'true')
     a/c control type
     automatic climate control
     automatic ~[air conditioning]
@@ -37,14 +55,28 @@
     aircon
     air condintioned
 
-~[ac-spec]
-    @[front a/c]
-    @[front a/c zones]
-    @[rear a/c]
-    @[a/c control type]
+//~[a/c control location]('synonym':'true')
+//    a/c control location
 
-// =============== body specs ================
-@[doors]('entity': 'specs', 'value': '400')
+//~[air condition optional]('synonym':'true')
+//    air condition optional
+
+//~[front parking assist]('synonym':'true')
+//    front parking assist
+
+//~[rear parking assist]('synonym':'true')
+//    rear parking assist
+
+//~[ultrasonic parking assist]('synonym':'true')
+//    ultrasonic parking assist
+
+//~[camera parking assist]('synonym':'true')
+//    camera parking assist
+
+//~[auto parking system]('synonym':'true')
+//    automatic parking system
+
+~[doors]('synonym':'true')
     doors
     ~[door count] door
     ~[door count] doors
@@ -57,8 +89,64 @@
     four
     five
 
-//============== tow-ey specs
-@[towing capacity]('entity': 'specs', 'value': '701')
+//~[vehicle body type]('synonym':'true')
+//    vehicle body type
+
+//~[vehicle body style]('synonym':'true')
+//    vehicle body style
+
+//~[vehicle size]('synonym':'true')
+//    vehicle size
+
+//~[sliding driver van door]('synonym':'true')
+//    sliding driver van door
+
+//~[sliding passenger van door]('synonym':'true')
+//    sliding passenger van door
+
+//~[power sliding doors]('synonym':'true')
+//    power sliding doors
+
+//~[body description]('synonym':'true')
+//    body description
+
+//~[underbody protection]('synonym':'true')
+//    Underbody Protection
+
+//~[side door beams]('synonym':'true')
+//    Side Door Beams
+//    anti-intrusion beams
+//    side impact beams
+//    side-impact beams
+
+//~[body color bumpers]('synonym':'true')
+//    Body Color Bumpers
+
+//~[body color side cladding]('synonym':'true')
+//    Body Color Side Cladding
+
+//~[front brake type]('synonym':'true')
+//    front brake type
+
+//~[rear brake type]('synonym':'true')
+//    rear brake type
+
+~[ABS]('synonym':'true')
+    abs
+    abs braking
+    abs brakes
+    anti blocking system
+
+//~[cargo volume seats in]('synonym':'true')
+//    cargo volume seats in
+
+//~[cargo volume seats out]('synonym':'true')
+//    cargo volume seats out
+
+//~[turning diameter]('synonym':'true')
+//    turning diameter
+
+~[towing capacity]('synonym':'true')
     towing capacity
     tow
     tow capacity
@@ -68,25 +156,10 @@
     weight for towing
     tow wieght
 
-@[tow hooks]('entity': 'specs', 'value': '3900')
-    tow hooks
-
-@[hitch]('entity': 'specs', 'value': '3901')
-    hitch
-    trailer tow hitch
-    trailer hitch
-
-@[trailer wiring]('entity': 'specs', 'value': '3902')
-    trailer wiring
-
-@[trailer stability control]('entity': 'specs', 'value': '3903')
-    trailer stability control
-
-@[payload]('entity': 'specs', 'value': '702')
+~[payload]('synonym':'true')
     payload
 
-// ============== specky specs ==============
-@[0-60 mph]('entity': 'specs', 'value': '703')
+~[0-60 mph]('synonym':'true')
     0-60
     0-60 mph
     0-60 miles
@@ -105,232 +178,140 @@
     zero to sixty miles
     zero to sixty mph time
 
-@[curb weight]('entity': 'specs', 'value': '707')
+//~[0 to 60 mph time calculated]('synonym':'true')
+//    0 to 60 MPH Time Calculated
+
+//~[0 to 100 kph time calculated]('synonym':'true')
+//    0 to 100 KPH Time Calculated
+
+~[curb weight]('synonym':'true')
     curb weight
     the weight
     weight of car
     cars weight
     car's weight
 
-@[gross weight]('entity': 'specs', 'value': '708')
+~[gross weight]('synonym':'true')
     gross weight
     train weight
 
-//================== exterior dimensions ==========
-@[vehicle height]('entity': 'specs', 'value': '900')
+~[vehicle height]('synonym':'true')
     vehicle height
     height
 
-@[vehicle width]('entity': 'specs', 'value': '901')
+~[vehicle width]('synonym':'true')
     vehicle width
     width
     full width
 
-@[vehicle length]('entity': 'specs', 'value': '902')
+~[vehicle length]('synonym':'true')
     vehicle length
 
-@[wheelbase]('entity': 'specs', 'value': '903')
+~[wheelbase]('synonym':'true')
     wheelbase
 
-@[ground clearance]('entity': 'specs', 'value': '904')
+~[ground clearance]('synonym':'true')
     ground clearance
-    off the ground
-    from ground to entry
-    off the road
 
-@[bed width]('entity': 'specs', 'value': '906')
+~[bed width]('synonym':'true')
     bed width
 
-@[bed height]('entity': 'specs', 'value': '907')
+~[bed height]('synonym':'true')
     bed height
 
-@[front track width]('entity': 'specs', 'value': '908')
-    front track width
+~[front track width]('synonym':'true')
+    Front Track Width
 
-@[rear track width]('entity': 'specs', 'value': '909')
-    rear track width
+~[rear track width]('synonym':'true')
+    Rear Track Width
 
-@[bed length]('entity': 'specs', 'value': '910')
+~[bed length]('synonym':'true')
     bed length
 
-@[power steering type]('entity': 'specs', 'value': '1401')
+~[displacement cc]('synonym':'true')
+    displacement cc
+
+~[displacement litre]('synonym':'true')
+    displacement litre
+
+~[number of cylinders]('synonym':'true')
+    number of cylinders
+    cylinders
+
+~[engine valve count]('synonym':'true')
+    engine valve count
+    valves
+
+~[engine configuration]('synonym':'true')
+    engine configuration
+
+~[power steering type]('synonym':'true')
     power steering type
 
-@[steering system description]('entity': 'specs', 'value': '1403')
+~[steering system description]('synonym':'true')
     steering system description
 
-@[rear limited slip differential]('entity': 'specs', 'value': '3703')
-    rear limited slip differential
+~[model year]('synonym':'true')
+    model year
 
-@[rear locking differential]('entity': 'specs', 'value': '3706')
-    rear locking differential
+~[make]('synonym':'true')
+    make
 
-@[front stabilizer bar]('entity': 'specs', 'value': '5100')
-    front stabilizer bar
-    front stabalizer
-    front sway bar
-    sway bar
+~[trim name]('synonym':'true')
+    trim name
 
-@[rear stabilizer bar]('entity': 'specs', 'value': '5101')
-    rear stabilizer bar
+@[specs]
+    ~[front a/c]
 
-@[suspension type front]('entity': 'specs', 'value': '5102')
-    Suspension Type Front
-    front suspension
-    suspension
+//spec types
+@[optional-spec]
+    ~[navigation]
+    ~[rear a/c]
+    ~[parking assist description]
+    ~[usb-ports]
+    ~[collision avoidance]
+    ~[automatic emergency braking]
+    ~[blind spot detection]
+    ~[rear cross traffic alert]
+    ~[forward collision warning]
+    ~[lane change assist]
+    ~[lumbar support driver]
+    ~[memory seat controls]
+    ~[power driver seat]
+    ~[power lumbar control]
+    ~[active head restraints]
+    ~[second row head restraints]
+    ~[satellite radio]
+    ~[usb connection]
+    ~[auxilary mp3 input]
+    ~[navigation real time traffic]
+    ~[navigation]
 
-@[suspension type rear]('entity': 'specs', 'value': '5103')
-    Suspension Type Rear
-    rear suspension
+~[indicator-spec]
+    ~[driven wheels]
+    ~[transmission type]
+    ~[fuel]
+    ~[engine description]
 
-@[suspension stability control]('entity': 'specs', 'value': '5104')
-    Suspension Stability Control
+~[engine-spec]
+    ~[engine description]
+    ~[horsepower]
 
-@[suspension stability control description]('entity': 'specs', 'value': '5105')
-    suspension stability control description
+~[count-spec]
+    ~[total seat count]
+    ~[highway mpg]
+    ~[combined mpg]
+    ~[city mpg]
 
-@[delayed power retention]('entity': 'specs', 'value': '5202')
-    delayed power retention
+~[size-spec]
+    ~[cargo volume]
 
-@[remote adjustment mirror]('entity': 'specs', 'value': '2503')
-    remote adjustment mirror
+~[seats-spec]
+    ~[total seat count]
+    ~[1st Row Seating Count]
+    ~[2nd Row Seating Count]
 
-@[heated mirror]('entity': 'specs', 'value': '2504')
-    heated mirror
-
-@[reverse tilt mirror]('entity': 'specs', 'value': '2506')
-    reverse tilt mirror
-
-@[turn signal in mirror]('entity': 'specs', 'value': '2507')
-    turn signal in mirror
-
-@[driver vanity mirror]('entity': 'specs', 'value': '2508')
-    driver vanity mirror
-
-@[illuminated vanity mirror]('entity': 'specs', 'value': '2510')
-    illuminated vanity mirror
-
-@[folding mirror]('entity': 'specs', 'value': '2511')
-    folding mirror
-    folding mirrors
-    folding side mirrors
-    folding outsize mirrors
-
-@[electrochromic mirror glass]('entity': 'specs', 'value': '2513')
-    electrochromic mirror glass
-
-@[oversized mirror]('entity': 'specs', 'value': '2514')
-    oversized mirror
-
-@[power side mirror description]('entity': 'specs', 'value': '2515')
-    power side mirror description
-
-@[steering wheel a/c control]('entity': 'specs', 'value': '2700')
-    steering wheel a/c control
-
-@[steering wheel audio control]('entity': 'specs', 'value': '2701')
-    steering wheel audio control
-
-@[steering wheel cruise control]('entity': 'specs', 'value': '2702')
-    steering wheel cruise control
-
-@[steering wheel trim]('entity': 'specs', 'value': '2706')
-    steering wheel trim
-
-@[steering wheel paddle shift controls]('entity': 'specs', 'value': '2707')
-    steering wheel paddle shift controls
-
-@[adjustable column steering wheel]('entity': 'specs', 'value': '2708')
-    adjustable column steering wheel
-
-@[telescopic column steering wheel]('entity': 'specs', 'value': '2709')
-    telescopic column steering wheel
-
-@[tilt column steering wheel]('entity': 'specs', 'value': '2710')
-    tilt column steering wheel
-
-@[steering wheel controls description]('entity': 'specs', 'value': '2711')
-    steering wheel controls description
-
-@[memory column]('entity': 'specs', 'value': '2712')
-    Memory Column
-
-//exterior lighting
-@[adaptive headlights]('entity': 'specs', 'value': '3000')
-    adaptive headlights
-
-@[fog lights]('entity': 'specs', 'value': '3003')
-    fog lights
-
-@[self leveling headlights]('entity': 'specs', 'value': '3005')
-    self leveling headlights
-
-@[auto off headlights]('entity': 'specs', 'value': '3009')
-    auto off headlights
-
-@[cargo area light]('entity': 'specs', 'value': '3010')
-    cargo area light
-
-@[cargo box light]('entity': 'specs', 'value': '3011')
-    cargo box light
-
-@[automatic headlights]('entity': 'specs', 'value': '3012')
-    automatic headlights
-
-@[xenon headlights]('entity': 'specs', 'value': '3013')
-    xenon headlights
-
-@[projector headlights]('entity': 'specs', 'value': '3015')
-    projector headlights
-
-@[power locks type]('entity': 'specs', 'value': '3202')
-    Power Locks Type
-    power locks
-    remote locking
-    remote locks
-
-@[height adjustable]('entity': 'specs', 'value': '3303')
-    Height Adjustable
-    adjustable height
-
-//windows
-@[rear window wiper]('entity': 'specs', 'value': '3403')
-    rear window wiper
-
-@[rear wiper type]('entity': 'specs', 'value': '3404')
-    rear wiper type
-
-@[rear window defogger]('entity': 'specs', 'value': '3405')
-    Rear Window Defogger
-    defogger
-    rear defogger
-
-@[power windows]('entity': 'specs', 'value': '3407')
-    power windows
-    windows
-
-@[privacy glass]('entity': 'specs', 'value': '3408')
-    privacy glass
-
-@[tinted glass]('entity': 'specs', 'value': '3409')
-    Tinted Glass
-
-@[rear sunshade]('entity': 'specs', 'value': '3410')
-    Rear Sunshade
-
-@[front de icer]('entity': 'specs', 'value': '3411')
-    front de icer
-
-@[sunroof]('entity': 'specs', 'value': '2100')
-    sunroof
-    sun roof
-    panoramic
-    moonroof
-    moon roof
-    panoramic ceiling
-    ceiling window
-    ceiling window
-    sliding roof
-
-@[panoramic]('entity': 'specs', 'value': '2105')
-    panoramic
+~[measure-spec]
+    ~[curb weight]
+    ~[vehicle width]
+    ~[vehicle height]

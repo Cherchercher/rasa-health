@@ -1,4 +1,4 @@
-@[fuel tank capacity]('entity': 'specs', 'value': '709')
+~[fuel tank capacity]('synonym':'true')
     fuel tank capacity
     fuel tank size
     fuel tank volume
@@ -7,7 +7,7 @@
     tank size
     fuel tank holding capacity
 
-@[battery recharge time]('entity': 'specs', 'value': '710')
+~[battery recharge time]('synonym':'true')
     battery recharge time
     recharge time
     charge time
@@ -16,7 +16,7 @@
     battery change
     charging duration
 
-@[highway mpg]('entity': 'specs', 'value': '711')
+~[highway mpg]('synonym':'true')
     highway mpg
     mpg highway
     mpg on a highway
@@ -26,7 +26,7 @@
     max mpg
     fuel efficient
 
-@[combined mpg]('entity': 'specs', 'value': '712')
+~[combined mpg]('synonym':'true')
     mpg
     mpg
     the mpg
@@ -48,7 +48,7 @@
     economic fuel
     kmpl
 
-@[city mpg]('entity': 'specs', 'value': '713')
+~[city mpg]('synonym':'true')
     city mpg
     mpg city
     mpg in a city
@@ -57,24 +57,24 @@
     minimum mpg
     min mpg
 
-@[quarter mile time]('entity': 'specs', 'value': '715')
+~[quarter mile time]('synonym':'true')
     quarter mile time
     quarter mile
 
-@[city range]('entity': 'specs', 'value': '720')
+~[city range]('synonym':'true')
     city range
     range city
     range in city
     range in a city
     range in the city
 
-@[combined range]('entity': 'specs', 'value': '721')
+~[combined range]('synonym':'true')
     range
     combined range
     range combined
     how far can i drive
 
-@[highway range]('entity': 'specs', 'value': '722')
+~[highway range]('synonym':'true')
     highway range
     range highway
     range on highway
@@ -82,7 +82,7 @@
     range on the highway
     max range
 
-@[battery-range]('entity': 'specs', 'value': '725')
+~[battery-range]('synonym':'true')
     battery range
     electric range
     full charge
@@ -96,7 +96,7 @@
     on ~[the] battery
     all electric range
 
-@[battery-range#without-recharge]('entity': 'specs', 'value': '725')
+~[battery-range.without-recharge]('synonym':'true')
     without recharge
     without recharging
     before recharge
@@ -127,7 +127,7 @@
     on electric
     in all electric
 
-@[highway mpge]('entity': 'specs', 'value': '728')
+~[highway mpge]('synonym':'true')
     highway mpge
     mpge highway
     mpge highway
@@ -136,7 +136,7 @@
     maximum mpge
     max mpge
 
-@[combined mpge]('entity': 'specs', 'value': '729')
+~[combined mpge]('synonym':'true')
     mpge
     combined mpge
     mpge combined
@@ -145,7 +145,7 @@
     mpges
     mpge
 
-@[city mpge]('entity': 'specs', 'value': '730')
+~[city mpge]('synonym':'true')
     city mpge
     mpge city
     mpge in a city
@@ -153,3 +153,19 @@
     mpge in city
     minimum mpge
     min mpge
+
+@[specs.fuelconsumption]
+    ~[fuel tank capacity]
+    ~[battery recharge time]
+    ~[highway mpg]
+    ~[combined mpg]
+    ~[city mpg]
+    ~[quarter mile time]
+    ~[city range]
+    ~[combined range]
+    ~[highway range]
+    ~[battery-range]
+    ~[battery-range-without-recharge]
+    ~[highway mpge]
+    ~[combined mpge]
+    ~[city mpge]

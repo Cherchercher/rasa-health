@@ -1,16 +1,15 @@
 //trim levels
-~[top trim]('synonym': 'true')
+@[top trim]('entity': 'trim_level')
     top of the line
     loaded
     fully loaded
-    all the features
 
-~[sport trim]('synonym': 'true')
+@[sport trim]('entity': 'trim_level')
     sport model
     sport cut
     sport trim
 
-~[base trim]('synonym': 'true')
+@[base trim]('entity': 'trim_level')
     base
     base trim
     base model
@@ -18,6 +17,6 @@
     basic
 
 @[trim-level]
-    ~[top trim]
-    ~[sport trim]
-    ~[base trim]
+    @[top trim]
+    @[sport trim]
+    @[base trim]

@@ -1,10 +1,10 @@
-@[invoice price]('entity': 'priceSpecs', 'value': '100')
+~[invoice price]('synonym':'true')
     invoice price
     invoice cost
     dealer price
     dealer cost
 
-@[msrp]('entity': 'priceSpecs', 'value': '101')
+~[msrp]('synonym':'true')
     msrp
     price
     cost
@@ -18,19 +18,19 @@
     suggested retail price
     manufacturer price
 
-@[delivery fee]('entity': 'priceSpecs', 'value': '102')
+~[delivery fee]('synonym':'true')
     delivery fee
     cost of delivery
     delivery cost
     fees
 
-@[base price]('entity': 'priceSpecs', 'value': '103')
+~[base price]('synonym':'true')
     base price
     starting price
     lowest price
 
-~[price-spec]
-    @[invoice price]
-    @[msrp]
-    @[delivery fee]
-    @[base price]
+@[specs.price]
+    ~[invoice price]
+    ~[msrp]
+    ~[delivery fee]
+    ~[base price]

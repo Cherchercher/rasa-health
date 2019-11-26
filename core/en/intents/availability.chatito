@@ -1,16 +1,15 @@
 import ../common.chatito
-import ../common-specs.chatito
 import ../entities/locations.chatito
 
-%[availability]('training': '100', 'distribution': 'even')
+%[availability]('training': '200', 'distribution': 'even')
     when will ~[future-model] become available
     are ~[future-model] at the dealer already
     is the ~[future-model] available now
     when does the ~[future-model] come out
     when will the ~[future-model] models be available in the ~[relativelocation] area
-    ~[greeting] when will the ~[future-model] be available for pick up in @[US state]
-    when will the ~[future-model] be available in @[US state]
-    can you let me know when the ~[future-model] will be released in @[US state]
+    *[10%] ~[greeting] when will the ~[future-model] be available for pick up in @[US state]
+    *[10%] when will the ~[future-model] be available in @[US state]
+    *[10%] can you let me know when the ~[future-model] will be released in @[US state]
     when do you expect to have the ~[future-model] in ~[relative location]
     is the ~[future-model] out yet or when is it expected to be released
     just want to know when the ~[future-model] is available in ~[relative location]

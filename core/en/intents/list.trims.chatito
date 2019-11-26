@@ -1,6 +1,5 @@
 import ../common.chatito
-import ../common-specs.chatito
-import ../entities/fuel-type.chatito
+import ../entities/fuelType.chatito
 import ../entities/trim-levels.chatito
 
 //this intent is to find model trims that
@@ -10,7 +9,7 @@ import ../entities/trim-levels.chatito
     how many trims are there for ~[trim-entity]
     ~[declaritive] ~[trim-entity]
     ~[trim-entity]
-    is ~[a-an-the] ~[spec] standard ~[in-on] all ~[model-ent] models
+    is ~[a-an-the] @[specs] standard ~[in-on] all @[model-ent] models
 
 //indicator specs help identify a specific trim level
 %[list.trims#indicator]('training': '25', 'distribution': 'even')
@@ -33,14 +32,14 @@ import ../entities/trim-levels.chatito
     Can I get ~[optional-spec] with any trim
     What trim level of ~[model] ~[posseses] ~[optional-spec]
     Can you get the ~[model] with ~[optional-spec]
-    ~[exist] ~[trim-level] ~[model-trim] ~[posseses] ~[optional-spec]
-    ~[does the] ~[model-trim] ~[possess] ~[optional-spec]
-    is ~[optional-spec] available ~[on-in] ~[model-trim]
-    are ~[optional-spec] available ~[on-in] ~[model-trim]
+    ~[exist] @[trim-level] @[model-trim] ~[posseses] ~[optional-spec]
+    ~[does the] @[model-trim] ~[possess] ~[optional-spec]
+    is ~[optional-spec] available ~[on-in] @[model-trim]
+    are ~[optional-spec] available ~[on-in] @[model-trim]
     ~[declaritive] can i get a ~[optional-spec] in a ~[model]
-    does the ~[model] ~[posseses] ~[spec]
-    I need a Niro that has [cloth seats(spec_value)], [remote engine start] and autonomous forward collision breaking.  which model would get me that?
-    does the ~[model-ent] have ~[optional-spec] or ~[optional-spec] on the ~[trim-fragment] with ~[indicator-spec]
+    does the ~[model] ~[posseses] @[specs]
+    I need a niro that has @[specs] @[specs] and autonomous forward collision breaking.  which model would get me that?
+    does the @[model-ent] have ~[optional-spec] or ~[optional-spec] on the ~[trim-fragment] with ~[indicator-spec]
 
 %[list.trims#safetySpec]('training': '25', 'distribution': 'even')
     ~[what-which] trim do i need to get ~[optional-spec]

@@ -1,58 +1,75 @@
-@[black]('entity': 'color')
+~[black]('synonym': 'true')
     black
     midnight
 
-@[grey]('entity': 'color')
+~[grey]('synonym': 'true')
     grey
     gray
     stone
 
-@[light grey]('entity': 'color')
+~[light grey]('synonym': 'true')
     light gray
     light grey
 
-@[beige]('entity': 'color')
+~[beige]('synonym': 'true')
     beige
     champagne
     tan
 
-@[white]('entity': 'color')
+~[white]('synonym': 'true')
     white
     pearl
 
-@[silver]('entity': 'color')
+~[silver]('synonym': 'true')
     silver
 
-@[red]('entity': 'color')
+~[red]('synonym': 'true')
     red
     blood
 
-@[orange]('entity': 'color')
+~[orange]('synonym': 'true')
     orange
 
-@[yellow]('entity': 'color')
+~[yellow]('synonym': 'true')
     yellow
     lime
 
-@[purple]('entity': 'color')
+~[purple]('synonym': 'true')
     purple
     maroon
     indigo
     violet
 
-@[green]('entity': 'color')
+~[green]('synonym': 'true')
     green
 
-@[blue]('entity': 'color')
+~[blue]('synonym': 'true')
     blue
     navy
     sky
 
-@[brown]('entity': 'color')
+~[brown]('synonym': 'true')
     brown
 
-@[electric blue]('entity': 'color')
+~[electric blue]('synonym': 'true')
     electric blue
 
-@[gravity blue]('entity': 'color')
+~[gravity blue]('synonym': 'true')
     gravity blue
+
+@[color]
+    ~[black]
+    ~[grey]
+    ~[light grey]
+    ~[beige]
+    ~[white]
+    ~[silver]
+    ~[red]
+    ~[orange]
+    ~[yellow]
+    ~[purple]
+    ~[green]
+    ~[blue]
+    ~[brown]
+    ~[electric blue]
+    ~[gravity blue]

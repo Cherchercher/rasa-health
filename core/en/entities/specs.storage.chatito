@@ -1,22 +1,22 @@
-@[center console]('entity': 'specs', 'value': '1304')
+~[center console]('synonym':'true')
     Center Console
 
-@[overhead console]('entity': 'specs', 'value': '1305')
+~[overhead console]('synonym':'true')
     Overhead Console
 
-@[seat back storage]('entity': 'specs', 'value': '1308')
+~[seat back storage]('synonym':'true')
     seat back storage
 
-@[under seat storage]('entity': 'specs', 'value': '1309')
+~[under seat storage]('synonym':'true')
     under seat storage
 
-@[door pocket storage]('entity': 'specs', 'value': '1310')
+~[door pocket storage]('synonym':'true')
     door pocket storage
 
-@[armreset storage]('entity': 'specs', 'value': '1311')
+~[armreset storage]('synonym':'true')
     armreset storage
 
-@[cargo volume]('entity': 'specs', 'value': '600')
+~[cargo volume]('synonym':'true')
     cargo volume
     max cargo volume
     cargo max volume
@@ -28,51 +28,51 @@
     cargo volume with seats
     cargo volume with seats opened
 
-@[cup holders]('entity': 'specs', 'value': '1312')
+~[cup holders]('synonym':'true')
     cup holders
     Cup Holders
     cup-holders
     cupholders
     beverage holders
 
-@[roof rack]('entity': 'specs', 'value': '3601')
+~[roof rack]('synonym':'true')
     roof rack
 
-@[hands free trunk lock]('entity': 'specs', 'value': '3602')
+~[hands free trunk lock]('synonym':'true')
     hands free trunk lock
 
-@[locking bed storage]('entity': 'specs', 'value': '3603')
+~[locking bed storage]('synonym':'true')
     locking bed storage
 
-@[power liftgate]('entity': 'specs', 'value': '3604')
+~[power liftgate]('synonym':'true')
     power liftgate
 
-@[hands free liftgate]('entity': 'specs', 'value': '3605')
+~[hands free liftgate]('synonym':'true')
     hands free liftgate
 
-@[power trunk]('entity': 'specs', 'value': '3606')
+~[power trunk]('synonym':'true')
     power trunk
 
-@[roof rails]('entity': 'specs', 'value': '3607')
+~[roof rails]('synonym':'true')
     roof rails
 
-@[cargo tie downs]('entity': 'specs', 'value': '1303')
+~[cargo tie downs]('synonym':'true')
     cargo tie downs
 
-~[storage-spec]
-    @[center console]
-    @[overhead console]
-    @[seat back storage]
-    @[under seat storage]
-    @[door pocket storage]
-    @[armreset storage]
-    @[cargo volume]
-    @[cup holders]
-    @[roof rack]
-    @[hands free trunk lock]
-    @[locking bed storage]
-    @[power liftgate]
-    @[hands free liftgate]
-    @[power trunk]
-    @[roof rails]
-    @[cargo tie downs]
+@[specs.storage]
+    ~[center console]
+    ~[overhead console]
+    ~[seat back storage]
+    ~[under seat storage]
+    ~[door pocket storage]
+    ~[armreset storage]
+    ~[cargo volume]
+    ~[cup holders]
+    ~[roof rack]
+    ~[hands free trunk lock]
+    ~[locking bed storage]
+    ~[power liftgate]
+    ~[hands free liftgate]
+    ~[power trunk]
+    ~[roof rails]
+    ~[cargo tie downs]
