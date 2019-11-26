@@ -1,4 +1,4 @@
-@[total seat count]('entity': 'specs', 'value':'1600')
+~[total seat count]('synonym':'true')
     total seat count
     seating capacity
     how many seats
@@ -7,61 +7,61 @@
     people can it fit
     how many people
 
-@[1st Row Seating Count]('entity': 'specs', 'value':'1601')
+~[1st Row Seating Count]('synonym':'true')
     ~[first row]
 
-@[2nd Row Seating Count]('entity': 'specs', 'value':'1602')
+~[2nd Row Seating Count]('synonym':'true')
     ~[second row]
     full ~[second row]
 
-@[3rd Row Seating Count]('entity': 'specs', 'value':'1603')
+~[3rd Row Seating Count]('synonym':'true')
     ~[third row]
     full ~[third row]
 
-@[4th Row Seating Count]('entity': 'specs', 'value':'1604')
+~[4th Row Seating Count]('synonym':'true')
     ~[fourth row]
 
-@[heated driver deat]('entity': 'specs', 'value':'1605')
+~[heated driver deat]('synonym':'true')
     ~[heated seats]
 
-@[cooled driver seat]('entity': 'specs', 'value':'1606')
+~[cooled driver seat]('synonym':'true')
     ~[cooled seats]
 
-@[heated passenger seat]('entity': 'specs', 'value':'1607')
+~[heated passenger seat]('synonym':'true')
     ~[heated seats] passenger
     passenger ~[heated seats]
 
-@[cooled passenger seat]('entity': 'specs', 'value':'1608')
+~[cooled passenger seat]('synonym':'true')
     ~[cooled seats] passenger
     passenger ~[cooled seats]
 
-@[front seating type]('entity': 'specs', 'value':'1609')
+~[front seating type]('synonym':'true')
     front seating type
     front bucket seats
 
-@[front seating material]('entity': 'specs', 'value':'1610')
+~[front seating material]('synonym':'true')
     front seating material
 
-@[front whiplash protection]('entity': 'specs', 'value':'1611')
+~[front whiplash protection]('synonym':'true')
     front whiplash protection
 
-@[folding passenger]('entity': 'specs', 'value':'1612')
+~[folding passenger]('synonym':'true')
     folding passenger
 
-@[folding 2nd row seat]('entity': 'specs', 'value':'1613')
+~[folding 2nd row seat]('synonym':'true')
     folding  ~[second row]
     ~[second row] fold down
     ~[second row] fold
 
-@[folding 3rd row seat]('entity': 'specs', 'value':'1614')
+~[folding 3rd row seat]('synonym':'true')
     folding  ~[third row]
     ~[third row] fold
     ~[third row] fold down
 
-@[seating configuration]('entity': 'specs', 'value':'1615')
+~[seating configuration]('synonym':'true')
     seating configuration
 
-@[heated rear seat]('entity': 'specs', 'value':'1616')
+~[heated rear seat]('synonym':'true')
     heated rear seat
     heated rear seats
     heated back seat
@@ -70,78 +70,75 @@
     back ~[heated seats]
     reat ~[heated seats]
 
-@[ventilated driver]('entity': 'specs', 'value':'1617')
+~[ventilated driver]('synonym':'true')
     ventilated driver seat
     ventilated drivers seat
 
-@[ventilated pass]('entity': 'specs', 'value':'1618')
+~[ventilated pass]('synonym':'true')
     ventilated pass
 
-@[lumbar support driver]('entity': 'specs', 'value':'1619')
+~[lumbar support driver]('synonym':'true')
     lumbar support driver
 
-@[front adjustable seat height]('entity': 'specs', 'value':'1620')
+~[front adjustable seat height]('synonym':'true')
     front adjustble seat height
 
-@[memory seat controls]('entity': 'specs', 'value':'1621')
+~[memory seat controls]('synonym':'true')
     memory seat controls 
     seat memory
 
-@[power driver seat]('entity': 'specs', 'value':'1622')
+~[power driver seat]('synonym':'true')
     power driver seat
     power seats
 
-@[power passenger seat]('entity': 'specs', 'value':'1623')
+~[power passenger seat]('synonym':'true')
     power passenger
 
-@[power lumbar control]('entity': 'specs', 'value':'1624')
+~[power lumbar control]('synonym':'true')
     power lumbar control
     power lumbar support
 
-@[active head restraints]('entity': 'specs', 'value':'1625')
+~[active head restraints]('synonym':'true')
     active head restraints
 
-@[second row head restraints]('entity': 'specs', 'value':'1626')
+~[second row head restraints]('synonym':'true')
     second row head restraints
 
-@[third row head restraints]('entity': 'specs', 'value':'1627')
+~[third row head restraints]('synonym':'true')
     third row head restraints
 
-@[second row folding armrest]('entity': 'specs', 'value':'1628')
+~[second row folding armrest]('synonym':'true')
     second row folding armrest
 
-@[power driver memory]('entity': 'specs', 'value':'1629')
+~[power driver memory]('synonym':'true')
     power driver memory
     power seats with memory
 
-@[third row]('entity': 'specs', 'value':'1630')
-    third row
-
-@[multi adjust driver]('entity': 'specs', 'value':'1631')
+~[multi adjust driver]('synonym':'true')
     multi adjust driver
 
-@[multi adjust pass]('entity': 'specs', 'value':'1632')
+~[multi adjust pass]('synonym':'true')
     multi adjust pass
 
-@[second row captains chair]('entity': 'specs', 'value':'1633')
+~[second row captains chair]('synonym':'true')
     ~[second row] ~[captain chair]
     ~[second row] bucket seats
     reclining ~[second row]
 
-@[leather seats]('entity': 'specs', 'value':'1634')
+~[leather seats]('synonym':'true')
     leather seats
     nappa leather seats
     ~[color] leather
 
-@[front head room]('entity': 'specs', 'value': '800')
+~[front head room]('synonym':'true')
     front ~[head room]
     ~[head room]
 
-@[front shoulder room]('entity': 'specs', 'value': '801')
+~[front shoulder room]('synonym':'true')
     front shoulder room
     shoulder room
 
-@[front leg room]('entity': 'specs', 'value': '802')
+~[front leg room]('synonym':'true')
     front ~[leg room]
     ~[leg room]
     room for legs
@@ -149,90 +146,53 @@
     front room for legs
     front space for legs
 
-@[rear head room]('entity': 'specs', 'value': '803')
+~[rear head room]('synonym':'true')
     rear ~[head room]
 
-@[rear shoulder room]('entity': 'specs', 'value': '804')
+~[rear shoulder room]('synonym':'true')
     rear shoulder room
     rear shoulder space
 
-@[rear leg room]('entity': 'specs', 'value': '805')
+~[rear leg room]('synonym':'true')
     rear ~[leg room]
     ~[leg room] rear
     back ~[leg room]
 
-@[interior volume]('entity': 'specs', 'value': '806')
+~[interior volume]('synonym':'true')
     interior volume
     interior space
     interior room
     room inside
     space inside
 
-@[front hip room]('entity': 'specs', 'value': '807')
+~[front hip room]('synonym':'true')
     front hip room
 
-@[second row hip room]('entity': 'specs', 'value': '808')
+~[second row hip room]('synonym':'true')
     second row hip room
 
-@[third row hip room]('entity': 'specs', 'value': '809')
+~[third row hip room]('synonym':'true')
     third row hip room
 
-@[third row leg room]('entity': 'specs', 'value': '810')
+~[third row leg room]('synonym':'true')
     third row leg room
 
-@[third row shoulder]('entity': 'specs', 'value': '811')
+~[third row shoulder]('synonym':'true')
     third row shoulder
 
-~[seats-spec]
-    @[total seat count]
-    @[1st Row Seating Count]
-    @[2nd Row Seating Count]
-    @[3rd Row Seating Count]
-    @[4th Row Seating Count]
-    @[heated driver deat]
-    @[cooled driver seat]
-    @[heated passenger seat]
-    @[cooled passenger seat]
-    @[front seating type] 
-    @[front seating material]
-    @[front whiplash protection]
-    @[folding passenger]
-    @[folding 2nd row seat]
-    @[folding 3rd row seat]
-    @[seating configuration]
-    @[heated rear seat]
-    @[ventilated driver]
-    @[ventilated pass]
-    @[lumbar support driver]
-    @[front adjustable seat height]
-    @[memory seat controls]
-    @[power driver seat]
-    @[power passenger seat]
-    @[power lumbar control]
-    @[active head restraints]
-    @[second row head restraints]
-    @[third row head restraints]
-    @[second row folding armrest]
-    @[power driver memory]
-    @[third row]
-    @[multi adjust driver]
-    @[multi adjust pass]
-    @[second row captains chair]
-    @[leather seats]
-
 ~[interior-dimension]
-    @[front head room]
-    @[front shoulder room]
-    @[front leg room]
-    @[rear head room]
-    @[rear shoulder room]
-    @[rear leg room]
-    @[interior volume]
-    @[front hip room]
-    @[second row hip room]
-    @[third row hip room]
-    @[third row leg room]
-    @[third row shoulder]
+    ~[front head room]
+    ~[front shoulder room]
+    ~[front leg room]
+    ~[rear head room]
+    ~[rear shoulder room]
+    ~[rear leg room]
+    ~[interior volume]
+    ~[front hip room]
+    ~[second row hip room]
+    ~[third row hip room]
+    ~[third row leg room]
+    ~[third row shoulder]
 
 //row count
 ~[row]
@@ -287,3 +247,58 @@
 ~[leg room]
     leg room
     legroom
+
+@[spec.seats]
+    ~[total seat count]
+    ~[1st Row Seating Count]
+    ~[2nd Row Seating Count]
+    ~[3rd Row Seating Count]
+    ~[4th Row Seating Count]
+    ~[heated driver deat]
+    ~[cooled driver seat]
+    ~[heated passenger seat]
+    ~[cooled passenger seat]
+    ~[front seating type] 
+    ~[front seating material]
+    ~[front whiplash protection]
+    ~[folding passenger]
+    ~[folding 2nd row seat]
+    ~[folding 3rd row seat]
+    ~[seating configuration]
+    ~[heated rear seat]
+    ~[ventilated driver]
+    ~[ventilated pass]
+    ~[lumbar support driver]
+    ~[front adjustable seat height]
+    ~[memory seat controls]
+    ~[power driver seat]
+    ~[power passenger seat]
+    ~[power lumbar control]
+    ~[active head restraints]
+    ~[second row head restraints]
+    ~[third row head restraints]
+    ~[second row folding armrest]
+    ~[power driver memory]
+    ~[third row]
+    ~[multi adjust driver]
+    ~[multi adjust pass]
+    ~[second row captains chair]
+    ~[leather seats]
+
+@[spec.seats.interior]
+    ~[front head room]
+    ~[front shoulder room]
+    ~[front leg room]
+    ~[rear head room]
+    ~[rear shoulder room]
+    ~[rear leg room]
+    ~[interior volume]
+    ~[front hip room]
+    ~[second row hip room]
+    ~[third row hip room]
+    ~[third row leg room]
+    ~[third row shoulder]
+
+
+
+

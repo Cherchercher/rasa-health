@@ -1,5 +1,8 @@
-@[kia]('entity': 'makes')
+~[kia]('synonym':'true')
     Kia
     kias
     kai
     kia
+
+@[make]
+    ~[kia]

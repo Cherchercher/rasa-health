@@ -1,4 +1,4 @@
-@[engine description]('entity': 'specs', 'value': '1000')
+~[engine description]('synonym':'true')
     engine description
     engine
     engine size
@@ -8,17 +8,17 @@
     litres
     engine configuration
 
-@[horsepower]('entity': 'specs', 'value': '1008')
+~[horsepower]('synonym':'true')
     horsepower
     hp
     horse power
     HP
 
-@[torque]('entity': 'specs', 'value': '1009')
+~[torque]('synonym':'true')
     Torque
     the torque
 
-@[fuel]('entity': 'specs', 'value': '1010')
+~[fuel]('synonym':'true')
     fuel
     fuel type
     gas
@@ -27,7 +27,7 @@
     gasoline
     electric
 
-@[recommended fuel type]('entity': 'specs', 'value': '1011')
+~[recommended fuel type]('synonym':'true')
     Recommended Fuel Type
     regular unleaded
     premium fuel
@@ -36,20 +36,20 @@
     premium unleaded
     unleaded
 
-@[compressor type]('entity': 'specs', 'value': '1012')
+~[compressor type]('synonym':'true')
     compressor type
     turbo
     turbocharger
     turbocharged
 
-@[electric horsepower]('entity': 'specs', 'value': '1018')
+~[electric horsepower]('synonym':'true')
     electric horsepower
     ev horsepower
 
-@[emission description]('entity': 'specs', 'value': '1019')
+~[emission description]('synonym':'true')
     emission description
 
-@[fuel system description]('entity': 'specs', 'value': '1020')
+~[fuel system description]('synonym':'true')
     Fuel System Description
     direct injection
     GDI
@@ -58,7 +58,7 @@
     Multi Port Fuel Injected
     multi port
 
-@[transmission type]('entity': 'specs', 'value': '1100')
+~[transmission type]('synonym':'true')
     Transmission Type
     transmission
     manual
@@ -68,7 +68,7 @@
     manual transmission
     automatic transmission
 
-@[co2]('entity': 'specs', 'value': '719')
+~[co2]('synonym':'true')
     co2 grams/mile
     co2
     co2 per mile
@@ -77,16 +77,16 @@
     vehicle emissions
     car emissions
 
-@[manual transmission option]('entity': 'specs', 'value': '1106')
+~[manual transmission option]('synonym':'true')
     manual transmission option
 
-@[automatic transmission option]('entity': 'specs', 'value': '1107')
+~[automatic transmission option]('synonym':'true')
     Automatic Transmission Option
 
-@[manually interactive transmission]('entity': 'specs', 'value': '1108')
+~[manually interactive transmission]('synonym':'true')
     manually interactive transmission
 
-@[driven wheels]('entity': 'specs', 'value': '1200')
+~[driven wheels]('synonym':'true')
     Driven Wheels
     AWD
     awd
@@ -103,10 +103,10 @@
     rear wheel drive
     rwd
 
-@[awd type]('entity': 'specs', 'value': '1201')
+~[awd type]('synonym':'true')
     awd type
 
-@[traction control]('entity': 'specs', 'value': '1207')
+~[traction control]('synonym':'true')
     Traction Control
     stability control
     tcs
@@ -114,6 +114,26 @@
     traction-control
     traction control
 
-@[remote start]('entity': 'specs', 'value': 'remote start')
+~[remote start]('synonym':'true')
     remote start
     remote engine start
+
+@[specs.drivetrain]
+    ~[engine description]
+    ~[horsepower]
+    ~[torque]
+    ~[fuel]
+    ~[recommended fuel type]
+    ~[compressor type]
+    ~[electric horsepower]
+    ~[emission description]
+    ~[fuel system description]
+    ~[transmission type]
+    ~[co2]
+    ~[manual transmission option]
+    ~[automatic transmission option]
+    ~[manually interactive transmission]
+    ~[driven wheels]
+    ~[awd type]
+    ~[traction control]
+    ~[remote start]

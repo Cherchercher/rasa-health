@@ -1,5 +1,4 @@
 import ../common.chatito
-import ../entities/specs.chatito
 
 %[warranty.newCar]('training': '10', 'distribution': 'even')
     whats included in the warranty

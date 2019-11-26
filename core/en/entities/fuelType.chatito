@@ -1,4 +1,4 @@
-@[hydrogen#fuel-type]('entity': 'fuelType')
+~[hydrogen.fuel-type]('synonym': 'true')
     hydrogen
     Hydrogen
     fuel cell
@@ -12,11 +12,11 @@
     fc
     fcs
 
-@[diesel#fuel-type]('entity': 'fuelType')
+~[diesel.fuel-type]('synonym': 'true')
     diesel
     Diesel
 
-@[electric#car]('entity': 'fuelType')
+~[electric.car]('synonym': 'true')
     electric
     electrics
     fully electric
@@ -24,12 +24,12 @@
     ev
     evs
 
-@[electric#fuel-type]('entity': 'fuelType')
+~[electric.fuel-type]('synonym': 'true')
     electricity
     electricity only
     only on electricity
 
-@[flex-fuel#fuel-type]('entity': 'fuelType')
+~[flex-fuel.fuel-type]('synonym': 'true')
     flex-fuel
     ffv
     FFV
@@ -38,7 +38,7 @@
     E85
     Ethanol
 
-@[hybrid#fuel-type]('entity': 'fuelType')
+~[hybrid.fuel-type]('synonym': 'true')
     gasoline and electricity
     electricity and gasoline
     gas and electricity
@@ -52,11 +52,11 @@
     petrol and electric
     electric and petrol
 
-@[hybrid#car]('entity': 'fuelType')
+~[hybrid.car]('synonym': 'true')
     hybrid
     hybrids
 
-@[plug-in hybrid#car]('entity': 'fuelType')
+~[plug-in hybrid.car]('synonym': 'true')
     plug-in hybrid
     plug-in hybrids
     plug - in hybrid
@@ -77,32 +77,31 @@
     phev
     phevs
 
-@[cng#fuel-type]('entity': 'fuelType')
+~[cng.fuel-type]('synonym': 'true')
     cng
     Natural Gas
     natural gas
     CNG
 
-@[gasoline#fuel-type]('entity': 'fuelType')
+~[gasoline.fuel-type]('synonym': 'true')
     gasoline
     gas
     petrol
 
-
 ~[each-fuel-type]
-    @[hybrid#fuel-type]
-    @[gasoline#fuel-type]
-    @[cng#fuel-type]
-    @[hydrogen#fuel-type]
-    @[flex-fuel#fuel-type]
-    @[diesel#fuel-type]
-    @[electric#fuel-type]
+    ~[hybrid.fuel-type]
+    ~[gasoline.fuel-type]
+    ~[cng.fuel-type]
+    ~[hydrogen.fuel-type]
+    ~[flex-fuel.fuel-type]
+    ~[diesel.fuel-type]
+    ~[electric.fuel-type]
 
 ~[each-fuel-car]
-    @[hybrid#car]
-    @[plug-in hybrid#car]
-    @[electric#car]
+    ~[hybrid.car]
+    ~[plug-in hybrid.car]
+    ~[electric.car]
 
-~[fuel]
+@[fuelType]
     ~[each-fuel-type]
     ~[each-fuel-car]

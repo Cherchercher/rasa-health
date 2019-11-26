@@ -1,25 +1,25 @@
-@[cadenza]('entity': 'model')
+~[cadenza]('synonym': 'true')
     cadenza
     cadenzas
     credenza
     credenzas
 
-@[forte]('entity': 'model')
+~[forte]('synonym': 'true')
     forte
 
-@[k900]('entity': 'model')
+~[k900]('synonym': 'true')
     k900
     k 900
     k900s
 
-@[niro]('entity': 'model')
+~[niro]('synonym': 'true')
     niro
     niros
     nero
     neros
     nitro
 
-@[niro ev]('entity': 'model')
+~[niro ev]('synonym': 'true')
     niro ev
     niro ~[ev]
     nitro ~[ev]
@@ -28,88 +28,88 @@
     nero ~[ev]
     ~[ev] nero
 
-@[niro plug-in hybrid]('entity': 'model')
+~[niro plug-in hybrid]('synonym': 'true')
     niro plug-in hybrid
     niro ~[phev]
 
-@[optima]('entity': 'model')
+~[optima]('synonym': 'true')
     optima
     optimas
 
-@[optima hybrid]('entity': 'model')
+~[optima hybrid]('synonym': 'true')
     optima hybrid
     optima ~[hybrid]
     ~[hybrid] optima
 
-@[optima plug-in hybrid]('entity': 'model')
+~[optima plug-in hybrid]('synonym': 'true')
     optima plug-in hybrid
     optima ~[phev]
     ~[phev] optima
 
-@[rio]('entity': 'model')
+~[rio]('synonym': 'true')
     rio
     rio ~[sedan]
 
-@[rio 5-door]('entity': 'model')
+~[rio 5-door]('synonym': 'true')
     rio 5-door
     rio ~[5-door]
 
-@[soul]('entity': 'model')
+~[soul]('synonym': 'true')
     regular soul
 
-@[soul ev]('entity': 'model')
+~[soul ev]('synonym': 'true')
     soul ev
     soul ~[ev]
     ~[ev] soul
 
-@[sorento]('entity': 'model')
+~[sorento]('synonym': 'true')
     sorento
 
-@[sportage]('entity': 'model')
+~[sportage]('synonym': 'true')
     sportage
 
-@[stinger]('entity': 'model')
+~[stinger]('synonym': 'true')
     stinger
     stringer
 
-@[telluride]('entity': 'model')
+~[telluride]('synonym': 'true')
     telluride
 
 //model without a specified trim
-~[model-ent]
-    @[cadenza]
-    @[forte]
-    @[k900]
-    @[niro]
-    @[niro ev]
-    @[niro plug-in hybrid]
-    @[optima]
-    @[optima hybrid]
-    @[optima plug-in hybrid]
-    @[rio]
-    @[rio 5-door]
-    @[stinger]
-    @[sorento]
-    @[telluride]
+@[model-ent]
+    ~[cadenza]
+    ~[forte]
+    ~[k900]
+    ~[niro]
+    ~[niro ev]
+    ~[model2]
+    ~[optima]
+    ~[optima hybrid]
+    ~[optima plug-in hybrid]
+    ~[rio]
+    ~[rio 5-door]
+    ~[stinger]
+    ~[sorento]
+    ~[telluride]
 
-~[ev-model]
-    @[niro] ~[ev]
-    @[niro ev]
-    @[niro plug-in hybrid]
-    @[optima hybrid]
-    @[optima plug-in hybrid]
+~[ev-model]('synonym': 'true')
+    ~[niro] ~[ev]
+    ~[niro ev]
+    ~[model2]
+    ~[optima hybrid]
+    ~[optima plug-in hybrid]
 
-~[phev]
+~[phev]('synonym': 'true')
     phev
     plug-in hybrid
     plugin hybrid
     plug in hybrid
 
-~[hybrid]
+~[hybrid]('synonym': 'true')
     hybrid
     regular hybrid
 
-~[ev]
+~[ev]('synonym': 'true')
     ev
     electric vehicle
     electric
@@ -117,19 +117,3 @@
     plug-in
     plugin
     plug in
-
-~[5-door]
-    5-door
-    5 door
-    5dr
-    five door
-    hatchback
-    hatch
-
-~[sedan]
-    sedan
-    4-door
-    4 door
-    4 dr
-    4-dr
-    four door

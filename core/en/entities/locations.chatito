@@ -1,4 +1,4 @@
-@[US state]('entity': 'location')
+@[US state]
     Alaska
     California
     Colorado
@@ -24,7 +24,7 @@
     Washington
     Wisconsin
 
-@[US city]('entity': 'location')
+@[US city]
     New York
     Los Angeles
     Chicago
@@ -105,5 +105,5 @@
     @[US state]
     ~[region fragment] @[US state]
     ~[region fragment] @[US state] area
-    @[US city]
+    *[30%] @[US city]
     ~[zipcode]

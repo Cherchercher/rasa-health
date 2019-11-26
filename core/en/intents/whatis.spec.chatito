@@ -1,5 +1,4 @@
 import ../common.chatito
-import ../common-specs.chatito
 
 %[whatis.spec]('training': '10', 'distribution': 'even')
     does ~[safety-spec] mean ~[the car] ~[do some function]

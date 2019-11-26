@@ -1,0 +1,11 @@
+import ../common.chatito
+
+%[inventory]('training': '100')
+    my zipcode is @[zipcode]
+    here is my zip code @[zipcode]
+    @[zipcode]
+
+
+@[zipcode]('entity':'zip')
+    92612
+    91364
