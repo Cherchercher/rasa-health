@@ -76,13 +76,13 @@
     telluride
 
 //model without a specified trim
-@[model-ent]
+@[model-ent]('parameter':'car')
     ~[cadenza]
     ~[forte]
     ~[k900]
     ~[niro]
     ~[niro ev]
-    ~[model2]
+    ~[niro plug-in hybrid]
     ~[optima]
     ~[optima hybrid]
     ~[optima plug-in hybrid]
@@ -95,7 +95,7 @@
 ~[ev-model]('synonym': 'true')
     ~[niro] ~[ev]
     ~[niro ev]
-    ~[model2]
+    ~[niro plug-in hybrid]
     ~[optima hybrid]
     ~[optima plug-in hybrid]
 
