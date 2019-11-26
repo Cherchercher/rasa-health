@@ -193,7 +193,7 @@
     assistance
     assistant
 
-@[specs.safety]
+@[specs]
     ~[collision avoidance]
     ~[automatic emergency braking]
     ~[blind spot detection]

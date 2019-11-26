@@ -4,20 +4,19 @@
 
 import ./entities/bodystyle.chatito
 import ./entities/makes.chatito
+import ./entities/spec-values.chatito
 import ./entities/specs.chatito
-import ./entities/models.chatito
-import ./entities/model-trims.chatito
-import ./entities/model-year.chatito
+import ./entities/trims.chatito
 
 ~[model]
-    @[model-ent]
+    @[model]
     @[model-trim]
-    ~[model-year] @[model-ent]
+    ~[model-year] @[model]
     ~[model-year] @[model-trim]
 
 //model without model year - for controlling frequency of model-year appearing in training data
 ~[model-nomy]
-    @[model-ent]
+    @[model]
     @[model-trim]
 
 ~[car-general]
@@ -33,8 +32,8 @@ import ./entities/model-year.chatito
     vehicles
 
 ~[future-model]
-    @[model year-future] @[model-ent]
-    new @[model-ent]
+    @[model year-future] @[model]
+    the new @[model]
 
 ~[model-type]
     kia

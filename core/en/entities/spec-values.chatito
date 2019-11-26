@@ -4,9 +4,6 @@
 
 @[model year-future]
     2021
-    2022
-    2023
-    2024
 
 @[model year-past]
     2010
@@ -23,3 +20,4 @@
     @[model year-past]
     @[model year-future]
     @[model year-current]
+

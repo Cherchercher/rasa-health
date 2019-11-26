@@ -1,13 +1,13 @@
 import ../common.chatito
 
 %[list.trims#price]('training': '50', 'distribution': 'even')
-    ~[declaritive] in the ~[trim-entity], what is the @[specs.price]?
+    ~[declaritive] in the ~[trim-entity], what is the ~[price-spec]?
     ~[quantify-price] ~[model]
-    @[specs.price] for ~[model]
-    ~[what-which] @[specs.price] for the ~[model]
-    ~[what-which] @[specs.price]
-    @[specs.price] for ~[model]
-    ~[model] @[specs.price]
+    ~[price-spec] for ~[model]
+    ~[what-which] ~[price-spec] for the ~[model]
+    ~[what-which] ~[price-spec]
+    ~[price-spec] for ~[model]
+    ~[model] ~[price-spec]
 
 ~[quantify-price]
     how much is the

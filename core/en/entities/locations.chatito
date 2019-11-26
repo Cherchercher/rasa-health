@@ -105,5 +105,5 @@
     @[US state]
     ~[region fragment] @[US state]
     ~[region fragment] @[US state] area
-    *[30%] @[US city]
+    @[US city]
     ~[zipcode]

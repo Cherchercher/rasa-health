@@ -1,5 +1,5 @@
 import ../common.chatito
-import ../entities/fuelType.chatito
+import ../entities/fuel-type.chatito
 
 //this intent is to get a definite value for a specification
 //requesting the spec's value by matching the specs name or synonym
@@ -15,20 +15,20 @@ import ../entities/fuelType.chatito
 
 %[request.spec.range]('training': '25', 'distribution': 'even')
     how far can it go on the battery
-    how far does a @[model-ent] go on ~[battery-range]
-    ~[the] @[model-ent] goes how far on a ~[battery-range]
-    how far can a @[model-ent] go in ~[battery-range]
+    how far does a @[model] go on ~[battery-range]
+    ~[the] @[model] goes how far on a ~[battery-range]
+    how far can a @[model] go in ~[battery-range]
     how far can it go on a ~[battery-range]
-    how far can i drive the @[model-ent] on ~[battery-range]
-    how far can i drive the @[model-ent] before i need to charge it
+    how far can i drive the @[model] on ~[battery-range]
+    how far can i drive the @[model] before i need to charge it
     how many miles can ~[model] go before you have to recharge
     how far on ev only
-    how far can i drive with an ev @[model-ent]
+    how far can i drive with an ev @[model]
     how far does it go on a full charge
-    How far can the @[model-ent] go
+    How far can the @[model] go
     how far will it go on a full charge
     ~[what] ~[the?] battery range on the ~[model]
-    how far can i drive with ~[atcl] @[model-ent]
+    how far can i drive with ~[atcl] @[model]
     how far on a charge can you go
     how far can you ~[battery-range]
     how many miles with full tank of gas and ~[battery-range]

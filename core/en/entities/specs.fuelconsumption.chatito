@@ -154,7 +154,7 @@
     minimum mpge
     min mpge
 
-@[specs.fuelconsumption]
+@[specs]
     ~[fuel tank capacity]
     ~[battery recharge time]
     ~[highway mpg]
@@ -166,6 +166,14 @@
     ~[highway range]
     ~[battery-range]
     ~[battery-range-without-recharge]
+    ~[highway mpge]
+    ~[combined mpge]
+    ~[city mpge]
+
+~[fuel-econ-spec]
+    ~[highway mpg]
+    ~[combined mpg]
+    ~[city mpg]
     ~[highway mpge]
     ~[combined mpge]
     ~[city mpge]

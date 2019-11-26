@@ -118,7 +118,7 @@
     remote start
     remote engine start
 
-@[specs.drivetrain]
+@[specs]
     ~[engine description]
     ~[horsepower]
     ~[torque]

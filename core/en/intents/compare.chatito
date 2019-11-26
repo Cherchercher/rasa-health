@@ -22,14 +22,13 @@ import ../common.chatito
 
 %[compare.yoy]('training': '50','distribution': 'even')
     ~[declaritive] in a ~[model-year] ~[model]. Can you tell me the difference between the ~[model-year] and ~[model-year]?
-    ~[what] @[specs.price] difference in a ~[model-year] and a ~[model-year] ~[model]
-    does ~[model-year] ~[model] have the same @[specs] as ~[model-year] ~[model]
+    ~[what] ~[price-spec] difference in a ~[model-year] and a ~[model-year] ~[model]
 
 //ways users refer to trims
 ~[trims]
     trims
     models
-    types of @[model-ent]
+    types of @[model]
 
 //dont add 'different'
 ~[difference]

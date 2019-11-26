@@ -29,7 +29,13 @@
     starting price
     lowest price
 
-@[specs.price]
+@[specs]
+    ~[invoice price]
+    ~[msrp]
+    ~[delivery fee]
+    ~[base price]
+
+~[price-specs]
     ~[invoice price]
     ~[msrp]
     ~[delivery fee]
