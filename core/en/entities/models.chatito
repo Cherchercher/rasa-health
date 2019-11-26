@@ -76,7 +76,7 @@
     telluride
 
 //model without a specified trim
-@[model-ent]('parameter':'car')
+@[model-ent]('entity':'model','parameter':'car', 'value':'without-specific')
     ~[cadenza]
     ~[forte]
     ~[k900]
