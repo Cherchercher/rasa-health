@@ -4,6 +4,8 @@ import ../common.chatito
     ~[searching] ~[model]
     ~[greeting] ~[searching] @[model-trim]
     ~[i] want @[model-trim]
+    i want to buy ~[model]
+    i want to buy a @[make] ~[each-fuel-car]
     do you have ~[model] in stock
     would you be able to tell me the local inventory for the area surrounding zip ~[zipcode] that would offer the ~[specs] in the ~[model]
     ~[dealer] near me with ~[model]

@@ -76,6 +76,7 @@
 
 ~[highway range]('synonym':'true')
     highway range
+    average range
     range highway
     range on highway
     range on a highway
