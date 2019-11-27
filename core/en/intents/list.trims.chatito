@@ -9,6 +9,8 @@ import ../entities/trim-levels.chatito
     how many trims are there for ~[trim-entity]
     ~[declaritive] ~[trim-entity]
     ~[trim-entity]
+    ~[I] interested in @[model-ent]
+    @[model-ent]
     is ~[a-an-the] @[specs] standard ~[in-on] all @[model-ent] models
 
 //indicator specs help identify a specific trim level
