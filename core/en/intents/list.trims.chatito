@@ -5,7 +5,7 @@ import ../entities/trim-levels.chatito
 //this intent is to find model trims that
 //seeks [trims Y] with [specified entity value X]
 
-%[list.trims]('training': '25', 'distribution': 'even')
+%[list.trims]('training': '100', 'distribution': 'even')
     how many trims are there for ~[trim-entity]
     ~[declaritive] ~[trim-entity]
     ~[trim-entity]
