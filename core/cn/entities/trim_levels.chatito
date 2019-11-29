@@ -1,0 +1,25 @@
+//trim levels
+
+//top trims
+
+@[top trim]('entity': 'trim_level')
+    top of the line
+    loaded
+    fully loaded
+
+@[sport trim]('entity': 'trim_level')
+    sport model
+    sport cut
+    sport trim
+
+@[base trim]('entity': 'trim_level')
+    base
+    base trim
+    base model
+    cheapest
+    basic
+
+~[trim-level]
+    @[top trim]
+    @[sport trim]
+    @[base trim]
