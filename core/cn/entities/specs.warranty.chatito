@@ -1,0 +1,64 @@
+~[basic warranty type]('synonym':'true')
+    基本保修类型
+
+~[basic warranty maximum miles]('synonym':'true')
+    基本保修最大里程
+    保修最大里程
+
+~[basic warranty maximum years]('synonym':'true')
+    基本保修最大年限
+    保修月数
+    保修期
+
+~[basic warranty miles type]('synonym':'true')
+    基本保修里程类型
+
+~[basic warranty years type]('synonym':'true')
+    Basic Warranty Years Type
+
+~[rust warranty type]('synonym':'true')
+    Rust Warranty Type
+
+~[rust warranty maximum miles]('synonym':'true')
+    Rust Warranty Maximum Miles
+
+~[rust warranty max years]('synonym':'true')
+    Rust Warranty Max Years
+
+~[rust warranty miles type]('synonym':'true')
+    Rust Warranty Miles Type
+
+~[rust warranty years type]('synonym':'true')
+    Rust Warranty Years Type
+
+~[drivetrain warranty type]('synonym':'true')
+    Drivetrain Warranty Type
+
+~[drivetrain warranty maximum miles]('synonym':'true')
+    Drivetrain Warranty Maximum Miles
+
+~[drivetrain warranty maximum years]('synonym':'true')
+    Drivetrain Warranty Maximum Years
+
+~[drivetrain warranty miles type]('synonym':'true')
+    Drivetrain Warranty Miles Type
+
+~[drivetrain warranty years type]('synonym':'true')
+    Drivetrain Warranty Years Type
+
+@[specs.warranty]
+    ~[basic warranty type]
+    ~[basic warranty maximum miles]
+    ~[basic warranty maximum years]
+    ~[basic warranty miles type]
+    ~[basic warranty years type]
+    ~[rust warranty type]
+    ~[rust warranty maximum miles]
+    ~[rust warranty max years]
+    ~[rust warranty miles type]
+    ~[rust warranty years type]
+    ~[drivetrain warranty type]
+    ~[drivetrain warranty maximum miles]
+    ~[drivetrain warranty maximum years]
+    ~[drivetrain warranty miles type]
+    ~[drivetrain warranty years type]

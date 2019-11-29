@@ -1,48 +1,48 @@
-@[convertible]('entity': 'bodystyle','value': '敞篷车')
+@[convertible]('entity': 'bodystyle')
 	敞篷车
 	折叠篷车
 	篷式汽车
     活动顶篷式汽车
     活动帆布车顶
 
-@[coupe]('entity': 'bodystyle','value': '双座小轿车')
+@[coupe]('entity': 'bodystyle')
     双座小轿车
 	两座
     双门
     两门
 
-@[sedan]('entity': 'bodystyle','value': '小轿车')
+@[sedan]('entity': 'bodystyle')
     小轿车
     轿车
 
-@[wagon]('entity': 'bodystyle','value': '车')
+@[wagon]('entity': 'bodystyle')
     车
     旅行车
 
-@[suv]('entity': 'bodystyle','value': '多功能运动车')
+@[suv]('entity': 'bodystyle')
     多功能运动车
 	运动型实用汽车
     越野车
     越野旅行车
     运动汽车
 
-@[crossover]('entity': 'bodystyle','value':'跨界车')
+@[crossover]('entity': 'bodystyle')
     跨界车
     跨越
     酷越
     交叉车型
 
-@[hatchback]('entity': 'bodystyle','value': '掀背车')
+@[hatchback]('entity': 'bodystyle')
     两厢车
     5门车
 	五门
 
-@[minivan]('entity': 'bodystyle','value': '厢式旅行车')
+@[minivan]('entity': 'bodystyle')
     厢式旅行车
     MPV
     家庭车
 
-@[truck]('entity': 'bodystyle','value': '货车')
+@[truck]('entity': 'bodystyle')
     货车
     小卡车
 	皮卡
@@ -50,10 +50,10 @@
 	加长驾驶室货车
 	普通驾驶室货车
 
-@[sports car]('entity': 'bodystyle','value': '跑车')
+@[sports car]('entity': 'bodystyle')
     跑车
 
-@[micro car]('entity': 'bodystyle','value': '微型汽车')
+@[micro car]('entity': 'bodystyle')
     微型汽车
 
 ~[bodystyle]

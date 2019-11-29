@@ -1,0 +1,87 @@
+~[fuel tank capacity]('synonym':'true')
+    油缸容量
+
+~[battery recharge time]('synonym':'true')
+    电池充电时间
+
+~[highway mpg]('synonym':'true')
+    高速时 英里/加仑
+    燃料效率
+
+~[combined mpg]('synonym':'true')
+    英里/加仑
+    千米/升
+    百公里油耗
+
+~[city mpg]('synonym':'true')
+    市区时 英里/加仑
+
+~[quarter mile time]('synonym':'true')
+    行驶四分之一英里耗时
+
+~[city range]('synonym':'true')
+    行驶市区油耗范围
+
+~[combined range]('synonym':'true')
+    综合油耗范围
+
+~[highway range]('synonym':'true')
+    行驶高速油耗范围
+
+~[battery-range]('synonym':'true')
+    纯电动行驶距离
+
+~[battery-range.without-recharge]('synonym':'true')
+    单次充电可行驶距离
+
+~[battery-range-without-recharge]
+    without recharge
+    without recharging
+    before recharge
+    before recharging
+    before running out of battery
+    before running out of battery charge
+    before needing to recharge
+    before needing to recharge ~[the?] battery
+    on ~[a?] charge
+    on ~[a?] single charge
+    on ~[a?] full charge
+    on electric
+    in all electric
+
+~[highway mpge]('synonym':'true')
+    行驶在高速时油耗
+
+~[combined mpge]('synonym':'true')
+    mpge
+    combined mpge
+    mpge combined
+    miles per gallon equivalent
+    gas equivalent mileage
+    mpges
+    mpge
+
+~[city mpge]('synonym':'true')
+    city mpge
+    mpge city
+    mpge in a city
+    mpge in the city
+    mpge in city
+    minimum mpge
+    min mpge
+
+@[specs.fuelconsumption]
+    ~[fuel tank capacity]
+    ~[battery recharge time]
+    ~[highway mpg]
+    ~[combined mpg]
+    ~[city mpg]
+    ~[quarter mile time]
+    ~[city range]
+    ~[combined range]
+    ~[highway range]
+    ~[battery-range]
+    ~[battery-range-without-recharge]
+    ~[highway mpge]
+    ~[combined mpge]
+    ~[city mpge]
