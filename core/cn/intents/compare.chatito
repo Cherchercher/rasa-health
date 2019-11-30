@@ -1,11 +1,41 @@
-import ../entities/model.chatito
+import ../common.chatito
+//all compare categories should support comparisons by spec and spec categories
 
-%[compare#price]('training': '100')
-    ~[cars]和~[cars]价格相比怎么样呢
-    ~[cars]和~[cars]比起来，哪个比较便宜呢
+%[compare.models]('training': '50', 'distribution': 'even')
+    还有更多 ~[size-spec] 吗, ~[model] 或者 ~[model]
+     ~[model] 和 ~[model] 都有哪些不同点
+     @[make] ~[model] 和 @[make] ~[model] 的不同点
+    @[make] ~[model] 和 @[make] ~[model]  都有哪些不同点
+     ~[model] 或 ~[model] 有 ~[optional-spec] 吗
+    我对 ~[model] 或 ~[model] 感兴趣
+    我喜欢 ~[model] 或 ~[model]
+    ~[model] ~[has] 有更多 ~[size-spec] 吗,相比 ~[model]
+    is there a @[make] with ~[relative-size] ~[size-spec] than the ~[model]
 
-%[compare#size]('training': '100')
-    ~[cars]和~[cars]比起来，哪个比较宽敞呢
+%[compare.trims]('training': '50', 'distribution': 'even')
+    想知道不同的是什么在 ~[trims] 方面
+    ~[what] ~[difference] 在这些不同的型号中 ~[model]
+    ~[what] ~[difference] @[model-trim] @[model-trim] 和 @[model-trim]
+    ~[what] ~[difference] 关于 @[model-trim] 和 @[model-trim]
+    ~[what] ~[difference] 在 ~[trims]
+    ~[what-which] ~[model] ~[has] 更好的性能? 是 @[model-trim] 还是 @[model-trim]
 
-%[compare#power]('training': '100')
-    哪个马力强一些，~[cars]还是~[cars]？ 
+%[compare.yoy]('training': '50','distribution': 'even')
+    ~[declaritive] 在 ~[model-year] ~[model]. 能告诉我 ~[model-year] 和 ~[model-year] 有什么不同吗?
+    ~[what] @[specs.price] 不同,在 ~[model-year] 和 ~[model-year] ~[model] 之间
+    ~[model-year] ~[model] 和 @[specs]  ~[model-year] ~[model] 有什么相同点
+
+//ways users refer to trims
+~[trims]
+    trims
+    models
+    types of @[model-ent]
+
+//dont add 'different'
+~[difference]
+    difference between
+    difference in
+    difference of
+    the difference between
+    the difference in
+    the difference of
