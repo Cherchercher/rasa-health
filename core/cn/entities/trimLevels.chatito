@@ -1,0 +1,18 @@
+//trim levels
+@[top trim]('entity': 'trim_level')
+    顶配
+    全配
+    最高配
+
+@[sport trim]('entity': 'trim_level')
+    运动型配置
+
+@[base trim]('entity': 'trim_level')
+    基础配置
+    最低配
+    基础款
+
+@[trim-level]
+    @[top trim]
+    @[sport trim]
+    @[base trim]

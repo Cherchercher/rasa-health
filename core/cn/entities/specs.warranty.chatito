@@ -17,13 +17,13 @@
     Basic Warranty Years Type
 
 ~[rust warranty type]('synonym':'true')
-    Rust Warranty Type
+    防锈保修类型
 
 ~[rust warranty maximum miles]('synonym':'true')
-    Rust Warranty Maximum Miles
+    防锈保修最大里程
 
 ~[rust warranty max years]('synonym':'true')
-    Rust Warranty Max Years
+    防锈保修最大年限
 
 ~[rust warranty miles type]('synonym':'true')
     Rust Warranty Miles Type
@@ -32,13 +32,13 @@
     Rust Warranty Years Type
 
 ~[drivetrain warranty type]('synonym':'true')
-    Drivetrain Warranty Type
+    传动系统保修类型
 
 ~[drivetrain warranty maximum miles]('synonym':'true')
-    Drivetrain Warranty Maximum Miles
+    传动系统保修最大里程
 
 ~[drivetrain warranty maximum years]('synonym':'true')
-    Drivetrain Warranty Maximum Years
+    传动系统保修最大年限
 
 ~[drivetrain warranty miles type]('synonym':'true')
     Drivetrain Warranty Miles Type

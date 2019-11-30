@@ -8,21 +8,18 @@
     anti ~[collision]
 
 ~[brake]
-    brakes
-    breaks
-    braking
-    breaking
+    刹车
 
 ~[automatic emergency braking]('synonym':'true')
     ~[auto] emergency ~[brake]
     ~[auto] ~[brake]
     ~[auto] ~[brake] ~[assist]
-    stop automatically
-    aeb
+    自动刹车
+    自动紧急刹车
 
 ~[auto]
-    auto
-    automatic
+    自动
+    自动的
 
 ~[collision]
     collision
@@ -33,6 +30,7 @@
     blind spot ~[collision] ~[alert]
     blind spot ~[collision] avoidance
     blind spot ~[alert]
+    盲点检测
 
 ~[detection]
     detection
@@ -42,20 +40,21 @@
 ~[rear cross traffic alert]('synonym':'true')
     rear ~[cross-traffic] ~[alert] ~[system?]
     rear ~[cross-traffic] ~[collision] ~[alert]
-    RCCW
-    rccw
+    后部碰撞警示系统
 
 ~[forward collision warning]('synonym':'true')
     forward ~[collision] warning
     forward ~[collision] ~[alert]
     ~[collision] ~[alert]
-    FCW
+    前部碰撞警示系统
 
 ~[lane change assist]('synonym':'true')
     ~[lane-keep] ~[assist]
     lane ~[assist]
     lane keep
     LKA
+    变道辅助
+    并线辅助
 
 ~[lane departure warning]('synonym':'true')
     lane departure ~[alert]
@@ -65,38 +64,43 @@
     ~[airbag]
 
 ~[airbag]
-    airbag
-    air bag
-    airbags
-    air bags
+    气囊
+    安全气囊
 
 ~[side airbags]('synonym':'true')
     side ~[airbags]
+    侧边气囊
 
 ~[passenger airbags]('synonym':'true')
     passenger ~[airbags]
+    乘客气囊
+    乘客安全气囊
 
 ~[driver airbags]('synonym':'true')
     driver ~[airbags]
+    驾驶员气囊
+    驾驶员安全气囊
 
 ~[passenger airbags deactivation]('synonym':'true')
     passenger ~[airbags] deactivation
+    关闭乘客安全气囊
 
 ~[side airbags curtain]('synonym':'true')
     side ~[airbags] curtain
+    侧安全气囊帘
 
 ~[airbag rollover sensor]('synonym':'true')
     ~[airbags] rollover sensor
+    安全气囊侧翻传感器
 
 ~[exterior view camera]('synonym':'true')
     exterior view camera
-    camera
-    backup camera
+    行车记录仪
+    倒车影像
 
 ~[child proof door locks]('synonym':'true')
-    child proof door locks
-    child locks
-    child safety locks
+    防儿童安全门锁
+    儿童安全锁
 
 ~[anti-theft alarm system]('synonym':'true')
     ~[anti-theft] system
@@ -104,34 +108,27 @@
     ~[anti-theft] alarm system
     ~[anti-theft] ~[alert]
     ~[anti-theft] tracking
+    防盗报警系统
 
 ~[parking assist description]('synonym':'true')
     parking assist description
     ~[park] ~[assist]
     ~[park] sensors
-    parking assistance
+    停车辅助
+    泊车辅助
     ~[auto] ~[park] system
 
 ~[park]
-    park
-    parking
+    停车
 
 ~[surround view monitor]('synonym':'true')
-    360 monitor
-    360 view
-    360 display
-    360 degree view
-    360 degree
-    surround view
-    surround view monitor
-    surround view display
-    multi angle monitor
-    multi angle display
+    环绕监视器
+    360度监视器
+    多角度监视器
 
 ~[hill start assist]('synonym':'true')
-    hill start assist
-    hill assist
-    hill start
+    陡坡起步辅助
+    坡道起步辅助
 
 ~[brake assist]('synonym':'true')
     ~[brake] ~[assist]
@@ -139,9 +136,7 @@
     ~[auto] ~[brake] ~[assist]
 
 ~[anti-theft]
-    anti-theft
-    anti theft
-    antitheft
+    防盗
 
 ~[safety-spec]
     ~[collision avoidance]
@@ -171,8 +166,8 @@
     ~[brake assist]
 
 ~[lane-keep]
-    lane change
-    lane keep
+    车道保持
+    变道
 
 ~[cross-traffic]
     cross traffic
@@ -180,18 +175,12 @@
     crosstraffic
 
 ~[alert]
-    alert
-    warning
-    alert system
-    warning system
-    alarm
-    alarm system
-    device
+    告警
+    报警
+    报警系统
 
 ~[assist]
-    assist
-    assistance
-    assistant
+    辅助
 
 @[specs.safety]
     ~[collision avoidance]

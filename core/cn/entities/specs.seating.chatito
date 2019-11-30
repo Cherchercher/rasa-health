@@ -33,14 +33,14 @@
     passenger ~[cooled seats]
 
 ~[front seating type]('synonym':'true')
-    front seating type
-    front bucket seats
+    前排座椅类型
+    前排斗式座椅
 
 ~[front seating material]('synonym':'true')
-    front seating material
+    前座椅材料
 
 ~[front whiplash protection]('synonym':'true')
-    front whiplash protection
+    前颈部保护
 
 ~[folding passenger]('synonym':'true')
     folding passenger
@@ -56,20 +56,16 @@
     ~[third row] fold down
 
 ~[seating configuration]('synonym':'true')
-    seating configuration
+    座椅配置
 
 ~[heated rear seat]('synonym':'true')
-    heated rear seat
-    heated rear seats
-    heated back seat
-    heated back seats
+    加热后排座椅
     back seat warmers
     back ~[heated seats]
     reat ~[heated seats]
 
 ~[ventilated driver]('synonym':'true')
-    ventilated driver seat
-    ventilated drivers seat
+    通风式驾驶员座椅
 
 ~[ventilated pass]('synonym':'true')
     ventilated pass
@@ -78,34 +74,32 @@
     lumbar support driver
 
 ~[front adjustable seat height]('synonym':'true')
-    front adjustble seat height
+    前排可调节座椅高度
 
 ~[memory seat controls]('synonym':'true')
-    memory seat controls 
-    seat memory
+    记忆座椅控制
+    座位记忆
 
 ~[power driver seat]('synonym':'true')
-    power driver seat
-    power seats
+    电动座椅
 
 ~[power passenger seat]('synonym':'true')
-    power passenger
+    电动乘客座椅
 
 ~[power lumbar control]('synonym':'true')
-    power lumbar control
-    power lumbar support
+    电动腰托控制
 
 ~[active head restraints]('synonym':'true')
-    active head restraints
+    头枕
 
 ~[second row head restraints]('synonym':'true')
-    second row head restraints
+    第二排头枕
 
 ~[third row head restraints]('synonym':'true')
-    third row head restraints
+    第三排头枕
 
 ~[second row folding armrest]('synonym':'true')
-    second row folding armrest
+    第二排折叠扶手
 
 ~[power driver memory]('synonym':'true')
     power driver memory
@@ -123,7 +117,7 @@
     reclining ~[second row]
 
 ~[leather seats]('synonym':'true')
-    leather seats
+    真皮座椅
     nappa leather seats
     ~[color] leather
 
@@ -156,11 +150,8 @@
     back ~[leg room]
 
 ~[interior volume]('synonym':'true')
-    interior volume
-    interior space
-    interior room
-    room inside
-    space inside
+    内部空间
+    内体积
 
 ~[front hip room]('synonym':'true')
     front hip room
