@@ -1,7 +1,7 @@
 /ignore
 *.json
 !data/*.json
-rasaOptions.json
+!core/en/rasaOptions.json
 node_modules
 /models
 *.log
