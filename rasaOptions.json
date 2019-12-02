@@ -1,8 +1,20 @@
 {
     "rasa_nlu_data": {
-        "regex_features": [{
-            "name": "zipcode",
-            "pattern": "[0-9]{5}"
-        }]
+        "regex_features": [
+            {
+                "name": "zipcode",
+                "pattern": "[0-9]{5}"
+            }
+        ],
+        "lookup_tables": [
+            {
+                "name": "US States",
+                "elements": "data/us_states.txt"
+            },
+            {
+                "name": "color",
+                "elements": "data/colors.txt"
+            }
+        ]
     }
 }
