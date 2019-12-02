@@ -1,0 +1,57 @@
+~[hydrogen.fuel-type]('synonym': 'true')
+    氢能
+    氢气能
+    氢燃料电池
+    燃料电池
+
+~[diesel.fuel-type]('synonym': 'true')
+    柴油
+
+~[electric.car]('synonym': 'true')
+    电动汽车
+    全电动汽车
+
+~[electric.fuel-type]('synonym': 'true')
+    电动的
+    纯电动
+
+~[flex-fuel.fuel-type]('synonym': 'true')
+    弹性燃料
+
+~[hybrid.fuel-type]('synonym': 'true')
+    电动和汽油
+    汽油和电动
+
+~[hybrid.car]('synonym': 'true')
+    混动车
+    混合动力车
+    复合动力车
+
+~[plug-in hybrid.car]('synonym': 'true')
+    插电式混合动力车
+    插入式复合动力车
+
+~[cng.fuel-type]('synonym': 'true')
+    天然气
+    压缩天然气
+
+~[gasoline.fuel-type]('synonym': 'true')
+    汽油
+
+~[each-fuel-type]
+    ~[hybrid.fuel-type]
+    ~[gasoline.fuel-type]
+    ~[cng.fuel-type]
+    ~[hydrogen.fuel-type]
+    ~[flex-fuel.fuel-type]
+    ~[diesel.fuel-type]
+    ~[electric.fuel-type]
+
+~[each-fuel-car]
+    ~[hybrid.car]
+    ~[plug-in hybrid.car]
+    ~[electric.car]
+
+@[fuelType]
+    ~[each-fuel-type]
+    ~[each-fuel-car]

@@ -1,0 +1,11 @@
+import ../common.chatito
+
+%[inventory]('training': '100')
+    我的邮递区号是 @[zipcode]
+    这是我的邮递区号 @[zipcode]
+    @[zipcode]
+
+
+@[zipcode]('entity':'zip')
+    92612
+    91364

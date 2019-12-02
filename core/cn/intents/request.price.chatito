@@ -1,0 +1,25 @@
+import ../common.chatito
+
+%[list.trims#price]('training': '50', 'distribution': 'even')
+    ~[declaritive] in the ~[trim-entity], what is the @[specs.price]?
+    ~[quantify-price] ~[model]
+    @[specs.price] for ~[model]
+    ~[what-which] @[specs.price] for the ~[model]
+    ~[what-which] @[specs.price]
+    @[specs.price] for ~[model]
+    ~[model] @[specs.price]
+
+~[quantify-price]
+    这多少钱
+    这需要多少钱
+    how much is the
+    how much for a
+    how much for the
+    how much is this
+    how much is the
+    how much would the
+    how much does the
+    how expensive is the
+    how expensive for a
+    how expensive for the
+    how expensive is this

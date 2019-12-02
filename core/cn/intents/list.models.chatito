@@ -1,0 +1,38 @@
+import ../common.chatito
+import ../entities/fuelType.chatito
+import ../entities/attributes.chatito
+
+//seeks [trims Y] with [specified entity value X]
+
+%[list.models]('training': '25', 'distribution': 'even')
+    ~[what-which] ~[model-type] ~[has] ~[optional-spec]
+    ~[what-which] ~[model-type?] ~[has] ~[optional-spec]
+    ~[declaritive] ~[modifier-spec] what does ~[model-type] have
+    ~[exist] ~[model-type] ~[has] ~[spec-value]
+    ~[exist] ~[model-type] ~[has] ~[optional-spec]
+    所有型号是否有 ~[optional-spec]
+    所有 ~[model-type] 是否有 ~[optional-spec]
+    寻找 ~[seats-spec] ~[model-type] ~[modifier]
+
+//ways people ask about unspecified models by 'sizey' words which may describe the model itself or by a model containing a 'size-spec'
+%[list.models#size]('training': '25', 'distribution': 'even')
+    ~[what-which] ~[model-type] ~[has] the ~[definite-size] ~[size-spec]
+    whats your ~[definite-size] ~[model-type] with ~[indicator-spec]
+    whats your ~[definite-size] ~[model-type] with ~[optional-spec]
+
+%[list.models#indicator]('training': '25', 'distribution': 'even')
+    ~[what-which] ~[model-type] 有 ~[indicator-spec]
+    ~[what-which] 型号有 ~[indicator-spec] 或者 ~[indicator-spec]
+    ~[what-which] ~[cars-general] 
+
+%[list.models#seats]('training': '25', 'distribution': 'even')
+    need 7 seats
+    a ~[model-type] 8 passengers
+    ~[what-which] @[make] come with
+    ~[greeting] does @[make] have @[seater] ~[optional-spec] and ~[optional-spec]
+
+%[list.models#optionalspec]('training': '25', 'distribution': 'even')
+    [hello] 哪些起亚汽车具有自动使用制动器以避免碰撞的能力
+    嗨 起亚在2排座位和天窗有避碰功能吗？
+    你有有防撞辅助装置的车吗？
+    looking for ~[model] with ~[safety-spec] ~[safety-spec] ~[optional-spec] ~[otpional-spec]

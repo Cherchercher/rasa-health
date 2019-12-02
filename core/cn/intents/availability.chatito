@@ -1,0 +1,18 @@
+import ../common.chatito
+import ../entities/locations.chatito
+
+%[availability]('training': '200', 'distribution': 'even')
+    什么时候 ~[future-model] 上市
+     ~[future-model] 是否已经可以在经销商处购买了
+     ~[future-model] 现在能买了吗
+     ~[future-model] 什么时候发行
+     ~[future-model] 什么是否可以在 ~[relativelocation] 购买
+    *[10%] ~[greeting]  ~[future-model] 什么时候可以在 @[US state] 挑选
+    *[10%]  ~[future-model] 什么时候可以在 @[US state] 购买
+    *[10%] 可以告诉我 ~[future-model] 什么时候可以在 @[US state] 购买
+    你期望什么时候购买 ~[future-model] 在 ~[relative location]
+    is the ~[future-model] out yet or when is it expected to be released
+    想知道 ~[future-model] 什么时候可以在 ~[relative location] 买的到
+    这款 ~[future-model] 什么时候能在 ~[relative location] 买到
+    这款 ~[future-model] 什么时候发行
+    我们什么时候能得到这款 ~[future-model] 的消息

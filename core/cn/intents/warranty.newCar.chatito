@@ -1,0 +1,7 @@
+import ../common.chatito
+
+%[warranty.newCar]('training': '10', 'distribution': 'even')
+    保修里都包含什么
+
+%[warranty.coverage]
+    [my warranty cover] 是否包含 [rental car]  [collision] 之后的费用
