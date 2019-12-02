@@ -19,3 +19,4 @@ import ../entities/locations.chatito
     want to know dealers in ~[relative location]
     @[make] dealers open on Sunday near me
     dealership for @[make]
+    i am in ~[relative location] and want to know closest location i can purchase from

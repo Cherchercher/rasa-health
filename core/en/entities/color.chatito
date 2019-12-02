@@ -1,3 +1,18 @@
+@[color]
+    ~[black]
+    ~[grey]
+    ~[light grey]
+    ~[beige]
+    ~[white]
+    ~[silver]
+    ~[red]
+    ~[orange]
+    ~[yellow]
+    ~[purple]
+    ~[green]
+    ~[blue]
+    ~[brown]
+
 ~[black]('synonym': 'true')
     black
     midnight
@@ -25,7 +40,7 @@
 
 ~[red]('synonym': 'true')
     red
-    blood
+    crimson red
 
 ~[orange]('synonym': 'true')
     orange
@@ -50,26 +65,3 @@
 
 ~[brown]('synonym': 'true')
     brown
-
-~[electric blue]('synonym': 'true')
-    electric blue
-
-~[gravity blue]('synonym': 'true')
-    gravity blue
-
-@[color]
-    ~[black]
-    ~[grey]
-    ~[light grey]
-    ~[beige]
-    ~[white]
-    ~[silver]
-    ~[red]
-    ~[orange]
-    ~[yellow]
-    ~[purple]
-    ~[green]
-    ~[blue]
-    ~[brown]
-    ~[electric blue]
-    ~[gravity blue]

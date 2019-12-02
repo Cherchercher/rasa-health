@@ -77,7 +77,7 @@
     telluride
 
 //model without a specified trim
-@[model-ent]
+@[model]
     ~[cadenza]
     ~[forte]
     ~[k900]

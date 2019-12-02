@@ -1,6 +1,10 @@
 //technically, not all of these are 'infotainment', but 'audio', 'electronics misc', etc. but are used in
 //user queries simalarily...
 
+~[audio]('synonym':'true')
+    sound system
+    harmon kordon
+
 ~[auxilary audio input]('synonym':'true')
     ~[auxilary] audio input
     ~[auxilary] input
@@ -28,9 +32,9 @@
 
 ~[total speaker count]('synonym':'true')
     total speaker count
-    sound system
     speakers
-    speaker system
+    how many speakers
+    total speakers
 
 ~[auxilary mp3 input]('synonym':'true')
     auxilary mp3 input
@@ -175,7 +179,7 @@
 ~[stereo anti-theft]('synonym':'true')
     Stereo Anti-Theft
 
-@[specs.infotainment]
+@[specs]
     ~[auxilary audio input]
     ~[radio type]
     ~[satellite radio]

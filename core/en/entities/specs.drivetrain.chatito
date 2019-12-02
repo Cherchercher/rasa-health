@@ -59,7 +59,7 @@
     multi port
 
 ~[transmission type]('synonym':'true')
-    Transmission Type
+    transmission type
     transmission
     manual
     automatic
@@ -87,7 +87,6 @@
     manually interactive transmission
 
 ~[driven wheels]('synonym':'true')
-    Driven Wheels
     AWD
     awd
     all wheel drive
@@ -107,7 +106,7 @@
     awd type
 
 ~[traction control]('synonym':'true')
-    Traction Control
+    traction control
     stability control
     tcs
     traction
@@ -118,7 +117,7 @@
     remote start
     remote engine start
 
-@[specs.drivetrain]
+@[specs]
     ~[engine description]
     ~[horsepower]
     ~[torque]

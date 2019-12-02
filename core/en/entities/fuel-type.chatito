@@ -102,6 +102,6 @@
     ~[plug-in hybrid.car]
     ~[electric.car]
 
-@[fuelType]
+@[fuel-type]
     ~[each-fuel-type]
     ~[each-fuel-car]

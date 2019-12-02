@@ -4,37 +4,40 @@
 
 import ./entities/bodystyle.chatito
 import ./entities/makes.chatito
+import ./entities/spec-values.chatito
 import ./entities/specs.chatito
-import ./entities/models.chatito
-import ./entities/model-trims.chatito
-import ./entities/model-year.chatito
+import ./entities/trims.chatito
 
 ~[model]
-    @[model-ent]
+    @[model]
     @[model-trim]
-    ~[model-year] @[model-ent]
+    ~[model-year] @[model]
     ~[model-year] @[model-trim]
 
 //model without model year - for controlling frequency of model-year appearing in training data
 ~[model-nomy]
-    @[model-ent]
+    @[model]
     @[model-trim]
 
-~[car-general]
+~[car]
     model
     car
     trim
     vehicle
 
-~[cars-general]
+~[cars]
     models
     cars
     trims
     vehicles
 
+~[car/s]
+    ~[car]
+    ~[cars]
+
 ~[future-model]
-    @[model year-future] @[model-ent]
-    new @[model-ent]
+    @[model year-future] @[model]
+    the new @[model]
 
 ~[model-type]
     kia
@@ -46,12 +49,13 @@ import ./entities/model-year.chatito
     @[bodystyle]
 
 ~[declaritive]
-    ~[I?] have a question
-    ~[I?] have a question about
-    ~[I?] was wondering
-    ~[I?] wondering
-    ~[I?] interested in
-    i would like to know
+    ~[i?] have a question
+    ~[i?] have a question about
+    ~[i?] was wondering
+    ~[i?] was interested in
+    ~[i?] wondering
+    ~[i?] interested in
+    ~[i] would like to know
 
 ~[i]
     i

@@ -54,11 +54,19 @@
 ~[rear tire rating]('synonym':'true')
     rear tire rating
 
-@[specs.wheel]
+@[specs]
     ~[wheel description]
     ~[tire description]
-
-
-
-
-
+    ~[tire type]
+    ~[run flat tires]
+    ~[front wheel diameter]
+    ~[rear wheel diameter]
+    ~[wheel material]
+    ~[front tire width]
+    ~[front tire profile]
+    ~[front tire diameter]
+    ~[rear tire width]
+    ~[rear tire profile]
+    ~[rear tire diameter]
+    ~[front tire rating]
+    ~[rear tire rating]

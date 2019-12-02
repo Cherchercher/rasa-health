@@ -76,6 +76,7 @@
 
 ~[highway range]('synonym':'true')
     highway range
+    average range
     range highway
     range on highway
     range on a highway
@@ -95,6 +96,20 @@
     range on electric
     on ~[the] battery
     all electric range
+
+//on a charge
+~[full charge]
+    full charge
+    single charge
+    single full charge
+    one charge
+    a charge
+    electric only
+
+//in ev mode
+~[ev mode]
+    electric mode
+    ev mode
 
 ~[battery-range.without-recharge]('synonym':'true')
     without recharge
@@ -144,6 +159,7 @@
     gas equivalent mileage
     mpges
     mpge
+    mpg without electricity
 
 ~[city mpge]('synonym':'true')
     city mpge
@@ -154,7 +170,7 @@
     minimum mpge
     min mpge
 
-@[specs.fuelconsumption]
+@[specs]
     ~[fuel tank capacity]
     ~[battery recharge time]
     ~[highway mpg]
@@ -165,7 +181,14 @@
     ~[combined range]
     ~[highway range]
     ~[battery-range]
-    ~[battery-range-without-recharge]
+    ~[highway mpge]
+    ~[combined mpge]
+    ~[city mpge]
+
+~[mpg-spec]
+    ~[highway mpg]
+    ~[combined mpg]
+    ~[city mpg]
     ~[highway mpge]
     ~[combined mpge]
     ~[city mpge]

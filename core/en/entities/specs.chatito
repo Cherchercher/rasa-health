@@ -1,17 +1,7 @@
 ///////////////////////
 //       Specs       //
 ///////////////////////
-import ./specs.drivetrain.chatito
-import ./specs.fuelconsumption.chatito
-import ./specs.infotainment.chatito
-import ./specs.prices.chatito
-import ./specs.safety.chatito
-import ./specs.seating.chatito
-import ./specs.storage.chatito
-import ./specs.warranty.chatito
-import ./specs.wheels.chatito
-
-
+// ================ ac-specs =================
 ~[front a/c]('synonym':'true')
     front a/c
     a/c
@@ -34,15 +24,6 @@ import ./specs.wheels.chatito
     ~[air conditioning] vent in back seat
     ~[second row] a/c
 
-//~[sun sensor]('synonym':'true')
-//    sun sensor
-
-//~[air filtration]('synonym':'true')
-//    air filtration
-
-//~[total a/c zones]('synonym':'true')
-///    total a/c zones
-
 ~[a/c control type]('synonym':'true')
     a/c control type
     automatic climate control
@@ -55,27 +36,13 @@ import ./specs.wheels.chatito
     aircon
     air condintioned
 
-//~[a/c control location]('synonym':'true')
-//    a/c control location
+~[ac-spec]
+    ~[front a/c]
+    ~[front a/c zones]
+    ~[rear a/c]
+    ~[a/c control type]
 
-//~[air condition optional]('synonym':'true')
-//    air condition optional
-
-//~[front parking assist]('synonym':'true')
-//    front parking assist
-
-//~[rear parking assist]('synonym':'true')
-//    rear parking assist
-
-//~[ultrasonic parking assist]('synonym':'true')
-//    ultrasonic parking assist
-
-//~[camera parking assist]('synonym':'true')
-//    camera parking assist
-
-//~[auto parking system]('synonym':'true')
-//    automatic parking system
-
+// =============== body specs ================
 ~[doors]('synonym':'true')
     doors
     ~[door count] door
@@ -89,64 +56,8 @@ import ./specs.wheels.chatito
     four
     five
 
-//~[vehicle body type]('synonym':'true')
-//    vehicle body type
-
-//~[vehicle body style]('synonym':'true')
-//    vehicle body style
-
-//~[vehicle size]('synonym':'true')
-//    vehicle size
-
-//~[sliding driver van door]('synonym':'true')
-//    sliding driver van door
-
-//~[sliding passenger van door]('synonym':'true')
-//    sliding passenger van door
-
-//~[power sliding doors]('synonym':'true')
-//    power sliding doors
-
-//~[body description]('synonym':'true')
-//    body description
-
-//~[underbody protection]('synonym':'true')
-//    Underbody Protection
-
-//~[side door beams]('synonym':'true')
-//    Side Door Beams
-//    anti-intrusion beams
-//    side impact beams
-//    side-impact beams
-
-//~[body color bumpers]('synonym':'true')
-//    Body Color Bumpers
-
-//~[body color side cladding]('synonym':'true')
-//    Body Color Side Cladding
-
-//~[front brake type]('synonym':'true')
-//    front brake type
-
-//~[rear brake type]('synonym':'true')
-//    rear brake type
-
-~[ABS]('synonym':'true')
-    abs
-    abs braking
-    abs brakes
-    anti blocking system
-
-//~[cargo volume seats in]('synonym':'true')
-//    cargo volume seats in
-
-//~[cargo volume seats out]('synonym':'true')
-//    cargo volume seats out
-
-//~[turning diameter]('synonym':'true')
-//    turning diameter
-
-~[towing capacity]('synonym':'true')
+//============== tow-ey specs
+~[towing_capacity]('synonym':'true')
     towing capacity
     tow
     tow capacity
@@ -156,11 +67,27 @@ import ./specs.wheels.chatito
     weight for towing
     tow wieght
 
+~[tow hooks]('synonym':'true')
+    tow hooks
+
+~[hitch]('synonym':'true')
+    hitch
+    trailer tow hitch
+    trailer hitch
+
+~[trailer wiring]('synonym':'true')
+    trailer wiring
+
+~[trailer stability control]('synonym':'true')
+    trailer stability control
+
 ~[payload]('synonym':'true')
     payload
 
+// ============== specky specs ==============
 ~[0-60 mph]('synonym':'true')
     0-60
+    0-60 time
     0-60 mph
     0-60 miles
     0-60 mph time
@@ -177,12 +104,12 @@ import ./specs.wheels.chatito
     zero to sixty mph
     zero to sixty miles
     zero to sixty mph time
+    what is the acceleration on the k900
+    acceleration
 
-//~[0 to 60 mph time calculated]('synonym':'true')
-//    0 to 60 MPH Time Calculated
-
-//~[0 to 100 kph time calculated]('synonym':'true')
-//    0 to 100 KPH Time Calculated
+~[top speed]('synonym':'true')
+    top speed
+    max speed
 
 ~[curb weight]('synonym':'true')
     curb weight
@@ -195,6 +122,7 @@ import ./specs.wheels.chatito
     gross weight
     train weight
 
+//================== exterior dimensions ==========
 ~[vehicle height]('synonym':'true')
     vehicle height
     height
@@ -212,6 +140,9 @@ import ./specs.wheels.chatito
 
 ~[ground clearance]('synonym':'true')
     ground clearance
+    off the ground
+    from ground to entry
+    off the road
 
 ~[bed width]('synonym':'true')
     bed width
@@ -220,30 +151,13 @@ import ./specs.wheels.chatito
     bed height
 
 ~[front track width]('synonym':'true')
-    Front Track Width
+    front track width
 
 ~[rear track width]('synonym':'true')
-    Rear Track Width
+    rear track width
 
 ~[bed length]('synonym':'true')
     bed length
-
-~[displacement cc]('synonym':'true')
-    displacement cc
-
-~[displacement litre]('synonym':'true')
-    displacement litre
-
-~[number of cylinders]('synonym':'true')
-    number of cylinders
-    cylinders
-
-~[engine valve count]('synonym':'true')
-    engine valve count
-    valves
-
-~[engine configuration]('synonym':'true')
-    engine configuration
 
 ~[power steering type]('synonym':'true')
     power steering type
@@ -251,20 +165,276 @@ import ./specs.wheels.chatito
 ~[steering system description]('synonym':'true')
     steering system description
 
-~[model year]('synonym':'true')
-    model year
+~[rear limited slip differential]('synonym':'true')
+    rear limited slip differential
 
-~[make]('synonym':'true')
-    make
+~[rear locking differential]('synonym':'true')
+    rear locking differential
 
-~[trim name]('synonym':'true')
-    trim name
+~[front stabilizer bar]('synonym':'true')
+    front stabilizer bar
+    front stabalizer
+    front sway bar
+    sway bar
+
+~[rear stabilizer bar]('synonym':'true')
+    rear stabilizer bar
+
+~[suspension type front]('synonym':'true')
+    Suspension Type Front
+    front suspension
+    suspension
+
+~[suspension type rear]('synonym':'true')
+    Suspension Type Rear
+    rear suspension
+
+~[suspension stability control]('synonym':'true')
+    Suspension Stability Control
+
+~[suspension stability control description]('synonym':'true')
+    suspension stability control description
+
+~[delayed power retention]('synonym':'true')
+    delayed power retention
+
+~[remote adjustment mirror]('synonym':'true')
+    remote adjustment mirror
+
+~[heated mirror]('synonym':'true')
+    heated mirror
+
+~[reverse tilt mirror]('synonym':'true')
+    reverse tilt mirror
+
+~[turn signal in mirror]('synonym':'true')
+    turn signal in mirror
+
+~[driver vanity mirror]('synonym':'true')
+    driver vanity mirror
+
+~[illuminated vanity mirror]('synonym':'true')
+    illuminated vanity mirror
+
+~[folding mirror]('synonym':'true')
+    folding mirror
+    folding mirrors
+    folding side mirrors
+    folding outsize mirrors
+
+~[electrochromic mirror glass]('synonym':'true')
+    electrochromic mirror glass
+
+~[oversized mirror]('synonym':'true')
+    oversized mirror
+
+~[power side mirror description]('synonym':'true')
+    power side mirror description
+
+~[steering wheel a/c control]('synonym':'true')
+    steering wheel a/c control
+
+~[steering wheel audio control]('synonym':'true')
+    steering wheel audio control
+
+~[steering wheel cruise control]('synonym':'true')
+    steering wheel cruise control
+
+~[steering wheel trim]('synonym':'true')
+    steering wheel trim
+
+~[steering wheel paddle shift controls]('synonym':'true')
+    steering wheel paddle shift controls
+
+~[adjustable column steering wheel]('synonym':'true')
+    adjustable column steering wheel
+
+~[telescopic column steering wheel]('synonym':'true')
+    telescopic column steering wheel
+
+~[tilt column steering wheel]('synonym':'true')
+    tilt column steering wheel
+
+~[steering wheel controls description]('synonym':'true')
+    steering wheel controls description
+
+~[memory column]('synonym':'true')
+    Memory Column
+
+//exterior lighting
+~[adaptive headlights]('synonym':'true')
+    adaptive headlights
+
+~[fog lights]('synonym':'true')
+    fog lights
+
+~[self leveling headlights]('synonym':'true')
+    self leveling headlights
+
+~[auto off headlights]('synonym':'true')
+    auto off headlights
+
+~[cargo area light]('synonym':'true')
+    cargo area light
+
+~[cargo box light]('synonym':'true')
+    cargo box light
+
+~[automatic headlights]('synonym':'true')
+    automatic headlights
+
+~[xenon headlights]('synonym':'true')
+    xenon headlights
+
+~[projector headlights]('synonym':'true')
+    projector headlights
+
+~[power locks type]('synonym':'true')
+    Power Locks Type
+    power locks
+    remote locking
+    remote locks
+
+~[height adjustable]('synonym':'true')
+    Height Adjustable
+    adjustable height
+
+//windows
+~[rear window wiper]('synonym':'true')
+    rear window wiper
+
+~[rear wiper type]('synonym':'true')
+    rear wiper type
+
+~[rear window defogger]('synonym':'true')
+    Rear Window Defogger
+    defogger
+    rear defogger
+
+~[power windows]('synonym':'true')
+    power windows
+    windows
+
+~[privacy glass]('synonym':'true')
+    privacy glass
+
+~[tinted glass]('synonym':'true')
+    Tinted Glass
+
+~[rear sunshade]('synonym':'true')
+    Rear Sunshade
+
+~[front de icer]('synonym':'true')
+    front de icer
+
+~[sunroof]('synonym':'true')
+    sunroof
+    sun roof
+    panoramic
+    moonroof
+    moon roof
+    panoramic ceiling
+    ceiling window
+    ceiling window
+    sliding roof
+
+~[panoramic]('synonym':'true')
+    panoramic
 
 @[specs]
     ~[front a/c]
+    ~[front a/c zones]
+    ~[rear a/c]
+    ~[a/c control type]
+    ~[air conditioning]
+    ~[doors]
+    ~[door count]
+    ~[towing_capacity]
+    ~[tow hooks]
+    ~[hitch]
+    ~[trailer wiring]
+    ~[trailer stability control]
+    ~[payload]
+    ~[0-60 mph]
+    ~[curb weight]
+    ~[gross weight]
+    ~[vehicle height]
+    ~[vehicle width]
+    ~[vehicle length]
+    ~[wheelbase]
+    ~[ground clearance]
+    ~[bed width]
+    ~[bed height]
+    ~[front track width]
+    ~[rear track width]
+    ~[bed length]
+    ~[power steering type]
+    ~[steering system description]
+    ~[rear limited slip differential]
+    ~[rear locking differential]
+    ~[front stabilizer bar]
+    ~[rear stabilizer bar]
+    ~[suspension type front]
+    ~[suspension type rear]
+    ~[suspension stability control]
+    ~[suspension stability control description]
+    ~[delayed power retention]
+    ~[remote adjustment mirror]
+    ~[heated mirror]
+    ~[reverse tilt mirror]
+    ~[turn signal in mirror]
+    ~[driver vanity mirror]
+    ~[illuminated vanity mirror]
+    ~[folding mirror]
+    ~[electrochromic mirror glass]
+    ~[oversized mirror]
+    ~[power side mirror description]
+    ~[steering wheel a/c control]
+    ~[steering wheel audio control]
+    ~[steering wheel cruise control]
+    ~[steering wheel trim]
+    ~[steering wheel paddle shift controls]
+    ~[adjustable column steering wheel]
+    ~[telescopic column steering wheel]
+    ~[tilt column steering wheel]
+    ~[steering wheel controls description]
+    ~[memory column]
+    ~[adaptive headlights]
+    ~[fog lights]
+    ~[self leveling headlights]
+    ~[auto off headlights]
+    ~[cargo area light]
+    ~[cargo box light]
+    ~[automatic headlights]
+    ~[xenon headlights]
+    ~[projector headlights]
+    ~[power locks type]
+    ~[height adjustable]
+    ~[rear window wiper]
+    ~[rear wiper type]
+    ~[rear window defogger]
+    ~[power windows]
+    ~[privacy glass]
+    ~[tinted glass]
+    ~[rear sunshade]
+    ~[front de icer]
+    ~[sunroof]
+    ~[panoramic]
+    ~[top speed]
 
-//spec types
-@[optional-spec]
+~[any-spec]
+    ~[optional-spec]
+    ~[indicator-spec]
+    ~[engine-spec]
+    ~[count-spec]
+    ~[size-spec]
+    ~[measure-spec]
+    ~[safety-spec]
+
+//optional-spec is a group of specs that may or may not be included with/on/in some model or model-trim
+//these specs most often appear in "{{models/trims}} that have ~[optional-spec]" or binary queries "does {{models/trims}} have ~[optional-spec]"
+~[optional-spec]
+    ~[remote start]
     ~[navigation]
     ~[rear a/c]
     ~[parking assist description]
@@ -285,33 +455,48 @@ import ./specs.wheels.chatito
     ~[usb connection]
     ~[auxilary mp3 input]
     ~[navigation real time traffic]
-    ~[navigation]
 
+//these specs [most often part of the drivetrain category] are often used by users to help specify a specific trim - 
+//that is to say, the value of these specs are used to indicate a particular trim level... 
+//examples "the 3.0L V6 {{model}}" -- 3.0L V6 is the value of ~[engine desctiption]
+//and given this value, we can discern they are interested in the trim or trims that have this particular drivetrain configurartion
 ~[indicator-spec]
     ~[driven wheels]
+    ~[engine description]
     ~[transmission type]
     ~[fuel]
-    ~[engine description]
+    ~[compressor type]
 
 ~[engine-spec]
     ~[engine description]
     ~[horsepower]
+    ~[compressor type]
+    ~[fuel]
+    ~[torque]
+    ~[recommended fuel type]
 
 ~[count-spec]
     ~[total seat count]
     ~[highway mpg]
     ~[combined mpg]
     ~[city mpg]
+    ~[usb-ports]
 
 ~[size-spec]
     ~[cargo volume]
 
-~[seats-spec]
-    ~[total seat count]
-    ~[1st Row Seating Count]
-    ~[2nd Row Seating Count]
-
 ~[measure-spec]
     ~[curb weight]
+    ~[ground clearance]
     ~[vehicle width]
     ~[vehicle height]
+    ~[vehicle length]
+    ~[wheelbase]
+    ~[bed width]
+    ~[bed height]
+    ~[front track width]
+
+//use this alias where users are asking for number value of a spec
+~[numval-spec]
+    ~[0-60 mph]
+    ~[top speec]
