@@ -8,9 +8,9 @@ import ../entities/locations.chatito
     is the ~[future-model] available now
     when does the ~[future-model] come out
     when will the ~[future-model] models be available in the ~[relative location] area
-    ~[greeting] when will the ~[future-model] be available for pick up in @[US state]
-    when will the ~[future-model] be available in @[US state]
-    can you let me know when the ~[future-model] will be released in @[US state]
+    ~[greeting] when will the ~[future-model] be available for pick up in ~[US state]
+    when will the ~[future-model] be available in ~[US state]
+    can you let me know when the ~[future-model] will be released in ~[US state]
     when do you expect to have the ~[future-model] in ~[relative location]
     is the ~[future-model] out yet or when is it expected to be released
     just want to know when the ~[future-model] is available in ~[relative location]

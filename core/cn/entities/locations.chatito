@@ -1,4 +1,4 @@
-@[US state]
+~[US state]
     阿拉斯加州
     加利福尼亚州
     科罗拉多州
@@ -24,7 +24,7 @@
     华盛顿州
     威斯康星州
 
-@[US city]
+~[US city]
     纽约
     洛杉矶
     芝加哥
@@ -98,8 +98,8 @@
     68001
 
 ~[relative location]
-    @[US state]
-    ~[region fragment] @[US state]
-    ~[region fragment] @[US state] area
-    *[30%] @[US city]
+    ~[US state]
+    ~[region fragment] ~[US state]
+    ~[region fragment] ~[US state] area
+    *[30%] ~[US city]
     ~[zipcode]

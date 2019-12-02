@@ -1,4 +1,4 @@
-@[US state]
+~[US state]
     Alaska
     California
     Colorado
@@ -24,7 +24,7 @@
     Washington
     Wisconsin
 
-@[US city]
+~[US city]
     New York
     Los Angeles
     Chicago
@@ -102,8 +102,8 @@
     68001
 
 ~[relative location]
-    @[US state]
-    ~[region fragment] @[US state]
-    ~[region fragment] @[US state] area
-    @[US city]
+    ~[US state]
+    ~[region fragment] ~[US state]
+    ~[region fragment] ~[US state] area
+    ~[US city]
     ~[zipcode]

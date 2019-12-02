@@ -44,8 +44,8 @@
     @[fuel-type]
 
 //location
-    @[US State]
-    @[US City]
+    ~[US state]
+    ~[US city]
 
 //makes
     @[make]
