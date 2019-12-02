@@ -11,6 +11,7 @@ import ../common.chatito
     i like the ~[model] or ~[model]
     does the ~[model] ~[has] more ~[size-spec] than a ~[model]
     is there a @[make] with ~[relative-size] ~[size-spec] than the ~[model]
+    i was interested in the sorentos or sportages
 
 %[compare.trims]('training': '50', 'distribution': 'even')
     want to know what the difference is in the different ~[trims]
@@ -19,10 +20,14 @@ import ../common.chatito
     ~[what] ~[difference] the @[model-trim] and @[model-trim]
     ~[what] ~[difference] in the ~[trims]
     ~[what-which] ~[model] ~[has] more features? the @[model-trim] or @[model-trim]
+    i want to know the difference between @[model-trim] and @[model-trim]
+    i was just wondering if a 7 passenger sorento is bigger than the 5 passenger sorento
 
 %[compare.yoy]('training': '50','distribution': 'even')
     ~[declaritive] in a ~[model-year] ~[model]. Can you tell me the difference between the ~[model-year] and ~[model-year]?
     ~[what] ~[price-spec] difference in a ~[model-year] and a ~[model-year] ~[model]
+    any changes between the kia niro plugin ex from 2018 versus kia niro plugin ex 2019
+    any changes for the optima in 2020 model year
 
 //ways users refer to trims
 ~[trims]

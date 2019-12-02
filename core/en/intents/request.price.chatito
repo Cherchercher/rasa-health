@@ -1,13 +1,20 @@
 import ../common.chatito
 
-%[list.trims#price]('training': '50', 'distribution': 'even')
-    ~[declaritive] in the ~[trim-entity], what is the ~[price-spec]?
+%[list.trims#price]('training': '200', 'distribution': 'even')
+    what is the price
+    what is the price of the @[model]
+    what is the price of the ~[model]
+    ~[declaritive] in the ~[model], what is the ~[price-spec]?
     ~[quantify-price] ~[model]
     ~[price-spec] for ~[model]
     ~[what-which] ~[price-spec] for the ~[model]
     ~[what-which] ~[price-spec]
     ~[price-spec] for ~[model]
     ~[model] ~[price-spec]
+    what is the ~[price-spec] ~[a-the?] @[model]
+    what is the ~[price-spec] for ~[a-the?] ~[each-fuel-car] @[model]
+    what is the ~[price-spec] for ~[a-the?] new @[model]
+    what is the ~[price-spec] ~[driven-wheel] ~[car]
 
 ~[quantify-price]
     how much is the
@@ -21,3 +28,7 @@ import ../common.chatito
     how expensive for a
     how expensive for the
     how expensive is this
+
+~[a-the]
+    a
+    the

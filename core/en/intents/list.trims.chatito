@@ -5,14 +5,20 @@ import ../entities/trim-levels.chatito
 //this intent is to find model trims that
 //seeks [trims Y] with [specified entity value X]
 
+//generally want to know more about a trim
 %[list.trims]('training': '25', 'distribution': 'even')
-    how many trims are there for ~[trim-entity]
-    ~[declaritive] ~[trim-entity]
-    ~[trim-entity]
-    is ~[a-an-the] @[specs] standard ~[in-on] all @[model] models
+    @[model]
+    ~[declaritive] @[model]
+    i would like to know more about the ~[model]
+    how many trims are there for @[model]
+    i was interested in the @[model] but the ~[trim-ext] version
+    any info on @[model]
+    any of the ~[make?] @[model] ~[driven-wheel]
+    what is the top of the line @[model]
+    i was interested in the @[model] the most basic one
 
 //indicator specs help identify a specific trim level
-%[list.trims#indicator]('training': '25', 'distribution': 'even')
+%[list.trims.indicator]('training': '25', 'distribution': 'even')
     ~[exist] ~[indicator-spec] ~[model]?
     ~[engine] on ~[model]
     ~[what-which] options for ~[model] ~[engine]
@@ -20,7 +26,7 @@ import ../entities/trim-levels.chatito
     ~[exist] ~[model] ~[posseses] ~[indicator-spec]
 
 //list trims that have some declared optional spec
-%[list.trims#optional]('training': '25', 'distribution': 'even')
+%[list.trims.optional]('training': '25', 'distribution': 'even')
     ~[declaritive?] for the ~[model], which models ~[posseses] the ~[optional-spec]
     Do all ~[model] ~[posseses] ~[optional-spec]
     is ~[optional-spec] available on ~[model]
@@ -41,7 +47,7 @@ import ../entities/trim-levels.chatito
     I need a niro that has @[specs] @[specs] and autonomous forward collision breaking.  which model would get me that?
     does the @[model] have ~[optional-spec] or ~[optional-spec] on the ~[trim-fragment] with ~[indicator-spec]
 
-%[list.trims#safetySpec]('training': '25', 'distribution': 'even')
+%[list.trims.safety]('training': '25', 'distribution': 'even')
     ~[what-which] trim do i need to get ~[optional-spec]
     what ~[model] trim lines offer forward collision warning
     does the ~[model] have pre-collision trch
@@ -50,6 +56,7 @@ import ../entities/trim-levels.chatito
     Is forward collision avoidance available on a cheaper trim than the EX?
     Im looking for Front Collision Avoidance on the Kia Sportage.  What model does it come in?
     Sorrento with leather seats and collision avoidance
+    i am inquiring about what level of trim has all the new safety features such as blind spot and adaptive high beams
 
 ~[a-an-the]
     a

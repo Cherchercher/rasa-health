@@ -18,14 +18,20 @@
 ~[5 seater]('synonym': 'true')
     5 seater
     five seater
+    5 passenger
+    five passenger
 
 ~[6 seater]('synonym': 'true')
     6 seater
     six seater
+    6 passenger
+    six passenger
 
 ~[7 seater]('synonym': 'true')
     7 seater
     seven seater
+    7 passenger
+    seven passenger
 
 ~[8 seater]('synonym': 'true')
     8 seater

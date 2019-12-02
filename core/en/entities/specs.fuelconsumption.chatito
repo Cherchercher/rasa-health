@@ -97,6 +97,20 @@
     on ~[the] battery
     all electric range
 
+//on a charge
+~[full charge]
+    full charge
+    single charge
+    single full charge
+    one charge
+    a charge
+    electric only
+
+//in ev mode
+~[ev mode]
+    electric mode
+    ev mode
+
 ~[battery-range.without-recharge]('synonym':'true')
     without recharge
     without recharging
@@ -145,6 +159,7 @@
     gas equivalent mileage
     mpges
     mpge
+    mpg without electricity
 
 ~[city mpge]('synonym':'true')
     city mpge
@@ -166,12 +181,11 @@
     ~[combined range]
     ~[highway range]
     ~[battery-range]
-    ~[battery-range-without-recharge]
     ~[highway mpge]
     ~[combined mpge]
     ~[city mpge]
 
-~[fuel-econ-spec]
+~[mpg-spec]
     ~[highway mpg]
     ~[combined mpg]
     ~[city mpg]

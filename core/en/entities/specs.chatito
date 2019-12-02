@@ -87,6 +87,7 @@
 // ============== specky specs ==============
 ~[0-60 mph]('synonym':'true')
     0-60
+    0-60 time
     0-60 mph
     0-60 miles
     0-60 mph time
@@ -103,6 +104,12 @@
     zero to sixty mph
     zero to sixty miles
     zero to sixty mph time
+    what is the acceleration on the k900
+    acceleration
+
+~[top speed]('synonym':'true')
+    top speed
+    max speed
 
 ~[curb weight]('synonym':'true')
     curb weight
@@ -413,6 +420,7 @@
     ~[front de icer]
     ~[sunroof]
     ~[panoramic]
+    ~[top speed]
 
 ~[any-spec]
     ~[optional-spec]
@@ -487,3 +495,8 @@
     ~[bed width]
     ~[bed height]
     ~[front track width]
+
+//use this alias where users are asking for number value of a spec
+~[numval-spec]
+    ~[0-60 mph]
+    ~[top speec]

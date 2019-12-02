@@ -1,18 +1,35 @@
 import ../common.chatito
 import ../entities/locations.chatito
 
+//similar to searching for inventory, but availability refers to when a new model or new model year will become available
 %[availability]('training': '200', 'distribution': 'even')
     when will ~[future-model] become available
     are ~[future-model] at the dealer already
     is the ~[future-model] available now
     when does the ~[future-model] come out
     when will the ~[future-model] models be available in the ~[relative location] area
-    *[10%] ~[greeting] when will the ~[future-model] be available for pick up in @[US state]
-    *[10%] when will the ~[future-model] be available in @[US state]
-    *[10%] can you let me know when the ~[future-model] will be released in @[US state]
+    ~[greeting] when will the ~[future-model] be available for pick up in @[US state]
+    when will the ~[future-model] be available in @[US state]
+    can you let me know when the ~[future-model] will be released in @[US state]
     when do you expect to have the ~[future-model] in ~[relative location]
     is the ~[future-model] out yet or when is it expected to be released
     just want to know when the ~[future-model] is available in ~[relative location]
     when is the ~[future-model] going to be available in ~[relative location]
     when will the ~[future-model] be released
     when will we hear about the ~[future-model]
+    ~[i?] want to know when the @[model] is coming out
+    i want to know when the @[model] is on the market
+    i want to know when the @[model] will be in stock
+    i want to know when the @[model] comes to dealerships
+    ~[declaritive] the new @[model] when will you have them in stock
+    any ~[future-model] available yet
+    any ~[each-fuel-car] coming to us market
+    any idea when the @[model] will start showing up in ~[relative-location] dealerships
+    any idea when the @[model] is launching
+    is the @[model] ~[each-fuel-car?] available now
+    is the @[model] ~[each-fuel-car?] available yet
+
+//===intent notes
+//users are generally asking if an upcoming model is released yet or when it will be.
+//if the model is not yet released, return release date and ask for email to keep updated
+//if model is out, return inventory

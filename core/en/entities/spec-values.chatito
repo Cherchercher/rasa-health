@@ -21,3 +21,9 @@
     @[model year-future]
     @[model year-current]
 
+@[engine-size]
+    I4
+    v6
+    V6
+    I6
+    V8

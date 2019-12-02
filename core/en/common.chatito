@@ -19,17 +19,21 @@ import ./entities/trims.chatito
     @[model]
     @[model-trim]
 
-~[car-general]
+~[car]
     model
     car
     trim
     vehicle
 
-~[cars-general]
+~[cars]
     models
     cars
     trims
     vehicles
+
+~[car/s]
+    ~[car]
+    ~[cars]
 
 ~[future-model]
     @[model year-future] @[model]
@@ -45,12 +49,13 @@ import ./entities/trims.chatito
     @[bodystyle]
 
 ~[declaritive]
-    ~[I?] have a question
-    ~[I?] have a question about
-    ~[I?] was wondering
-    ~[I?] wondering
-    ~[I?] interested in
-    i would like to know
+    ~[i?] have a question
+    ~[i?] have a question about
+    ~[i?] was wondering
+    ~[i?] was interested in
+    ~[i?] wondering
+    ~[i?] interested in
+    ~[i] would like to know
 
 ~[i]
     i

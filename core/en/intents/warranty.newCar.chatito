@@ -4,5 +4,8 @@ import ../common.chatito
     whats included in the warranty
     i have a question about the factory warranty
 
-%[warranty.coverage]
+%[warranty.coverage]('training': '10', 'distribution': 'even')
     Does [my warranty cover] the cost of a [rental car] after a [collision]
+
+%[warranty.packages]('training': '10', 'distribution': 'even')
+    i want to add the platinum warranty and need pricing

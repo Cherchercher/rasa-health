@@ -6,6 +6,7 @@ import ../common.chatito
     ~[i] want @[model-trim]
     i want to buy ~[model]
     i want to buy a @[make] ~[each-fuel-car]
+    i want to buy a ~[car-general]
     do you have ~[model] in stock
     would you be able to tell me the local inventory for the area surrounding zip ~[zipcode] that would offer the ~[specs] in the ~[model]
     ~[dealer] near me with ~[model]
@@ -25,6 +26,8 @@ import ../common.chatito
     i want to see the ~[model] where can i see it
     how do i view there inventory
     ~[model] inventory
+    i want to find a ~[model] near me
+    i want to get a ~[model]
 
 %[inventory.spec]('training': '100', 'distribution': 'even')
     ~[searching] an ~[model] preferably ~[ext-color] with ~[int-color] interior and ~[specs]

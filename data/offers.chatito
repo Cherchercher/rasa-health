@@ -1,0 +1,61 @@
+%[offers]
+    any cash back or rebate incentives
+    any current offers on the @[model]
+    any ~[offer/s] on a ~[model]
+    any ~[offer/s] on a @[model] ~[indicator-spec]
+    any ~[offer/s] or sales this summer
+    any ~[offer/s] with ~[zero down]
+    any discounts for the @[model]
+    i am interested in a @[offer-types] for a @[bodystyle]
+    any ~[offer/s] for a teacher
+    any interest rate ~[offer/s] on ~[model]
+
+%[offers.finance]
+    what is the amount for ~[loyalty]
+    any ~[offer/s] or finacing for the @[model]
+
+%[offers.lease]
+    any cheap lease ~[offers] going on
+
+%[offers.lease.bodystyle]
+    i am interested in a lease ~[offer] for a @[bodystyle]
+
+@[offer-types]
+    ~[first time buyer]
+    ~[military discount]
+    ~[loyalty]
+    ~[lease]
+    ~[zero down]
+
+//entity synonyms
+~[first time buyer]('synonym':'true')
+    first time buyer
+
+~[military discount]('synonym':'true')
+    military ~[offer/s]
+    veterans ~[offer/s]
+
+~[lease]('synonym':'true')
+    lease ~[offer/s]
+
+~[zero down](synonym:'true')
+    zero down
+    0 down
+    0% down
+
+//aliases
+~[offer]
+    offer
+    discount
+    deal
+    incentive
+
+~[offers]
+    offers
+    discounts
+    deals
+    incentives
+
+~[offer/s]
+    ~[offer]
+    ~[offers]
