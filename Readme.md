@@ -60,7 +60,7 @@ Test the model at the root of project directory `sh ./tests/de/test.sh`. Wrong c
 
 Add intents and entities under `core/en/`
 
-Generate training phrases `npx chatito core/en --format=rasa --formatOptions=rasaOptions.json --outputPath=core/en --trainingFileName=training_data.json`
+Generate training phrases `npx chatito core/en --format=rasa --formatOptions=./core/en/rasaOptions.json --outputPath=core/en --trainingFileName=training_data.json`
 
 Train the model `rasa train nlu --config configs/en/rasa_config.yml --nlu ./core/en/training_data.json`
 

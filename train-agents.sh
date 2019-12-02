@@ -2,7 +2,7 @@ $(aws ecr get-login --no-include-email --region us-east-1)
 
 # Run chatito
 docker pull 261695625069.dkr.ecr.us-east-1.amazonaws.com/rasa-pipeline-chatito:latest
-docker run --rm -v $(pwd)/core/en:/core/en 261695625069.dkr.ecr.us-east-1.amazonaws.com/rasa-pipeline-chatito:latest npx chatito core/en --format=rasa --formatOptions=rasaOptions.json --outputPath=core/en --trainingFileName=training_data.json
+docker run --rm -v $(pwd)/core/en:/core/en 261695625069.dkr.ecr.us-east-1.amazonaws.com/rasa-pipeline-chatito:latest npx chatito core/en --format=rasa --formatOptions=./core/en/rasaOptions.json --outputPath=core/en --trainingFileName=training_data.json
 # uncomment for other agents
 #docker run --rm -v $(pwd)/core/en:/core/de 261695625069.dkr.ecr.us-east-1.amazonaws.com/rasa-pipeline-chatito:latest npx chatito core/de --format=rasa --outputPath=core/de --trainingFileName=training_data.json
 #docker run --rm -v $(pwd)/core/en:/core/cn 261695625069.dkr.ecr.us-east-1.amazonaws.com/rasa-pipeline-chatito:latest npx chatito core/cn --format=rasa --outputPath=core/cn --trainingFileName=training_data.json
