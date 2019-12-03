@@ -1,67 +1,28 @@
 @[color]
-    ~[black]
-    ~[grey]
-    ~[light grey]
-    ~[beige]
-    ~[white]
-    ~[silver]
-    ~[red]
-    ~[orange]
-    ~[yellow]
-    ~[purple]
-    ~[green]
-    ~[blue]
-    ~[brown]
-
-~[black]('synonym': 'true')
     black
     midnight
-
-~[grey]('synonym': 'true')
     grey
     gray
     stone
-
-~[light grey]('synonym': 'true')
     light gray
     light grey
-
-~[beige]('synonym': 'true')
     beige
     champagne
     tan
-
-~[white]('synonym': 'true')
     white
     pearl
-
-~[silver]('synonym': 'true')
     silver
-
-~[red]('synonym': 'true')
     red
     crimson red
-
-~[orange]('synonym': 'true')
     orange
-
-~[yellow]('synonym': 'true')
     yellow
     lime
-
-~[purple]('synonym': 'true')
     purple
     maroon
     indigo
     violet
-
-~[green]('synonym': 'true')
     green
-
-~[blue]('synonym': 'true')
     blue
     navy
     sky
-
-~[brown]('synonym': 'true')
     brown

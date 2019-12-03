@@ -128,7 +128,7 @@
 ~[leather seats]('synonym':'true')
     leather seats
     nappa leather seats
-    ~[color] leather
+    leather
 
 ~[front head room]('synonym':'true')
     front ~[head room]
@@ -248,7 +248,7 @@
     leg room
     legroom
 
-@[specs]
+~[seating-specs]
     ~[total seat count]
     ~[1st Row Seating Count]
     ~[2nd Row Seating Count]
@@ -284,8 +284,9 @@
     ~[multi adjust pass]
     ~[second row captains chair]
     ~[leather seats]
+    ~[spec.seats.interior]
 
-@[spec.seats.interior]
+~[spec.seats.interior]
     ~[front head room]
     ~[front shoulder room]
     ~[front leg room]

@@ -3,7 +3,7 @@ import ../entities/fuel-type.chatito
 import ../entities/attributes.chatito
 
 //seeks [models Y] with [specified entity value X]
-%[list.models]('training': '50', 'distribution': 'even')
+%[list.models]('training': '200', 'distribution': 'even')
     i want ~[a/the] ~[model-type]
     i want to buy ~[a/the] ~[car/s]
     ~[what-which] ~[model-type] ~[has] ~[optional-spec]
@@ -44,7 +44,7 @@ import ../entities/attributes.chatito
     any ~[car/s] that are seven sweaters or more
     any ~[car/s] with four wheel drive
 
-%[list.models.indicator]('training': '25', 'distribution': 'even')
+%[list.models.indicator]('training': '50', 'distribution': 'even')
     ~[what-which] ~[model-type] have ~[indicator-spec]
     ~[what-which] models have ~[indicator-spec] or ~[indicator-spec]
     ~[what-which] ~[cars-general]
@@ -56,7 +56,7 @@ import ../entities/attributes.chatito
     any cars with ~[transmission type]
     any cars with awd
 
-%[list.models.seats]('training': '25', 'distribution': 'even')
+%[list.models.seats]('training': '100', 'distribution': 'even')
     need 7 seats
     a ~[model-type] 8 passengers
     ~[what-which] @[make] come with

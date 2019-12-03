@@ -2,14 +2,13 @@ import ../common.chatito
 import ../entities/attributes.chatito
 import ../entities/trim-levels.chatito
 import ../entities/fuel-type.chatito
-import ../entities/color.chatito
 
 //this intent is to get a definite value for a specification
 //requesting the spec's value by matching the specs name or synonym
 //seeks [unknown entity value X] of [specified entity name E] as related to [specified model/trim Y]
 //seeks binary value of specified entity name as related to specified model/trim Y
 
-%[request.spec]('training': '25', 'distribution': 'even')
+%[request.spec]('training': '250', 'distribution': 'even')
     is the @[model] ~[driven wheel]
     is the @[model] a @[seater]
     how far off the ground is the ~[model]
@@ -21,10 +20,10 @@ import ../entities/color.chatito
     ~[what] the ~[measure-spec]
     ~[what] the ~[measure-spec] of the ~[model]
 
-%[request.spec.count]('training': '25', 'distribution': 'even')
+%[request.spec.count]('training': '50', 'distribution': 'even')
     ~[quantify] ~[count-spec] does the @[make] @[model-trim] ~[posseses]
 
-%[request.spec.range]('training': '25', 'distribution': 'even')
+%[request.spec.range]('training': '100', 'distribution': 'even')
     how far can it go on the battery
     how far does a @[model] go on ~[battery-range]
     ~[the] @[model] goes how far on a ~[battery-range]
@@ -46,11 +45,11 @@ import ../entities/color.chatito
     what is the range of the ~[ev-model]
     what is the maximum range for a ~[model]
 
-%[request.spec.mpg]('training': '25', 'distribution': 'even')
+%[request.spec.mpg]('training': '50', 'distribution': 'even')
     what is the ~[mpg-spec] ~[of/for] the ~[model]
     what is the ~[mpg-spec] ~[of/for] the @[model]
 
-%[request.spec.colors]('training': '25', 'distribution': 'even')
+%[request.spec.colors]('training': '50', 'distribution': 'even')
     can i get the @[model] in @[color]
     does the @[model] come in @[color]
 

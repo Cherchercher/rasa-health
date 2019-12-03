@@ -54,7 +54,7 @@
 ~[rear tire rating]('synonym':'true')
     rear tire rating
 
-@[specs]
+~[wheels-specs]
     ~[wheel description]
     ~[tire description]
     ~[tire type]

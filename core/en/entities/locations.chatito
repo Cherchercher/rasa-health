@@ -1,4 +1,12 @@
-~[US state]
+//sample zip codes
+@[zipcode]
+    16820
+    29620
+    04406
+    54405
+    76621
+
+@[US state]
     Alaska
     California
     Colorado
@@ -12,19 +20,8 @@
     Montana
     New Jersey
     New York
-    Oregon
-    Pennsylvania
-    Rhode Island
-    South Carolina
-    Tennessee
-    Texas
-    Utah
-    Vermont
-    Virginia
-    Washington
-    Wisconsin
 
-~[US city]
+@[US city]
     New York
     Los Angeles
     Chicago
@@ -84,26 +81,9 @@
     northern
     southern
 
-//sample zip codes
-~[zipcode]
-    16820
-    29620
-    04406
-    54405
-    76621
-    17301
-    67510
-    20606
-    58001
-    21001
-    21005
-    35440
-    79311
-    68001
-
 ~[relative location]
-    ~[US state]
-    ~[region fragment] ~[US state]
-    ~[region fragment] ~[US state] area
-    ~[US city]
-    ~[zipcode]
+    @[US state]
+    ~[region fragment] @[US state]
+    ~[region fragment] @[US state] area
+    @[US city]
+    @[zipcode]

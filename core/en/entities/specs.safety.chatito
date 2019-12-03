@@ -143,18 +143,6 @@
     anti theft
     antitheft
 
-~[safety-spec]
-    ~[collision avoidance]
-    ~[automatic emergency braking]
-    ~[blind spot detection]
-    ~[rear cross traffic alert]
-    ~[forward collision warning]
-    ~[lane change assist]
-    ~[lane departure warning]
-    ~[exterior view camera]
-    ~[anti-theft alarm system]
-    ~[surround view monitor]
-
 ~[airbag-spec]
     ~[airbags]
     ~[side airbags]
@@ -163,7 +151,6 @@
     ~[passenger airbags deactivation]
     ~[side airbags curtain]
     ~[airbag rollover sensor]
-
 
 ~[assist-spec]
     ~[parking assist description]
@@ -193,7 +180,7 @@
     assistance
     assistant
 
-@[specs]
+~[safety-specs]
     ~[collision avoidance]
     ~[automatic emergency braking]
     ~[blind spot detection]
