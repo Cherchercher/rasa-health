@@ -25,7 +25,7 @@ import ../entities/trim-levels.chatito
     ~[exist] ~[model] ~[posseses] ~[indicator-spec]
 
 //list trims that have some declared optional spec
-%[list.trims.optional]('training': '350', 'distribution': 'even')
+%[list.trims.optional]('training': '400', 'distribution': 'even')
     ~[declaritive?] for the ~[model], which models ~[posseses] the @[optional-spec]
     do all ~[model] ~[posseses] @[optional-spec]
     is @[optional-spec] available on ~[model]
@@ -41,6 +41,8 @@ import ../entities/trim-levels.chatito
     ~[does the] @[model-trim] ~[possess] @[optional-spec]
     ~[is-are] @[optional-spec] available ~[on-in] @[model-trim]
     does the ~[model] ~[posseses] @[specs]
+    does it ~[posseses] @[specs]
+    does it ~[posseses] @[optional-spec]
     ~[declaritive] can i get a @[optional-spec] in a ~[model]
     I need a niro that has @[specs] @[specs] and autonomous forward collision breaking.  which model would get me that?
     does the @[model] have @[optional-spec] or @[optional-spec] on the ~[trim-fragment] with ~[indicator-spec]
@@ -50,7 +52,7 @@ import ../entities/trim-levels.chatito
     what ~[model] trim lines offer forward collision warning
     does the ~[model] have pre-collision trch
     Which Sorentos have forward collision warning system
-    Does the new all electric Nero come with Lane correction collision warning and blind spot
+    does the new all electric Nero come with Lane correction collision warning and blind spot
     Is forward collision avoidance available on a cheaper trim than the EX?
     Im looking for Front Collision Avoidance on the Kia Sportage.  What model does it come in?
     Sorrento with leather seats and collision avoidance
