@@ -14,7 +14,7 @@
     基本保修里程类型
 
 ~[basic warranty years type]('synonym':'true')
-    Basic Warranty Years Type
+    基本保修年限类型
 
 ~[rust warranty type]('synonym':'true')
     防锈保修类型
@@ -26,10 +26,10 @@
     防锈保修最大年限
 
 ~[rust warranty miles type]('synonym':'true')
-    Rust Warranty Miles Type
+    防锈保修里程类型
 
 ~[rust warranty years type]('synonym':'true')
-    Rust Warranty Years Type
+    防锈保修年限类型
 
 ~[drivetrain warranty type]('synonym':'true')
     传动系统保修类型
@@ -41,10 +41,10 @@
     传动系统保修最大年限
 
 ~[drivetrain warranty miles type]('synonym':'true')
-    Drivetrain Warranty Miles Type
+    传动系统保修里程类型
 
 ~[drivetrain warranty years type]('synonym':'true')
-    Drivetrain Warranty Years Type
+    传动系统保修里程年限类型
 
 @[specs.warranty]
     ~[basic warranty type]

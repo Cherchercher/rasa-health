@@ -94,7 +94,6 @@
     安全气囊侧翻传感器
 
 ~[exterior view camera]('synonym':'true')
-    exterior view camera
     行车记录仪
     倒车影像
 
@@ -170,9 +169,9 @@
     变道
 
 ~[cross-traffic]
-    cross traffic
-    cross-traffic
-    crosstraffic
+    交叉交通
+    交叉交通
+    交叉交通
 
 ~[alert]
     告警

@@ -1,9 +1,9 @@
-import ../entities/model.chatito
+import ../entities/models.chatito
 
-%[recommend]('training': '300')
-    ~[cars]怎么样呢
-    ~[cars]多少钱
-    ~[cars]性能如何 
-    ~[cars]单身可以开吗 
-    ~[cars]适合家庭用吗
-    ~[cars]适合女生吗
+%[recommend]('training': '50')
+    @[model]怎么样呢
+    @[model]多少钱
+    @[model]性能如何 
+    @[model]单身可以开吗 
+    @[model]适合家庭用吗
+    @[model]适合女生吗

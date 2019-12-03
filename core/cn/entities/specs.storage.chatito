@@ -40,9 +40,6 @@
 ~[hands free trunk lock]('synonym':'true')
     免提行李箱锁
 
-~[locking bed storage]('synonym':'true')
-    locking bed storage
-
 ~[power liftgate]('synonym':'true')
     电动尾门
     电动后备箱门
@@ -72,7 +69,6 @@
     ~[cup holders]
     ~[roof rack]
     ~[hands free trunk lock]
-    ~[locking bed storage]
     ~[power liftgate]
     ~[hands free liftgate]
     ~[power trunk]

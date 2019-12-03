@@ -1,0 +1,57 @@
+import ../common.chatito
+import ../entities/trim-levels.chatito
+//this intent is to find model trims that
+///     1. have declared feature
+////        i.e. 'which tellurides have leather seats'
+///     2. are part of some attribute group by spec value
+////        i.e. '7 seater' is a 
+
+%[list.trims]('training': '25', 'distribution': 'even')
+    how many trims are there for ~[trim-entity]
+    ~[declaritive] ~[trim-entity]
+    ~[trim-entity]
+
+//indicator specs help identify a specific trim level
+%[list.trims.indicator]('training': '100', 'distribution': 'even')
+    ~[exist] ~[indicator-spec] ~[model]?
+    ~[engine] on ~[model]
+    ~[what-which] options for ~[model] ~[engine]
+    ~[what-which] ~[engine] options are available for ~[model]
+    ~[exist] ~[model] ~[posseses] ~[indicator-spec]
+
+//list trims that have some declared optional spec
+%[list.trims.optional]('training': '100', 'distribution': 'even')
+    ~[declaritive?] for the ~[model], which models ~[posseses] the ~[optional-spec]
+    Do all ~[model] ~[posseses] ~[optional-spec]
+    is ~[optional-spec] available on ~[model]
+    is ~[optional-spec] included on all ~[model]
+    is ~[optional-spec] only available on the ~[car-trim] and ~[car-trim] trims
+    what trim package do I have to buy in order to get ~[optional-spec]
+    what trim package do I have to buy in order to get ~[optional-spec] and ~[optional-spec]
+    is ~[optional-spec] standard on all trim levels
+    Can I get ~[optional-spec] with any trim
+    What trim level of ~[model] ~[posseses] ~[optional-spec]
+    Can you get the ~[model] with ~[optional-spec]
+    ~[exist] @[trim-level] @[model-trim] ~[posseses] ~[optional-spec]
+    ~[does the] @[model-trim] ~[possess] ~[optional-spec]
+    is ~[optional-spec] available ~[on-in] @[model-trim]
+    are ~[optional-spec] available ~[on-in] @[model-trim]
+    ~[declaritive] can i get a ~[optional-spec] in a ~[model]
+    does the ~[model] ~[posseses] @[specs]
+
+~[quantify]
+    有多少
+    是多少
+    是多远
+    多远
+    多少米
+    多少公里
+
+~[posseses]
+    has
+    come with
+    comes with
+    included on
+    included in
+    have
+    available on

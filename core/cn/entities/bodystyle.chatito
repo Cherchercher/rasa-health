@@ -1,13 +1,13 @@
 @[convertible]('entity': 'bodystyle')
-	敞篷车
-	折叠篷车
-	篷式汽车
+    敞篷车
+    折叠篷车
+    篷式汽车
     活动顶篷式汽车
     活动帆布车顶
 
 @[coupe]('entity': 'bodystyle')
     双座小轿车
-	两座
+    两座
     双门
     两门
 
@@ -21,7 +21,7 @@
 
 @[suv]('entity': 'bodystyle')
     多功能运动车
-	运动型实用汽车
+    运动型实用汽车
     越野车
     越野旅行车
     运动汽车
@@ -35,7 +35,7 @@
 @[hatchback]('entity': 'bodystyle')
     两厢车
     5门车
-	五门
+    五门
 
 @[minivan]('entity': 'bodystyle')
     厢式旅行车
@@ -45,10 +45,10 @@
 @[truck]('entity': 'bodystyle')
     货车
     小卡车
-	皮卡
-	双排座驾驶室货车
-	加长驾驶室货车
-	普通驾驶室货车
+    皮卡
+    双排座驾驶室货车
+    加长驾驶室货车
+    普通驾驶室货车
 
 @[sports car]('entity': 'bodystyle')
     跑车

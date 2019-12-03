@@ -1,11 +1,11 @@
 import ../common.chatito
 
-%[inventory]('training': '100', 'distribution': 'even')
+%[inventory]('training': '200', 'distribution': 'even')
     ~[searching] ~[model]
     ~[greeting] ~[searching] @[model-trim]
     ~[i] 想要 @[model-trim]
     你们库存有 ~[model] 吗
-    您能否告诉我在 ~[zipcode] 周围区域的本地清单吗? 包括这些  ~[model] 的 ~[specs]
+    您能否告诉我在 @[zipcode] 周围区域的本地清单吗? 包括这些  ~[model] 的 ~[specs]
     ~[dealer] near me with ~[model]
     这 ~[model] 在 ~[location-region] 有库存吗
     查找 @[make] 的存货
@@ -20,7 +20,7 @@ import ../common.chatito
     ~[model] 在 ~[city-location] 我在哪可以看车
     我在哪可以看 ~[model] ,在 ~[city-location]
     我想看下 ~[model] 的带价格的存货清单
-    我想看 ~[model] ,我在哪可以看
+    我想看 ~[model],我在哪可以看
     我该如何查看库存清单
     ~[model] 的库存清单
 
@@ -30,15 +30,13 @@ import ../common.chatito
     ~[dealer] inventory ~[model] ~[ext-color] ~[int-color] near zip code 39183
 
 %[inventory.cantFind]('training': '10', 'distribution': 'even')
-    我想买一个 ~[model] 但是没有经销商有库存
+    我想买一个~[model] 但是没有经销商有库存
 
 //variations for inventory intent only
 ~[dealer]
-    dealer
-    dealership
-    dealers
-    dealerships
+    经销商
+    经销商代理
 
 ~[buy]
-    buy
-    purchase
+    买
+    购买

@@ -60,18 +60,19 @@
 
 ~[heated rear seat]('synonym':'true')
     加热后排座椅
-    back seat warmers
-    back ~[heated seats]
-    reat ~[heated seats]
+    后座加热座椅
+    后排加热座椅
 
 ~[ventilated driver]('synonym':'true')
     通风式驾驶员座椅
+    通风式主驾座椅
 
 ~[ventilated pass]('synonym':'true')
-    ventilated pass
+    通风式乘客座椅
 
 ~[lumbar support driver]('synonym':'true')
-    lumbar support driver
+    座椅腰部支撑靠垫
+    汽车座椅腰撑
 
 ~[front adjustable seat height]('synonym':'true')
     前排可调节座椅高度
@@ -102,11 +103,13 @@
     第二排折叠扶手
 
 ~[power driver memory]('synonym':'true')
-    power driver memory
-    power seats with memory
+    记忆电动座椅
+    可记忆电动座椅
+    电动座椅记忆
 
 ~[multi adjust driver]('synonym':'true')
-    multi adjust driver
+    多项调节驾驶员座椅
+    多项调节主驾座椅
 
 ~[multi adjust pass]('synonym':'true')
     multi adjust pass
@@ -163,10 +166,11 @@
     third row hip room
 
 ~[third row leg room]('synonym':'true')
-    third row leg room
+    第三排伸腿距离
+    第三排腿部空间
 
 ~[third row shoulder]('synonym':'true')
-    third row shoulder
+    第三排肩距
 
 ~[interior-dimension]
     ~[front head room]
@@ -192,21 +196,25 @@
     rows of seats
 
 ~[first row]
-    first ~[row]
-    1st ~[row]
+    前排
+    第一排
+    第1排
+    1排
 
 ~[second row]
-    second ~[row]
-    2nd ~[row]
+    2排
+    第2排
+    第二排
 
 ~[third row]
-    third ~[row]
-    3rd ~[row]
-    three ~[row]
+    第3排
+    3排
+    第三排
 
 ~[fourth row]
-    fourth ~[row]
-    4th ~[row]
+    第四排
+    第4排
+    4排
 
 //seat types
 ~[captain chair]
@@ -229,14 +237,14 @@
 
 //dimensions
 ~[head room]
-    head room
-    headroom
+    头部空间
+    头顶空间
 
 ~[leg room]
-    leg room
-    legroom
+    腿部空间
 
 @[spec.seats]
+    后排横向空间
     ~[total seat count]
     ~[1st Row Seating Count]
     ~[2nd Row Seating Count]
@@ -286,7 +294,3 @@
     ~[third row hip room]
     ~[third row leg room]
     ~[third row shoulder]
-
-
-
-

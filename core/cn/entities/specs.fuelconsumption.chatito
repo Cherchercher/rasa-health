@@ -35,40 +35,33 @@
     单次充电可行驶距离
 
 ~[battery-range-without-recharge]
-    without recharge
-    without recharging
-    before recharge
-    before recharging
-    before running out of battery
-    before running out of battery charge
-    before needing to recharge
-    before needing to recharge ~[the?] battery
-    on ~[a?] charge
-    on ~[a?] single charge
-    on ~[a?] full charge
-    on electric
-    in all electric
+    没有电
+    不充电
+    没有充电
+    再次充电
+    一次充电
+    充满电
+    充满了电
+    电动
+    全电动
 
 ~[highway mpge]('synonym':'true')
     行驶在高速时油耗
+    高速行驶油耗
 
 ~[combined mpge]('synonym':'true')
-    mpge
-    combined mpge
-    mpge combined
-    miles per gallon equivalent
-    gas equivalent mileage
-    mpges
-    mpge
+    普遍百公里油耗量
+    百公里耗油
+    百公里油耗
+    100公里耗油
+    100公里油耗
 
 ~[city mpge]('synonym':'true')
-    city mpge
-    mpge city
-    mpge in a city
-    mpge in the city
-    mpge in city
-    minimum mpge
-    min mpge
+    城市油耗
+    城市耗油
+    城市百公里耗油
+    最低油耗
+    最低耗油量
 
 @[specs.fuelconsumption]
     ~[fuel tank capacity]

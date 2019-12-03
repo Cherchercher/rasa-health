@@ -1,12 +1,28 @@
+import ./entities/model-trims.chatito
+import ./entities/makes.chatito
+import ./entities/models.chatito
+import ./entities/locations.chatito
+import ./entities/specs.chatito
+import ./entities/model-year.chatito
+
 ~[year]
     2020
     2019
     2018
     2017
 
+~[I]
+    我
+    我的
+
 ~[car]
     ~[only-car]
     ~[each-model] ~[model?] ~[year?]
+
+~[future-model]
+    @[model year-future] @[model]
+    新的@[model]
+    那个新的@[model]
 
 ~[only-car]
     车
@@ -15,7 +31,10 @@
     小轿车
 
 ~[model]
-    optima
+    @[model]
+    @[model-trim]
+    ~[model-year] @[model]
+    ~[model-year] @[model-trim]
 
 ~[dislike]
     我不喜欢
@@ -36,11 +55,6 @@
 ~[what-ifs]
     如果
     会怎么样呢
-
-~[received]
-    received
-    given
-    got
 
 ~[me]
     我
@@ -72,3 +86,13 @@
 ~[states]
     广东省
     山东省
+
+~[what-which]
+    哪个
+    哪样
+    哪款
+    哪部
+
+~[has]
+    有
+    拥有

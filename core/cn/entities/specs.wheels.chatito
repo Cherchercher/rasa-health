@@ -9,16 +9,12 @@
     轮胎说明
     轮胎数
     车胎数
-    轮胎种类
 
 ~[tire type]('synonym':'true')
-    tire type
-    type of tires
+    轮胎种类
 
 ~[run flat tires]('synonym':'true')
-    run flat tires
-    run flat
-    run flats
+    爆胎
 
 ~[front wheel diameter]('synonym':'true')
     前车轮直径

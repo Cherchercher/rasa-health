@@ -1,5 +1,4 @@
 import ../common.chatito
-import ../entities/locations.chatito
 
 %[find.dealers]('training': '100', 'distribution': 'even')
     我想在 ~[relative location] 找一个经销商,试驾一下这款 ~[model]

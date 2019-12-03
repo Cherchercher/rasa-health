@@ -1,12 +1,13 @@
 import ../common.chatito
+
 //all compare categories should support comparisons by spec and spec categories
 
 %[compare.models]('training': '50', 'distribution': 'even')
-    还有更多 ~[size-spec] 吗, ~[model] 或者 ~[model]
-     ~[model] 和 ~[model] 都有哪些不同点
-     @[make] ~[model] 和 @[make] ~[model] 的不同点
+    还有更多~[size-spec]吗, ~[model]或者~[model]
+    ~[model]和~[model]都有哪些不同点
+    @[make] ~[model] 和 @[make] ~[model] 的不同点
     @[make] ~[model] 和 @[make] ~[model]  都有哪些不同点
-     ~[model] 或 ~[model] 有 ~[optional-spec] 吗
+    ~[model] 或 ~[model] 有 ~[optional-spec] 吗
     我对 ~[model] 或 ~[model] 感兴趣
     我喜欢 ~[model] 或 ~[model]
     ~[model] ~[has] 有更多 ~[size-spec] 吗,相比 ~[model]
@@ -29,7 +30,7 @@ import ../common.chatito
 ~[trims]
     trims
     models
-    types of @[model-ent]
+    types of ~[model]
 
 //dont add 'different'
 ~[difference]

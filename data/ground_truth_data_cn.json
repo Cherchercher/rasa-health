@@ -50,110 +50,98 @@
         ]
       },
       {
-        "text": "when does the 2024 credenzas come out",
-        "intent": "availability",
+        "text": "倒车影像刹车的时候做什么",
+        "intent": "whatis.spec.chatito",
         "entities": [
           {
-            "end": 18,
-            "entity": "model year-future",
-            "start": 14,
-            "value": "2024"
-          },
-          {
-            "end": 28,
-            "entity": "cadenza",
-            "start": 19,
-            "value": "credenzas"
+            "end": 4,
+            "entity": "spec",
+            "start": 0,
+            "value": "exterior view camera"
           }
         ]
       },
       {
-        "text": "when will the 2024 optima regular hybrid be available in Vermont",
-        "intent": "availability",
+        "text": "我想看索兰托，看哪里可以买",
+        "intent": "inventory",
         "entities": [
           {
-            "end": 18,
-            "entity": "model year-future",
-            "start": 14,
-            "value": "2024"
-          },
-          {
-            "end": 40,
-            "entity": "optima hybrid",
-            "start": 19,
-            "value": "optima regular hybrid"
-          },
-          {
-            "end": 64,
-            "entity": "US state",
-            "start": 57,
-            "value": "Vermont"
+            "end": 6,
+            "entity": "model",
+            "start": 3,
+            "value": "sorento"
           }
         ]
       },
       {
-        "text": "can you let me know when the 2024 plug in nitro will be released in South Carolina",
-        "intent": "availability",
+        "text": "极睿基础款多少钱",
+        "intent": "request.price",
         "entities": [
           {
-            "end": 33,
-            "entity": "model year-future",
-            "start": 29,
-            "value": "2024"
-          },
-          {
-            "end": 47,
-            "entity": "niro ev",
-            "start": 34,
-            "value": "plug in nitro"
-          },
-          {
-            "end": 82,
-            "entity": "US state",
-            "start": 68,
-            "value": "South Carolina"
+            "end": 2,
+            "entity": "model",
+            "start": 0,
+            "value": "niro"
           }
         ]
       },
       {
-        "text": "is the 2021 plug-in nero out yet or when is it expected to be released",
+        "text": "2021电动极睿什么时候发售呢",
         "intent": "availability",
         "entities": [
           {
-            "end": 11,
+            "end": 4,
             "entity": "model year-future",
-            "start": 7,
+            "start": 0,
             "value": "2021"
           },
           {
-            "end": 24,
+            "end": 8,
             "entity": "niro ev",
-            "start": 12,
+            "start": 4,
             "value": "plug-in nero"
           }
         ]
       },
       {
-        "text": "when is the 2023 optima hybrid going to be available in south east Colorado",
+        "text": "2021远舰插电式混合动力什么时候发售呢",
         "intent": "availability",
         "entities": [
           {
-            "end": 16,
+            "end": 4,
             "entity": "model year-future",
-            "start": 12,
+            "start": 0,
+            "value": "2021"
+          },
+          {
+            "end": 13,
+            "entity": "niro ev",
+            "start": 4,
+            "value": "plug-in nero"
+          }
+        ]
+      },
+      {
+        "text": "2023远舰混动加州东部什么时候有卖",
+        "intent": "availability",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "model year-future",
+            "start": 0,
             "value": "2023"
           },
           {
-            "end": 30,
+            "end": 8,
             "entity": "optima hybrid",
-            "start": 17,
+            "start": 4,
             "value": "optima hybrid"
           },
           {
             "end": 75,
             "entity": "US state",
             "start": 67,
-            "value": "Colorado"
+            "value": "California"
           }
         ]
       },

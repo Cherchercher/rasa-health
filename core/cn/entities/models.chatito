@@ -15,6 +15,13 @@
 ~[niro ev]('synonym': 'true')
     极睿 电动汽车
 
+~[grand-carnival]('synonym': 'true')
+    全新嘉华
+
+
+~[carens]('synonym': 'true')
+    佳乐
+
 ~[niro plug-in hybrid]('synonym': 'true')
     极睿 插电式混合动力
 
@@ -41,6 +48,7 @@
 
 ~[sorento]('synonym': 'true')
     索兰托
+    索兰托L
 
 ~[sportage]('synonym': 'true')
     狮跑
@@ -52,7 +60,7 @@
     特柳赖德
 
 //model without a specified trim
-@[model-ent]
+@[model]
     ~[cadenza]
     ~[forte]
     ~[k900]
@@ -60,11 +68,12 @@
     ~[niro ev]
     ~[niro plug-in hybrid]
     ~[optima]
+    ~[grand-carnival]
+    ~[carens]
     ~[optima hybrid]
     ~[optima plug-in hybrid]
     ~[rio]
     ~[rio 5-door]
-    ~[stinger]
     ~[sorento]
     ~[telluride]
 
