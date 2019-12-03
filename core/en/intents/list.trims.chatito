@@ -25,29 +25,28 @@ import ../entities/trim-levels.chatito
     ~[exist] ~[model] ~[posseses] ~[indicator-spec]
 
 //list trims that have some declared optional spec
-%[list.trims.optional]('training': '250', 'distribution': 'even')
-    ~[declaritive?] for the ~[model], which models ~[posseses] the ~[optional-spec]
-    Do all ~[model] ~[posseses] ~[optional-spec]
-    is ~[optional-spec] available on ~[model]
-    is ~[optional-spec] included on all ~[model]
-    is ~[optional-spec] only available on the ~[car-trim] and ~[car-trim] trims
-    what trim package do I have to buy in order to get ~[optional-spec]
-    what trim package do I have to buy in order to get ~[optional-spec] and ~[optional-spec]
-    is ~[optional-spec] standard on all trim levels
-    Can I get ~[optional-spec] with any trim
-    What trim level of ~[model] ~[posseses] ~[optional-spec]
-    Can you get the ~[model] with ~[optional-spec]
-    ~[exist] ~[trim-level] @[model-trim] ~[posseses] ~[optional-spec]
-    ~[does the] @[model-trim] ~[possess] ~[optional-spec]
-    is ~[optional-spec] available ~[on-in] @[model-trim]
-    are ~[optional-spec] available ~[on-in] @[model-trim]
-    ~[declaritive] can i get a ~[optional-spec] in a ~[model]
-    does the ~[model] ~[posseses] @[any-specs]
-    I need a niro that has @[any-specs] @[any-specs] and autonomous forward collision breaking.  which model would get me that?
-    does the @[model] have ~[optional-spec] or ~[optional-spec] on the ~[trim-fragment] with ~[indicator-spec]
+%[list.trims.optional]('training': '350', 'distribution': 'even')
+    ~[declaritive?] for the ~[model], which models ~[posseses] the @[optional-spec]
+    do all ~[model] ~[posseses] @[optional-spec]
+    is @[optional-spec] available on ~[model]
+    is @[optional-spec] included on all ~[model]
+    is @[optional-spec] only available on the ~[car-trim] and ~[car-trim] trims
+    what trim package do I have to buy in order to get @[optional-spec]
+    what trim package do I have to buy in order to get @[optional-spec] and @[optional-spec]
+    is @[optional-spec] standard on all trim levels
+    can I get @[optional-spec] with any trim
+    what trim level of ~[model] ~[posseses] @[optional-spec]
+    can you get the ~[model] with @[optional-spec]
+    ~[exist] ~[trim-level] @[model-trim] ~[posseses] @[optional-spec]
+    ~[does the] @[model-trim] ~[possess] @[optional-spec]
+    ~[is-are] @[optional-spec] available ~[on-in] @[model-trim]
+    does the ~[model] ~[posseses] @[specs]
+    ~[declaritive] can i get a @[optional-spec] in a ~[model]
+    I need a niro that has @[specs] @[specs] and autonomous forward collision breaking.  which model would get me that?
+    does the @[model] have @[optional-spec] or @[optional-spec] on the ~[trim-fragment] with ~[indicator-spec]
 
 %[list.trims.safety]('training': '50', 'distribution': 'even')
-    ~[what-which] trim do i need to get ~[optional-spec]
+    ~[what-which] trim do i need to get @[optional-spec]
     what ~[model] trim lines offer forward collision warning
     does the ~[model] have pre-collision trch
     Which Sorentos have forward collision warning system

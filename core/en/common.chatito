@@ -103,7 +103,7 @@ import ./entities/specs.wheels.chatito
     are there any
     do any
     do any of
-    does the
+    @[optional-spec]
     is there
 
 ~[searching]
@@ -141,7 +141,7 @@ import ./entities/specs.wheels.chatito
     hi there
 
 //define specs from specs.chatito
-@[any-specs]
+@[specs]
     ~[front a/c]
     ~[front a/c zones]
     ~[rear a/c]
@@ -345,6 +345,8 @@ import ./entities/specs.wheels.chatito
     ~[multi adjust pass]
     ~[second row captains chair]
     ~[leather seats]
+    ~[leather seats]
+    ~[leather seats]
     ~[front head room]
     ~[front shoulder room]
     ~[front leg room]
@@ -390,7 +392,7 @@ import ./entities/specs.wheels.chatito
     ~[rear tire rating]
 
 //optional-spec is a group of specs that may or may not be included with/on/in some model or model-trim
-//these specs most often appear in "{{models/trims}} that have ~[optional-spec]" or binary queries "does {{models/trims}} have ~[optional-spec]"
+//these specs most often appear in "{{models/trims}} that have @[optional-spec]" or binary queries "does {{models/trims}} have @[optional-spec]"
 @[optional-spec]
     ~[remote start]
     ~[navigation]
@@ -418,6 +420,10 @@ import ./entities/specs.wheels.chatito
 //that is to say, the value of these specs are used to indicate a particular trim level... 
 //examples "the 3.0L V6 {{model}}" -- 3.0L V6 is the value of ~[engine desctiption]
 //and given this value, we can discern they are interested in the trim or trims that have this particular drivetrain configurartion
+
+~[is-are]
+    is
+    are
 
 ~[indicator-spec]
     ~[driven wheels]

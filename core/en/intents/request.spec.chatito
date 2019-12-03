@@ -21,7 +21,7 @@ import ../entities/fuel-type.chatito
     ~[what] the ~[measure-spec] of the ~[model]
 
 %[request.spec.count]('training': '50', 'distribution': 'even')
-    ~[quantify] ~[count-spec] does the @[make] @[model-trim] ~[posseses]
+    ~[quantify] ~[count-spec] @[optional-spec] @[make] @[model-trim] ~[posseses]
 
 %[request.spec.range]('training': '100', 'distribution': 'even')
     how far can it go on the battery
@@ -51,7 +51,7 @@ import ../entities/fuel-type.chatito
 
 %[request.spec.colors]('training': '50', 'distribution': 'even')
     can i get the @[model] in @[color]
-    does the @[model] come in @[color]
+    @[optional-spec] @[model] come in @[color]
 
 ~[of/for]
     of
