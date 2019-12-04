@@ -1,8 +1,4 @@
 import ../common.chatito
-import ../entities/attributes.chatito
-import ../entities/trim-levels.chatito
-import ../entities/fuelType.chatito
-import ../entities/color.chatito
 
 //this intent is to get a definite value for a specification
 //requesting the spec's value by matching the specs name or synonym
@@ -10,17 +6,17 @@ import ../entities/color.chatito
 //seeks binary value of specified entity name as related to specified model/trim Y
 
 %[request.spec]('training': '25', 'distribution': 'even')
-    @[model]有~[driven wheel]吗
-    @[model]是@[seater]吗
-    ~[model]离地多高
+    @[model] 有 ~[driven wheel]吗
+    @[model] 是 @[seater]吗
+    ~[model] 离地多高
     这辆车离地多高
-    ~[model]百公里加速是多少
-    ~[model]百公里加速时间
-    ~[model]0-100km/h加速时间
+    ~[model] 百公里加速是多少
+    ~[model] 百公里加速时间
+    ~[model] 0-100km/h加速时间
     最高时速多少
-    ~[model]最高时速多少
-    ~[measure-spec]是多少
-    ~[model]的~[measure-spec]是多少
+    ~[model] 最高时速多少
+    ~[measure-spec] 是多少
+    ~[model] 的 ~[measure-spec] 是多少
 
 %[request.spec.count]('training': '25', 'distribution': 'even')
     @[make] @[model-trim] ~[count-spec] ~[quantify]
@@ -38,8 +34,8 @@ import ../entities/color.chatito
     加满油了能开多久
     加满油充满电能开多久
     最大里程是多少
-    ~[model] 最大里程是多少
-    ~[ev-model] 最大里程是多少
+    ~[model]最大里程是多少
+    ~[ev-model]最大里程是多少
 
 %[request.spec.mpg]('training': '25', 'distribution': 'even')
     ~[model]的~[mpg-spec]多大

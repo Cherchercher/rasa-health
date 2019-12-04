@@ -1,16 +1,6 @@
 ///////////////////////
 //       Specs       //
 ///////////////////////
-import ./specs.drivetrain.chatito
-import ./specs.fuelconsumption.chatito
-import ./specs.infotainment.chatito
-import ./specs.prices.chatito
-import ./specs.safety.chatito
-import ./specs.seating.chatito
-import ./specs.storage.chatito
-import ./specs.warranty.chatito
-import ./specs.wheels.chatito
-
 
 ~[front a/c]('synonym':'true')
     前空调
@@ -241,7 +231,7 @@ import ./specs.wheels.chatito
     ~[front a/c]
 
 //spec types
-@[optional-spec]
+@[optional-specs]
     ~[navigation]
     ~[rear a/c]
     ~[parking assist description]

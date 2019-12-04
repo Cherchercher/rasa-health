@@ -50,19 +50,7 @@
         ]
       },
       {
-        "text": "倒车影像刹车的时候做什么",
-        "intent": "whatis.spec.chatito",
-        "entities": [
-          {
-            "end": 4,
-            "entity": "spec",
-            "start": 0,
-            "value": "exterior view camera"
-          }
-        ]
-      },
-      {
-        "text": "我想看索兰托，看哪里可以买",
+        "text": "我想看索兰托，看哪里~[can]买",
         "intent": "inventory",
         "entities": [
           {
@@ -74,19 +62,7 @@
         ]
       },
       {
-        "text": "极睿基础款多少钱",
-        "intent": "request.price",
-        "entities": [
-          {
-            "end": 2,
-            "entity": "model",
-            "start": 0,
-            "value": "niro"
-          }
-        ]
-      },
-      {
-        "text": "2021电动极睿什么时候发售呢",
+        "text": "2021年电动极睿什么时候发售呢",
         "intent": "availability",
         "entities": [
           {
@@ -104,7 +80,7 @@
         ]
       },
       {
-        "text": "2021远舰插电式混合动力什么时候发售呢",
+        "text": "2021年远舰插电式混合动力什么时候发售呢",
         "intent": "availability",
         "entities": [
           {
@@ -142,6 +118,30 @@
             "entity": "US state",
             "start": 67,
             "value": "California"
+          }
+        ]
+      },
+      {
+        "text": "倒车影像刹车的时候做什么",
+        "intent": "whatis.spec.chatito",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "spec",
+            "start": 0,
+            "value": "exterior view camera"
+          }
+        ]
+      },
+      {
+        "text": "极睿基础款多少钱",
+        "intent": "request.price",
+        "entities": [
+          {
+            "end": 2,
+            "entity": "model",
+            "start": 0,
+            "value": "niro"
           }
         ]
       },
@@ -326,7 +326,7 @@
         ]
       },
       {
-        "text": "when does the 2023 optima plug-in hybrid come out",
+        "text": "when @[optional-spec] 2023 optima plug-in hybrid come out",
         "intent": "availability",
         "entities": [
           {
@@ -572,7 +572,7 @@
         ]
       },
       {
-        "text": "when does the 2022 nitro come out",
+        "text": "when @[optional-spec] 2022 nitro come out",
         "intent": "availability",
         "entities": [
           {
@@ -662,7 +662,7 @@
         ]
       },
       {
-        "text": "when does the new electric nitro come out",
+        "text": "when @[optional-spec] new electric nitro come out",
         "intent": "availability",
         "entities": [
           {
@@ -710,7 +710,7 @@
         ]
       },
       {
-        "text": "when does the 2022 plug in niro come out",
+        "text": "when @[optional-spec] 2022 plug in niro come out",
         "intent": "availability",
         "entities": [
           {
@@ -1214,7 +1214,7 @@
         ]
       },
       {
-        "text": "when does the 2022 nero electric come out",
+        "text": "when @[optional-spec] 2022 nero electric come out",
         "intent": "availability",
         "entities": [
           {
@@ -1604,7 +1604,7 @@
         ]
       },
       {
-        "text": "when does the 2023 cadenzas come out",
+        "text": "when @[optional-spec] 2023 cadenzas come out",
         "intent": "availability",
         "entities": [
           {
@@ -2282,7 +2282,7 @@
         ]
       },
       {
-        "text": "hi does the 2010 Niro Plug-in Hybrid LX or 2014 rio 5 door come with a ac vent in back seat",
+        "text": "hi @[optional-spec] 2010 Niro Plug-in Hybrid LX or 2014 rio 5 door come with a ac vent in back seat",
         "intent": "compare.models",
         "entities": [
           {
@@ -2456,7 +2456,7 @@
         ]
       },
       {
-        "text": "does the 2011 rio 4 door comes with more cargo capacity than a 2017 rio 5-door",
+        "text": "@[optional-spec] 2011 rio 4 door comes with more cargo capacity than a 2017 rio 5-door",
         "intent": "compare.models",
         "entities": [
           {
@@ -2552,7 +2552,7 @@
         ]
       },
       {
-        "text": "does the 2010 Niro FE comes with more max cargo volume than a 2019 rio 5-door",
+        "text": "@[optional-spec] 2010 Niro FE comes with more max cargo volume than a 2019 rio 5-door",
         "intent": "compare.models",
         "entities": [
           {
@@ -2588,7 +2588,7 @@
         ]
       },
       {
-        "text": "does the 2017 plugin hybrid optima included in more max cargo capacity than a 2012 rio 5-door",
+        "text": "@[optional-spec] 2017 plugin hybrid optima included in more max cargo capacity than a 2012 rio 5-door",
         "intent": "compare.models",
         "entities": [
           {
@@ -2648,7 +2648,7 @@
         ]
       },
       {
-        "text": "hi does the 2013 Niro FE or 2024 Telluride EX AWD come with a LKA",
+        "text": "hi @[optional-spec] 2013 Niro FE or 2024 Telluride EX AWD come with a LKA",
         "intent": "compare.models",
         "entities": [
           {
@@ -2684,7 +2684,7 @@
         ]
       },
       {
-        "text": "hi does the 2010 telluride or 2017 nitro electric come with a satellite radio",
+        "text": "hi @[optional-spec] 2010 telluride or 2017 nitro electric come with a satellite radio",
         "intent": "compare.models",
         "entities": [
           {
@@ -2804,7 +2804,7 @@
         ]
       },
       {
-        "text": "does the 2014 Sorento S V6 AWD available on more max cargo capacity than a 2011 niro ev",
+        "text": "@[optional-spec] 2014 Sorento S V6 AWD available on more max cargo capacity than a 2011 niro ev",
         "intent": "compare.models",
         "entities": [
           {
@@ -2870,7 +2870,7 @@
         ]
       },
       {
-        "text": "does the 2024 nitro plugin included in more cargo max volume than a 2012 Niro EV EX",
+        "text": "@[optional-spec] 2024 nitro plugin included in more cargo max volume than a 2012 Niro EV EX",
         "intent": "compare.models",
         "entities": [
           {
@@ -3008,7 +3008,7 @@
         ]
       },
       {
-        "text": "does the 2010 rio 4-door available on more cargo volume with seats than a 2018 niro plug in",
+        "text": "@[optional-spec] 2010 rio 4-door available on more cargo volume with seats than a 2018 niro plug in",
         "intent": "compare.models",
         "entities": [
           {
@@ -3116,7 +3116,7 @@
         ]
       },
       {
-        "text": "hi does the 2023 niro plugin or plug in niro come with a parking assist description",
+        "text": "hi @[optional-spec] 2023 niro plugin or plug in niro come with a parking assist description",
         "intent": "compare.models",
         "entities": [
           {
@@ -3176,7 +3176,7 @@
         ]
       },
       {
-        "text": "does the 2013 k900s come with more max cargo volume than a 2018 nero electric vehicle",
+        "text": "@[optional-spec] 2013 k900s come with more max cargo volume than a 2018 nero electric vehicle",
         "intent": "compare.models",
         "entities": [
           {
@@ -3380,7 +3380,7 @@
         ]
       },
       {
-        "text": "hi does the 2020 Sorento S V6 AWD or 2018 niro ev come with a forward accident avoidance assistance",
+        "text": "hi @[optional-spec] 2020 Sorento S V6 AWD or 2018 niro ev come with a forward accident avoidance assistance",
         "intent": "compare.models",
         "entities": [
           {
@@ -14820,7 +14820,7 @@
         ]
       },
       {
-        "text": "does the all wheel drive 2016 stinger?",
+        "text": "@[optional-spec] all wheel drive 2016 stinger?",
         "intent": "list.trims#indicator",
         "entities": [
           {
@@ -15173,7 +15173,7 @@
         ]
       },
       {
-        "text": "does the Telluride SX AWD possess rear cross-traffic alarm system",
+        "text": "@[optional-spec] Telluride SX AWD possess rear cross-traffic alarm system",
         "intent": "list.trims#optional",
         "entities": [
           {
@@ -15209,7 +15209,7 @@
         ]
       },
       {
-        "text": "does the 2015 electric vehicle nero comes with spec",
+        "text": "@[optional-spec] 2015 electric vehicle nero comes with spec",
         "intent": "list.trims#optional",
         "entities": [
           {
@@ -15293,7 +15293,7 @@
         ]
       },
       {
-        "text": "does the 2022 Sedona LX included on spec",
+        "text": "@[optional-spec] 2022 Sedona LX included on spec",
         "intent": "list.trims#optional",
         "entities": [
           {
@@ -15311,7 +15311,7 @@
         ]
       },
       {
-        "text": "Does the new all electric Nero come with Lane correction collision warning and blind spot",
+        "text": "@[optional-spec] new all electric Nero come with Lane correction collision warning and blind spot",
         "intent": "list.trims#safetySpec",
         "entities": []
       },
@@ -15390,7 +15390,7 @@
         "entities": []
       },
       {
-        "text": "does the 2014 Niro LX have pre-collision trch",
+        "text": "@[optional-spec] 2014 Niro LX have pre-collision trch",
         "intent": "list.trims#safetySpec",
         "entities": [
           {
@@ -15408,7 +15408,7 @@
         ]
       },
       {
-        "text": "does the 2021 rio 4 dr have pre-collision trch",
+        "text": "@[optional-spec] 2021 rio 4 dr have pre-collision trch",
         "intent": "list.trims#safetySpec",
         "entities": [
           {
@@ -15468,7 +15468,7 @@
         ]
       },
       {
-        "text": "does the 2014 plugin niro have pre-collision trch",
+        "text": "@[optional-spec] 2014 plugin niro have pre-collision trch",
         "intent": "list.trims#safetySpec",
         "entities": [
           {
@@ -15858,7 +15858,7 @@
         ]
       },
       {
-        "text": "how much does the 2019 Sedona EX",
+        "text": "how much @[optional-spec] 2019 Sedona EX",
         "intent": "list.trims#price",
         "entities": [
           {
@@ -16626,7 +16626,7 @@
         ]
       },
       {
-        "text": "quantify fuel savers does the make Soul S posseses",
+        "text": "quantify fuel savers @[optional-spec] make Soul S posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -16644,7 +16644,7 @@
         ]
       },
       {
-        "text": "quantify people can it fit does the make Optima EX posseses",
+        "text": "quantify people can it fit @[optional-spec] make Optima EX posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -16662,7 +16662,7 @@
         ]
       },
       {
-        "text": "quantify fuel economy does the make Niro Plug-in Hybrid LX posseses",
+        "text": "quantify fuel economy @[optional-spec] make Niro Plug-in Hybrid LX posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -16680,7 +16680,7 @@
         ]
       },
       {
-        "text": "quantify min mpg does the make Sedona LX posseses",
+        "text": "quantify min mpg @[optional-spec] make Sedona LX posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -16698,7 +16698,7 @@
         ]
       },
       {
-        "text": "quantify mpg does the make Optima LX posseses",
+        "text": "quantify mpg @[optional-spec] make Optima LX posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -16716,7 +16716,7 @@
         ]
       },
       {
-        "text": "quantify kmpl does the make Forte GT DCT posseses",
+        "text": "quantify kmpl @[optional-spec] make Forte GT DCT posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -16734,7 +16734,7 @@
         ]
       },
       {
-        "text": "quantify how many seats does the make Sorento L FWD posseses",
+        "text": "quantify how many seats @[optional-spec] make Sorento L FWD posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -16752,7 +16752,7 @@
         ]
       },
       {
-        "text": "quantify gas mileage does the make Rio LX posseses",
+        "text": "quantify gas mileage @[optional-spec] make Rio LX posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -16770,7 +16770,7 @@
         ]
       },
       {
-        "text": "quantify fuel economy does the make Niro Touring posseses",
+        "text": "quantify fuel economy @[optional-spec] make Niro Touring posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -16788,7 +16788,7 @@
         ]
       },
       {
-        "text": "quantify people can it fit does the make Sportage S FWD posseses",
+        "text": "quantify people can it fit @[optional-spec] make Sportage S FWD posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -16806,7 +16806,7 @@
         ]
       },
       {
-        "text": "quantify fuel economy does the make K900 Luxury posseses",
+        "text": "quantify fuel economy @[optional-spec] make K900 Luxury posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -16824,7 +16824,7 @@
         ]
       },
       {
-        "text": "quantify fuel savers does the make Optima Hybrid EX posseses",
+        "text": "quantify fuel savers @[optional-spec] make Optima Hybrid EX posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -16842,7 +16842,7 @@
         ]
       },
       {
-        "text": "quantify the mpg does the make Telluride EX AWD posseses",
+        "text": "quantify the mpg @[optional-spec] make Telluride EX AWD posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -16860,7 +16860,7 @@
         ]
       },
       {
-        "text": "quantify mpg on highway does the make Optima LX posseses",
+        "text": "quantify mpg on highway @[optional-spec] make Optima LX posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -16878,7 +16878,7 @@
         ]
       },
       {
-        "text": "quantify kmpl does the make Stinger AWD posseses",
+        "text": "quantify kmpl @[optional-spec] make Stinger AWD posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -16896,7 +16896,7 @@
         ]
       },
       {
-        "text": "quantify km / l does the make Forte GT DCT posseses",
+        "text": "quantify km / l @[optional-spec] make Forte GT DCT posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -16914,7 +16914,7 @@
         ]
       },
       {
-        "text": "quantify mpg does the make Optima EX posseses",
+        "text": "quantify mpg @[optional-spec] make Optima EX posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -16932,7 +16932,7 @@
         ]
       },
       {
-        "text": "quantify mpgs does the make Sorento EX V6 AWD posseses",
+        "text": "quantify mpgs @[optional-spec] make Sorento EX V6 AWD posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -16950,7 +16950,7 @@
         ]
       },
       {
-        "text": "quantify gas consumption does the make Optima S posseses",
+        "text": "quantify gas consumption @[optional-spec] make Optima S posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -16968,7 +16968,7 @@
         ]
       },
       {
-        "text": "quantify gas economy does the make Optima EX Premium posseses",
+        "text": "quantify gas economy @[optional-spec] make Optima EX Premium posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -16986,7 +16986,7 @@
         ]
       },
       {
-        "text": "quantify miles per gallon does the make Soul LX 6MT posseses",
+        "text": "quantify miles per gallon @[optional-spec] make Soul LX 6MT posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -17004,7 +17004,7 @@
         ]
       },
       {
-        "text": "quantify fuel consumption does the make Stinger GTS AWD posseses",
+        "text": "quantify fuel consumption @[optional-spec] make Stinger GTS AWD posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -17022,7 +17022,7 @@
         ]
       },
       {
-        "text": "quantify max mpg does the make Niro Plug-in Hybrid EX Premium posseses",
+        "text": "quantify max mpg @[optional-spec] make Niro Plug-in Hybrid EX Premium posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -17040,7 +17040,7 @@
         ]
       },
       {
-        "text": "quantify highway mpg does the make Telluride S AWD posseses",
+        "text": "quantify highway mpg @[optional-spec] make Telluride S AWD posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -17058,7 +17058,7 @@
         ]
       },
       {
-        "text": "quantify people can fit does the make Soul EX posseses",
+        "text": "quantify people can fit @[optional-spec] make Soul EX posseses",
         "intent": "request.spec.count",
         "entities": [
           {
@@ -18290,7 +18290,7 @@
         "entities": []
       },
       {
-        "text": "what does the auto emergency breaking do",
+        "text": "what @[optional-spec] auto emergency breaking do",
         "intent": "whatis.spec",
         "entities": [
           {
@@ -18314,7 +18314,7 @@
         ]
       },
       {
-        "text": "what does the rear crosstraffic collision warning do",
+        "text": "what @[optional-spec] rear crosstraffic collision warning do",
         "intent": "whatis.spec",
         "entities": [
           {

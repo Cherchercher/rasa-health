@@ -1,7 +1,7 @@
 ~[total seat count]('synonym':'true')
     总共几座
     能做几人
-    可以做多少人
+    ~[can]做多少人
     乘客容量
 
 ~[1st Row Seating Count]('synonym':'true')
@@ -239,6 +239,7 @@
 ~[head room]
     头部空间
     头顶空间
+    车顶空间
 
 ~[leg room]
     腿部空间

@@ -1,15 +1,19 @@
 import ../common.chatito
 
-%[list.trims#price]('training': '50', 'distribution': 'even')
-    ~[declaritive] in the ~[trim-entity], what is the @[specs.price]?
-    ~[quantify-price] ~[model]
+%[list.trims#price]('training': '200', 'distribution': 'even')
+    带@[optional-specs]的多少钱
+    ~[quantify-price]~[model]
     ~[model]多少钱呢
-    @[specs.price] for ~[model]
-    ~[what-which] @[specs.price] for the ~[model]
-    ~[what-which] @[specs.price]
-    @[specs.price] for ~[model]
-    ~[model] @[specs.price]
-
-~[quantify-price]
-    这多少钱
-    这需要多少钱
+    ~[model]的@[specs.price]
+    ~[what-which]~[model]的@[specs.price]
+    ~[what-which]@[specs.price]
+    @[specs.price]~[model]
+    ~[model]@[specs.price]
+    ~[declaritive?]@[model]~[quantify-price]
+    ~[declaritive?]~[model]~[quantify-price]
+    这款~[quantify-price]
+    ~[model]的~[price-spec]
+    @[model]的~[price-spec]
+    ~[quantify-price]~[model]
+    ~[driven-wheel]~[car]~[quantify-price]
+    ~[each-fuel-car]@[model]~[quantify-price]
