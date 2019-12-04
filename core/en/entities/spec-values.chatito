@@ -1,11 +1,11 @@
-@[model year-current]
+~[model year-current]('synonym':'true')
     2019
     2020
 
-@[model year-future]
+~[model year-future]('synonym':'true')
     2021
 
-@[model year-past]
+~[model year-past]('synonym':'true')
     2010
     2011
     2012
@@ -16,10 +16,10 @@
     2017
     2018
 
-~[model-year]
-    @[model year-past]
-    @[model year-future]
-    @[model year-current]
+@[model-year]
+    *[10]~[model year-current]
+    *[10]~[model year-future]
+    *[80]~[model year-past]
 
 @[engine-size]
     I4

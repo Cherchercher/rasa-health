@@ -2,6 +2,7 @@
 //     Common parts     //
 //////////////////////////
 import ./entities/bodystyle.chatito
+import ./entities/fuel-type.chatito
 import ./entities/makes.chatito
 import ./entities/trims.chatito
 import ./entities/spec-values.chatito
@@ -18,8 +19,8 @@ import ./entities/specs.wheels.chatito
 ~[model]
     @[model]
     @[model-trim]
-    ~[model-year] @[model]
-    ~[model-year] @[model-trim]
+    @[model-year] @[model]
+    @[model-year] @[model-trim]
 
 //model without model year - for controlling frequency of model-year appearing in training data
 ~[model-nomy]
@@ -43,7 +44,7 @@ import ./entities/specs.wheels.chatito
     ~[cars]
 
 ~[future-model]
-    ~{model year-future] @[model]
+    ~[model year-future] @[model]
     the new @[model]
 
 ~[model-type]
@@ -54,6 +55,11 @@ import ./entities/specs.wheels.chatito
     car
     cars
     @[bodystyle]
+
+~[a-an-the]
+    a
+    an
+    the
 
 ~[declaritive]
     ~[i?] have a question
@@ -69,16 +75,22 @@ import ./entities/specs.wheels.chatito
     i am
     im
 
+//"does it have"
+~[have]
+    have
+    come with
+    include
+
+//"a car that has"
+//"what car has"
 ~[has]
     has
-    come with
-    comes with
-    include
     includes
-    included on
-    included in
-    have
-    available on
+    comes with
+
+~[have-has]
+    ~[have]
+    ~[has]
 
 ~[what]
     what
@@ -87,23 +99,17 @@ import ./entities/specs.wheels.chatito
 
 ~[what-which]
     what
-    whats
-    what is
-    which
     which is
 
-~[on-in]
-    on
+~[in-on]
     in
-    on the
-    in the
+    on
 
 ~[exist]
     are any
     are there any
     do any
     do any of
-    @[optional-spec]
     is there
 
 ~[searching]
@@ -120,6 +126,12 @@ import ./entities/specs.wheels.chatito
     howdy
     hola
 
+~[greeting]
+    ~[hello]
+    good morning
+    good afternoon
+    hi there
+
 ~[relative-size]
     more
     less
@@ -133,12 +145,6 @@ import ./entities/specs.wheels.chatito
     smallest
     the most
     the least
-
-~[greeting]
-    ~[hello]
-    good morning
-    good afternoon
-    hi there
 
 //define specs from specs.chatito
 @[specs]
@@ -392,8 +398,8 @@ import ./entities/specs.wheels.chatito
     ~[rear tire rating]
 
 //optional-spec is a group of specs that may or may not be included with/on/in some model or model-trim
-//these specs most often appear in "{{models/trims}} that have @[optional-spec]" or binary queries "does {{models/trims}} have @[optional-spec]"
-@[optional-spec]
+//these specs most often appear in "{{models/trims}} that have ~[optional-spec]" or binary queries "does {{models/trims}} have ~[optional-spec]"
+~[optional-spec]
     ~[remote start]
     ~[navigation]
     ~[rear a/c]
@@ -420,10 +426,6 @@ import ./entities/specs.wheels.chatito
 //that is to say, the value of these specs are used to indicate a particular trim level... 
 //examples "the 3.0L V6 {{model}}" -- 3.0L V6 is the value of ~[engine desctiption]
 //and given this value, we can discern they are interested in the trim or trims that have this particular drivetrain configurartion
-
-~[is-are]
-    is
-    are
 
 ~[indicator-spec]
     ~[driven wheels]

@@ -3,10 +3,10 @@ import ../common.chatito
 %[whatis.spec]('training': '10', 'distribution': 'even')
     does ~[safety-spec] mean ~[the car] ~[do some function]
     what is ~[safety-spec]
-    what @[optional-spec] ~[safety-spec] do
+    what ~[optional-spec] ~[safety-spec] do
     does ~[safety-spec] automatically stop the vehicle
     does ~[safety-spec] mean ~[the car] can ~[do some function]
-    what @[optional-spec] ~[safety-spec] do in a ~[model]
+    what ~[optional-spec] ~[safety-spec] do in a ~[model]
 
 ~[the car]
     the car
