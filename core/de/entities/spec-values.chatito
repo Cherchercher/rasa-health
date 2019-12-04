@@ -1,0 +1,29 @@
+@[model year-current]
+    2019
+    2020
+
+@[model year-future]
+    2021
+
+@[model year-past]
+    2010
+    2011
+    2012
+    2013
+    2014
+    2015
+    2016
+    2017
+    2018
+
+~[model-year]
+    @[model year-past]
+    @[model year-future]
+    @[model year-current]
+
+@[engine-size]
+    I4
+    v6
+    V6
+    I6
+    V8

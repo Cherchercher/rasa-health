@@ -1,10 +1,45 @@
 import ../common.chatito
+//all compare categories should support comparisons by spec and spec categories
 
-%[compare#price]('training': '50')
-    welcher is billiger, ~[cars] or ~[cars]
+%[compare.models]('training': '50', 'distribution': 'even')
+    is there more ~[size-spec] in a ~[model] or a ~[model]
+    what is the difference between the ~[model] and ~[model]
+    difference between @[make] ~[model] and @[make] ~[model]
+    whats the difference between the @[make] ~[model] and the @[make] ~[model]
+    hi @[optional-spec] ~[model] or ~[model] come with a @[optional-spec]
+    im interested in the ~[model] or ~[model]
+    i like the ~[model] or ~[model]
+    @[optional-spec] ~[model] ~[has] more ~[size-spec] than a ~[model]
+    is there a @[make] with ~[relative-size] ~[size-spec] than the ~[model]
+    i was interested in the sorentos or sportages
 
-%[compare#size]('training': '50')
-    Ich suche ein geräumiges Auto. Empfehlen Sie ~[cars] or ~[cars]
+%[compare.trims]('training': '50', 'distribution': 'even')
+    want to know what the difference is in the different ~[trims]
+    ~[what] ~[difference] the different types of ~[model]
+    ~[what] ~[difference] @[model-trim] @[model-trim] and @[model-trim]
+    ~[what] ~[difference] the @[model-trim] and @[model-trim]
+    ~[what] ~[difference] in the ~[trims]
+    ~[what-which] ~[model] ~[has] more features? the @[model-trim] or @[model-trim]
+    i want to know the difference between @[model-trim] and @[model-trim]
+    i was just wondering if a 7 passenger sorento is bigger than the 5 passenger sorento
 
-%[compare#power]('training': '50')
-    Ich möchte ein Auto mit viel PS. Ich ziehe ~[cars] und ~[cars] in Erwägung.
+%[compare.yoy]('training': '50','distribution': 'even')
+    ~[declaritive] in a ~[model-year] ~[model]. Can you tell me the difference between the ~[model-year] and ~[model-year]?
+    ~[what] ~[price-spec] difference in a ~[model-year] and a ~[model-year] ~[model]
+    any changes between the kia niro plugin ex from 2018 versus kia niro plugin ex 2019
+    any changes for the optima in 2020 model year
+
+//ways users refer to trims
+~[trims]
+    trims
+    models
+    types of @[model]
+
+//dont add 'different'
+~[difference]
+    difference between
+    difference in
+    difference of
+    the difference between
+    the difference in
+    the difference of

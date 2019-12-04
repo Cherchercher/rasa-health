@@ -1,0 +1,55 @@
+import ../common.chatito
+
+%[inventory]('training': '300', 'distribution': 'even')
+    Wo kann ich den MODELL finden?
+    Wie verfügbar ist der MODELL?
+    Wo ist der MODELL erhaltbar?
+    I möchte die SX Ausführung mit Drehsitzen in der zweiten Reihe
+
+    ~[searching] ~[model]
+    ~[greeting] ~[searching] @[model-trim]
+    ~[i] want @[model-trim]
+    i want to buy ~[model]
+    i want to buy a @[make] ~[each-fuel-car]
+    i want to buy a ~[car-general]
+    do you have ~[model] in stock
+    *[20%] would you be able to tell me the local inventory for the area surrounding zip @[zipcode] that would offer the @[specs] in the ~[model]
+    ~[dealer] near me with ~[model]
+    is there a ~[model] in inventory in ~[location-region]
+    looking for @[make] inventory
+    i want to look at the telluride ~[model]
+    i want to look at the ~[model] where can i go see it
+    i would like to take another look at inventory for ~[model]
+    how can i find a ~[model] to ~[buy]
+    where can i go look at the ~[model] in ~[state-location]
+    i know what i want but no ~[dealer] has it
+    new car inventory
+    search inventory
+    ~[model] where can i look at this car in ~[city-location]
+    where can i look at ~[model] in ~[city-location]
+    i want to see ~[model] inventory with prices
+    i want to see the ~[model] where can i see it
+    how do i view there inventory
+    ~[model] inventory
+    i want to find a ~[model] near me
+    i want to get a ~[model]
+
+%[inventory.spec]('training': '200', 'distribution': 'even')
+    ~[searching] an ~[model] preferably ~[ext-color] with ~[int-color] interior and @[specs]
+    ~[searching] for inventory for a ~[model] with @[specs]
+    ~[dealer] inventory ~[model] ~[ext-color] ~[int-color] near zip code @[zipcode]
+    ~[indicator] ~[model-ent] at [dealer name]
+
+%[inventory.cantFind]('training': '10', 'distribution': 'even')
+    i want to buy a ~[model] but no dealers ever have one in stock
+
+//variations for inventory intent only
+~[dealer]
+    dealer
+    dealership
+    dealers
+    dealerships
+
+~[buy]
+    buy
+    purchase

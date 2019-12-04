@@ -1,1 +1,38 @@
 //attributes or classes
+@[seater]
+    ~[2 seater]
+    ~[4 seater]
+    ~[5 seater]
+    ~[6 seater]
+    ~[7 seater]
+    ~[8 seater]
+
+~[2 seater]('synonym': 'true')
+    2-Sitzer
+    zwei Passagier
+    zwei Sitzer
+
+~[4 seater]('synonym': 'true')
+    4-Sitzer
+    vier Passagier
+    vier Sitzer
+
+~[5 seater]('synonym': 'true')
+    5-Sitzer
+    fünf Passagier
+    fünf Sitzer
+
+~[6 seater]('synonym': 'true')
+    6-Sitzer
+    sechs Passagier
+    sechs Sitzer
+
+~[7 seater]('synonym': 'true')
+    7-Sitzer
+    sieben Passagier
+    sieben Sitzer
+
+~[8 seater]('synonym': 'true')
+    8-Sitzer
+    acht Passagier
+    acht Sitzer
