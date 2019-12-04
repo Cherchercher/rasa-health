@@ -1,7 +1,6 @@
 import ../common.chatito
 import ../entities/attributes.chatito
 import ../entities/trim-levels.chatito
-import ../entities/fuel-type.chatito
 
 //this intent is to get a definite value for a specification
 //requesting the spec's value by matching the specs name or synonym
@@ -21,7 +20,7 @@ import ../entities/fuel-type.chatito
     ~[what] the ~[measure-spec] of the ~[model]
 
 %[request.spec.count]('training': '50', 'distribution': 'even')
-    ~[quantify] ~[count-spec] @[optional-spec] @[make] @[model-trim] ~[posseses]
+    ~[quantify] ~[count-spec] ~[optional-spec] @[make] @[model-trim] ~[have]
 
 %[request.spec.range]('training': '100', 'distribution': 'even')
     how far can it go on the battery
@@ -51,7 +50,7 @@ import ../entities/fuel-type.chatito
 
 %[request.spec.colors]('training': '50', 'distribution': 'even')
     can i get the @[model] in @[color]
-    @[optional-spec] @[model] come in @[color]
+    ~[optional-spec] @[model] come in @[color]
 
 ~[of/for]
     of
