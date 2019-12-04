@@ -1,16 +1,16 @@
 //trim levels
-@[top trim]
+~[top trim]('synonym':'true')
     top of the line
     loaded
     fully loaded
     all the features
 
-@[sport trim]
+~[sport trim]('synonym':'true')
     sport model
     sport cut
     sport trim
 
-@[base trim]
+~[base trim]('synonym':'true')
     base
     base trim
     base model
@@ -18,7 +18,7 @@
     cheapest
     basic
 
-~[trim-level]
-    @[top trim]
-    @[sport trim]
-    @[base trim]
+@[trim-level]
+    ~[top trim]
+    ~[sport trim]
+    ~[base trim]
