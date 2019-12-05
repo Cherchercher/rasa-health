@@ -22,6 +22,9 @@ import ../entities/specs.prices.chatito
     
 //if model is in user state, this should trigger reqeust.price
 %[request.price#stateful]('training': '200', 'distribution': 'even')
+    what is the price
+    what is the cost
+    what is the best price
     how much is it
     how much does it cost
     how much would it cost

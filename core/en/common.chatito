@@ -17,6 +17,8 @@ import ./entities/color.chatito
 //aliases:
 ~[model]
     @[model]
+    @[model]
+    @[model-trim]
     @[model-trim]
     @[model-year] @[model]
     @[model-year] @[model-trim]
@@ -26,6 +28,13 @@ import ./entities/color.chatito
     @[model]
     @[model-trim]
 
+~[model pre-empt]
+    ~[i-am] interested in
+    i have a question about
+    i would like to know about
+    i want to know about
+    ~[i-am] looking at
+    
 ~[car]
     model
     car
@@ -69,6 +78,10 @@ import ./entities/color.chatito
     ~[i?] wondering
     ~[i?] interested in
     ~[i] would like to know
+
+~[i-am]
+    im
+    i am
 
 ~[i]
     i

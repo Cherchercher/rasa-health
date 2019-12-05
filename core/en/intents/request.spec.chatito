@@ -14,7 +14,8 @@ import ../entities/trim-levels.chatito
     how high off the ground is the ~[model]
     how far from ground to entry is it
     how far off the road is ~[model]
-    what is the ~[0-60 mph] on the ~[model]
+    what is the ~[towing capacity] on ~[a-the-an?] @[model]
+    what is the ~[0-60 mph] on ~[a-the-an?] @[model]
     what is the ~[top speed] for ~[model] model
     ~[what] the ~[measure-spec]
     ~[what] the ~[measure-spec] of the ~[model]

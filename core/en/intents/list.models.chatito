@@ -29,6 +29,13 @@ import ../entities/specs.wheels.chatito
     looking for ~[model] with ~[safety-spec] ~[safety-spec] ~[optional-spec] ~[optional-spec]
     i am trying to find a car with ~[optional-spec]
 
+%[list.models.price]('training': '10', 'distribution': 'even')
+    what is your cheapest car
+    what is your cheapest @[bodystyle]
+
+%[list.models.best]('training': '10', 'distribution': 'even')
+    what is the best kia
+
 //specified by propulsion
 %[list.models.fueltype]('training': '25', 'distribution': 'even')
     ~[searching] for ~[each-fuel-car] only
@@ -75,6 +82,8 @@ import ../entities/specs.wheels.chatito
     any @[seater] vehicles
     any @[seater] @[bodystyle]
     any @[seater] car has ~[optional-spec]
+
+    
 
 ~[a/the]
     a

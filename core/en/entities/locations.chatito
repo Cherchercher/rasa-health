@@ -9,6 +9,8 @@
 //locations
 @[location]
     ~[US state]
+    ~[US city]
+    ~[area]
 
 //synonyms
 ~[US state]('synonym':'true')
@@ -25,6 +27,7 @@
     Montana
     New Jersey
     New York
+    ~[region] ~[state]
 
 ~[US city]('synonym':'true')
     New York
@@ -70,6 +73,12 @@
     Raleigh
     Omaha
 
+~[area]('synonyms':'true')
+    ~[~region] ~[state]
+    ~[city] area
+    ~[~region] ~[state] area
+
+//aliases
 ~[state]
     Alaska
     California
@@ -85,7 +94,8 @@
     New Jersey
     New York
 
-~[region fragment]
+
+~[region]
     north
     south
     east
@@ -101,9 +111,7 @@
     northern
     southern
 
-~[relative location]
-    @[US state]
-    ~[region fragment] @[US state]
-    ~[region fragment] @[US state] area
-    @[US city]
-    @[zipcode]
+~[area]('synonyms':'true')
+    ~[~region] ~[state]
+    ~[city] area
+    ~[~region] ~[state] area
