@@ -67,6 +67,10 @@
 ~[sorento]('synonym':'true')
     sorento
 
+~[sedona]('synonym':'true')
+    sedona
+    Sedona
+
 ~[sportage]('synonym':'true')
     sportage
 
@@ -90,6 +94,7 @@
     ~[rio]
     ~[rio 5-door]
     ~[stinger]
+    ~[sedona]
     ~[sorento]
     ~[telluride]
 
