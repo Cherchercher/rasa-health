@@ -1,29 +1,41 @@
 import ../common.chatito
+import ../entities/specs.prices.chatito
 
 %[request.price]('training': '200', 'distribution': 'even')
-    what is the price
-    what is the price of the @[model]
-    what is the price of the ~[model]
-    ~[declaritive] in the ~[model], what is the ~[price-spec]?
-    ~[quantify-price] ~[model]
-    ~[price-spec] for ~[model]
-    ~[what-which] ~[price-spec] for the ~[model]
-    ~[what-which] ~[price-spec]
+    *[2.5%] how much is the @[model]
+    *[2.5%] how much is the ~[model]
+    *[5] ~[quantify-price] ~[model]
+    what is the @[specs.price] of ~[model]
+    what is the ~[base price] of @[model]
+    interested in the @[model] what is the @[specs.price]
+    @[specs.prices] for ~[model]
+    ~[base price] for @[model]
     ~[price-spec] for ~[model]
     ~[model] ~[price-spec]
     what is the ~[price-spec] ~[a-an-the?] @[model]
     what is the ~[price-spec] for ~[a-an-the?] ~[each-fuel-car] @[model]
     what is the ~[price-spec] for ~[a-an-the?] new @[model]
     what is the ~[price-spec] ~[driven-wheel] ~[car]
+    ~[model pre-empt] how much is it
+    ~[model pre-empt] how much would it be
+    ~[model pre-empt] what is the ~[base price]
+    
+//if model is in user state, this should trigger reqeust.price
+%[request.price#stateful]('training': '200', 'distribution': 'even')
+    how much is it
+    how much does it cost
+    how much would it cost
+    ~[what/s] the ~[price]
+    what is the @[spec.price]
 
-~[quantify-price]
+//aliases
+~[how much]
     how much is the
     how much for a
     how much for the
-    how much is this
     how much is the
-    how much would the
-    how much ~[optional-spec]
+
+~[how expensive]
     how expensive is the
     how expensive for a
     how expensive for the

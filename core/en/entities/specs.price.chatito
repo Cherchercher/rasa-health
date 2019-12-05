@@ -3,9 +3,9 @@
 //slot(s)
 @[specs.price]
     ~[invoice price]
-    ~[msrp]
+    *[50]~[msrp]
     ~[delivery fee]
-    ~[base price]
+    *[30]~[base price]
 
 //synonyms: price
 ~[base price]('synonym':'true')
