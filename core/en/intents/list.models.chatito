@@ -18,13 +18,14 @@ import ../entities/attributes.chatito
     i am trying to find a car with ~[optional-spec]
 
 //specified by propulsion
-%[list.models.fueltype]('training': '200', 'distribution': 'even')
+%[list.models.fueltype]('training': '300', 'distribution': 'even')
     ~[searching] for @[fuel-type] only
-    show me @[fuel-type] car
-    any @[fuel-type] car
-    does @[make] make any @[fuel-type] car
-    i am in the market for an @[fuel-type] car
-    any models that are @[fuel-type]
+    show me @[fuel-type] ~[car/s]
+    any @[fuel-type] ~[car/s]
+    does @[make] make any @[fuel-type] ~[car/s]
+    i am in the market for an @[fuel-type] ~[car/s]
+    what @[fuel-type] ~[car/s] does the @[make] make
+    any ~[car/s] that are @[fuel-type]
 
 //ways people ask about unspecified models by 'sizey' words which may describe the model itself or by a model containing a 'size-spec'
 %[list.models.size]('training': '100', 'distribution': 'even')

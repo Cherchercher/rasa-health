@@ -26,8 +26,8 @@ import ../entities/locations.chatito
     any @[fuel-type] coming to us market
     any idea when the @[model] will start showing up in ~[relative-location] dealerships
     any idea when the @[model] is launching
-    is the @[model] ~[each-fuel-car?] available now
-    is the @[model] ~[each-fuel-car?] available yet
+    is the @[model] @[fuel-type] available now
+    is the @[model] @[fuel-type] available yet
 
 //===intent notes
 //users are generally asking if an upcoming model is released yet or when it will be.
