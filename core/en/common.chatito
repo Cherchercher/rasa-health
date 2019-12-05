@@ -91,6 +91,8 @@ import ./entities/specs.wheels.chatito
 ~[have-has]
     ~[have]
     ~[has]
+    gets
+    got
 
 ~[what]
     what
@@ -161,7 +163,7 @@ import ./entities/specs.wheels.chatito
     *[5%] ~[wireless phone charger]
     *[5%] ~[LED light]
     *[5%] ~[driven wheels]
-    *[5%] ~[sunroof]
+    *[10%] ~[sunroof]
     *[5%] ~[horsepower]
     ~[front a/c]
     ~[front a/c zones]
