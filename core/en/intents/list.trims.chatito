@@ -4,9 +4,11 @@ import ../entities/trim-levels.chatito
 //this intent is to find model trims that
 //seeks [trims Y] with [specified entity value X]
 //generally want to know more about a trim
-%[list.trims]('training': '200', 'distribution': 'even')
+%[list.trims]('training': '250', 'distribution': 'even')
     @[model]
     ~[declaritive] @[model]
+    tell me ~[more?] about the @[make] ~[model]
+    tell me ~[more?] about the ~[model]
     i would like to know more about the ~[model]
     how many trims are there for @[model]
     i was interested in the @[model] but the ~[trim-ext] version

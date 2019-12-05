@@ -29,7 +29,8 @@
     automatic climate control
     automatic ~[air conditioning]
 
-~[air conditioning]
+~[air conditioning]('synonym':'true')
+    air condition
     air conditioning
     a/c
     ac
