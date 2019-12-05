@@ -71,7 +71,6 @@ Test the model at the root of project directory `sh ./tests/en/test.sh`. Wrong c
 ### Enlish NLU Notes
 
 Intents
-    
     -availablity
     -compare
     -find.dealers
@@ -81,3 +80,5 @@ Intents
     -request.price
     -request.spec
     -whatis.spec
+
+### notes on specs

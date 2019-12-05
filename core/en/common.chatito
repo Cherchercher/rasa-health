@@ -8,6 +8,13 @@ import ./entities/trims.chatito
 import ./entities/spec-values.chatito
 import ./entities/color.chatito
 
+//who, what, why, when, where, which, how
+//do, did, does
+//can, could, should, would, may, must, shall
+//is, was, will, am, are, were
+//have, has, had
+
+//aliases:
 ~[model]
     @[model]
     @[model-trim]
@@ -36,6 +43,7 @@ import ./entities/color.chatito
     ~[cars]
 
 ~[future-model]
+    *[33%]@[future model]
     ~[model year-future] @[model]
     the new @[model]
 

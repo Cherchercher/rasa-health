@@ -6,7 +6,12 @@
     54405
     76621
 
-@[US state]
+//locations
+@[location]
+    ~[US state]
+
+//synonyms
+~[US state]('synonym':'true')
     Alaska
     California
     Colorado
@@ -21,7 +26,7 @@
     New Jersey
     New York
 
-@[US city]
+~[US city]('synonym':'true')
     New York
     Los Angeles
     Chicago
@@ -64,6 +69,21 @@
     Miami
     Raleigh
     Omaha
+
+~[state]
+    Alaska
+    California
+    Colorado
+    Connecticut
+    Hawaii
+    Illinois
+    Maryland
+    Massachusetts
+    Michigan
+    Minnesota
+    Montana
+    New Jersey
+    New York
 
 ~[region fragment]
     north

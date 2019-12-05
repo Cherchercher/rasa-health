@@ -1,4 +1,21 @@
 //ambiguous models 
+@[model]
+    ~[cadenza]
+    ~[forte]
+    ~[k900]
+    ~[niro]
+    ~[niro ev]
+    ~[niro plug-in hybrid]
+    ~[optima]
+    ~[optima hybrid]
+    ~[optima plug-in hybrid]
+    ~[rio]
+    ~[rio 5-door]
+    ~[stinger]
+    ~[sorento]
+    ~[telluride]
+
+//synonyms: models
 ~[cadenza]('synonym':'true')
     cadenza
     cadenzas
@@ -76,22 +93,15 @@
 ~[telluride]('synonym':'true')
     telluride
 
-//model without a specified trim
-@[model]
-    ~[cadenza]
-    ~[forte]
-    ~[k900]
-    ~[niro]
-    ~[niro ev]
-    ~[niro plug-in hybrid]
-    ~[optima]
-    ~[optima hybrid]
-    ~[optima plug-in hybrid]
-    ~[rio]
-    ~[rio 5-door]
-    ~[stinger]
-    ~[sorento]
-    ~[telluride]
+@[future model]
+    ~[seltos]
+
+~[seltos]('synonym':'true')
+    seltos
+    Seltos
+    selto
+    celtos
+    sell toes
 
 //trim specific models
 ~[Cadenza Limited]('synonym':'true')
