@@ -13,30 +13,3 @@ import ../entities/trim-levels.chatito
     Ich möchte Information über den @[model]
     Ich interessiere mich für den @[model]
     Ich suche einen neün @[model-trim]
-
-@[model-trim]
-    Optima Plug als Hybrid Version
-
-@[specs]
-    ~[roof]
-    ~[leather seats]
-    ~[adjustable seats]
-    ~[powerdoor]
-
-~[liftgate]
-    Heckklappe
-
-~[powerdoor]
-    Zentralverriegelung inklusive
-
-~[adjustable seats]
-    elektrische Sitze
-
-~[roof]
-    Glas Schiebedach
-    Schiebedach
-
-~[leather seats]
-    Ledersitzen bekommen
-    Ledersitze
-    Leder

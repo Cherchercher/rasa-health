@@ -43,6 +43,7 @@
     ~[hybrid] optima
 
 ~[optima plug-in hybrid]('synonym':'true')
+    Optima Plug als Hybrid Version
     optima plug-in hybrid
     optima ~[phev]
     ~[phev] optima
@@ -230,6 +231,18 @@
     Stinger GTS AWD
 ~[Stinger GTS RWD]('synonym':'true')
     Stinger GTS RWD
+~[Stinger GT]('synonym':'true')
+    Stinger GT
+    GT Stinger
+~[Stinger GT1]('synonym':'true')
+    Stinger GT1
+    GT1 Stinger
+~[Stinger GT2]('synonym':'true')
+    Stinger GT2
+    GT2 Stinger
+~[Stinger GTS]('synonym':'true')
+    Stinger GTS
+    GTS Stinger
 ~[Stinger Premium AWD]('synonym':'true')
     Stinger Premium AWD
 ~[Stinger Premium RWD]('synonym':'true')
@@ -322,6 +335,10 @@
     ~[Stinger GT2 RWD]
     ~[Stinger GTS AWD]
     ~[Stinger GTS RWD]
+    ~[Stinger GT]
+    ~[Stinger GT1]
+    ~[Stinger GT2]
+    ~[Stinger GTS]
     ~[Stinger Premium AWD]
     ~[Stinger Premium RWD]
     ~[Stinger RWD]

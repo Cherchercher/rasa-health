@@ -51,32 +51,3 @@ import ../entities/attributes.chatito
 
 //need some phrases for optional specs
 //need some phrases for propulsion/fueltype
-~[a/the]
-    a
-    an
-    the
-
-~[best]
-    schnellste
-    sicherste
-    billigste
-
-~[num-msrp]
-    10k
-    10000
-    11k
-    11000
-    12k
-    12000
-    18k
-    18000
-    19k
-    19000
-    25k
-    25000
-    29k
-    29000
-    33k
-    33000
-    35k
-    35000

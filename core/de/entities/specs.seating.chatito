@@ -125,11 +125,6 @@
     ~[second row] bucket seats
     reclining ~[second row]
 
-~[leather seats]('synonym':'true')
-    leather seats
-    nappa leather seats
-    leather
-
 ~[front head room]('synonym':'true')
     front ~[head room]
     ~[head room]
@@ -196,19 +191,14 @@
 
 //row count
 ~[row]
-    row
-    rows
-    row seats
-    row seat
-    row of seats
-    rows of seats
+    Reihe
 
 ~[first row]
     first ~[row]
     1st ~[row]
 
 ~[second row]
-    second ~[row]
+    zweiten ~[row]
     2nd ~[row]
 
 ~[third row]
@@ -229,11 +219,13 @@
 
 //seating climate
 ~[heated seats]
+    beheizbare Sitze
     heated seats
     seat warmers
     butt warmers
 
 ~[cooled seats]
+    gekühlte Vordersitze
     cooled seats
     cooling seats
     a/c seats
@@ -248,7 +240,8 @@
     leg room
     legroom
 
-~[seating-specs]
+@[specs.seats]
+    Drehsitzen
     ~[total seat count]
     ~[1st Row Seating Count]
     ~[2nd Row Seating Count]

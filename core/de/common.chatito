@@ -150,8 +150,42 @@ import ./entities/locations.chatito
     good afternoon
     hi there
 
-//define specs from specs.chatito
+
 @[specs]
+    ~[roof]
+    ~[leather seats]
+    ~[adjustable seats]
+    ~[powerdoor]
+    ~[mirrors]
+    ~[ventilated seats]
+
+~[ventilated seats]
+    gelüftete Vordersitze
+    gelüftete Sitze
+
+~[mirrors]
+    Spiegeln
+
+~[liftgate]
+    Heckklappe
+
+~[powerdoor]
+    Zentralverriegelung inklusive
+
+~[adjustable seats]
+    elektrische Sitze
+
+~[roof]
+    Glas Schiebedach
+    Schiebedach
+
+~[leather seats]
+    Ledersitzen bekommen
+    Ledersitze
+    Leder
+
+//define specs from specs.chatito
+@[specs-english]
     ~[front a/c]
     ~[front a/c zones]
     ~[rear a/c]
@@ -483,3 +517,12 @@ import ./entities/locations.chatito
 ~[numval-spec]
     ~[0-60 mph]
     ~[top speec]
+
+~[trim-levels]
+    L
+    LX
+    EX
+    SX
+    SXL
+    S
+    FE

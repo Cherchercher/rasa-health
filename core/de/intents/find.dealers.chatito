@@ -1,21 +1,8 @@
 import ../common.chatito
 
 %[find.dealers]('training': '100', 'distribution': 'even')
-    i need a dealer in ~[relative location] to test drive the ~[model]
-    do you have a dealer in ~[relative location]
-    where is the nearest @[make] dealership
-    can you send me my nearest dealer
-    where is a dealer near ~[relative location]
-    want to find nearest dealer to me
-    where can i find a dealership
-    dealer in ~[relative location]
-    where can i test drive in ~[relative location]
-    nearest @[make] dealership
-    dealers near me
-    is there a @[make] dealership in ~[relative location]
-    @[make] dealers near me
-    how can I get @[make] dealership in ~[relative location]
-    want to know dealers in ~[relative location]
-    @[make] dealers open on Sunday near me
-    dealership for @[make]
-    i am in ~[relative location] and want to know closest location i can purchase from
+    Gibt es einen Händler in ~[relative location]?
+    Kannst du mir den senden wo der nächste Händler ist?
+    Kannst du mir zeigen wo der nächste Händler ist?
+    Händler in meiner Nähe mit dem ~[model]?
+    Händler in meiner Nähe mit dem ~[model]?

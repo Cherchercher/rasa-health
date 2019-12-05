@@ -29,6 +29,7 @@
     accident
 
 ~[blind spot detection]('synonym':'true')
+    toten Winkel
     blind spot ~[detection]
     blind spot ~[collision] ~[alert]
     blind spot ~[collision] avoidance
@@ -167,13 +168,7 @@
     crosstraffic
 
 ~[alert]
-    alert
-    warning
-    alert system
-    warning system
-    alarm
-    alarm system
-    device
+    Warnungssystem 
 
 ~[assist]
     assist
