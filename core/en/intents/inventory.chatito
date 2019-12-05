@@ -1,4 +1,16 @@
 import ../common.chatito
+import ../entities/specs.cargo.chatito
+import ../entities/specs.drivetrain.chatito
+import ../entities/specs.exterior.chatito
+import ../entities/specs.fuelconsumption.chatito
+import ../entities/specs.infotainment.chatito
+import ../entities/specs.interior.chatito
+import ../entities/specs.lights.chatito
+import ../entities/specs.price.chatito
+import ../entities/specs.safety.chatito
+import ../entities/specs.seating.chatito
+import ../entities/specs.steeringwheel.chatito
+import ../entities/specs.wheels.chatito
 import ../entities/locations.chatito
 
 %[inventory]('training': '300', 'distribution': 'even')
@@ -9,7 +21,7 @@ import ../entities/locations.chatito
     i want to buy a @[make] ~[each-fuel-car]
     i want to buy a ~[car-general]
     do you have ~[model] in stock
-    *[20%] would you be able to tell me the local inventory for the area surrounding zip @[zipcode] that would offer the @[specs] in the ~[model]
+    *[20%] would you be able to tell me the local inventory for the area surrounding zip @[zipcode] that would offer the @[specs.safety] in the ~[model]
     ~[dealer] near me with ~[model]
     is there a ~[model] in inventory in ~[location-region]
     looking for @[make] inventory
@@ -31,8 +43,8 @@ import ../entities/locations.chatito
     i want to get a ~[model]
 
 %[inventory.spec]('training': '200', 'distribution': 'even')
-    ~[searching] an ~[model] preferably ~[ext-color] with ~[int-color] interior and @[specs]
-    ~[searching] for inventory for a ~[model] with @[specs]
+    ~[searching] an ~[model] preferably ~[ext-color] with ~[int-color] interior and @[specs.safety]
+    ~[searching] for inventory for a ~[model] with @[specs.seating]
     ~[dealer] inventory ~[model] ~[ext-color] ~[int-color] near zip code @[zipcode]
     ~[indicator] ~[model-ent] at [dealer name]
 

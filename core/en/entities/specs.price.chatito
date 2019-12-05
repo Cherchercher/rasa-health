@@ -1,3 +1,24 @@
+//Brain Category: Price
+
+//slot(s)
+@[specs.price]
+    ~[invoice price]
+    ~[msrp]
+    ~[delivery fee]
+    ~[base price]
+
+//synonyms: price
+~[base price]('synonym':'true')
+    base price
+    starting price
+    lowest price
+
+~[delivery fee]('synonym':'true')
+    delivery fee
+    cost of delivery
+    delivery cost
+    fees
+
 ~[invoice price]('synonym':'true')
     invoice price
     invoice cost
@@ -18,24 +39,9 @@
     suggested retail price
     manufacturer price
 
-~[delivery fee]('synonym':'true')
-    delivery fee
-    cost of delivery
-    delivery cost
-    fees
-
-~[base price]('synonym':'true')
-    base price
-    starting price
-    lowest price
+//aliases
 
 ~[price-spec]
-    ~[invoice price]
-    ~[msrp]
-    ~[delivery fee]
-    ~[base price]
-
-@[specs.price]
     ~[invoice price]
     ~[msrp]
     ~[delivery fee]

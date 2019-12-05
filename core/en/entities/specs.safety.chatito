@@ -1,3 +1,108 @@
+//Brain Category(ies) Air Bags, Brakes, Safety
+
+//slot(s)
+@[specs.airbags]
+    ~[airbag]
+    ~[side airbags]
+    ~[passenger airbags]
+    ~[driver airbags]
+    ~[passenger airbags deactivation]
+    ~[side airbags curtain]
+    ~[airbag rollover sensor]
+
+@[specs.brakes]
+    ~[abs]
+    ~[brake assist]
+    ~[front brake type]
+    ~[rear brake type]
+
+@[specs.safety]
+    ~[adaptive cruise control]
+    ~[anti-theft alarm system]
+    ~[automatic emergency braking]
+    ~[blind spot detection]
+    ~[child proof door locks]
+    ~[collision avoidance]
+    ~[cruise control]
+    ~[exterior view camera]
+    ~[forward collision warning]
+    ~[hill start assist]
+    ~[lane change assist]
+    ~[lane departure warning]
+    ~[parking assist description]
+    ~[rear cross traffic alert]
+    ~[surround view monitor]
+
+//synonyms: airbags
+~[airbag]('synonym':'true')
+    ~[airbag/s]
+
+~[airbag rollover sensor]('synonym':'true')
+    ~[airbag/s] rollover sensor
+
+~[side airbags]('synonym':'true')
+    side ~[airbag/s]
+
+~[driver airbags]('synonym':'true')
+    driver ~[airbag/s]
+
+~[passenger airbags]('synonym':'true')
+    passenger ~[airbag/s]
+
+~[passenger airbags deactivation]('synonym':'true')
+    passenger ~[airbag/s] deactivation
+
+~[side airbags curtain]('synonym':'true')
+    side ~[airbag/s] curtain
+
+//synonyms: brakes
+~[abs]('synonym':'true')
+    abs ~[brakes]
+
+~[brake assist]('synonym':'true')
+    ~[brakes] ~[assist]
+    ~[auto] ~[brakes]
+    ~[auto] ~[brakes] ~[assist]
+
+~[front brake type]('synonym':'true')
+    front brake type
+
+~[rear brake type]('synonym':'true')
+    rear brake type
+
+//synonyms: safety
+~[adaptive cruise control]('synonym':'true')
+    adaptive ~[cruise-control]
+    ~[cruise-control] following assist
+    automatic ~[cruise-control]
+    smart ~[cruise-control]
+    radar ~[cruise-control]
+
+~[anti-theft alarm system]('synonym':'true')
+    ~[anti-theft] system
+    ~[anti-theft] device
+    ~[anti-theft] alarm system
+    ~[anti-theft] ~[alert]
+    ~[anti-theft] tracking
+
+~[automatic emergency braking]('synonym':'true')
+    ~[auto] emergency ~[brake]
+    ~[auto] ~[brake]
+    ~[auto] ~[brake] ~[assist]
+    stop automatically
+    aeb
+
+~[blind spot detection]('synonym':'true')
+    blind spot ~[detection]
+    blind spot ~[collision] ~[alert]
+    blind spot ~[collision] avoidance
+    blind spot ~[alert]
+
+~[child proof door locks]('synonym':'true')
+    child proof door locks
+    child locks
+    child safety locks
+
 ~[collision avoidance]('synonym':'true')
     ~[collision] avoidance
     ~[collision] ~[assist]
@@ -7,49 +112,24 @@
     forward ~[collision] ~[brake]
     anti ~[collision]
 
-~[brake]
-    brakes
-    breaks
-    braking
-    breaking
+~[cruise control]('synonym':'true')
+    ~[cruise-control]
 
-~[automatic emergency braking]('synonym':'true')
-    ~[auto] emergency ~[brake]
-    ~[auto] ~[brake]
-    ~[auto] ~[brake] ~[assist]
-    stop automatically
-    aeb
-
-~[auto]
-    auto
-    automatic
-
-~[collision]
-    collision
-    accident
-
-~[blind spot detection]('synonym':'true')
-    blind spot ~[detection]
-    blind spot ~[collision] ~[alert]
-    blind spot ~[collision] avoidance
-    blind spot ~[alert]
-
-~[detection]
-    detection
-    monitoring
-    monitor
-
-~[rear cross traffic alert]('synonym':'true')
-    rear ~[cross-traffic] ~[alert] ~[system?]
-    rear ~[cross-traffic] ~[collision] ~[alert]
-    RCCW
-    rccw
+~[exterior view camera]('synonym':'true')
+    exterior view camera
+    camera
+    backup camera
 
 ~[forward collision warning]('synonym':'true')
     forward ~[collision] warning
     forward ~[collision] ~[alert]
     ~[collision] ~[alert]
     FCW
+
+~[hill start assist]('synonym':'true')
+    hill start assist
+    hill assist
+    hill start
 
 ~[lane change assist]('synonym':'true')
     ~[lane-keep] ~[assist]
@@ -61,50 +141,6 @@
     lane departure ~[alert]
     ~[lane-keep] ~[alert]
 
-~[airbags]('synonym':'true')
-    ~[airbag]
-
-~[airbag]
-    airbag
-    air bag
-    airbags
-    air bags
-
-~[side airbags]('synonym':'true')
-    side ~[airbags]
-
-~[passenger airbags]('synonym':'true')
-    passenger ~[airbags]
-
-~[driver airbags]('synonym':'true')
-    driver ~[airbags]
-
-~[passenger airbags deactivation]('synonym':'true')
-    passenger ~[airbags] deactivation
-
-~[side airbags curtain]('synonym':'true')
-    side ~[airbags] curtain
-
-~[airbag rollover sensor]('synonym':'true')
-    ~[airbags] rollover sensor
-
-~[exterior view camera]('synonym':'true')
-    exterior view camera
-    camera
-    backup camera
-
-~[child proof door locks]('synonym':'true')
-    child proof door locks
-    child locks
-    child safety locks
-
-~[anti-theft alarm system]('synonym':'true')
-    ~[anti-theft] system
-    ~[anti-theft] device
-    ~[anti-theft] alarm system
-    ~[anti-theft] ~[alert]
-    ~[anti-theft] tracking
-
 ~[parking assist description]('synonym':'true')
     parking assist description
     ~[park] ~[assist]
@@ -112,9 +148,11 @@
     parking assistance
     ~[auto] ~[park] system
 
-~[park]
-    park
-    parking
+~[rear cross traffic alert]('synonym':'true')
+    rear ~[cross-traffic] ~[alert] ~[system?]
+    rear ~[cross-traffic] ~[collision] ~[alert]
+    RCCW
+    rccw
 
 ~[surround view monitor]('synonym':'true')
     360 monitor
@@ -128,43 +166,12 @@
     multi angle monitor
     multi angle display
 
-~[hill start assist]('synonym':'true')
-    hill start assist
-    hill assist
-    hill start
-
-~[brake assist]('synonym':'true')
-    ~[brake] ~[assist]
-    ~[auto] ~[brake]
-    ~[auto] ~[brake] ~[assist]
-
-~[anti-theft]
-    anti-theft
-    anti theft
-    antitheft
-
-~[airbag-spec]
-    ~[airbags]
-    ~[side airbags]
-    ~[passenger airbags]
-    ~[driver airbags]
-    ~[passenger airbags deactivation]
-    ~[side airbags curtain]
-    ~[airbag rollover sensor]
-
-~[assist-spec]
-    ~[parking assist description]
-    ~[hill start assist]
-    ~[brake assist]
-
-~[lane-keep]
-    lane change
-    lane keep
-
-~[cross-traffic]
-    cross traffic
-    cross-traffic
-    crosstraffic
+//aliases
+~[airbag/s]
+    airbag
+    air bag
+    airbags
+    air bags
 
 ~[alert]
     alert
@@ -175,10 +182,58 @@
     alarm system
     device
 
+~[anti-theft]
+    anti-theft
+    anti theft
+    antitheft
+
 ~[assist]
     assist
     assistance
     assistant
+
+~[auto]
+    auto
+    automatic
+
+~[brakes]
+    brakes
+    breaks
+    braking
+    breaking
+
+~[collision]
+    collision
+    accident
+
+~[cross-traffic]
+    cross traffic
+    cross-traffic
+    crosstraffic
+
+~[cruise-control]
+    cruise control
+    cruise
+
+~[detection]
+    detection
+    monitoring
+    monitor
+
+~[lane-keep]
+    lane change
+    lane keep
+
+~[park]
+    park
+    parking
+
+//spec groups
+~[assist-spec]
+    ~[parking assist description]
+    ~[hill start assist]
+    ~[brake assist]
+
 
 ~[safety-spec]
     ~[collision avoidance]

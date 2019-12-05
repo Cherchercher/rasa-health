@@ -1,5 +1,17 @@
-import ../common.chatito
 import ../entities/attributes.chatito
+import ../common.chatito
+import ../entities/specs.cargo.chatito
+import ../entities/specs.drivetrain.chatito
+import ../entities/specs.exterior.chatito
+import ../entities/specs.fuelconsumption.chatito
+import ../entities/specs.infotainment.chatito
+import ../entities/specs.interior.chatito
+import ../entities/specs.lights.chatito
+import ../entities/specs.price.chatito
+import ../entities/specs.safety.chatito
+import ../entities/specs.seating.chatito
+import ../entities/specs.steeringwheel.chatito
+import ../entities/specs.wheels.chatito
 
 //seeks [models Y] with [specified entity value X]
 %[list.models]('training': '200', 'distribution': 'even')
@@ -46,7 +58,7 @@ import ../entities/attributes.chatito
 %[list.models.indicator]('training': '50', 'distribution': 'even')
     ~[what-which] ~[model-type] have ~[indicator-spec]
     ~[what-which] models have ~[indicator-spec] or ~[indicator-spec]
-    ~[what-which] ~[car/s] ~[has-have] @[specs]
+    ~[what-which] ~[car/s] ~[has-have] @[specs.drivetrain]
     ~[indicator-spec] @[bodystyle]
     all wheel drive options
     all wheel drive ~[engine-value] not sure what model this would be

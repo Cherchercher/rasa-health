@@ -1,12 +1,26 @@
 import ../common.chatito
+import ../entities/specs.cargo.chatito
+import ../entities/specs.drivetrain.chatito
+import ../entities/specs.exterior.chatito
+import ../entities/specs.fuelconsumption.chatito
+import ../entities/specs.infotainment.chatito
+import ../entities/specs.interior.chatito
+import ../entities/specs.lights.chatito
+import ../entities/specs.price.chatito
+import ../entities/specs.safety.chatito
+import ../entities/specs.seating.chatito
+import ../entities/specs.steeringwheel.chatito
+import ../entities/specs.wheels.chatito
 import ../entities/trim-levels.chatito
 
 //this intent is to find model trims that
 //seeks [trims Y] with [specified entity value X]
 //generally want to know more about a trim
+
 %[list.trims]('training': '200', 'distribution': 'even')
     @[model]
     ~[declaritive] @[model]
+    ~[greeting?] i want to know about @[make?] @[model]
     i would like to know more about the ~[model]
     how many trims are there for @[model]
     i was interested in the @[model] but the ~[trim-ext] version
@@ -39,11 +53,11 @@ import ../entities/trim-levels.chatito
     ~[exist] ~[trim-level] @[model-trim] ~[have-has] ~[optional-spec]
     ~[does the] @[model-trim] ~[possess] ~[optional-spec]
     ~[is-are] ~[optional-spec] available ~[in-on] @[model-trim]
-    does the ~[model] ~[have] @[specs]
-    does it ~[have] @[specs]
+    does the ~[model] ~[have] @[specs.electronics]]
+    does it ~[have] @[specs.electronics]
     does it ~[have] ~[optional-spec]
     ~[declaritive?] can i get a ~[optional-spec] ~[in-on] ~[model]
-    I need a niro that has @[specs] @[specs] and ~[optional-spec] which model would get me that?
+    I need a niro that has @[specs.safety] @[specs.safety] and ~[optional-spec] which model would get me that?
     does the @[model] have ~[optional-spec] or ~[optional-spec] with ~[indicator-spec]
 
 %[list.trims.safety]('training': '50', 'distribution': 'even')
