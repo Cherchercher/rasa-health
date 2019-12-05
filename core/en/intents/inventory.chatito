@@ -30,11 +30,13 @@ import ../entities/locations.chatito
     i want to find a ~[model] near me
     i want to get a ~[model]
 
-%[inventory.spec]('training': '200', 'distribution': 'even')
+%[inventory.spec]('training': '250', 'distribution': 'even')
     ~[searching] an ~[model] preferably ~[ext-color] with ~[int-color] interior and @[specs]
     ~[searching] for inventory for a ~[model] with @[specs]
     ~[dealer] inventory ~[model] ~[ext-color] ~[int-color] near zip code @[zipcode]
     ~[indicator] ~[model-ent] at [dealer name]
+    which @[make] ~[have-has] @[specs] and @[specs]
+    which @[make] ~[have-has] @[specs], @[specs] and @[specs]
 
 %[inventory.cantFind]('training': '10', 'distribution': 'even')
     i want to buy a ~[model] but no dealers ever have one in stock
