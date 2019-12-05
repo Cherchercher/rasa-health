@@ -6,7 +6,7 @@ import ../entities/locations.chatito
     ~[greeting] ~[searching] @[model-trim]
     ~[i] want @[model-trim]
     i want to buy ~[model]
-    i want to buy a @[make] ~[each-fuel-car]
+    i want to buy a @[make] @[fuel-type]
     i want to buy a ~[car-general]
     do you have ~[model] in stock
     *[20%] would you be able to tell me the local inventory for the area surrounding zip @[zipcode] that would offer the @[specs] in the ~[model]

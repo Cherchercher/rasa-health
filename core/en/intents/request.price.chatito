@@ -12,7 +12,7 @@ import ../common.chatito
     ~[price-spec] for ~[model]
     ~[model] ~[price-spec]
     what is the ~[price-spec] ~[a-an-the?] @[model]
-    what is the ~[price-spec] for ~[a-an-the?] ~[each-fuel-car] @[model]
+    what is the ~[price-spec] for ~[a-an-the?] @[fuel-type] @[model]
     what is the ~[price-spec] for ~[a-an-the?] new @[model]
     what is the ~[price-spec] ~[driven-wheel] ~[car]
 

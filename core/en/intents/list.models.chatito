@@ -18,19 +18,23 @@ import ../entities/attributes.chatito
     i am trying to find a car with ~[optional-spec]
 
 //specified by propulsion
-%[list.models.fueltype]('training': '25', 'distribution': 'even')
-    ~[searching] for ~[each-fuel-car] only
-    i am in the market for an ~[each-fuel-car] car
+%[list.models.fueltype]('training': '200', 'distribution': 'even')
+    ~[searching] for @[fuel-type] only
+    show me @[fuel-type] car
+    any @[fuel-type] car
+    does @[make] make any @[fuel-type] car
+    i am in the market for an @[fuel-type] car
+    any models that are @[fuel-type]
 
 //ways people ask about unspecified models by 'sizey' words which may describe the model itself or by a model containing a 'size-spec'
-%[list.models.size]('training': '25', 'distribution': 'even')
+%[list.models.size]('training': '100', 'distribution': 'even')
     ~[what-which] ~[model-type] ~[has] the ~[definite-size] ~[size-spec]
     whats your ~[definite-size] ~[model-type] with ~[indicator-spec]
     whats your ~[definite-size] ~[model-type] with ~[optional-spec]
 
-%[list.models.bodystyle]('training': '100', 'distribution': 'even')
+%[list.models.bodystyle]('training': '150', 'distribution': 'even')
     i am interest in @[bodystyle]
-    i am interested in a ~[each-fuel-car] @[bodystyle]
+    i am interested in a @[fuel-type] @[bodystyle]
     does @[make] make ~[a] @[bodystyle]
     does @[make] sell @[bodystyle]
     does @[make] have @[bodystyle]

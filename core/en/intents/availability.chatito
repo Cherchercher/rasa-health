@@ -23,7 +23,7 @@ import ../entities/locations.chatito
     i want to know when the @[model] comes to dealerships
     ~[declaritive] the new @[model] when will you have them in stock
     any ~[future-model] available yet
-    any ~[each-fuel-car] coming to us market
+    any @[fuel-type] coming to us market
     any idea when the @[model] will start showing up in ~[relative-location] dealerships
     any idea when the @[model] is launching
     is the @[model] ~[each-fuel-car?] available now
