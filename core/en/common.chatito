@@ -5,7 +5,6 @@ import ./entities/bodystyle.chatito
 import ./entities/fuel-type.chatito
 import ./entities/makes.chatito
 import ./entities/trims.chatito
-import ./entities/spec-values.chatito
 import ./entities/color.chatito
 
 //who, what, why, when, where, which, how
@@ -14,27 +13,7 @@ import ./entities/color.chatito
 //is, was, will, am, are, were
 //have, has, had
 
-//aliases:
-~[model]
-    @[model]
-    @[model]
-    @[model-trim]
-    @[model-trim]
-    @[model-year] @[model]
-    @[model-year] @[model-trim]
-
-//model without model year - for controlling frequency of model-year appearing in training data
-~[model-nomy]
-    @[model]
-    @[model-trim]
-
-~[model pre-empt]
-    ~[i-am] interested in
-    i have a question about
-    i would like to know about
-    i want to know about
-    ~[i-am] looking at
-    
+//talking about cars aliases:
 ~[car]
     model
     car
@@ -56,6 +35,12 @@ import ./entities/color.chatito
     ~[model year-future] @[model]
     the new @[model]
 
+~[model]
+    @[model]
+    @[model-trim]
+    @[model-year] @[model]
+    @[model-year] @[model-trim]
+
 ~[model-type]
     kia
     kias
@@ -65,34 +50,71 @@ import ./entities/color.chatito
     cars
     @[bodystyle]
 
+//==model without model year - for controlling frequency of model-year appearing in training data
+~[model-nomy]
+    @[model]
+    @[model-trim]
+
+//==preamblings users say before getting to the point
+~[pre-empt model]
+    ~[i-am] interested in
+    i have a question about
+    i would like to know about
+    i want to know about
+    ~[i-am] looking at
+
+~[general pre-empt]
+    i have a question
+    i have a question about
+    i was wondering
+    i was interested in
+    i would like to know
+    ~[i-am] wondering
+    ~[i-am] interested in
+
+//greetings
+~[greeting]
+    ~[hello]
+    good morning
+    good afternoon
+    hi there
+
+~[hello]
+    hi
+    hey
+    hello
+    howdy
+    hola
+
+//articals, pronouns, and connectors
+
 ~[a-an-the]
     a
     an
     the
 
-~[declaritive]
-    ~[i?] have a question
-    ~[i?] have a question about
-    ~[i?] was wondering
-    ~[i?] was interested in
-    ~[i?] wondering
-    ~[i?] interested in
-    ~[i] would like to know
+~[exist]
+    are any
+    are there any
+    do any
+    do any of
+    is there
 
 ~[i-am]
     im
     i am
 
-~[i]
-    i
-    i am
-    im
+~[in-on]
+    in
+    on
 
-//"does it have"
-~[have]
-    have
-    come with
-    include
+~[for-of]
+    for
+    of
+
+~[for-in-of-on]
+    ~[in-on]
+    ~[for-of]
 
 //"a car that has"
 //"what car has"
@@ -100,6 +122,12 @@ import ./entities/color.chatito
     has
     includes
     comes with
+
+//"does it have"
+~[have]
+    have
+    come with
+    include
 
 ~[have-has]
     ~[have]
@@ -114,17 +142,6 @@ import ./entities/color.chatito
     what
     which is
 
-~[in-on]
-    in
-    on
-
-~[exist]
-    are any
-    are there any
-    do any
-    do any of
-    is there
-
 ~[searching]
     looking for
     trying to find
@@ -132,18 +149,13 @@ import ./entities/color.chatito
     I'm looking for
     im looking for
 
-~[hello]
-    hi
-    hey
-    hello
-    howdy
-    hola
-
-~[greeting]
-    ~[hello]
-    good morning
-    good afternoon
-    hi there
+//==sizey things
+~[definite-size]
+    largest
+    biggest
+    smallest
+    the most
+    the least
 
 ~[relative-size]
     more
@@ -151,10 +163,3 @@ import ./entities/color.chatito
     larger
     bigger
     smaller
-
-~[definite-size]
-    largest
-    biggest
-    smallest
-    the most
-    the least

@@ -12,6 +12,13 @@
     ~[US city]
     ~[area]
 
+@[country]
+    india
+    pakistan
+    canada
+    afghanistan
+    egypt
+
 //synonyms
 ~[US state]('synonym':'true')
     Alaska
@@ -110,8 +117,3 @@
     south east
     northern
     southern
-
-~[area]('synonyms':'true')
-    ~[~region] ~[state]
-    ~[city] area
-    ~[~region] ~[state] area

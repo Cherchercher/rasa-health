@@ -1,6 +1,5 @@
 import ../common.chatito
 import ../entities/attributes.chatito
-import ../entities/trim-levels.chatito
 import ../entities/fuel-type.chatito
 
 //this intent is to get a definite value for a specification

@@ -2,16 +2,18 @@
 
 //slot(s)
 @[specs.price]
-    ~[invoice price]
-    *[50]~[msrp]
-    ~[delivery fee]
-    *[30]~[base price]
+    *[2.5%]~[invoice price]
+    ~[msrp]
+    *[2.5%]~[delivery fee]
+    ~[base price]
 
 //synonyms: price
 ~[base price]('synonym':'true')
     base price
     starting price
     lowest price
+    basic model price
+    best you can do on
 
 ~[delivery fee]('synonym':'true')
     delivery fee
@@ -40,9 +42,3 @@
     manufacturer price
 
 //aliases
-
-~[price-spec]
-    ~[invoice price]
-    ~[msrp]
-    ~[delivery fee]
-    ~[base price]

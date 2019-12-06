@@ -1,4 +1,5 @@
 import ../common.chatito
+import ../entities/attributes.chatito
 import ../entities/specs.cargo.chatito
 import ../entities/specs.drivetrain.chatito
 import ../entities/specs.exterior.chatito
@@ -11,7 +12,6 @@ import ../entities/specs.safety.chatito
 import ../entities/specs.seating.chatito
 import ../entities/specs.steeringwheel.chatito
 import ../entities/specs.wheels.chatito
-import ../entities/trim-levels.chatito
 
 //this intent is to find model trims that
 //seeks [trims Y] with [specified entity value X]

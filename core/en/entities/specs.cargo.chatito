@@ -92,13 +92,14 @@
     under seat storage
 
 //synonyms: towing
-~[hitch]('synonym':'true')
+~[hitch#isincluded]('synonym':'true')
     hitch
     trailer tow hitch
     trailer hitch
 
-~[payload]('synonym':'true')
+~[payload#whatvalue]('synonym':'true')
     payload
+    the payload
 
 ~[trailer wiring]('synonym':'true')
     trailer wiring
@@ -106,16 +107,25 @@
 ~[trailer stability control]('synonym':'true')
     trailer stability control
 
-~[towing capacity]('synonym':'true')
+~[towing capacity#whatvalue]('synonym':'true')
     towing capacity
     tow
     tow capacity
-    tow package
-    towing package
     weight it can tow
+    maximum weight it can tow
     weight for towing
     tow wieght
+    tow limit
 
-~[tow hooks]('synonym':'true')
+~[towing capacity#isincluded]('synonym':'true')
+    tow package
+    towing package
+
+~[tow capacity#canit]('synonym':'true')
+    tow
+    pull a trailer
+
+~[tow hooks#isincluded]('synonym':'true')
     tow hooks
+
 //aliases

@@ -83,8 +83,6 @@ import ../entities/specs.wheels.chatito
     any @[seater] @[bodystyle]
     any @[seater] car has ~[optional-spec]
 
-    
-
 ~[a/the]
     a
     an

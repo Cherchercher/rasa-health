@@ -1,45 +1,49 @@
 import ../common.chatito
-import ../entities/specs.prices.chatito
+import ../entities/specs.price.chatito
+import ../entities/attributes.chatito
 
-%[request.price]('training': '200', 'distribution': 'even')
+%[request.price]('training': '400', 'distribution': 'even')
     *[2.5%] how much is the @[model]
     *[2.5%] how much is the ~[model]
-    *[5] ~[quantify-price] ~[model]
+    *[5%] ~[quantify] ~[model]
+    ~[how much] ~[model]
+    ~[quantify] new ~[model]
+    ~[model] @[specs.price]
+    @[specs.price] ~[for-of] ~[model]
+    @[specs.price] ~[for-of] ~[a-an-the] ~[model]
+    @[specs.price]
     what is the @[specs.price] of ~[model]
+    what is the @[specs.price] ~[for-in-of-on] ~[a-an-the] ~[model]
+    ~[pre-empt model] how much is it
+    ~[pre-empt model] how much would it be
+
+%[request.price#lowest]('training': '200', 'distribution': 'even')
     what is the ~[base price] of @[model]
-    interested in the @[model] what is the @[specs.price]
-    @[specs.prices] for ~[model]
+    what is the cheapest ~[model]
+    what is the @[specs.price] for the ~[base trim]
     ~[base price] for @[model]
-    ~[price-spec] for ~[model]
-    ~[model] ~[price-spec]
-    what is the ~[price-spec] ~[a-an-the?] @[model]
-    what is the ~[price-spec] for ~[a-an-the?] ~[each-fuel-car] @[model]
-    what is the ~[price-spec] for ~[a-an-the?] new @[model]
-    what is the ~[price-spec] ~[driven-wheel] ~[car]
-    ~[model pre-empt] how much is it
-    ~[model pre-empt] how much would it be
-    ~[model pre-empt] what is the ~[base price]
-    
+    ~[base price] for ~[model]
+    ~[how much] ~[base trim] @[model]
+    ~[quantify] ~[base trim] @[model]
+    ~[pre-empt model] what is the ~[base price]
+
 //if model is in user state, this should trigger reqeust.price
 %[request.price#stateful]('training': '200', 'distribution': 'even')
-    what is the price
-    what is the cost
-    what is the best price
+    ~[what/s] the @[specs.price]
     how much is it
     how much does it cost
     how much would it cost
-    ~[what/s] the ~[price]
-    what is the @[spec.price]
+    what is the cost
+    ~[what/s] the ~[base price]
 
 //aliases
-~[how much]
-    how much is the
-    how much for a
-    how much for the
-    how much is the
-
 ~[how expensive]
-    how expensive is the
-    how expensive for a
-    how expensive for the
-    how expensive is this
+    how expensive is ~[a-an-the]
+
+~[how much]
+    how much is ~[a-an-the]
+    how much for ~[a-an-the]
+
+~[quantify]
+    ~[how expensive]
+    ~[how much]
