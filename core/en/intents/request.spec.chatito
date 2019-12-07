@@ -1,19 +1,15 @@
 import ../common.chatito
 import ../entities/attributes.chatito
 import ../entities/specs.cargo.chatito
+import ../entities/specs.fuelconsumption.chatito
 
 //this intent is to get a definite value for a specification
 //requesting the spec's value by matching the specs name or synonym
 //seeks [unknown entity value X] of [specified entity name E] as related to [specified model/trim Y]
 //seeks binary value of specified entity name as related to specified model/trim Y
-%[request.spec#yesno]
+%[request.spec#yesno]('training': '250', 'distribution': 'even')
     is the ~[model] ~[driven wheel]
     is the @[model] a @[seater]
-    what is the ~[towing capacity#whatvalue] ~[for-in-of-on] ~[a-an-the] ~[model]
-    what is the ~[combined mpg] ~[for-in-of-on] ~[a-an-the] ~[model]
-    what is the ~[0-60 mph] ~[for-in-of-on] ~[a-an-the] ~[model]
-    what is the ~[top speed] ~[for-in-of-on] ~[a-an-the] ~[model]
-    what is the ~[quarter mile time] ~[for-in-of-on] ~[a-an-the] ~[model]
     what is the range of the ~[ev-model]
     what is the maximum range for a ~[model]
     can it ~[tow capacity#canit]
@@ -21,6 +17,7 @@ import ../entities/specs.cargo.chatito
 %[request.spec#whatvalue]('training': '250', 'distribution': 'even')
     what is the ~[what is spec-value]
     what is the ~[what is spec-value] ~[for-in-of-on] ~[a-an-the] ~[model]
+    what is the ~[model] ~[combined mpg#whatvalue]
 
 ~[what is spec-value]
     ~[towing capacity#whatvalue]
@@ -28,6 +25,9 @@ import ../entities/specs.cargo.chatito
     ~[0-60 mph]
     ~[top speed]
     ~[quarter mile time]
+    ~[combined mpg#whatvalue]
+    ~[combined range]
+
 
 %[request.spec.count]('training': '50', 'distribution': 'even')
     ~[quantify] ~[count-spec] ~[optional-spec] @[make] @[model-trim] ~[have]
@@ -64,6 +64,11 @@ import ../entities/specs.cargo.chatito
 %[request.spec.colors]('training': '50', 'distribution': 'even')
     can i get the @[model] in @[color]
     ~[optional-spec] @[model] come in @[color]
+
+%[request.spec#features]('training': '50', 'distribution': 'even')
+    what are the [safety] features
+    what are the technology features
+    what are the radio features
 
 ~[of-for]
     of

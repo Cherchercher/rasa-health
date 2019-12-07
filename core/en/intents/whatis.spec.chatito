@@ -7,6 +7,7 @@ import ../common.chatito
     does ~[safety-spec] automatically stop the vehicle
     does ~[safety-spec] mean ~[the car] can ~[do some function]
     what ~[optional-spec] ~[safety-spec] do in a ~[model]
+    what do you mean by ~[spec]
 
 ~[the car]
     the car

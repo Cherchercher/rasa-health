@@ -20,6 +20,7 @@
 //synonyms: fuel consumption
 ~[city mpg]('synonym':'true')
     city mpg
+    city mileage
     mpg city
     mpg in a city
     mpg in city
@@ -39,23 +40,20 @@
 ~[combined mpg]('synonym':'true')
     mpg
     mpg
-    the mpg
+    mileage
+    ~[fuel] mileage
     miles per gallon
-    gas mileage
     combined mpg
     mpg combined
-    mpgs
-    fuel economic
-    fuel consumption
-    gas consumption
-    fuel economy
-    fuel efficiency
-    gas economy
-    km / l
-    kilometers per liter
-    fuel savers
-    gasoline consumption
-    economic fuel
+    ~[fuel] consumption
+    ~[fuel] economy
+    ~[fuel] efficiency
+
+//=="how fuel efficient" or "is it"
+~[combined mpg#verbs]
+    ~[fuel] efficient
+    efficient on ~[fuel]
+    good on ~[fuel]
 
 ~[combined mpge]('synonym':'true')
     mpge
@@ -69,6 +67,7 @@
 
 ~[highway mpg]('synonym':'true')
     highway mpg
+    highway mileage
     mpg highway
     mpg on a highway
     mpg on the highway
@@ -121,13 +120,15 @@
     range
     combined range
     range combined
-    how far can i drive
+
+~[combined range#howfar]
 
 ~[fuel tank capacity]('synonym':'true')
     fuel tank capacity
     fuel tank size
     fuel tank volume
     fuel tank
+    fuel capacity
     gas tank
     tank size
     fuel tank holding capacity
@@ -153,6 +154,10 @@
 ~[ev mode]
     electric mode
     ev mode
+
+~[fuel]
+    fuel
+    gas
 
 //spec language groups
 ~[fuel-specs]

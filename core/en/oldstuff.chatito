@@ -326,3 +326,11 @@
 ~[numval-spec]
     ~[0-60 mph]
     ~[top speec]
+
+
+//maybe need to salvage these examples -- stashing here
+    what is the ~[towing capacity#whatvalue] ~[for-in-of-on] ~[a-an-the] ~[model]
+    what is the ~[combined mpg] ~[for-in-of-on] ~[a-an-the] ~[model]
+    what is the ~[0-60 mph] ~[for-in-of-on] ~[a-an-the] ~[model]
+    what is the ~[top speed] ~[for-in-of-on] ~[a-an-the] ~[model]
+    what is the ~[quarter mile time] ~[for-in-of-on] ~[a-an-the] ~[model]
