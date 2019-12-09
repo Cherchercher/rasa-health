@@ -212,6 +212,7 @@
 
 //seat types
 ~[captain chair]
+    Drehsitzen
     captain chair
     captain chairs
     captain seats
@@ -241,7 +242,6 @@
     legroom
 
 @[specs.seats]
-    Drehsitzen
     ~[total seat count]
     ~[1st Row Seating Count]
     ~[2nd Row Seating Count]

@@ -5,8 +5,8 @@ import ../common.chatito
     Wo kann ich den @[make] ~[model] finden?
     Wie verfügbar ist der ~[model]?
     Wo ist der ~[model] erhaltbar?
-    I möchte die ~[model] Ausführung mit @[specs]
-    I möchte die ~[model] Ausführung mit @[specs.seats] in der @[rows]
+    I möchte die ~[model] Ausführung mit @[specs.brain]
+    I möchte die ~[model] Ausführung mit @[specs.brain] in der @[rows]
 
 @[rows]
     ~[first row]

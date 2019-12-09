@@ -1,16 +1,15 @@
 import ../common.chatito
-import ../entities/fuel-type.chatito
 import ../entities/attributes.chatito
 
 //seeks [models Y] with [specified entity value X]
 %[list.models]('training': '200', 'distribution': 'even')
-    Ich möchte einen @[seater] @[bodystyle] mit ~[driven wheels] unter ~[num-msrp].
+    Ich möchte einen @[seater] @[bodystyle] mit @[specs.brain] unter ~[num-msrp].
     Ich suche einen @[seater].
     Wo kann ich einen @[seater] finden?
     Suche ein @[bodystyle] mit ~[2-8] oder @[seater].
-    Haben irgendwelche Kias ~[driven wheels]?
-    Gibt es Kias mit Allrad oder ~[driven wheels]?
-    Haben sie Autos mit ~[driven wheels]?
+    Haben irgendwelche Kias @[specs.brain]?
+    Gibt es Kias mit @[specs.brain] oder @[specs.brain]?
+    Haben sie Autos mit @[specs.brain]?
     Haben sie einen @[seater]?
     Haben Sie Autos in denen @[seater] sitzen können?
     Welcher @[make] hat den groessten Innenraum?

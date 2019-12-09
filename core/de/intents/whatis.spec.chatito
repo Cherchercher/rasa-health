@@ -1,22 +1,9 @@
 import ../common.chatito
 
-%[whatis.spec]('training': '10', 'distribution': 'even')
-    does ~[safety-spec] mean ~[the car] ~[do some function]
-    what is ~[safety-spec]
-    what @[optional-spec] ~[safety-spec] do
-    does ~[safety-spec] automatically stop the vehicle
-    does ~[safety-spec] mean ~[the car] can ~[do some function]
-    what @[optional-spec] ~[safety-spec] do in a ~[model]
-
-~[the car]
-    the car
-    it
-
-~[do some function]
-    stop on its own
-    stop the vehicle
-    automatically stop the vehicle
-
-~[in an accident]
-    in a side impact collision
-    in a collision
+%[whatis.spec]('training': '100', 'distribution': 'even')
+    Wie kann der @[specs.brain] helfen?
+    Was kann der @[specs.brain] machen?
+    Was ist diese @[specs.brain]
+    Was passiert mit der @[specs.brain]?
+    Was macht der @[specs.brain] in Notfällen?
+    Welche Funktionen hat diese @[specs.brain]?

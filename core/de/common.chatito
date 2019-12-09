@@ -4,16 +4,17 @@
 import ./entities/bodystyle.chatito
 import ./entities/makes.chatito
 import ./entities/trims.chatito
+import ./entities/models.chatito
 import ./entities/spec-values.chatito
-import ./entities/color.chatito
-import ./entities/specs.chatito
-import ./entities/specs.fuelconsumption.chatito
-import ./entities/specs.infotainment.chatito
-import ./entities/specs.price.chatito
-import ./entities/specs.safety.chatito
-import ./entities/specs.seating.chatito
-import ./entities/specs.storage.chatito
-import ./entities/specs.wheels.chatito
+// import ./entities/specs.chatito
+// import ./entities/specs.fuelconsumption.chatito
+// import ./entities/specs.infotainment.chatito
+// import ./entities/specs.price.chatito
+// import ./entities/specs.safety.chatito
+// import ./entities/specs.seating.chatito
+// import ./entities/specs.storage.chatito
+// import ./entities/specs.wheels.chatito
+import ./entities/specs.brain.chatito
 import ./entities/locations.chatito
 
 ~[2-8]
@@ -158,31 +159,6 @@ import ./entities/locations.chatito
     ~[powerdoor]
     ~[mirrors]
     ~[ventilated seats]
-
-~[ventilated seats]
-    gelüftete Vordersitze
-    gelüftete Sitze
-
-~[mirrors]
-    Spiegeln
-
-~[liftgate]
-    Heckklappe
-
-~[powerdoor]
-    Zentralverriegelung inklusive
-
-~[adjustable seats]
-    elektrische Sitze
-
-~[roof]
-    Glas Schiebedach
-    Schiebedach
-
-~[leather seats]
-    Ledersitzen bekommen
-    Ledersitze
-    Leder
 
 //define specs from specs.chatito
 @[specs-english]
@@ -517,12 +493,3 @@ import ./entities/locations.chatito
 ~[numval-spec]
     ~[0-60 mph]
     ~[top speec]
-
-~[trim-levels]
-    L
-    LX
-    EX
-    SX
-    SXL
-    S
-    FE

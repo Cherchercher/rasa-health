@@ -11,28 +11,40 @@
     2-Sitzer
     zwei Passagier
     zwei Sitzer
+    zwei Sitz
+    2-Sitz
 
 ~[4 seater]('synonym': 'true')
     4-Sitzer
     vier Passagier
     vier Sitzer
+    vier Sitz
+    4-Sitz
 
 ~[5 seater]('synonym': 'true')
     5-Sitzer
     fünf Passagier
     fünf Sitzer
+    fünf Sitz
+    5-Sitz
 
 ~[6 seater]('synonym': 'true')
     6-Sitzer
     sechs Passagier
     sechs Sitzer
+    sechs Sitz
+    6-Sitz
 
 ~[7 seater]('synonym': 'true')
     7-Sitzer
     sieben Passagier
     sieben Sitzer
+    sieben Sitz
+    7-Sitz
 
 ~[8 seater]('synonym': 'true')
     8-Sitzer
     acht Passagier
     acht Sitzer
+    acht Sitz
+    8-Sitz
