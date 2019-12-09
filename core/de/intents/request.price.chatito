@@ -14,4 +14,3 @@ import ../common.chatito
     Wieviel kostet ein @[model-year]'er @[model-trim] vollausgestattet?
     Was ist der niedrigste Preis für den @[model-trim]?
     Was ist der Anfangspreis für den @[model-trim]?
-    

@@ -24,8 +24,6 @@ import ../entities/trim-levels.chatito
     @[model] @[specs.brain]
     Hat der @[model] @[specs.brain]?
     Kann man den @[model] mit @[specs.brain] bestellen?
-    
-
 //the difference between request and list is the language the user uses to indicate a response type
 //request.spec is for definite values (including binaries, which are definite values)
 //users are doing request.spec when they structure their queries so they attempt to find value of X --
