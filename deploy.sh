@@ -3,12 +3,13 @@
 set -e
 set -o pipefail
 
-env=$1
-version=$2
-region=${3:-us-east-1}
+agent=$1
+env=$2
+version=$3
+region=${4:-us-east-1}
 
-if [ -z "$env" ] || [ -z "$version" ]; then
-    echo "Usage: $0 <env> <version> [<region>]"
+if [ -z "$agent" ] || [ -z "$env" ] || [ -z "$version" ]; then
+    echo "Usage: $0 <agent> <env> <version> [<region>]"
     echo "          <region> defaults to 'us-east-1' if not specified."
     exit 1
 fi
@@ -16,7 +17,7 @@ fi
 cd kubernetes
 
 pushd base
-/usr/local/bin/kustomize edit set imagetag 261695625069.dkr.ecr.us-east-1.amazonaws.com/linguist-rasa:$version
+/usr/local/bin/kustomize edit set imagetag 261695625069.dkr.ecr.us-east-1.amazonaws.com/linguist-rasa-$agent:$version
 popd
 
 ns=$(aws --region $region ssm get-parameter --name /rasa/linguistbot/$env/namespace --query 'Parameter.Value' --output text)
