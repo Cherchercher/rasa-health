@@ -1,6 +1,4 @@
 $(aws ecr get-login --no-include-email --region us-east-1)
-set -e
-set -o pipefail
 
 agent=$1
 
