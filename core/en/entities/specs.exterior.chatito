@@ -34,7 +34,7 @@
     ~[panoramic]
     ~[power windows]
     ~[privacy glass]
-    ~[sunroof]
+    *[30%] ~[sunroof]
     ~[rear sunshade]
     ~[rear window wiper]
     ~[rear window defogger]

@@ -17,17 +17,17 @@ import ../entities/specs.wheels.chatito
 %[list.models]('training': '200', 'distribution': 'even')
     i want ~[a/the] ~[model-type]
     i want to buy ~[a/the] ~[car/s]
-    ~[what-which] ~[model-type] ~[has] ~[optional-spec]
-    ~[what-which] ~[model-type?] ~[has] ~[optional-spec]
+    ~[what-which] ~[model-type] ~[has] ~[optional-specs]
+    ~[what-which] ~[model-type?] ~[has] ~[optional-specs]
     ~[declaritive] ~[modifier-spec] what does ~[model-type] have
     ~[exist] ~[model-type] ~[has] ~[spec-value]
-    ~[exist] ~[model-type] ~[has] ~[optional-spec]
-    do all models have ~[optional-spec]
-    do all ~[model-type] have ~[optional-spec]
+    ~[exist] ~[model-type] ~[has] ~[optional-specs]
+    do all models have ~[optional-specs]
+    do all ~[model-type] have ~[optional-specs]
     looking for ~[seats-spec] ~[model-type] ~[modifier]
-    hi does @[make] have ~[optional-spec] in @[seater] and ~[optional-spec]
-    looking for ~[model] with ~[safety-spec] ~[safety-spec] ~[optional-spec] ~[optional-spec]
-    i am trying to find a car with ~[optional-spec]
+    hi does @[make] have ~[optional-specs] in @[seater] and ~[optional-specs]
+    looking for ~[model-only] with ~[safety-specs] ~[safety-specs] ~[optional-specs] ~[optional-specs]
+    i am trying to find a car with ~[optional-specs]
 
 %[list.models.price]('training': '10', 'distribution': 'even')
     what is your cheapest car
@@ -45,7 +45,7 @@ import ../entities/specs.wheels.chatito
 %[list.models.size]('training': '25', 'distribution': 'even')
     ~[what-which] ~[model-type] ~[has] the ~[definite-size] ~[size-spec]
     whats your ~[definite-size] ~[model-type] with ~[indicator-spec]
-    whats your ~[definite-size] ~[model-type] with ~[optional-spec]
+    whats your ~[definite-size] ~[model-type] with ~[optional-specs]
 
 %[list.models.bodystyle]('training': '100', 'distribution': 'even')
     i am interest in @[bodystyle]
@@ -78,10 +78,10 @@ import ../entities/specs.wheels.chatito
     need 7 seats
     a ~[model-type] @[seater]
     ~[what-which] @[make] come with
-    ~[greeting] does @[make] have @[seater] ~[optional-spec] and ~[optional-spec]
+    ~[greeting] does @[make] have @[seater] ~[optional-specs] and ~[optional-specs]
     any @[seater] vehicles
     any @[seater] @[bodystyle]
-    any @[seater] car has ~[optional-spec]
+    any @[seater] car has ~[optional-specs]
 
 ~[a/the]
     a

@@ -1,4 +1,5 @@
 ~[collision avoidance]('synonym':'true')
+    ~[collision] ~[alert]
     ~[collision] avoidance
     ~[collision] ~[assist]
     ~[collision] avoidance ~[assist]
@@ -11,41 +12,48 @@
     刹车
 
 ~[automatic emergency braking]('synonym':'true')
-    ~[auto] emergency ~[brake]
-    ~[auto] ~[brake]
-    ~[auto] ~[brake] ~[assist]
-    自动刹车
-    自动紧急刹车
+    ~[auto]紧急~[brake]
+    ~[auto]~[brake]
+    ~[auto]~[brake]~[assist]
 
 ~[auto]
     自动
     自动的
 
 ~[collision]
-    collision
-    accident
+    事故
+    交通事故
+    碰撞
+    道路交通碰撞事故
+    道路交通碰撞
+    交通意外
+    行驶意外
+    意外
 
-~[blind spot detection]('synonym':'true')
-    blind spot ~[detection]
-    blind spot ~[collision] ~[alert]
-    blind spot ~[collision] avoidance
-    blind spot ~[alert]
+~[blind spot]('synonym':'true')
+    盲点~[detection]
+    盲点~[collision]~[alert]
+    盲点~[collision]~[avoidance]
+    盲点~[alert]
     盲点检测
+    盲点
+
+~[avoidance]
+    回避
+    避让
 
 ~[detection]
-    detection
-    monitoring
-    monitor
+    检测
 
 ~[rear cross traffic alert]('synonym':'true')
-    rear ~[cross-traffic] ~[alert] ~[system?]
-    rear ~[cross-traffic] ~[collision] ~[alert]
+    后方 ~[cross-traffic] ~[alert] ~[system?]
+    后段 ~[cross-traffic] ~[collision] ~[alert]
     后部碰撞警示系统
 
 ~[forward collision warning]('synonym':'true')
-    forward ~[collision] warning
-    forward ~[collision] ~[alert]
-    ~[collision] ~[alert]
+    前方~[collision] ~[alert]
+    前段 ~[collision] ~[alert]
+    前面 ~[collision] ~[alert]
     前部碰撞警示系统
 
 ~[lane change assist]('synonym':'true')
@@ -134,13 +142,13 @@
     ~[auto] ~[brake]
     ~[auto] ~[brake] ~[assist]
 
-~[anti-theft]
+~[anti-theft]('synonym':'true')
     防盗
 
-~[safety-spec]
+~[safety-specs]
     ~[collision avoidance]
     ~[automatic emergency braking]
-    ~[blind spot detection]
+    ~[blind spot]
     ~[rear cross traffic alert]
     ~[forward collision warning]
     ~[lane change assist]
@@ -184,7 +192,7 @@
 @[specs.safety]
     ~[collision avoidance]
     ~[automatic emergency braking]
-    ~[blind spot detection]
+    ~[blind spot]
     ~[rear cross traffic alert]
     ~[forward collision warning]
     ~[lane change assist]

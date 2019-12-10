@@ -22,49 +22,49 @@ import ../entities/specs.wheels.chatito
     @[model]
     ~[declaritive] @[model]
     ~[greeting?] i want to know about @[make?] @[model]
-    i would like to know more about the ~[model]
+    i would like to know more about the ~[trim-only]
     how many trims are there for @[model]
     i was interested in the @[model] but the ~[trim-ext] version
     any info on @[model]
-    any of the ~[make?] @[model] ~[driven wheel]
     what is the top of the line @[model]
     i was interested in the @[model] the most basic one
 
 //indicator specs help identify a specific trim level
 %[list.trims.indicator]('training': '100', 'distribution': 'even')
-    ~[exist] ~[indicator-spec] ~[model]?
-    ~[engine] ~[in-on] ~[model]
-    ~[what-which] options for ~[model] ~[engine]
-    ~[what-which] ~[engine] options are ~[available] ~[model]
-    ~[exist] ~[model] ~[have] ~[indicator-spec]
+    ~[exist] ~[indicator-spec] ~[trim-only]?
+    ~[engine] ~[in-on] ~[trim-only]
+    ~[what-which] options for ~[trim-only] ~[engine]
+    ~[what-which] ~[engine] options are ~[available] ~[trim-only]
+    ~[exist] ~[trim-only] ~[have] ~[indicator-spec]
 
 //list trims that have some declared optional spec
-%[list.trims.optional]('training': '400', 'distribution': 'even')
-    ~[declaritive?] for the ~[model], which models ~[has] ~[a-an-the?] ~[optional-spec]
-    do all ~[model] ~[have] ~[optional-spec]
-    is ~[optional-spec] ~[available] ~[model]
-    is ~[optional-spec] ~[available] all ~[model]
-    is ~[optional-spec] only ~[available] ~[a-an-the] ~[car-trim] and ~[car-trim] trims
-    what trim package do I have to buy in order to get ~[optional-spec]
-    what trim package do I have to buy in order to get ~[optional-spec] and ~[optional-spec]
-    is ~[optional-spec] standard on all trim levels
-    can I get ~[optional-spec] with any trim
-    what trim level of ~[model] ~[has] ~[optional-spec]
-    can you get the ~[model] with ~[optional-spec]
-    ~[exist] ~[trim-level] @[model-trim] ~[have-has] ~[optional-spec]
-    ~[does the] @[model-trim] ~[possess] ~[optional-spec]
-    ~[is-are] ~[optional-spec] available ~[in-on] @[model-trim]
-    does the ~[model] ~[have] @[specs.electronics]]
+%[list.trims.specs]('training': '400', 'distribution': 'even')
+    any of the ~[make?] @[model] @[specs.drivetrain]
+    ~[declaritive?] for the ~[trim-only], which models ~[has] ~[a-an-the?] ~[specs]
+    do all ~[trim-only] ~[have] ~[specs]
+    is ~[specs] ~[available] ~[trim-only]
+    is ~[specs] ~[available] all ~[trim-only]
+    is ~[specs] only ~[available] ~[a-an-the] ~[car-trim] and ~[car-trim] trims
+    what trim package do I have to buy in order to get ~[specs]
+    what trim package do I have to buy in order to get ~[specs] and ~[specs]
+    is ~[specs] standard on all trim levels
+    can I get ~[specs] with any trim
+    what trim level of ~[trim-only] ~[has] ~[specs]
+    can you get the ~[trim-only] with ~[specs]
+    ~[exist] @[trim-level] @[model-trim] ~[have-has] ~[specs]
+    ~[does the] @[model-trim] ~[possess] ~[specs]
+    ~[is-are] ~[specs] available ~[in-on] @[model-trim]
+    does the ~[trim-only] ~[have] @[specs.electronics]]
     does it ~[have] @[specs.electronics]
-    does it ~[have] ~[optional-spec]
-    ~[declaritive?] can i get a ~[optional-spec] ~[in-on] ~[model]
-    I need a niro that has @[specs.safety] @[specs.safety] and ~[optional-spec] which model would get me that?
-    does the @[model] have ~[optional-spec] or ~[optional-spec] with ~[indicator-spec]
+    does it ~[have] ~[specs]
+    ~[declaritive?] can i get a ~[specs] ~[in-on] ~[trim-only]
+    I need a niro that has @[specs.safety] @[specs.safety] and ~[specs] which model would get me that?
+    does the @[model] have ~[specs] or ~[specs] with ~[indicator-spec]
 
 %[list.trims.safety]('training': '50', 'distribution': 'even')
-    ~[what-which] trim do i need to get ~[optional-spec]
-    what ~[model] trim lines offer forward collision warning
-    does the ~[model] have pre-collision trch
+    ~[what-which] trim do i need to get ~[specs-safety]
+    what ~[trim-only] trim lines offer forward collision warning
+    does the ~[trim-only] have pre-collision trch
     Which Sorentos have forward collision warning system
     does the new all electric Nero come with Lane correction collision warning and blind spot
     Is forward collision avoidance available on a cheaper trim than the EX?

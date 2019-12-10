@@ -30,7 +30,7 @@ import ../entities/specs.fuelconsumption.chatito
 
 
 %[request.spec.count]('training': '50', 'distribution': 'even')
-    ~[quantify] ~[count-spec] ~[optional-spec] @[make] @[model-trim] ~[have]
+    ~[quantify] ~[count-spec] ~[optional-specs] @[make] @[model-trim] ~[have]
     how far off the ground is the ~[model]
     how far from ground to entry is it
     how far off the road is ~[model]
@@ -63,7 +63,7 @@ import ../entities/specs.fuelconsumption.chatito
 
 %[request.spec.colors]('training': '50', 'distribution': 'even')
     can i get the @[model] in @[color]
-    ~[optional-spec] @[model] come in @[color]
+    ~[optional-specs] @[model] come in @[color]
 
 %[request.spec#features]('training': '50', 'distribution': 'even')
     what are the [safety] features

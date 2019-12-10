@@ -6,7 +6,7 @@ import ../common.chatito
 //seeks binary value of specified entity name as related to specified model/trim Y
 
 %[request.spec]('training': '25', 'distribution': 'even')
-    @[model] 有 ~[driven wheel]吗
+    @[model] 有 @[specs.brain]吗
     @[model] 是 @[seater]吗
     ~[model] 离地多高
     这辆车离地多高

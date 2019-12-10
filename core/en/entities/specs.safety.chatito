@@ -227,33 +227,3 @@
 ~[park]
     park
     parking
-
-//spec groups
-~[assist-spec]
-    ~[parking assist description]
-    ~[hill start assist]
-    ~[brake assist]
-
-
-~[safety-spec]
-    ~[collision avoidance]
-    ~[automatic emergency braking]
-    ~[blind spot detection]
-    ~[rear cross traffic alert]
-    ~[forward collision warning]
-    ~[lane change assist]
-    ~[lane departure warning]
-    ~[airbags]
-    ~[side airbags]
-    ~[passenger airbags]
-    ~[driver airbags]
-    ~[passenger airbags deactivation]
-    ~[side airbags curtain]
-    ~[airbag rollover sensor]
-    ~[exterior view camera]
-    ~[child proof door locks]
-    ~[anti-theft alarm system]
-    ~[parking assist description]
-    ~[surround view monitor]
-    ~[hill start assist]
-    ~[brake assist]

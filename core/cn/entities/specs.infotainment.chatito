@@ -105,9 +105,13 @@
     tachometer
 
 ~[bluetooth]('synonym':'true')
-    bluetooth
-    blue tooth
-    bluetooth access
+    蓝牙
+    蓝牙技术
+    蓝牙无线
+    蓝牙无线通讯
+    蓝牙无线数据
+    无线
+    无线数据
 
 ~[android auto]('synonym':'true')
     android auto
@@ -162,8 +166,8 @@
     radar ~[cruise-control]
 
 ~[wireless phone charger]('synonym':'true')
-    wireless phone charger
-    wireless charger
+    无线手机充电
+    无线充电
 
 ~[push button start]('synonym':'true')
     push button start

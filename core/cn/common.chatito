@@ -40,8 +40,8 @@ import ./entities/locations.chatito
     ~[each-model] ~[model?] ~[year?]
 
 ~[future-model]
-    @[model year-future]@[model]
-    @[model year-future]的@[model]
+    ~[model year-future]@[model]
+    ~[model year-future]的@[model]
     新的@[model]
     那个新的@[model]
 
@@ -54,8 +54,8 @@ import ./entities/locations.chatito
 ~[model]
     @[model]
     @[model-trim]
-    ~[model-year] @[model]
-    ~[model-year] @[model-trim]
+    @[model-year] @[model]
+    @[model-year] @[model-trim]
 
 ~[dislike]
     我不喜欢
@@ -178,7 +178,3 @@ import ./entities/locations.chatito
     怎么买
     怎么卖
     这需要多少钱
-
-
-
-

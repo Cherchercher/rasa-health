@@ -249,8 +249,8 @@
     ~[rear tire rating]
 
     //optional-spec is a group of specs that may or may not be included with/on/in some model or model-trim
-//these specs most often appear in "{{models/trims}} that have ~[optional-spec]" or binary queries "does {{models/trims}} have ~[optional-spec]"
-~[optional-spec]
+//these specs most often appear in "{{models/trims}} that have ~[optional-specs]" or binary queries "does {{models/trims}} have ~[optional-specs]"
+~[optional-specs]
     ~[remote start]
     ~[navigation]
     ~[rear a/c]
@@ -327,10 +327,9 @@
     ~[0-60 mph]
     ~[top speec]
 
-
 //maybe need to salvage these examples -- stashing here
-    what is the ~[towing capacity#whatvalue] ~[for-in-of-on] ~[a-an-the] ~[model]
-    what is the ~[combined mpg] ~[for-in-of-on] ~[a-an-the] ~[model]
-    what is the ~[0-60 mph] ~[for-in-of-on] ~[a-an-the] ~[model]
-    what is the ~[top speed] ~[for-in-of-on] ~[a-an-the] ~[model]
-    what is the ~[quarter mile time] ~[for-in-of-on] ~[a-an-the] ~[model]
+// what is the ~[towing capacity#whatvalue] ~[for-in-of-on] ~[a-an-the] ~[model]
+// what is the ~[combined mpg] ~[for-in-of-on] ~[a-an-the] ~[model]
+// what is the ~[0-60 mph] ~[for-in-of-on] ~[a-an-the] ~[model]
+// what is the ~[top speed] ~[for-in-of-on] ~[a-an-the] ~[model]
+// what is the ~[quarter mile time] ~[for-in-of-on] ~[a-an-the] ~[model]

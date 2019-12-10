@@ -41,19 +41,19 @@
     mpg
     mpg
     mileage
-    ~[fuel] mileage
+    ~[fuel1] mileage
     miles per gallon
     combined mpg
     mpg combined
-    ~[fuel] consumption
-    ~[fuel] economy
-    ~[fuel] efficiency
+    ~[fuel1] consumption
+    ~[fuel1] economy
+    ~[fuel1] efficiency
 
 //=="how fuel efficient" or "is it"
 ~[combined mpg#verbs]
-    ~[fuel] efficient
-    efficient on ~[fuel]
-    good on ~[fuel]
+    ~[fuel1] efficient
+    efficient on ~[fuel1]
+    good on ~[fuel1]
 
 ~[combined mpge]('synonym':'true')
     mpge
@@ -122,6 +122,7 @@
     range combined
 
 ~[combined range#howfar]
+    how far can it go
 
 ~[fuel tank capacity]('synonym':'true')
     fuel tank capacity
@@ -155,7 +156,7 @@
     electric mode
     ev mode
 
-~[fuel]
+~[fuel1]
     fuel
     gas
 

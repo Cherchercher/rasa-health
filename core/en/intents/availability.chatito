@@ -29,16 +29,16 @@ import ../entities/locations.chatito
 //this is usually asked by people looking for EV or PHEVs
 //.location can be used for content context and fallback rule
 %[availability.location]('training': '200', 'distribution': 'even')
-    when will ~[future-model] ~[be available] in @[location]
+    when will ~[future-model] ~[be available] in ~[location]
     when will ~[future-model] ~[come to] in @[country]
-    when are ~[future-model] going to ~[be available] in @[location]
+    when are ~[future-model] going to ~[be available] in ~[location]
     when will ~[future-model] ~[be available] in ~[US state]
-    can you let me know when the ~[future-model] will be released in @[location]
-    when do you expect to have the ~[future-model] in @[location]
-    is the ~[future-model] out yet or when is it expected to be released in @[location]
-    is the ~[future-model] out yet in @[location] or when is it expected to be released
-    just want to know when the ~[future-model] is available in @[location]
-    when is the ~[future-model] going to be available in @[location]
+    can you let me know when the ~[future-model] will be released in ~[location]
+    when do you expect to have the ~[future-model] in ~[location]
+    is the ~[future-model] out yet or when is it expected to be released in ~[location]
+    is the ~[future-model] out yet in ~[location] or when is it expected to be released
+    just want to know when the ~[future-model] is available in ~[location]
+    when is the ~[future-model] going to be available in ~[location]
     ~[i?] want to know when the @[model] is coming out
     ~[declaritive] the new @[model] when will you have them in stock
     any ~[future-model] available yet

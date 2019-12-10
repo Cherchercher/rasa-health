@@ -23,7 +23,12 @@
     行驶市区油耗范围
 
 ~[combined range]('synonym':'true')
-    综合油耗范围
+    能行驶多久
+    能开多久
+    综合工况续航里程
+    混合行驶里程
+    综合行驶里程
+    混合里程范围
 
 ~[highway range]('synonym':'true')
     行驶高速油耗范围
@@ -51,6 +56,7 @@
 
 ~[combined mpge]('synonym':'true')
     普遍百公里油耗量
+    综合油耗量
     百公里耗油
     百公里油耗
     100公里耗油

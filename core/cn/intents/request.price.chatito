@@ -1,7 +1,7 @@
 import ../common.chatito
 
-%[list.trims#price]('training': '200', 'distribution': 'even')
-    带@[optional-specs]的多少钱
+%[request.price]('training': '200', 'distribution': 'even')
+    带@[specs.brain]的多少钱
     ~[quantify-price]~[model]
     ~[model]多少钱呢
     ~[model]的@[specs.price]
@@ -16,4 +16,4 @@ import ../common.chatito
     @[model]的~[price-spec]
     ~[quantify-price]~[model]
     ~[driven-wheel]~[car]~[quantify-price]
-    ~[each-fuel-car]@[model]~[quantify-price]
+    @[fuel-type]@[model]~[quantify-price]

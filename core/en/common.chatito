@@ -41,6 +41,14 @@ import ./entities/color.chatito
     @[model-year] @[model]
     @[model-year] @[model-trim]
 
+~[model-only]
+    @[model]
+    @[model-year] @[model]
+
+~[trim-only]
+    @[model-trim]
+    @[model-year] @[model-trim]
+
 ~[model-type]
     kia
     kias

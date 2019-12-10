@@ -1,0 +1,67 @@
+import ./specs.drivetrain.chatito
+import ./specs.exterior.chatito
+import ./specs.interior.chatito
+import ./specs.fuelconsumption.chatito
+import ./specs.infotainment.chatito
+import ./specs.price.chatito
+import ./specs.lights.chatito
+import ./specs.safety.chatito
+import ./specs.wheels.chatito
+import ./specs.seating.chatito
+import ./specs.cargo.chatito
+import ./specs.steeringwheel.chatito
+import ./specs.warranty.chatito
+
+~[specs]
+    *[10%] @[specs.seating]
+    *[5%] @[specs.brakes]
+    *[5%] @[specs.fuelconsumption]
+    *[5%] @[specs.electronics]
+    *[5%] @[specs.audio]
+    *[5%] @[specs.lights]
+    *[5%] @[specs.drivetrain]
+    *[5%] @[specs.windows]
+    *[10%] @[specs.engine]
+    @[specs.cargo]
+    @[specs.storage]
+    @[specs.towing]
+    @[specs.transmission]
+    @[specs.performance]
+    @[specs.body]
+    @[specs.exteriordims]
+    @[specs.mirrors]
+    @[specs.aircondition]
+    @[specs.interiordims]
+    @[specs.price]
+    @[specs.airbags]
+    @[specs.safety]
+    @[specs.steeringwheel]
+    @[specs.warranty]
+    @[specs.suspension]
+    @[specs.tires]
+    @[specs.wheels]
+
+~[optional-specs]
+    @[specs.cargo]
+    @[specs.storage]
+    @[specs.towing]
+    @[specs.transmission]
+    @[specs.performance]
+    @[specs.body]
+    @[specs.exteriordims]
+    @[specs.mirrors]
+    @[specs.aircondition]
+    @[specs.interiordims]
+    @[specs.price]
+    @[specs.airbags]
+    @[specs.safety]
+    @[specs.steeringwheel]
+    @[specs.warranty]
+    @[specs.suspension]
+    @[specs.tires]
+    @[specs.wheels]
+
+~[safety-specs]
+    @[specs.brakes]
+    @[specs.airbags]
+    @[specs.safety]

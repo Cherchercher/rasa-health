@@ -15,7 +15,7 @@
     ~[ac power outlet]
     ~[android auto]
     ~[apple carplay]
-    ~[bluetooth]
+    *[30%] ~[bluetooth]
     ~[external temperature display]
     ~[heads up display]
     ~[multi function remote]
@@ -28,7 +28,7 @@
     ~[usb-ports]
     ~[voice system name]
     ~[voice command]
-    ~[wireless phone charger]
+    *[30%] ~[wireless phone charger]
 
 //synonyms: audio
 ~[audio]('synonym':'true')

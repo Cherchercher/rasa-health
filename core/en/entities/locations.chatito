@@ -7,10 +7,10 @@
     76621
 
 //locations
-@[location]
-    ~[US state]
-    ~[US city]
-    ~[area]
+~[location]
+    @[US state]
+    @[US city]
+    @[area]
 
 @[country]
     india
@@ -20,7 +20,7 @@
     egypt
 
 //synonyms
-~[US state]('synonym':'true')
+@[US state]
     Alaska
     California
     Colorado
@@ -36,7 +36,7 @@
     New York
     ~[region] ~[state]
 
-~[US city]('synonym':'true')
+@[US city]
     New York
     Los Angeles
     Chicago
@@ -80,10 +80,10 @@
     Raleigh
     Omaha
 
-~[area]('synonyms':'true')
-    ~[~region] ~[state]
+@[area]
+    ~[region] ~[state]
     ~[city] area
-    ~[~region] ~[state] area
+    ~[region] ~[state] area
 
 //aliases
 ~[state]
@@ -100,7 +100,6 @@
     Montana
     New Jersey
     New York
-
 
 ~[region]
     north
