@@ -203,20 +203,20 @@
     row of seats
     rows of seats
 
-~[first row]
+~[first row]('synonym':'true')
     first ~[row]
     1st ~[row]
 
-~[second row]
+~[second row]('synonym':'true')
     second ~[row]
     2nd ~[row]
 
-~[third row]
+~[third row]('synonym':'true')
     third ~[row]
     3rd ~[row]
     three ~[row]
 
-~[fourth row]
+~[fourth row]('synonym':'true')
     fourth ~[row]
     4th ~[row]
 

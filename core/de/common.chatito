@@ -54,16 +54,15 @@ import ./entities/locations.chatito
     ~[cars]
 
 ~[future-model]
-    ~{model year-future] @[model]
+    ~[model year-future] @[model]
     the new @[model]
 
 ~[model-type]
-    kia
-    kias
-    model
-    models
-    car
-    cars
+    Kia
+    Kias
+    Modell
+    Wagen
+    Autos
     @[bodystyle]
 
 ~[declaritive]
@@ -144,6 +143,15 @@ import ./entities/locations.chatito
     smallest
     the most
     the least
+
+~[relative-power]
+    the most powerful
+    more powerful
+
+~[relative-cost]
+    the least expensive
+    the most expensive
+
 
 ~[greeting]
     ~[hello]
@@ -310,7 +318,7 @@ import ./entities/locations.chatito
     ~[stereo anti-theft]
     ~[collision avoidance]
     ~[automatic emergency braking]
-    ~[blind spot detection]
+    ~[blind spot]
     ~[rear cross traffic alert]
     ~[rear cross traffic alert]
     ~[rear cross traffic alert]
@@ -421,7 +429,7 @@ import ./entities/locations.chatito
     ~[usb-ports]
     ~[collision avoidance]
     ~[automatic emergency braking]
-    ~[blind spot detection]
+    ~[blind spot]
     ~[rear cross traffic alert]
     ~[forward collision warning]
     ~[lane change assist]

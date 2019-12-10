@@ -1,89 +1,74 @@
 ~[convertible]('synonym':'true')
-    convertible
-    convertibles
-    cabriolet
-    cabrio
-    drophead
-    landau
-    roadster
+    Cabrio
+    Cabriolet
 
 ~[coupe]('synonym':'true')
-    coupe
-    coupes
-    2dr
-    two door  
-    2 door
+    Coupe
+    Coupé
+    Zweitürer
+    2-Türer
+    Zwei Türer
 
 ~[wagon]('synonym':'true')
-    wagon
-    wagons
-    station wagon
+    Kombi
+    Kombiwagen
 
 ~[suv]('synonym':'true')
-    Kombi
-    suv
-    sport utility vehicle
-    suvs
-    sport utility vehicles
-    SUVs
+    Geländewagen
+    Geländelimousine
+    SUV
 
 ~[crossover]('synonym':'true')
-    cuv
-    cuvs
-    crossover
-    cross over
-    crossovers
-    cross overs
+    Crossover Fahrzeug 
 
 ~[hatchback]('synonym':'true')
-    hatchback
-    hatchbacks
-    hachback
-    hachbacks
-    5 door
-    5door
+    Fließheck
+    Hecktürmodell
+    Schrägheck
+    Kombilimousine
+    Steilheck 
 
 ~[minivan]('synonym':'true')
-    minivan
-    minivans
-    van
-    mini van
+    Minivan
+    Van
+    Großraumtaxi
+    Kleinbus 
 
 ~[truck]('synonym':'true')
-    truck
-    pickup
-    trucks
-    pickups
-    crew cab
-    extended cab
-    regular cab
+    Kleinlastwagen
+    Kleinlaster
+    Pickup
+    LKW
+    Lastkraftwagen
+    Laster
 
 ~[sports car]('synonym':'true')
-    sports car
-    sports cars
+    Sportwagen
+    Rennwagen
 
 ~[micro car]('synonym':'true')
-    microcar
-    micro car
+    Leichtfahrzeug
+    Rollermobil 
 
 ~[5-door]
-    5-door
-    5 door
-    5dr
-    five door
-    hatchback
-    hatch
+    Fünftürer
+    5-Türer
+    Fünf Türer
+    fünftüriges Coupé 
+
+~[RV]
+    Familienmodell
 
 ~[sedan]
-    sedan
-    sedans
-    4-door
-    4 door
-    4 dr
-    4-dr
-    four door
+    Viertürer
+    4-Türer
+    Vier Türer
+    viertüriges Coupé 
+    Stufenheck
+    Limousine
 
 @[bodystyle]
+    ~[RV]
     ~[convertible]
     ~[coupe]
     ~[sedan]
@@ -95,4 +80,3 @@
     ~[truck]
     ~[sports car]
     ~[micro car]
-    Familienmodell
