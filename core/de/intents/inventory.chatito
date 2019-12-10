@@ -1,0 +1,15 @@
+import ../common.chatito
+
+%[inventory]('training': '100', 'distribution': 'even')
+    Wo kann ich den ~[model] finden?
+    Wo kann ich den @[make] ~[model] finden?
+    Wie verfügbar ist der ~[model]?
+    Wo ist der ~[model] erhaltbar?
+    I möchte die ~[model] Ausführung mit @[specs.brain]
+    I möchte die ~[model] Ausführung mit @[specs.brain] in der @[rows]
+
+@[rows]
+    ~[first row]
+    ~[second row]
+    ~[third row]
+    ~[fourth row]

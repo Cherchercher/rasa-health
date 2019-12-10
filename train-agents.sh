@@ -6,6 +6,7 @@ agent=$1
 
 # Run chatito
 docker pull 261695625069.dkr.ecr.us-east-1.amazonaws.com/rasa-pipeline-chatito:latest
+
 docker run --rm -v $(pwd)/core/$agent:/core/$agent \
   261695625069.dkr.ecr.us-east-1.amazonaws.com/rasa-pipeline-chatito:latest \
   npx chatito core/$agent \

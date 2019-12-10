@@ -1,10 +1,22 @@
 import ../common.chatito
+//all compare categories should support comparisons by spec and spec categories
 
-%[compare#price]('training': '50')
-    welcher is billiger, ~[cars] or ~[cars]
+%[compare]('training': '350', 'distribution': 'even')
+    Was ist der Unterschied zwischen ~[model] @[trim-levels], @[trim-levels] und @[trim-levels]?
+    Was ist der Unterschied zwischen @[model] @[trim-levels], @[trim-levels] und @[trim-levels]?
+    Was ist der Unterschied zwischen ~[model], ~[model] und ~[model]?
+    Was ist der Unterschied in den ~[model] und ~[model]?
+    Was ist der Unterschied in den ~[model] und ~[model] Modellen?
+    Was ist der Unterschied in den @[make?] ~[model] @[trim-levels], @[trim-levels] & @[trim-levels]?
+    Ich würde gern wissen was die @[make?] ~[model] Modelle unterscheidet?
+    Ich würde gern wissen was die @[make?] ~[model] unterscheidet?
+    Was ist der Unterschied zwischen dem ~[model] und dem ~[model]?
+    Was ist der Unterschied zwischen der ~[model] ~[package] und dem ~[model] ~[package]?
+    Was ist der Unterschied zwischen einem ~[model] und einem ~[model]?
+    Welcher @[model] hat eine bessere Ausstattung? Der ~[model] oder der ~[model]?
+    Welcher @[model] hat eine bessere Ausstattung? Der @[trim-levels] oder der @[trim-levels]?
+    Was ist der Preisunterschied zwischen einem @[model-year] und einem ~[model]?
 
-%[compare#size]('training': '50')
-    Ich suche ein geräumiges Auto. Empfehlen Sie ~[cars] or ~[cars]
-
-%[compare#power]('training': '50')
-    Ich möchte ein Auto mit viel PS. Ich ziehe ~[cars] und ~[cars] in Erwägung.
+~[package]
+    Premium Collection
+    Premium Package

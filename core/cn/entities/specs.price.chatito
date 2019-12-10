@@ -1,0 +1,24 @@
+~[invoice price]('synonym':'true')
+    发票价格
+    经销商价格
+
+~[msrp]('synonym':'true')
+    制造商建议零售价
+    价格
+    价钱
+    建议零售价
+    定价
+
+~[delivery fee]('synonym':'true')
+    交货费用
+
+~[base price]('synonym':'true')
+    低价
+    最低价
+    起拍价
+
+@[specs.price]
+    ~[invoice price]
+    ~[msrp]
+    ~[delivery fee]
+    ~[base price]

@@ -1,0 +1,14 @@
+import ../common.chatito
+import ../entities/trim-levels.chatito
+
+%[list.trims]('training': '200', 'distribution': 'even')
+    Welches @[model] hat @[specs.brain]?
+    Ich möchte einen @[bodystyle] mit @[specs.brain]… ich hatte an den @[model] gedacht
+    Ich möchte einen @[bodystyle] mit @[specs.brain]… ich hatte den @[model] im Auge
+    Welches @[model] hat ein @[specs.brain]
+    Welcher @[model] hat @[specs.brain]?
+    Welche @[model] Modelle haben @[specs.brain] der @[specs.brain]?
+    Ich bin am @[model] interessiert
+    Ich möchte Information über den @[model]
+    Ich interessiere mich für den @[model]
+    Ich suche einen neün @[model-trim]

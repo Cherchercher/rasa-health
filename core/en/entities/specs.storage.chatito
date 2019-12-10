@@ -1,0 +1,78 @@
+~[center console]('synonym':'true')
+    Center Console
+
+~[overhead console]('synonym':'true')
+    Overhead Console
+
+~[seat back storage]('synonym':'true')
+    seat back storage
+
+~[under seat storage]('synonym':'true')
+    under seat storage
+
+~[door pocket storage]('synonym':'true')
+    door pocket storage
+
+~[armreset storage]('synonym':'true')
+    armreset storage
+
+~[cargo volume]('synonym':'true')
+    cargo volume
+    max cargo volume
+    cargo max volume
+    cargo capacity
+    max cargo capacity
+    cargo size
+    cargo space
+    cargo volume with open seats
+    cargo volume with seats
+    cargo volume with seats opened
+
+~[cup holders]('synonym':'true')
+    cup holders
+    Cup Holders
+    cup-holders
+    cupholders
+    beverage holders
+
+~[roof rack]('synonym':'true')
+    roof rack
+
+~[hands free trunk lock]('synonym':'true')
+    hands free trunk lock
+
+~[locking bed storage]('synonym':'true')
+    locking bed storage
+
+~[power liftgate]('synonym':'true')
+    power liftgate
+
+~[hands free liftgate]('synonym':'true')
+    hands free liftgate
+
+~[power trunk]('synonym':'true')
+    power trunk
+
+~[roof rails]('synonym':'true')
+    roof rails
+
+~[cargo tie downs]('synonym':'true')
+    cargo tie downs
+
+~[storage-specs]
+    ~[center console]
+    ~[overhead console]
+    ~[seat back storage]
+    ~[under seat storage]
+    ~[door pocket storage]
+    ~[armreset storage]
+    ~[cargo volume]
+    ~[cup holders]
+    ~[roof rack]
+    ~[hands free trunk lock]
+    ~[locking bed storage]
+    ~[power liftgate]
+    ~[hands free liftgate]
+    ~[power trunk]
+    ~[roof rails]
+    ~[cargo tie downs]

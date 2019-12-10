@@ -1,0 +1,107 @@
+~[hydrogen.fuel-type]('synonym': 'true')
+    hydrogen
+    Hydrogen
+    fuel cell
+    fuel cells
+    fuelcell
+    fuelcells
+    fuel-cell
+    fuel-cells
+    fuel - cell
+    fuel - cells
+    fc
+    fcs
+
+~[diesel.fuel-type]('synonym': 'true')
+    diesel
+    Diesel
+
+~[electric.car]('synonym': 'true')
+    electric
+    electrics
+    fully electric
+    fully electrics
+    ev
+    evs
+
+~[electric.fuel-type]('synonym': 'true')
+    electricity
+    electricity only
+    only on electricity
+
+~[flex-fuel.fuel-type]('synonym': 'true')
+    flex-fuel
+    ffv
+    FFV
+    Flex Fuel
+    flex fuel
+    E85
+    Ethanol
+
+~[hybrid.fuel-type]('synonym': 'true')
+    gasoline and electricity
+    electricity and gasoline
+    gas and electricity
+    electricity and gas
+    petrol and electricity
+    electricity and petrol
+    gasoline and electic
+    electric and gasoline
+    gas and electric
+    electric and gas
+    petrol and electric
+    electric and petrol
+
+~[hybrid.car]('synonym': 'true')
+    hybrid
+    hybrids
+
+~[plug-in hybrid.car]('synonym': 'true')
+    plug-in hybrid
+    plug-in hybrids
+    plug - in hybrid
+    plug - in hybrids
+    plug in hybrid
+    plug in hybrids
+    plugin hybrid
+    plugin hybrids
+    plug-in
+    plug-ins
+    plug - in
+    plug - ins
+    plug in
+    plug ins
+    plugin
+    plugins
+    plugs in
+    phev
+    phevs
+
+~[cng.fuel-type]('synonym': 'true')
+    cng
+    Natural Gas
+    natural gas
+    CNG
+
+~[gasoline.fuel-type]('synonym': 'true')
+    gasoline
+    gas
+    petrol
+
+~[each-fuel-type]
+    ~[hybrid.fuel-type]
+    ~[gasoline.fuel-type]
+    ~[cng.fuel-type]
+    ~[hydrogen.fuel-type]
+    ~[flex-fuel.fuel-type]
+    ~[diesel.fuel-type]
+    ~[electric.fuel-type]
+
+~[fuel-car]
+    ~[hybrid.car]
+    ~[plug-in hybrid.car]
+    ~[electric.car]
+
+@[fuel-type]
+    ~[each-fuel-type]
+    ~[fuel-car]

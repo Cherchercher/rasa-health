@@ -1,0 +1,212 @@
+//technically, not all of these are 'infotainment', but 'audio', 'electronics misc', etc. but are used in
+//user queries simalarily...
+
+~[audio]('synonym':'true')
+    sound system
+    harmon kordon
+
+~[auxilary audio input]('synonym':'true')
+    ~[auxilary] audio input
+    ~[auxilary] input
+    ~[auxilary] cable
+
+~[auxilary]
+    auxilary
+    aux
+
+~[radio type]('synonym':'true')
+    radio type
+
+~[satellite radio]('synonym':'true')
+    sirius
+    siriusxm
+    sirius-xm
+    sirius - xm
+    xm
+    satellite radio
+    sat radio
+    SiriusXM
+
+~[usb connection]('synonym':'true')
+    usb connection
+
+~[total speaker count]('synonym':'true')
+    total speaker count
+    speakers
+    how many speakers
+    total speakers
+
+~[auxilary mp3 input]('synonym':'true')
+    auxilary mp3 input
+
+~[navigation]('synonym':'true')
+    navigation
+    gps
+    nav system
+    navigation system
+    navigation package
+    gps system
+
+~[navigation real time traffic]('synonym':'true')
+    navigation real time traffic
+
+~[12v power outlet]('synonym':'true')
+    12v power outlet
+
+~[ac power outlet]('synonym':'true')
+    ac power outlet
+
+~[usb-ports]('synonym':'true')
+    USB port
+    USB ports
+    USB plug
+    USB plugs
+    USB outlet
+    USB outlets
+    USB
+    USBs
+    phone charging port
+    phone charging ports
+    charging port
+    charging ports
+    usb i can plug
+    usbs i can plug
+    phone charger
+    phone charging
+
+~[usb-ports.plug-in]('synonym':'true')
+    plug ~[in?] ~[my?] usb
+    plug ~[in?] ~[a-the?] usb
+    plug ~[in?] ~[my?] usbs
+    plug ~[in?] ~[a-the?] usbs
+    plug ~[in?] ~[my?] phone
+    plug ~[in?] ~[a-the?] phone
+    plug ~[in?] ~[my?] phones
+    plug ~[in?] ~[a-the?] phones
+
+~[tire pressure display]('synonym':'true')
+    Tire Pressure Display
+    tpms
+    tire pressure
+
+~[external temperature display]('synonym':'true')
+    external temperature display
+
+~[heads up display]('synonym':'true')
+    heads up display
+    heads up
+    heads-up
+    heads - up
+    heads-up display
+    heads - up display
+    headsup
+    head up
+    head-up display
+    head - up display
+    head up display
+
+~[tachometer]('synonym':'true')
+    tachometer
+
+~[bluetooth]('synonym':'true')
+    bluetooth
+    blue tooth
+    bluetooth access
+
+~[android auto]('synonym':'true')
+    android auto
+    androidauto
+
+~[apple carplay]('synonym':'true')
+    apple ~[carplay]
+    ~[carplay]
+
+~[carplay]
+    carplay
+    car play
+
+~[voice system name]('synonym':'true')
+    voice system name
+
+~[touch screen]('synonym':'true')
+    ~[touchscreen]
+    ~[touchscreen] radio
+    ~[touchscreen] dashboard
+    ~[touchscreen] system
+
+~[touchscreen]
+    touchscreen
+    touch screen
+    touch display
+
+~[voice command]('synonym':'true')
+    voice command
+    voice controls
+    voice activated
+    voice recognition
+
+~[remote trunk release]('synonym':'true')
+    remote trunk release
+
+~[remote trunk lock]('synonym':'true')
+    remote trunk lock
+
+~[cruise control]('synonym':'true')
+    ~[cruise-control]
+
+~[cruise-control]
+    cruise control
+    cruise
+
+~[adaptive cruise control]('synonym':'true')
+    adaptive ~[cruise-control]
+    ~[cruise-control] following assist
+    automatic ~[cruise-control]
+    smart ~[cruise-control]
+    radar ~[cruise-control]
+
+~[wireless phone charger]('synonym':'true')
+    wireless phone charger
+    wireless charger
+
+~[push button start]('synonym':'true')
+    push button start
+    push start
+
+~[multi function remote]('synonym':'true')
+    multi function remote
+
+~[stereo anti-theft]('synonym':'true')
+    Stereo Anti-Theft
+
+~[infotainment-specs]
+    ~[auxilary audio input]
+    ~[radio type]
+    ~[satellite radio]
+    ~[usb connection]
+    ~[total speaker count]
+    ~[auxilary mp3 input]
+    ~[navigation]
+    ~[navigation real time traffic]
+    ~[12v power outlet]
+    ~[ac power outlet]
+    ~[usb-ports]
+    ~[usb-ports.plug-in]
+    ~[tire pressure display]
+    ~[external temperature display]
+    ~[heads up display]
+    ~[tachometer]
+    ~[bluetooth]
+    ~[android auto]
+    ~[apple carplay]
+    ~[voice system name]
+    ~[touch screen]
+    ~[voice command]
+    ~[remote trunk release]
+    ~[remote trunk lock]
+    ~[cruise control]
+    ~[adaptive cruise control]
+    ~[wireless phone charger]
+    ~[push button start]
+    ~[multi function remote]
+    ~[stereo anti-theft]

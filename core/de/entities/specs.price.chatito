@@ -1,0 +1,42 @@
+~[invoice price]('synonym':'true')
+    invoice price
+    invoice cost
+    dealer price
+    dealer cost
+
+~[msrp]('synonym':'true')
+    msrp
+    price
+    cost
+    the price
+    prices
+    price range
+    sticker price
+    recommended price
+    suggested price
+    retail price
+    suggested retail price
+    manufacturer price
+
+~[delivery fee]('synonym':'true')
+    delivery fee
+    cost of delivery
+    delivery cost
+    fees
+
+~[base price]('synonym':'true')
+    base price
+    starting price
+    lowest price
+
+~[price-spec]
+    ~[invoice price]
+    ~[msrp]
+    ~[delivery fee]
+    ~[base price]
+
+@[specs.price]
+    ~[invoice price]
+    ~[msrp]
+    ~[delivery fee]
+    ~[base price]

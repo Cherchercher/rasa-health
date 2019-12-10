@@ -25,7 +25,6 @@ To train a custom model, please build the [MITIE Wordrep Tool](https://github.co
 
 You can put in **file path** or **directory path** as the "user_dicts" value. (sample_configs/config_jieba_mitie_sklearn_plus_dict_path.yml)
 
-
 ### Usage:
 
 Add intents and entities under `core/cn/`
@@ -37,11 +36,6 @@ Train the model `rasa train nlu --config configs/cn/rasa_config.yml --nlu ./core
 Add proposed phrases with their corresponding intents and entities under `data/ground_truth_data_de.json`
 
 Test the model at the root of project directory `sh ./tests/cn/test.sh`. Wrong classifications are listed in `result/intent_errors.json`.
-
-
-
-
-
 
 ### Germain NLP
 ### Pretrained Model
@@ -62,16 +56,11 @@ Add proposed phrases with their corresponding intents and entities under `data/g
 Test the model at the root of project directory `sh ./tests/de/test.sh`. Wrong classifications are listed in `result/intent_errors.json`
 
 
-
-
-
-
-
 ### English NLP Training
 
 Add intents and entities under `core/en/`
 
-Generate training phrases `npx chatito core/en --format=rasa --formatOptions=rasaOptions.json --outputPath=core/en --trainingFileName=training_data.json`
+Generate training phrases `npx chatito core/en --format=rasa --formatOptions=./core/en/rasaOptions.json --outputPath=core/en --trainingFileName=training_data.json`
 
 Train the model `rasa train nlu --config configs/en/rasa_config.yml --nlu ./core/en/training_data.json`
 
@@ -80,3 +69,15 @@ Add proposed phrases with their corresponding intents and entities under `data/g
 Test the model at the root of project directory `sh ./tests/en/test.sh`. Wrong classifications are listed in `result/intent_errors.json`
 
 ### Enlish NLU Notes
+
+Intents
+    
+    -availablity
+    -compare
+    -find.dealers
+    -inventory
+    -list.models
+    -list.trims
+    -request.price
+    -request.spec
+    -whatis.spec

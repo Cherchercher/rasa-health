@@ -1,131 +1,35 @@
 import ../common.chatito
+import ../entities/locations.chatito
 
-%[availability#when]('training': '100', 'distribution': 'even')
+//similar to searching for inventory, but availability refers to when a new model or new model year will become available
+%[availability]('training': '200', 'distribution': 'even')
     when will ~[future-model] become available
     are ~[future-model] at the dealer already
     is the ~[future-model] available now
-    when does the ~[future-model] come out
-    when will the ~[future-model] models be available in the ~[relativelocation] area
-    ~[greeting] when will the ~[future-model] be available for pick up in ~[US state]
-    when will the ~[future-model] be available in ~[US state]
-    can you let me know when the ~[future-model] will be released in ~[US state]
+    when ~[optional-spec] ~[future-model] come out
+    when will the ~[future-model] models be available in the ~[relative location] area
+    ~[greeting] when will the ~[future-model] be available for pick up in @[US state]
+    when will the ~[future-model] be available in @[US state]
+    can you let me know when the ~[future-model] will be released in @[US state]
     when do you expect to have the ~[future-model] in ~[relative location]
     is the ~[future-model] out yet or when is it expected to be released
     just want to know when the ~[future-model] is available in ~[relative location]
     when is the ~[future-model] going to be available in ~[relative location]
     when will the ~[future-model] be released
     when will we hear about the ~[future-model]
+    ~[i?] want to know when the @[model] is coming out
+    i want to know when the @[model] is on the market
+    i want to know when the @[model] will be in stock
+    i want to know when the @[model] comes to dealerships
+    ~[declaritive] the new @[model] when will you have them in stock
+    any ~[future-model] available yet
+    any @[fuel-type] coming to us market
+    any idea when the @[model] will start showing up in ~[relative-location] dealerships
+    any idea when the @[model] is launching
+    is the @[model] @[fuel-type] available now
+    is the @[model] @[fuel-type] available yet
 
-~[US state]
-    Alaska
-    California
-    Colorado
-    Connecticut
-    Hawaii
-    Illinois
-    Maryland
-    Massachusetts
-    Michigan
-    Minnesota
-    Montana
-    New Jersey
-    New York
-    Oregon
-    Pennsylvania
-    Rhode Island
-    South Carolina
-    Tennessee
-    Texas
-    Utah
-    Vermont
-    Virginia
-    Washington
-    Wisconsin
-
-~[region fragment]
-    north
-    south
-    east
-    west
-    northwest
-    north west
-    northeast
-    north east
-    southwest
-    south west
-    southeast
-    south east
-    northern
-    southern
-
-~[US city]
-    ~[New York]
-    Los Angeles
-    Chicago
-    Houston
-    Phoenix
-    Philadelphia
-    San Antonio
-    San Diego
-    Dallas
-    San Jose
-    Austin
-    Jacksonville
-    Fort Worth
-    Columbus
-    San Francisco
-    Charlotte
-    Indianapolis
-    Seattle
-    Denver
-    Washington
-    Boston
-    El Paso
-    Detroit
-    Nashville
-    Portland
-    Memphis
-    Oklahoma City
-    Las Vegas
-    Louisville
-    Baltimore
-    Milwaukee
-    Albuquerque
-    Tucson
-    Fresno
-    Mesa
-    Sacramento
-    Atlanta
-    Kansas City
-    Colorado Springs
-    Miami
-    Raleigh
-    Omaha
-
-~[New York]
-    nyc
-    new york city
-
-//sample zip codes
-~[zipcode]
-    16820
-    29620
-    04406
-    54405
-    76621
-    17301
-    67510
-    20606
-    58001
-    21001
-    21005
-    35440
-    79311
-    68001
-
-~[relative location]
-    ~[US state]
-    ~[region fragment] ~[US state]
-    ~[region fragment] ~[US state] area
-    ~[US city]
-    ~[zipcode]
+//===intent notes
+//users are generally asking if an upcoming model is released yet or when it will be.
+//if the model is not yet released, return release date and ask for email to keep updated
+//if model is out, return inventory

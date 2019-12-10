@@ -1,12 +1,49 @@
-~[year]
-    2020
-    2019
-    2018
-    2017
+import ./entities/bodystyle.chatito
+import ./entities/model-trims.chatito
+import ./entities/makes.chatito
+import ./entities/trims.chatito
+import ./entities/model-year.chatito
+import ./entities/color.chatito
+import ./entities/specs.chatito
+import ./entities/specs.fuelconsumption.chatito
+import ./entities/specs.infotainment.chatito
+import ./entities/specs.price.chatito
+import ./entities/specs.safety.chatito
+import ./entities/specs.seating.chatito
+import ./entities/specs.storage.chatito
+import ./entities/specs.wheels.chatito
+import ./entities/attributes.chatito
+import ./entities/trim-levels.chatito
+import ./entities/fuelType.chatito
+import ./entities/specs.drivetrain.chatito
+import ./entities/specs.warranty.chatito
+import ./entities/locations.chatito
+
+~[searching]
+    寻找
+    在
+    在找
+    找
+    想要找
+
+~[I]
+    我
+    我的
+
+~[he-she-i]
+    我
+    她
+    他们
 
 ~[car]
     ~[only-car]
     ~[each-model] ~[model?] ~[year?]
+
+~[future-model]
+    @[model year-future]@[model]
+    @[model year-future]的@[model]
+    新的@[model]
+    那个新的@[model]
 
 ~[only-car]
     车
@@ -15,7 +52,10 @@
     小轿车
 
 ~[model]
-    optima
+    @[model]
+    @[model-trim]
+    ~[model-year] @[model]
+    ~[model-year] @[model-trim]
 
 ~[dislike]
     我不喜欢
@@ -37,10 +77,20 @@
     如果
     会怎么样呢
 
-~[received]
-    received
-    given
-    got
+~[what-difference]
+    有什么不同
+    有什么区别
+    有什么不一样
+    有不同吗
+    不一样吗
+    不一样的
+    一样不
+    一样吗
+    有差吗
+
+~[and-or]
+    或
+    和
 
 ~[me]
     我
@@ -72,3 +122,63 @@
 ~[states]
     广东省
     山东省
+
+~[what-which]
+    哪个
+    哪样
+    哪款
+    哪部
+
+~[it-car]
+    这个
+    这个型号
+    这样
+    这款
+    这部
+
+~[has]
+    有
+    拥有
+
+~[declaritive]
+    ~[I?]想问一下
+    ~[I?]请问一下
+    ~[I?]想请问一下
+    ~[I?]感兴趣
+    ~[I?]想知道
+
+~[greeting]
+    你好
+    亲
+    早上好
+    hi
+    hello
+    嗨
+    打扰一下
+    您好
+
+~[buy]
+    买
+    得到
+    挑选
+    购买
+
+~[can]
+    能
+    可以
+
+~[want-to-know]
+    ~[I?]想知道
+    ~[I?]想问一下
+    问一下
+    你知道
+
+~[quantify-price]
+    多少钱
+    怎么买
+    怎么卖
+    这需要多少钱
+
+
+
+

@@ -1,0 +1,52 @@
+import ../common.chatito
+import ../entities/attributes.chatito
+
+//seeks [models Y] with [specified entity value X]
+%[list.models]('training': '200', 'distribution': 'even')
+    Ich möchte einen @[seater] @[bodystyle] mit @[specs.brain] unter ~[num-msrp].
+    Ich suche einen @[seater].
+    Wo kann ich einen @[seater] finden?
+    Suche ein @[bodystyle] mit ~[2-8] oder @[seater].
+    Haben irgendwelche Kias @[specs.brain]?
+    Gibt es Kias mit @[specs.brain] oder @[specs.brain]?
+    Haben sie Autos mit @[specs.brain]?
+    Haben sie einen @[seater]?
+    Haben Sie Autos in denen @[seater] sitzen können?
+    Welcher @[make] hat den groessten Innenraum?
+    Welcher ist der ~[best] @[make]?
+
+//need some phrases with optional specs
+//need some phrases with optional specs propulsion/fueltype
+
+~[a/the]
+    a
+    an
+    the
+
+~[best]
+    schnellste
+    sicherste
+    billigste
+
+~[num-msrp]
+    10k
+    10000
+    11k
+    11000
+    12k
+    12000
+    18k
+    18000
+    19k
+    19000
+    25k
+    25000
+    29k
+    29000
+    33k
+    33000
+    35k
+    35000
+
+//need some phrases for optional specs
+//need some phrases for propulsion/fueltype

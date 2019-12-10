@@ -1,0 +1,205 @@
+~[collision avoidance]('synonym':'true')
+    ~[collision] avoidance
+    ~[collision] ~[assist]
+    ~[collision] avoidance ~[assist]
+    forward ~[collision] avoidance
+    forward ~[collision] avoidance ~[assist]
+    forward ~[collision] ~[brake]
+    anti ~[collision]
+
+~[brake]
+    刹车
+
+~[automatic emergency braking]('synonym':'true')
+    ~[auto] emergency ~[brake]
+    ~[auto] ~[brake]
+    ~[auto] ~[brake] ~[assist]
+    自动刹车
+    自动紧急刹车
+
+~[auto]
+    自动
+    自动的
+
+~[collision]
+    collision
+    accident
+
+~[blind spot detection]('synonym':'true')
+    blind spot ~[detection]
+    blind spot ~[collision] ~[alert]
+    blind spot ~[collision] avoidance
+    blind spot ~[alert]
+    盲点检测
+
+~[detection]
+    detection
+    monitoring
+    monitor
+
+~[rear cross traffic alert]('synonym':'true')
+    rear ~[cross-traffic] ~[alert] ~[system?]
+    rear ~[cross-traffic] ~[collision] ~[alert]
+    后部碰撞警示系统
+
+~[forward collision warning]('synonym':'true')
+    forward ~[collision] warning
+    forward ~[collision] ~[alert]
+    ~[collision] ~[alert]
+    前部碰撞警示系统
+
+~[lane change assist]('synonym':'true')
+    ~[lane-keep] ~[assist]
+    lane ~[assist]
+    lane keep
+    LKA
+    变道辅助
+    并线辅助
+
+~[lane departure warning]('synonym':'true')
+    lane departure ~[alert]
+    ~[lane-keep] ~[alert]
+
+~[airbags]('synonym':'true')
+    ~[airbag]
+
+~[airbag]
+    气囊
+    安全气囊
+
+~[side airbags]('synonym':'true')
+    side ~[airbags]
+    侧边气囊
+
+~[passenger airbags]('synonym':'true')
+    passenger ~[airbags]
+    乘客气囊
+    乘客安全气囊
+
+~[driver airbags]('synonym':'true')
+    driver ~[airbags]
+    驾驶员气囊
+    驾驶员安全气囊
+
+~[passenger airbags deactivation]('synonym':'true')
+    passenger ~[airbags] deactivation
+    关闭乘客安全气囊
+
+~[side airbags curtain]('synonym':'true')
+    side ~[airbags] curtain
+    侧安全气囊帘
+
+~[airbag rollover sensor]('synonym':'true')
+    ~[airbags] rollover sensor
+    安全气囊侧翻传感器
+
+~[exterior view camera]('synonym':'true')
+    行车记录仪
+    倒车影像
+
+~[child proof door locks]('synonym':'true')
+    防儿童安全门锁
+    儿童安全锁
+
+~[anti-theft alarm system]('synonym':'true')
+    ~[anti-theft] system
+    ~[anti-theft] device
+    ~[anti-theft] alarm system
+    ~[anti-theft] ~[alert]
+    ~[anti-theft] tracking
+    防盗报警系统
+
+~[parking assist description]('synonym':'true')
+    parking assist description
+    ~[park] ~[assist]
+    ~[park] sensors
+    停车辅助
+    泊车辅助
+    ~[auto] ~[park] system
+
+~[park]
+    停车
+
+~[surround view monitor]('synonym':'true')
+    环绕监视器
+    360度监视器
+    多角度监视器
+
+~[hill start assist]('synonym':'true')
+    陡坡起步辅助
+    坡道起步辅助
+
+~[brake assist]('synonym':'true')
+    ~[brake] ~[assist]
+    ~[auto] ~[brake]
+    ~[auto] ~[brake] ~[assist]
+
+~[anti-theft]
+    防盗
+
+~[safety-spec]
+    ~[collision avoidance]
+    ~[automatic emergency braking]
+    ~[blind spot detection]
+    ~[rear cross traffic alert]
+    ~[forward collision warning]
+    ~[lane change assist]
+    ~[lane departure warning]
+    ~[exterior view camera]
+    ~[anti-theft alarm system]
+    ~[surround view monitor]
+
+~[airbag-spec]
+    ~[airbags]
+    ~[side airbags]
+    ~[passenger airbags]
+    ~[driver airbags]
+    ~[passenger airbags deactivation]
+    ~[side airbags curtain]
+    ~[airbag rollover sensor]
+
+
+~[assist-spec]
+    ~[parking assist description]
+    ~[hill start assist]
+    ~[brake assist]
+
+~[lane-keep]
+    车道保持
+    变道
+
+~[cross-traffic]
+    交叉交通
+    交叉交通
+    交叉交通
+
+~[alert]
+    告警
+    报警
+    报警系统
+
+~[assist]
+    辅助
+
+@[specs.safety]
+    ~[collision avoidance]
+    ~[automatic emergency braking]
+    ~[blind spot detection]
+    ~[rear cross traffic alert]
+    ~[forward collision warning]
+    ~[lane change assist]
+    ~[lane departure warning]
+    ~[airbags]
+    ~[side airbags]
+    ~[passenger airbags]
+    ~[driver airbags]
+    ~[passenger airbags deactivation]
+    ~[side airbags curtain]
+    ~[airbag rollover sensor]
+    ~[exterior view camera]
+    ~[child proof door locks]
+    ~[anti-theft alarm system]
+    ~[parking assist description]
+    ~[surround view monitor]
+    ~[hill start assist]
+    ~[brake assist]

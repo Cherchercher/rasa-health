@@ -1,0 +1,76 @@
+~[center console]('synonym':'true')
+    中控
+    中控台
+
+~[overhead console]('synonym':'true')
+    顶部操纵板
+
+~[seat back storage]('synonym':'true')
+    座椅靠背存储
+
+~[under seat storage]('synonym':'true')
+    座椅下存储
+
+~[door pocket storage]('synonym':'true')
+    门套存储
+
+~[armreset storage]('synonym':'true')
+    靠手存储
+
+~[cargo volume]('synonym':'true')
+    载货量
+    cargo volume
+    max cargo volume
+    cargo max volume
+    cargo capacity
+    max cargo capacity
+    cargo size
+    cargo space
+    cargo volume with open seats
+    cargo volume with seats
+    cargo volume with seats opened
+
+~[cup holders]('synonym':'true')
+    饮料容器托座
+    杯架
+
+~[roof rack]('synonym':'true')
+    车顶行李架
+
+~[hands free trunk lock]('synonym':'true')
+    免提行李箱锁
+
+~[power liftgate]('synonym':'true')
+    电动尾门
+    电动后备箱门
+    电动行李箱门
+
+~[hands free liftgate]('synonym':'true')
+    免提后备箱门
+    免提行李箱门
+
+~[power trunk]('synonym':'true')
+    power trunk
+
+~[roof rails]('synonym':'true')
+    车顶纵梁
+
+~[cargo tie downs]('synonym':'true')
+    cargo tie downs
+
+@[specs.storage]
+    ~[center console]
+    ~[overhead console]
+    ~[seat back storage]
+    ~[under seat storage]
+    ~[door pocket storage]
+    ~[armreset storage]
+    ~[cargo volume]
+    ~[cup holders]
+    ~[roof rack]
+    ~[hands free trunk lock]
+    ~[power liftgate]
+    ~[hands free liftgate]
+    ~[power trunk]
+    ~[roof rails]
+    ~[cargo tie downs]

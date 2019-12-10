@@ -1,0 +1,18 @@
+//trim levels
+~[top trim]('synonym': 'true')
+    顶配
+    全配
+    最高配
+
+~[sport trim]('synonym': 'true')
+    运动型配置
+
+~[base trim]('synonym': 'true')
+    基础配置
+    最低配
+    基础款
+
+@[trim-level]
+    ~[top trim]
+    ~[sport trim]
+    ~[base trim]

@@ -1,0 +1,284 @@
+///////////////////////
+//       Specs       //
+///////////////////////
+
+~[front a/c]('synonym':'true')
+    前空调
+
+~[front a/c zones]('synonym':'true')
+    前空调区
+    双区
+    双区加热
+    双区制冷
+    双区制热
+    单区
+    双区空调
+
+~[rear a/c]('synonym':'true')
+    后座 ~[air conditioning]
+    后排 ~[air conditioning]
+    ~[air conditioning] 后座通风口
+    ~[second row] 空调
+
+//~[sun sensor]('synonym':'true')
+//    sun sensor
+
+//~[air filtration]('synonym':'true')
+//    air filtration
+
+//~[total a/c zones]('synonym':'true')
+///    total a/c zones
+
+~[a/c control type]('synonym':'true')
+    空调类型
+    自动调节
+    自动的 ~[air conditioning]
+
+~[air conditioning]
+    空调
+
+//~[a/c control location]('synonym':'true')
+//    a/c control location
+
+//~[air condition optional]('synonym':'true')
+//    air condition optional
+
+//~[front parking assist]('synonym':'true')
+//    front parking assist
+
+//~[rear parking assist]('synonym':'true')
+//    rear parking assist
+
+//~[ultrasonic parking assist]('synonym':'true')
+//    ultrasonic parking assist
+
+//~[camera parking assist]('synonym':'true')
+//    camera parking assist
+
+//~[auto parking system]('synonym':'true')
+//    automatic parking system
+
+~[doors]('synonym':'true')
+    门数量
+    ~[door count] door
+    ~[door count] doors
+
+~[door count]
+    2
+    4
+    5
+    二
+    四
+    五
+
+//~[vehicle body type]('synonym':'true')
+//    vehicle body type
+
+//~[vehicle body style]('synonym':'true')
+//    vehicle body style
+
+//~[vehicle size]('synonym':'true')
+//    vehicle size
+
+//~[sliding driver van door]('synonym':'true')
+//    sliding driver van door
+
+//~[sliding passenger van door]('synonym':'true')
+//    sliding passenger van door
+
+//~[power sliding doors]('synonym':'true')
+//    power sliding doors
+
+//~[body description]('synonym':'true')
+//    body description
+
+//~[underbody protection]('synonym':'true')
+//    Underbody Protection
+
+//~[side door beams]('synonym':'true')
+//    Side Door Beams
+//    anti-intrusion beams
+//    side impact beams
+//    side-impact beams
+
+//~[body color bumpers]('synonym':'true')
+//    Body Color Bumpers
+
+//~[body color side cladding]('synonym':'true')
+//    Body Color Side Cladding
+
+//~[front brake type]('synonym':'true')
+//    front brake type
+
+//~[rear brake type]('synonym':'true')
+//    rear brake type
+
+~[ABS]('synonym':'true')
+    abs
+    abs braking
+    abs brakes
+    anti blocking system
+
+//~[cargo volume seats in]('synonym':'true')
+//    cargo volume seats in
+
+//~[cargo volume seats out]('synonym':'true')
+//    cargo volume seats out
+
+//~[turning diameter]('synonym':'true')
+//    turning diameter
+
+~[towing capacity]('synonym':'true')
+    牵引力
+    牵引重量
+    牵引能力
+
+~[payload]('synonym':'true')
+    载重量
+    负荷
+
+~[0-60 mph]('synonym':'true')
+    0-60
+    0-60 英里每小时
+    0-60 英里
+    0-60 英里每小时 时间
+
+//~[0 to 60 mph time calculated]('synonym':'true')
+//    0 to 60 MPH Time Calculated
+
+//~[0 to 100 kph time calculated]('synonym':'true')
+//    0 to 100 KPH Time Calculated
+
+~[curb weight]('synonym':'true')
+    整备质量
+    净重
+    汽车净重
+
+~[gross weight]('synonym':'true')
+    车辆总重量
+    总重量
+
+~[vehicle height]('synonym':'true')
+    高
+    车高
+
+~[vehicle width]('synonym':'true')
+    宽
+    车宽
+
+~[vehicle length]('synonym':'true')
+    车长
+
+~[wheelbase]('synonym':'true')
+    轴距
+
+~[ground clearance]('synonym':'true')
+    离地净高
+    离地距离
+
+~[bed width]('synonym':'true')
+    底盘宽度
+
+~[bed height]('synonym':'true')
+    底盘高度
+
+~[front track width]('synonym':'true')
+    前轨宽度
+
+~[rear track width]('synonym':'true')
+    后轨宽度
+
+~[bed length]('synonym':'true')
+    底盘长度
+
+~[displacement cc]('synonym':'true')
+    排量 立方厘米
+
+~[displacement litre]('synonym':'true')
+    排量 升
+
+~[number of cylinders]('synonym':'true')
+    气缸数量
+    气缸数
+
+~[engine valve count]('synonym':'true')
+    发动机气门数
+    发动机阀门数
+
+~[engine configuration]('synonym':'true')
+    发动机配置
+    引擎配置
+
+~[power steering type]('synonym':'true')
+    动力转向类型
+
+~[steering system description]('synonym':'true')
+    转向系统类型
+    操舵系统
+
+~[model year]('synonym':'true')
+    新车款式
+    年份款式
+
+~[make]('synonym':'true')
+    制造
+
+~[trim name]('synonym':'true')
+    内饰名称
+    内饰名
+
+@[specs]
+    ~[front a/c]
+
+//spec types
+@[optional-specs]
+    ~[navigation]
+    ~[rear a/c]
+    ~[parking assist description]
+    ~[usb-ports]
+    ~[collision avoidance]
+    ~[automatic emergency braking]
+    ~[blind spot detection]
+    ~[rear cross traffic alert]
+    ~[forward collision warning]
+    ~[lane change assist]
+    ~[lumbar support driver]
+    ~[memory seat controls]
+    ~[power driver seat]
+    ~[power lumbar control]
+    ~[active head restraints]
+    ~[second row head restraints]
+    ~[satellite radio]
+    ~[usb connection]
+    ~[auxilary mp3 input]
+    ~[navigation real time traffic]
+    ~[navigation]
+
+~[indicator-spec]
+    ~[driven wheels]
+    ~[transmission type]
+    ~[fuel]
+    ~[engine description]
+
+~[engine-spec]
+    ~[engine description]
+    ~[horsepower]
+
+~[count-spec]
+    ~[total seat count]
+    ~[highway mpg]
+    ~[combined mpg]
+    ~[city mpg]
+
+~[size-spec]
+    ~[cargo volume]
+
+~[seats-spec]
+    ~[total seat count]
+    ~[1st Row Seating Count]
+    ~[2nd Row Seating Count]
+
+~[measure-spec]
+    ~[curb weight]
+    ~[vehicle width]
+    ~[vehicle height]

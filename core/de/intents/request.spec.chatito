@@ -1,0 +1,32 @@
+import ../common.chatito
+import ../entities/attributes.chatito
+import ../entities/trim-levels.chatito
+
+//this intent is to get a definite value for a specification
+//requesting the spec's value by matching the specs name or synonym
+//seeks [unknown entity value X] of [specified entity name E] as related to [specified model/trim Y]
+//seeks binary value of specified entity name as related to specified model/trim Y
+
+%[request.spec]('training': '450', 'distribution': 'even')
+    Was ist die @[specs.brain] vom ~[model]?
+    Wieviel @[specs.brain] hat der ~[model] mit der AUSSTATTUNG?
+    Haben alle Fortes @[specs.brain]?
+    Ich würde gern wissen ob der @[model-year] @[model-trim] verfügar ist in der @[trim-levels] version?
+    Ist ein Kompass vorhanden in allen Versionen des @[model]?
+    Hat der @[model] klimatisierte Sitze?
+    ~[model] mit einem @[specs.brain]?
+    Hat der @[make] @[model] Vierradantrieb?
+    Hallo Kian, kann ich ein ~[model] haben?
+    Gibt es den @[model] mit @[specs.brain]?
+    Hat das @[make] ~[model] @[specs.brain]?
+    Hat der @[make] @[specs.brain]?
+    Hat der @[model-year] @[make] @[model-trim] @[specs.brain]?
+    @[model] @[specs.brain]
+    Hat der @[model] @[specs.brain]?
+    Kann man den @[model] mit @[specs.brain] bestellen?
+//the difference between request and list is the language the user uses to indicate a response type
+//request.spec is for definite values (including binaries, which are definite values)
+//users are doing request.spec when they structure their queries so they attempt to find value of X --
+// -- in/on/included some item Y. 
+// the response should then be the value of requested.spec rather than a list of trims with spec of value X
+// the fallback in the case of a false binary, should be list.trims that have binary value true

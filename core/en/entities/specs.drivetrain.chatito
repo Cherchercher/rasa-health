@@ -1,0 +1,138 @@
+~[engine description]('synonym':'true')
+    engine description
+    engine
+    engine size
+    size engine
+    displacement
+    cylinders
+    litres
+    engine configuration
+
+~[horsepower]('synonym':'true')
+    horsepower
+    hp
+    horse power
+    HP
+
+~[torque]('synonym':'true')
+    Torque
+    the torque
+
+~[fuel]('synonym':'true')
+    fuel
+    fuel type
+    gas
+    diesel
+    regular gas
+    gasoline
+    electric
+
+~[recommended fuel type]('synonym':'true')
+    Recommended Fuel Type
+    regular unleaded
+    premium fuel
+    premium gas
+    type of gas
+    premium unleaded
+    unleaded
+
+~[compressor type]('synonym':'true')
+    compressor type
+    turbo
+    turbocharger
+    turbocharged
+
+~[electric horsepower]('synonym':'true')
+    electric horsepower
+    ev horsepower
+
+~[emission description]('synonym':'true')
+    emission description
+
+~[fuel system description]('synonym':'true')
+    Fuel System Description
+    direct injection
+    GDI
+    diesel direct injection
+    Sequential Electronic Fuel Injected
+    Multi Port Fuel Injected
+    multi port
+
+~[transmission type]('synonym':'true')
+    transmission type
+    transmission
+    manual
+    automatic
+    automanual
+    transmission type
+    manual transmission
+    automatic transmission
+
+~[co2]('synonym':'true')
+    co2 grams/mile
+    co2
+    co2 per mile
+    co2 grams per mile
+    emissions
+    vehicle emissions
+    car emissions
+
+~[manual transmission option]('synonym':'true')
+    manual transmission option
+
+~[automatic transmission option]('synonym':'true')
+    Automatic Transmission Option
+
+~[manually interactive transmission]('synonym':'true')
+    manually interactive transmission
+
+~[driven wheels]('synonym':'true')
+    AWD
+    awd
+    all wheel drive
+    all wheel
+    4 wheel drive
+    4x4
+    4 wheel drive
+    4 wheel
+    four wheel drive
+    four-wheel-drive
+    front wheel drive
+    fwd
+    rear wheel drive
+    rwd
+
+~[awd type]('synonym':'true')
+    awd type
+
+~[traction control]('synonym':'true')
+    traction control
+    stability control
+    tcs
+    traction
+    traction-control
+    traction control
+
+~[remote start]('synonym':'true')
+    remote start
+    remote engine start
+
+~[specs-drivetrain]
+    ~[engine description]
+    ~[horsepower]
+    ~[torque]
+    ~[fuel]
+    ~[recommended fuel type]
+    ~[compressor type]
+    ~[electric horsepower]
+    ~[emission description]
+    ~[fuel system description]
+    ~[transmission type]
+    ~[co2]
+    ~[manual transmission option]
+    ~[automatic transmission option]
+    ~[manually interactive transmission]
+    ~[driven wheels]
+    ~[awd type]
+    ~[traction control]
+    ~[remote start]

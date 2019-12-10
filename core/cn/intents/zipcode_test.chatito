@@ -1,0 +1,6 @@
+import ../common.chatito
+
+%[inventory]('training': '10')
+    ~[I]邮递区号是@[zipcode]
+    这是~[I]邮递区号@[zipcode]
+    @[zipcode]

@@ -1,4 +1,4 @@
-@[convertible]('entity': 'bodystyle')
+~[convertible]('synonym':'true')
     convertible
     convertibles
     cabriolet
@@ -7,30 +7,27 @@
     landau
     roadster
 
-@[coupe]('entity': 'bodystyle')
+~[coupe]('synonym':'true')
     coupe
     coupes
     2dr
     two door  
     2 door
 
-@[sedan]('entity': 'bodystyle')
-    sedan
-    sedans
-
-@[wagon]('entity': 'bodystyle')
+~[wagon]('synonym':'true')
     wagon
     wagons
     station wagon
 
-@[suv]('entity': 'bodystyle')
+~[suv]('synonym':'true')
+    Kombi
     suv
     sport utility vehicle
     suvs
     sport utility vehicles
     SUVs
 
-@[crossover]('entity': 'bodystyle')
+~[crossover]('synonym':'true')
     cuv
     cuvs
     crossover
@@ -38,7 +35,7 @@
     crossovers
     cross overs
 
-@[hatchback]('entity': 'bodystyle')
+~[hatchback]('synonym':'true')
     hatchback
     hatchbacks
     hachback
@@ -46,13 +43,13 @@
     5 door
     5door
 
-@[minivan]('entity': 'bodystyle')
+~[minivan]('synonym':'true')
     minivan
     minivans
     van
     mini van
 
-@[truck]('entity': 'bodystyle')
+~[truck]('synonym':'true')
     truck
     pickup
     trucks
@@ -61,23 +58,41 @@
     extended cab
     regular cab
 
-@[sports car]('entity': 'bodystyle')
+~[sports car]('synonym':'true')
     sports car
     sports cars
 
-@[micro car]('entity': 'bodystyle')
+~[micro car]('synonym':'true')
     microcar
     micro car
 
-~[bodystyle]
-    @[convertible]
-    @[coupe]
-    @[sedan]
-    @[wagon]
-    @[suv]
-    @[crossover]
-    @[hatchback]
-    @[minivan]
-    @[truck]
-    @[sports car]
-    @[micro car]
+~[5-door]
+    5-door
+    5 door
+    5dr
+    five door
+    hatchback
+    hatch
+
+~[sedan]
+    sedan
+    sedans
+    4-door
+    4 door
+    4 dr
+    4-dr
+    four door
+
+@[bodystyle]
+    ~[convertible]
+    ~[coupe]
+    ~[sedan]
+    ~[wagon]
+    ~[suv]
+    ~[crossover]
+    ~[hatchback]
+    ~[minivan]
+    ~[truck]
+    ~[sports car]
+    ~[micro car]
+    Familienmodell

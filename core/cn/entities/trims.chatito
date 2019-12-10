@@ -1,0 +1,86 @@
+//ambiguous models 
+~[cadenza]('synonym':'true')
+    凯尊
+
+~[forte]('synonym':'true')
+    福瑞迪
+
+~[k900]('synonym':'true')
+    k900
+    k 900
+    k900s
+
+~[niro]('synonym':'true')
+    极睿
+
+~[niro ev]('synonym':'true')
+    极睿 电动版
+    niro ~[ev]
+    nitro ~[ev]
+    ~[ev] nitro
+    ~[ev] niro
+    nero ~[ev]
+    ~[ev] nero
+
+~[niro plug-in hybrid]('synonym':'true')
+    极睿 插电式混动版
+    niro ~[phev]
+
+~[optima]('synonym':'true')
+    远舰
+
+~[optima hybrid]('synonym':'true')
+    远舰 混动版
+    optima ~[hybrid]
+    ~[hybrid] optima
+
+~[optima plug-in hybrid]('synonym':'true')
+    optima plug-in hybrid
+    optima ~[phev]
+    ~[phev] optima
+
+~[rio]('synonym':'true')
+    锐欧
+    rio ~[sedan]
+
+~[rio 5-door]('synonym':'true')
+    锐欧 5门
+    rio ~[5-door]
+
+~[soul]('synonym':'true')
+    秀儿
+    秀儿 普通版
+
+~[soul ev]('synonym':'true')
+    秀儿 电动版
+    soul ~[ev]
+    ~[ev] soul
+
+~[sorento]('synonym':'true')
+    索兰托
+
+~[sportage]('synonym':'true')
+    狮跑
+
+~[stinger]('synonym':'true')
+    斯汀格
+~[telluride]('synonym':'true')
+    特柳赖德
+
+//model without a specified trim
+@[model]
+    ~[cadenza]
+    ~[forte]
+    ~[k900]
+    ~[niro]
+    ~[niro ev]
+    ~[niro plug-in hybrid]
+    ~[optima]
+    ~[optima hybrid]
+    ~[optima plug-in hybrid]
+    ~[rio]
+    ~[rio 5-door]
+    ~[stinger]
+    ~[sorento]
+    ~[telluride]
+

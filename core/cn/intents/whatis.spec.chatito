@@ -1,0 +1,21 @@
+import ../common.chatito
+
+%[whatis.spec]('training': '100', 'distribution': 'even')
+    @[specs.safety]意味着~[the car]~[do some function]
+    这辆车的@[specs.safety]]有什么
+    这辆车的@[specs.safety]有什么好处吗
+    这@[specs.safety]~[can]自动停车吗
+    @[specs.safety]意味着~[the car]~[can]~[do some function]吗
+    @[specs.safety]在~[model]中做些什么
+    @[specs.safety]的时候做什么
+
+~[the car]
+    这辆车
+    它
+
+~[do some function]
+    自动刹车
+
+~[in an accident]
+    在侧面碰撞中
+    在碰撞中

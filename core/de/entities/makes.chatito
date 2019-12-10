@@ -1,0 +1,8 @@
+~[kia]('synonym':'true')
+    Kia
+    Kias
+    Kai
+    Kia
+
+@[make]
+    ~[kia]

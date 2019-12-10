@@ -1,0 +1,199 @@
+~[collision avoidance]('synonym':'true')
+    ~[collision] avoidance
+    ~[collision] ~[assist]
+    ~[collision] avoidance ~[assist]
+    forward ~[collision] avoidance
+    forward ~[collision] avoidance ~[assist]
+    forward ~[collision] ~[brake]
+    anti ~[collision]
+
+~[brake]
+    brakes
+    breaks
+    braking
+    breaking
+
+~[automatic emergency braking]('synonym':'true')
+    ~[auto] emergency ~[brake]
+    ~[auto] ~[brake]
+    ~[auto] ~[brake] ~[assist]
+    stop automatically
+    aeb
+
+~[auto]
+    auto
+    automatic
+
+~[collision]
+    collision
+    accident
+
+~[blind spot detection]('synonym':'true')
+    toten Winkel
+    blind spot ~[detection]
+    blind spot ~[collision] ~[alert]
+    blind spot ~[collision] avoidance
+    blind spot ~[alert]
+
+~[detection]
+    detection
+    monitoring
+    monitor
+
+~[rear cross traffic alert]('synonym':'true')
+    rear ~[cross-traffic] ~[alert] ~[system?]
+    rear ~[cross-traffic] ~[collision] ~[alert]
+    RCCW
+    rccw
+
+~[forward collision warning]('synonym':'true')
+    forward ~[collision] warning
+    forward ~[collision] ~[alert]
+    ~[collision] ~[alert]
+    FCW
+
+~[lane change assist]('synonym':'true')
+    ~[lane-keep] ~[assist]
+    lane ~[assist]
+    lane keep
+    LKA
+
+~[lane departure warning]('synonym':'true')
+    lane departure ~[alert]
+    ~[lane-keep] ~[alert]
+
+~[airbags]('synonym':'true')
+    ~[airbag]
+
+~[airbag]
+    airbag
+    air bag
+    airbags
+    air bags
+
+~[side airbags]('synonym':'true')
+    side ~[airbags]
+
+~[passenger airbags]('synonym':'true')
+    passenger ~[airbags]
+
+~[driver airbags]('synonym':'true')
+    driver ~[airbags]
+
+~[passenger airbags deactivation]('synonym':'true')
+    passenger ~[airbags] deactivation
+
+~[side airbags curtain]('synonym':'true')
+    side ~[airbags] curtain
+
+~[airbag rollover sensor]('synonym':'true')
+    ~[airbags] rollover sensor
+
+~[exterior view camera]('synonym':'true')
+    exterior view camera
+    camera
+    backup camera
+
+~[child proof door locks]('synonym':'true')
+    child proof door locks
+    child locks
+    child safety locks
+
+~[anti-theft alarm system]('synonym':'true')
+    ~[anti-theft] system
+    ~[anti-theft] device
+    ~[anti-theft] alarm system
+    ~[anti-theft] ~[alert]
+    ~[anti-theft] tracking
+
+~[parking assist description]('synonym':'true')
+    parking assist description
+    ~[park] ~[assist]
+    ~[park] sensors
+    parking assistance
+    ~[auto] ~[park] system
+
+~[park]
+    park
+    parking
+
+~[surround view monitor]('synonym':'true')
+    360 monitor
+    360 view
+    360 display
+    360 degree view
+    360 degree
+    surround view
+    surround view monitor
+    surround view display
+    multi angle monitor
+    multi angle display
+
+~[hill start assist]('synonym':'true')
+    hill start assist
+    hill assist
+    hill start
+
+~[brake assist]('synonym':'true')
+    ~[brake] ~[assist]
+    ~[auto] ~[brake]
+    ~[auto] ~[brake] ~[assist]
+
+~[anti-theft]
+    anti-theft
+    anti theft
+    antitheft
+
+~[airbag-spec]
+    ~[airbags]
+    ~[side airbags]
+    ~[passenger airbags]
+    ~[driver airbags]
+    ~[passenger airbags deactivation]
+    ~[side airbags curtain]
+    ~[airbag rollover sensor]
+
+~[assist-spec]
+    ~[parking assist description]
+    ~[hill start assist]
+    ~[brake assist]
+
+~[lane-keep]
+    lane change
+    lane keep
+
+~[cross-traffic]
+    cross traffic
+    cross-traffic
+    crosstraffic
+
+~[alert]
+    Warnungssystem 
+
+~[assist]
+    assist
+    assistance
+    assistant
+
+~[safety-specs]
+    ~[collision avoidance]
+    ~[automatic emergency braking]
+    ~[blind spot detection]
+    ~[rear cross traffic alert]
+    ~[forward collision warning]
+    ~[lane change assist]
+    ~[lane departure warning]
+    ~[airbags]
+    ~[side airbags]
+    ~[passenger airbags]
+    ~[driver airbags]
+    ~[passenger airbags deactivation]
+    ~[side airbags curtain]
+    ~[airbag rollover sensor]
+    ~[exterior view camera]
+    ~[child proof door locks]
+    ~[anti-theft alarm system]
+    ~[parking assist description]
+    ~[surround view monitor]
+    ~[hill start assist]
+    ~[brake assist]

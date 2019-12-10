@@ -1,0 +1,56 @@
+import ../common.chatito
+
+//seeks [trims Y] with [specified entity value X]
+%[list.models]('training': '400', 'distribution': 'even')
+    @[model]怎么样呢
+    @[model]多少钱
+    @[model]性能如何 
+    @[model]单身~[can]开吗 
+    @[model]适合家庭用吗
+    @[model]适合女生吗
+    有什么好推荐
+    好什么好介绍
+    ~[what-which] ~[model-type] ~[has] @[optional-specs]
+    ~[what-which] ~[model-type?] ~[has] @[optional-specs]
+    ~[declaritive] ~[modifier-spec] what does ~[model-type] have
+    ~[exist] ~[model-type] ~[has] ~[spec-value]
+    ~[exist] ~[model-type] ~[has] @[optional-specs]
+    所有型号是否有@[optional-specs]
+    这型号是有@[optional-specs]吗
+    所有~[model-type]是否有@[optional-specs]
+    寻找~[seats-spec] ~[model-type] ~[modifier]
+    ~[what-which] ~[model-type] ~[has] the ~[definite-size] ~[size-spec]
+    whats your ~[definite-size] ~[model-type] with ~[indicator-spec]
+    whats your ~[definite-size] ~[model-type] with @[optional-specs]
+    ~[what-which]~[model-type] 有 ~[indicator-spec]
+    ~[what-which]型号有~[indicator-spec] 或者 ~[indicator-spec]
+    ~[what-which]~[cars-general] 
+    我要@[seater]
+    我要买@[seater]
+    能坐~[2-8]个人的
+    @[seater]的
+    ~[what-which]@[make]有
+    ~[greeting?]@[make]有@[seater]@[optional-specs]和@[optional-specs]吗
+    ~[greeting?]哪些起亚汽车具有自动使用制动器以避免碰撞的能力
+    ~[greeting?]~[make]在~[seater-rows]和天窗有避碰功能吗
+    你有有防撞辅助装置的车吗
+    ~[searching]~[model]带~[safety-spec]~[safety-spec?]@[optional-specs]和@[optional-specs]的
+
+~[seater-rows]
+    一排座位
+    二排座位
+    三排座位
+    1排座位
+    2排座位
+    3排座位
+    前座
+    后座
+
+~[2-8]
+    2
+    3
+    4
+    5
+    6
+    7
+    8

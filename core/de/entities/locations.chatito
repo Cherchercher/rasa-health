@@ -1,0 +1,90 @@
+//sample zip codes
+@[zipcode]
+    16820
+    29620
+    04406
+    54405
+    76621
+
+@[US state]
+    Alaska
+    California
+    Colorado
+    Connecticut
+    Hawaii
+    Illinois
+    Maryland
+    Massachusetts
+    Michigan
+    Minnesota
+    Montana
+    New Jersey
+    New York
+
+@[US city]
+    New York
+    Los Angeles
+    Chicago
+    Houston
+    Phoenix
+    Philadelphia
+    San Antonio
+    San Diego
+    Dallas
+    San Jose
+    Austin
+    Jacksonville
+    Fort Worth
+    Columbus
+    San Francisco
+    Charlotte
+    Indianapolis
+    Seattle
+    Denver
+    Washington
+    Boston
+    El Paso
+    Detroit
+    Nashville
+    Portland
+    Memphis
+    Oklahoma City
+    Las Vegas
+    Louisville
+    Baltimore
+    Milwaukee
+    Albuquerque
+    Tucson
+    Fresno
+    Mesa
+    Sacramento
+    Atlanta
+    Kansas City
+    Colorado Springs
+    Miami
+    Raleigh
+    Omaha
+
+~[region fragment]
+    north
+    south
+    east
+    west
+    northwest
+    north west
+    northeast
+    north east
+    southwest
+    south west
+    southeast
+    south east
+    northern
+    southern
+
+~[relative location]
+    Klein Posemuckel
+    @[US state]
+    ~[region fragment] @[US state]
+    ~[region fragment] @[US state] area
+    @[US city]
+    @[zipcode]

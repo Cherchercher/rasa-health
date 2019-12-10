@@ -1,9 +1,0 @@
-import ../entities/model.chatito
-
-%[recommend]('training': '300')
-    ~[cars]怎么样呢
-    ~[cars]多少钱
-    ~[cars]性能如何 
-    ~[cars]单身可以开吗 
-    ~[cars]适合家庭用吗
-    ~[cars]适合女生吗

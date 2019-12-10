@@ -1,0 +1,19 @@
+import ../common.chatito
+
+%[list.trims#price]('training': '200', 'distribution': 'even')
+    带@[optional-specs]的多少钱
+    ~[quantify-price]~[model]
+    ~[model]多少钱呢
+    ~[model]的@[specs.price]
+    ~[what-which]~[model]的@[specs.price]
+    ~[what-which]@[specs.price]
+    @[specs.price]~[model]
+    ~[model]@[specs.price]
+    ~[declaritive?]@[model]~[quantify-price]
+    ~[declaritive?]~[model]~[quantify-price]
+    这款~[quantify-price]
+    ~[model]的~[price-spec]
+    @[model]的~[price-spec]
+    ~[quantify-price]~[model]
+    ~[driven-wheel]~[car]~[quantify-price]
+    ~[each-fuel-car]@[model]~[quantify-price]
