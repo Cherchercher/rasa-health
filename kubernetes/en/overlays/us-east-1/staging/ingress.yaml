@@ -1,0 +1,18 @@
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: rasa
+  annotations:
+    kubernetes.io/ingress.class: traefik
+    ingress.kubernetes.io/ssl-passthrough: "true"
+    traefik.ingress.kubernetes.io/preserve-host: "true"
+    kubernetes.io/ingress.allow-http: "false"
+spec:
+  rules:
+  - host: nlp.linguist-staging.car-labs.com
+    http:
+      paths:
+      - backend:
+          serviceName: rasa
+          servicePort: 80

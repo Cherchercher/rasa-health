@@ -1,0 +1,10 @@
+namespace: dev-linguist-rasa
+bases:
+- ../../../base
+resources:
+- configmaps.yaml
+- ingress.yaml
+secretGenerator:
+- name: rasa
+  commands: {}
+  type: Opaque

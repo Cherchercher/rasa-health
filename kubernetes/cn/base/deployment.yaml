@@ -27,7 +27,7 @@ spec:
             cpu: "0.5"
             memory: "250Mi"
       - name: rasa
-        image: 261695625069.dkr.ecr.us-east-1.amazonaws.com/linguist-rasa:latest
+        image: 261695625069.dkr.ecr.us-east-1.amazonaws.com/linguist-rasa-cn:latest
         ports:
         - name: api
           containerPort: 5000
