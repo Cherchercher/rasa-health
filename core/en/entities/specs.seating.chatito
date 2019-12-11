@@ -4,7 +4,12 @@
 @[specs.seating]
     ~[1st Row Seating Count]
     ~[2nd Row Seating Count]
-    ~[3rd Row Seating Count]
+    *[10%] ~[3rd Row Seating Count]
+    *[20%] ~[third row]
+    ~[first row]
+    ~[second row]
+    ~[third row]
+    ~[fourth row]
     ~[4th Row Seating Count]
     ~[active head restraints]
     ~[cooled driver seat]
@@ -19,7 +24,7 @@
     ~[front seating material]
     ~[front whiplash protection]
     ~[heated rear seat]
-    ~[leather seats]
+    *[30%] ~[leather seats]
     ~[lumbar support driver]
     ~[memory seat controls]
     ~[multi adjust driver]
@@ -187,6 +192,7 @@
 ~[fourth row]('synonym':'true')
     fourth ~[row]
     4th ~[row]
+    four ~[row]
 
 ~[captain chair]
     captain chair
