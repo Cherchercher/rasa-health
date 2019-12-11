@@ -1,0 +1,12 @@
+bases:
+- ../../../../base
+resources:
+- configmaps.yaml
+patches:
+- node-selector.yaml
+- replicas.yaml
+- resources.yaml
+secretGenerator:
+- name: rasa
+  commands: {}
+  type: Opaque
