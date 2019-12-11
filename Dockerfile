@@ -4,7 +4,6 @@ RUN apt-get update && apt-get install -y jq
 
 COPY . .
 RUN pip install -r requirements.txt
-RUN python -m spacy download en_trf_bertbaseuncased_lg
 
 ADD models /rasa_nlu/models/
 ADD readiness-probe.sh /
