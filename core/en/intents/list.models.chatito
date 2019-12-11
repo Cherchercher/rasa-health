@@ -39,13 +39,13 @@ import ../entities/specs.wheels.chatito
 //specified by propulsion
 %[list.models.fueltype]('training': '300', 'distribution': 'even')
     ~[searching] for @[fuel-type] only
-    show me @[fuel-type] ~[car/s]
+    show me ~[all?] @[fuel-type] ~[car/s]
     any @[fuel-type] ~[car/s]
     does @[make] make any @[fuel-type] ~[car/s]
     i am in the market for an @[fuel-type] ~[car/s]
     what @[fuel-type] ~[car/s] does the @[make] make
     any ~[car/s] that are @[fuel-type]
-    what ~[car/s] [takes] @[fuel-type]
+    ~[what-which] ~[car/s] ~[takes] @[fuel-type]
 
 //ways people ask about unspecified models by 'sizey' words which may describe the model itself or by a model containing a 'size-spec'
 %[list.models.size]('training': '100', 'distribution': 'even')
