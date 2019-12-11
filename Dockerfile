@@ -2,6 +2,7 @@ FROM 261695625069.dkr.ecr.us-east-1.amazonaws.com/rasa-pipeline:latest
 
 RUN apt-get update && apt-get install -y jq
 
+COPY . .
 RUN pip install -r requirements.txt
 RUN python -m spacy download en_trf_bertbaseuncased_lg
 
