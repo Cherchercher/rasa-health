@@ -14,7 +14,7 @@ if [ -z "$agent" ] || [ -z "$env" ] || [ -z "$version" ]; then
     exit 1
 fi
 
-cd kubernetes
+cd kubernetes/$agent
 
 pushd base
 /usr/local/bin/kustomize edit set imagetag 261695625069.dkr.ecr.us-east-1.amazonaws.com/linguist-rasa-$agent:$version
