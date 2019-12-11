@@ -6,6 +6,20 @@
     54405
     76621
 
+//locations
+~[location]
+    @[US state]
+    @[US city]
+    @[area]
+
+@[country]
+    india
+    pakistan
+    canada
+    afghanistan
+    egypt
+
+//synonyms
 @[US state]
     Alaska
     California
@@ -20,6 +34,7 @@
     Montana
     New Jersey
     New York
+    ~[region] ~[state]
 
 @[US city]
     New York
@@ -65,7 +80,28 @@
     Raleigh
     Omaha
 
-~[region fragment]
+@[area]
+    ~[region] ~[state]
+    ~[city] area
+    ~[region] ~[state] area
+
+//aliases
+~[state]
+    Alaska
+    California
+    Colorado
+    Connecticut
+    Hawaii
+    Illinois
+    Maryland
+    Massachusetts
+    Michigan
+    Minnesota
+    Montana
+    New Jersey
+    New York
+
+~[region]
     north
     south
     east
@@ -80,10 +116,3 @@
     south east
     northern
     southern
-
-~[relative location]
-    @[US state]
-    ~[region fragment] @[US state]
-    ~[region fragment] @[US state] area
-    @[US city]
-    @[zipcode]

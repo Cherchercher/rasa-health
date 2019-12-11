@@ -1,23 +1,73 @@
-~[fuel tank capacity]('synonym':'true')
-    fuel tank capacity
-    fuel tank size
-    fuel tank volume
-    fuel tank
-    gas tank
-    tank size
-    fuel tank holding capacity
+//Brain Category(ies) Fuel Consumption, Range
 
-~[battery recharge time]('synonym':'true')
-    battery recharge time
-    recharge time
-    charge time
-    charging time
-    time to charge
-    battery change
-    charging duration
+//slots
+@[specs.fuelconsumption]
+    ~[city mpg]
+    ~[city mpge]
+    ~[combined mpg]
+    ~[combined mpge]
+    ~[highway mpg]
+    ~[highway mpge]
+
+@[specs.range]
+    ~[battery recharge time]
+    ~[battery-range]
+    ~[city range]
+    ~[combined range]
+    ~[fuel tank capacity]
+    ~[highway range]
+
+//synonyms: fuel consumption
+~[city mpg]('synonym':'true')
+    city mpg
+    city mileage
+    mpg city
+    mpg in a city
+    mpg in city
+    mpg in the city
+    minimum mpg
+    min mpg
+
+~[city mpge]('synonym':'true')
+    city mpge
+    mpge city
+    mpge in a city
+    mpge in the city
+    mpge in city
+    minimum mpge
+    min mpge
+
+~[combined mpg]('synonym':'true')
+    mpg
+    mpg
+    mileage
+    ~[fuel1] mileage
+    miles per gallon
+    combined mpg
+    mpg combined
+    ~[fuel1] consumption
+    ~[fuel1] economy
+    ~[fuel1] efficiency
+
+//=="how fuel efficient" or "is it"
+~[combined mpg#verbs]
+    ~[fuel1] efficient
+    efficient on ~[fuel1]
+    good on ~[fuel1]
+
+~[combined mpge]('synonym':'true')
+    mpge
+    combined mpge
+    mpge combined
+    miles per gallon equivalent
+    gas equivalent mileage
+    mpges
+    mpge
+    mpg without electricity
 
 ~[highway mpg]('synonym':'true')
     highway mpg
+    highway mileage
     mpg highway
     mpg on a highway
     mpg on the highway
@@ -26,62 +76,24 @@
     max mpg
     fuel efficient
 
-~[combined mpg]('synonym':'true')
-    mpg
-    mpg
-    the mpg
-    miles per gallon
-    gas mileage
-    combined mpg
-    mpg combined
-    mpgs
-    fuel economic
-    fuel consumption
-    gas consumption
-    fuel economy
-    fuel efficiency
-    gas economy
-    km / l
-    kilometers per liter
-    fuel savers
-    gasoline consumption
-    economic fuel
-    kmpl
+~[highway mpge]('synonym':'true')
+    highway mpge
+    mpge highway
+    mpge highway
+    mpge on the highway
+    mpge on highway
+    maximum mpge
+    max mpge
 
-~[city mpg]('synonym':'true')
-    city mpg
-    mpg city
-    mpg in a city
-    mpg in city
-    mpg in the city
-    minimum mpg
-    min mpg
-
-~[quarter mile time]('synonym':'true')
-    quarter mile time
-    quarter mile
-
-~[city range]('synonym':'true')
-    city range
-    range city
-    range in city
-    range in a city
-    range in the city
-
-~[combined range]('synonym':'true')
-    range
-    combined range
-    range combined
-    how far can i drive
-
-~[highway range]('synonym':'true')
-    highway range
-    average range
-    range highway
-    range on highway
-    range on a highway
-    range on the highway
-    max range
+//synonyms: range
+~[battery recharge time]('synonym':'true')
+    battery recharge time
+    recharge time
+    charge time
+    charging time
+    time to charge
+    battery change
+    charging duration
 
 ~[battery-range]('synonym':'true')
     battery range
@@ -97,7 +109,42 @@
     on ~[the] battery
     all electric range
 
-//on a charge
+~[city range]('synonym':'true')
+    city range
+    range city
+    range in city
+    range in a city
+    range in the city
+
+~[combined range]('synonym':'true')
+    range
+    combined range
+    range combined
+
+~[combined range#howfar]
+    how far can it go
+
+~[fuel tank capacity]('synonym':'true')
+    fuel tank capacity
+    fuel tank size
+    fuel tank volume
+    fuel tank
+    fuel capacity
+    gas tank
+    tank size
+    fuel tank holding capacity
+
+~[highway range]('synonym':'true')
+    highway range
+    average range
+    range highway
+    range on highway
+    range on a highway
+    range on the highway
+    max range
+
+//aliases
+
 ~[full charge]
     full charge
     single charge
@@ -105,71 +152,15 @@
     one charge
     a charge
     electric only
-
-//in ev mode
 ~[ev mode]
     electric mode
     ev mode
 
-~[battery-range.without-recharge]('synonym':'true')
-    without recharge
-    without recharging
-    before recharge
-    before recharging
-    before running out of battery
-    before running out of battery charge
-    before needing to recharge
-    before needing to recharge ~[the?] battery
-    on ~[a?] charge
-    on ~[a?] single charge
-    on ~[a?] full charge
-    on electric
-    in all electric
-    drive on a single charge
+~[fuel1]
+    fuel
+    gas
 
-~[battery-range-without-recharge]
-    without recharge
-    without recharging
-    before recharge
-    before recharging
-    before running out of battery
-    before running out of battery charge
-    before needing to recharge
-    before needing to recharge ~[the?] battery
-    on ~[a?] charge
-    on ~[a?] single charge
-    on ~[a?] full charge
-    on electric
-    in all electric
-
-~[highway mpge]('synonym':'true')
-    highway mpge
-    mpge highway
-    mpge highway
-    mpge on the highway
-    mpge on highway
-    maximum mpge
-    max mpge
-
-~[combined mpge]('synonym':'true')
-    mpge
-    combined mpge
-    mpge combined
-    miles per gallon equivalent
-    gas equivalent mileage
-    mpges
-    mpge
-    mpg without electricity
-
-~[city mpge]('synonym':'true')
-    city mpge
-    mpge city
-    mpge in a city
-    mpge in the city
-    mpge in city
-    minimum mpge
-    min mpge
-
+//spec language groups
 ~[fuel-specs]
     ~[fuel tank capacity]
     ~[battery recharge time]

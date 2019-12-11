@@ -1,3 +1,18 @@
+//slot(s)
+@[bodystyle]
+    ~[convertible]
+    ~[coupe]
+    ~[sedan]
+    ~[wagon]
+    ~[suv]
+    ~[crossover]
+    ~[hatchback]
+    ~[minivan]
+    ~[truck]
+    ~[sports car]
+    ~[micro car]
+
+//synonyms: bodystyle
 ~[convertible]('synonym':'true')
     convertible
     convertibles
@@ -81,16 +96,3 @@
     4 dr
     4-dr
     four door
-
-@[bodystyle]
-    ~[convertible]
-    ~[coupe]
-    ~[sedan]
-    ~[wagon]
-    ~[suv]
-    ~[crossover]
-    ~[hatchback]
-    ~[minivan]
-    ~[truck]
-    ~[sports car]
-    ~[micro car]

@@ -46,7 +46,7 @@
 ~[drivetrain warranty years type]('synonym':'true')
     Drivetrain Warranty Years Type
 
-~[specs.warranty]
+@[specs.warranty]
     ~[basic warranty type]
     ~[basic warranty maximum miles]
     ~[basic warranty maximum years]

@@ -1,6 +1,36 @@
-//technically, not all of these are 'infotainment', but 'audio', 'electronics misc', etc. but are used in
-//user queries simalarily...
+//Brain Category(ies): Audio, Electronics, Navigation
+//Navigation is included in electronics
 
+//slot
+@[specs.audio]
+    ~[audio]
+    ~[auxilary audio input]
+    ~[cd changer type]
+    ~[radio type]
+    ~[satellite radio]
+    ~[total speaker count]
+
+@[specs.electronics]
+    ~[12v power outlet]
+    ~[ac power outlet]
+    ~[android auto]
+    ~[apple carplay]
+    *[30%] ~[bluetooth]
+    ~[external temperature display]
+    ~[heads up display]
+    ~[multi function remote]
+    ~[navigation type]
+    ~[navigation real time traffic]
+    ~[stereo anti-theft]
+    ~[tachometer]
+    ~[tire pressure display]
+    ~[touch screen]
+    ~[usb-ports]
+    ~[voice system name]
+    ~[voice command]
+    *[30%] ~[wireless phone charger]
+
+//synonyms: audio
 ~[audio]('synonym':'true')
     sound system
     harmon kordon
@@ -10,9 +40,8 @@
     ~[auxilary] input
     ~[auxilary] cable
 
-~[auxilary]
-    auxilary
-    aux
+~[cd changer type]('synonym':'true')
+    cd player
 
 ~[radio type]('synonym':'true')
     radio type
@@ -27,34 +56,66 @@
     sat radio
     SiriusXM
 
-~[usb connection]('synonym':'true')
-    usb connection
-
 ~[total speaker count]('synonym':'true')
     total speaker count
     speakers
     how many speakers
     total speakers
 
-~[auxilary mp3 input]('synonym':'true')
-    auxilary mp3 input
-
-~[navigation]('synonym':'true')
-    navigation
-    gps
-    nav system
-    navigation system
-    navigation package
-    gps system
-
-~[navigation real time traffic]('synonym':'true')
-    navigation real time traffic
-
+//synonyms: electronics
 ~[12v power outlet]('synonym':'true')
     12v power outlet
 
 ~[ac power outlet]('synonym':'true')
     ac power outlet
+
+~[android auto]('synonym':'true')
+    android auto
+    androidauto
+
+~[apple carplay]('synonym':'true')
+    apple ~[carplay]
+    ~[carplay]
+
+~[bluetooth]('synonym':'true')
+    bluetooth
+    blue tooth
+    bluetooth access
+
+~[external temperature display]('synonym':'true')
+    external temperature display
+
+~[heads up display]('synonym':'true')
+    ~[heads up] display
+    ~[heads up]
+
+~[multi function remote]('synonym':'true')
+    multi function remote
+
+~[navigation type]('synonym':'true')
+    ~[navigation]
+    ~[navigation] system
+    ~[navigation] package
+
+~[navigation real time traffic]('synonym':'true')
+    navigation real time traffic
+
+~[stereo anti-theft]('synonym':'true')
+    stereo anti-theft
+
+~[tachometer]('synonym':'true')
+    tachometer
+
+~[tire pressure display]('synonym':'true')
+    Tire Pressure Display
+    tpms
+    tire pressure
+
+~[touch screen]('synonym':'true')
+    ~[touchscreen]
+    ~[touchscreen] radio
+    ~[touchscreen] dashboard
+    ~[touchscreen] system
 
 ~[usb-ports]('synonym':'true')
     USB port
@@ -74,70 +135,8 @@
     phone charger
     phone charging
 
-~[usb-ports.plug-in]('synonym':'true')
-    plug ~[in?] ~[my?] usb
-    plug ~[in?] ~[a-the?] usb
-    plug ~[in?] ~[my?] usbs
-    plug ~[in?] ~[a-the?] usbs
-    plug ~[in?] ~[my?] phone
-    plug ~[in?] ~[a-the?] phone
-    plug ~[in?] ~[my?] phones
-    plug ~[in?] ~[a-the?] phones
-
-~[tire pressure display]('synonym':'true')
-    Tire Pressure Display
-    tpms
-    tire pressure
-
-~[external temperature display]('synonym':'true')
-    external temperature display
-
-~[heads up display]('synonym':'true')
-    heads up display
-    heads up
-    heads-up
-    heads - up
-    heads-up display
-    heads - up display
-    headsup
-    head up
-    head-up display
-    head - up display
-    head up display
-
-~[tachometer]('synonym':'true')
-    tachometer
-
-~[bluetooth]('synonym':'true')
-    bluetooth
-    blue tooth
-    bluetooth access
-
-~[android auto]('synonym':'true')
-    android auto
-    androidauto
-
-~[apple carplay]('synonym':'true')
-    apple ~[carplay]
-    ~[carplay]
-
-~[carplay]
-    carplay
-    car play
-
 ~[voice system name]('synonym':'true')
     voice system name
-
-~[touch screen]('synonym':'true')
-    ~[touchscreen]
-    ~[touchscreen] radio
-    ~[touchscreen] dashboard
-    ~[touchscreen] system
-
-~[touchscreen]
-    touchscreen
-    touch screen
-    touch display
 
 ~[voice command]('synonym':'true')
     voice command
@@ -145,39 +144,35 @@
     voice activated
     voice recognition
 
-~[remote trunk release]('synonym':'true')
-    remote trunk release
-
-~[remote trunk lock]('synonym':'true')
-    remote trunk lock
-
-~[cruise control]('synonym':'true')
-    ~[cruise-control]
-
-~[cruise-control]
-    cruise control
-    cruise
-
-~[adaptive cruise control]('synonym':'true')
-    adaptive ~[cruise-control]
-    ~[cruise-control] following assist
-    automatic ~[cruise-control]
-    smart ~[cruise-control]
-    radar ~[cruise-control]
-
 ~[wireless phone charger]('synonym':'true')
     wireless phone charger
     wireless charger
 
-~[push button start]('synonym':'true')
-    push button start
-    push start
+//aliases
+~[auxilary]
+    auxilary
+    aux
 
-~[multi function remote]('synonym':'true')
-    multi function remote
+~[carplay]
+    carplay
+    car play
 
-~[stereo anti-theft]('synonym':'true')
-    Stereo Anti-Theft
+~[heads up]
+    heads up
+    headsup
+    heads-up
+    head up
+    hud
+
+~[navigation]
+    navigation
+    nav
+    gps
+
+~[touchscreen]
+    touchscreen
+    touch screen
+    touch display
 
 ~[infotainment-specs]
     ~[auxilary audio input]

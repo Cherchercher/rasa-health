@@ -1,0 +1,170 @@
+//Brain Category(ies): Body, Exterior, Exterior Dimensions, Mirrors, Sunroof, Windows
+//sunroof is in exterior slot
+
+//slots
+@[specs.body]
+    ~[doors]
+
+//@[specs.exterior]
+//the brain sheet has exterior camera and roof rails in this group, but for nlp ext view camera is in safety and roof rails is in cargo
+
+@[specs.exteriordims]
+    ~[curb weight]
+    ~[gross weight]
+    ~[ground clearance]
+    ~[vehicle height]
+    ~[vehicle length]
+    ~[vehicle width]
+    ~[wheelbase]
+
+@[specs.mirrors]
+    ~[driver vanity mirror]
+    ~[electrochromic mirror glass]
+    ~[folding mirror]
+    ~[heated mirror]
+    ~[illuminated vanity mirror]
+    ~[oversized mirror]
+    ~[power side mirror description]
+    ~[reverse tilt mirror]
+    ~[remote adjustment mirror]
+    ~[turn signal in mirror]
+
+@[specs.windows]
+    ~[front de icer]
+    ~[panoramic]
+    ~[power windows]
+    ~[privacy glass]
+    *[30%] ~[sunroof]
+    ~[rear sunshade]
+    ~[rear window wiper]
+    ~[rear window defogger]
+    ~[rear wiper type]
+    ~[tinted glass]
+
+//synonyms: body
+~[doors]('synonym':'true')
+    doors
+    ~[door count] door
+    ~[door count] doors
+
+//synonyms: exterior
+
+//synonyms: exterior dimensions
+~[curb weight]('synonym':'true')
+    curb weight
+    the weight
+    weight of car
+    cars weight
+    car's weight
+
+~[gross weight]('synonym':'true')
+    gross weight
+    train weight
+
+~[ground clearance]('synonym':'true')
+    ground clearance
+    off the ground
+    from ground to entry
+    off the road
+
+~[vehicle height]('synonym':'true')
+    vehicle height
+    height
+
+~[vehicle length]('synonym':'true')
+    vehicle length
+
+~[vehicle width]('synonym':'true')
+    vehicle width
+    width
+    full width
+
+~[wheelbase]('synonym':'true')
+    wheelbase
+
+//synonyms: mirrors
+~[driver vanity mirror]('synonym':'true')
+    driver vanity mirror
+
+~[electrochromic mirror glass]('synonym':'true')
+    electrochromic mirror glass
+
+~[folding mirror]('synonym':'true')
+    folding mirror
+    folding mirrors
+    folding side mirrors
+    folding outsize mirrors
+
+~[heated mirror]('synonym':'true')
+    heated mirror
+
+~[illuminated vanity mirror]('synonym':'true')
+    illuminated vanity mirror
+
+~[oversized mirror]('synonym':'true')
+    oversized mirror
+
+~[power side mirror description]('synonym':'true')
+    power side mirror description
+
+~[reverse tilt mirror]('synonym':'true')
+    reverse tilt mirror
+
+~[remote adjustment mirror]('synonym':'true')
+    remote adjustment mirror
+
+~[turn signal in mirror]('synonym':'true')
+    turn signal in mirror
+
+//synonyms: windows
+~[front de icer]('synonym':'true')
+    front de icer
+
+~[panoramic]('synonym':'true')
+    panoramic
+
+~[power windows]('synonym':'true')
+    power windows
+    windows
+
+~[privacy glass]('synonym':'true')
+    privacy glass
+
+~[sunroof]('synonym':'true')
+    sunroof
+    sun roof
+    panoramic
+    moonroof
+    moon roof
+    panoramic ceiling
+    ceiling window
+    ceiling window
+    sliding roof
+
+~[rear sunshade]('synonym':'true')
+    Rear Sunshade
+
+~[rear window wiper]('synonym':'true')
+    rear window wiper
+
+~[rear window defogger]('synonym':'true')
+    Rear Window Defogger
+    defogger
+    rear defogger
+
+~[rear wiper type]('synonym':'true')
+    rear wiper type
+
+~[tinted glass]('synonym':'true')
+    Tinted Glass
+
+//aliases
+~[door count]
+    2
+    4
+    5
+    two
+    four
+    five
+
+//spec language groups

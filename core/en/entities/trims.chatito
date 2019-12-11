@@ -1,4 +1,33 @@
 //ambiguous models 
+@[model]
+    ~[cadenza]
+    ~[forte]
+    ~[k900]
+    ~[niro]
+    ~[niro ev]
+    ~[niro plug-in hybrid]
+    ~[optima]
+    ~[optima hybrid]
+    ~[optima plug-in hybrid]
+    ~[rio]
+    ~[soul]
+    ~[sportage]
+    ~[rio 5-door]
+    ~[stinger]
+    ~[sedona]
+    ~[sorento]
+    ~[telluride]
+    ~[seltos]
+
+@[future model]
+    ~[seltos]
+
+@[model-year]
+    *[80]~[model year-current]
+    *[10]~[model year-future]
+    *[10]~[model year-past]
+
+//synonyms: models
 ~[cadenza]('synonym':'true')
     cadenza
     cadenzas
@@ -82,25 +111,32 @@
 ~[telluride]('synonym':'true')
     telluride
 
-//model without a specified trim
-@[model]
-    ~[cadenza]
-    ~[forte]
-    ~[k900]
-    ~[niro]
-    ~[niro ev]
-    ~[niro plug-in hybrid]
-    ~[optima]
-    ~[optima hybrid]
-    ~[optima plug-in hybrid]
-    ~[rio]
-    ~[soul]
-    ~[sportage]
-    ~[rio 5-door]
-    ~[stinger]
-    ~[sedona]
-    ~[sorento]
-    ~[telluride]
+//synonums: future model
+~[seltos]('synonym':'true')
+    seltos
+    Seltos
+    selto
+    celtos
+    sell toast
+
+//synonyms: model year
+~[model year-current]('synonym':'true')
+    2019
+    2020
+
+~[model year-future]('synonym':'true')
+    2021
+
+~[model year-past]('synonym':'true')
+    2010
+    2011
+    2012
+    2013
+    2014
+    2015
+    2016
+    2017
+    2018
 
 //trim specific models
 ~[Cadenza Limited]('synonym':'true')

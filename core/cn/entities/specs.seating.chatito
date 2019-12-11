@@ -13,7 +13,16 @@
 
 ~[3rd Row Seating Count]('synonym':'true')
     ~[third row]
-    full ~[third row]
+    一整排 ~[third row]
+    ~[third row] 一整排
+    ~[third row] 一共
+    ~[third row] 总共
+    ~[3rd row seats]数目
+    几个~[3rd row seats]数
+    ~[3rd row seats]能坐多少
+    ~[3rd row seats]限载
+    ~[3rd row seats]限载多少
+
 
 ~[4th Row Seating Count]('synonym':'true')
     ~[fourth row]
@@ -121,8 +130,13 @@
 
 ~[leather seats]('synonym':'true')
     真皮座椅
-    nappa leather seats
-    ~[color] leather
+    头层皮座椅
+    二层皮座椅
+    小牛皮座椅
+    人造革座椅
+    nappa真皮座椅
+    皮
+    皮座椅
 
 ~[front head room]('synonym':'true')
     front ~[head room]
@@ -200,21 +214,25 @@
     第一排
     第1排
     1排
+    一排
 
 ~[second row]
     2排
     第2排
     第二排
+    二排
 
 ~[third row]
     第3排
     3排
     第三排
+    三排
 
 ~[fourth row]
     第四排
     第4排
     4排
+    四排
 
 //seat types
 ~[captain chair]

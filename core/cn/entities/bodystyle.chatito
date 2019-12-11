@@ -1,48 +1,48 @@
-@[convertible]('entity': 'bodystyle')
+~[convertible]('synonym': 'true')
     敞篷车
     折叠篷车
     篷式汽车
     活动顶篷式汽车
     活动帆布车顶
 
-@[coupe]('entity': 'bodystyle')
+~[coupe]('synonym': 'true')
     双座小轿车
     两座
     双门
     两门
 
-@[sedan]('entity': 'bodystyle')
+~[sedan]('synonym': 'true')
     小轿车
     轿车
 
-@[wagon]('entity': 'bodystyle')
+~[wagon]('synonym': 'true')
     车
     旅行车
 
-@[suv]('entity': 'bodystyle')
+~[suv]('synonym': 'true')
     多功能运动车
     运动型实用汽车
     越野车
     越野旅行车
     运动汽车
 
-@[crossover]('entity': 'bodystyle')
+~[crossover]('synonym': 'true')
     跨界车
     跨越
     酷越
     交叉车型
 
-@[hatchback]('entity': 'bodystyle')
+~[hatchback]('synonym': 'true')
     两厢车
     5门车
     五门
 
-@[minivan]('entity': 'bodystyle')
+~[minivan]('synonym': 'true')
     厢式旅行车
     MPV
     家庭车
 
-@[truck]('entity': 'bodystyle')
+~[truck]('synonym': 'true')
     货车
     小卡车
     皮卡
@@ -50,21 +50,21 @@
     加长驾驶室货车
     普通驾驶室货车
 
-@[sports car]('entity': 'bodystyle')
+~[sports car]('synonym': 'true')
     跑车
 
-@[micro car]('entity': 'bodystyle')
+~[micro car]('synonym': 'true')
     微型汽车
 
-~[bodystyle]
-    @[convertible]
-    @[coupe]
-    @[sedan]
-    @[wagon]
-    @[suv]
-    @[crossover]
-    @[hatchback]
-    @[minivan]
-    @[truck]
-    @[sports car]
-    @[micro car]
+@[bodystyle]
+    ~[convertible]
+    ~[coupe]
+    ~[sedan]
+    ~[wagon]
+    ~[suv]
+    ~[crossover]
+    ~[hatchback]
+    ~[minivan]
+    ~[truck]
+    ~[sports car]
+    ~[micro car]

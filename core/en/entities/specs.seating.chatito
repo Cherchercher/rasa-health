@@ -1,12 +1,43 @@
-~[total seat count]('synonym':'true')
-    total seat count
-    seating capacity
-    how many seats
-    passengers fit
-    people can fit
-    people can it fit
-    how many people
+//Brain Category(ies): Seating
 
+//slot(s)
+@[specs.seating]
+    ~[1st Row Seating Count]
+    ~[2nd Row Seating Count]
+    ~[3rd Row Seating Count]
+    ~[4th Row Seating Count]
+    ~[active head restraints]
+    ~[cooled driver seat]
+    ~[heated driver deat]
+    ~[heated passenger seat]
+    ~[cooled passenger seat]
+    ~[folding passenger]
+    ~[folding 2nd row seat]
+    ~[folding 3rd row seat]
+    ~[front adjustable seat height]
+    ~[front seating type]
+    ~[front seating material]
+    ~[front whiplash protection]
+    ~[heated rear seat]
+    ~[leather seats]
+    ~[lumbar support driver]
+    ~[memory seat controls]
+    ~[multi adjust driver]
+    ~[multi adjust pass]
+    ~[power driver seat]
+    ~[power driver memory]
+    ~[power lumbar control]
+    ~[power passenger seat]
+    ~[second row captains chair]
+    ~[seating configuration]
+    ~[second row folding armrest]
+    ~[second row head restraints]
+    ~[third row head restraints]
+    ~[total seat count]
+    ~[ventilated driver]
+    ~[ventilated pass]
+
+//synonyms: seating
 ~[1st Row Seating Count]('synonym':'true')
     ~[first row]
 
@@ -21,11 +52,14 @@
 ~[4th Row Seating Count]('synonym':'true')
     ~[fourth row]
 
-~[heated driver deat]('synonym':'true')
-    ~[heated seats]
+~[active head restraints]('synonym':'true')
+    active head restraints
 
 ~[cooled driver seat]('synonym':'true')
     ~[cooled seats]
+
+~[heated driver deat]('synonym':'true')
+    ~[heated seats]
 
 ~[heated passenger seat]('synonym':'true')
     ~[heated seats] passenger
@@ -34,16 +68,6 @@
 ~[cooled passenger seat]('synonym':'true')
     ~[cooled seats] passenger
     passenger ~[cooled seats]
-
-~[front seating type]('synonym':'true')
-    front seating type
-    front bucket seats
-
-~[front seating material]('synonym':'true')
-    front seating material
-
-~[front whiplash protection]('synonym':'true')
-    front whiplash protection
 
 ~[folding passenger]('synonym':'true')
     folding passenger
@@ -58,8 +82,18 @@
     ~[third row] fold
     ~[third row] fold down
 
-~[seating configuration]('synonym':'true')
-    seating configuration
+~[front adjustable seat height]('synonym':'true')
+    front adjustble seat height
+
+~[front seating type]('synonym':'true')
+    front seating type
+    front bucket seats
+
+~[front seating material]('synonym':'true')
+    front seating material
+
+~[front whiplash protection]('synonym':'true')
+    front whiplash protection
 
 ~[heated rear seat]('synonym':'true')
     heated rear seat
@@ -70,49 +104,17 @@
     back ~[heated seats]
     reat ~[heated seats]
 
-~[ventilated driver]('synonym':'true')
-    ventilated driver seat
-    ventilated drivers seat
-
-~[ventilated pass]('synonym':'true')
-    ventilated pass
+~[leather seats]('synonym':'true')
+    leather seats
+    nappa leather seats
+    leather
 
 ~[lumbar support driver]('synonym':'true')
     lumbar support driver
 
-~[front adjustable seat height]('synonym':'true')
-    front adjustble seat height
-
 ~[memory seat controls]('synonym':'true')
     memory seat controls 
     seat memory
-
-~[power driver seat]('synonym':'true')
-    power driver seat
-    power seats
-
-~[power passenger seat]('synonym':'true')
-    power passenger
-
-~[power lumbar control]('synonym':'true')
-    power lumbar control
-    power lumbar support
-
-~[active head restraints]('synonym':'true')
-    active head restraints
-
-~[second row head restraints]('synonym':'true')
-    second row head restraints
-
-~[third row head restraints]('synonym':'true')
-    third row head restraints
-
-~[second row folding armrest]('synonym':'true')
-    second row folding armrest
-
-~[power driver memory]('synonym':'true')
-    power driver memory
-    power seats with memory
 
 ~[multi adjust driver]('synonym':'true')
     multi adjust driver
@@ -120,89 +122,55 @@
 ~[multi adjust pass]('synonym':'true')
     multi adjust pass
 
+~[power driver seat]('synonym':'true')
+    power driver seat
+    power seats
+
+~[power driver memory]('synonym':'true')
+    power driver memory
+    power seats with memory
+
+~[power lumbar control]('synonym':'true')
+    power lumbar control
+    power lumbar support
+
+~[power passenger seat]('synonym':'true')
+    power passenger
+
 ~[second row captains chair]('synonym':'true')
     ~[second row] ~[captain chair]
     ~[second row] bucket seats
     reclining ~[second row]
 
-~[leather seats]('synonym':'true')
-    leather seats
-    nappa leather seats
-    leather
+~[seating configuration]('synonym':'true')
+    seating configuration
 
-~[front head room]('synonym':'true')
-    front ~[head room]
-    ~[head room]
+~[second row folding armrest]('synonym':'true')
+    second row folding armrest
 
-~[front shoulder room]('synonym':'true')
-    front shoulder room
-    shoulder room
+~[second row head restraints]('synonym':'true')
+    second row head restraints
 
-~[front leg room]('synonym':'true')
-    front ~[leg room]
-    ~[leg room]
-    room for legs
-    space for legs
-    front room for legs
-    front space for legs
+~[third row head restraints]('synonym':'true')
+    third row head restraints
 
-~[rear head room]('synonym':'true')
-    rear ~[head room]
+~[total seat count]('synonym':'true')
+    total seat count
+    seating capacity
+    how many seats
+    passengers fit
+    people can fit
+    people can it fit
+    how many people
 
-~[rear shoulder room]('synonym':'true')
-    rear shoulder room
-    rear shoulder space
+~[ventilated driver]('synonym':'true')
+    ventilated driver seat
+    ventilated drivers seat
 
-~[rear leg room]('synonym':'true')
-    rear ~[leg room]
-    ~[leg room] rear
-    back ~[leg room]
+~[ventilated pass]('synonym':'true')
+    ventilated pass
 
-~[interior volume]('synonym':'true')
-    interior volume
-    interior space
-    interior room
-    room inside
-    space inside
-
-~[front hip room]('synonym':'true')
-    front hip room
-
-~[second row hip room]('synonym':'true')
-    second row hip room
-
-~[third row hip room]('synonym':'true')
-    third row hip room
-
-~[third row leg room]('synonym':'true')
-    third row leg room
-
-~[third row shoulder]('synonym':'true')
-    third row shoulder
-
-~[interior-dimension]
-    ~[front head room]
-    ~[front shoulder room]
-    ~[front leg room]
-    ~[rear head room]
-    ~[rear shoulder room]
-    ~[rear leg room]
-    ~[interior volume]
-    ~[front hip room]
-    ~[second row hip room]
-    ~[third row hip room]
-    ~[third row leg room]
-    ~[third row shoulder]
-
-//row count
-~[row]
-    row
-    rows
-    row seats
-    row seat
-    row of seats
-    rows of seats
-
+//aliases
 ~[first row]('synonym':'true')
     first ~[row]
     1st ~[row]
@@ -220,18 +188,11 @@
     fourth ~[row]
     4th ~[row]
 
-//seat types
 ~[captain chair]
     captain chair
     captain chairs
     captain seats
     captain seat
-
-//seating climate
-~[heated seats]
-    heated seats
-    seat warmers
-    butt warmers
 
 ~[cooled seats]
     cooled seats
@@ -239,67 +200,15 @@
     a/c seats
     air condintioned seats
 
-//dimensions
-~[head room]
-    head room
-    headroom
+~[heated seats]
+    heated seats
+    seat warmers
+    butt warmers
 
-~[leg room]
-    leg room
-    legroom
-
-~[seating-specs]
-    ~[total seat count]
-    ~[1st Row Seating Count]
-    ~[2nd Row Seating Count]
-    ~[3rd Row Seating Count]
-    ~[4th Row Seating Count]
-    ~[heated driver deat]
-    ~[cooled driver seat]
-    ~[heated passenger seat]
-    ~[cooled passenger seat]
-    ~[front seating type] 
-    ~[front seating material]
-    ~[front whiplash protection]
-    ~[folding passenger]
-    ~[folding 2nd row seat]
-    ~[folding 3rd row seat]
-    ~[seating configuration]
-    ~[heated rear seat]
-    ~[ventilated driver]
-    ~[ventilated pass]
-    ~[lumbar support driver]
-    ~[front adjustable seat height]
-    ~[memory seat controls]
-    ~[power driver seat]
-    ~[power passenger seat]
-    ~[power lumbar control]
-    ~[active head restraints]
-    ~[second row head restraints]
-    ~[third row head restraints]
-    ~[second row folding armrest]
-    ~[power driver memory]
-    ~[third row]
-    ~[multi adjust driver]
-    ~[multi adjust pass]
-    ~[second row captains chair]
-    ~[leather seats]
-    ~[spec.seats.interior]
-
-~[spec.seats.interior]
-    ~[front head room]
-    ~[front shoulder room]
-    ~[front leg room]
-    ~[rear head room]
-    ~[rear shoulder room]
-    ~[rear leg room]
-    ~[interior volume]
-    ~[front hip room]
-    ~[second row hip room]
-    ~[third row hip room]
-    ~[third row leg room]
-    ~[third row shoulder]
-
-
-
-
+~[row]
+    row
+    rows
+    row seats
+    row seat
+    row of seats
+    rows of seats

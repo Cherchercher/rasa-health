@@ -6,7 +6,7 @@ import ../common.chatito
     ~[model]和~[model]都有哪些不同点
     @[make]~[model]和@[make]~[model]的不同点
     @[make]~[model]和@[make]~[model]都有哪些不同点
-    ~[model]或~[model]有@[optional-specs]吗
+    ~[model]或~[model]有@[specs.brain]吗
     我对~[model]~[and-or]~[model]或感兴趣
     我喜欢~[model]~[and-or]~[model]
     ~[model]比有更多~[size-spec]吗相比~[model]
@@ -23,8 +23,9 @@ import ../common.chatito
 
 %[compare.yoy]('training': '50','distribution': 'even')
     ~[declaritive]在~[model-year]~[model]能告诉我~[model-year]和~[model-year]~[what-difference]
-    ~[what]@[specs.price]不同,在~[model-year]和~[model-year]~[model]之间
-    ~[model-year]~[model]和@[specs]~[model-year]~[model]有什么相同点
+    ~[what]@[specs.brain]区别,在~[model-year]和~[model-year]~[model]之间
+    @[specs.brain]~[what]区别,在~[model-year]和~[model-year]~[model]之间
+    ~[model-year]~[model]和@[specs.brain]~[model-year]~[model]有什么相同点
 
 //ways users refer to trims
 ~[trims]

@@ -2,7 +2,9 @@
     发票价格
     经销商价格
 
-~[msrp]('synonym':'true')
+~[MSRP]('synonym':'true')
+    售价
+    零售价
     制造商建议零售价
     价格
     价钱
@@ -19,6 +21,6 @@
 
 @[specs.price]
     ~[invoice price]
-    ~[msrp]
+    ~[MSRP]
     ~[delivery fee]
     ~[base price]

@@ -3,31 +3,103 @@ import ../entities/locations.chatito
 
 //similar to searching for inventory, but availability refers to when a new model or new model year will become available
 %[availability]('training': '200', 'distribution': 'even')
-    when will ~[future-model] become available
-    are ~[future-model] at the dealer already
-    is the ~[future-model] available now
-    when ~[optional-spec] ~[future-model] come out
-    when will the ~[future-model] models be available in the ~[relative location] area
-    ~[greeting] when will the ~[future-model] be available for pick up in @[US state]
-    when will the ~[future-model] be available in @[US state]
-    can you let me know when the ~[future-model] will be released in @[US state]
-    when do you expect to have the ~[future-model] in ~[relative location]
-    is the ~[future-model] out yet or when is it expected to be released
-    just want to know when the ~[future-model] is available in ~[relative location]
-    when is the ~[future-model] going to be available in ~[relative location]
-    when will the ~[future-model] be released
-    when will we hear about the ~[future-model]
+    when will ~[future-model] be available
+    when will ~[future-model] be available ~[to/for something?]
+    when will ~[future-model] ~[be available] ~[to/for something?]
+    when will we hear about ~[future-model]
+    when does ~[future-model] come out
+    when does ~[future-model] come to ~[dealers]
+    when are ~[future-model] going to ~[be available]
+    when is ~[future-model] going to ~[be available]
+    when is ~[future-model] expected to ~[be available]
+    when is ~[future-model] launching
+    when do you expect to have the ~[future-model] at ~[dealers]
+    [i want to know when] ~[future-model] will ~[be available]
+    [i want to know when] ~[future-model] is going to ~[be available]
+    [i want to know when] ~[future-model] is coming out
+    i am interested in ~[future-model] when will you have them ~[in stock]
+    is ~[future-model] ~[already out]
+    is ~[future-model] ~[already out] or when is it expected to ~[be available]
+    are ~[future-model] ~[already out]
+    any ~[future-model] ~[already out]
+    any idea when ~[future-model] is launching
+    any idea when ~[future-model] will ~[be available]
+    any idea when ~[future-model] will start showing up at ~[dealers]
+
+//this is usually asked by people looking for EV or PHEVs
+//.location can be used for content context and fallback rule
+%[availability.location]('training': '200', 'distribution': 'even')
+    when will ~[future-model] ~[be available] in ~[location]
+    when will ~[future-model] ~[come to] in @[country]
+    when are ~[future-model] going to ~[be available] in ~[location]
+    when will ~[future-model] ~[be available] in ~[US state]
+    can you let me know when the ~[future-model] will be released in ~[location]
+    when do you expect to have the ~[future-model] in ~[location]
+    is the ~[future-model] out yet or when is it expected to be released in ~[location]
+    is the ~[future-model] out yet in ~[location] or when is it expected to be released
+    just want to know when the ~[future-model] is available in ~[location]
+    when is the ~[future-model] going to be available in ~[location]
     ~[i?] want to know when the @[model] is coming out
-    i want to know when the @[model] is on the market
-    i want to know when the @[model] will be in stock
-    i want to know when the @[model] comes to dealerships
     ~[declaritive] the new @[model] when will you have them in stock
     any ~[future-model] available yet
+    is the @[model] ~[each-fuel-car?] available yet
     any @[fuel-type] coming to us market
     any idea when the @[model] will start showing up in ~[relative-location] dealerships
     any idea when the @[model] is launching
     is the @[model] @[fuel-type] available now
     is the @[model] @[fuel-type] available yet
+
+//aliases
+~[in stock]
+    in stock
+    at ~[dealers]
+    on the lot
+    at ~[dealers]
+
+~[be available]
+    be available
+    become available
+    be out
+    be ~[in stock]
+    be at the dealer
+    be on the market
+    come to ~[dealers]
+    comes to ~[dealers]
+    come out
+    be released
+    be available for pick up
+    be in inventory
+    start showing up in
+
+~[to/for something]
+    to buy
+    to purchase
+    for purchase
+    to test drive
+    for test drive
+
+~[come to]
+    come to
+    launch in
+
+~[already out]
+    already out
+    already ~[in stock]
+    ~[in stock] already
+    already available
+    available already
+    available now
+    available yet
+    at the dealer already
+    already at ~[dealers]
+    out already
+    out yet
+
+~[dealers]
+    dealers
+    dealerships
+    kia dealers
+    kia dealerships
 
 //===intent notes
 //users are generally asking if an upcoming model is released yet or when it will be.

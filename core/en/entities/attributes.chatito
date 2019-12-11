@@ -1,4 +1,6 @@
 //attributes or classes
+
+//slot(s)
 @[seater]
     ~[2 seater]
     ~[4 seater]
@@ -7,6 +9,19 @@
     ~[7 seater]
     ~[8 seater]
 
+@[trim-level]
+    ~[top trim]
+    ~[sport trim]
+    ~[base trim]
+
+@[engine-size]
+    I4
+    v6
+    V6
+    I6
+    V8
+
+//synonyms: seater
 ~[2 seater]('synonym': 'true')
     2 seater
     two seater
@@ -36,3 +51,27 @@
 ~[8 seater]('synonym': 'true')
     8 seater
     eight seater
+
+//synonyms: trim-level
+~[top trim]('synonym':'true')
+    top of the line
+    loaded
+    fully loaded
+    best trim
+    all the features
+
+~[sport trim]('synonym':'true')
+    sport model
+    sport cut
+    sport trim
+
+~[base trim]('synonym':'true')
+    base
+    base trim
+    base model
+    base level
+    basic trim
+    basic model
+    cheapest
+    basic
+

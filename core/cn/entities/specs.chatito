@@ -227,9 +227,70 @@
     内饰名称
     内饰名
 
+~[LED light]('synonym':'true')
+    LED
+    LED灯
+    LED大灯
+
+~[xenon lights]('synonym':'true')
+    氙气大灯
+    氙气灯
+
+~[halogen lights]('synonym':'true')
+    卤素大灯
+
+~[headlights]
+    大灯
+    ~[LED light]
+    ~[xenon lights]
+    ~[halogen lights]
+    汽车大灯
+    汽车~[LED light]
+    汽车~[xenon lights]
+    汽车~[halogen lights]
+
+~[sunroof]('synonym':'true')
+    天窗
+    全景天窗
+    月亮屋顶
+    滑动天窗
+
+~[audio]('synonym':'true')
+    音响
+    音箱
+
+~[3rd row seats]('synonym':'true')
+    三排座椅
+    三排座
+    三排
+    第三排座椅
+    第三排座位
+    3排座椅
+    3排座
+    3排
+    第3排座椅
+    第3排座位
+
 @[specs]
     ~[front a/c]
 
+@[specs.brain]
+    ~[audio]
+    ~[3rd row seats]
+    ~[headlights]
+    ~[3rd Row Seating Count]
+    ~[combined range]
+    ~[automatic emergency braking]
+    ~[bluetooth]
+    ~[wireless phone charger]
+    ~[LED light]
+    ~[leather seats]
+    ~[driven wheels]
+    ~[sunroof]
+    ~[horsepower]
+    ~[total seat count]
+    ~[MSRP]
+    ~[blind spot]
 //spec types
 @[optional-specs]
     ~[navigation]
@@ -238,7 +299,7 @@
     ~[usb-ports]
     ~[collision avoidance]
     ~[automatic emergency braking]
-    ~[blind spot detection]
+    ~[blind spot]
     ~[rear cross traffic alert]
     ~[forward collision warning]
     ~[lane change assist]
