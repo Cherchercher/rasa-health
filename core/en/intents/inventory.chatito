@@ -13,10 +13,25 @@ import ../entities/specs.steeringwheel.chatito
 import ../entities/specs.wheels.chatito
 import ../entities/locations.chatito
 
+~[amount-of-money]
+    20k
+    50k
+    70k
+    25000
+    50000
+    70000
+
+~[for less than]
+    cheaper than ~[amount-of-money]
+    under ~[amount-of-money]
+    for less than ~[amount-of-money]
+    for around ~[amount-of-money]
+
 %[inventory]('training': '300', 'distribution': 'even')
     ~[searching] ~[model]
     ~[greeting] ~[searching] @[model-trim]
     ~[i] want @[model-trim]
+    looking for ~[model-only] ~[for less than]
     i want to buy ~[model]
     i want to buy a @[make] @[specs.fuelType]
     i want to buy a ~[car-general]
