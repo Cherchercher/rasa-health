@@ -1,0 +1,212 @@
+~[leather seats]('synonym': 'true')
+    Ledersitzen bekommen
+    Ledersitze
+    Leder
+
+~[3rd Row Seating Count]('synonym':'true')
+    Sitzanzahl in der 3. Reihe
+
+~[combined range]('synonym':'true')
+    kombinierter Verbrauch (l/100km)
+    l/100km
+    kombinierter Verbrauch
+    Reichweite
+    kombinierte Reichweite
+    Reichweit kombiniert 
+    Wie weit kann ich fahren?
+
+~[automatic emergency braking]('synonym':'true')
+    Bremsassistent
+    Automatisches Bremsen
+    ABS
+    Automatisches
+    Bremssystem
+
+~[bluetooth]('synonym':'true')
+    Bluetooth
+    kabelloses Headset
+
+~[wireless phone charger]('synonym':'true')
+    Kabellose Ladestation
+    Dock
+    Docking Station
+    Kabellose Docking Station
+
+~[LED light]('synonym':'true')
+    LED Leuchten
+    LED Scheinwerfer
+    LED Licht
+
+~[all wheel drive]('synonym':'true')
+    Allrad
+    Allradantrieb
+    AWD
+    4WD
+    Allrad Antrieb
+    Vierradantrieb
+
+~[rear wheel drive]('synonym':'true')
+    Neckantreib
+    RWD
+
+~[driven wheels]
+    Vorderradantrieb
+    FWD
+    ~[rear wheel drive]
+    ~[all wheel drive]
+
+~[sunroof]('synonym':'true')
+    Schiebedach
+    Sonnendach
+    Klappdach
+    Panorama Schiebedach
+    Schiebedach
+    Glas Schiebedach
+
+~[horsepower]('synonym':'true')
+    PS
+    Pferdestärke
+
+~[total seat count]('synonym':'true')
+    Sitzanzahl
+    Gesamte Sitzanzahl
+    Gesamtsitzanzahl
+    Sitzzahl
+    Wieviele Sitze
+    Passagiere passen
+    Leute passen
+    Personen passen
+    Passagiere können passen
+    Leute können passen
+    Personen können passen    
+    Passagiere sitzen
+    Leute sitzen
+    Personen sitzen
+    Passagiere können sitzen
+    Leute können sitzen
+    Personen können sitzen    
+    Wieviele Leute
+
+~[ventilated seats]('synonym':'true')
+    gelüftete Vordersitze
+    gelüftete Sitze
+
+~[mirrors]('synonym':'true')
+    Spiegeln
+
+~[liftgate]('synonym':'true')
+    Heckklappe
+
+~[powerdoor]('synonym':'true')
+    Zentralverriegelung inklusive
+
+~[backup camera]('synonym':'true')
+    Rückfahrkamera
+
+~[adjustable seats]('synonym':'true')
+    elektrische Sitze
+
+~[MSRP]('synonym': 'true')
+    msrp
+    MSRP
+    Herstellerpreis
+    unverbindliche Preisempfehlung
+
+~[blind spot]('synonym':'true')
+    Warnungssystem für toten Winkel
+    Erkennung des toten Winkels
+    des toten Winkels
+    toten Winkels
+
+@[color]
+    schwarz
+    Mitternacht
+    grau
+    grau
+    Stein
+    hellgrau
+    hellgrau
+    Beige
+    Champagner
+    bräunen
+    Weiß
+    Perle
+    Silber
+    rot
+    purpurrot
+    Orange
+    Gelb
+    Limette
+    lila
+    kastanienbraun
+    Indigo
+    violett
+    Grün
+    Blau
+    Marine
+    Himmel
+    braun
+
+~[price-range]('synonym': 'true')
+    Preisspanne
+
+~[price-general]('synonym': 'true')
+    Preis
+    Kosten
+    Preisempfehlung
+    Kostenpunkt
+
+@[trim-levels]
+    Vision
+    Spirit
+    Edition 7
+    Platinum Edition
+    GT Line
+    Dream-Team Edition
+    GT line
+    Attract
+    GT
+    X-Line
+    GT Line
+
+@[price]
+    ~[MSRP]
+    ~[price-range]
+    ~[price-general]
+
+~[3rd row seats]('synonym':'true')
+    Dritte Sitzreihe
+    Zusaetzliche Sitzreihe
+    Zusätzliche Sitzreihe
+    Hintere Sitzreihe
+
+~[audio]('synonym':'true')
+    harmon kordon
+
+~[cargo volume]('synonym':'true')
+    groessten Innenraum
+    Innenraum
+    großes Ladevolumen
+    großes Innenraum
+
+@[specs.brain]
+    ~[audio]
+    ~[leather seats]
+    ~[3rd row seats]
+    ~[3rd Row Seating Count]
+    ~[combined range]
+    ~[automatic emergency braking]
+    ~[bluetooth]
+    ~[wireless phone charger]
+    ~[LED light]
+    ~[driven wheels]
+    ~[sunroof]
+    ~[horsepower]
+    ~[cargo volume]
+    ~[total seat count]
+    ~[MSRP]
+    ~[blind spot]
+    ~[adjustable seats]
+    ~[powerdoor]
+    ~[mirrors]
+    ~[ventilated seats]

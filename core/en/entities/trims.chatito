@@ -10,10 +10,14 @@
     ~[optima hybrid]
     ~[optima plug-in hybrid]
     ~[rio]
+    ~[soul]
+    ~[sportage]
     ~[rio 5-door]
     ~[stinger]
+    ~[sedona]
     ~[sorento]
     ~[telluride]
+    ~[seltos]
 
 @[future model]
     ~[seltos]
@@ -82,6 +86,7 @@
 
 ~[soul]('synonym':'true')
     soul
+    Soul
     regular soul
 
 ~[soul ev]('synonym':'true')
@@ -92,8 +97,13 @@
 ~[sorento]('synonym':'true')
     sorento
 
+~[sedona]('synonym':'true')
+    sedona
+    Sedona
+
 ~[sportage]('synonym':'true')
     sportage
+    Sportage
 
 ~[stinger]('synonym':'true')
     stinger
@@ -287,6 +297,24 @@
     Telluride SX AWD
 ~[Telluride SX FWD]('synonym':'true')
     Telluride SX FWD
+~[Stinger GT]('synonym':'true')
+    Stinger GT
+    GT Stinger
+
+~[Stinger GT1]('synonym':'true')
+    Stinger GT1
+    GT1 Stinger
+    GT1
+
+~[Stinger GT2]('synonym':'true')
+    Stinger GT2
+    GT2 Stinger
+    GT2
+
+~[Stinger GTS]('synonym':'true')
+    Stinger GTS
+    GTS Stinger
+    GTS
 
 @[model-trim]
     ~[Cadenza Limited]
@@ -357,6 +385,10 @@
     ~[Stinger GT2 RWD]
     ~[Stinger GTS AWD]
     ~[Stinger GTS RWD]
+    ~[Stinger GT]
+    ~[Stinger GT1]
+    ~[Stinger GT2]
+    ~[Stinger GTS]
     ~[Stinger Premium AWD]
     ~[Stinger Premium RWD]
     ~[Stinger RWD]

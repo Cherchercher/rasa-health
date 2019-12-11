@@ -266,7 +266,7 @@
     adaptive headlights
 
 ~[fog lights]('synonym':'true')
-    fog lights
+    Nebelscheinwerfer
 
 ~[self leveling headlights]('synonym':'true')
     self leveling headlights
@@ -328,6 +328,8 @@
     front de icer
 
 ~[sunroof]('synonym':'true')
+    Panorama Schiebedach
+    Schiebedach
     sunroof
     sun roof
     panoramic

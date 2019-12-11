@@ -12,22 +12,21 @@ import ../entities/specs.safety.chatito
 import ../entities/specs.seating.chatito
 import ../entities/specs.steeringwheel.chatito
 import ../entities/specs.wheels.chatito
-
 //this intent is to find model trims that
 //seeks [trims Y] with [specified entity value X]
 //generally want to know more about a trim
 //model slot must be filled
 
 %[list.trims]('training': '200', 'distribution': 'even')
-    @[model]
-    ~[declaritive] @[model]
-    ~[greeting?] i want to know about @[make?] @[model]
+    ~[trim-only]
+    ~[declaritive] ~[trim-only]
+    ~[greeting?] i want to know about @[make?] ~[trim-only]
     i would like to know more about the ~[trim-only]
     how many trims are there for @[model]
-    i was interested in the @[model] but the ~[trim-ext] version
-    any info on @[model]
+    i was interested in the @[model] but the ~[trim-only] version
+    any info on ~[trim-only]
     what is the top of the line @[model]
-    i was interested in the @[model] the most basic one
+    i was interested in the ~[trim-only] the most basic one
 
 //indicator specs help identify a specific trim level
 %[list.trims.indicator]('training': '100', 'distribution': 'even')

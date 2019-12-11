@@ -18,7 +18,7 @@ import ../entities/locations.chatito
     ~[greeting] ~[searching] @[model-trim]
     ~[i] want @[model-trim]
     i want to buy ~[model]
-    i want to buy a @[make] ~[each-fuel-car]
+    i want to buy a @[make] @[fuel-type]
     i want to buy a ~[car-general]
     do you have ~[model] in stock
     *[20%] would you be able to tell me the local inventory for the area surrounding zip @[zipcode] that would offer the @[specs.safety] in the ~[model]
@@ -42,11 +42,15 @@ import ../entities/locations.chatito
     i want to find a ~[model] near me
     i want to get a ~[model]
 
-%[inventory.spec]('training': '200', 'distribution': 'even')
+%[inventory.spec]('training': '300', 'distribution': 'even')
     ~[searching] an ~[model] preferably ~[ext-color] with ~[int-color] interior and @[specs.safety]
     ~[searching] for inventory for a ~[model] with @[specs.seating]
+    ~[searching] an ~[model] preferably ~[ext-color] with ~[int-color] interior and ~[specs]
+    ~[searching] for inventory for a ~[model] with ~[specs]
     ~[dealer] inventory ~[model] ~[ext-color] ~[int-color] near zip code @[zipcode]
     ~[indicator] ~[model-ent] at [dealer name]
+    which @[make] ~[have-has] ~[specs] and ~[specs]
+    which @[make] ~[have-has] ~[specs], ~[specs] and ~[specs]
 
 %[inventory.cantFind]('training': '10', 'distribution': 'even')
     i want to buy a ~[model] but no dealers ever have one in stock

@@ -1,7 +1,7 @@
 import ../common.chatito
 //all compare categories should support comparisons by spec and spec categories
 
-%[compare.models]('training': '50', 'distribution': 'even')
+%[compare.models]('training': '250', 'distribution': 'even')
     is there more ~[size-spec] in a ~[model] or a ~[model]
     what is the difference between the ~[model] and ~[model]
     difference between @[make] ~[model] and @[make] ~[model]
@@ -12,8 +12,9 @@ import ../common.chatito
     ~[optional-specs] ~[model] ~[has] more ~[size-spec] than a ~[model]
     is there a @[make] with ~[relative-size] ~[size-spec] than the ~[model]
     i was interested in the sorentos or sportages
+    which ~[have-has] better ~[specs], the ~[model] or the ~[model]?
 
-%[compare.trims]('training': '50', 'distribution': 'even')
+%[compare.trims]('training': '200', 'distribution': 'even')
     want to know what the difference is in the different ~[trims]
     ~[what] ~[difference] the different types of ~[model]
     ~[what] ~[difference] @[model-trim] @[model-trim] and @[model-trim]

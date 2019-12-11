@@ -4,16 +4,17 @@
 import ./entities/bodystyle.chatito
 import ./entities/makes.chatito
 import ./entities/trims.chatito
+import ./entities/models.chatito
 import ./entities/spec-values.chatito
-import ./entities/color.chatito
-import ./entities/specs.chatito
-import ./entities/specs.fuelconsumption.chatito
-import ./entities/specs.infotainment.chatito
-import ./entities/specs.price.chatito
-import ./entities/specs.safety.chatito
-import ./entities/specs.seating.chatito
-import ./entities/specs.storage.chatito
-import ./entities/specs.wheels.chatito
+// import ./entities/specs.chatito
+// import ./entities/specs.fuelconsumption.chatito
+// import ./entities/specs.infotainment.chatito
+// import ./entities/specs.price.chatito
+// import ./entities/specs.safety.chatito
+// import ./entities/specs.seating.chatito
+// import ./entities/specs.storage.chatito
+// import ./entities/specs.wheels.chatito
+import ./entities/specs.brain.chatito
 import ./entities/locations.chatito
 
 ~[2-8]
@@ -53,16 +54,15 @@ import ./entities/locations.chatito
     ~[cars]
 
 ~[future-model]
-    ~{model year-future] @[model]
+    ~[model year-future] @[model]
     the new @[model]
 
 ~[model-type]
-    kia
-    kias
-    model
-    models
-    car
-    cars
+    Kia
+    Kias
+    Modell
+    Wagen
+    Autos
     @[bodystyle]
 
 ~[declaritive]
@@ -144,14 +144,32 @@ import ./entities/locations.chatito
     the most
     the least
 
+~[relative-power]
+    the most powerful
+    more powerful
+
+~[relative-cost]
+    the least expensive
+    the most expensive
+
+
 ~[greeting]
     ~[hello]
     good morning
     good afternoon
     hi there
 
-//define specs from specs.chatito
+
 @[specs]
+    ~[roof]
+    ~[leather seats]
+    ~[adjustable seats]
+    ~[powerdoor]
+    ~[mirrors]
+    ~[ventilated seats]
+
+//define specs from specs.chatito
+@[specs-english]
     ~[front a/c]
     ~[front a/c zones]
     ~[rear a/c]
@@ -300,7 +318,7 @@ import ./entities/locations.chatito
     ~[stereo anti-theft]
     ~[collision avoidance]
     ~[automatic emergency braking]
-    ~[blind spot detection]
+    ~[blind spot]
     ~[rear cross traffic alert]
     ~[rear cross traffic alert]
     ~[rear cross traffic alert]
@@ -411,7 +429,7 @@ import ./entities/locations.chatito
     ~[usb-ports]
     ~[collision avoidance]
     ~[automatic emergency braking]
-    ~[blind spot detection]
+    ~[blind spot]
     ~[rear cross traffic alert]
     ~[forward collision warning]
     ~[lane change assist]

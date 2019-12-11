@@ -95,7 +95,7 @@
     ~[hydrogen.fuel-type]
     ~[flex-fuel.fuel-type]
     ~[diesel.fuel-type]
-    ~[electric.fuel-type]
+    *[30%] ~[electric.fuel-type]
 
 ~[each-fuel-car]
     ~[hybrid.car]
@@ -104,4 +104,4 @@
 
 @[fuel-type]
     ~[each-fuel-type]
-    ~[each-fuel-car]
+    *[60%] ~[each-fuel-car]

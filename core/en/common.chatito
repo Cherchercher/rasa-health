@@ -140,6 +140,8 @@ import ./entities/color.chatito
 ~[have-has]
     ~[have]
     ~[has]
+    gets
+    got
 
 ~[what]
     what

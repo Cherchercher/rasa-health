@@ -55,6 +55,7 @@
     rio ~[5-door]
 
 ~[soul]('synonym': 'true')
+    soul
     regular soul
 
 ~[soul ev]('synonym': 'true')

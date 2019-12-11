@@ -37,19 +37,24 @@ import ../entities/specs.wheels.chatito
     what is the best kia
 
 //specified by propulsion
-%[list.models.fueltype]('training': '25', 'distribution': 'even')
-    ~[searching] for ~[each-fuel-car] only
-    i am in the market for an ~[each-fuel-car] car
+%[list.models.fueltype]('training': '300', 'distribution': 'even')
+    ~[searching] for @[fuel-type] only
+    show me @[fuel-type] ~[car/s]
+    any @[fuel-type] ~[car/s]
+    does @[make] make any @[fuel-type] ~[car/s]
+    i am in the market for an @[fuel-type] ~[car/s]
+    what @[fuel-type] ~[car/s] does the @[make] make
+    any ~[car/s] that are @[fuel-type]
 
 //ways people ask about unspecified models by 'sizey' words which may describe the model itself or by a model containing a 'size-spec'
-%[list.models.size]('training': '25', 'distribution': 'even')
+%[list.models.size]('training': '100', 'distribution': 'even')
     ~[what-which] ~[model-type] ~[has] the ~[definite-size] ~[size-spec]
     whats your ~[definite-size] ~[model-type] with ~[indicator-spec]
     whats your ~[definite-size] ~[model-type] with ~[optional-specs]
 
-%[list.models.bodystyle]('training': '100', 'distribution': 'even')
+%[list.models.bodystyle]('training': '150', 'distribution': 'even')
     i am interest in @[bodystyle]
-    i am interested in a ~[each-fuel-car] @[bodystyle]
+    i am interested in a @[fuel-type] @[bodystyle]
     does @[make] make ~[a] @[bodystyle]
     does @[make] sell @[bodystyle]
     does @[make] have @[bodystyle]
@@ -62,7 +67,7 @@ import ../entities/specs.wheels.chatito
     any ~[car/s] that are seven sweaters or more
     any ~[car/s] with four wheel drive
 
-%[list.models.indicator]('training': '50', 'distribution': 'even')
+%[list.models.indicator]('training': '80', 'distribution': 'even')
     ~[what-which] ~[model-type] have ~[indicator-spec]
     ~[what-which] models have ~[indicator-spec] or ~[indicator-spec]
     ~[what-which] ~[car/s] ~[has-have] @[specs.drivetrain]

@@ -22,7 +22,7 @@ fi
 #     check_query "http://localhost:5000/parse?project=linguist&model=core_cn&query=车"
 # fi
 
-# if [ -z "$CHECK_CORE_DE" -o "$CHECK_CORE_DE" = "null" ]; then
-#     check_query "http://localhost:5000/parse?project=linguist&model=core_de&query=wie viel kostet"
-# fi
+if [ -z "$CHECK_CORE_DE" -o "$CHECK_CORE_DE" = "null" ]; then
+    check_query "http://localhost:5000/parse?project=linguist&model=core_de&query=wie viel kostet"
+fi
 

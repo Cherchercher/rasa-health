@@ -1,356 +1,60 @@
-//ambiguous models 
-~[cadenza]('synonym':'true')
-    cadenza
-    cadenzas
-    credenza
-    credenzas
-
-~[forte]('synonym':'true')
-    forte
-
-~[k900]('synonym':'true')
-    k900
-    k 900
-    k900s
-
-~[niro]('synonym':'true')
-    niro
-    niros
-    nero
-    neros
-    nitro
-
-~[niro ev]('synonym':'true')
-    niro ev
-    niro ~[ev]
-    nitro ~[ev]
-    ~[ev] nitro
-    ~[ev] niro
-    nero ~[ev]
-    ~[ev] nero
-
-~[niro plug-in hybrid]('synonym':'true')
-    niro plug-in hybrid
-    niro ~[phev]
-
-~[optima]('synonym':'true')
-    optima
-    optimas
-
-~[optima hybrid]('synonym':'true')
-    optima hybrid
-    optima ~[hybrid]
-    ~[hybrid] optima
-
-~[optima plug-in hybrid]('synonym':'true')
-    optima plug-in hybrid
-    optima ~[phev]
-    ~[phev] optima
-
-~[rio]('synonym':'true')
-    rio
-    rio ~[sedan]
-
-~[rio 5-door]('synonym':'true')
-    rio 5-door
-    rio ~[5-door]
-
-~[soul]('synonym':'true')
-    soul
-    regular soul
-
-~[soul ev]('synonym':'true')
-    soul ev
-    soul ~[ev]
-    ~[ev] soul
-
-~[sorento]('synonym':'true')
-    sorento
-
-~[sportage]('synonym':'true')
-    sportage
-
-~[stinger]('synonym':'true')
-    stinger
-    stringer
-~[telluride]('synonym':'true')
-    telluride
-
-//model without a specified trim
-@[model]
-    ~[cadenza]
-    ~[forte]
-    ~[k900]
-    ~[niro]
-    ~[niro ev]
-    ~[niro plug-in hybrid]
-    ~[optima]
-    ~[optima hybrid]
-    ~[optima plug-in hybrid]
-    ~[rio]
-    ~[rio 5-door]
-    ~[stinger]
-    ~[sorento]
-    ~[telluride]
-
-//trim specific models
-~[Cadenza Limited]('synonym':'true')
-    Cadenza Limited
-~[Cadenza Premium]('synonym':'true')
-    Cadenza Premium
-~[Cadenza Technology]('synonym':'true')
-    Cadenza Technology
-~[Forte EX IVT]('synonym':'true')
-    Forte EX IVT
-~[Forte FE 6MT]('synonym':'true')
-    Forte FE 6MT
-~[Forte FE IVT]('synonym':'true')
-    Forte FE IVT
-~[Forte GT 6MT]('synonym':'true')
-    Forte GT 6MT
-~[Forte GT DCT]('synonym':'true')
-    Forte GT DCT
-~[Forte GT-Line IVT]('synonym':'true')
-    Forte GT-Line IVT
-~[Forte LXS IVT]('synonym':'true')
-    Forte LXS IVT
-~[K900 Luxury]('synonym':'true')
-    K900 Luxury
-~[Niro EX]('synonym':'true')
-    Niro EX
-~[Niro FE]('synonym':'true')
-    Niro FE
-~[Niro LX]('synonym':'true')
-    Niro LX
-~[Niro S Touring]('synonym':'true')
-    Niro S Touring
-~[Niro Touring]('synonym':'true')
-    Niro Touring
-~[Niro EV EX]('synonym':'true')
-    Niro EV EX
-~[Niro EV EX Premium]('synonym':'true')
-    Niro EV EX Premium
-~[Niro Plug-in Hybrid EX]('synonym':'true')
-    Niro Plug-in Hybrid EX
-~[Niro Plug-in Hybrid EX Premium]('synonym':'true')
-    Niro Plug-in Hybrid EX Premium
-~[Niro Plug-in Hybrid LX]('synonym':'true')
-    Niro Plug-in Hybrid LX
-~[Optima EX]('synonym':'true')
-    Optima EX
-~[Optima EX Premium]('synonym':'true')
-    Optima EX Premium
-~[Optima LX]('synonym':'true')
-    Optima LX
-~[Optima S]('synonym':'true')
-    Optima S
-~[Optima SX]('synonym':'true')
-    Optima SX
-~[Optima Hybrid EX]('synonym':'true')
-    Optima Hybrid EX
-~[Optima Plug-in Hybrid EX]('synonym':'true')
-    Optima Plug-in Hybrid EX
-~[Rio LX]('synonym':'true')
-    Rio LX
-~[Rio S]('synonym':'true')
-    Rio S
-~[Rio 5-Door S]('synonym':'true')
-    Rio 5-Door S
-~[Sedona EX]('synonym':'true')
-    Sedona EX
-~[Sedona L]('synonym':'true')
-    Sedona L
-~[Sedona LX]('synonym':'true')
-    Sedona LX
-~[Sedona SX]('synonym':'true')
-    Sedona SX
-~[Sorento EX V6 AWD]('synonym':'true')
-    Sorento EX V6 AWD
-~[Sorento EX V6 FWD]('synonym':'true')
-    Sorento EX V6 FWD
-~[Sorento L FWD]('synonym':'true')
-    Sorento L FWD
-~[Sorento LX AWD]('synonym':'true')
-    Sorento LX AWD
-~[Sorento LX FWD]('synonym':'true')
-    Sorento LX FWD
-~[Sorento S V6 AWD]('synonym':'true')
-    Sorento S V6 AWD
-~[Sorento S V6 FWD]('synonym':'true')
-    Sorento S V6 FWD
-~[Sorento SX AWD]('synonym':'true')
-    Sorento SX AWD
-~[Sorento SX FWD]('synonym':'true')
-    Sorento SX FWD
-~[Soul EX]('synonym':'true')
-    Soul EX
-~[Soul GT-Line]('synonym':'true')
-    Soul GT-Line
-~[Soul GT-Line Turbo]('synonym':'true')
-    Soul GT-Line Turbo
-~[Soul LX 6MT]('synonym':'true')
-    Soul LX 6MT
-~[Soul LX IVT]('synonym':'true')
-    Soul LX IVT
-~[Soul S]('synonym':'true')
-    Soul S
-~[Soul X-Line]('synonym':'true')
-    Soul X-Line
-~[Sportage EX AWD]('synonym':'true')
-    Sportage EX AWD
-~[Sportage EX FWD]('synonym':'true')
-    Sportage EX FWD
-~[Sportage LX AWD]('synonym':'true')
-    Sportage LX AWD
-~[Sportage LX FWD]('synonym':'true')
-    Sportage LX FWD
-~[Sportage S AWD]('synonym':'true')
-    Sportage S AWD
-~[Sportage S FWD]('synonym':'true')
-    Sportage S FWD
-~[Sportage SX AWD]('synonym':'true')
-    Sportage SX AWD
-~[Sportage SX FWD]('synonym':'true')
-    Sportage SX FWD
-~[Stinger AWD]('synonym':'true')
-    Stinger AWD
-~[Stinger GT AWD]('synonym':'true')
-    Stinger GT AWD
-~[Stinger GT RWD]('synonym':'true')
-    Stinger GT RWD
-~[Stinger GT1 AWD]('synonym':'true')
-    Stinger GT1 AWD
-~[Stinger GT1 RWD]('synonym':'true')
-    Stinger GT1 RWD
-~[Stinger GT2 AWD]('synonym':'true')
-    Stinger GT2 AWD
-~[Stinger GT2 RWD]('synonym':'true')
-    Stinger GT2 RWD
-~[Stinger GTS AWD]('synonym':'true')
-    Stinger GTS AWD
-~[Stinger GTS RWD]('synonym':'true')
-    Stinger GTS RWD
-~[Stinger Premium AWD]('synonym':'true')
-    Stinger Premium AWD
-~[Stinger Premium RWD]('synonym':'true')
-    Stinger Premium RWD
-~[Stinger RWD]('synonym':'true')
-    Stinger RWD
-~[Telluride EX AWD]('synonym':'true')
-    Telluride EX AWD
-~[Telluride EX FWD]('synonym':'true')
-    Telluride EX FWD
-~[Telluride LX AWD]('synonym':'true')
-    Telluride LX AWD
-~[Telluride LX FWD]('synonym':'true')
-    Telluride LX FWD
-~[Telluride S AWD]('synonym':'true')
-    Telluride S AWD
-~[Telluride S FWD]('synonym':'true')
-    Telluride S FWD
-~[Telluride SX AWD]('synonym':'true')
-    Telluride SX AWD
-~[Telluride SX FWD]('synonym':'true')
-    Telluride SX FWD
-
 @[model-trim]
-    ~[Cadenza Limited]
-    ~[Cadenza Premium]
-    ~[Cadenza Technology]
-    ~[Forte EX IVT]
-    ~[Forte FE 6MT]
-    ~[Forte FE IVT]
-    ~[Forte GT 6MT]
-    ~[Forte GT DCT]
-    ~[Forte GT-Line IVT]
-    ~[Forte LXS IVT]
-    ~[K900 Luxury]
-    ~[Niro EX]
-    ~[Niro FE]
-    ~[Niro LX]
-    ~[Niro S Touring]
-    ~[Niro Touring]
-    ~[Niro EV EX]
-    ~[Niro EV EX Premium]
-    ~[Niro Plug-in Hybrid EX]
-    ~[Niro Plug-in Hybrid EX Premium]
-    ~[Niro Plug-in Hybrid LX]
-    ~[Optima EX]
-    ~[Optima EX Premium]
-    ~[Optima LX]
-    ~[Optima S]
-    ~[Optima SX]
-    ~[Optima Hybrid EX]
-    ~[Optima Plug-in Hybrid EX]
-    ~[Rio LX]
-    ~[Rio S]
-    ~[Rio 5-Door S]
-    ~[Sedona EX]
-    ~[Sedona L]
-    ~[Sedona LX]
-    ~[Sedona SX]
-    ~[Sorento EX V6 AWD]
-    ~[Sorento EX V6 FWD]
-    ~[Sorento L FWD]
-    ~[Sorento LX AWD]
-    ~[Sorento LX FWD]
-    ~[Sorento S V6 AWD]
-    ~[Sorento S V6 FWD]
-    ~[Sorento SX AWD]
-    ~[Sorento SX FWD]
-    ~[Soul EX]
-    ~[Soul GT-Line]
-    ~[Soul GT-Line Turbo]
-    ~[Soul LX 6MT]
-    ~[Soul LX IVT]
-    ~[Soul S]
-    ~[Soul X-Line]
-    ~[Sportage EX AWD]
-    ~[Sportage EX FWD]
-    ~[Sportage LX AWD]
-    ~[Sportage LX FWD]
-    ~[Sportage S AWD]
-    ~[Sportage S FWD]
-    ~[Sportage SX AWD]
-    ~[Sportage SX FWD]
-    ~[Stinger AWD]
-    ~[Stinger GT AWD]
-    ~[Stinger GT RWD]
-    ~[Stinger GT1 AWD]
-    ~[Stinger GT1 RWD]
-    ~[Stinger GT2 AWD]
-    ~[Stinger GT2 RWD]
-    ~[Stinger GTS AWD]
-    ~[Stinger GTS RWD]
-    ~[Stinger Premium AWD]
-    ~[Stinger Premium RWD]
-    ~[Stinger RWD]
-    ~[Telluride EX AWD]
-    ~[Telluride EX FWD]
-    ~[Telluride LX AWD]
-    ~[Telluride LX FWD]
-    ~[Telluride S AWD]
-    ~[Telluride S FWD]
-    ~[Telluride SX AWD]
-    ~[Telluride SX FWD]
-
-//model trim version differentiators -- often included in the name of a trim version
-~[phev]('synonym':'true')
-    phev
-    plug-in hybrid
-    plugin hybrid
-    plug in hybrid
-
-~[hybrid]('synonym':'true')
-    hybrid
-    regular hybrid
-
-~[ev]('synonym':'true')
-    ev
-    electric vehicle
-    electric
-    all electric
-    plug-in
-    plugin
-    plug in
-
+    Sorento Vision
+    Picanto Spirit
+    Picanto Edition 7
+    Rio Edition 7
+    Ceed Edition 7
+    Venga Edition 7
+    Venga Spirit
+    Sorento Spirit
+    Rio Platinum Edition
+    Rio GT Line
+    Stonic Platinum Edition
+    Stonic Spirit
+    Stonic Vision
+    Ceed Vision
+    Ceed Spirit
+    Sorento Edition 7
+    Venga Platinum Edition
+    Ceed Platinum Edition
+    Sorento Platinum Edition
+    Picanto Dream-Team Edition
+    Rio Dream-Team Edition
+    Venga Dream-Team Edition
+    Sportage Vision
+    Sportage Spirit
+    Sportage GT line
+    Sportage Platinum Edition
+    Picanto Attract
+    Sportage Edition 7
+    Niro Spirit
+    Niro Vision
+    Niro Edition 7
+    Optima Edition 7
+    Optima GT Line
+    Optima GT
+    Optima Vision
+    Optima Spirit
+    Rio Spirit
+    Rio Attract
+    Ceed Attract
+    Picanto GT Line
+    Optima Attract
+    Stonic Edition 7
+    Stinger GT Line
+    Stinger GT
+    Picanto X-Line
+    Sorento GT Line
+    Ceed GT Line
+    Ceed GT
+    ProCeed GT LINE
+    ProCeed GT
+    Sportage Dream-Team Edition
+    Soul Edition 7
+    Soul Vision
+    Soul Spirit
+    XCeed Vision
+    XCeed Edition 7
+    XCeed Spirit
+    XCeed Platinum Edition
+    XCeed Launch Edition

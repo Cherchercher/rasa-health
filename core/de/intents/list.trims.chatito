@@ -1,42 +1,14 @@
 import ../common.chatito
-import ../entities/fuel-type.chatito
 import ../entities/trim-levels.chatito
 
 %[list.trims]('training': '200', 'distribution': 'even')
-    Welches @[model] hat Ledersitze?
-    Ich möchte einen @[bodystyle] mit @[specs]… ich hatte an den @[model] gedacht
-    Ich möchte einen @[bodystyle] mit @[specs]… ich hatte den @[model] im Auge
-    Welches @[model] hat ein @[specs]
-    Welcher @[model] hat @[specs]?
-    Welche @[model] Modelle haben @[specs] der @[specs]?
+    Welches @[model] hat @[specs.brain]?
+    Ich möchte einen @[bodystyle] mit @[specs.brain]… ich hatte an den @[model] gedacht
+    Ich möchte einen @[bodystyle] mit @[specs.brain]… ich hatte den @[model] im Auge
+    Welches @[model] hat ein @[specs.brain]
+    Welcher @[model] hat @[specs.brain]?
+    Welche @[model] Modelle haben @[specs.brain] der @[specs.brain]?
     Ich bin am @[model] interessiert
     Ich möchte Information über den @[model]
     Ich interessiere mich für den @[model]
     Ich suche einen neün @[model-trim]
-
-@[model-trim]
-    Optima Plug als Hybrid Version
-
-@[specs]
-    ~[roof]
-    ~[leather seats]
-    ~[adjustable seats]
-    ~[powerdoor]
-
-~[liftgate]
-    Heckklappe
-
-~[powerdoor]
-    Zentralverriegelung inklusive
-
-~[adjustable seats]
-    elektrische Sitze
-
-~[roof]
-    Glas Schiebedach
-    Schiebedach
-
-~[leather seats]
-    Ledersitzen bekommen
-    Ledersitze
-    Leder

@@ -16,6 +16,17 @@ import ../entities/attributes.chatito
     what is the @[specs.price] ~[for-in-of-on] ~[a-an-the] ~[model]
     ~[pre-empt model] how much is it
     ~[pre-empt model] how much would it be
+    what is the price of the ~[model]
+    ~[declaritive] in the ~[model], what is the @[specs.price]?
+    ~[quantify-price] ~[model]
+    @[specs.price] for ~[model]
+    ~[what-which] @[specs.price] for the ~[model]
+    ~[what-which] @[specs.price]
+    ~[model] @[specs.price]
+    what is the @[specs.price] ~[a-an-the?] @[model]
+    what is the @[specs.price] for ~[a-an-the?] @[fuel-type] @[model]
+    what is the @[specs.price] for ~[a-an-the?] new @[model]
+    what is the @[specs.price] ~[driven-wheel] ~[car]
 
 %[request.price#lowest]('training': '200', 'distribution': 'even')
     what is the ~[base price] of @[model]
