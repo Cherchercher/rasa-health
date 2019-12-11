@@ -1,0 +1,7 @@
+namespace: staging-linguist-rasa-cn
+bases:
+- ../common
+resources:
+- namespace.yaml
+- ingress.yaml
+patchesStrategicMerge: []

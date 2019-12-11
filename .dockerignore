@@ -1,0 +1,9 @@
+VERSION_*
+.git/
+notes
+deploy-eks.sh
+build.sh
+kubernetes/
+.gitignore
+README.md
+.github/
