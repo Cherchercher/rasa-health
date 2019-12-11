@@ -24,7 +24,7 @@ import ../entities/attributes.chatito
     ~[what-which] @[specs.price]
     ~[model] @[specs.price]
     what is the @[specs.price] ~[a-an-the?] @[model]
-    what is the @[specs.price] for ~[a-an-the?] @[fuel-type] @[model]
+    what is the @[specs.price] for ~[a-an-the?] @[specs.fuelType] @[model]
     what is the @[specs.price] for ~[a-an-the?] new @[model]
     what is the @[specs.price] ~[driven-wheel] ~[car]
 

@@ -38,14 +38,14 @@ import ../entities/specs.wheels.chatito
 
 //specified by propulsion
 %[list.models.fueltype]('training': '300', 'distribution': 'even')
-    ~[searching] for @[fuel-type] only
-    show me ~[all?] @[fuel-type] ~[car/s]
-    any @[fuel-type] ~[car/s]
-    does @[make] make any @[fuel-type] ~[car/s]
-    i am in the market for an @[fuel-type] ~[car/s]
-    what @[fuel-type] ~[car/s] does the @[make] make
-    any ~[car/s] that are @[fuel-type]
-    ~[what-which] ~[car/s] ~[takes] @[fuel-type]
+    ~[searching] for @[specs.fuelType] only
+    show me ~[all?] @[specs.fuelType] ~[car/s]
+    any @[specs.fuelType] ~[car/s]
+    does @[make] make any @[specs.fuelType] ~[car/s]
+    i am in the market for an @[specs.fuelType] ~[car/s]
+    what @[specs.fuelType] ~[car/s] does the @[make] make
+    any ~[car/s] that are @[specs.fuelType]
+    ~[what-which] ~[car/s] ~[takes] @[specs.fuelType]
 
 //ways people ask about unspecified models by 'sizey' words which may describe the model itself or by a model containing a 'size-spec'
 %[list.models.size]('training': '100', 'distribution': 'even')
@@ -55,7 +55,7 @@ import ../entities/specs.wheels.chatito
 
 %[list.models.bodystyle]('training': '150', 'distribution': 'even')
     i am interest in @[bodystyle]
-    i am interested in a @[fuel-type] @[bodystyle]
+    i am interested in a @[specs.fuelType] @[bodystyle]
     does @[make] make ~[a] @[bodystyle]
     does @[make] sell @[bodystyle]
     does @[make] have @[bodystyle]

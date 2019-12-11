@@ -43,11 +43,11 @@ import ../entities/locations.chatito
     ~[declaritive] the new @[model] when will you have them in stock
     any ~[future-model] available yet
     is the @[model] ~[each-fuel-car?] available yet
-    any @[fuel-type] coming to us market
+    any @[specs.fuelType] coming to us market
     any idea when the @[model] will start showing up in ~[relative-location] dealerships
     any idea when the @[model] is launching
-    is the @[model] @[fuel-type] available now
-    is the @[model] @[fuel-type] available yet
+    is the @[model] @[specs.fuelType] available now
+    is the @[model] @[specs.fuelType] available yet
 
 //aliases
 ~[in stock]

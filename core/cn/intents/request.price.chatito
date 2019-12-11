@@ -16,4 +16,4 @@ import ../common.chatito
     @[model]的~[price-spec]
     ~[quantify-price]~[model]
     ~[driven-wheel]~[car]~[quantify-price]
-    @[fuel-type]@[model]~[quantify-price]
+    @[specs.fuelType]@[model]~[quantify-price]
