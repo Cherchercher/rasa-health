@@ -17,8 +17,11 @@ fi
 
 cd kubernetes
 
+# strip agent from end of version string
+actual_version=$(echo $version | sed -e "s/-${agent}\$//")
+
 pushd base
-/usr/local/bin/kustomize edit set imagetag 261695625069.dkr.ecr.us-east-1.amazonaws.com/linguist-rasa-$agent:$version
+/usr/local/bin/kustomize edit set imagetag 261695625069.dkr.ecr.us-east-1.amazonaws.com/linguist-rasa-$agent:$actual_version
 popd
 
 ns=$(aws --region $region ssm get-parameter --name /rasa/linguistbot/$env/namespace --query 'Parameter.Value' --output text)
