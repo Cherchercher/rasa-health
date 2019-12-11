@@ -6,13 +6,13 @@ cd /Linguist
 
 if [ $1 == 'de' ]
     then
-        RUN pip install -r requirements_de.txt
-        RUN python -m spacy download de_trf_bertbasecased_lg
+        pip install -r requirements_de.txt
+        python -m spacy download de_trf_bertbasecased_lg
 fi
 
 if [ $1 == 'cn' ]
     then
-        RUN pip install -r requirements_cn.txt
+        pip install -r requirements_cn.txt
 fi
 
 python -m rasa_nlu.train \
