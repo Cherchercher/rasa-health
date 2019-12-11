@@ -4,13 +4,13 @@ agent=$1
 
 cd /Linguist
 
-if [ agent == 'de' ]
+if [ $1 == 'de' ]
     then
         RUN pip install -r requirements_de.txt
         RUN python -m spacy download de_trf_bertbasecased_lg
 fi
 
-if [ agent == 'cn' ]
+if [ $1 == 'cn' ]
     then
         RUN pip install -r requirements_cn.txt
 fi
