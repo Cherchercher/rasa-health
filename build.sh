@@ -44,11 +44,6 @@ build() {
         .
 }
 
-update_package_versions() {
-    dirs=$(find . -type d -maxdepth 1 -not -path '*/\.*' -not -path .)
-    git add $dirs
-}
-
 commit_and_tag() {
     echo "$1" > ${VERSION_FILE}
     git add ${VERSION_FILE}
@@ -77,7 +72,6 @@ main() {
     git checkout $BRANCH
     version=$(get_updated_version)
     build $version
-    update_package_versions $version
     commit_and_tag $version
     push_tag
     push_ecr_image
