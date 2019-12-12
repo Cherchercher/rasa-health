@@ -28,6 +28,12 @@
     collision
     accident
 
+~[blind spot detection]('synonym':'true')
+    blind spot ~[detection]
+    blind spot ~[collision] ~[alert]
+    blind spot ~[collision] avoidance
+    blind spot ~[alert]
+
 ~[detection]
     detection
     monitoring
@@ -161,7 +167,13 @@
     crosstraffic
 
 ~[alert]
-    Warnungssystem 
+    alert
+    warning
+    alert system
+    warning system
+    alarm
+    alarm system
+    device
 
 ~[assist]
     assist
@@ -171,7 +183,7 @@
 ~[safety-specs]
     ~[collision avoidance]
     ~[automatic emergency braking]
-    ~[blind spot]
+    ~[blind spot detection]
     ~[rear cross traffic alert]
     ~[forward collision warning]
     ~[lane change assist]

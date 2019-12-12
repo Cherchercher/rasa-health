@@ -24,6 +24,10 @@ import ../entities/trim-levels.chatito
     @[model] @[specs.brain]
     Hat der @[model] @[specs.brain]?
     Kann man den @[model] mit @[specs.brain] bestellen?
+    Hat der @[make] @[model] das @[specs.brain]
+    Brauchen die @[make] @[model], @[trim-levels] und @[trim-levels] eine 220V Ladestation?
+    Braucht der @[make?] ~[model] eine 220V Ladestation?
+    @[specs.brain] im @[make?] ~[model]?
 //the difference between request and list is the language the user uses to indicate a response type
 //request.spec is for definite values (including binaries, which are definite values)
 //users are doing request.spec when they structure their queries so they attempt to find value of X --

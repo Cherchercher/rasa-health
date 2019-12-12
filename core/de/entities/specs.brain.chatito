@@ -32,6 +32,9 @@
     Docking Station
     Kabellose Docking Station
 
+~[phone charger]('synonym':'true')
+    Telefon Ladegerät
+
 ~[LED light]('synonym':'true')
     LED Leuchten
     LED Scheinwerfer
@@ -114,6 +117,7 @@
 
 ~[blind spot]('synonym':'true')
     Warnungssystem für toten Winkel
+    Warnungssystem für toten Winkel an den Spiegeln
     Erkennung des toten Winkels
     des toten Winkels
     toten Winkels
@@ -198,6 +202,7 @@
     ~[automatic emergency braking]
     ~[bluetooth]
     ~[wireless phone charger]
+    ~[phone charger]
     ~[LED light]
     ~[driven wheels]
     ~[sunroof]
