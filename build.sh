@@ -16,7 +16,7 @@ get_updated_version() {
 }
 
 build() {
-    version=$2
+    version=$1
 
     $(aws ecr get-login --no-include-email --region us-east-1)
 
