@@ -1,0 +1,7 @@
+namespace: linguist-rasa-en
+bases:
+- ../common
+resources:
+- namespace.yaml
+- ingress.yaml
+patchesStrategicMerge: []
