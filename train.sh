@@ -6,7 +6,10 @@ set -o pipefail
 
 agent=$1
 
-cd /Linguist
-
-scripts/$agent/pre-train.sh $agent
-scripts/$agent/train.sh $agent
+python -m rasa_nlu.train \
+    -c /Linguist/configs/$agent/rasa_config.yml \
+    --data /Linguist/core/$agent/training_data.json \
+    --fixed_model_name core_$agent \
+    -o models \
+    --project linguist \
+    --verbose
