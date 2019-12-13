@@ -1,9 +1,9 @@
 ~[Cadenza Limited]('synonym':'true')
-    凯尊 限量版
+    凯尊限量版
 ~[Cadenza Premium]('synonym':'true')
-    凯尊 顶配版
+    凯尊顶配版
 ~[Cadenza Technology]('synonym':'true')
-    凯尊 科技版
+    凯尊科技版
 ~[Forte EX IVT]('synonym':'true')
     福瑞迪 EX IVT
 ~[Forte FE 6MT]('synonym':'true')
@@ -19,65 +19,65 @@
 ~[Forte LXS IVT]('synonym':'true')
     福瑞迪 LXS IVT
 ~[K900 Luxury]('synonym':'true')
-    K900 奢华版
+    K900奢华版
 ~[Niro EX]('synonym':'true')
-    极睿 EX
+    极睿EX
 ~[Niro FE]('synonym':'true')
-    极睿 FE
+    极睿FE
 ~[Niro LX]('synonym':'true')
-    极睿 LX
+    极睿LX
 ~[Niro S Touring]('synonym':'true')
-    极睿 S 旅行版
+    极睿S旅行版
 ~[Niro Touring]('synonym':'true')
-    极睿 旅行版
+    极睿旅行版
 ~[Niro EV EX]('synonym':'true')
-    极睿 EV EX
+    极睿EVEX
 ~[Niro EV EX Premium]('synonym':'true')
-    极睿 EV EX 顶配版
+    极睿EVEX顶配版
 ~[Niro Plug-in Hybrid EX]('synonym':'true')
-    极睿 插电式混合动力 EX
+    极睿插电式混合动力EX
 ~[Niro Plug-in Hybrid EX Premium]('synonym':'true')
-    极睿 插电式混合动力 EX 顶配版
+    极睿插电式混合动力EX顶配版
 ~[Niro Plug-in Hybrid LX]('synonym':'true')
-    极睿 插电式混合动力 LX
+    极睿插电式混合动力LX
 ~[Optima EX]('synonym':'true')
-    远舰 EX
+    远舰EX
 ~[Optima EX Premium]('synonym':'true')
-    远舰 EX 顶配版
+    远舰EX顶配版
 ~[Optima LX]('synonym':'true')
-    远舰 LX
+    远舰LX
 ~[Optima S]('synonym':'true')
-    远舰 S
+    远舰S
 ~[Optima SX]('synonym':'true')
-    远舰 SX
+    远舰SX
 ~[Optima Hybrid EX]('synonym':'true')
-    远舰 混动 EX
+    远舰混动EX
 ~[Optima Plug-in Hybrid EX]('synonym':'true')
-    远舰 插电式混合动力 EX
+    远舰插电式混合动力EX
 ~[Rio LX]('synonym':'true')
-    锐欧 LX
+    锐欧LX
 ~[Rio S]('synonym':'true')
-    锐欧 S
+    锐欧S
 ~[Rio 5-Door S]('synonym':'true')
-    锐欧 5门 S
+    锐欧5门S
 ~[Sedona EX]('synonym':'true')
-    嘉华 EX
+    嘉华EX
 ~[Sedona L]('synonym':'true')
-    嘉华 L
+    嘉华L
 ~[Sedona LX]('synonym':'true')
-    嘉华 LX
+    嘉华LX
 ~[Sedona SX]('synonym':'true')
-    嘉华 SX
+    嘉华SX
 ~[Sorento EX V6 AWD]('synonym':'true')
-    索兰托 EX V6 AWD
+    索兰托EXV6AWD
 ~[Sorento EX V6 FWD]('synonym':'true')
-    索兰托 EX V6 FWD
+    索兰托EXV6FWD
 ~[Sorento L FWD]('synonym':'true')
-    索兰托 L FWD
+    索兰托LFWD
 ~[Sorento LX AWD]('synonym':'true')
-    索兰托 LX AWD
+    索兰托LXAWD
 ~[Sorento LX FWD]('synonym':'true')
-    索兰托 LX FWD
+    索兰托LXFWD
 ~[Sorento S V6 AWD]('synonym':'true')
     索兰托 S V6 AWD
 ~[Sorento S V6 FWD]('synonym':'true')
@@ -89,17 +89,17 @@
 ~[Soul EX]('synonym':'true')
     秀儿 EX
 ~[Soul GT-Line]('synonym':'true')
-    秀儿 GT-Line
+    秀儿GT-Line
 ~[Soul GT-Line Turbo]('synonym':'true')
-    秀儿 GT-Line Turbo
+    秀儿GT-LineTurbo
 ~[Soul LX 6MT]('synonym':'true')
     秀儿 LX 6MT
 ~[Soul LX IVT]('synonym':'true')
     秀儿 LX IVT
 ~[Soul S]('synonym':'true')
-    秀儿 S
+    秀儿S
 ~[Soul X-Line]('synonym':'true')
-    秀儿 X-Line
+    秀儿X-Line
 ~[Sportage EX AWD]('synonym':'true')
     狮跑 EX AWD
 ~[Sportage EX FWD]('synonym':'true')
@@ -157,7 +157,7 @@
 ~[Telluride SX FWD]('synonym':'true')
     特柳赖德 SX FWD
 
-@[model-trim]
+~[english model translations]
     ~[Cadenza Limited]
     ~[Cadenza Premium]
     ~[Cadenza Technology]
@@ -237,6 +237,9 @@
     ~[Telluride S FWD]
     ~[Telluride SX AWD]
     ~[Telluride SX FWD]
+
+//databse only
+@[model-trim]
     K2 GL
     K2 PREMIUM
     K3 新锐

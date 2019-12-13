@@ -7,54 +7,54 @@
 
 ~[k900]('synonym':'true')
     k900
-    k 900
     k900s
 
 ~[niro]('synonym':'true')
     极睿
 
 ~[niro ev]('synonym':'true')
-    极睿 电动版
-    niro ~[ev]
-    nitro ~[ev]
-    ~[ev] nitro
-    ~[ev] niro
-    nero ~[ev]
-    ~[ev] nero
+    极睿~[ev]
+    niro~[ev]
+    nitro~[ev]
+    ~[ev]nitro
+    ~[ev]niro
+    nero~[ev]
+    ~[ev]nero
 
 ~[niro plug-in hybrid]('synonym':'true')
-    极睿 插电式混动版
-    niro ~[phev]
+    极睿插电式混动版
+    niro~[phev]
 
 ~[optima]('synonym':'true')
     远舰
 
 ~[optima hybrid]('synonym':'true')
-    远舰 混动版
-    optima ~[hybrid]
-    ~[hybrid] optima
+    远舰混动版
 
 ~[optima plug-in hybrid]('synonym':'true')
-    optima plug-in hybrid
+    远舰插电混动版
     optima ~[phev]
     ~[phev] optima
 
 ~[rio]('synonym':'true')
     锐欧
-    rio ~[sedan]
+    锐欧~[sedan]
 
 ~[rio 5-door]('synonym':'true')
-    锐欧 5门
-    rio ~[5-door]
+    锐欧5门
 
 ~[soul]('synonym':'true')
     秀儿
-    秀儿 普通版
+    秀儿普通版
 
 ~[soul ev]('synonym':'true')
-    秀儿 电动版
-    soul ~[ev]
-    ~[ev] soul
+    秀儿~[ev]
+    ~[ev]秀儿
+
+~[ev]
+    电动版
+    电动
+    电动车
 
 ~[sorento]('synonym':'true')
     索兰托

@@ -27,10 +27,17 @@ import ./entities/locations.chatito
     8
 
 ~[model]
-    @[model]
-    @[model-trim]
-    ~[model-year] @[model]
-    ~[model-year] @[model-trim]
+    @[make?] @[model]
+    @[make?] @[model-trim]
+    ~[model-year] @[make?] @[model]
+    ~[model-year] @[make?] @[model-trim]
+    @[make?] @[model] ~[model-year]
+    @[make?] @[model-trim] ~[model-year]
+
+~[packages]
+    Standardpaket
+    Premium Collection
+    Premium Package
 
 //model without model year - for controlling frequency of model-year appearing in training data
 ~[model-nomy]
@@ -477,9 +484,6 @@ import ./entities/locations.chatito
     ~[usb-ports]
     ~[fuel tank capacity]
 
-~[size-spec]
-    ~[cargo volume]
-
 //"how {long/wide/high/big/small/tall}"
 ~[measure-spec]
     ~[cargo volume]
@@ -499,5 +503,7 @@ import ./entities/locations.chatito
 
 //use this alias where users are asking for number value of a spec
 ~[numval-spec]
-    ~[0-60 mph]
-    ~[top speec]
+    0-60mph
+    0-100km/h
+    0-60 mph
+    0-100 km/h

@@ -16,7 +16,3 @@ import ../common.chatito
     Welcher @[model] hat eine bessere Ausstattung? Der ~[model] oder der ~[model]?
     Welcher @[model] hat eine bessere Ausstattung? Der @[trim-levels] oder der @[trim-levels]?
     Was ist der Preisunterschied zwischen einem @[model-year] und einem ~[model]?
-
-~[package]
-    Premium Collection
-    Premium Package

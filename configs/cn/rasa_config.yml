@@ -1,9 +1,10 @@
 language: "zh"
 
 pipeline:
-- name: "nlp_mitie"
-  model: "data/cn/total_word_feature_extractor_zh.dat"
-- name: "tokenizer_jieba"
+- name: "MitieNLP"
+  model: "data/total_word_feature_extractor_zh.dat"
+- name: "JiebaTokenizer"
+  dictionary_path: "jieba_userdict"
 - name: "ner_mitie"
 - name: "ner_synonyms"
 - name: "intent_entity_featurizer_regex"
