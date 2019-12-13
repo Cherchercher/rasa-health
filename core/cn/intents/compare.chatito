@@ -22,10 +22,10 @@ import ../common.chatito
     ~[what-which]~[model]~[has]更好的性能是@[model-trim]还是@[model-trim]
 
 %[compare.yoy]('training': '50','distribution': 'even')
-    ~[declaritive]在~[model-year]~[model]能告诉我~[model-year]和~[model-year]~[what-difference]
-    ~[what]@[specs.brain]区别,在~[model-year]和~[model-year]~[model]之间
-    @[specs.brain]~[what]区别,在~[model-year]和~[model-year]~[model]之间
-    ~[model-year]~[model]和@[specs.brain]~[model-year]~[model]有什么相同点
+    ~[declaritive]在~[model]能告诉我@[model-year]和@[model-year]~[what-difference]
+    能开多久~[what-which]@[specs.brain]区别,在@[model-year]和~[model]之间
+    @[specs.brain]~[what]区别,在@[model-year]和~[model]之间
+    ~[model]和@[specs.brain]~[model]有什么相同点
 
 //ways users refer to trims
 ~[trims]

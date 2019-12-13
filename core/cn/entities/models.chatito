@@ -15,9 +15,7 @@
 
 ~[k2]('synonym': 'true')
     K2
-    K 2
     k2
-    k 2
 
 ~[kx cross]('synonym': 'true')
     kx cross
@@ -74,7 +72,7 @@
     极睿
 
 ~[niro ev]('synonym': 'true')
-    极睿 电动汽车
+    极睿电动汽车
     e-niro
 
 ~[carnival]('synonym': 'true')
@@ -85,57 +83,44 @@
     佳乐
 
 ~[niro plug-in hybrid]('synonym': 'true')
-    极睿 插电式混合动力
+    极睿插电式混合动力
 
 ~[optima]('synonym': 'true')
     远舰
 
 ~[optima hybrid]('synonym': 'true')
-    远舰 混合动力
+    远舰混合动力
 
 ~[optima plug-in hybrid]('synonym': 'true')
-    远舰 插电式混合动力
+    远舰插电式混合动力
 
 ~[rio]('synonym': 'true')
     锐欧
     Rio
 
 ~[rio 5-door]('synonym': 'true')
-    锐欧 5门
-    Rio 5-door
-    Rio 5door
-    rio 5 door
+    锐欧5门
 
 ~[soul]('synonym': 'true')
     秀儿
-    Soul
-    soul
 
 ~[soul ev]('synonym': 'true')
-    秀儿 电动汽车
-    Soul EV
+    秀儿电动
+    秀儿电动汽车
 
 ~[sorento]('synonym': 'true')
-    Sorento
-    sorento
     索兰托
     索兰托L
 
 ~[sportage]('synonym': 'true')
-    sportage
-    Sportage
     狮跑
     智跑
 
 ~[stinger]('synonym': 'true')
     斯汀格
-    Stinger
-    stinger
 
 ~[telluride]('synonym': 'true')
-    telluride
     特柳赖德
-    Telluride
 
 //model without a specified trim
 @[model]
@@ -169,30 +154,17 @@
     ~[stinger]
     ~[telluride]
 
-
-
 ~[ev-model]
     ~[niro] ~[ev]
     ~[niro ev]
     ~[niro plug-in hybrid]
-    ~[optima hybrid]
-    ~[optima plug-in hybrid]
-
-~[phev]('synonym': 'true')
-    phev
-    plug-in hybrid
-    plugin hybrid
-    plug in hybrid
 
 ~[hybrid]('synonym': 'true')
-    hybrid
-    regular hybrid
+    混动版
+    混动
 
 ~[ev]('synonym': 'true')
-    ev
-    electric vehicle
-    electric
-    all electric
-    plug-in
-    plugin
-    plug in
+    电动
+    电动版
+    插电
+    插电版

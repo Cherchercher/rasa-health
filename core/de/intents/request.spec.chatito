@@ -28,6 +28,13 @@ import ../entities/trim-levels.chatito
     Brauchen die @[make] @[model], @[trim-levels] und @[trim-levels] eine 220V Ladestation?
     Braucht der @[make?] ~[model] eine 220V Ladestation?
     @[specs.brain] im @[make?] ~[model]?
+    Wie weit kann man mit dem @[make?] ~[model] fahren wenn er voll geladen ist?
+    Kann man mit dem @[model-year]'er @[make?] @[model] abschleppen?
+    Kann man mit dem @[make?] ~[model] abschleppen?
+    Wie lange braucht der ~[model] von ~[numval-spec]
+    Hat der ~[model] @[specs.brain] im ~[packages]?
+    Wieviel ist das ~[numval-spec]?
+    Hat der 2019 Kia Optima S eine Fernbedienung zum Starten?
 //the difference between request and list is the language the user uses to indicate a response type
 //request.spec is for definite values (including binaries, which are definite values)
 //users are doing request.spec when they structure their queries so they attempt to find value of X --
