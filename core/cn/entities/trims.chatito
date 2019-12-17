@@ -14,16 +14,9 @@
 
 ~[niro ev]('synonym':'true')
     极睿~[ev]
-    niro~[ev]
-    nitro~[ev]
-    ~[ev]nitro
-    ~[ev]niro
-    nero~[ev]
-    ~[ev]nero
 
 ~[niro plug-in hybrid]('synonym':'true')
     极睿插电式混动版
-    niro~[phev]
 
 ~[optima]('synonym':'true')
     远舰
@@ -33,8 +26,6 @@
 
 ~[optima plug-in hybrid]('synonym':'true')
     远舰插电混动版
-    optima ~[phev]
-    ~[phev] optima
 
 ~[rio]('synonym':'true')
     锐欧

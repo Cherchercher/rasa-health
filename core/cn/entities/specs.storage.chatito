@@ -19,16 +19,7 @@
 
 ~[cargo volume]('synonym':'true')
     载货量
-    cargo volume
-    max cargo volume
-    cargo max volume
-    cargo capacity
-    max cargo capacity
-    cargo size
-    cargo space
-    cargo volume with open seats
-    cargo volume with seats
-    cargo volume with seats opened
+    容积
 
 ~[cup holders]('synonym':'true')
     饮料容器托座

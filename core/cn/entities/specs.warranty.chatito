@@ -2,11 +2,11 @@
     基本保修类型
 
 ~[basic warranty maximum miles]('synonym':'true')
-    基本保修最大里程
-    保修最大里程
+    基本保修~[definite-size-big]里程
+    保修~[definite-size-big]里程
 
 ~[basic warranty maximum years]('synonym':'true')
-    基本保修最大年限
+    基本保修~[definite-size-big]年限
     保修月数
     保修期
 
@@ -20,10 +20,10 @@
     防锈保修类型
 
 ~[rust warranty maximum miles]('synonym':'true')
-    防锈保修最大里程
+    防锈保修~[definite-size-big]里程
 
 ~[rust warranty max years]('synonym':'true')
-    防锈保修最大年限
+    防锈保修~[definite-size-big]年限
 
 ~[rust warranty miles type]('synonym':'true')
     防锈保修里程类型
@@ -35,10 +35,10 @@
     传动系统保修类型
 
 ~[drivetrain warranty maximum miles]('synonym':'true')
-    传动系统保修最大里程
+    传动系统保修~[definite-size-big]里程
 
 ~[drivetrain warranty maximum years]('synonym':'true')
-    传动系统保修最大年限
+    传动系统保修~[definite-size-big]年限
 
 ~[drivetrain warranty miles type]('synonym':'true')
     传动系统保修里程类型

@@ -1,13 +1,19 @@
 import ../common.chatito
 
 %[whatis.spec]('training': '100', 'distribution': 'even')
-    @[specs.brain]意味着~[the car]~[do some function]
+    @[specs.safety]意味着~[the car]~[do some function]
     这辆车的@[specs.brain]]有什么
     这辆车的@[specs.brain]有什么好处吗
     这@[specs.brain]~[can]自动停车吗
-    @[specs.brain]意味着~[the car]~[can]~[do some function]吗
-    @[specs.brain]在~[model]中做些什么
-    @[specs.brain]的时候做什么
+    @[specs.safety]意味着~[the car]~[can]~[do some function]吗
+    ~[model]的@[specs.brain]~[what-to-do]
+    @[specs.brain]~[in an accident]~[what-to-do]
+
+~[what-to-do]
+    做什么
+    有什么用
+    有什么作用
+    能做什么
 
 ~[the car]
     这辆车

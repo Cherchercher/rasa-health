@@ -6,37 +6,40 @@ import ../common.chatito
 ////        i.e. '7 seater' is a 
 
 %[list.trims]('training': '25', 'distribution': 'even')
-    how many trims are there for ~[trim-entity]
-    ~[declaritive] ~[trim-entity]
-    ~[trim-entity]
+    有哪些~[trim-only]
+    有哪几种~[trim-only]
+    ~[trim-only]有吗
+    ~[declaritive]~[trim-only]
+    ~[trim-only]
 
 //indicator specs help identify a specific trim level
 %[list.trims.indicator]('training': '100', 'distribution': 'even')
-    ~[exist] ~[indicator-spec] ~[model]?
-    ~[engine] on ~[model]
-    ~[what-which] options for ~[model] ~[engine]
-    ~[what-which] ~[engine] options are available for ~[model]
-    ~[exist] ~[model] ~[posseses] ~[indicator-spec]
+    ~[has]~[indicator-spec]的~[trim-only]
+    ~[has]~[engine]的~[trim-only]
+    ~[trim-only]~[engine]有~[what-which]选项
+    ~[trim-only]~[what-which]~[engine]选项呢
+    这儿有~[has]~[indicator-spec]的~[trim-only]吗
 
 //list trims that have some declared optional spec
 %[list.trims.optional]('training': '100', 'distribution': 'even')
-    ~[declaritive?] for the ~[model], which models ~[posseses] the @[optional-specs]
-    Do all ~[model] ~[posseses] @[optional-specs]
-    is @[optional-specs] available on ~[model]
-    is @[optional-specs] included on all ~[model]
-    is @[optional-specs] only available on the ~[car-trim] and ~[car-trim] trims
-    what trim package do I have to buy in order to get @[optional-specs]
-    what trim package do I have to buy in order to get @[optional-specs] and @[optional-specs]
-    is @[optional-specs] standard on all trim levels
-    Can I get @[optional-specs] with any trim
-    What trim level of ~[model] ~[posseses] @[optional-specs]
-    Can you get the ~[model] with @[optional-specs]
-    ~[exist] @[trim-level] @[model-trim] ~[posseses] @[optional-specs]
-    ~@[optional-specs] @[model-trim] ~[possess] @[optional-specs]
-    is @[optional-specs] available ~[on-in] @[model-trim]
-    are @[optional-specs] available ~[on-in] @[model-trim]
-    ~[declaritive] can i get a @[optional-specs] in a ~[model]
-    @[optional-specs] ~[model] ~[posseses] @[specs]
+    ~[declaritive?]~[trim-only]哪一种~[has]@[optional-specs]
+    所有的~[trim-only]都~[has]@[optional-specs]吗
+    ~[trim-only]~[has]@[optional-specs]吗
+    ~[trim-only?]@[optional-specs]是标配吗
+    @[optional-specs]是只有~[car-trim]和~[car-trim]才有的吗
+    只有~[car-trim]和~[car-trim]~[has]@[optional-specs]吗
+    买哪一款~[trim-only]~[has]@[optional-specs]
+    我想买~[has]@[optional-specs]的
+    带@[optional-specs]的有哪些车款可以选择
+    带@[optional-specs]的有哪些
+    哪款车~[has]@[optional-specs]
+    我可以买~[has]@[optional-specs]的~[trim-only]吗
+    ~[has]@[optional-specs]的~[trim-only]吗
+    看看~[has]@[optional-specs]的~[trim-only]有那些
+    有~[has]@[optional-specs]的@[trim-level]@[model-trim]吗
+    @[optional-specs]@[model-trim]~[has]@[optional-specs]
+    @[model-trim]带@[optional-specs]吗
+    ~[has]@[optional-specs]@[specs]的~[trim-only]
 
 ~[quantify]
     有多少
@@ -45,12 +48,3 @@ import ../common.chatito
     多远
     多少米
     多少公里
-
-~[posseses]
-    has
-    come with
-    comes with
-    included on
-    included in
-    have
-    available on
