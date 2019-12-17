@@ -10,7 +10,7 @@ cd /Linguist
  
 python -m rasa train nlu \
     --config ./configs/$agent/rasa_config.yml \
-    --data ./core/$agent/training_data.json \
+    --nlu ./core/$agent/training_data.json \
     --fixed-model-name core_$agent \
     --out models \
     --verbose
