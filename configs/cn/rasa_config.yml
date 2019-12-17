@@ -3,6 +3,7 @@ language: "zh"
 pipeline:
 - name: "MitieNLP"
   model: "data/cn/total_word_feature_extractor_zh.dat"
+  num_threads: 1000
 - name: "JiebaTokenizer"
   dictionary_path: "jieba_userdict"
 - name: "ner_mitie"
