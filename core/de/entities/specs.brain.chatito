@@ -3,6 +3,31 @@
     Ledersitze
     Leder
 
+~[row]
+    Reihe
+
+~[first row]('synonym':'true')
+    1. ~[row]
+    erste ~[row]
+
+~[second row]('synonym':'true')
+    2. ~[row]
+    zweite ~[row]
+
+~[third row]('synonym':'true')
+    3. ~[row]
+    dritte ~[row]
+
+~[fourth row]('synonym':'true')
+    vierte Reihe
+    4. Reihe
+
+@[rows]
+    ~[first row]
+    ~[second row]
+    ~[third row]
+    ~[fourth row]
+
 ~[3rd Row Seating Count]('synonym':'true')
     Sitzanzahl in der 3. Reihe
 
@@ -191,8 +216,14 @@
     Innenraum
     Ladevolumen
 
-~[captain chair]
+~[captain chair]('synonym':'true')
     Drehsitzen
+
+@[specs.brain.seats]
+    ~[captain chair]
+    ~[leather seats]
+    ~[ventilated seats]
+    ~[adjustable seats]
 
 @[specs.brain]
     ~[captain chair]

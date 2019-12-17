@@ -190,24 +190,6 @@
     ~[third row shoulder]
 
 //row count
-~[row]
-    Reihe
-
-~[first row]('synonym':'true')
-    1. ~[row]
-    erste ~[row]
-
-~[second row]('synonym':'true')
-    2. ~[row]
-    zweite ~[row]
-
-~[third row]('synonym':'true')
-    3. ~[row]
-    dritte ~[row]
-
-~[fourth row]('synonym':'true')
-    vierte Reihe
-    4. Reihe
 
 //seat types
 ~[captain chair]
