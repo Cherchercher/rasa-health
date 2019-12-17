@@ -44,21 +44,21 @@ import ./entities/locations.chatito
     @[model]
     @[model-trim]
 
-~[car]
+~[car1]
     model
     car
     trim
     vehicle
 
-~[cars]
+~[cars2]
     models
     cars
     trims
     vehicles
 
 ~[car/s]
-    ~[car]
-    ~[cars]
+    ~[car1]
+    ~[cars2]
 
 ~[future-model]
     ~[model year-future] @[model]
@@ -138,27 +138,80 @@ import ./entities/locations.chatito
     hola
 
 ~[relative-size]
-    more
-    less
-    larger
-    bigger
-    smaller
+    mehr
+    weniger
+    größer
+    größer
+    kleiner
 
-~[definite-size]
-    largest
-    biggest
-    smallest
-    the most
-    the least
+~[largest]
+    groessten
+    größtes
+    größter
+    größtest
+
+~[smallest]
+    kleinste
+    kleinster
+    kleinstes
+
+~[car]
+    Modell
+    Kofferraum
+    Ausführung
+
+~[the most]
+    der meiste
+    die meiste
+    das meiste
+
+~[the least]
+    wenigstes
+    wenigster
+    wenigste
+    wenigsten
+
+~[most-power-specs]
+    die hoechste PS 
+    der stärkste Motor
+    der kräftigste Motor
+    der kräftigste Antrieb
 
 ~[relative-power]
-    the most powerful
-    more powerful
+    höhere Leistung
+    bessere Leistung
+    der kräftigere
 
-~[relative-cost]
-    the least expensive
-    the most expensive
+~[definite-power]
+    der kräftigste
+    der stärkste
 
+~[definite-cost]
+    der günstigste
+    der billigste
+    der am wenigsten kostet
+    der teuerste
+    der am meisten kostet
+
+~[definate-size]
+    ~[largest]
+    ~[smallest]
+
+~[best]
+    ~[definate-cost]
+    ~[definite-power]
+    ~[definate-size]
+    schnellste
+    sicherste
+    billigste
+
+~[model-only]
+    @[model]
+    @[model-year] @[model]
+
+~[trim-only]
+    @[model-trim]
+    @[model-year] @[model-trim]
 
 ~[greeting]
     ~[hello]

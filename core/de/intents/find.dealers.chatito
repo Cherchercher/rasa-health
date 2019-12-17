@@ -1,8 +1,8 @@
 import ../common.chatito
 
 %[find.dealers]('training': '100', 'distribution': 'even')
-    Gibt es einen Händler in ~[relative location]?
-    Kannst du mir den senden wo der nächste Händler ist?
-    Kannst du mir zeigen wo der nächste Händler ist?
-    Händler in meiner Nähe mit dem ~[model]?
-    Händler in meiner Nähe mit dem ~[model]?
+    Gibt es einen Händler in ~[relative location]
+    Kannst du mir den senden wo der nächste Händler ist
+    Kannst du mir zeigen wo der nächste Händler ist
+    Händler in meiner Nähe mit dem ~[model]
+    Händler in meiner Nähe mit dem ~[model]

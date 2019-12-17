@@ -212,10 +212,6 @@
 //seat types
 ~[captain chair]
     Drehsitzen
-    captain chair
-    captain chairs
-    captain seats
-    captain seat
 
 //seating climate
 ~[heated seats]
