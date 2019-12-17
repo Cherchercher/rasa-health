@@ -5,10 +5,4 @@ import ../common.chatito
     Wo kann ich den @[make] ~[model] finden
     Wo ist der ~[model] erhaltbar
     I möchte die ~[model] Ausführung mit @[specs.brain]
-    I möchte die ~[model] Ausführung mit @[specs.brain] in der @[rows]
-
-@[rows]
-    ~[first row]
-    ~[second row]
-    ~[third row]
-    ~[fourth row]
+    I möchte die ~[model] Ausführung mit @[specs.brain.seats] in der @[rows]

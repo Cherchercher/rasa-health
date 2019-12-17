@@ -29,10 +29,10 @@ import ./entities/locations.chatito
 ~[model]
     @[make?] @[model]
     @[make?] @[model-trim]
-    ~[model-year] @[make?] @[model]
-    ~[model-year] @[make?] @[model-trim]
-    @[make?] @[model] ~[model-year]
-    @[make?] @[model-trim] ~[model-year]
+    @[model-year] @[make?] @[model]
+    @[model-year] @[make?] @[model-trim]
+    @[make?] @[model] @[model-year]
+    @[make?] @[model-trim] @[model-year]
 
 ~[packages]
     Standardpaket
@@ -159,6 +159,7 @@ import ./entities/locations.chatito
     Modell
     Kofferraum
     Ausführung
+    Auto
 
 ~[the most]
     der meiste
