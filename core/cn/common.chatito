@@ -139,6 +139,25 @@ import ./entities/locations.chatito
 ~[has]
     有
     拥有
+    带
+    配置
+
+~[model-type]
+    起亚
+    车型
+    车款
+    车
+    款式
+    车子
+    @[bodystyle]
+
+~[model-only]
+    @[model]
+    @[model-year] @[model]
+
+~[trim-only]
+    @[model-trim]
+    @[model-year] @[model-trim]
 
 ~[declaritive]
     ~[I?]想问一下
@@ -178,3 +197,38 @@ import ./entities/locations.chatito
     怎么买
     怎么卖
     这需要多少钱
+
+~[relative-size]
+    更大的
+    更多的
+    比这个大的
+    比这个小的
+    更小的
+    更少的
+
+~[definite-size]
+    ~[definite-size-big]
+    ~[definite-size-small]
+
+~[definite-size-big]
+    最大的
+    最高
+    最多的
+
+~[definite-size-small]
+    最小的
+    最少的
+
+~[relative-power]
+    最强大的
+    最强劲的
+    最带劲的
+    最高系数的
+    最暴力的
+
+~[relative-cost]
+    最贵的
+    最便宜的
+    最平价的
+    最高档的
+    要价最高的

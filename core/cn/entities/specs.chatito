@@ -331,7 +331,7 @@
     ~[combined mpg]
     ~[city mpg]
 
-~[size-spec]
+@[size-spec]
     ~[cargo volume]
 
 ~[seats-spec]

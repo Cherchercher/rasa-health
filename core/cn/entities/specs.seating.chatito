@@ -1,7 +1,7 @@
 ~[total seat count]('synonym':'true')
     总共几座
-    能做几人
-    ~[can]做多少人
+    能坐几人
+    ~[can]坐多少人
     乘客容量
 
 ~[1st Row Seating Count]('synonym':'true')
@@ -13,16 +13,15 @@
 
 ~[3rd Row Seating Count]('synonym':'true')
     ~[third row]
-    一整排 ~[third row]
-    ~[third row] 一整排
-    ~[third row] 一共
-    ~[third row] 总共
+    一整排~[third row]
+    ~[third row]一整排
+    ~[third row]一共
+    ~[third row]总共
     ~[3rd row seats]数目
     几个~[3rd row seats]数
     ~[3rd row seats]能坐多少
     ~[3rd row seats]限载
     ~[3rd row seats]限载多少
-
 
 ~[4th Row Seating Count]('synonym':'true')
     ~[fourth row]

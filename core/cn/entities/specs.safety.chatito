@@ -55,9 +55,15 @@
     检测
 
 ~[rear cross traffic alert]('synonym':'true')
-    后方~[cross-traffic]~[alert]~[system?]
-    后段~[cross-traffic]~[collision]~[alert]
+    后方交叉交通~[alert]
+    后段交叉交通~[collision1]~[alert]
     后部碰撞警示系统
+
+~[collision1]
+    事故
+    碰撞
+    碰撞事故
+    意外
 
 ~[forward collision warning]('synonym':'true')
     ~[forward]~[collision]~[alert]
@@ -177,11 +183,6 @@
 ~[lane-keep]
     车道保持
     变道
-
-~[cross-traffic]
-    交叉交通
-    交叉交通
-    交叉交通
 
 ~[alert]
     告警

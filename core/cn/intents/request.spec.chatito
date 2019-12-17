@@ -33,9 +33,9 @@ import ../common.chatito
     电动的@[model]只充电能开多久
     加满油了能开多久
     加满油充满电能开多久
-    最大里程是多少
-    ~[model]最大里程是多少
-    ~[ev-model]最大里程是多少
+    ~[definite-size-big]里程是多少
+    ~[model]~[definite-size-big]里程是多少
+    ~[ev-model]~[definite-size-big]里程是多少
 
 %[request.spec.mpg]('training': '25', 'distribution': 'even')
     ~[model]的~[mpg-spec]多大
