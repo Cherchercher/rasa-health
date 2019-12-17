@@ -72,6 +72,10 @@
     4WD
     Allrad Antrieb
     Vierradantrieb
+    alle Allrad
+
+~[power liftgate]('synonym':'true')
+    elektrischer Heckklappe
 
 ~[rear wheel drive]('synonym':'true')
     Neckantreib
@@ -101,6 +105,7 @@
     Gesamtsitzanzahl
     Sitzzahl
     Wieviele Sitze
+    Wieviel Sitze
     Passagiere passen
     Leute passen
     Personen passen
@@ -130,6 +135,14 @@
 
 ~[backup camera]('synonym':'true')
     Rückfahrkamera
+
+~[rear camera]('synonym':'true')
+    Rückfahrkamera
+    eingebaute Rückfahrkamera
+
+~[start button]('synonym':'true')
+    Startknopf
+    Start Button
 
 ~[adjustable seats]('synonym':'true')
     elektrische Sitze
@@ -175,6 +188,9 @@
     Marine
     Himmel
     braun
+    lippenstiftrot
+    giftgrün erhältlich
+    Snow White Pearl
 
 ~[price-range]('synonym': 'true')
     Preisspanne
@@ -219,16 +235,43 @@
 ~[captain chair]('synonym':'true')
     Drehsitzen
 
+~[fabric cover seat]('synonym':'true')
+    stoffbezogene Sitze
+
 @[specs.brain.seats]
+    ~[fabric cover seat]
     ~[captain chair]
     ~[leather seats]
     ~[ventilated seats]
     ~[adjustable seats]
+    ~[heated seats]
+    ~[cooled seats]
+    ~[3rd row seats]
+
+~[remote-start]('synonym':'true')
+    Fernbedienung zum Starten
+
+~[heated seats]
+    beheizbare Sitze
+    heated seats
+    seat warmers
+    butt warmers
+
+~[cooled seats]
+    gekühlte Vordersitze
+    cooled seats
+    cooling seats
+    a/c seats
+    air condintioned seats
+
+@[specs.brain.tank]
+    Tank
 
 @[specs.brain]
+    ~[remote-start]
     ~[captain chair]
     ~[audio]
-    ~[leather seats]
+    ~[power liftgate]
     ~[3rd row seats]
     ~[3rd Row Seating Count]
     ~[combined range]
@@ -244,7 +287,12 @@
     ~[total seat count]
     ~[MSRP]
     ~[blind spot]
-    ~[adjustable seats]
     ~[powerdoor]
     ~[mirrors]
+    ~[rear camera]
+    ~[captain chair]
+    ~[leather seats]
     ~[ventilated seats]
+    ~[adjustable seats]
+    ~[heated seats]
+    ~[cooled seats]

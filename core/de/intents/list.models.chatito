@@ -17,6 +17,8 @@ import ../entities/attributes.chatito
     Welcher @[make] hat den ~[definite-size] @[specs.brain]
     Welcher ist der ~[best] ~[car]
     Welcher ist der ~[best] @[bodystyle]
+    Ich suche einen ~[neuen?] ~[model-only]
+    Ich suche einen neün @[model]
 
 //need some phrases with optional specs
 //need some phrases with optional specs propulsion/fueltype

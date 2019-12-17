@@ -13,5 +13,6 @@ import ../entities/trim-levels.chatito
     Ich möchte Information über den @[model]
     Ich interessiere mich für den @[model]
     Ich suche einen neün @[model-trim]
+    Ich suche einen ~[neuen?] ~[trim-only]
     Welcher @[model] hat den ~[definite-size] @[specs.brain]
     Welcher ist der ~[best] ~[trim-only]
