@@ -8,33 +8,33 @@ import ../entities/trim-levels.chatito
 //seeks binary value of specified entity name as related to specified model/trim Y
 
 %[request.spec]('training': '450', 'distribution': 'even')
-    Was ist die @[specs.brain] vom ~[model]?
-    Wieviel @[specs.brain] hat der ~[model] mit der AUSSTATTUNG?
-    Haben alle Fortes @[specs.brain]?
-    Ich würde gern wissen ob der @[model-year] @[model-trim] verfügar ist in der @[trim-levels] version?
-    Ist ein Kompass vorhanden in allen Versionen des @[model]?
-    Hat der @[model] klimatisierte Sitze?
-    ~[model] mit einem @[specs.brain]?
-    Hat der @[make] @[model] Vierradantrieb?
-    Hallo Kian, kann ich ein ~[model] haben?
-    Gibt es den @[model] mit @[specs.brain]?
-    Hat das @[make] ~[model] @[specs.brain]?
-    Hat der @[make] @[specs.brain]?
-    Hat der @[model-year] @[make] @[model-trim] @[specs.brain]?
+    Was ist die @[specs.brain] vom ~[model]
+    Wieviel @[specs.brain] hat der ~[model] mit der AUSSTATTUNG
+    Haben alle Fortes @[specs.brain]
+    Ich würde gern wissen ob der @[model-year] @[model-trim] verfügar ist in der @[trim-levels] version
+    Ist ein Kompass vorhanden in allen Versionen des @[model]
+    Hat der @[model] klimatisierte Sitze
+    ~[model] mit einem @[specs.brain]
+    Hat der @[make] @[model] Vierradantrieb
+    Hallo Kian, kann ich ein ~[model] haben
+    Gibt es den @[model] mit @[specs.brain]
+    Hat das @[make] ~[model] @[specs.brain]
+    Hat der @[make] @[specs.brain]
+    Hat der @[model-year] @[make] @[model-trim] @[specs.brain]
     @[model] @[specs.brain]
-    Hat der @[model] @[specs.brain]?
-    Kann man den @[model] mit @[specs.brain] bestellen?
+    Hat der @[model] @[specs.brain]
+    Kann man den @[model] mit @[specs.brain] bestellen
     Hat der @[make] @[model] das @[specs.brain]
-    Brauchen die @[make] @[model], @[trim-levels] und @[trim-levels] eine 220V Ladestation?
-    Braucht der @[make?] ~[model] eine 220V Ladestation?
-    @[specs.brain] im @[make?] ~[model]?
-    Wie weit kann man mit dem @[make?] ~[model] fahren wenn er voll geladen ist?
-    Kann man mit dem @[model-year]'er @[make?] @[model] abschleppen?
-    Kann man mit dem @[make?] ~[model] abschleppen?
+    Brauchen die @[make] @[model], @[trim-levels] und @[trim-levels] eine 220V Ladestation
+    Braucht der @[make?] ~[model] eine 220V Ladestation
+    @[specs.brain] im @[make?] ~[model]
+    Wie weit kann man mit dem @[make?] ~[model] fahren wenn er voll geladen ist
+    Kann man mit dem @[model-year]'er @[make?] @[model] abschleppen
+    Kann man mit dem @[make?] ~[model] abschleppen
     Wie lange braucht der ~[model] von ~[numval-spec]
-    Hat der ~[model] @[specs.brain] im ~[packages]?
-    Wieviel ist das ~[numval-spec]?
-    Hat der 2019 Kia Optima S eine Fernbedienung zum Starten?
+    Hat der ~[model] @[specs.brain] im ~[packages]
+    Wieviel ist das ~[numval-spec]
+    Hat der 2019 Kia Optima S eine Fernbedienung zum Starten
 //the difference between request and list is the language the user uses to indicate a response type
 //request.spec is for definite values (including binaries, which are definite values)
 //users are doing request.spec when they structure their queries so they attempt to find value of X --

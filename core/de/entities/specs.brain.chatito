@@ -188,12 +188,14 @@
     harmon kordon
 
 ~[cargo volume]('synonym':'true')
-    groessten Innenraum
     Innenraum
-    großes Ladevolumen
-    großes Innenraum
+    Ladevolumen
+
+~[captain chair]
+    Drehsitzen
 
 @[specs.brain]
+    ~[captain chair]
     ~[audio]
     ~[leather seats]
     ~[3rd row seats]

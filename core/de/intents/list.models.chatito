@@ -2,18 +2,21 @@ import ../common.chatito
 import ../entities/attributes.chatito
 
 //seeks [models Y] with [specified entity value X]
-%[list.models]('training': '200', 'distribution': 'even')
-    Ich möchte einen @[seater] @[bodystyle] mit @[specs.brain] unter ~[num-msrp].
-    Ich suche einen @[seater].
-    Wo kann ich einen @[seater] finden?
-    Suche ein @[bodystyle] mit ~[2-8] oder @[seater].
-    Haben irgendwelche Kias @[specs.brain]?
-    Gibt es Kias mit @[specs.brain] oder @[specs.brain]?
-    Haben sie Autos mit @[specs.brain]?
-    Haben sie einen @[seater]?
-    Haben Sie Autos in denen @[seater] sitzen können?
+%[list.models]('training': '300', 'distribution': 'even')
     Welcher @[make] hat den groessten Innenraum?
-    Welcher ist der ~[best] @[make]?
+    Ich möchte einen @[seater] @[bodystyle] mit @[specs.brain] unter ~[num-msrp]
+    Ich suche einen @[seater]
+    Wo kann ich einen @[seater] finden
+    Suche ein @[bodystyle] mit ~[2-8] oder @[seater]
+    Suche ein ~[model-only] mit die wenigsten verletzten Fahrer bei Unfällen
+    Haben irgendwelche Kias @[specs.brain]
+    Gibt es Kias mit @[specs.brain] oder @[specs.brain]
+    Haben sie Autos mit @[specs.brain]
+    Haben sie einen @[seater]
+    Haben Sie Autos in denen @[seater] sitzen können
+    Welcher @[make] hat den ~[definite-size] @[specs.brain]
+    Welcher ist der ~[best] ~[car]
+    Welcher ist der ~[best] @[bodystyle]
 
 //need some phrases with optional specs
 //need some phrases with optional specs propulsion/fueltype
@@ -22,11 +25,6 @@ import ../entities/attributes.chatito
     a
     an
     the
-
-~[best]
-    schnellste
-    sicherste
-    billigste
 
 ~[num-msrp]
     10k
