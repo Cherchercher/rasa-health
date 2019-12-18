@@ -1,6 +1,6 @@
 import ../common.chatito
 
-%[availability]('training': '200', 'distribution': 'even')
+%[availability]('training': '30', 'distribution': 'even')
     什么时候~[future-model]上市
     ~[future-model]是否已经~[can]在经销商处~[buy]了
     ~[future-model]现在能~[buy]了吗

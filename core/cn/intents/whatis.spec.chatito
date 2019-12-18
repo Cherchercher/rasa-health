@@ -1,6 +1,6 @@
 import ../common.chatito
 
-%[whatis.spec]('training': '100', 'distribution': 'even')
+%[whatis.spec]('training': '30', 'distribution': 'even')
     @[specs.safety]意味着~[the car]~[do some function]
     这辆车的@[specs.brain]]有什么
     这辆车的@[specs.brain]有什么好处吗
