@@ -1,6 +1,6 @@
 import ../common.chatito
 
-%[inventory]('training': '200', 'distribution': 'even')
+%[inventory]('training': '100', 'distribution': 'even')
     ~[searching]~[model]
     ~[greeting]~[searching]@[model-trim]
     ~[he-she-i]想要@[model-trim]
@@ -29,7 +29,7 @@ import ../common.chatito
     我该如何查看库存清单
     ~[model]的库存清单
 
-%[inventory.spec]('training': '100', 'distribution': 'even')
+%[inventory.spec]('training': '50', 'distribution': 'even')
     ~[he-she-i]在~[searching]~[model]最好有~[ext-color]和~[int-color]内饰和~[specs]
     ~[searching]有~[specs]的~[model]库存
     在我附近有~[ext-color]和~[int-color]内饰的~[model？]库存

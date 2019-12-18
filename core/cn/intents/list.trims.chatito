@@ -13,7 +13,7 @@ import ../common.chatito
     ~[trim-only]
 
 //indicator specs help identify a specific trim level
-%[list.trims.indicator]('training': '100', 'distribution': 'even')
+%[list.trims.indicator]('training': '25', 'distribution': 'even')
     ~[has]~[indicator-spec]的~[trim-only]
     ~[has]~[engine]的~[trim-only]
     ~[trim-only]~[engine]有~[what-which]选项
@@ -21,25 +21,25 @@ import ../common.chatito
     这儿有~[has]~[indicator-spec]的~[trim-only]吗
 
 //list trims that have some declared optional spec
-%[list.trims.optional]('training': '100', 'distribution': 'even')
-    ~[declaritive?]~[trim-only]哪一种~[has]@[optional-specs]
-    所有的~[trim-only]都~[has]@[optional-specs]吗
-    ~[trim-only]~[has]@[optional-specs]吗
-    ~[trim-only?]@[optional-specs]是标配吗
-    @[optional-specs]是只有~[car-trim]和~[car-trim]才有的吗
-    只有~[car-trim]和~[car-trim]~[has]@[optional-specs]吗
-    买哪一款~[trim-only]~[has]@[optional-specs]
-    我想买~[has]@[optional-specs]的
-    带@[optional-specs]的有哪些车款可以选择
-    带@[optional-specs]的有哪些
-    哪款车~[has]@[optional-specs]
-    我可以买~[has]@[optional-specs]的~[trim-only]吗
-    ~[has]@[optional-specs]的~[trim-only]吗
-    看看~[has]@[optional-specs]的~[trim-only]有那些
-    有~[has]@[optional-specs]的@[trim-level]@[model-trim]吗
-    @[optional-specs]@[model-trim]~[has]@[optional-specs]
-    @[model-trim]带@[optional-specs]吗
-    ~[has]@[optional-specs]@[specs]的~[trim-only]
+%[list.trims.optional]('training': '25', 'distribution': 'even')
+    ~[declaritive?]~[trim-only]哪一种~[has]@[specs.brain]
+    所有的~[trim-only]都~[has]@[specs.brain]吗
+    ~[trim-only]~[has]@@[specs.brain]吗
+    ~[trim-only?]@@[specs.brain]是标配吗
+    @[specs.brain]是只有~[car-trim]和~[car-trim]才有的吗
+    只有~[car-trim]和~[car-trim]~[has]@[specs.brain]吗
+    买哪一款~[trim-only]~[has]@[specs.brain]
+    我想买~[has]@[specs.brain]的
+    带@[specs.brain]的有哪些车款可以选择
+    带@@[specs.brain]的有哪些
+    哪款车~[has]@[specs.brain]
+    我可以买~[has]@[specs.brain]的~[trim-only]吗
+    ~[has]@[specs.brain]的~[trim-only]吗
+    看看~[has]@[specs.brain]的~[trim-only]有那些
+    有~[has]@[specs.brain]的@[trim-level]@[model-trim]吗
+    @[specs.brain]@[model-trim]~[has]@[specs.brain]
+    @[model-trim]带@[specs.brain]吗
+    ~[has]@[specs.brain]@[specs]的~[trim-only]
 
 ~[quantify]
     有多少
