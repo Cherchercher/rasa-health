@@ -1,4 +1,4 @@
-FROM 261695625069.dkr.ecr.us-east-1.amazonaws.com/rasa-pipeline:latest
+FROM 261695625069.dkr.ecr.us-east-1.amazonaws.com/linguist-pipeline:latest
 
 RUN apt-get update && apt-get install -y jq
 
