@@ -32,9 +32,9 @@ build() {
         --trainingFileName=training_data.json
 
     # Preprocess and Train the data
-    docker pull 261695625069.dkr.ecr.us-east-1.amazonaws.com/rasa-pipeline:latest
+    docker pull 261695625069.dkr.ecr.us-east-1.amazonaws.com/linguist-pipeline:latest
     # Disable nvidia for now since we dont have to much examples now
-    docker run --rm -v $(pwd):/Linguist 261695625069.dkr.ecr.us-east-1.amazonaws.com/rasa-pipeline:latest /Linguist/train.sh ${agent}
+    docker run --rm -v $(pwd):/Linguist 261695625069.dkr.ecr.us-east-1.amazonaws.com/linguist-pipeline:latest /Linguist/train.sh ${agent}
 
     # Build the image we're going to deploy to k8s
     docker build \
