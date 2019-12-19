@@ -7,6 +7,7 @@ pipeline:
 - name: "JiebaTokenizer"
   dictionary_path: "jieba_userdict"
 - name: "ner_mitie"
+  num_threads: 16
 - name: "ner_synonyms"
 - name: "intent_featurizer_mitie"
 - name: "intent_classifier_sklearn"
