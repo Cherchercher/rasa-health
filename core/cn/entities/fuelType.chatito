@@ -52,6 +52,6 @@
     ~[plug-in hybrid.car]
     ~[electric.car]
 
-@[specs.fuelType]
+@[specsFuelType]
     ~[each-specs.fuelType]
     ~[fuelType]

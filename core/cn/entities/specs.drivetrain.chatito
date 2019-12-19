@@ -97,7 +97,7 @@
     远程启动
     遥控起动
 
-@[specs.drivetrain]
+@[specsDrivetrain]
     ~[engine description]
     ~[horsepower]
     ~[torque]

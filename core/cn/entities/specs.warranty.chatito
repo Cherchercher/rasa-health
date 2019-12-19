@@ -46,7 +46,7 @@
 ~[drivetrain warranty years type]('synonym':'true')
     传动系统保修里程年限类型
 
-@[specs.warranty]
+@[specsWarranty]
     ~[basic warranty type]
     ~[basic warranty maximum miles]
     ~[basic warranty maximum years]

@@ -19,7 +19,7 @@
     最低价
     起拍价
 
-@[specs.price]
+@[specsPrice]
     ~[invoice price]
     ~[MSRP]
     ~[delivery fee]

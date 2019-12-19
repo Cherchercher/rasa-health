@@ -2,30 +2,30 @@ import ../common.chatito
 //all compare categories should support comparisons by spec and spec categories
 
 %[compare.models]('training': '30', 'distribution': 'even')
-    还有~[relative-size]@[size-spec]吗~[model]或者~[model]
+    还有~[relative-size]@[sizeSpec]吗~[model]或者~[model]
     ~[model]和~[model]都有哪些不同点
     @[make]~[model]和@[make]~[model]的不同点
     @[make]~[model]和@[make]~[model]都有哪些不同点
-    ~[model]或~[model]有@[specs.brain]吗
+    ~[model]或~[model]有@[specsBrain]吗
     我对~[model]~[and-or]~[model]或感兴趣
     我喜欢~[model]~[and-or]~[model]
-    ~[model]比有~[relative-size]@[size-spec]吗相比~[model]
-    有比@[model]更@[size-spec]~[relative-size]的@[make]吗
+    ~[model]比有~[relative-size]@[sizeSpec]吗相比~[model]
+    有比@[model]更@[sizeSpec]~[relative-size]的@[make]吗
 
 %[compare.trims]('training': '30', 'distribution': 'even')
     想知道不同的是什么在~[trims]方面
     ~[what-difference]在这些不同的型号中~[model]
-    ~[what-difference]@[model-trim]@[model-trim]和@[model-trim]
-    ~[what-difference]关于@[model-trim]和@[model-trim]
+    ~[what-difference]@[modelTrim]@[modelTrim]和@[modelTrim]
+    ~[what-difference]关于@[modelTrim]和@[modelTrim]
     ~[what-difference]在~[trims]
     ~[what-difference]在~[trims]方面
-    ~[what-which]~[model]~[has]更好的性能是@[model-trim]还是@[model-trim]
+    ~[what-which]~[model]~[has]更好的性能是@[modelTrim]还是@[modelTrim]
 
 %[compare.yoy]('training': '30','distribution': 'even')
-    ~[declaritive]在~[model]能告诉我@[model-year]和@[model-year]~[what-difference]
-    能开多久~[what-which]@[specs.brain]区别,在@[model-year]和~[model]之间
-    @[specs.brain]~[what]区别,在@[model-year]和~[model]之间
-    ~[model]和@[specs.brain]~[model]有什么相同点
+    ~[declaritive]在~[model]能告诉我@[modelYear]和@[modelYear]~[what-difference]
+    能开多久~[what-which]@[specsBrain]区别,在@[modelYear]和~[model]之间
+    @[specsBrain]~[what]区别,在@[modelYear]和~[model]之间
+    ~[model]和@[specsBrain]~[model]有什么相同点
 
 //ways users refer to trims
 ~[trims]

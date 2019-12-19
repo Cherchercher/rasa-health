@@ -53,9 +53,9 @@ import ./entities/locations.chatito
 
 ~[model]
     @[model]
-    @[model-trim]
-    @[model-year] @[model]
-    @[model-year] @[model-trim]
+    @[modelTrim]
+    @[modelYear] @[model]
+    @[modelYear] @[modelTrim]
 
 ~[dislike]
     我不喜欢
@@ -153,11 +153,11 @@ import ./entities/locations.chatito
 
 ~[model-only]
     @[model]
-    @[model-year] @[model]
+    @[modelYear] @[model]
 
 ~[trim-only]
-    @[model-trim]
-    @[model-year] @[model-trim]
+    @[modelTrim]
+    @[modelYear] @[modelTrim]
 
 ~[declaritive]
     ~[I?]想问一下

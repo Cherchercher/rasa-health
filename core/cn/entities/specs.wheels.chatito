@@ -49,7 +49,7 @@
 ~[rear tire rating]('synonym':'true')
     后轮胎额定值
 
-@[specs.wheel]
+@[specsWheel]
     ~[wheel description]
     ~[tire description]
 
