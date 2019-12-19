@@ -47,11 +47,11 @@
     ~[diesel.specs.fuelType]
     ~[electric.specs.fuelType]
 
-@[specs.fuelType]
+~[fuelType]
     ~[hybrid.car]
     ~[plug-in hybrid.car]
     ~[electric.car]
 
-@[fuelType]
+@[specs.fuelType]
     ~[each-specs.fuelType]
-    @[specs.fuelType]
+    ~[fuelType]

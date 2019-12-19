@@ -1,8 +1,0 @@
-import ../common.chatito
-
-%[warranty.newCar]('training': '10', 'distribution': 'even')
-    新车保修里都包含什么
-
-%[warranty.coverage]('training': '10', 'distribution': 'even')
-    ~[I]保险里是否包含租车车祸之后的费用
-    ~[I]保险里有没有包含租车车祸产生的费用
