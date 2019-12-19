@@ -49,7 +49,7 @@
 ~[cargo tie downs]('synonym':'true')
     cargo tie downs
 
-@[specs.storage]
+@[specsStorage]
     ~[center console]
     ~[overhead console]
     ~[seat back storage]

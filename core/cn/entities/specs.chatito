@@ -274,7 +274,7 @@
 @[specs]
     ~[front a/c]
 
-@[specs.brain]
+@[specsBrain]
     ~[audio]
     ~[3rd row seats]
     ~[headlights]
@@ -292,7 +292,7 @@
     ~[MSRP]
     ~[blind spot]
 //spec types
-@[optional-specs]
+@[optionalSpecs]
     ~[navigation]
     ~[rear a/c]
     ~[parking assist description]
@@ -331,7 +331,7 @@
     ~[combined mpg]
     ~[city mpg]
 
-@[size-spec]
+@[sizeSpec]
     ~[cargo volume]
 
 ~[seats-spec]

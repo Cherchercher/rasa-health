@@ -1,14 +1,14 @@
 import ../common.chatito
 
 %[request.price]('training': '50', 'distribution': 'even')
-    带@[specs.brain]的多少钱
+    带@[specsBrain]的多少钱
     ~[quantify-price]~[model]
     ~[model]多少钱呢
-    ~[model]的@[specs.price]
-    ~[what-which]~[model]的@[specs.price]
-    ~[what-which]@[specs.price]
-    @[specs.price]~[model]
-    ~[model]@[specs.price]
+    ~[model]的@[specsPrice]
+    ~[what-which]~[model]的@[specsPrice]
+    ~[what-which]@[specsPrice]
+    @[specsPrice]~[model]
+    ~[model]@[specsPrice]
     ~[declaritive?]@[model]~[quantify-price]
     ~[declaritive?]~[model]~[quantify-price]
     这款~[quantify-price]
@@ -16,4 +16,4 @@ import ../common.chatito
     @[model]的~[price-spec]
     ~[quantify-price]~[model]
     ~[driven-wheel]~[car]~[quantify-price]
-    @[specs.fuelType]@[model]~[quantify-price]
+    @[specsFuelType]@[model]~[quantify-price]

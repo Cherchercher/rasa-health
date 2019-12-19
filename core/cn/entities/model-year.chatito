@@ -19,7 +19,7 @@
     2017
     2018
 
-@[model-year]
+@[modelYear]
     ~[model year-past]
     ~[model year-future]
     ~[model year-current]

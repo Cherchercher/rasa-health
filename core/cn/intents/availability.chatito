@@ -6,9 +6,9 @@ import ../common.chatito
     ~[future-model]现在能~[buy]了吗
     ~[future-model]什么时候~[released]
     ~[future-model]什么是否~[can]在~[relative location]~[buy]
-    *[10%]~[greeting?]~[future-model]什么时候~[can]在@[US state]~[buy]
-    *[10%]~[future-model]什么时候~[can]在@[US state]~[buy]
-    *[10%]~[can]告诉我~[future-model]什么时候~[can]在@[US state]~[buy]
+    *[10%]~[greeting?]~[future-model]什么时候~[can]在@[USstate]~[buy]
+    *[10%]~[future-model]什么时候~[can]在@[USstate]~[buy]
+    *[10%]~[can]告诉我~[future-model]什么时候~[can]在@[USstate]~[buy]
     你期望什么时候~[buy]~[future-model]在~[relative location]
     ~[future-model]~[released]了吗什么时候~[can]~[buy]
     ~[want-to-know?]~[future-model]什么时候~[can]在~[relative location]~[buy]

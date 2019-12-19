@@ -22,24 +22,24 @@ import ../common.chatito
 
 //list trims that have some declared optional spec
 %[list.trims.optional]('training': '25', 'distribution': 'even')
-    ~[declaritive?]~[trim-only]哪一种~[has]@[specs.brain]
-    所有的~[trim-only]都~[has]@[specs.brain]吗
-    ~[trim-only]~[has]@@[specs.brain]吗
-    ~[trim-only?]@@[specs.brain]是标配吗
-    @[specs.brain]是只有~[car-trim]和~[car-trim]才有的吗
-    只有~[car-trim]和~[car-trim]~[has]@[specs.brain]吗
-    买哪一款~[trim-only]~[has]@[specs.brain]
-    我想买~[has]@[specs.brain]的
-    带@[specs.brain]的有哪些车款可以选择
-    带@@[specs.brain]的有哪些
-    哪款车~[has]@[specs.brain]
-    我可以买~[has]@[specs.brain]的~[trim-only]吗
-    ~[has]@[specs.brain]的~[trim-only]吗
-    看看~[has]@[specs.brain]的~[trim-only]有那些
-    有~[has]@[specs.brain]的@[trim-level]@[model-trim]吗
-    @[specs.brain]@[model-trim]~[has]@[specs.brain]
-    @[model-trim]带@[specs.brain]吗
-    ~[has]@[specs.brain]@[specs]的~[trim-only]
+    ~[declaritive?]~[trim-only]哪一种~[has]@[specsBrain]
+    所有的~[trim-only]都~[has]@[specsBrain]吗
+    ~[trim-only]~[has]@@[specsBrain]吗
+    ~[trim-only?]@@[specsBrain]是标配吗
+    @[specsBrain]是只有~[car-trim]和~[car-trim]才有的吗
+    只有~[car-trim]和~[car-trim]~[has]@[specsBrain]吗
+    买哪一款~[trim-only]~[has]@[specsBrain]
+    我想买~[has]@[specsBrain]的
+    带@[specsBrain]的有哪些车款可以选择
+    带@@[specsBrain]的有哪些
+    哪款车~[has]@[specsBrain]
+    我可以买~[has]@[specsBrain]的~[trim-only]吗
+    ~[has]@[specsBrain]的~[trim-only]吗
+    看看~[has]@[specsBrain]的~[trim-only]有那些
+    有~[has]@[specsBrain]的@[trimLevel]@[modelTrim]吗
+    @[specsBrain]@[modelTrim]~[has]@[specsBrain]
+    @[modelTrim]带@[specsBrain]吗
+    ~[has]@[specsBrain]@[specs]的~[trim-only]
 
 ~[quantify]
     有多少
