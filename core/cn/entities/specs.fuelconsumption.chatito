@@ -35,11 +35,13 @@
 
 ~[battery-range]('synonym':'true')
     纯电动行驶距离
+    我能开多久
 
-~[battery-range.without-recharge]('synonym':'true')
+~[battery-range-without-recharge]('synonym':'true')
     单次充电可行驶距离
+    开多久后必须要充电
 
-~[battery-range-without-recharge]
+~[battery-range.without-recharge]
     没有电
     不充电
     没有充电

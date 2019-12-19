@@ -1,19 +1,17 @@
 import ../common.chatito
 
 %[availability]('training': '30', 'distribution': 'even')
-    什么时候~[future-model]上市
-    ~[future-model]是否已经~[can]在经销商处~[buy]了
-    ~[future-model]现在能~[buy]了吗
-    ~[future-model]什么时候~[released]
+    ~[future-model]是否已经能在经销商处购买
+    ~[future-model]现在能买到了吗
+    ~[future-model]什么时候上市
     ~[future-model]什么是否~[can]在~[relative location]~[buy]
-    *[10%]~[greeting?]~[future-model]什么时候~[can]在@[USstate]~[buy]
-    *[10%]~[future-model]什么时候~[can]在@[USstate]~[buy]
-    *[10%]~[can]告诉我~[future-model]什么时候~[can]在@[USstate]~[buy]
-    你期望什么时候~[buy]~[future-model]在~[relative location]
-    ~[future-model]~[released]了吗什么时候~[can]~[buy]
-    ~[want-to-know?]~[future-model]什么时候~[can]在~[relative location]~[buy]
+    想问一下[future-model]什么时候~[can]在@[USstate]~[buy]
+    ~[future-model]什么时候~[can]在@[USstate]~[buy]
+    告诉我~[future-model]什么时候可以在@[USstate]买
+    ~[future-model]预计什么时候发售
+    想知道~[future-model]什么时候能在~[relative location]~[buy]
     ~[future-model]
-    这款~[future-model]什么时候能在~[relative location]什么时候~[released]
+    这款~[future-model]什么时候能在~[relative location]买到
     这款~[future-model]什么时候~[released]
     我们什么时候能得到这款~[future-model]的消息
 

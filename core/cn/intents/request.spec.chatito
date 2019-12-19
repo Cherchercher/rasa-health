@@ -1,46 +1,27 @@
 import ../common.chatito
 
-//this intent is to get a definite value for a specification
-//requesting the spec's value by matching the specs name or synonym
-//seeks [unknown entity value X] of [specified entity name E] as related to [specified model/trim Y]
-//seeks binary value of specified entity name as related to specified model/trim Y
-
 %[requestSpec]('training': '100', 'distribution': 'even')
-    @[model]有~[specsBrain]吗
-    @[model]是@[seater]吗
+    ~[model]有@[specsBrain]吗
+    ~[model]是@[seater]吗
+    这辆车的@[specsBrain]如何
+    这辆车的@[specsBrain]怎么样
+    这辆车的@[specsBrainQuantatative]是多少
     ~[model]离地多高
     这辆车离地多高
-    ~[model]百公里加速是多少
-    ~[model]百公里加速时间
-    ~[model]0-100km/h加速时间
-    最高时速多少
-    ~[model]最高时速多少
-    ~[measure-spec]是多少
-    ~[model]的~[measure-spec] 多少
+    ~[model]~[zero-to-hundred]
+    ~[model?]最高时速多少
     @[make] ~[modelTrim] ~[count-spec] ~[quantify]
+    @[specsBrain]
+    ~[model?]@[specsFuelconsumption]
+    最高里程是多少
     电动续航里程多少
-    @[model]~[battery-range]电动续航里程多少
-    ~[the] @[model] goes how far on a ~[battery-range]
-    @[model]冲满电了我能开多远
-    冲满电了我能开多远
-    开多久才必须要充电
-    ~[model]开多久后必须要充电
     只充电能开多久
-    电动的@[model]只充电能开多久
-    加满油了能开多久
-    加满油充满电能开多久
-    ~[definite-size-big]里程是多少
-    ~[model]~[definite-size-big]里程是多少
-    ~[ev-model]~[definite-size-big]里程是多少
-    ~[model]的~[mpg-spec]多大
-    这款车的~[mpg-spec]多大
-    这款@[model]的~[mpg-spec]多大
+    ~[model]最高里程是多少
     @[model]有@[color]吗
     这个车@[color]有吗
     @[model]@[color]有吗
-//the difference between request and list is the language the user uses to indicate a response type
-//request.spec is for definite values (including binaries, which are definite values)
-//users are doing request.spec when they structure their queries so they attempt to find value of X --
-// -- in/on/included some item Y. 
-// the response should then be the value of requested.spec rather than a list of trims with spec of value X
-// the fallback in the case of a false binary, should be list.trims that have binary value true
+
+~[zero-to-hundred]
+    零到一百米加速时间
+    百公里加速是多少
+    零到一百米加速时间
