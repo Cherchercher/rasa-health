@@ -15,4 +15,4 @@ import ../entities/trim-levels.chatito
     Ich suche einen neün @[model-trim]
     Ich suche einen ~[neuen?] ~[trim-only]
     Welcher @[model] hat den ~[definite-size] @[specs.brain]
-    Welcher ist der ~[best] ~[trim-only]
+    Welcher ist @[best] @[model]

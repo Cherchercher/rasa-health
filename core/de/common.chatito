@@ -144,13 +144,13 @@ import ./entities/locations.chatito
     größer
     kleiner
 
-~[largest]
+~[largest]('synonym':'true')
     groessten
     größtes
     größter
     größtest
 
-~[smallest]
+~[smallest]('synonym':'true')
     kleinste
     kleinster
     kleinstes
@@ -183,28 +183,33 @@ import ./entities/locations.chatito
     bessere Leistung
     der kräftigere
 
-~[definite-power]
+~[definite-power]('synonym':'true')
     der kräftigste
     der stärkste
 
-~[definite-cost]
+~[definite-cost]('synonym':'true')
     der günstigste
     der billigste
     der am wenigsten kostet
     der teuerste
     der am meisten kostet
 
-~[definate-size]
+~[definite-size]
     ~[largest]
     ~[smallest]
 
-~[best]
-    ~[definate-cost]
+~[definite-speed]('synonym':'true')
+    der schnellste
+
+~[definite-safety]('synonym':'true')
+    der sicherste
+
+@[best]
+    ~[definite-speed]
+    ~[definite-safety]
+    ~[definite-cost]
     ~[definite-power]
-    ~[definate-size]
-    schnellste
-    sicherste
-    billigste
+    ~[definite-size]
 
 ~[model-only]
     @[model]
@@ -219,7 +224,6 @@ import ./entities/locations.chatito
     good morning
     good afternoon
     hi there
-
 
 @[specs]
     ~[roof]
