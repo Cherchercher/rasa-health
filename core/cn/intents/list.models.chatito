@@ -10,18 +10,18 @@ import ../common.chatito
     ~[model-only]适合女生吗
     有什么好推荐
     好什么好介绍
-    ~[what-which] ~[model-type] ~[has] @[specsBrain]
-    ~[what-which] ~[model-type?] ~[has] @[specsBrain]
+    ~[what-which] ~[model-type] ~[has] ~[specsBrain]
+    ~[what-which] ~[model-type?] ~[has] ~[specsBrain]
     ~[declaritive] ~[modifier-spec] what does ~[model-type] have
     ~[exist] ~[model-type] ~[has] ~[spec-value]
-    ~[exist] ~[model-type] ~[has] @[specsBrain]
-    所有型号是否有@[specsBrain]
-    这型号是有@[specsBrain]吗
-    所有~[model-type]是否有@[specsBrain]
+    ~[exist] ~[model-type] ~[has] ~[specsBrain]
+    所有型号是否有~[specsBrain]
+    这型号是有~[specsBrain]吗
+    所有~[model-type]是否有~[specsBrain]
     寻找~[seats-spec] ~[model-type] ~[modifier]
     ~[what-which]~[model-type]~[has]~[definite-size]@[sizeSpec]
     带~[indicator-spec]的~[definite-size]~[model-type]
-    带@[specsBrain]的~[definite-size]~[model-type]
+    带~[specsBrain]的~[definite-size]~[model-type]
     ~[what-which]~[model-type]有~[indicator-spec]
     ~[what-which]型号有~[indicator-spec]或者~[indicator-spec]
     ~[what-which]型号有~[indicator-spec]和[indicator-spec]
@@ -31,11 +31,11 @@ import ../common.chatito
     能坐~[2-8]个人的
     @[seater]的
     ~[what-which]@[make]有
-    ~[greeting?]@[make]有@[seater]@[specsBrain]]和@[specsBrain]吗
+    ~[greeting?]@[make]有@[seater]~[specsBrain]]和~[specsBrain]吗
     ~[greeting?]哪些起亚汽车具有自动使用制动器以避免碰撞的能力
     ~[greeting?]~[make]在~[seater-rows]和天窗有避碰功能吗
     你有有防撞辅助装置的车吗
-    ~[searching]~[model-only]带@[specsSafety]@[specsBrain]和@@[specsBrain]的
+    ~[searching]~[model-only]带@[specsSafety]~[specsBrain]和@~[specsBrain]的
 
 ~[seater-rows]
     一排座位

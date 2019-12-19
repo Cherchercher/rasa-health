@@ -2,8 +2,8 @@ import ../common.chatito
 
 %[inventory]('training': '100', 'distribution': 'even')
     ~[searching]~[model]
-    ~[greeting]~[searching]@[modelTrim]
-    ~[he-she-i]想要@[modelTrim]
+    ~[greeting]~[searching]~[modelTrim]
+    ~[he-she-i]想要~[modelTrim]
     你们库存有~[model]吗
     ~[model]@[trimLevel]~[quantify-price]
     您能否告诉我在@[zipcode]周围区域的本地清单吗?包括这些~[model]的~[specs]
