@@ -5,23 +5,17 @@ import ../common.chatito
 ///     2. are part of some attribute group by spec value
 ////        i.e. '7 seater' is a 
 
-%[list.trims]('training': '25', 'distribution': 'even')
+%[listTrims]('training': '75', 'distribution': 'even')
     有哪些~[trim-only]
     有哪几种~[trim-only]
     ~[trim-only]有吗
     ~[declaritive]~[trim-only]
     ~[trim-only]
-
-//indicator specs help identify a specific trim level
-%[list.trims.indicator]('training': '25', 'distribution': 'even')
     ~[has]~[indicator-spec]的~[trim-only]
     ~[has]~[engine]的~[trim-only]
     ~[trim-only]~[engine]有~[what-which]选项
     ~[trim-only]~[what-which]~[engine]选项呢
     这儿有~[has]~[indicator-spec]的~[trim-only]吗
-
-//list trims that have some declared optional spec
-%[list.trims.optional]('training': '25', 'distribution': 'even')
     ~[declaritive?]~[trim-only]哪一种~[has]@[specsBrain]
     所有的~[trim-only]都~[has]@[specsBrain]吗
     ~[trim-only]~[has]@@[specsBrain]吗

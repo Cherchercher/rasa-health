@@ -1,7 +1,7 @@
 import ../common.chatito
 
 //seeks [trims Y] with [specified entity value X]
-%[list.models]('training': '100', 'distribution': 'even')
+%[listModels]('training': '100', 'distribution': 'even')
     ~[model-only]怎么样呢
     ~[model-only]多少钱
     ~[model-only]性能如何 

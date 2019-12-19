@@ -1,6 +1,6 @@
 import ../common.chatito
 
-%[request.price]('training': '50', 'distribution': 'even')
+%[requestPrice]('training': '50', 'distribution': 'even')
     带@[specsBrain]的多少钱
     ~[quantify-price]~[model]
     ~[model]多少钱呢

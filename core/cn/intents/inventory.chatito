@@ -28,14 +28,10 @@ import ../common.chatito
     我想看~[model],我在哪~[can]看
     我该如何查看库存清单
     ~[model]的库存清单
-
-%[inventory.spec]('training': '50', 'distribution': 'even')
     ~[he-she-i]在~[searching]~[model]最好有~[ext-color]和~[int-color]内饰和~[specs]
     ~[searching]有~[specs]的~[model]库存
     在我附近有~[ext-color]和~[int-color]内饰的~[model？]库存
     在我附近有~[ext-color]和~[int-color]内饰的~[model？]库存 邮编号码@[zipcode]
-
-%[inventory.cantFind]('training': '10', 'distribution': 'even')
     我想买一个~[model]但是没有经销商有库存
 
 //variations for inventory intent only

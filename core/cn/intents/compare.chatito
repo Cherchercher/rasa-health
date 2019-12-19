@@ -1,7 +1,7 @@
 import ../common.chatito
 //all compare categories should support comparisons by spec and spec categories
 
-%[compare.models]('training': '30', 'distribution': 'even')
+%[compare]('training': '100', 'distribution': 'even')
     还有~[relative-size]@[sizeSpec]吗~[model]或者~[model]
     ~[model]和~[model]都有哪些不同点
     @[make]~[model]和@[make]~[model]的不同点
@@ -11,8 +11,6 @@ import ../common.chatito
     我喜欢~[model]~[and-or]~[model]
     ~[model]比有~[relative-size]@[sizeSpec]吗相比~[model]
     有比@[model]更@[sizeSpec]~[relative-size]的@[make]吗
-
-%[compare.trims]('training': '30', 'distribution': 'even')
     想知道不同的是什么在~[trims]方面
     ~[what-difference]在这些不同的型号中~[model]
     ~[what-difference]@[modelTrim]@[modelTrim]和@[modelTrim]
@@ -20,8 +18,6 @@ import ../common.chatito
     ~[what-difference]在~[trims]
     ~[what-difference]在~[trims]方面
     ~[what-which]~[model]~[has]更好的性能是@[modelTrim]还是@[modelTrim]
-
-%[compare.yoy]('training': '30','distribution': 'even')
     ~[declaritive]在~[model]能告诉我@[modelYear]和@[modelYear]~[what-difference]
     能开多久~[what-which]@[specsBrain]区别,在@[modelYear]和~[model]之间
     @[specsBrain]~[what]区别,在@[modelYear]和~[model]之间
