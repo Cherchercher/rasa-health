@@ -128,59 +128,49 @@
     reclining ~[second row]
 
 ~[leather seats]('synonym':'true')
-    真皮座椅
-    头层皮座椅
-    二层皮座椅
-    小牛皮座椅
-    人造革座椅
-    nappa真皮座椅
+    真皮
+    头层皮
+    二层皮
+    小牛皮
+    人造革
+    nappa真皮
     皮
-    皮座椅
+    皮
 
 ~[front head room]('synonym':'true')
-    front ~[head room]
-    ~[head room]
+    前排头部
 
 ~[front shoulder room]('synonym':'true')
-    front shoulder room
-    shoulder room
+    前排宽度
 
 ~[front leg room]('synonym':'true')
-    front ~[leg room]
-    ~[leg room]
-    room for legs
-    space for legs
-    front room for legs
-    front space for legs
+    前排腿部
 
 ~[rear head room]('synonym':'true')
-    rear ~[head room]
+    后排头部
 
 ~[rear shoulder room]('synonym':'true')
-    rear shoulder room
-    rear shoulder space
+    后排宽度
 
 ~[rear leg room]('synonym':'true')
-    rear ~[leg room]
-    ~[leg room] rear
-    back ~[leg room]
+    后排腿部
 
 ~[interior volume]('synonym':'true')
     内部空间
     内体积
 
 ~[front hip room]('synonym':'true')
-    front hip room
+    前排臀部
 
 ~[second row hip room]('synonym':'true')
-    second row hip room
+    二排臀部
 
 ~[third row hip room]('synonym':'true')
-    third row hip room
+    三排臀部
 
 ~[third row leg room]('synonym':'true')
-    第三排伸腿距离
-    第三排腿部空间
+    三排腿部
+    三排伸腿距离
 
 ~[third row shoulder]('synonym':'true')
     第三排肩距
@@ -201,12 +191,10 @@
 
 //row count
 ~[row]
-    row
-    rows
-    row seats
-    row seat
-    row of seats
-    rows of seats
+    ~[first row]
+    ~[second row]
+    ~[third row]
+    ~[fourth row]
 
 ~[first row]
     前排
@@ -242,20 +230,15 @@
 
 //seating climate
 ~[heated seats]
-    heated seats
-    seat warmers
-    butt warmers
+    加热座椅
+    暖座椅
 
 ~[cooled seats]
-    cooled seats
-    cooling seats
-    a/c seats
-    air condintioned seats
+    空调座椅
 
 //dimensions
 ~[head room]
     头部空间
-    头顶空间
     车顶空间
 
 ~[leg room]

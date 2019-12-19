@@ -139,6 +139,7 @@
 
 ~[0-60 mph]('synonym':'true')
     0-60
+    0到60英里
     0-60 英里每小时
     0-60 英里
     0-60 英里每小时 时间
@@ -274,23 +275,27 @@
 @[specs]
     ~[front a/c]
 
-~[specsBrain]
+@[specsBrain]
     ~[audio]
-    ~[3rd row seats]
     ~[headlights]
-    ~[3rd Row Seating Count]
     ~[combined range]
     ~[automatic emergency braking]
     ~[bluetooth]
     ~[wireless phone charger]
     ~[LED light]
-    ~[leather seats]
     ~[driven wheels]
     ~[sunroof]
-    ~[horsepower]
     ~[total seat count]
-    ~[MSRP]
     ~[blind spot]
+    ~[leather seats]
+    ~[3rd row seats]
+    ~[3rd Row Seating Count]
+
+@[specsBrainQuantatative]
+    ~[3rd Row Seating Count]
+    ~[horsepower]
+    ~[MSRP]
+
 //spec types
 @[optionalSpecs]
     ~[navigation]

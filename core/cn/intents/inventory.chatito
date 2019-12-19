@@ -3,11 +3,10 @@ import ../common.chatito
 %[inventory]('training': '100', 'distribution': 'even')
     ~[searching]~[model]
     ~[greeting]~[searching]~[modelTrim]
-    ~[he-she-i]想要~[modelTrim]
+    ~[he-she-i]想要买~[modelTrim]
     你们库存有~[model]吗
     ~[model]@[trimLevel]~[quantify-price]
-    您能否告诉我在@[zipcode]周围区域的本地清单吗?包括这些~[model]的~[specs]
-    您能否告诉我在~[relative location]周围区域的本地清单吗?包括这些~[model]的~[specs]
+    库存清单
     离我最近有~[model]的~[dealer]
     离我最的~[dealer]
     在我附近的~[dealer]
@@ -17,8 +16,7 @@ import ../common.chatito
     我想看~[model]，看哪里~[can]买
     我想看看~[model]我在哪能看到
     我想再看一下~[model]的库存
-    我怎样草能找到~[model]去~[buy]
-    我~[can]去哪里看~[model],在~[state-location]
+    ~[model]在~[state-location]有货吗
     我知道我想要什么但没有~[dealer]有存货了
     新车库存
     查找存货清单
@@ -30,8 +28,8 @@ import ../common.chatito
     ~[model]的库存清单
     ~[he-she-i]在~[searching]~[model]最好有~[ext-color]和~[int-color]内饰和~[specs]
     ~[searching]有~[specs]的~[model]库存
-    在我附近有~[ext-color]和~[int-color]内饰的~[model？]库存
-    在我附近有~[ext-color]和~[int-color]内饰的~[model？]库存 邮编号码@[zipcode]
+    在我附近有~[ext-color]和~[int-color]内饰的~[model?]库存
+    在我附近有~[ext-color]和~[int-color]内饰的~[model?]库存邮编号码@[zipcode]
     我想买一个~[model]但是没有经销商有库存
 
 //variations for inventory intent only

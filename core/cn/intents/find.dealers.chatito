@@ -1,20 +1,22 @@
 import ../common.chatito
 
 %[findDealers]('training': '50', 'distribution': 'even')
-    我想在~[relative location]找一个经销商,试驾一下这款~[model]
+    我想在~[relative location]找一个经销商
+    试驾一下这款~[model]
     你在~[relative location]有经销商吗
     最近的@[make]经销商在哪里
-    你~[can]告诉我最近的经销商吗
-    ~[relative location]附近的经销商在哪
+    你能告诉我最近的经销商吗
+    ~[relative location]附近的经销商
     想找一个离我最近的经销商
     我去哪能找到经销商
     在~[relative location]的经销商
-    在~[relative location],我去哪~[can]试驾
-    在~[relative location]最近的经销商
+    我去哪~[can]试驾
+    离~[relative location]最近的经销商
     我附近的经销商
-    有@[make]经销商吗,在~[relative location]
-    我附近@[make]的经销商
+    有@[make]的经销商吗,在~[relative location]附近
+    我附近的@[make]经销商
     我怎样能找到@[make]的经销商,在~[relative location]
     想知道在~[relative location]的经销商
-    我附近周日营业的@[make]经销商
+    周日营业的@[make]经销商
     @[make]的经销商
+    [relative location]

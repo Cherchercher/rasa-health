@@ -1,7 +1,8 @@
 import ../common.chatito
 
 %[requestPrice]('training': '50', 'distribution': 'even')
-    带~[specsBrain]的多少钱
+    带@[specsBrain]的多少钱
+    ~[model-only]多少钱
     ~[quantify-price]~[model]
     ~[model]多少钱呢
     ~[model]的@[specsPrice]

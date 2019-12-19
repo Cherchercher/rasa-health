@@ -1,13 +1,8 @@
 language: "zh"
 
 pipeline:
-- name: "MitieNLP"
-  model: "data/cn/total_word_feature_extractor_zh.dat"
-  num_threads: 16
-- name: "JiebaTokenizer"
-  dictionary_path: "jieba_userdict"
-- name: "ner_mitie"
-  num_threads: 16
-- name: "ner_synonyms"
-- name: "intent_featurizer_mitie"
-- name: "intent_classifier_sklearn"
+  - name: "rasa_contrib.nlu.utils.tensorflow_utils.TensorflowNLP"
+  - name: "JiebaTokenizer"
+    dictionary_path: "jieba_userdict"
+  - name: "rasa_contrib.nlu.classifiers.text_cnn_tf_classifier.TextCnnTensorFlowClassifier"
+    max_steps: 600
