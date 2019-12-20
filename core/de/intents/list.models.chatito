@@ -13,12 +13,16 @@ import ../entities/attributes.chatito
     Haben sie Autos mit @[specs.brain]
     Haben sie einen @[seater]
     Haben Sie Autos in denen @[seater] sitzen können
-    Welcher @[make] hat den @[best] @[specs.brain]
+    Welcher @[make] hat @[best] @[specs.brain]
     Welcher ist @[best] ~[car]
     Welcher ist @[best] @[bodystyle]
     Ich suche einen ~[neuen?] ~[model-only]
     Ich suche einen neün @[model]
     Ich suche einen @[seater]
+
+
+    Welcher%20Kia%20hat%20den%20groessten%20Innenraum
+
 
 //need some phrases with optional specs
 //need some phrases with optional specs propulsion/fueltype

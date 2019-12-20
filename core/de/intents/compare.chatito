@@ -1,7 +1,7 @@
 import ../common.chatito
 //all compare categories should support comparisons by spec and spec categories
 
-%[compare]('training': '350', 'distribution': 'even')
+%[compare]('training': '400', 'distribution': 'even')
     Wie vergleicht sich der ~[model]
     Was ist der Unterschied zwischen ~[model] @[trim-levels], @[trim-levels] und @[trim-levels]
     Was ist der Unterschied zwischen @[model] @[trim-levels], @[trim-levels] und @[trim-levels]
@@ -16,4 +16,6 @@ import ../common.chatito
     Was ist der Unterschied zwischen einem ~[model] und einem ~[model]
     Welcher @[model] hat eine bessere Ausstattung? Der ~[model] oder der ~[model]
     Welcher @[model] hat eine bessere Ausstattung? Der @[trim-levels] oder der @[trim-levels]
+
+%[compare.price]('training': '50', 'distribution': 'even')
     Was ist der Preisunterschied zwischen einem @[model-year] und einem ~[model]

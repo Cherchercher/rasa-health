@@ -1,4 +1,4 @@
-~[leather seats]('synonym': 'true')
+~[leather seats]('synonym': 'true','value': 'leather seats')
     Ledersitzen bekommen
     Ledersitze
     Leder
@@ -6,19 +6,19 @@
 ~[row]
     Reihe
 
-~[first row]('synonym':'true')
+~[first row]('synonym':'true','value': 'first row')
     1. ~[row]
     erste ~[row]
 
-~[second row]('synonym':'true')
+~[second row]('synonym':'true','value': 'second row')
     2. ~[row]
     zweite ~[row]
 
-~[third row]('synonym':'true')
+~[third row]('synonym':'true','value': 'third row')
     3. ~[row]
     dritte ~[row]
 
-~[fourth row]('synonym':'true')
+~[fourth row]('synonym':'true','value': 'fourth row')
     vierte Reihe
     4. Reihe
 
@@ -28,10 +28,10 @@
     ~[third row]
     ~[fourth row]
 
-~[3rd Row Seating Count]('synonym':'true')
+~[3rd Row Seating Count]('synonym':'true','value': '3rd Row Seating Count')
     Sitzanzahl in der 3. Reihe
 
-~[combined range]('synonym':'true')
+~[combined range]('synonym':'true', 'value': 'combined range')
     kombinierter Verbrauch (l/100km)
     l/100km
     kombinierter Verbrauch
@@ -40,32 +40,32 @@
     Reichweit kombiniert 
     Wie weit kann ich fahren?
 
-~[automatic emergency braking]('synonym':'true')
+~[automatic emergency braking]('synonym':'true', 'value': 'automatic emergency braking')
     Bremsassistent
     Automatisches Bremsen
     ABS
     Automatisches
     Bremssystem
 
-~[bluetooth]('synonym':'true')
+~[bluetooth]('synonym':'true', 'value': 'bluetooth')
     Bluetooth
     kabelloses Headset
 
-~[wireless phone charger]('synonym':'true')
+~[wireless phone charger]('synonym':'true', 'value': 'wireless phone charger')
     Kabellose Ladestation
     Dock
     Docking Station
     Kabellose Docking Station
 
-~[phone charger]('synonym':'true')
+~[phone charger]('synonym':'true', 'value': 'phone charger')
     Telefon Ladegerät
 
-~[LED light]('synonym':'true')
+~[LED light]('synonym':'true', 'value': 'LED light')
     LED Leuchten
     LED Scheinwerfer
     LED Licht
 
-~[all wheel drive]('synonym':'true')
+~[all wheel drive]('synonym':'true', 'value': 'all wheel drive')
     Allrad
     Allradantrieb
     AWD
@@ -74,10 +74,10 @@
     Vierradantrieb
     alle Allrad
 
-~[power liftgate]('synonym':'true')
+~[power liftgate]('synonym':'true', 'value': 'power liftgate')
     elektrischer Heckklappe
 
-~[rear wheel drive]('synonym':'true')
+~[rear wheel drive]('synonym':'true', 'value': 'rear wheel drive')
     Neckantreib
     RWD
 
@@ -87,7 +87,7 @@
     ~[rear wheel drive]
     ~[all wheel drive]
 
-~[sunroof]('synonym':'true')
+~[sunroof]('synonym':'true', 'value': 'sunroof')
     Schiebedach
     Sonnendach
     Klappdach
@@ -95,11 +95,11 @@
     Schiebedach
     Glas Schiebedach
 
-~[horsepower]('synonym':'true')
+~[horsepower]('synonym':'true', 'value': 'horsepower')
     PS
     Pferdestärke
 
-~[total seat count]('synonym':'true')
+~[total seat count]('synonym':'true', 'value': 'total seat count')
     Sitzanzahl
     Gesamte Sitzanzahl
     Gesamtsitzanzahl
@@ -120,40 +120,40 @@
     Personen können sitzen    
     Wieviele Leute
 
-~[ventilated seats]('synonym':'true')
+~[ventilated seats]('synonym':'true', 'value': 'ventilated seats')
     gelüftete Vordersitze
     gelüftete Sitze
 
-~[mirrors]('synonym':'true')
+~[mirrors]('synonym':'true', 'value': 'mirrors')
     Spiegeln
 
-~[liftgate]('synonym':'true')
+~[liftgate]('synonym':'true', 'value': 'liftgate')
     Heckklappe
 
-~[powerdoor]('synonym':'true')
-    Zentralverriegelung inklusive
+~[powerdoor]('synonym':'true', 'value': 'powerdoor')
+    Zentralverriegelung
 
-~[backup camera]('synonym':'true')
+~[backup camera]('synonym':'true', 'value': 'backup camera')
     Rückfahrkamera
 
-~[rear camera]('synonym':'true')
+~[rear camera]('synonym':'true', 'value': 'rear camera')
     Rückfahrkamera
     eingebaute Rückfahrkamera
 
-~[start button]('synonym':'true')
+~[start button]('synonym':'true', 'value': 'start button')
     Startknopf
     Start Button
 
-~[adjustable seats]('synonym':'true')
+~[adjustable seats]('synonym':'true', 'value': 'adjustable seats')
     elektrische Sitze
 
-~[MSRP]('synonym': 'true')
+~[MSRP]('synonym': 'true', 'value': 'MSRP')
     msrp
     MSRP
     Herstellerpreis
     unverbindliche Preisempfehlung
 
-~[blind spot]('synonym':'true')
+~[blind spot]('synonym':'true', 'value': 'blind spot')
     Warnungssystem für toten Winkel
     Warnungssystem für toten Winkel an den Spiegeln
     Erkennung des toten Winkels
@@ -192,10 +192,10 @@
     giftgrün erhältlich
     Snow White Pearl
 
-~[price-range]('synonym': 'true')
+~[price-range]('synonym':'true', 'value': 'price-range')
     Preisspanne
 
-~[price-general]('synonym': 'true')
+~[price-general]('synonym': 'true', 'value': 'price-general')
     Preis
     Kosten
     Preisempfehlung
@@ -207,35 +207,35 @@
     Edition 7
     Platinum Edition
     GT Line
-    Dream-Team Edition
     GT line
+    GT Line
+    Dream-Team Edition
     Attract
     GT
     X-Line
-    GT Line
 
 @[price]
     ~[MSRP]
     ~[price-range]
     ~[price-general]
 
-~[3rd row seats]('synonym':'true')
+~[3rd row seats]('synonym':'true', 'value': '3rd row seats')
     Dritte Sitzreihe
     Zusaetzliche Sitzreihe
     Zusätzliche Sitzreihe
     Hintere Sitzreihe
 
-~[audio]('synonym':'true')
+~[audio]('synonym':'true', 'value': 'audio')
     harmon kordon
 
-~[cargo volume]('synonym':'true')
+~[cargo volume]('synonym':'true', 'value': 'cargo volume')
     Innenraum
     Ladevolumen
 
-~[captain chair]('synonym':'true')
+~[captain chair]('synonym':'true', 'value': 'captain chair')
     Drehsitzen
 
-~[fabric cover seat]('synonym':'true')
+~[fabric cover seat]('synonym':'true', 'value':'fabric cover seat')
     stoffbezogene Sitze
 
 @[specs.brain.seats]
@@ -248,16 +248,16 @@
     ~[cooled seats]
     ~[3rd row seats]
 
-~[remote-start]('synonym':'true')
+~[remote-start]('synonym':'true', 'value':'remote-start')
     Fernbedienung zum Starten
 
-~[heated seats]
+~[heated seats]('synonym':'true', 'value':'heated seats')
     beheizbare Sitze
     heated seats
     seat warmers
     butt warmers
 
-~[cooled seats]
+~[cooled seats]('synonym':'true', 'value':'cooled seats')
     gekühlte Vordersitze
     cooled seats
     cooling seats

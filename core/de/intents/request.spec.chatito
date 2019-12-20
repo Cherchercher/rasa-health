@@ -7,7 +7,7 @@ import ../entities/trim-levels.chatito
 //seeks [unknown entity value X] of [specified entity name E] as related to [specified model/trim Y]
 //seeks binary value of specified entity name as related to specified model/trim Y
 
-%[request.spec]('training': '850', 'distribution': 'even')
+%[request.spec]('training': '450', 'distribution': 'even')
     Was ist die @[specs.brain] vom ~[model]
     Wieviel @[specs.brain] hat ~[der-das-die] ~[model] mit der AUSSTATTUNG
     Haben alle Fortes @[specs.brain]

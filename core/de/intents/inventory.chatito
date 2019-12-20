@@ -1,6 +1,6 @@
 import ../common.chatito
 
-%[inventory]('training': '100', 'distribution': 'even')
+%[inventory]('training': '70', 'distribution': 'even')
     Wo kann ich den ~[model] finden
     Wo kann ich den @[make] ~[model] finden
     Wo ist der ~[model] erhaltbar
