@@ -7,4 +7,4 @@ ADD readiness-probe.sh /
 WORKDIR /rasa_nlu
 EXPOSE 5000
 
-CMD ["python", "-m", "rasa_nlu.server", "-v", "--path", "/rasa_nlu/models"]
+CMD ["rasa", "run", "-m", "models", "--enable-api"]
