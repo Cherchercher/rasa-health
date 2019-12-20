@@ -8,7 +8,7 @@ agent=$1
 
 cd /Linguist
 
-python -m rasa train nlu \
+rasa train nlu \
     --config ./configs/$agent/rasa_config.yml \
     --nlu ./core/$agent/training_data.json \
     --fixed-model-name core_$agent \
