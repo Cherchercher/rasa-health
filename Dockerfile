@@ -7,4 +7,4 @@ ADD readiness-probe.sh /
 WORKDIR /rasa_nlu
 EXPOSE 5000
 
-CMD ["rasa", "run", "-m", "models", "--enable-api"]
+CMD ["rasa", "run", "-v", "-m", "models", "--enable-api", "--port", "5000"]
