@@ -144,14 +144,14 @@ import ./entities/locations.chatito
     größer
     kleiner
 
-~[largest]('synonym':'true')
-    groessten
-    größtes
+~[largest]('synonym':'true', 'value':'largest')
+    den groessten
+    das größte
     größter
     größtest
 
-~[smallest]('synonym':'true')
-    kleinste
+~[smallest]('synonym':'true', 'value':'smallest')
+    die kleinste
     kleinster
     kleinstes
 
@@ -183,11 +183,11 @@ import ./entities/locations.chatito
     bessere Leistung
     der kräftigere
 
-~[definite-power]('synonym':'true')
+~[definite-power]('synonym':'true', 'value':'definite-power')
     der kräftigste
     der stärkste
 
-~[definite-cost]('synonym':'true')
+~[definite-cost]('synonym':'true', 'value':'definite-cost')
     der günstigste
     der billigste
     der am wenigsten kostet
@@ -198,10 +198,10 @@ import ./entities/locations.chatito
     ~[largest]
     ~[smallest]
 
-~[definite-speed]('synonym':'true')
+~[definite-speed]('synonym':'true', 'value':'definite-speed')
     der schnellste
 
-~[definite-safety]('synonym':'true')
+~[definite-safety]('synonym':'true', 'value':'definite-safety')
     der sicherste
 
 @[best]
