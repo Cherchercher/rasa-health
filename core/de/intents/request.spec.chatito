@@ -21,8 +21,8 @@ import ../entities/trim-levels.chatito
     @[model] @[specs.brain]
     Kann man den @[model] mit @[specs.brain] bestellen
     Hat ~[der-das-die] @[make] @[model] ~[der-das-die] @[specs.brain]
-    Brauchen ~[der-das-die] @[make] @[model], @[trim-levels] und @[trim-levels] eine 220V Ladestation
-    Braucht ~[der-das-die] @[make?] ~[model] eine 220V Ladestation
+    Brauchen ~[der-das-die] @[make] @[model], @[trim-levels] und @[trim-levels] eine @[specs.brain]
+    Braucht ~[der-das-die] @[make?] ~[model] eine @[specs.brain]
     @[specs.brain] im @[make?] ~[model]
     Wie weit kann man mit dem @[make?] ~[model] fahren wenn er voll geladen ist
     Kann man mit dem @[model-year]'er @[make?] @[model] abschleppen
