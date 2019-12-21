@@ -57,6 +57,10 @@
     Docking Station
     Kabellose Docking Station
 
+~[charging-station]('synonym':'true', 'value': 'charging-station')
+    220V Ladestation
+    Ladestation
+
 ~[phone charger]('synonym':'true', 'value': 'phone charger')
     Telefon Ladegerät
 
@@ -287,6 +291,7 @@
     ~[total seat count]
     ~[MSRP]
     ~[blind spot]
+    ~[charging-station]
     ~[powerdoor]
     ~[mirrors]
     ~[rear camera]
