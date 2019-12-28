@@ -53,9 +53,9 @@ import ./entities/locations.chatito
 
 ~[model]
     @[model]
-    ~[modelTrim]
+    @[modelTrim]
     @[modelYear] @[model]
-    @[modelYear] ~[modelTrim]
+    @[modelYear] @[modelTrim]
 
 ~[dislike]
     我不喜欢
@@ -156,8 +156,8 @@ import ./entities/locations.chatito
     @[modelYear] @[model]
 
 ~[trim-only]
-    ~[modelTrim]
-    @[modelYear] ~[modelTrim]
+    @[modelTrim]
+    @[modelYear] @[modelTrim]
 
 ~[declaritive]
     ~[I?]想问一下
@@ -178,11 +178,12 @@ import ./entities/locations.chatito
 
 ~[buy]
     买
-    得到
+    买得到
     挑选
     购买
 
 ~[can]
+    能够
     能
     可以
 
@@ -196,6 +197,7 @@ import ./entities/locations.chatito
     多少钱
     怎么买
     怎么卖
+    价格是多少
     这需要多少钱
 
 ~[relative-size]

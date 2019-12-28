@@ -20,6 +20,6 @@
     2018
 
 @[modelYear]
-    ~[model year-past]
-    ~[model year-future]
-    ~[model year-current]
+    ~[model year-past]年
+    ~[model year-future]年
+    ~[model year-current]年

@@ -2,6 +2,8 @@ language: "zh"
 
 pipeline:
 - name: "rasa_contrib.nlu.TensorflowNLP"
+- name: "JiebaTokenizer"
+  dictionary_path: "jieba_userdict"
 - name: "rasa_contrib.nlu.BilstmCrfTensorFlowEntityExtractor"
   max_steps: 600
 - name: "rasa_contrib.nlu.TextCnnTensorFlowClassifier"

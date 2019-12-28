@@ -1,36 +1,37 @@
 import ../common.chatito
 
-%[listModels]('training': '100', 'distribution': 'even')
+%[list.models]('training': '300', 'distribution': 'even')
     ~[model-only]怎么样呢
     ~[model-only]性能如何 
     ~[model-only]适合家庭用吗
     ~[model-only]适合女生吗
     有什么好推荐
     好什么好介绍
-    ~[what-which] ~[model-type?] ~[has] @[specsBrain]
+    想买一台@[bodystyle]
+    ~[what-which] ~[model-type?] ~[has] @[specs.brain]
     ~[exist] ~[model-type] ~[has] ~[spec-value]
-    ~[exist] ~[model-type] ~[has] @[specsBrain]
-    所有型号都有@[specsBrain]吗
-    这型号是有@[specsBrain]吗
-    所有~[model-type]是否有@[specsBrain]
+    ~[exist] ~[model-type] ~[has] @[specs.brain]
+    所有型号都有@[specs.brain]吗
+    这型号是有@[specs.brain]吗
+    所有~[model-type]是否有@[specs.brain]
     寻找~[seats-spec] ~[model-type] ~[modifier]
-    ~[what-which]~[model-type]~[has]~[definite-size]@[sizeSpec]
+    ~[what-which]~[model-type]~[has]~[definite-size]@[specs.size]
     带~[indicator-spec]的~[definite-size]~[model-type]
-    带@[specsBrain]的~[definite-size]~[model-type]
+    带@[specs.brain]的~[definite-size]~[model-type]
     ~[what-which]~[model-type]有~[indicator-spec]
     ~[what-which]型号有~[indicator-spec]或者~[indicator-spec]
-    ~[what-which]型号有~[indicator-spec]和[indicator-spec]
+    ~[what-which]型号有~[indicator-spec]和~[indicator-spec]
     ~[what-which]~[cars-general] 
     我要@[seater]
     我要买@[seater]
     能坐~[2-8]个人的
     @[seater]的
     ~[what-which]@[make]有
-    @[make]有@[seater]~[specsBrain和@[specsBrain]吗
+    @[make]有@[seater]~[specs.brain和@[specs.brain]吗
     哪些起亚汽车具有自动使用制动器以避免碰撞的能力
     ~[make]在~[seater-rows]和天窗有避碰功能吗
     你有有防撞辅助装置的车吗
-    ~[searching]~[model-only]带@[specsSafety]@[specsBrain]和@@[specsBrain]的
+    ~[searching]~[model-only]带@[specs.safety]@[specs.brain]和@[specs.brain]的
 
 ~[seater-rows]
     一排座位

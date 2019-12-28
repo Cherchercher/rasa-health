@@ -71,7 +71,7 @@
     最低油耗
     最低耗油量
 
-@[specsFuelconsumption]
+@[specs.fuelconsumption]
     ~[fuel tank capacity]
     ~[battery recharge time]
     ~[highway mpg]

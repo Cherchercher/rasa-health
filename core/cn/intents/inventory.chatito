@@ -1,9 +1,9 @@
 import ../common.chatito
 
-%[inventory]('training': '100', 'distribution': 'even')
+%[inventory]('training': '300', 'distribution': 'even')
     ~[searching]~[model]
-    ~[greeting]~[searching]~[modelTrim]
-    ~[he-she-i]想要买~[modelTrim]
+    ~[greeting]~[searching]@[modelTrim]
+    ~[he-she-i]想要买@[modelTrim]
     你们库存有~[model]吗
     ~[model]@[trimLevel]~[quantify-price]
     库存清单
