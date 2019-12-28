@@ -1,13 +1,13 @@
 import ../common.chatito
 
-%[whatisSpec]('training': '30', 'distribution': 'even')
-    @[specsSafety]意味着~[the car]~[do some function]
+%[whatis.spec]('training': '100', 'distribution': 'even')
+    @[specs.safety]意味着~[the car]~[do some function]
     这车能自动停车吗
-    @[specsBrain]是什么
+    @[specs.brain]是什么
     ~[model]自动停车吗
-    @[specsBrain]什么意思
-    ~[model]的@[specsBrain]~[what-to-do]
-    @[specsSafety]~[in an accident]~[what-to-do]
+    @[specs.brain]什么意思
+    ~[model]的@[specs.brain]~[what-to-do]
+    @[specs.safety]~[in an accident]~[what-to-do]
 
 ~[what-to-do]
     做什么

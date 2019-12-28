@@ -1,18 +1,18 @@
 import ../common.chatito
 
-%[requestSpec]('training': '100', 'distribution': 'even')
-    ~[model]有@[specsBrain]吗
+%[request.spec]('training': '300', 'distribution': 'even')
+    ~[model]有@[specs.brain]吗
     ~[model]是@[seater]吗
-    这辆车的@[specsBrain]如何
-    这辆车的@[specsBrain]怎么样
-    这辆车的@[specsBrainQuantatative]是多少
+    这辆车的@[specs.brain]~[how-is]
+    这辆车的@[specs.infotainment]~[how-is]
+    这辆车的@[specs.brain.quantatative]是多少
     ~[model]离地多高
     这辆车离地多高
     ~[model]~[zero-to-hundred]
     ~[model?]最高时速多少
-    @[make] ~[modelTrim] ~[count-spec] ~[quantify]
-    @[specsBrain]
-    ~[model?]@[specsFuelconsumption]
+    @[make] @[modelTrim] ~[count-spec] ~[quantify]
+    @[specs.brain]
+    ~[model?]@[specs.fuelconsumption]
     最高里程是多少
     电动续航里程多少
     只充电能开多久
@@ -20,6 +20,10 @@ import ../common.chatito
     @[model]有@[color]吗
     这个车@[color]有吗
     @[model]@[color]有吗
+
+~[how-is]
+    如何
+    怎么样
 
 ~[zero-to-hundred]
     零到一百米加速时间

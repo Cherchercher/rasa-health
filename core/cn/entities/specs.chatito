@@ -275,7 +275,7 @@
 @[specs]
     ~[front a/c]
 
-@[specsBrain]
+@[specs.brain]
     ~[audio]
     ~[headlights]
     ~[combined range]
@@ -291,7 +291,7 @@
     ~[3rd row seats]
     ~[3rd Row Seating Count]
 
-@[specsBrainQuantatative]
+@[specs.brain.quantatative]
     ~[3rd Row Seating Count]
     ~[horsepower]
     ~[MSRP]
@@ -336,7 +336,7 @@
     ~[combined mpg]
     ~[city mpg]
 
-@[sizeSpec]
+@[specs.size]
     ~[cargo volume]
 
 ~[seats-spec]

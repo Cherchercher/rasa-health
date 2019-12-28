@@ -244,7 +244,7 @@
 ~[leg room]
     腿部空间
 
-@[specSeats]
+@[spec.seats]
     后排横向空间
     ~[total seat count]
     ~[1st Row Seating Count]
@@ -282,7 +282,7 @@
     ~[second row captains chair]
     ~[leather seats]
 
-@[specSeatsInterior]
+@[specs.seats.interior]
     ~[front head room]
     ~[front shoulder room]
     ~[front leg room]

@@ -1,6 +1,6 @@
 import ../common.chatito
 
-%[findDealers]('training': '50', 'distribution': 'even')
+%[find.dealers]('training': '200', 'distribution': 'even')
     我想在~[relative location]找一个经销商
     试驾一下这款~[model]
     你在~[relative location]有经销商吗
@@ -19,4 +19,4 @@ import ../common.chatito
     想知道在~[relative location]的经销商
     周日营业的@[make]经销商
     @[make]的经销商
-    [relative location]
+    ~[relative location]

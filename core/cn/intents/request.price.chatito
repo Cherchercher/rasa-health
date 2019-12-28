@@ -1,20 +1,22 @@
 import ../common.chatito
 
-%[requestPrice]('training': '50', 'distribution': 'even')
-    带@[specsBrain]的多少钱
-    ~[model-only]多少钱
+%[request.price]('training': '300', 'distribution': 'even')
+    带@[specs.brain]的~[quantify-price]
+    ~[model?]@[trimLevel]~[quantify-price]
+    ~[model?]要~[quantify-price]
     ~[quantify-price]~[model]
-    ~[model]多少钱呢
-    ~[model]的@[specsPrice]
-    ~[what-which]~[model]的@[specsPrice]
-    ~[what-which]@[specsPrice]
-    @[specsPrice]~[model]
-    ~[model]@[specsPrice]
-    ~[declaritive?]@[model]~[quantify-price]
+    ~[model?]~[quantify-price]呢
+    ~[model?]~[quantify-price]
+    ~[model?]的价格是多少
+    ~[model]的@[specs.price]
+    ~[model]的@[specs.price]是多少
+    ~[what-which]~[model]的@[specs.price]
+    ~[what-which]@[specs.price]
+    @[specs.price]~[model]
+    ~[model]@[specs.price]
     ~[declaritive?]~[model]~[quantify-price]
     这款~[quantify-price]
-    ~[model]的~[price-spec]
-    @[model]的~[price-spec]
+    ~[model]的@[specs.price]
     ~[quantify-price]~[model]
-    ~[driven-wheel]~[car]~[quantify-price]
-    @[specsFuelType]@[model]~[quantify-price]
+    @[specs.drivetrain]~[car]~[quantify-price]
+    @[specs.fuelType]@[model]~[quantify-price]

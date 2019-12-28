@@ -199,7 +199,7 @@
     辅助
     辅助系统
 
-@[specsSafety]
+@[specs.safety]
     ~[collision avoidance]
     ~[automatic emergency braking]
     ~[blind spot]

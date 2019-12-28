@@ -1,20 +1,21 @@
 import ../common.chatito
 
-%[compare]('training': '100', 'distribution': 'even')
+%[compare]('training': '300', 'distribution': 'even')
     ~[model]和~[model]都有哪些不同点
     @[make]~[model]和@[make]~[model]的不同点
     @[make]~[model]和@[make]~[model]都有哪些不同点
-    ~[model]或~[model]有@[specsBrain]吗
+    ~[model]或~[model]有@[specs.brain]吗
     我对~[model]~[and-or]~[model]或感兴趣
     我喜欢~[model]~[and-or]~[model]
-    有比@[model]更@[sizeSpec]~[relative-size]的@[make]吗
+    有比@[model]更@[specs.size]~[relative-size]的@[make]吗
     想知道在不同的是什么在~[trims]方面
     ~[what-difference]在这些不同的型号中~[model]
-    ~[what-difference]~[modelTrim]~[modelTrim]和~[modelTrim]
-    ~[what-difference]关于~[modelTrim]和~[modelTrim]
-    哪个款式~[has]性能更好是~[modelTrim]还是~[modelTrim]
+    ~[what-difference]@[modelTrim]@[modelTrim]和@[modelTrim]
+    ~[what-difference]关于@[modelTrim]和@[modelTrim]
+    哪个款式~[has]性能更好是@[modelTrim]还是@[modelTrim]
     在~[model]能告诉我@[modelYear]和@[modelYear]~[what-difference]
     在性能方面有什么不同
+    @[modelYear]和@[modelYear]
     这两款有什么不同
     这几个款式的区别
 
