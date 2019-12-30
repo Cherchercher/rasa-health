@@ -3,11 +3,11 @@ import ../common.chatito
 %[request.spec]('training': '300', 'distribution': 'even')
     ~[model]有@[specs.brain]吗
     ~[model]是@[seater]吗
-    这辆车的@[specs.brain]~[how-is]
-    这辆车的@[specs.infotainment]~[how-is]
-    这辆车的@[specs.brain.quantatative]是多少
+    ~[this-car]的@[specs.brain]~[how-is]
+    ~[this-car]的@[specs.infotainment]~[how-is]
+    ~[this-car]的@[specs.brain.quantatative]是多少
     ~[model]离地多高
-    这辆车离地多高
+    ~[this-car]离地多高
     ~[model]~[zero-to-hundred]
     ~[model?]最高时速多少
     @[make] @[modelTrim] ~[count-spec] ~[quantify]
@@ -18,7 +18,8 @@ import ../common.chatito
     只充电能开多久
     ~[model]最高里程是多少
     @[model]有@[color]吗
-    这个车@[color]有吗
+    ~[this-car]@[color]有吗
+    ~[this-car]有@[color]的吗
     @[model]@[color]有吗
 
 ~[how-is]

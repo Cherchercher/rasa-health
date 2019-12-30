@@ -57,6 +57,13 @@ import ./entities/locations.chatito
     @[modelYear] @[model]
     @[modelYear] @[modelTrim]
 
+~[this-car]
+    这个车
+    这车
+    这部车
+    这台车
+    这辆车
+
 ~[dislike]
     我不喜欢
     不要了
