@@ -2,7 +2,7 @@ import ../common.chatito
 
 %[whatis.spec]('training': '100', 'distribution': 'even')
     @[specs.safety]意味着~[the car]~[do some function]
-    这车能自动停车吗
+    ~[this-car]能自动停车吗
     @[specs.brain]是什么
     ~[model]自动停车吗
     @[specs.brain]什么意思
@@ -16,7 +16,7 @@ import ../common.chatito
     能做什么
 
 ~[the car]
-    这辆车
+    ~[this-car]
     它
 
 ~[do some function]
