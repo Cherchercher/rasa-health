@@ -1,49 +1,49 @@
-~[basic warranty type]('synonym':'true')
+~[basic warranty type]('synonym':'true', 'value':'basic warranty type')
     基本保修类型
 
-~[basic warranty maximum miles]('synonym':'true')
+~[basic warranty maximum miles]('synonym':'true', 'value':'basic warranty maximum miles')
     基本保修~[definite-size-big]里程
     保修~[definite-size-big]里程
 
-~[basic warranty maximum years]('synonym':'true')
+~[basic warranty maximum years]('synonym':'true', 'value':'basic warranty maximum years')
     基本保修~[definite-size-big]年限
     保修月数
     保修期
 
-~[basic warranty miles type]('synonym':'true')
+~[basic warranty miles type]('synonym':'true', 'value':'basic warranty miles type')
     基本保修里程类型
 
-~[basic warranty years type]('synonym':'true')
+~[basic warranty years type]('synonym':'true', 'value':'basic warranty years type')
     基本保修年限类型
 
-~[rust warranty type]('synonym':'true')
+~[rust warranty type]('synonym':'true', 'value':'rust warranty type')
     防锈保修类型
 
-~[rust warranty maximum miles]('synonym':'true')
+~[rust warranty maximum miles]('synonym':'true', 'value':'rust warranty maximum miles')
     防锈保修~[definite-size-big]里程
 
-~[rust warranty max years]('synonym':'true')
+~[rust warranty max years]('synonym':'true', 'value':'rust warranty max years')
     防锈保修~[definite-size-big]年限
 
-~[rust warranty miles type]('synonym':'true')
+~[rust warranty miles type]('synonym':'true', 'value':'rust warranty miles type')
     防锈保修里程类型
 
-~[rust warranty years type]('synonym':'true')
+~[rust warranty years type]('synonym':'true', 'value':'rust warranty years type')
     防锈保修年限类型
 
-~[drivetrain warranty type]('synonym':'true')
+~[drivetrain warranty type]('synonym':'true', 'value':'drivetrain warranty type')
     传动系统保修类型
 
-~[drivetrain warranty maximum miles]('synonym':'true')
+~[drivetrain warranty maximum miles]('synonym':'true', 'value':'drivetrain warranty maximum miles')
     传动系统保修~[definite-size-big]里程
 
-~[drivetrain warranty maximum years]('synonym':'true')
+~[drivetrain warranty maximum years]('synonym':'true', 'value':'drivetrain warranty maximum years')
     传动系统保修~[definite-size-big]年限
 
-~[drivetrain warranty miles type]('synonym':'true')
+~[drivetrain warranty miles type]('synonym':'true', 'value':'drivetrain warranty miles type')
     传动系统保修里程类型
 
-~[drivetrain warranty years type]('synonym':'true')
+~[drivetrain warranty years type]('synonym':'true', 'value':'drivetrain warranty years type')
     传动系统保修里程年限类型
 
 @[specs.warranty]

@@ -1,52 +1,52 @@
-~[wheel description]('synonym':'true')
+~[wheel description]('synonym':'true', 'value':'wheel description')
     车轮说明
     车轮数
     车轮尺寸
     轮圈尺寸
     车轮直径
 
-~[tire description]('synonym':'true')
+~[tire description]('synonym':'true', 'value':'tire description')
     轮胎说明
     轮胎数
     车胎数
 
-~[tire type]('synonym':'true')
+~[tire type]('synonym':'true', 'value':'tire type')
     轮胎种类
 
-~[run flat tires]('synonym':'true')
+~[run flat tires]('synonym':'true', 'value':'run flat tires')
     爆胎
 
-~[front wheel diameter]('synonym':'true')
+~[front wheel diameter]('synonym':'true', 'value':'front wheel diameter')
     前车轮直径
 
-~[rear wheel diameter]('synonym':'true')
+~[rear wheel diameter]('synonym':'true', 'value':'rear wheel diameter')
     后车轮直径
 
-~[wheel material]('synonym':'true')
+~[wheel material]('synonym':'true', 'value':'wheel material')
     车轮材料
 
-~[front tire width]('synonym':'true')
+~[front tire width]('synonym':'true', 'value':'front tire width')
     前车胎宽
 
-~[front tire profile]('synonym':'true')
+~[front tire profile]('synonym':'true', 'value':'front tire profile')
     前轮胎轮廓
 
-~[front tire diameter]('synonym':'true')
+~[front tire diameter]('synonym':'true', 'value':'front tire diameter')
     前轮胎直径
 
-~[rear tire width]('synonym':'true')
+~[rear tire width]('synonym':'true', 'value':'rear tire width')
     后车胎宽
 
-~[rear tire profile]('synonym':'true')
+~[rear tire profile]('synonym':'true', 'value':'rear tire profile')
     后轮胎轮廓
 
-~[rear tire diameter]('synonym':'true')
+~[rear tire diameter]('synonym':'true', 'value':'rear tire diameter')
     后轮胎直径
 
-~[front tire rating]('synonym':'true')
+~[front tire rating]('synonym':'true', 'value':'front tire rating')
     前轮胎额定值
 
-~[rear tire rating]('synonym':'true')
+~[rear tire rating]('synonym':'true', 'value':'rear tire rating')
     后轮胎额定值
 
 @[specs.wheel]

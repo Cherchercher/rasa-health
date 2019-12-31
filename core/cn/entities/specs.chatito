@@ -2,10 +2,10 @@
 //       Specs       //
 ///////////////////////
 
-~[front a/c]('synonym':'true')
+~[front a/c]('synonym':'true','value':'front a/c')
     前空调
 
-~[front a/c zones]('synonym':'true')
+~[front a/c zones]('synonym':'true','value':'front a/c zones')
     前空调区
     双区
     双区加热
@@ -14,22 +14,22 @@
     单区
     双区空调
 
-~[rear a/c]('synonym':'true')
+~[rear a/c]('synonym':'true', 'value':'rear a/c')
     后座 ~[air conditioning]
     后排 ~[air conditioning]
     ~[air conditioning] 后座通风口
     ~[second row] 空调
 
-//~[sun sensor]('synonym':'true')
+//~[sun sensor]('synonym':'true', 'value':'')
 //    sun sensor
 
-//~[air filtration]('synonym':'true')
+//~[air filtration]('synonym':'true', 'value':'')
 //    air filtration
 
-//~[total a/c zones]('synonym':'true')
+//~[total a/c zones]('synonym':'true', 'value':'')
 ///    total a/c zones
 
-~[a/c control type]('synonym':'true')
+~[a/c control type]('synonym':'true', 'value':'a/c control type')
     空调类型
     自动调节
     自动的 ~[air conditioning]
@@ -37,31 +37,31 @@
 ~[air conditioning]
     空调
 
-//~[a/c control location]('synonym':'true')
+//~[a/c control location]('synonym':'true', 'value':'')
 //    a/c control location
 
-//~[air condition optional]('synonym':'true')
+//~[air condition optional]('synonym':'true', 'value':'')
 //    air condition optional
 
-//~[front parking assist]('synonym':'true')
+//~[front parking assist]('synonym':'true', 'value':'')
 //    front parking assist
 
-//~[rear parking assist]('synonym':'true')
+//~[rear parking assist]('synonym':'true', 'value':'')
 //    rear parking assist
 
-//~[ultrasonic parking assist]('synonym':'true')
+//~[ultrasonic parking assist]('synonym':'true', 'value':'')
 //    ultrasonic parking assist
 
-//~[camera parking assist]('synonym':'true')
+//~[camera parking assist]('synonym':'true', 'value':'')
 //    camera parking assist
 
-//~[auto parking system]('synonym':'true')
+//~[auto parking system]('synonym':'true', 'value':'')
 //    automatic parking system
 
-~[doors]('synonym':'true')
+~[doors]('synonym':'true', 'value':'doors')
     门数量
-    ~[door count] door
-    ~[door count] doors
+    多少门
+    几个门
 
 ~[door count]
     2
@@ -71,173 +71,173 @@
     四
     五
 
-//~[vehicle body type]('synonym':'true')
+//~[vehicle body type]('synonym':'true', 'value':'')
 //    vehicle body type
 
-//~[vehicle body style]('synonym':'true')
+//~[vehicle body style]('synonym':'true', 'value':'')
 //    vehicle body style
 
-//~[vehicle size]('synonym':'true')
+//~[vehicle size]('synonym':'true', 'value':'')
 //    vehicle size
 
-//~[sliding driver van door]('synonym':'true')
+//~[sliding driver van door]('synonym':'true', 'value':'')
 //    sliding driver van door
 
-//~[sliding passenger van door]('synonym':'true')
+//~[sliding passenger van door]('synonym':'true', 'value':'')
 //    sliding passenger van door
 
-//~[power sliding doors]('synonym':'true')
+//~[power sliding doors]('synonym':'true', 'value':'')
 //    power sliding doors
 
-//~[body description]('synonym':'true')
+//~[body description]('synonym':'true', 'value':'')
 //    body description
 
-//~[underbody protection]('synonym':'true')
+//~[underbody protection]('synonym':'true', 'value':'')
 //    Underbody Protection
 
-//~[side door beams]('synonym':'true')
+//~[side door beams]('synonym':'true', 'value':'')
 //    Side Door Beams
 //    anti-intrusion beams
 //    side impact beams
 //    side-impact beams
 
-//~[body color bumpers]('synonym':'true')
+//~[body color bumpers]('synonym':'true', 'value':'')
 //    Body Color Bumpers
 
-//~[body color side cladding]('synonym':'true')
+//~[body color side cladding]('synonym':'true', 'value':'')
 //    Body Color Side Cladding
 
-//~[front brake type]('synonym':'true')
+//~[front brake type]('synonym':'true', 'value':'')
 //    front brake type
 
-//~[rear brake type]('synonym':'true')
+//~[rear brake type]('synonym':'true', 'value':'')
 //    rear brake type
 
-~[ABS]('synonym':'true')
+~[ABS]('synonym':'true', 'value':'ABS')
     abs
     abs braking
     abs brakes
     anti blocking system
 
-//~[cargo volume seats in]('synonym':'true')
+//~[cargo volume seats in]('synonym':'true', 'value':'')
 //    cargo volume seats in
 
-//~[cargo volume seats out]('synonym':'true')
+//~[cargo volume seats out]('synonym':'true', 'value':'')
 //    cargo volume seats out
 
-//~[turning diameter]('synonym':'true')
+//~[turning diameter]('synonym':'true', 'value':'')
 //    turning diameter
 
-~[towing capacity]('synonym':'true')
+~[towing capacity]('synonym':'true', 'value':'towing capacity')
     牵引力
     牵引重量
     牵引能力
 
-~[payload]('synonym':'true')
+~[payload]('synonym':'true', 'value':'payload')
     载重量
     负荷
 
-~[0-60 mph]('synonym':'true')
+~[0-60 mph]('synonym':'true', 'value':'0-60 mph')
     0-60
     0到60英里
     0-60 英里每小时
     0-60 英里
     0-60 英里每小时 时间
 
-//~[0 to 60 mph time calculated]('synonym':'true')
+//~[0 to 60 mph time calculated]('synonym':'true', 'value':'')
 //    0 to 60 MPH Time Calculated
 
-//~[0 to 100 kph time calculated]('synonym':'true')
+//~[0 to 100 kph time calculated]('synonym':'true', 'value':'')
 //    0 to 100 KPH Time Calculated
 
-~[curb weight]('synonym':'true')
+~[curb weight]('synonym':'true', 'value':'curb weight')
     整备质量
     净重
     汽车净重
 
-~[gross weight]('synonym':'true')
+~[gross weight]('synonym':'true', 'value':'gross weight')
     车辆总重量
     总重量
 
-~[vehicle height]('synonym':'true')
+~[vehicle height]('synonym':'true', 'value':'vehicle height')
     高
     车高
 
-~[vehicle width]('synonym':'true')
+~[vehicle width]('synonym':'true', 'value':'vehicle width')
     宽
     车宽
 
-~[vehicle length]('synonym':'true')
+~[vehicle length]('synonym':'true', 'value':'vehicle length')
     车长
 
-~[wheelbase]('synonym':'true')
+~[wheelbase]('synonym':'true', 'value':'wheelbase')
     轴距
 
-~[ground clearance]('synonym':'true')
+~[ground clearance]('synonym':'true', 'value':'ground clearance')
     离地净高
     离地距离
 
-~[bed width]('synonym':'true')
+~[bed width]('synonym':'true', 'value':'bed width')
     底盘宽度
 
-~[bed height]('synonym':'true')
+~[bed height]('synonym':'true', 'value':'bed height')
     底盘高度
 
-~[front track width]('synonym':'true')
+~[front track width]('synonym':'true', 'value':'front track width')
     前轨宽度
 
-~[rear track width]('synonym':'true')
+~[rear track width]('synonym':'true', 'value':'rear track width')
     后轨宽度
 
-~[bed length]('synonym':'true')
+~[bed length]('synonym':'true', 'value':'bed length')
     底盘长度
 
-~[displacement cc]('synonym':'true')
+~[displacement cc]('synonym':'true', 'value':'displacement cc')
     排量 立方厘米
 
-~[displacement litre]('synonym':'true')
+~[displacement litre]('synonym':'true', 'value':'displacement litre')
     排量 升
 
-~[number of cylinders]('synonym':'true')
+~[number of cylinders]('synonym':'true', 'value':'number of cylinders')
     气缸数量
     气缸数
 
-~[engine valve count]('synonym':'true')
+~[engine valve count]('synonym':'true', 'value':'engine valve count')
     发动机气门数
     发动机阀门数
 
-~[engine configuration]('synonym':'true')
+~[engine configuration]('synonym':'true', 'value':'engine configuration')
     发动机配置
     引擎配置
 
-~[power steering type]('synonym':'true')
+~[power steering type]('synonym':'true', 'value':'power steering type')
     动力转向类型
 
-~[steering system description]('synonym':'true')
+~[steering system description]('synonym':'true', 'value':'steering system description')
     转向系统类型
     操舵系统
 
-~[model year]('synonym':'true')
+~[model year]('synonym':'true', 'value':'model year')
     新车款式
     年份款式
 
-~[make]('synonym':'true')
+~[make]('synonym':'true', 'value':'make')
     制造
 
-~[trim name]('synonym':'true')
+~[trim name]('synonym':'true', 'value':'trim name')
     内饰名称
     内饰名
 
-~[LED light]('synonym':'true')
+~[LED light]('synonym':'true', 'value':'LED light')
     LED
     LED灯
     LED大灯
 
-~[xenon lights]('synonym':'true')
+~[xenon lights]('synonym':'true', 'value':'xenon lights')
     氙气大灯
     氙气灯
 
-~[halogen lights]('synonym':'true')
+~[halogen lights]('synonym':'true', 'value':'halogen lights')
     卤素大灯
 
 ~[headlights]
@@ -250,17 +250,17 @@
     汽车~[xenon lights]
     汽车~[halogen lights]
 
-~[sunroof]('synonym':'true')
+~[sunroof]('synonym':'true', 'value':'sunroof')
     天窗
     全景天窗
     月亮屋顶
     滑动天窗
 
-~[audio]('synonym':'true')
+~[audio]('synonym':'true', 'value':'audio')
     音响
     音箱
 
-~[3rd row seats]('synonym':'true')
+~[3rd row seats]('synonym':'true', 'value':'3rd row seats')
     三排座椅
     三排座
     三排

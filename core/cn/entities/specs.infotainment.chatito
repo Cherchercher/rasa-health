@@ -1,14 +1,8 @@
 //technically, not all of these are 'infotainment', but 'audio', 'electronics misc', etc. but are used in
 //user queries simalarily...
 
-~[auxilary audio input]('synonym':'true')
-    ~[auxilary] 音频输入
-    ~[auxilary] input
-    ~[auxilary] cable
-
-~[auxilary]
-    auxilary
-    aux
+~[auxilary audio input]('synonym':'true', 'value': 'auxilary audio input')
+    音频输入
 
 ~[radio type]('synonym':'true')
     radio type
@@ -104,7 +98,7 @@
 ~[tachometer]('synonym':'true')
     tachometer
 
-~[bluetooth]('synonym':'true')
+~[bluetooth]('synonym':'true', 'value': 'bluetooth')
     蓝牙
     蓝牙技术
     蓝牙无线
@@ -165,7 +159,7 @@
     smart ~[cruise-control]
     radar ~[cruise-control]
 
-~[wireless phone charger]('synonym':'true')
+~[wireless phone charger]('synonym':'true', 'value':'wireless phone charger')
     无线手机充电
     无线充电
 
@@ -180,33 +174,6 @@
     Stereo Anti-Theft
 
 @[specs.infotainment]
-    ~[auxilary audio input]
-    ~[radio type]
-    ~[satellite radio]
-    ~[usb connection]
-    ~[total speaker count]
-    ~[auxilary mp3 input]
-    ~[navigation]
-    ~[navigation real time traffic]
-    ~[12v power outlet]
-    ~[ac power outlet]
-    ~[usb-ports]
-    ~[usb-ports.plug-in]
-    ~[tire pressure display]
-    ~[external temperature display]
-    ~[heads up display]
-    ~[tachometer]
-    ~[bluetooth]
-    ~[android auto]
-    ~[apple carplay]
-    ~[voice system name]
-    ~[touch screen]
-    ~[voice command]
-    ~[remote trunk release]
-    ~[remote trunk lock]
-    ~[cruise control]
-    ~[adaptive cruise control]
     ~[wireless phone charger]
-    ~[push button start]
-    ~[multi function remote]
-    ~[stereo anti-theft]
+    ~[auxilary audio input]
+    ~[bluetooth]
