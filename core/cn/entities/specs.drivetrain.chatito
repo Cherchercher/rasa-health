@@ -1,24 +1,24 @@
-~[engine description]('synonym':'true')
+~[engine description]('synonym':'true', 'value':'engine description')
     发动机描述
     发动机尺寸
     排量
     气缸数
     引擎配置
 
-~[horsepower]('synonym':'true')
+~[horsepower]('synonym':'true', 'value':'horsepower')
     马力
 
-~[torque]('synonym':'true')
+~[torque]('synonym':'true', 'value':'torque')
     扭矩
 
-~[fuel]('synonym':'true')
+~[fuel]('synonym':'true', 'value':'fuel')
     汽油
     柴油
     常规汽油
     电动
     压缩天然气
 
-~[recommended fuel type]('synonym':'true')
+~[recommended fuel type]('synonym':'true', 'value':'recommended fuel type')
     普通无铅
     优质燃料
     优质汽油
@@ -26,14 +26,14 @@
     优质无铅
     无铅
 
-~[compressor type]('synonym':'true')
+~[compressor type]('synonym':'true', 'value':'compressor type')
     自然吸气
     涡轮增压
 
-~[electric horsepower]('synonym':'true')
+~[electric horsepower]('synonym':'true', 'value':'electric horsepower')
     电动马力
 
-~[emission description]('synonym':'true')
+~[emission description]('synonym':'true', 'value':'emission description')
     排放
     国5
     国V
@@ -44,7 +44,7 @@
     国4
     国IV
 
-~[fuel system description]('synonym':'true')
+~[fuel system description]('synonym':'true', 'value':'fuel system description')
     直喷
     缸内直喷
     柴油直接喷射
@@ -53,7 +53,7 @@
     多点电喷
     混合喷射
 
-~[transmission type]('synonym':'true')
+~[transmission type]('synonym':'true', 'value':'transmission type')
     传动装置
     手动
     自动
@@ -62,38 +62,38 @@
     齿轮传动
     皮带传动
 
-~[co2]('synonym':'true')
+~[co2]('synonym':'true', 'value':'co2')
     二氧化碳 克/英里
     汽车排放
 
-~[manual transmission option]('synonym':'true')
+~[manual transmission option]('synonym':'true', 'value':'manual transmission option')
     手动变速选项
 
-~[automatic transmission option]('synonym':'true')
+~[automatic transmission option]('synonym':'true', 'value':'automatic transmission option')
     自动变速选项
 
-~[manually interactive transmission]('synonym':'true')
+~[manually interactive transmission]('synonym':'true', 'value':'manually interactive transmission')
     手动互动传输
 
-~[driven wheels]('synonym':'true')
+~[driven wheels]('synonym':'true', 'value':'driven wheels')
     驱动轮
     前驱
     后驱
     四驱
     ~[awd type]
 
-~[awd type]('synonym':'true')
+~[awd type]
     全时四驱
     分时四驱
     适时四驱
 
-~[traction control]('synonym':'true')
+~[traction control]('synonym':'true', 'value':'traction control')
     牵引控制
     循迹控制系统
     稳定控制系统
     tcs
 
-~[remote start]('synonym':'true')
+~[remote start]('synonym':'true', 'value':'remote start')
     远程启动
     遥控起动
 

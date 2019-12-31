@@ -1,4 +1,4 @@
-~[collision avoidance]('synonym':'true')
+~[collision avoidance]('synonym':'true', 'value':'collision avoidance')
     ~[collision]~[alert]
     ~[collision]~[avoidance]
     ~[collision]~[assist]
@@ -24,7 +24,7 @@
 ~[brake]
     刹车
 
-~[automatic emergency braking]('synonym':'true')
+~[automatic emergency braking]('synonym':'true', 'value':'automatic emergency braking')
     ~[auto]紧急~[brake]
     ~[auto]~[brake]
     ~[auto]~[brake]~[assist]
@@ -43,7 +43,7 @@
     行驶意外
     意外
 
-~[blind spot]('synonym':'true')
+~[blind spot]('synonym':'true', 'value':'blind spot')
     盲点~[detection]
     盲点~[collision]~[alert]
     盲点~[collision]~[avoidance]
@@ -54,7 +54,7 @@
 ~[detection]
     检测
 
-~[rear cross traffic alert]('synonym':'true')
+~[rear cross traffic alert]('synonym':'true', 'value':'rear cross traffic alert')
     后方交叉交通~[alert]
     后段交叉交通~[collision1]~[alert]
     后部碰撞警示系统
@@ -65,19 +65,19 @@
     碰撞事故
     意外
 
-~[forward collision warning]('synonym':'true')
+~[forward collision warning]('synonym':'true', 'value':'forward collision warning')
     ~[forward]~[collision]~[alert]
     前部碰撞警示系统
 
-~[lane change assist]('synonym':'true')
+~[lane change assist]('synonym':'true', 'value':'lane change assist')
     ~[lane-keep]~[assist]
     变道辅助
     并线辅助
 
-~[lane departure warning]('synonym':'true')
+~[lane departure warning]('synonym':'true', 'value':'lane departure warning')
     ~[lane-keep]~[alert]
 
-~[airbags]('synonym':'true')
+~[airbags]('synonym':'true', 'value':'airbags')
     ~[airbag]
 
 ~[airbag]
@@ -88,23 +88,23 @@
     侧面
     周边
 
-~[side airbags]('synonym':'true')
+~[side airbags]('synonym':'true', 'value':'side airbags')
     ~[side]~[airbags]
 
-~[passenger airbags]('synonym':'true')
+~[passenger airbags]('synonym':'true', 'value':'passenger airbags')
     乘客气囊
     副驾气囊
     副驾驶座气囊
     乘客安全气囊
     副驾驶座安全气囊
 
-~[driver airbags]('synonym':'true')
+~[driver airbags]('synonym':'true', 'value':'driver airbags')
     驾驶员气囊
     主驾气囊
     驾驶员安全气囊
     主驾安全气囊
 
-~[passenger airbags deactivation]('synonym':'true')
+~[passenger airbags deactivation]('synonym':'true', 'value':'passenger airbags deactivation')
     关闭乘客气囊
     关闭乘客安全气囊
     乘客安全气囊关闭
@@ -114,24 +114,24 @@
     副驾安全气囊关闭
     副驾安全气囊自动关闭
 
-~[side airbags curtain]('synonym':'true')
+~[side airbags curtain]('synonym':'true', 'value':'')
     ~[side]~[airbags]
 
-~[airbag rollover sensor]('synonym':'true')
+~[airbag rollover sensor]('synonym':'true', 'value':'')
     安全气囊侧翻传感器
 
-~[exterior view camera]('synonym':'true')
+~[exterior view camera]('synonym':'true', 'value':'exterior view camera')
     行车记录仪
     倒车影像
 
-~[child proof door locks]('synonym':'true')
+~[child proof door locks]('synonym':'true', 'value':'child proof door locks')
     防儿童安全门锁
     儿童安全锁
 
-~[anti-theft alarm system]('synonym':'true')
+~[anti-theft alarm system]('synonym':'true', 'value':'anti-theft alarm system')
     防盗~[alert]
 
-~[parking assist description]('synonym':'true')
+~[parking assist description]('synonym':'true', 'value':'parking assist description')
     ~[park]辅助
     自动~[park]
     辅助~[park]
@@ -140,16 +140,16 @@
     停车
     泊车
 
-~[surround view monitor]('synonym':'true')
+~[surround view monitor]('synonym':'true', 'value':'surround view monitor')
     环绕监视器
     360度监视器
     多角度监视器
 
-~[hill start assist]('synonym':'true')
+~[hill start assist]('synonym':'true', 'value':'hill start assist')
     陡坡起步~[assist]
     坡道起步~[assist]
 
-~[brake assist]('synonym':'true')
+~[brake assist]('synonym':'true', 'value':'brake assist')
     ~[brake]~[assist]
     ~[auto]~[brake]
     ~[auto]~[brake]~[assist]

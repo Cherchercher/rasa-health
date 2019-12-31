@@ -1,17 +1,17 @@
-~[total seat count]('synonym':'true')
+~[total seat count]('synonym':'true', 'value':'total seat count')
     总共几座
     能坐几人
     ~[can]坐多少人
     乘客容量
 
-~[1st Row Seating Count]('synonym':'true')
+~[1st Row Seating Count]('synonym':'true', 'value':'1st Row Seating Count')
     ~[first row]
 
-~[2nd Row Seating Count]('synonym':'true')
+~[2nd Row Seating Count]('synonym':'true', 'value':'2nd Row Seating Count')
     ~[second row]
     full ~[second row]
 
-~[3rd Row Seating Count]('synonym':'true')
+~[3rd Row Seating Count]('synonym':'true', 'value':'3rd Row Seating Count')
     ~[third row]
     一整排~[third row]
     ~[third row]一整排
@@ -23,111 +23,111 @@
     ~[3rd row seats]限载
     ~[3rd row seats]限载多少
 
-~[4th Row Seating Count]('synonym':'true')
+~[4th Row Seating Count]('synonym':'true', 'value':'4th Row Seating Count')
     ~[fourth row]
 
-~[heated driver deat]('synonym':'true')
+~[heated driver deat]('synonym':'true', 'value':'heated driver deat')
     ~[heated seats]
 
-~[cooled driver seat]('synonym':'true')
+~[cooled driver seat]('synonym':'true', 'value':'cooled driver seat')
     ~[cooled seats]
 
-~[heated passenger seat]('synonym':'true')
-    ~[heated seats] passenger
-    passenger ~[heated seats]
+~[heated passenger seat]('synonym':'true', 'value':'heated passenger seat')
+    副驾~[heated seats]
 
-~[cooled passenger seat]('synonym':'true')
-    ~[cooled seats] passenger
-    passenger ~[cooled seats]
+~[cooled passenger seat]('synonym':'true', 'value':'cooled passenger sea')
+    副驾~[cooled seats]
 
-~[front seating type]('synonym':'true')
+~[front seating type]('synonym':'true', 'value':'front seating type')
     前排座椅类型
     前排斗式座椅
 
-~[front seating material]('synonym':'true')
+~[front seating material]('synonym':'true', 'value':'front seating material')
     前座椅材料
 
-~[front whiplash protection]('synonym':'true')
+~[front whiplash protection]('synonym':'true', 'value':'front whiplash protection')
     前颈部保护
 
-~[folding passenger]('synonym':'true')
-    folding passenger
+~[folding passenger]('synonym':'true', 'value':'folding passenger')
+    可折叠乘客座
+    折叠乘客座
 
-~[folding 2nd row seat]('synonym':'true')
-    folding  ~[second row]
-    ~[second row] fold down
-    ~[second row] fold
+~[folding 2nd row seat]('synonym':'true', 'value':'folding 2nd row seat')
+    可折叠~[second row]
+    能折叠~[second row]
+    ~[second row]可折叠
 
-~[folding 3rd row seat]('synonym':'true')
-    folding  ~[third row]
-    ~[third row] fold
-    ~[third row] fold down
+~[folding 3rd row seat]('synonym':'true', 'value':'folding 3rd row seat')
+    可折叠~[third row]
+    能折叠~[third row]
+    ~[third row]可折叠
 
-~[seating configuration]('synonym':'true')
+~[seating configuration]('synonym':'true', 'value':'seating configuration')
     座椅配置
 
-~[heated rear seat]('synonym':'true')
+~[heated rear seat]('synonym':'true', 'value':'heated rear seat')
     加热后排座椅
     后座加热座椅
     后排加热座椅
 
-~[ventilated driver]('synonym':'true')
+~[ventilated driver]('synonym':'true', 'value':'ventilated driver')
     通风式驾驶员座椅
     通风式主驾座椅
 
-~[ventilated pass]('synonym':'true')
+~[ventilated pass]('synonym':'true', 'value':'ventilated pass')
     通风式乘客座椅
 
-~[lumbar support driver]('synonym':'true')
+~[lumbar support driver]('synonym':'true', 'value':'umbar support driver')
     座椅腰部支撑靠垫
     汽车座椅腰撑
 
-~[front adjustable seat height]('synonym':'true')
+~[front adjustable seat height]('synonym':'true', 'value':'')
     前排可调节座椅高度
 
-~[memory seat controls]('synonym':'true')
+~[memory seat controls]('synonym':'true', 'value':'memory seat controls')
     记忆座椅控制
     座位记忆
 
-~[power driver seat]('synonym':'true')
+~[power driver seat]('synonym':'true', 'value':'power driver seat')
     电动座椅
 
-~[power passenger seat]('synonym':'true')
+~[power passenger seat]('synonym':'true', 'value':'power passenger seat')
     电动乘客座椅
 
-~[power lumbar control]('synonym':'true')
+~[power lumbar control]('synonym':'true', 'value':'')
     电动腰托控制
 
-~[active head restraints]('synonym':'true')
+~[active head restraints]('synonym':'true', 'value':'active head restraint')
     头枕
 
-~[second row head restraints]('synonym':'true')
+~[second row head restraints]('synonym':'true', 'value':'second row head restraints')
     第二排头枕
 
-~[third row head restraints]('synonym':'true')
+~[third row head restraints]('synonym':'true', 'value':'third row head restraints')
     第三排头枕
 
-~[second row folding armrest]('synonym':'true')
+~[second row folding armrest]('synonym':'true', 'value':'second row folding armrest')
     第二排折叠扶手
 
-~[power driver memory]('synonym':'true')
+~[power driver memory]('synonym':'true', 'value':'power driver memory')
     记忆电动座椅
     可记忆电动座椅
     电动座椅记忆
 
-~[multi adjust driver]('synonym':'true')
+~[multi adjust driver]('synonym':'true', 'value':'multi adjust driver')
     多项调节驾驶员座椅
     多项调节主驾座椅
 
-~[multi adjust pass]('synonym':'true')
-    multi adjust pass
+~[multi adjust pass]('synonym':'true', 'value':'multi adjust pass')
+    多项调节副驾座椅
+    多项调节副驾使员座椅
 
-~[second row captains chair]('synonym':'true')
+~[second row captains chair]('synonym':'true', 'value':'second row captains chair')
     ~[second row] ~[captain chair]
     ~[second row] bucket seats
     reclining ~[second row]
 
-~[leather seats]('synonym':'true')
+~[leather seats]('synonym':'true', 'value':'leather seats')
     真皮
     头层皮
     二层皮
@@ -137,42 +137,42 @@
     皮
     皮
 
-~[front head room]('synonym':'true')
+~[front head room]('synonym':'true', 'value':'front head room')
     前排头部
 
-~[front shoulder room]('synonym':'true')
+~[front shoulder room]('synonym':'true', 'value':'front shoulder room')
     前排宽度
 
-~[front leg room]('synonym':'true')
+~[front leg room]('synonym':'true', 'value':'front leg room')
     前排腿部
 
-~[rear head room]('synonym':'true')
+~[rear head room]('synonym':'true', 'value':'rear head room')
     后排头部
 
-~[rear shoulder room]('synonym':'true')
+~[rear shoulder room]('synonym':'true', 'value':'rear shoulder room')
     后排宽度
 
-~[rear leg room]('synonym':'true')
+~[rear leg room]('synonym':'true', 'value':'rear leg room')
     后排腿部
 
-~[interior volume]('synonym':'true')
+~[interior volume]('synonym':'true', 'value':'interior volume')
     内部空间
     内体积
 
-~[front hip room]('synonym':'true')
+~[front hip room]('synonym':'true', 'value':'front hip room')
     前排臀部
 
-~[second row hip room]('synonym':'true')
+~[second row hip room]('synonym':'true', 'value':'second row hip room')
     二排臀部
 
-~[third row hip room]('synonym':'true')
+~[third row hip room]('synonym':'true', 'value':'third row hip room')
     三排臀部
 
-~[third row leg room]('synonym':'true')
+~[third row leg room]('synonym':'true', 'value':'third row leg room')
     三排腿部
     三排伸腿距离
 
-~[third row shoulder]('synonym':'true')
+~[third row shoulder]('synonym':'true', 'value':'third row shoulder')
     第三排肩距
 
 ~[interior-dimension]
