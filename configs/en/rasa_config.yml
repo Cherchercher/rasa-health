@@ -3,8 +3,8 @@ language: en
 importers:
   - name: MultiProjectImporter
 imports:
-  - core/en/kma
-  - core/en/kmi
+  - core/en/owner
+  - core/en/shop
 pipeline:
 - name: tokenizer_whitespace
 - name: intent_entity_featurizer_regex

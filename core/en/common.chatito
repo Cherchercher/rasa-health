@@ -1,11 +1,11 @@
 //////////////////////////
 //     Common parts     //
 //////////////////////////
-import ./kma/entities/bodystyle.chatito
-import ./kma/entities/fuel-type.chatito
-import ./kma/entities/makes.chatito
-import ./kma/entities/trims.chatito
-import ./kma/entities/color.chatito
+import ./shop/entities/bodystyle.chatito
+import ./shop/entities/fuel-type.chatito
+import ./shop/entities/makes.chatito
+import ./shop/entities/trims.chatito
+import ./shop/entities/color.chatito
 
 //who, what, why, when, where, which, how
 //do, did, does
