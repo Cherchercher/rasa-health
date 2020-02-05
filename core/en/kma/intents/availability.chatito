@@ -1,4 +1,4 @@
-import ../common.chatito
+import ../../common.chatito
 import ../entities/locations.chatito
 
 //similar to searching for inventory, but availability refers to when a new model or new model year will become available

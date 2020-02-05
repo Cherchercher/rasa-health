@@ -1,4 +1,4 @@
-import ../common.chatito
+import ../../common.chatito
 import ../entities/specs.chatito
 
 %[whatis.spec]('training': '100', 'distribution': 'even')

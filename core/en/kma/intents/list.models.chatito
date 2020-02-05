@@ -1,5 +1,5 @@
 import ../entities/attributes.chatito
-import ../common.chatito
+import ../../common.chatito
 import ../entities/specs.cargo.chatito
 import ../entities/specs.drivetrain.chatito
 import ../entities/specs.exterior.chatito

@@ -1,4 +1,4 @@
-import ../common.chatito
+import ../../common.chatito
 import ../entities/locations.chatito
 
 %[find.dealers]('training': '100', 'distribution': 'even')
