@@ -1,4 +1,4 @@
-import ../common.chatito
+import ../../common.chatito
 
 %[warranty.newCar]('training': '10', 'distribution': 'even')
     what is the warranty

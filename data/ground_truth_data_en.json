@@ -1,9 +1,11 @@
 {
     "rasa_nlu_data": {
-        "common_examples": [{
+        "common_examples": [
+            {
                 "text": "is the 2021 optima hybrid available now",
                 "intent": "availability",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 11,
                         "entity": "model year-future",
                         "start": 7,
@@ -20,7 +22,8 @@
             {
                 "text": "when does the 2021 optima plug-in hybrid come out",
                 "intent": "availability",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 18,
                         "entity": "model year-future",
                         "start": 14,
@@ -37,27 +40,32 @@
             {
                 "text": "i want to know when the niro plug in is on the market",
                 "intent": "availability",
-                "entities": [{
-                    "end": 37,
-                    "entity": "model",
-                    "start": 24,
-                    "value": "niro ev"
-                }]
+                "entities": [
+                    {
+                        "end": 37,
+                        "entity": "model",
+                        "start": 24,
+                        "value": "niro ev"
+                    }
+                ]
             },
             {
                 "text": "are the new rio five door at the dealer already",
                 "intent": "availability",
-                "entities": [{
-                    "end": 25,
-                    "entity": "model",
-                    "start": 12,
-                    "value": "rio 5-door"
-                }]
+                "entities": [
+                    {
+                        "end": 25,
+                        "entity": "model",
+                        "start": 12,
+                        "value": "rio 5-door"
+                    }
+                ]
             },
             {
                 "text": "when will the 2021 rio be released",
                 "intent": "availability",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 18,
                         "entity": "model year-future",
                         "start": 14,
@@ -74,7 +82,8 @@
             {
                 "text": "any 2021 niro plug in hybrid available yet",
                 "intent": "availability",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 8,
                         "entity": "model year-future",
                         "start": 4,
@@ -91,27 +100,32 @@
             {
                 "text": "i want to know when the cadenzas is on the market",
                 "intent": "availability",
-                "entities": [{
-                    "end": 32,
-                    "entity": "model",
-                    "start": 24,
-                    "value": "cadenza"
-                }]
+                "entities": [
+                    {
+                        "end": 32,
+                        "entity": "model",
+                        "start": 24,
+                        "value": "cadenza"
+                    }
+                ]
             },
             {
                 "text": "any idea when the k 900 will start showing up in dealerships",
                 "intent": "availability",
-                "entities": [{
-                    "end": 23,
-                    "entity": "model",
-                    "start": 18,
-                    "value": "k900"
-                }]
+                "entities": [
+                    {
+                        "end": 23,
+                        "entity": "model",
+                        "start": 18,
+                        "value": "k900"
+                    }
+                ]
             },
             {
                 "text": "are 2021 niros at the dealer already",
                 "intent": "availability",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 8,
                         "entity": "model year-future",
                         "start": 4,
@@ -128,37 +142,44 @@
             {
                 "text": "any idea when the niro plugin is launching",
                 "intent": "availability",
-                "entities": [{
-                    "end": 29,
-                    "entity": "model",
-                    "start": 18,
-                    "value": "niro ev"
-                }]
+                "entities": [
+                    {
+                        "end": 29,
+                        "entity": "model",
+                        "start": 18,
+                        "value": "niro ev"
+                    }
+                ]
             },
             {
                 "text": "i am have a question about the new plug-in niro when will you have them in stock",
                 "intent": "availability",
-                "entities": [{
-                    "end": 47,
-                    "entity": "model",
-                    "start": 35,
-                    "value": "niro ev"
-                }]
+                "entities": [
+                    {
+                        "end": 47,
+                        "entity": "model",
+                        "start": 35,
+                        "value": "niro ev"
+                    }
+                ]
             },
             {
                 "text": "want to know what the difference are in the different types of optima phev",
                 "intent": "compare",
-                "entities": [{
-                    "end": 73,
-                    "entity": "model",
-                    "start": 62,
-                    "value": "optima plug-in hybrid"
-                }]
+                "entities": [
+                    {
+                        "end": 73,
+                        "entity": "model",
+                        "start": 62,
+                        "value": "optima plug-in hybrid"
+                    }
+                ]
             },
             {
                 "text": "what car has have more features? the Sportage or Stinger",
                 "intent": "compare",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 66,
                         "entity": "model",
                         "start": 52,
@@ -190,27 +211,32 @@
             {
                 "text": "where is the nearest kia dealership",
                 "intent": "find.dealers",
-                "entities": [{
-                    "end": 24,
-                    "entity": "make",
-                    "start": 21,
-                    "value": "kia"
-                }]
+                "entities": [
+                    {
+                        "end": 24,
+                        "entity": "make",
+                        "start": 21,
+                        "value": "kia"
+                    }
+                ]
             },
             {
                 "text": "Kia dealers near me",
                 "intent": "find.dealers",
-                "entities": [{
-                    "end": 3,
-                    "entity": "make",
-                    "start": 0,
-                    "value": "kia"
-                }]
+                "entities": [
+                    {
+                        "end": 3,
+                        "entity": "make",
+                        "start": 0,
+                        "value": "kia"
+                    }
+                ]
             },
             {
                 "text": "2018 Telluride LX AWD inventory",
                 "intent": "inventory",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 4,
                         "entity": "model year-past",
                         "start": 0,
@@ -227,7 +253,8 @@
             {
                 "text": "i want to find a 2019 rio near me",
                 "intent": "inventory",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 21,
                         "entity": "model year-current",
                         "start": 17,
@@ -244,12 +271,14 @@
             {
                 "text": "hello looking for Telluride S AWD",
                 "intent": "inventory",
-                "entities": [{
-                    "end": 33,
-                    "entity": "model-trim",
-                    "start": 18,
-                    "value": "Telluride S AWD"
-                }]
+                "entities": [
+                    {
+                        "end": 33,
+                        "entity": "model-trim",
+                        "start": 18,
+                        "value": "Telluride S AWD"
+                    }
+                ]
             },
             {
                 "text": "new car inventory",
@@ -264,7 +293,8 @@
             {
                 "text": "i want to look at the 2017 plug-in nero where can i go see it",
                 "intent": "inventory",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 26,
                         "entity": "model year-past",
                         "start": 22,
@@ -281,7 +311,8 @@
             {
                 "text": "i want to see 2013 Stinger GTS RWD inventory with prices",
                 "intent": "inventory",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 18,
                         "entity": "model year-past",
                         "start": 14,
@@ -298,7 +329,8 @@
             {
                 "text": "i want to look at the telluride 2010 rio sedan",
                 "intent": "inventory",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 36,
                         "entity": "model year-past",
                         "start": 32,
@@ -315,7 +347,8 @@
             {
                 "text": "do you have 2013 rio 4-dr in stock",
                 "intent": "inventory",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 16,
                         "entity": "model year-past",
                         "start": 12,
@@ -332,7 +365,8 @@
             {
                 "text": "where can i go look at the 2010 k900s in state-location",
                 "intent": "inventory",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 31,
                         "entity": "model year-past",
                         "start": 27,
@@ -349,17 +383,20 @@
             {
                 "text": "looking for kai inventory",
                 "intent": "inventory",
-                "entities": [{
-                    "end": 15,
-                    "entity": "make",
-                    "start": 12,
-                    "value": "kia"
-                }]
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "make",
+                        "start": 12,
+                        "value": "kia"
+                    }
+                ]
             },
             {
                 "text": "i want to get a 2019 all electric niro",
                 "intent": "inventory",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 20,
                         "entity": "model year-current",
                         "start": 16,
@@ -376,7 +413,8 @@
             {
                 "text": "dealer near me with 2013 Telluride S FWD",
                 "intent": "inventory",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 24,
                         "entity": "model year-past",
                         "start": 20,
@@ -393,7 +431,8 @@
             {
                 "text": "i want to get a 2018 optima",
                 "intent": "inventory",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 20,
                         "entity": "model year-past",
                         "start": 16,
@@ -410,7 +449,8 @@
             {
                 "text": "is there a 2011 all electric nitro in inventory",
                 "intent": "inventory",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 15,
                         "entity": "model year-past",
                         "start": 11,
@@ -427,7 +467,8 @@
             {
                 "text": "do you have 2020 Forte EX IVT in stock",
                 "intent": "inventory",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 16,
                         "entity": "model year-current",
                         "start": 12,
@@ -444,7 +485,8 @@
             {
                 "text": "do you have 2021 Sorento S V6 FWD in stock",
                 "intent": "inventory",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 16,
                         "entity": "model year-future",
                         "start": 12,
@@ -461,7 +503,8 @@
             {
                 "text": "i want to get a 2012 Sedona L",
                 "intent": "inventory",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 20,
                         "entity": "model year-past",
                         "start": 16,
@@ -478,7 +521,8 @@
             {
                 "text": "i want to find a 2010 Sedona SX near me",
                 "intent": "inventory",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 21,
                         "entity": "model year-past",
                         "start": 17,
@@ -495,17 +539,20 @@
             {
                 "text": "any 7 passenger car has rear seat aircon",
                 "intent": "list.models",
-                "entities": [{
-                    "end": 15,
-                    "entity": "seater",
-                    "start": 4,
-                    "value": "7 seater"
-                }]
+                "entities": [
+                    {
+                        "end": 15,
+                        "entity": "seater",
+                        "start": 4,
+                        "value": "7 seater"
+                    }
+                ]
             },
             {
                 "text": "howdy does kia have eight seater active head restraints and rear seat aircon",
                 "intent": "list.models",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 14,
                         "entity": "make",
                         "start": 11,
@@ -522,7 +569,8 @@
             {
                 "text": "does kias sell cross overs",
                 "intent": "list.models",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 9,
                         "entity": "make",
                         "start": 5,
@@ -539,7 +587,8 @@
             {
                 "text": "does kia have 2 door",
                 "intent": "list.models",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 8,
                         "entity": "make",
                         "start": 5,
@@ -556,7 +605,8 @@
             {
                 "text": "does kia make a cabriolet",
                 "intent": "list.models",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 8,
                         "entity": "make",
                         "start": 5,
@@ -573,37 +623,44 @@
             {
                 "text": "what is the price of the optima",
                 "intent": "request.price",
-                "entities": [{
-                    "end": 31,
-                    "entity": "model",
-                    "start": 25,
-                    "value": "optima"
-                }]
+                "entities": [
+                    {
+                        "end": 31,
+                        "entity": "model",
+                        "start": 25,
+                        "value": "optima"
+                    }
+                ]
             },
             {
                 "text": "what is the price of the rio 4-door",
                 "intent": "request.price",
-                "entities": [{
-                    "end": 35,
-                    "entity": "model",
-                    "start": 25,
-                    "value": "rio"
-                }]
+                "entities": [
+                    {
+                        "end": 35,
+                        "entity": "model",
+                        "start": 25,
+                        "value": "rio"
+                    }
+                ]
             },
             {
                 "text": "what is the top of the line niro plugin",
                 "intent": "list.trims",
-                "entities": [{
-                    "end": 39,
-                    "entity": "model",
-                    "start": 28,
-                    "value": "niro ev"
-                }]
+                "entities": [
+                    {
+                        "end": 39,
+                        "entity": "model",
+                        "start": 28,
+                        "value": "niro ev"
+                    }
+                ]
             },
             {
                 "text": "whats engine options are available for 2021 plug-in niro",
                 "intent": "list.trims.indicator",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 43,
                         "entity": "model year-future",
                         "start": 39,
@@ -620,7 +677,8 @@
             {
                 "text": "which is engine options are available for 2013 Stinger GT2 AWD",
                 "intent": "list.trims.indicator",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 46,
                         "entity": "model year-past",
                         "start": 42,
@@ -637,7 +695,8 @@
             {
                 "text": "engine on 2013 Soul EX",
                 "intent": "request.spec",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 14,
                         "entity": "model year-past",
                         "start": 10,
@@ -654,17 +713,20 @@
             {
                 "text": "any six seater car has blind spot accident warning system",
                 "intent": "list.models",
-                "entities": [{
-                    "end": 14,
-                    "entity": "seater",
-                    "start": 4,
-                    "value": "6 seater"
-                }]
+                "entities": [
+                    {
+                        "end": 14,
+                        "entity": "seater",
+                        "start": 4,
+                        "value": "6 seater"
+                    }
+                ]
             },
             {
                 "text": "any seven passenger sedans",
                 "intent": "list.models",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 19,
                         "entity": "seater",
                         "start": 4,
@@ -681,17 +743,20 @@
             {
                 "text": "any 6 seater vehicles",
                 "intent": "list.models",
-                "entities": [{
-                    "end": 12,
-                    "entity": "seater",
-                    "start": 4,
-                    "value": "6 seater"
-                }]
+                "entities": [
+                    {
+                        "end": 12,
+                        "entity": "seater",
+                        "start": 4,
+                        "value": "6 seater"
+                    }
+                ]
             },
             {
                 "text": "hi does Kia have usb connection in six seater and collision alert system",
                 "intent": "list.models",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 11,
                         "entity": "make",
                         "start": 8,
@@ -708,7 +773,8 @@
             {
                 "text": "i need to find 8 seater wagon",
                 "intent": "list.models",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 23,
                         "entity": "seater",
                         "start": 15,
@@ -725,67 +791,80 @@
             {
                 "text": "i want to look at the Soul GT-Line where can i go see it",
                 "intent": "inventory",
-                "entities": [{
-                    "end": 34,
-                    "entity": "model-trim",
-                    "start": 22,
-                    "value": "Soul GT-Line"
-                }]
+                "entities": [
+                    {
+                        "end": 34,
+                        "entity": "model-trim",
+                        "start": 22,
+                        "value": "Soul GT-Line"
+                    }
+                ]
             },
             {
                 "text": "i am looking for a hachback and i have a few questions",
                 "intent": "list.models.bodystyle",
-                "entities": [{
-                    "end": 27,
-                    "entity": "bodystyle",
-                    "start": 19,
-                    "value": "hatchback"
-                }]
+                "entities": [
+                    {
+                        "end": 27,
+                        "entity": "bodystyle",
+                        "start": 19,
+                        "value": "hatchback"
+                    }
+                ]
             },
             {
                 "text": "looking for a minivan",
                 "intent": "list.models.bodystyle",
-                "entities": [{
-                    "end": 21,
-                    "entity": "bodystyle",
-                    "start": 14,
-                    "value": "minivan"
-                }]
+                "entities": [
+                    {
+                        "end": 21,
+                        "entity": "bodystyle",
+                        "start": 14,
+                        "value": "minivan"
+                    }
+                ]
             },
             {
                 "text": "i need to find station wagon",
                 "intent": "list.models.bodystyle",
-                "entities": [{
-                    "end": 28,
-                    "entity": "bodystyle",
-                    "start": 15,
-                    "value": "wagon"
-                }]
+                "entities": [
+                    {
+                        "end": 28,
+                        "entity": "bodystyle",
+                        "start": 15,
+                        "value": "wagon"
+                    }
+                ]
             },
             {
                 "text": "im looking for crew cab from 12k to 12k",
                 "intent": "list.models.bodystyle",
-                "entities": [{
-                    "end": 23,
-                    "entity": "bodystyle",
-                    "start": 15,
-                    "value": "truck"
-                }]
+                "entities": [
+                    {
+                        "end": 23,
+                        "entity": "bodystyle",
+                        "start": 15,
+                        "value": "truck"
+                    }
+                ]
             },
             {
                 "text": "looking for a hatchback",
                 "intent": "list.models.bodystyle",
-                "entities": [{
-                    "end": 23,
-                    "entity": "bodystyle",
-                    "start": 14,
-                    "value": "hatchback"
-                }]
+                "entities": [
+                    {
+                        "end": 23,
+                        "entity": "bodystyle",
+                        "start": 14,
+                        "value": "hatchback"
+                    }
+                ]
             },
             {
                 "text": "does Kia make a station wagon",
                 "intent": "list.models.bodystyle",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 8,
                         "entity": "make",
                         "start": 5,
@@ -802,7 +881,8 @@
             {
                 "text": "does kias make a truck",
                 "intent": "list.models.bodystyle",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 9,
                         "entity": "make",
                         "start": 5,
@@ -819,7 +899,8 @@
             {
                 "text": "is collision assist included on all 2014 nitro plug in",
                 "intent": "list.trims.optional",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 40,
                         "entity": "model year-past",
                         "start": 36,
@@ -836,7 +917,8 @@
             {
                 "text": "do all 2020 Sedona EX have a/c vent in back seat",
                 "intent": "list.trims.optional",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 11,
                         "entity": "model year-current",
                         "start": 7,
@@ -853,7 +935,8 @@
             {
                 "text": "is sirius available on 2020 nitro plug in",
                 "intent": "list.trims.optional",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 27,
                         "entity": "model year-current",
                         "start": 23,
@@ -870,7 +953,8 @@
             {
                 "text": "im wondering can i get a accident alert system in a 2018 plug in nero",
                 "intent": "list.trims.optional",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 56,
                         "entity": "model year-past",
                         "start": 52,
@@ -887,7 +971,8 @@
             {
                 "text": "does the 2013 Telluride S AWD come with rear cross-traffic accident alarm",
                 "intent": "list.trims.optional",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 13,
                         "entity": "model year-past",
                         "start": 9,
@@ -910,7 +995,8 @@
             {
                 "text": "is automatic breaks included on all 2020 Sportage LX AWD",
                 "intent": "list.trims.optional",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 40,
                         "entity": "model year-current",
                         "start": 36,
@@ -927,7 +1013,8 @@
             {
                 "text": "i would like to know more about the 2015 nero plug in",
                 "intent": "list.trims",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 40,
                         "entity": "model year-past",
                         "start": 36,
@@ -944,7 +1031,8 @@
             {
                 "text": "is the electric vehicle nero a five seater",
                 "intent": "request.spec",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 28,
                         "entity": "model",
                         "start": 7,
@@ -961,7 +1049,8 @@
             {
                 "text": "how high off the ground is the 2011 forte",
                 "intent": "request.spec",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 35,
                         "entity": "model year-past",
                         "start": 31,
@@ -978,27 +1067,32 @@
             {
                 "text": "do you have any cross overs",
                 "intent": "list.models.bodystyle",
-                "entities": [{
-                    "end": 26,
-                    "entity": "bodystyle",
-                    "start": 16,
-                    "value": "crossover"
-                }]
+                "entities": [
+                    {
+                        "end": 26,
+                        "entity": "bodystyle",
+                        "start": 16,
+                        "value": "crossover"
+                    }
+                ]
             },
             {
                 "text": "i am interested in a phev 4 door",
                 "intent": "list.models.bodystyle",
-                "entities": [{
-                    "end": 32,
-                    "entity": "bodystyle",
-                    "start": 26,
-                    "value": "4 door"
-                }]
+                "entities": [
+                    {
+                        "end": 32,
+                        "entity": "bodystyle",
+                        "start": 26,
+                        "value": "4 door"
+                    }
+                ]
             },
             {
                 "text": "does Kia make a sports car",
                 "intent": "list.models.bodystyle",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 8,
                         "entity": "make",
                         "start": 5,
@@ -1015,17 +1109,20 @@
             {
                 "text": "where is a dealer near north Minnesota",
                 "intent": "find.dealers",
-                "entities": [{
-                    "end": 38,
-                    "entity": "US state",
-                    "start": 29,
-                    "value": "Minnesota"
-                }]
+                "entities": [
+                    {
+                        "end": 38,
+                        "entity": "US state",
+                        "start": 29,
+                        "value": "Minnesota"
+                    }
+                ]
             },
             {
                 "text": "would you be able to tell me the local inventory for the area surrounding zip 76621 that would offer the front stabalizer in the 2018 Stinger GTS RWD",
                 "intent": "inventory",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 83,
                         "entity": "zipcode",
                         "start": 78,
@@ -1054,7 +1151,8 @@
             {
                 "text": "can i get the credenza in orange",
                 "intent": "request.spec.colors",
-                "entities": [{
+                "entities": [
+                    {
                         "end": 22,
                         "entity": "model",
                         "start": 14,
@@ -1067,6 +1165,106 @@
                         "value": "orange"
                     }
                 ]
+            },
+            {
+                "text": "I want to see more photos",
+                "intent": "request.images",
+                "entities": []
+            },
+            {
+                "text": "Do you have more photos of the car",
+                "intent": "request.images",
+                "entities": []
+            },
+            {
+                "text": "Can I see more images",
+                "intent": "request.images",
+                "entities": []
+            },
+            {
+                "text": "Are there more photos I can see",
+                "intent": "request.images",
+                "entities": []
+            },
+            {
+                "text": "Where can I find additional photos",
+                "intent": "request.images",
+                "entities": []
+            },
+            {
+                "text": "Does the website have more photos",
+                "intent": "request.images",
+                "entities": []
+            },
+            {
+                "text": "Do you have a link to see more photos of the car",
+                "intent": "request.images",
+                "entities": []
+            },
+            {
+                "text": "What does the car look like",
+                "intent": "request.images",
+                "entities": []
+            },
+            {
+                "text": "Can you show me the car",
+                "intent": "request.images",
+                "entities": []
+            },
+            {
+                "text": "I need to see the car before I choose",
+                "intent": "request.images",
+                "entities": []
+            },
+            {
+                "text": "My car needs service",
+                "intent": "request.service",
+                "entities": []
+            },
+            {
+                "text": "My Kia is due for maintenance",
+                "intent": "request.service",
+                "entities": []
+            },
+            {
+                "text": "I need to service my car",
+                "intent": "request.service",
+                "entities": []
+            },
+            {
+                "text": "Where can I service my car",
+                "intent": "request.service",
+                "entities": []
+            },
+            {
+                "text": "I need to bring my Kia in for maintenance",
+                "intent": "request.service",
+                "entities": []
+            },
+            {
+                "text": "How do I get my car serviced",
+                "intent": "request.service",
+                "entities": []
+            },
+            {
+                "text": "It says Im past due on maintenance",
+                "intent": "request.service",
+                "entities": []
+            },
+            {
+                "text": "Where can I find a place to service my car",
+                "intent": "request.service",
+                "entities": []
+            },
+            {
+                "text": "What is the closest place for car maintenance",
+                "intent": "request.service",
+                "entities": []
+            },
+            {
+                "text": "How often do I need to get my car serviced",
+                "intent": "request.service",
+                "entities": []
             }
         ]
     }

@@ -1,4 +1,4 @@
-import ../common.chatito
+import ../../common.chatito
 //all compare categories should support comparisons by spec and spec categories
 
 %[compare.models]('training': '250', 'distribution': 'even')

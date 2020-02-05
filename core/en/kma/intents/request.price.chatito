@@ -1,4 +1,4 @@
-import ../common.chatito
+import ../../common.chatito
 import ../entities/specs.price.chatito
 import ../entities/attributes.chatito
 
@@ -12,28 +12,28 @@ import ../entities/attributes.chatito
     @[specs.price] ~[for-of] ~[model]
     @[specs.price] ~[for-of] ~[a-an-the] ~[model]
     @[specs.price]
-    what is the @[specs.price] of ~[model]
+    what is the @[specs.price] ~[for-of] ~[model]
     what is the @[specs.price] ~[for-in-of-on] ~[a-an-the] ~[model]
     ~[pre-empt model] how much is it
     ~[pre-empt model] how much would it be
-    what is the price of the ~[model]
-    ~[declaritive] in the ~[model], what is the @[specs.price]?
+    what is the price ~[for-of] the ~[model]
+    ~[declaritive] in the ~[model], what is the @[specs.price]
     ~[quantify-price] ~[model]
     @[specs.price] for ~[model]
     ~[what-which] @[specs.price] for the ~[model]
     ~[what-which] @[specs.price]
     ~[model] @[specs.price]
-    what is the @[specs.price] ~[a-an-the?] @[model]
-    what is the @[specs.price] for ~[a-an-the?] @[specs.fuelType] @[model]
-    what is the @[specs.price] for ~[a-an-the?] new @[model]
+    what is the @[specs.price] ~[for-of] ~[a-an-the?] @[model]
+    what is the @[specs.price] ~[for-of] ~[a-an-the?] @[specs.fuelType] @[model]
+    what is the @[specs.price] ~[for-of] ~[a-an-the?] new @[model]
     what is the @[specs.price] ~[driven-wheel] ~[car]
 
 %[request.price#lowest]('training': '200', 'distribution': 'even')
-    what is the ~[base price] of @[model]
+    what is the ~[base price] ~[for-of] @[model]
     what is the cheapest ~[model]
-    what is the @[specs.price] for the ~[base trim]
-    ~[base price] for @[model]
-    ~[base price] for ~[model]
+    what is the @[specs.price] ~[for-of] the ~[base trim]
+    ~[base price] ~[for-of] @[model]
+    ~[base price] ~[for-of] ~[model]
     ~[how much] ~[base trim] @[model]
     ~[quantify] ~[base trim] @[model]
     ~[pre-empt model] what is the ~[base price]

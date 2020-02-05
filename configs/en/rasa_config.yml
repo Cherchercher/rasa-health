@@ -1,4 +1,10 @@
 language: en
+
+importers:
+  - name: MultiProjectImporter
+imports:
+  - core/en/kma
+  - core/en/kmi
 pipeline:
 - name: tokenizer_whitespace
 - name: intent_entity_featurizer_regex
