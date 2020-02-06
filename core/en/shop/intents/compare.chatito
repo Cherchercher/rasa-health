@@ -1,4 +1,17 @@
 import ../../common.chatito
+import ../entities/attributes.chatito
+import ../entities/specs.cargo.chatito
+import ../entities/specs.drivetrain.chatito
+import ../entities/specs.exterior.chatito
+import ../entities/specs.fuelconsumption.chatito
+import ../entities/specs.infotainment.chatito
+import ../entities/specs.interior.chatito
+import ../entities/specs.lights.chatito
+import ../entities/specs.price.chatito
+import ../entities/specs.safety.chatito
+import ../entities/specs.seating.chatito
+import ../entities/specs.steeringwheel.chatito
+import ../entities/specs.wheels.chatito
 //all compare categories should support comparisons by spec and spec categories
 
 %[compare.models]('training': '250', 'distribution': 'even')

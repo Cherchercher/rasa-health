@@ -1,0 +1,245 @@
+import ../../common.chatito
+
+%[order.general]('training': '200', 'distribution': 'even')
+    booking
+    order online
+    online ~[order]
+    ~[preorder]
+    i want to ~[preorder] ~[model]
+    ~[order] ~[model]
+    ~[order] online
+    ~[order] ~[model] online
+    can i ~[order] ~[model] ~[online?]
+    when can i ~[order] ~[the?] ~[model]
+    how can i ~[order] ~[the?] ~[model]
+    from when can i ~[order] ~[the?] ~[model]
+    i want to ~[order] ~[model]
+    ~[greeting?] i want to ~[order] ~[model] ~[online?]
+    how can i ~[order] a car
+    how can i ~[preorder]
+    how to ~[order] ~[online?]
+    how to ~[order] ~[model] ~[online?]
+    ~[until] when is ~[ordering]
+    ~[until] when you are doing ~[ordering] for ~[model]
+    when will it be available for ~[ordering]
+    when will ~[model] be available for ~[ordering]
+    when ~[model] ~[ordering=] be open
+    when will ~[model] ~[ordering] start
+    when can i ~[preorder] ~[model]
+
+%[order.status]('training': '200', 'distribution': 'even')
+    ~[order] status
+    ~[my order]
+    ~[my order] status
+    ~[my order] status
+    status of ~[my order]
+    ~[what] the status of ~[my order]
+    checking on the status of ~[my order]
+    can you tell me the status of ~[my order]
+    where can i see the status of ~[my order]
+    i have a question about the status of ~[my order]
+    can you give me the status of ~[my order]
+    how can i check the status of ~[my order]
+    this is ~[my order] id
+    i have a question about ~[my order]
+    ~[order] confirmation
+    booking id ~[*booking id*]
+    can i check ~[my order] status
+    can you please check ~[my order] status
+    can you tell me the ~[order] status with my booking id ~[*booking id*]
+    could you please update ~[my order] status booking id ~[*booking id*]
+    give me ~[my order] status
+    get an update on ~[my order]
+    how can i track ~[my order]
+    how can i check status of ~[model] ~[ordered] from the dealer
+    how to find ~[my order] status
+    how to track ~[my order]
+    ~[already ordered] when i will get the car
+    i booked car at ~[IN-place] please deliver
+    ~[already ordered] i want to know that when will i get it
+    ~[already ordered] ~[model] want to know ~[order] status
+    ~[already ordered] my car in ~[*month*] when can i expect delivery
+    ~[already ordered] ~[model] can i track the order online
+    ~[already ordered] how do i check ~[my order] status
+    ~[already ordered] ~[model] what is status
+    ~[already ordered] ~[a-an-the] ~[model] please let mw know the status
+    ~[already ordered] when it will be delivered
+    status of my ~[my order] ~[*booking id*]
+    tell me more about ~[my order] status
+    track down ~[ordered] seltos
+    want ~[my order] status
+    want to check ~[my order] delivery date
+    want to know about ~[my order]
+    want to know status of ~[my order]
+    what about ~[my order] of ~[model]
+    ~[what] ~[my order] status
+    ~[what] the status of ~[my order] booking id is ~[*booking id*]
+    ~[what] the status of ~[my order]
+    ~[what] the status of the booking ~[*booking id*]
+    when i get information about ~[my order]
+
+%[order.cancel]('training': '200', 'distribution': 'even')
+    i want to cancel ~[my order]
+    i need to cancel ~[my order]
+    ~[order] cancellation
+    cancel ~[order]
+    cancel ~[my order]
+    how do i cancel ~[my order]
+    do i get a refund of booking amount if i cancel my booking
+    how can i initiate refund of ~[my order]
+    how to cancel ~[order]
+    how to cancel ~[model] ~[order]
+    how to cancel my ~[order] ~[model]
+    how to cancel onlne ~[order]
+    how to cancel the ~[order]
+    what is procedure to cancel ~[order]
+    what will be the cancellation charges on ~[order]
+
+%[order.change]('training': '100', 'distribution': 'even')
+    change ~[my order]
+    make changes to ~[my order]
+    make changes to ~[my order] ~[after] ~[ordering]
+    ~[x change] change ~[*change*] ~[after] ~[ordering]
+    ~[x change] change ~[*change*] ~[after] ~[ordering] online
+    ~[x change] change ~[*change*] ~[after] online ~[ordering]
+    ~[x change] change ~[*change*] of online ~[order]
+    ~[x change] change the ~[*change*] of my ~[ordered] ~[model]
+    ~[x change] change ~[*change*] for my ~[ordered] ~[model]
+    ~[x change] change ~[*change*] in online booking
+    ~[x change] change the ~[*change*] of my booking
+
+//want to know the lead time on orders prior to booking... this is closer to an FAQ than status of orders already placed
+%[order.leadTime]('training': '100', 'distribution': 'even')
+    ~[preorder] ~[wait time]
+    ~[wait time] after ~[ordering]
+    after ~[ordering] how many days are required for delivery
+    after ~[ordering] how much time it will take for delivery
+    ~[how long] will take after ~[ordering] the car
+    ~[how long] will take for delivery of ~[model] after ~[ordering]
+    ~[how long] will take to deliver the car after ~[ordering]
+    ~[how long] to delivery after ~[ordering]
+    ~[how long] required for prebook to be delivered
+    ~[how long] it will take for delivery if i will book 
+    ~[how long] would it take for the same once i book for it
+    ~[how long] you will take to deliver my ~[model] if i book ~[x time]
+    ~[wait time] if ~[order] today
+    what is the ~[wait time] after ~[ordering] ~[model]
+    what will be average ~[wait time] if i ~[order] in ~[IN-place]
+    whats the delivery time once the ~[order] is made
+    whats time frame for the delivery after ~[ordering] done
+    when i can get ~[model] after ~[ordering] it
+    when i will get delivery of my ~[ordered] ~[model]
+    would like to know ~[how long] would it take to deliver the ~[model] if i book ~[x time]
+
+//to order
+~[order]
+    order
+    order
+    book
+    booking
+    ~[preorder]
+
+//my order
+~[my order]
+    my order
+    my booking
+    booking
+
+~[preorder]
+    preorder
+    pre order
+    prebook
+    pre book
+    prebooking
+
+~[ordering]
+    ordering
+    booking
+    prebooking
+    preordering
+    pre booking
+    pre ordering
+
+~[ordered]
+    ordered
+    booked
+    preordered
+    prebooked
+    pre ordered
+    pre booked
+
+~[until]
+    until
+    til
+    till
+
+//these are things users want to change after they booked
+~[*change*]
+    trim
+    color
+    colour
+    trim line
+    teim level
+    version
+    variant
+    dealer
+    delivery location
+    delivery
+    location
+
+//pre-empt "change"
+~[x change]
+    how to
+    how can i
+    how do i
+    can i
+    want to
+    need to
+    where can i
+    i want to
+    i need to
+
+~[after]
+    after
+    after i have
+    after i
+    after i have already
+    if i have already
+    if i already
+    once i have
+
+~[wait time]
+    wait time
+    waiting time
+    waiting period
+
+~[how long]
+    how long
+    how many days
+    how much time
+
+//if i order today/this week/now
+~[x time]
+    today
+    tomorrow
+    this week
+    this month
+    next week
+    now
+
+~[*booking id*]
+    b0174
+    b0209
+    b0351
+    b0564
+    b0893
+    pcsel261219
+
+~[already ordered]
+    i have ~[ordered]
+    i have already ~[orderd]
+    i already ~[ordred]
+    i ~[ordered]
+    i ~[ordered] already
+    i ~[ordered] at
+    i ~[ordered] in
