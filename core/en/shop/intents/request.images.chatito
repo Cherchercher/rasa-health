@@ -1,6 +1,6 @@
 import ../../common.chatito
 
-%[request.images]('training': '200', 'distribution': 'even')
+%[request.images]('training': '250', 'distribution': 'even')
     ~[request-images]
     ~[request-images] ~[for-the] ~[model-car]
     ~[request-images] ~[for-the] ~[model-car]
@@ -12,6 +12,7 @@ import ../../common.chatito
     i need to see the car before i choose
     i need to see ~[the?] ~[model-car]
     can you show me ~[the?] ~[model-car]
+    ~[model-car] ~[photos]
 
 ~[model-car]
     ~[car/s]
