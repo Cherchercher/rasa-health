@@ -1,0 +1,52 @@
+import ../../common.chatito
+
+%[request.quote]('training': '250', 'distribution': 'even')
+    get ~[a quote]
+    request ~[a quote]
+    ~[a quote] for ~[a-an-the?] ~[model]
+    ~[greeting?] can i get ~[a quote] ~[for-on?] ~[model]
+    ~[model] ~[a quote]
+    get ~[a quote] ~[for-on?] ~[model]
+    ~[greeting?] i would like ~[a quote] ~[for-on?] ~[model?]
+    ~[greeting?] i am interested in getting ~[a quote] ~[for-on?] ~[model?]
+    ~[a quote] ~[for-of?] ~[model]
+    ~[greeting?] on road price in ~[location-india]]
+    ~[greeting?] i want to know the on road price ~[for-on?] ~[model?] ~[in?] ~[location-india]
+    ~[greeting?] i am interested in getting ~[a quote] ~[for-on?] ~[model?]
+    ~[what] the on road price ~[for-on?] ~[model?] 
+    ~[greeting?] can i get a ~[a quote]
+    give me your best quote
+    could you please give me ~[a quote]
+    just want ~[a quote] with my options
+    need to quote ~[model]
+    need ~[a quote] for ~[a-an-the?] ~[model]
+    ~[greeting?] would you be able to give me ~[a quote]
+    ~[greeting?] ~[i am] interested in getting ~[a quote] ~[for?] ~[model]
+    i know what i would like and i would like to get ~[a quote]
+    i want quotes for ~[model]
+    i was just trying to get a quote on the ~[model]
+    need ~[a quote] ~[for-on?] ~[model?]
+    need to quote ~[the?] ~[model?]
+
+//locations in India
+~[quote]
+    quote
+    price quote
+    on road price
+
+~[a quote]
+    a quote
+    a price quote
+    the on road price
+
+~[location-india]
+    allahabad
+    bangalore
+    bihar
+    coimbatore
+    jaipur
+    noida
+
+~[preempt-quote]
+    i was just trying to
+    i would like a

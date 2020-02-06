@@ -2,7 +2,6 @@ import ../../common.chatito
 import ../entities/locations.chatito
 
 %[find.dealers]('training': '100', 'distribution': 'even')
-    i need a dealer in ~[relative location] to test drive the ~[model]
     do you have a dealer in ~[relative location]
     where is the nearest @[make] dealership
     can you send me my nearest dealer

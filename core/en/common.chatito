@@ -26,6 +26,11 @@ import ./shop/entities/color.chatito
     trims
     vehicles
 
+~[the car]
+    the car
+    the car
+    it
+
 ~[car/s]
     ~[car]
     ~[cars]
@@ -119,6 +124,10 @@ import ./shop/entities/color.chatito
 ~[for-of]
     for
     of
+
+~[for-on]
+    for
+    on
 
 ~[for-in-of-on]
     ~[in-on]

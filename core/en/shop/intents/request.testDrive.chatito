@@ -23,10 +23,23 @@ import ../../common.chatito
     how can ~[schedule] ~[test drive]
     where can i ~[schedule] ~[test drive]
     where can i test drive in ~[relative location]
+    i need a dealer in ~[relative location] to test drive the ~[model]
+    I would like to drive the car before purchasing
+    where is the closest dealer so i can ~[drive] ~[the car]
+    i ~[want/need] see ~[the car] before i choose
+    i ~[want/need] ~[the car] before i buy it
+    i would like to schedule ~[test drive] do you have any in stock at my nearest dealer
+    i want to ~[drive] it first
 
 ~[test drive]
     test drive
     a test drive
+
+~[drive]
+    drive
+    drive
+    drive
+    see
 
 ~[want/need]
     want
@@ -34,6 +47,7 @@ import ../../common.chatito
     need
     need to
     wanna
+    would like to
 
 ~[schedule]
     schedule

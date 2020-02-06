@@ -10,10 +10,6 @@ import ../entities/specs.chatito
     what ~[optional-specs] ~[safety-specs] do in a ~[model]
     what do you mean by ~[specs]
 
-~[the car]
-    the car
-    it
-
 ~[do some function]
     stop on its own
     stop the vehicle
