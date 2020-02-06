@@ -1662,6 +1662,118 @@
                 "text": "How often do I need to get my car serviced",
                 "intent": "request.service",
                 "entities": []
+              },
+              {
+                "text": "get a quote",
+                "intent": "request.quote",
+                "entities": []
+              },
+              {
+                "text": "request a quote",
+                "intent": "request.quote",
+                "entities": []
+              },
+              {
+                "text": "can i get a quote for telluride",
+                "intent": "request.quote",
+                "entities": [
+                  {
+                    "start": 22,
+                    "end": 31,
+                    "value": "telluride",
+                    "entity": "model-trim"
+                  }
+                ]
+              },
+              {
+                "text": "can i get a quote",
+                "intent": "request.quote",
+                "entities": []
+              },
+              {
+                "text": "could you please give me a quote",
+                "intent": "request.quote",
+                "entities": []
+              },
+              {
+                "text": "need quote on seltos",
+                "intent": "request.quote",
+                "entities": [
+                  {
+                    "start": 14,
+                    "end": 20,
+                    "value": "seltos",
+                    "entity": "model-trim"
+                  }
+                ]
+              },
+              {
+                "text": "need to get quote for telluride",
+                "intent": "request.quote",
+                "entities": [
+                  {
+                    "start": 22,
+                    "end": 31,
+                    "value": "telluride",
+                    "entity": "model-trim"
+                  }
+                ]
+              },
+              {
+                "text": "what is the on road price",
+                "intent": "request.quote",
+                "entities": []
+              },
+              {
+                "text": "optima on road price",
+                "intent": "request.quote",
+                "entities": []
+              },
+              {
+                "text": "can i get the on road price",
+                "intent": "request.quote",
+                "entities": []
+              },
+              {
+                "text": "kia seltos on road price",
+                "intent": "request.quote",
+                "entities": [
+                  {
+                    "start": 0,
+                    "end": 3,
+                    "value": "kia",
+                    "entity": "make"
+                  },
+                  {
+                    "start": 4,
+                    "end": 10,
+                    "value": "seltos",
+                    "entity": "model-trim"
+                  }
+                ]
+              },
+              {
+                "text": "on road price of kia carnival",
+                "intent": "request.quote",
+                "entities": [
+                  {
+                    "start": 17,
+                    "end": 20,
+                    "value": "kia",
+                    "entity": "make"
+                  },
+                  {
+                    "start": 21,
+                    "end": 29,
+                    "value": "carnival",
+                    "entity": "model-trim"
+                  }
+                ]
+             },
+             {
+                "text": "on road price",
+                "intent": "request.quote",
+                "entities": []
             },
             {
                 "text": "sedona images",
