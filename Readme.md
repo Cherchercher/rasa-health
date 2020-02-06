@@ -8,9 +8,6 @@ Currently it supports training in Chinese, English and German. We are expanding 
 `python setup.py install`
 
 
-
-
-
 ### Chinese NLP
 
 ### Usage:
