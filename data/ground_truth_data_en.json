@@ -1769,12 +1769,12 @@
                     "entity": "model-trim"
                   }
                 ]
-              },
-              {
+             },
+             {
                 "text": "on road price",
                 "intent": "request.quote",
                 "entities": []
-              },
+            },
             {
                 "text": "sedona images",
                 "intent": "request.images",
