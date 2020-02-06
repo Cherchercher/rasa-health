@@ -1282,9 +1282,28 @@
                 "entities": []
               },
               {
+                "text": "how many time to delivery after booking seltos htx mt",
+                "intent": "order.leadTime",
+                "entities": [
+                  {
+                    "start": 40,
+                    "end": 50,
+                    "value": "seltos htx",
+                    "entity": "model-trim"
+                  }
+                ]
+              },
+              {
                 "text": "how much time you will take to deliver my seltos htx if i book now",
                 "intent": "order.leadTime",
-                "entities": []
+                "entities": [
+                  {
+                    "start": 42,
+                    "end": 52,
+                    "value": "seltos htx",
+                    "entity": "model-trim"
+                  }
+                ]
               },
               {
                 "text": "waiting time after booking",
@@ -1294,7 +1313,14 @@
               {
                 "text": "what is the waiting time after booking kia seltos",
                 "intent": "order.leadTime",
-                "entities": []
+                "entities": [
+                  {
+                    "start": 43,
+                    "end": 49,
+                    "value": "seltos",
+                    "entity": "model"
+                  }
+                ]
               },
               {
                 "text": "what will be average waiting period if i now",
@@ -1324,7 +1350,14 @@
               {
                 "text": "hi want change the dealer of my pre booked seltos",
                 "intent": "order.change",
-                "entities": []
+                "entities": [
+                  {
+                    "start": 43,
+                    "end": 49,
+                    "value": "seltos",
+                    "entity": "model"
+                  }
+                ]
               },
               {
                 "text": "can i make changes to my car after i ordered",
@@ -1429,12 +1462,26 @@
               {
                 "text": "already booked when will i get my seltos",
                 "intent": "order.status",
-                "entities": []
+                "entities": [
+                  {
+                    "start": 34,
+                    "end": 40,
+                    "value": "seltos",
+                    "entity": "model"
+                  }
+                ]
               },
               {
                 "text": "i want to preorder the seltos",
                 "intent": "order.general",
-                "entities": []
+                "entities": [
+                  {
+                    "start": 23,
+                    "end": 29,
+                    "value": "seltos",
+                    "entity": "model"
+                  }
+                ]
               },
               {
                 "text": "book online",
@@ -1444,12 +1491,26 @@
               {
                 "text": "how can i prebook the carnival",
                 "intent": "order.general",
-                "entities": []
+                "entities": [
+                  {
+                    "start": 22,
+                    "end": 30,
+                    "value": "carnival",
+                    "entity": "model"
+                  }
+                ]
               },
               {
                 "text": "when can i prebook the seltos",
                 "intent": "order.general",
-                "entities": []
+                "entities": [
+                  {
+                    "start": 23,
+                    "end": 29,
+                    "value": "seltos",
+                    "entity": "model"
+                  }
+                ]
               },
               {
                 "text": "i want to book the seltos online",
@@ -1464,7 +1525,14 @@
               {
                 "text": "i want to prebook a seltos online",
                 "intent": "order.general",
-                "entities": []
+                "entities": [
+                  {
+                    "start": 20,
+                    "end": 26,
+                    "value": "seltos",
+                    "entity": "model"
+                  }
+                ]
               },
               {
                 "text": "when will the telluride be available for prebooking",
@@ -1474,11 +1542,125 @@
               {
                 "text": "how do i pre book a seltos",
                 "intent": "order.general",
-                "entities": []
+                "entities": [
+                  {
+                    "start": 20,
+                    "end": 26,
+                    "value": "seltos",
+                    "entity": "model"
+                  }
+                ]
               },
               {
                 "text": "can i preorder the seltos gtx",
                 "intent": "order.general",
+                "entities": [
+                  {
+                    "start": 19,
+                    "end": 29,
+                    "value": "seltos gtx",
+                    "entity": "model-trim"
+                  }
+                ]
+              },
+              {
+                "text": "I want to see more photos",
+                "intent": "request.images",
+                "entities": []
+              },
+              {
+                "text": "Do you have more photos of the car",
+                "intent": "request.images",
+                "entities": []
+              },
+              {
+                "text": "Can I see more images",
+                "intent": "request.images",
+                "entities": []
+              },
+              {
+                "text": "Are there more photos I can see",
+                "intent": "request.images",
+                "entities": []
+              },
+              {
+                "text": "Where can I find additional photos",
+                "intent": "request.images",
+                "entities": []
+              },
+              {
+                "text": "Does the website have more photos",
+                "intent": "request.images",
+                "entities": []
+              },
+              {
+                "text": "Do you have a link to see more photos of the car",
+                "intent": "request.images",
+                "entities": []
+              },
+              {
+                "text": "What does the car look like",
+                "intent": "request.images",
+                "entities": []
+              },
+              {
+                "text": "Can you show me the car",
+                "intent": "request.images",
+                "entities": []
+              },
+              {
+                "text": "I need to see the car before I choose",
+                "intent": "request.images",
+                "entities": []
+              },
+              {
+                "text": "My car needs service",
+                "intent": "request.service",
+                "entities": []
+              },
+              {
+                "text": "My Kia is due for maintenance",
+                "intent": "request.service",
+                "entities": []
+              },
+              {
+                "text": "I need to service my car",
+                "intent": "request.service",
+                "entities": []
+              },
+              {
+                "text": "Where can I service my car",
+                "intent": "request.service",
+                "entities": []
+              },
+              {
+                "text": "I need to bring my Kia in for maintenance",
+                "intent": "request.service",
+                "entities": []
+              },
+              {
+                "text": "How do I get my car serviced",
+                "intent": "request.service",
+                "entities": []
+              },
+              {
+                "text": "It says Im past due on maintenance",
+                "intent": "request.service",
+                "entities": []
+              },
+              {
+                "text": "Where can I find a place to service my car",
+                "intent": "request.service",
+                "entities": []
+              },
+              {
+                "text": "What is the closest place for car maintenance",
+                "intent": "request.service",
+                "entities": []
+              },
+              {
+                "text": "How often do I need to get my car serviced",
+                "intent": "request.service",
                 "entities": []
               }
         ]
