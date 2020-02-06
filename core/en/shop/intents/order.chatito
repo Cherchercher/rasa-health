@@ -43,11 +43,11 @@ import ../../common.chatito
     this is ~[my order] id
     i have a question about ~[my order]
     ~[order] confirmation
-    booking id ~[*booking id*]
+    booking id ~[booking id]
     can i check ~[my order] status
     can you please check ~[my order] status
-    can you tell me the ~[order] status with my booking id ~[*booking id*]
-    could you please update ~[my order] status booking id ~[*booking id*]
+    can you tell me the ~[order] status with my booking id ~[booking id]
+    could you please update ~[my order] status booking id ~[booking id]
     give me ~[my order] status
     get an update on ~[my order]
     how can i track ~[my order]
@@ -58,13 +58,13 @@ import ../../common.chatito
     i booked car at ~[IN-place] please deliver
     ~[already ordered] i want to know that when will i get it
     ~[already ordered] ~[model] want to know ~[order] status
-    ~[already ordered] my car in ~[*month*] when can i expect delivery
+    ~[already ordered] my car in ~[month] when can i expect delivery
     ~[already ordered] ~[model] can i track the order online
     ~[already ordered] how do i check ~[my order] status
     ~[already ordered] ~[model] what is status
     ~[already ordered] ~[a-an-the] ~[model] please let mw know the status
     ~[already ordered] when it will be delivered
-    status of my ~[my order] ~[*booking id*]
+    status of my ~[my order] ~[booking id]
     tell me more about ~[my order] status
     track down ~[ordered] seltos
     want ~[my order] status
@@ -73,9 +73,9 @@ import ../../common.chatito
     want to know status of ~[my order]
     what about ~[my order] of ~[model]
     ~[what] ~[my order] status
-    ~[what] the status of ~[my order] booking id is ~[*booking id*]
+    ~[what] the status of ~[my order] booking id is ~[booking id]
     ~[what] the status of ~[my order]
-    ~[what] the status of the booking ~[*booking id*]
+    ~[what] the status of the booking ~[booking id]
     when i get information about ~[my order]
 
 %[order.cancel]('training': '200', 'distribution': 'even')
@@ -227,7 +227,8 @@ import ../../common.chatito
     next week
     now
 
-~[*booking id*]
+//actual booking ids from verbatims -- this will likely need to be a regex slot at some point, but will need business requirements first
+~[booking id]
     b0174
     b0209
     b0351

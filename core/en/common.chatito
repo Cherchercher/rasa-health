@@ -178,7 +178,7 @@ import ./shop/entities/color.chatito
     takes
     take
 
-~[*month*]
+~[month]
     january
     february
     march
