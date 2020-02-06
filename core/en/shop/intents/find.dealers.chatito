@@ -10,7 +10,6 @@ import ../entities/locations.chatito
     want to find nearest dealer to me
     where can i find a dealership
     dealer in ~[relative location]
-    where can i test drive in ~[relative location]
     nearest @[make] dealership
     dealers near me
     is there a @[make] dealership in ~[relative location]

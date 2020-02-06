@@ -8,9 +8,6 @@ Currently it supports training in Chinese, English and German. We are expanding 
 `python setup.py install`
 
 
-
-
-
 ### Chinese NLP
 
 ### Usage:
@@ -55,7 +52,9 @@ Train the model `rasa train nlu --config configs/en/rasa_config.yml --nlu ./core
 
 Add proposed phrases with their corresponding intents and entities under `data/ground_truth_data_en.json`
 
-Test the model at the root of project directory `sh ./tests/en/test.sh`. Wrong classifications are listed in `result/intent_errors.json`
+Cross validate the model at the root of project directory `sh ./tests/en/test.sh`. Model evaluation results are listed in `result/intent_errors.json`
+
+Test the model at the root of project directory `sh ./tests/en/test-ground_truth.sh`. Wrong classifications are listed in `result/intent_errors.json`
 
 ### Enlish NLU Notes
 
