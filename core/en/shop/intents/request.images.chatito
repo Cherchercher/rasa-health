@@ -4,19 +4,18 @@ import ../../common.chatito
     ~[request-images]
     ~[request-images] ~[for-the] ~[model-car]
     ~[request-images] ~[for-the] ~[model-car]
-    are there ~[more?] ~[photos] I can see
+    are there ~[more?] ~[photos] i can see
     where can i find ~[more] ~[photos]
     does the website have ~[more] ~[photos]
     do you have a link to see ~[more] ~[photos] ~[for-the] ~[model-car]
     what does the ~[model-car] look like
-    i need to see the car before i choose
-    i need to see ~[the?] ~[model-car]
     can you show me ~[the?] ~[model-car]
     ~[model-car] ~[photos]
 
 ~[model-car]
-    ~[car/s]
-    @[make] ~[model]
+    *[5%] ~[car/cars]
+    *[5%] @[make] ~[model]
+    *[90%] ~[model]
 
 ~[for-the]
     ~[for-of] ~[the?]
@@ -32,10 +31,11 @@ import ../../common.chatito
     photo
 
 ~[request-images]
-    i want to see ~[more] ~[photos]
-    do you have ~[more] ~[photos]
-    can i see ~[more] ~[photos]
-    ~[more] ~[photos]
+    i want to see ~[more?] ~[photos]
+    do you have ~[more?] ~[photos]
+    can i see ~[more?] ~[photos]
+    i need to see ~[more?] ~[photos]
+    ~[more?] ~[photos]
 
 ~[do you have]
     does the website have
