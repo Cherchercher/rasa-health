@@ -1,4 +1,5 @@
 import ../../common.chatito
+import ../entities/locations.chatito
 
 %[request.testDrive]('training': '200', 'distribution': 'even')
     ~[test drive]
@@ -30,10 +31,15 @@ import ../../common.chatito
     i ~[want/need] ~[the car] before i buy it
     i would like to schedule ~[test drive] do you have any in stock at my nearest dealer
     i want to ~[drive] it first
+    i want to ~[test drive] ~[the?] ~[model]
+    i was thinking about test driving the ~[model]
+    i really want to try driving the optima are there any available at the dealer ~[in-near] @[area]
+    do i need to make an appointment to ~[test drive] ~[the?] ~[model?]
 
 ~[test drive]
     test drive
     a test drive
+    testdrive
 
 ~[drive]
     drive

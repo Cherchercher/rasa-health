@@ -17,7 +17,7 @@ import ../entities/attributes.chatito
     ~[pre-empt model] how much is it
     ~[pre-empt model] how much would it be
     what is the price ~[for-of] the ~[model]
-    ~[declaritive] in the ~[model], what is the @[specs.price]
+    ~[general pre-empt] in the ~[model], what is the @[specs.price]
     ~[quantify-price] ~[model]
     @[specs.price] for ~[model]
     ~[what-which] @[specs.price] for the ~[model]
