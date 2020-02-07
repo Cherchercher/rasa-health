@@ -58,21 +58,26 @@ Test the model at the root of project directory `sh ./tests/en/test-ground_truth
 
 ### Enlish NLU Notes
 
-Intents
-    shop
-        -availablity
-        -compare
-        -find.dealers
-        -inventory
-        -list.models
-        -list.trims
-        -request.price
-        -request.spec
-        -whatis.spec
-        -request.testDrive
-        -request.images
-        -order
-    owner
-        -request.service
+
+- Intents
+    - Owner
+        - request.service
+    - Shop
+        - availablity
+        - compare
+        - find.dealers
+        - inventory
+        - list.models
+        - list.trims
+        - request.price
+        - request.spec
+        - whatis.spec
+        - request.testDrive
+        - request.images
+        - order.general
+        - order.status
+        - order.cancel
+        - order.change
+        - order.leadTime
 
 ### notes on specs
