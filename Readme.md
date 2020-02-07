@@ -52,9 +52,9 @@ Train the model `rasa train nlu --config configs/en/rasa_config.yml --nlu ./core
 
 Add proposed phrases with their corresponding intents and entities under `data/ground_truth_data_en.json`
 
-Cross validate the model at the root of project directory `sh ./tests/en/test.sh`. Model evaluation results are listed in `result/intent_errors.json`
+Cross validate the model at the root of project directory `sh ./tests/en/test.sh`. Model evaluation results are in `results`
 
-Test the model at the root of project directory `sh ./tests/en/test-ground_truth.sh`. Wrong classifications are listed in `result/intent_errors.json`
+Test the model with actual messages at the root of project directory `sh ./tests/en/test-ground_truth.sh`. Wrong intent classifications are listed in `results/intent_errors.json`. Wrong entity classifications are listed in `results/CRFEntityExtractor_errors.json`
 
 ### Enlish NLU Notes
 
