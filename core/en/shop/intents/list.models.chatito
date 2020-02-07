@@ -1,17 +1,6 @@
 import ../entities/attributes.chatito
 import ../../common.chatito
-import ../entities/specs.cargo.chatito
-import ../entities/specs.drivetrain.chatito
-import ../entities/specs.exterior.chatito
-import ../entities/specs.fuelconsumption.chatito
-import ../entities/specs.infotainment.chatito
-import ../entities/specs.interior.chatito
-import ../entities/specs.lights.chatito
-import ../entities/specs.price.chatito
-import ../entities/specs.safety.chatito
-import ../entities/specs.seating.chatito
-import ../entities/specs.steeringwheel.chatito
-import ../entities/specs.wheels.chatito
+import ../entities/specs.chatito
 
 //seeks [models Y] with [specified entity value X]
 %[list.models]('training': '200', 'distribution': 'even')
@@ -19,7 +8,7 @@ import ../entities/specs.wheels.chatito
     i want to buy ~[a/the] ~[car/s]
     ~[what-which] ~[model-type] ~[has] ~[optional-specs]
     ~[what-which] ~[model-type?] ~[has] ~[optional-specs]
-    ~[declaritive] ~[modifier-spec] what does ~[model-type] have
+    ~[general pre-empt] ~[modifier-spec] what does ~[model-type] have
     ~[exist] ~[model-type] ~[has] ~[spec-value]
     ~[exist] ~[model-type] ~[has] ~[optional-specs]
     do all models have ~[optional-specs]

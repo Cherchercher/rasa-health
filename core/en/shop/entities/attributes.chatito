@@ -13,6 +13,7 @@
     ~[top trim]
     ~[sport trim]
     ~[base trim]
+    ~[trim-part]
 
 @[engine-size]
     I4
@@ -74,4 +75,14 @@
     basic model
     cheapest
     basic
+    most basic one
 
+~[trim-part]
+    SX
+    Sport
+    LX
+    LE
+    GT
+    GT line
+    touring
+    FE

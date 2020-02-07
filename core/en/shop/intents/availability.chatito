@@ -14,9 +14,9 @@ import ../entities/locations.chatito
     when is ~[future-model] expected to ~[be available]
     when is ~[future-model] launching
     when do you expect to have the ~[future-model] at ~[dealers]
-    [i want to know when] ~[future-model] will ~[be available]
-    [i want to know when] ~[future-model] is going to ~[be available]
-    [i want to know when] ~[future-model] is coming out
+    i want to know when ~[future-model] will ~[be available]
+    i want to know when ~[future-model] is going to ~[be available]
+    i want to know when ~[future-model] is coming out
     i am interested in ~[future-model] when will you have them ~[in stock]
     is ~[future-model] ~[already out]
     is ~[future-model] ~[already out] or when is it expected to ~[be available]
@@ -40,7 +40,7 @@ import ../entities/locations.chatito
     just want to know when the ~[future-model] is available in ~[location]
     when is the ~[future-model] going to be available in ~[location]
     ~[i?] want to know when the @[model] is coming out
-    ~[declaritive] the new @[model] when will you have them in stock
+    ~[general pre-empt] the new @[model] when will you have them in stock
     any ~[future-model] available yet
     is the @[model] ~[each-fuel-car?] available yet
     any @[specs.fuelType] coming to us market

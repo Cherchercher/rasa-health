@@ -1,75 +1,65 @@
 import ../../common.chatito
 import ../entities/attributes.chatito
-import ../entities/specs.cargo.chatito
-import ../entities/specs.drivetrain.chatito
-import ../entities/specs.exterior.chatito
-import ../entities/specs.fuelconsumption.chatito
-import ../entities/specs.infotainment.chatito
-import ../entities/specs.interior.chatito
-import ../entities/specs.lights.chatito
-import ../entities/specs.price.chatito
-import ../entities/specs.safety.chatito
-import ../entities/specs.seating.chatito
-import ../entities/specs.steeringwheel.chatito
-import ../entities/specs.wheels.chatito
+import ../entities/specs.chatito
+
 //this intent is to find model trims that
 //seeks [trims Y] with [specified entity value X]
 //generally want to know more about a trim
 //model slot must be filled
 
 %[list.trims]('training': '200', 'distribution': 'even')
-    ~[trim-only]
-    ~[declaritive] ~[trim-only]
-    ~[greeting?] i want to know about @[make?] ~[trim-only]
-    i would like to know more about the ~[trim-only]
+    @[model]
+    ~[general pre-empt?] ~[model]
+    ~[greeting?] i want to know about ~[model]
+    i would like to know more about the ~[model]
     how many trims are there for @[model]
-    i was interested in the @[model] but the ~[trim-only] version
-    any info on ~[trim-only]
-    what is the top of the line @[model]
-    i was interested in the ~[trim-only] the most basic one
+    i was interested in the @[model] but the @[trim-level] version
+    any info on @[model] @[trim-level]
+    what is the @[trim-level] @[model]
+    i was interested in the @[model] but the @[trim-level]
 
-//indicator specs help identify a specific trim level
+//indicator specs help identify a specific trim level such as 'turbo', ''
 %[list.trims.indicator]('training': '100', 'distribution': 'even')
-    ~[exist] ~[indicator-spec] ~[trim-only]?
-    ~[engine] ~[in-on] ~[trim-only]
-    ~[what-which] options for ~[trim-only] ~[engine]
-    ~[what-which] ~[engine] options are ~[available] ~[trim-only]
-    ~[exist] ~[trim-only] ~[have] ~[indicator-spec]
+    ~[exist] @[specs.drivetrain] ~[model]
+    ~[engine] ~[in-on] ~[model]
+    ~[what-which] options for @[model] ~[engine]
+    ~[what-which] ~[engine] options are ~[available] @[model]
+    ~[exist] @[model] ~[have] @[specs.drivetrain]
 
 //list trims that have some declared optional spec
 %[list.trims.specs]('training': '400', 'distribution': 'even')
     any of the ~[make?] @[model] @[specs.drivetrain]
-    ~[declaritive?] for the ~[trim-only], which models ~[has] ~[a-an-the?] ~[specs]
-    do all ~[trim-only] ~[have] ~[specs]
-    is ~[specs] ~[available] ~[trim-only]
-    is ~[specs] ~[available] all ~[trim-only]
+    ~[general pre-empt?] for the ~[model], which models ~[has] ~[a-an-the?] ~[specs]
+    do all ~[model] ~[have] ~[specs]
+    is ~[specs] ~[available] ~[model]
+    is ~[specs] ~[available] all ~[model]
     is ~[specs] only ~[available] ~[a-an-the] ~[car-trim] and ~[car-trim] trims
-    what trim package do I have to buy in order to get ~[specs]
-    what trim package do I have to buy in order to get ~[specs] and ~[specs]
-    is ~[specs] standard on all trim levels
-    can I get ~[specs] with any trim
-    what trim level of ~[trim-only] ~[has] ~[specs]
-    can you get the ~[trim-only] with ~[specs]
-    ~[exist] @[trim-level] @[model-trim] ~[have-has] ~[specs]
-    ~[does the] @[model-trim] ~[possess] ~[specs]
-    ~[is-are] ~[specs] available ~[in-on] @[model-trim]
-    does the ~[trim-only] ~[have] @[specs.electronics]
+    what ~[trim] package do I have to buy in order to get ~[specs]
+    what ~[trim] package do I have to buy in order to get ~[specs] and ~[specs]
+    is ~[specs] standard on all ~[trim]
+    can i get ~[specs] with any ~[trim]
+    what ~[trim] level of @[model] ~[has] ~[specs]
+    can you get the @[model] with ~[specs]
+    ~[exist] ~[model] ~[have-has] ~[specs]
+    ~[does the] @[model] ~[have] ~[specs]
+    ~[is-are] ~[specs] available ~[in-on] ~[model]
+    does the @[trim-level] @[model] ~[have] @[specs.electronics]
     does it ~[have] @[specs.electronics]
     does it ~[have] ~[specs]
-    ~[declaritive?] can i get a ~[specs] ~[in-on] ~[trim-only]
-    I need a niro that has @[specs.safety] @[specs.safety] and ~[specs] which model would get me that?
-    does the @[model] have ~[specs] or ~[specs] with ~[indicator-spec]
+    ~[general pre-empt?] can i get a ~[specs] ~[in-on] @[model]
+    i need a @[model] that has @[specs.safety] @[specs.safety] and ~[specs] which model would get me that?
+    does the @[model] have ~[specs] or ~[specs] with @[specs.drivetrain]
 
 %[list.trims.safety]('training': '50', 'distribution': 'even')
-    ~[what-which] trim do i need to get ~[specs-safety]
-    what ~[trim-only] trim lines offer forward collision warning
-    does the ~[trim-only] have pre-collision trch
-    Which Sorentos have forward collision warning system
-    does the new all electric Nero come with Lane correction collision warning and blind spot
-    Is forward collision avoidance available on a cheaper trim than the EX?
-    Im looking for Front Collision Avoidance on the Kia Sportage.  What model does it come in?
-    Sorrento with leather seats and collision avoidance
-    i am inquiring about what level of trim has all the new safety features such as blind spot and adaptive high beams
+    ~[what-which] ~[trim] do i need to get @[specs.safety]
+    what @[model] ~[trim] lines offer @[specs.safety]
+    does the ~[model] have @[specs.safety]
+    which ~[model] have @[specs.safety]
+    does the new ~[model] come with @[specs.safety] and @[specs.safety]
+    is @[specs.safety] available on a cheaper ~[trim] than the @[trim-level]
+    ~[i am] ~[searching] for @[specs.safety] on the @[model] what ~[trim] does it come in
+    ~[model] with @[specs.safety] and @[specs.safety]
+    i am inquiring about what ~[trim] has all the new safety features such as @[specs.safety] and a@[specs.safety]
 
 ~[on-with]
     on

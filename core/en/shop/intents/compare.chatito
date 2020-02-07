@@ -38,7 +38,7 @@ import ../entities/specs.wheels.chatito
     i was just wondering if a 7 passenger sorento is bigger than the 5 passenger sorento
 
 %[compare.yoy]('training': '50','distribution': 'even')
-    ~[declaritive] in a ~[model-year] ~[model]. Can you tell me the difference between the ~[model-year] and ~[model-year]?
+    ~[general pre-empt] in a ~[model-year] ~[model]. Can you tell me the difference between the ~[model-year] and ~[model-year]?
     ~[what] ~[price-spec] difference in a ~[model-year] and a ~[model-year] ~[model]
     any changes between the kia niro plugin ex from 2018 versus kia niro plugin ex 2019
     any changes for the optima in 2020 model year

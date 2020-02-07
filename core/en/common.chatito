@@ -35,6 +35,17 @@ import ./shop/entities/color.chatito
     ~[car]
     ~[cars]
 
+//ways users refer to trims
+~[trim]
+    trim
+    version
+    variant
+    version
+    model
+    trim level
+    version level
+    package
+
 ~[future-model]
     *[33%]@[future model]
     ~[model year-future] @[model]
