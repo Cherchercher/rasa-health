@@ -2,7 +2,7 @@ import ../../common.chatito
 import ../entities/locations.chatito
 
 //similar to searching for inventory, but availability refers to when a new model or new model year will become available
-%[availability]('training': '200', 'distribution': 'even')
+%[availability]('training': '400', 'distribution': 'even')
     when will ~[future-model] be available
     when will ~[future-model] be available ~[to/for something?]
     when will ~[future-model] ~[be available] ~[to/for something?]
@@ -14,6 +14,7 @@ import ../entities/locations.chatito
     when is ~[future-model] expected to ~[be available]
     when is ~[future-model] launching
     when do you expect to have the ~[future-model] at ~[dealers]
+    what is the launch date of the ~[model]
     i want to know when ~[future-model] will ~[be available]
     i want to know when ~[future-model] is going to ~[be available]
     i want to know when ~[future-model] is coming out
@@ -25,10 +26,6 @@ import ../entities/locations.chatito
     any idea when ~[future-model] is launching
     any idea when ~[future-model] will ~[be available]
     any idea when ~[future-model] will start showing up at ~[dealers]
-
-//this is usually asked by people looking for EV or PHEVs
-//.location can be used for content context and fallback rule
-%[availability.location]('training': '200', 'distribution': 'even')
     when will ~[future-model] ~[be available] in ~[location]
     when will ~[future-model] ~[come to] in @[country]
     when are ~[future-model] going to ~[be available] in ~[location]

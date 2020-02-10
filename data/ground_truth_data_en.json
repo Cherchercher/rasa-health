@@ -7,7 +7,7 @@
                 "entities": [
                     {
                         "end": 11,
-                        "entity": "model year-future",
+                        "entity": "model-year",
                         "start": 7,
                         "value": "2021"
                     },
@@ -25,7 +25,7 @@
                 "entities": [
                     {
                         "end": 18,
-                        "entity": "model year-future",
+                        "entity": "model-year",
                         "start": 14,
                         "value": "2021"
                     },
@@ -67,7 +67,7 @@
                 "entities": [
                     {
                         "end": 18,
-                        "entity": "model year-future",
+                        "entity": "model-year",
                         "start": 14,
                         "value": "2021"
                     },
@@ -85,7 +85,7 @@
                 "entities": [
                     {
                         "end": 8,
-                        "entity": "model year-future",
+                        "entity": "model-year",
                         "start": 4,
                         "value": "2021"
                     },
@@ -127,7 +127,7 @@
                 "entities": [
                     {
                         "end": 8,
-                        "entity": "model year-future",
+                        "entity": "model-year",
                         "start": 4,
                         "value": "2021"
                     },
@@ -238,7 +238,7 @@
                 "entities": [
                     {
                         "end": 4,
-                        "entity": "model year-past",
+                        "entity": "model-year",
                         "start": 0,
                         "value": "2018"
                     },
@@ -256,7 +256,7 @@
                 "entities": [
                     {
                         "end": 21,
-                        "entity": "model year-current",
+                        "entity": "model-year",
                         "start": 17,
                         "value": "2019"
                     },
@@ -296,7 +296,7 @@
                 "entities": [
                     {
                         "end": 26,
-                        "entity": "model year-past",
+                        "entity": "model-year",
                         "start": 22,
                         "value": "2017"
                     },
@@ -314,7 +314,7 @@
                 "entities": [
                     {
                         "end": 18,
-                        "entity": "model year-past",
+                        "entity": "model-year",
                         "start": 14,
                         "value": "2013"
                     },
@@ -332,7 +332,7 @@
                 "entities": [
                     {
                         "end": 36,
-                        "entity": "model year-past",
+                        "entity": "model-year",
                         "start": 32,
                         "value": "2010"
                     },
@@ -350,7 +350,7 @@
                 "entities": [
                     {
                         "end": 16,
-                        "entity": "model year-past",
+                        "entity": "model-year",
                         "start": 12,
                         "value": "2013"
                     },
@@ -368,7 +368,7 @@
                 "entities": [
                     {
                         "end": 31,
-                        "entity": "model year-past",
+                        "entity": "model-year",
                         "start": 27,
                         "value": "2010"
                     },
@@ -398,7 +398,7 @@
                 "entities": [
                     {
                         "end": 20,
-                        "entity": "model year-current",
+                        "entity": "model-year",
                         "start": 16,
                         "value": "2019"
                     },
@@ -416,7 +416,7 @@
                 "entities": [
                     {
                         "end": 24,
-                        "entity": "model year-past",
+                        "entity": "model-year",
                         "start": 20,
                         "value": "2013"
                     },
@@ -434,7 +434,7 @@
                 "entities": [
                     {
                         "end": 20,
-                        "entity": "model year-past",
+                        "entity": "model-year",
                         "start": 16,
                         "value": "2018"
                     },
@@ -452,7 +452,7 @@
                 "entities": [
                     {
                         "end": 15,
-                        "entity": "model year-past",
+                        "entity": "model-year",
                         "start": 11,
                         "value": "2011"
                     },
@@ -470,7 +470,7 @@
                 "entities": [
                     {
                         "end": 16,
-                        "entity": "model year-current",
+                        "entity": "model-year",
                         "start": 12,
                         "value": "2020"
                     },
@@ -488,7 +488,7 @@
                 "entities": [
                     {
                         "end": 16,
-                        "entity": "model year-future",
+                        "entity": "model-year",
                         "start": 12,
                         "value": "2021"
                     },
@@ -506,7 +506,7 @@
                 "entities": [
                     {
                         "end": 20,
-                        "entity": "model year-past",
+                        "entity": "model-year",
                         "start": 16,
                         "value": "2012"
                     },
@@ -524,7 +524,7 @@
                 "entities": [
                     {
                         "end": 21,
-                        "entity": "model year-past",
+                        "entity": "model-year",
                         "start": 17,
                         "value": "2010"
                     },
@@ -662,7 +662,7 @@
                 "entities": [
                     {
                         "end": 43,
-                        "entity": "model year-future",
+                        "entity": "model-year",
                         "start": 39,
                         "value": "2021"
                     },
@@ -680,7 +680,7 @@
                 "entities": [
                     {
                         "end": 46,
-                        "entity": "model year-past",
+                        "entity": "model-year",
                         "start": 42,
                         "value": "2013"
                     },
@@ -698,7 +698,7 @@
                 "entities": [
                     {
                         "end": 14,
-                        "entity": "model year-past",
+                        "entity": "model-year",
                         "start": 10,
                         "value": "2013"
                     },
@@ -902,7 +902,7 @@
                 "entities": [
                     {
                         "end": 40,
-                        "entity": "model year-past",
+                        "entity": "model-year",
                         "start": 36,
                         "value": "2014"
                     },
@@ -920,7 +920,7 @@
                 "entities": [
                     {
                         "end": 11,
-                        "entity": "model year-current",
+                        "entity": "model-year",
                         "start": 7,
                         "value": "2020"
                     },
@@ -938,7 +938,7 @@
                 "entities": [
                     {
                         "end": 27,
-                        "entity": "model year-current",
+                        "entity": "model-year",
                         "start": 23,
                         "value": "2020"
                     },
@@ -956,7 +956,7 @@
                 "entities": [
                     {
                         "end": 56,
-                        "entity": "model year-past",
+                        "entity": "model-year",
                         "start": 52,
                         "value": "2018"
                     },
@@ -974,7 +974,7 @@
                 "entities": [
                     {
                         "end": 13,
-                        "entity": "model year-past",
+                        "entity": "model-year",
                         "start": 9,
                         "value": "2013"
                     },
@@ -998,7 +998,7 @@
                 "entities": [
                     {
                         "end": 40,
-                        "entity": "model year-current",
+                        "entity": "model-year",
                         "start": 36,
                         "value": "2020"
                     },
@@ -1016,7 +1016,7 @@
                 "entities": [
                     {
                         "end": 40,
-                        "entity": "model year-past",
+                        "entity": "model-year",
                         "start": 36,
                         "value": "2015"
                     },
@@ -1052,7 +1052,7 @@
                 "entities": [
                     {
                         "end": 35,
-                        "entity": "model year-past",
+                        "entity": "model-year",
                         "start": 31,
                         "value": "2011"
                     },
@@ -1138,7 +1138,7 @@
                         "end": 133,
                         "entity": "model-year",
                         "start": 129,
-                        "value": "model year-past"
+                        "value": "model-year"
                     },
                     {
                         "end": 149,
