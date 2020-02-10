@@ -132,6 +132,11 @@ import ./shop/entities/color.chatito
     in
     on
 
+//relative place
+~[in-near]
+    in 
+    near
+
 ~[for-of]
     for
     of

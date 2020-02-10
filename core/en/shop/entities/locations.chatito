@@ -8,6 +8,7 @@
 
 //locations
 ~[location]
+    @[place-india]
     @[US state]
     @[US city]
     @[area]
@@ -20,6 +21,55 @@
     egypt
 
 //synonyms
+//list of the largest cities in india... we probably need a library of sorts for this, but need training examples
+@[place-india]
+    mumbai
+    delhi
+    bangalore
+    hyderabad
+    ahmedabad
+    chennai
+    kolkata
+    surat
+    pune
+    jaipur
+    visakhapatnam
+    kanpur
+    nagpur
+    lucknow
+    thane
+    bhopal
+    indore
+    pimpri-chinchwad
+    patna
+    vadodara
+    ghaziabad
+    ludhiana
+    agra
+    nashik
+    faridabad
+    meerut
+    rajkot
+    kalyan-dombivli
+    vasai-virar
+    varanasi
+    srinagar
+    aurangabad
+    dhanbad
+    amritsar
+    navi mumbai
+    allahabad
+    howrah
+    ranchi
+    gwalior
+    jabalpur
+    coimbatore
+    vijayawada
+    jodhpur
+    madurai
+    raipur
+    chandigarh
+
 @[US state]
     Alaska
     California

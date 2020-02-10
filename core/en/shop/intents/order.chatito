@@ -112,6 +112,7 @@ import ../../common.chatito
 %[order.leadTime]('training': '100', 'distribution': 'even')
     ~[preorder] ~[wait time]
     ~[wait time] after ~[ordering]
+    what is the waiting period
     after ~[ordering] how many days are required for delivery
     after ~[ordering] how much time it will take for delivery
     ~[how long] will take after ~[ordering] the car
