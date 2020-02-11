@@ -1,0 +1,50 @@
+import ../../common.chatito
+
+%[find.jobs]('training':'200', 'distribution':' even')
+    ~[greeting] i ~[want-need] ~[job]
+    ~[greeting?] ~[i-am] looking for ~[job]
+    ~[greeting?] ~[i-am]
+    ~[greeting?] how can i apply for ~[job]
+    ~[i-am] ~[searching] for 
+    how can i get ~[job]
+    how can i apply for ~[job]
+    how do i apply for ~[job]
+    how to apply for ~[job]
+    can i get a ~[job]
+    ~[job] vacancy
+    ~[job] vacancies
+    factory ~[job]
+    vacancy ~[job]
+    ~[i-am] ~[want-need] ~[job] ~[in-with-at] your ~[factory]
+    are you hiring
+    is kia hiring
+    do you have any information on ~[job]
+    i would like a ~[job] here
+    can you list the available ~[job] at kia
+    can you tell me more about ~[job] avaiable
+    do you have any ~[job] openings for me
+    how can i get job ~[in-with-at] kia motors
+
+~[want-need]
+    want
+    need
+
+~[job]
+    a job
+    job
+    jobs
+    careers
+    job openings
+    job opportunities
+    opportunities
+    career opportunities
+
+~[factory]
+    factory
+    plant
+    company
+
+~[in-with-at]
+    in
+    with
+    at

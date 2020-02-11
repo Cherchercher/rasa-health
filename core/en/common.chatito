@@ -117,6 +117,15 @@ import ./shop/entities/color.chatito
     an
     the
 
+~[cannot]
+    cannot
+    can not
+    cant
+
+~[dont-do not]
+    dont
+    do not
+
 ~[exist]
     are any
     are there any
@@ -127,6 +136,7 @@ import ./shop/entities/color.chatito
 ~[i-am]
     im
     i am
+    am
 
 ~[in-on]
     in
@@ -168,6 +178,12 @@ import ./shop/entities/color.chatito
     gets
     got
 
+~[searching]
+    looking for
+    trying to find
+    looking af
+    searching for
+
 ~[what]
     what
     whats
@@ -177,12 +193,11 @@ import ./shop/entities/color.chatito
     what
     which is
 
-~[searching]
-    looking for
-    trying to find
-    looking at
-    I'm looking for
-    im looking for
+~[your]
+    your
+    youre
+    you are
+    ur
 
 //==sizey things
 ~[definite-size]
