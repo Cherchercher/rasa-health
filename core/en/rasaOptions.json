@@ -5,7 +5,879 @@
                 "name": "zipcode",
                 "pattern": "[0-9]{5}"
             }
-        ],
+		],
+		"common_examples": [
+			{
+			  "text": "human now",
+			  "intent": "basics.request_handover",
+			  "entities": []
+			},
+			{
+			  "text": "get me in touch with a person",
+			  "intent": "basics.request_handover",
+			  "entities": []
+			},
+			{
+			  "text": "human needed",
+			  "intent": "basics.request_handover",
+			  "entities": []
+			},
+			{
+			  "text": "I'd like to speak to a human",
+			  "intent": "basics.request_handover",
+			  "entities": []
+			},
+			{
+			  "text": "I want to speak to a real person",
+			  "intent": "basics.request_handover",
+			  "entities": []
+			},
+			{
+			  "text": "you are chatbot",
+			  "intent": "smallTalk.are_you_a_robot",
+			  "entities": []
+			},
+			{
+			  "text": "are you a chatbot",
+			  "intent": "smallTalk.are_you_a_robot",
+			  "entities": []
+			},
+			{
+			  "text": "are you just a bot",
+			  "intent": "smallTalk.are_you_a_robot",
+			  "entities": []
+			},
+			{
+			  "text": "you are a bot",
+			  "intent": "smallTalk.are_you_a_robot",
+			  "entities": []
+			},
+			{
+			  "text": "are you a bot",
+			  "intent": "smallTalk.are_you_a_robot",
+			  "entities": []
+			},
+			{
+			  "text": "are you a robot",
+			  "intent": "smallTalk.are_you_a_robot",
+			  "entities": []
+			},
+			{
+			  "text": "are you a program",
+			  "intent": "smallTalk.are_you_a_robot",
+			  "entities": []
+			},
+			{
+			  "text": "you're a robot",
+			  "intent": "smallTalk.are_you_a_robot",
+			  "entities": []
+			},
+			{
+			  "text": "where's your house",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "your city",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "where you live",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "your town",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "were you born here",
+			  "intent": "smallTalk.where_were_you_born",
+			  "entities": []
+			},
+			{
+			  "text": "where were you born",
+			  "intent": "smallTalk.where_were_you_born",
+			  "entities": []
+			},
+			{
+			  "text": "where did you come from",
+			  "intent": "smallTalk.where_were_you_born",
+			  "entities": []
+			},
+			{
+			  "text": "what is your country",
+			  "intent": "smallTalk.where_were_you_born",
+			  "entities": []
+			},
+			{
+			  "text": "where are you from",
+			  "intent": "smallTalk.where_were_you_born",
+			  "entities": []
+			},
+			{
+			  "text": "where do you come from",
+			  "intent": "smallTalk.where_were_you_born",
+			  "entities": []
+			},
+			{
+			  "text": "where have you been born",
+			  "intent": "smallTalk.where_were_you_born",
+			  "entities": []
+			},
+			{
+			  "text": "from where are you",
+			  "intent": "smallTalk.where_were_you_born",
+			  "entities": []
+			},
+			{
+			  "text": "are you from far aways",
+			  "intent": "smallTalk.where_were_you_born",
+			  "entities": []
+			},
+			{
+			  "text": "what's your homeland",
+			  "intent": "smallTalk.where_were_you_born",
+			  "entities": []
+			},
+			{
+			  "text": "your homeland is",
+			  "intent": "smallTalk.where_were_you_born",
+			  "entities": []
+			},
+			{
+			  "text": "where do you live",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "in which city do you live",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "your residence",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "your house",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "your home",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "your hometown",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "what is your hometown",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "what is your city",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "is it your hometown",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "where is your hometown",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "tell me about your city",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "what is your residence",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "what is your town",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "where's your hometown",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "what's your city",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "what's your home",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "where is your home",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "where is your residence",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "where's your home",
+			  "intent": "smallTalk.where_do_you_live",
+			  "entities": []
+			},
+			{
+			  "text": "You are an idiot",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "You are a moron",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "jerk",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "prick",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "You're an asshole!",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "son of a bitch",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "idiot",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "son of a bitch",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "dumbass",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "dumb ass",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "cocksucker",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "jackass",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "asshole",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "asswipe",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "asshat",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "shit",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "dickhead",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "motherfucker",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "ass",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "idiot",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "bastard",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "I want to speak to a human",
+			  "intent": "basics.request_handover",
+			  "entities": []
+			},
+			{
+			  "text": "Fuck you!",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "Use your brain ass!",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "You're dumb!!",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "prig",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "schmuck",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "good evening",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "good evening to you",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "hey good evening",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "hello good evening",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "evening",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "good evening there",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "long time no see",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "hello",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "hi",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "howdy",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "hey there",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "hey",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "greetings",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "I greet you",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "hi there",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "hello there",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "lovely day isn't it",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "hello again",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "just going to say hi",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "hi there",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "a good day",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "afternoon",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "hello hi",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "heya",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "good morning",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "good morning to you",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "hello good morning",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "have a nice morning",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "have a great morning",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "morning",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "good morning there",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "top of the morning to you",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "a good morning",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "good morning to you",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "hi good morning",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "and a good morning to you",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "good morning too",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how is your morning so far",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how are you getting on",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how's your day going",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how are you",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "is everything all right",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how are you doing",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how are the things going",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "are you alright",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "are you okay",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how are you feeling",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how are you going",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "is everything okay",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how are you today",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how do you do",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how do you feel",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how have you been",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how is it",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how is it going",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how is your day",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how is your day going",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how is your evening",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how was your day",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "are you having a good day",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "hope your day is going well",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "hope you re having a pleasant eve",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how's life",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "I'm fine and you",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how is your life",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how has your day been",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how is your morning going",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how has your day been going",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how about you",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how is your day being",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how is your day going on",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how your day is going",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "what was your day like",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "what about your day",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how's your day",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how are you doing this morning",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "how is your day going",
+			  "intent": "smallTalk.greet",
+			  "entities": []
+			},
+			{
+			  "text": "fuck you",
+			  "intent": "smallTalk.insults",
+			  "entities": []
+			},
+			{
+			  "text": "agent",
+			  "intent": "basics.request_handover",
+			  "entities": []
+			},
+			{
+			  "text": "I want to flirt with you?",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			},
+			{
+			  "text": "I want to exchange some nice words with you",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			},
+			{
+			  "text": "I wanna sex you",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			},
+			{
+			  "text": "I want to have sex with you",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			},
+			{
+			  "text": "do you do doggy",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			},
+			{
+			  "text": "can you have sex?",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			},
+			{
+			  "text": "I want to touch your boobs",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			},
+			{
+			  "text": "I want to lick you",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			},
+			{
+			  "text": "I want to kiss your ass",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			},
+			{
+			  "text": "I want to fuck you",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			},
+			{
+			  "text": "can you do a sex tape with me?",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			},
+			{
+			  "text": "Are you gay?",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			},
+			{
+			  "text": "Are you lesbian?",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			},
+			{
+			  "text": "Are you trans?",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			},
+			{
+			  "text": "Do you have tits?",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			},
+			{
+			  "text": "How cute is your pussy?",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			},
+			{
+			  "text": "I want your big dick in me!",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			},
+			{
+			  "text": "i wanna lick your dick",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			},
+			{
+			  "text": "I wanna lick your pussy.",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			},
+			{
+			  "text": "Can you have sex with me?",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			},
+			{
+			  "text": "Can we have a trisome?",
+			  "intent": "smallTalk.sex",
+			  "entities": []
+			}
+		  ],
         "lookup_tables": [
             {
                 "name": "US state",
