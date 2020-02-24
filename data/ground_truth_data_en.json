@@ -1786,7 +1786,878 @@
                         "entity": "model"
                     }
                 ]
-            }
+            },
+                    {
+                      "text": "human now",
+                      "intent": "basics.request_handover",
+                      "entities": []
+                    },
+                    {
+                      "text": "get me in touch with a person",
+                      "intent": "basics.request_handover",
+                      "entities": []
+                    },
+                    {
+                      "text": "human needed",
+                      "intent": "basics.request_handover",
+                      "entities": []
+                    },
+                    {
+                      "text": "I'd like to speak to a human",
+                      "intent": "basics.request_handover",
+                      "entities": []
+                    },
+                    {
+                      "text": "I want to speak to a real person",
+                      "intent": "basics.request_handover",
+                      "entities": []
+                    },
+                    {
+                      "text": "you are chatbot",
+                      "intent": "chitchat.are_you_a_robot",
+                      "entities": []
+                    },
+                    {
+                      "text": "are you a chatbot",
+                      "intent": "chitchat.are_you_a_robot",
+                      "entities": []
+                    },
+                    {
+                      "text": "are you just a bot",
+                      "intent": "chitchat.are_you_a_robot",
+                      "entities": []
+                    },
+                    {
+                      "text": "you are a bot",
+                      "intent": "chitchat.are_you_a_robot",
+                      "entities": []
+                    },
+                    {
+                      "text": "are you a bot",
+                      "intent": "chitchat.are_you_a_robot",
+                      "entities": []
+                    },
+                    {
+                      "text": "are you a robot",
+                      "intent": "chitchat.are_you_a_robot",
+                      "entities": []
+                    },
+                    {
+                      "text": "are you a program",
+                      "intent": "chitchat.are_you_a_robot",
+                      "entities": []
+                    },
+                    {
+                      "text": "you're a robot",
+                      "intent": "chitchat.are_you_a_robot",
+                      "entities": []
+                    },
+                    {
+                      "text": "where's your house",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "your city",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "where you live",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "your town",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "were you born here",
+                      "intent": "chitchat.where_were_you_born",
+                      "entities": []
+                    },
+                    {
+                      "text": "where were you born",
+                      "intent": "chitchat.where_were_you_born",
+                      "entities": []
+                    },
+                    {
+                      "text": "where did you come from",
+                      "intent": "chitchat.where_were_you_born",
+                      "entities": []
+                    },
+                    {
+                      "text": "what is your country",
+                      "intent": "chitchat.where_were_you_born",
+                      "entities": []
+                    },
+                    {
+                      "text": "where are you from",
+                      "intent": "chitchat.where_were_you_born",
+                      "entities": []
+                    },
+                    {
+                      "text": "where do you come from",
+                      "intent": "chitchat.where_were_you_born",
+                      "entities": []
+                    },
+                    {
+                      "text": "where have you been born",
+                      "intent": "chitchat.where_were_you_born",
+                      "entities": []
+                    },
+                    {
+                      "text": "from where are you",
+                      "intent": "chitchat.where_were_you_born",
+                      "entities": []
+                    },
+                    {
+                      "text": "are you from far aways",
+                      "intent": "chitchat.where_were_you_born",
+                      "entities": []
+                    },
+                    {
+                      "text": "what's your homeland",
+                      "intent": "chitchat.where_were_you_born",
+                      "entities": []
+                    },
+                    {
+                      "text": "your homeland is",
+                      "intent": "chitchat.where_were_you_born",
+                      "entities": []
+                    },
+                    {
+                      "text": "where do you live",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "in which city do you live",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "your residence",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "your house",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "your home",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "your hometown",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "what is your hometown",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "what is your city",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "is it your hometown",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "where is your hometown",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "tell me about your city",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "what is your residence",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "what is your town",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "where's your hometown",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "what's your city",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "what's your home",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "where is your home",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "where is your residence",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "where's your home",
+                      "intent": "chitchat.where_do_you_live",
+                      "entities": []
+                    },
+                    {
+                      "text": "You are an idiot",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "You are a moron",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "jerk",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "prick",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "You're an asshole!",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "son of a bitch",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "idiot",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "son of a bitch",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "dumbass",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "dumb ass",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "cocksucker",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "jackass",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "asshole",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "asswipe",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "asshat",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "shit",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "dickhead",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "motherfucker",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "ass",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "idiot",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "bastard",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "I want to speak to a human",
+                      "intent": "basics.request_handover",
+                      "entities": []
+                    },
+                    {
+                      "text": "Fuck you!",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "Use your brain ass!",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "You're dumb!!",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "prig",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "schmuck",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "good evening",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "good evening to you",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "hey good evening",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "hello good evening",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "evening",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "good evening there",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "long time no see",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "hello",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "hi",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "howdy",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "hey there",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "hey",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "greetings",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "I greet you",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "hi there",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "hello there",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "lovely day isn't it",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "hello again",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "just going to say hi",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "hi there",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "a good day",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "afternoon",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "hello hi",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "heya",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "good morning",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "good morning to you",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "hello good morning",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "have a nice morning",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "have a great morning",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "morning",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "good morning there",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "top of the morning to you",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "a good morning",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "good morning to you",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "hi good morning",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "and a good morning to you",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "good morning too",
+                      "intent": "chitchat.greet",
+                      "entities": []
+                    },
+                    {
+                      "text": "how is your morning so far",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how are you getting on",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how's your day going",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how are you",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "is everything all right",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how are you doing",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how are the things going",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "are you alright",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "are you okay",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how are you feeling",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how are you going",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "is everything okay",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how are you today",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how do you do",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how do you feel",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how have you been",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how is it",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how is it going",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how is your day",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how is your day going",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how is your evening",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how was your day",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "are you having a good day",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "hope your day is going well",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "hope you re having a pleasant eve",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how's life",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "I'm fine and you",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how is your life",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how has your day been",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how is your morning going",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how has your day been going",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how about you",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how is your day being",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how is your day going on",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how your day is going",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "what was your day like",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "what about your day",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how's your day",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how are you doing this morning",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "how is your day going",
+                      "intent": "chitchat.how_are_you",
+                      "entities": []
+                    },
+                    {
+                      "text": "fuck you",
+                      "intent": "chitchat.insults",
+                      "entities": []
+                    },
+                    {
+                      "text": "agent",
+                      "intent": "basics.request_handover",
+                      "entities": []
+                    },
+                    {
+                      "text": "I want to flirt with you?",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    },
+                    {
+                      "text": "I want to exchange some nice words with you",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    },
+                    {
+                      "text": "I wanna sex you",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    },
+                    {
+                      "text": "I want to have sex with you",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    },
+                    {
+                      "text": "do you do doggy",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    },
+                    {
+                      "text": "can you have sex?",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    },
+                    {
+                      "text": "I want to touch your boobs",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    },
+                    {
+                      "text": "I want to lick you",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    },
+                    {
+                      "text": "I want to kiss your ass",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    },
+                    {
+                      "text": "I want to fuck you",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    },
+                    {
+                      "text": "can you do a sex tape with me?",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    },
+                    {
+                      "text": "Are you gay?",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    },
+                    {
+                      "text": "Are you lesbian?",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    },
+                    {
+                      "text": "Are you trans?",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    },
+                    {
+                      "text": "Do you have tits?",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    },
+                    {
+                      "text": "How cute is your pussy?",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    },
+                    {
+                      "text": "I want your big dick in me!",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    },
+                    {
+                      "text": "i wanna lick your dick",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    },
+                    {
+                      "text": "I wanna lick your pussy.",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    },
+                    {
+                      "text": "Can you have sex with me?",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    },
+                    {
+                      "text": "Can we have a trisome?",
+                      "intent": "chitchat.sex",
+                      "entities": []
+                    }
+                  
         ]
     }
 }
