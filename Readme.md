@@ -48,7 +48,7 @@ Update configs/en/rasa_config.yml if neccessary
 
 Generate training phrases `npx chatito core/en --format=rasa --formatOptions=./core/en/rasaOptions.json --outputPath=core/en --trainingFileName=training_data.json`
 
-Train the model `rasa train nlu --config configs/de/rasa_config.yml --nlu ./core/en/training_data.json`
+Train the model `rasa train nlu --config configs/en/rasa_config.yml --nlu ./core/en/training_data.json`
 
 Add proposed phrases with their corresponding intents and entities under `data/ground_truth_data_en.json`
 
@@ -81,8 +81,7 @@ Test the model with actual messages at the root of project directory `sh ./tests
         - order.leadTime
 	- SmallTalk
 		- smallTalk.are_you_a_robot
-		- smallTalk.where_were_you_born
-		- smallTalk.where_do_you_live
+		- smallTalk.bot_origin
 		- smallTalk.insults
 		- smallTalk.greet 
 		- smallTalk.sex
