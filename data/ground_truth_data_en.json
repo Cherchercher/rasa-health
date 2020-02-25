@@ -1,2663 +1,2772 @@
 {
-    "rasa_nlu_data": {
-        "common_examples": [
-            {
-                "text": "is the 2021 optima hybrid available now",
-                "intent": "availability",
-                "entities": [
-                    {
-                        "end": 11,
-                        "entity": "model-year",
-                        "start": 7,
-                        "value": "2021"
-                    },
-                    {
-                        "end": 25,
-                        "entity": "model",
-                        "start": 12,
-                        "value": "optima hybrid"
-                    }
-                ]
-            },
-            {
-                "text": "when does the 2021 optima plug-in hybrid come out",
-                "intent": "availability",
-                "entities": [
-                    {
-                        "end": 18,
-                        "entity": "model-year",
-                        "start": 14,
-                        "value": "2021"
-                    },
-                    {
-                        "end": 40,
-                        "entity": "model",
-                        "start": 19,
-                        "value": "optima plug-in hybrid"
-                    }
-                ]
-            },
-            {
-                "text": "i want to know when the niro plug in is on the market",
-                "intent": "availability",
-                "entities": [
-                    {
-                        "end": 37,
-                        "entity": "model",
-                        "start": 24,
-                        "value": "niro ev"
-                    }
-                ]
-            },
-            {
-                "text": "are the new rio five door at the dealer already",
-                "intent": "availability",
-                "entities": [
-                    {
-                        "end": 25,
-                        "entity": "model",
-                        "start": 12,
-                        "value": "rio 5-door"
-                    }
-                ]
-            },
-            {
-                "text": "when will the 2021 rio be released",
-                "intent": "availability",
-                "entities": [
-                    {
-                        "end": 18,
-                        "entity": "model-year",
-                        "start": 14,
-                        "value": "2021"
-                    },
-                    {
-                        "end": 22,
-                        "entity": "model",
-                        "start": 19,
-                        "value": "rio"
-                    }
-                ]
-            },
-            {
-                "text": "any 2021 niro plug in hybrid available yet",
-                "intent": "availability",
-                "entities": [
-                    {
-                        "end": 8,
-                        "entity": "model-year",
-                        "start": 4,
-                        "value": "2021"
-                    },
-                    {
-                        "end": 28,
-                        "entity": "model",
-                        "start": 9,
-                        "value": "niro plug-in hybrid"
-                    }
-                ]
-            },
-            {
-                "text": "i want to know when the cadenzas is on the market",
-                "intent": "availability",
-                "entities": [
-                    {
-                        "end": 32,
-                        "entity": "model",
-                        "start": 24,
-                        "value": "cadenza"
-                    }
-                ]
-            },
-            {
-                "text": "any idea when the k 900 will start showing up in dealerships",
-                "intent": "availability",
-                "entities": [
-                    {
-                        "end": 23,
-                        "entity": "model",
-                        "start": 18,
-                        "value": "k900"
-                    }
-                ]
-            },
-            {
-                "text": "are 2021 niros at the dealer already",
-                "intent": "availability",
-                "entities": [
-                    {
-                        "end": 8,
-                        "entity": "model-year",
-                        "start": 4,
-                        "value": "2021"
-                    },
-                    {
-                        "end": 14,
-                        "entity": "model",
-                        "start": 9,
-                        "value": "niro"
-                    }
-                ]
-            },
-            {
-                "text": "any idea when the niro plugin is launching",
-                "intent": "availability",
-                "entities": [
-                    {
-                        "end": 29,
-                        "entity": "model",
-                        "start": 18,
-                        "value": "niro ev"
-                    }
-                ]
-            },
-            {
-                "text": "i am have a question about the new plug-in niro when will you have them in stock",
-                "intent": "availability",
-                "entities": [
-                    {
-                        "end": 47,
-                        "entity": "model",
-                        "start": 35,
-                        "value": "niro ev"
-                    }
-                ]
-            },
-            {
-                "text": "want to know what the difference are in the different types of optima phev",
-                "intent": "compare",
-                "entities": [
-                    {
-                        "end": 73,
-                        "entity": "model",
-                        "start": 62,
-                        "value": "optima plug-in hybrid"
-                    }
-                ]
-            },
-            {
-                "text": "what car has have more features? the Sportage or Stinger",
-                "intent": "compare",
-                "entities": [
-                    {
-                        "end": 66,
-                        "entity": "model",
-                        "start": 52,
-                        "value": "Sportage"
-                    },
-                    {
-                        "end": 81,
-                        "entity": "model",
-                        "start": 70,
-                        "value": "Stinger"
-                    }
-                ]
-            },
-            {
-                "text": "can you send me my nearest dealer",
-                "intent": "find.dealers",
-                "entities": []
-            },
-            {
-                "text": "where can i find a dealership",
-                "intent": "find.dealers",
-                "entities": []
-            },
-            {
-                "text": "dealer in 20606",
-                "intent": "find.dealers",
-                "entities": []
-            },
-            {
-                "text": "where is the nearest kia dealership",
-                "intent": "find.dealers",
-                "entities": [
-                    {
-                        "end": 24,
-                        "entity": "make",
-                        "start": 21,
-                        "value": "kia"
-                    }
-                ]
-            },
-            {
-                "text": "Kia dealers near me",
-                "intent": "find.dealers",
-                "entities": [
-                    {
-                        "end": 3,
-                        "entity": "make",
-                        "start": 0,
-                        "value": "kia"
-                    }
-                ]
-            },
-            {
-                "text": "2018 Telluride LX AWD inventory",
-                "intent": "inventory",
-                "entities": [
-                    {
-                        "end": 4,
-                        "entity": "model-year",
-                        "start": 0,
-                        "value": "2018"
-                    },
-                    {
-                        "end": 21,
-                        "entity": "model-trim",
-                        "start": 5,
-                        "value": "Telluride LX AWD"
-                    }
-                ]
-            },
-            {
-                "text": "i want to find a 2019 rio near me",
-                "intent": "inventory",
-                "entities": [
-                    {
-                        "end": 21,
-                        "entity": "model-year",
-                        "start": 17,
-                        "value": "2019"
-                    },
-                    {
-                        "end": 25,
-                        "entity": "model",
-                        "start": 22,
-                        "value": "rio"
-                    }
-                ]
-            },
-            {
-                "text": "hello looking for Telluride S AWD",
-                "intent": "inventory",
-                "entities": [
-                    {
-                        "end": 33,
-                        "entity": "model-trim",
-                        "start": 18,
-                        "value": "Telluride S AWD"
-                    }
-                ]
-            },
-            {
-                "text": "new car inventory",
-                "intent": "inventory",
-                "entities": []
-            },
-            {
-                "text": "search inventory",
-                "intent": "inventory",
-                "entities": []
-            },
-            {
-                "text": "i want to look at the 2017 plug-in nero where can i go see it",
-                "intent": "inventory",
-                "entities": [
-                    {
-                        "end": 26,
-                        "entity": "model-year",
-                        "start": 22,
-                        "value": "2017"
-                    },
-                    {
-                        "end": 39,
-                        "entity": "model",
-                        "start": 27,
-                        "value": "niro ev"
-                    }
-                ]
-            },
-            {
-                "text": "i want to see 2013 Stinger GTS RWD inventory with prices",
-                "intent": "inventory",
-                "entities": [
-                    {
-                        "end": 18,
-                        "entity": "model-year",
-                        "start": 14,
-                        "value": "2013"
-                    },
-                    {
-                        "end": 34,
-                        "entity": "model-trim",
-                        "start": 19,
-                        "value": "Stinger GTS RWD"
-                    }
-                ]
-            },
-            {
-                "text": "i want to look at the telluride 2010 rio sedan",
-                "intent": "inventory",
-                "entities": [
-                    {
-                        "end": 36,
-                        "entity": "model-year",
-                        "start": 32,
-                        "value": "2010"
-                    },
-                    {
-                        "end": 46,
-                        "entity": "model",
-                        "start": 37,
-                        "value": "rio"
-                    }
-                ]
-            },
-            {
-                "text": "do you have 2013 rio 4-dr in stock",
-                "intent": "inventory",
-                "entities": [
-                    {
-                        "end": 16,
-                        "entity": "model-year",
-                        "start": 12,
-                        "value": "2013"
-                    },
-                    {
-                        "end": 25,
-                        "entity": "model",
-                        "start": 17,
-                        "value": "rio"
-                    }
-                ]
-            },
-            {
-                "text": "where can i go look at the 2010 k900s in state-location",
-                "intent": "inventory",
-                "entities": [
-                    {
-                        "end": 31,
-                        "entity": "model-year",
-                        "start": 27,
-                        "value": "2010"
-                    },
-                    {
-                        "end": 37,
-                        "entity": "model",
-                        "start": 32,
-                        "value": "k900"
-                    }
-                ]
-            },
-            {
-                "text": "looking for kai inventory",
-                "intent": "inventory",
-                "entities": [
-                    {
-                        "end": 15,
-                        "entity": "make",
-                        "start": 12,
-                        "value": "kia"
-                    }
-                ]
-            },
-            {
-                "text": "i want to get a 2019 all electric niro",
-                "intent": "inventory",
-                "entities": [
-                    {
-                        "end": 20,
-                        "entity": "model-year",
-                        "start": 16,
-                        "value": "2019"
-                    },
-                    {
-                        "end": 38,
-                        "entity": "model",
-                        "start": 21,
-                        "value": "niro ev"
-                    }
-                ]
-            },
-            {
-                "text": "dealer near me with 2013 Telluride S FWD",
-                "intent": "inventory",
-                "entities": [
-                    {
-                        "end": 24,
-                        "entity": "model-year",
-                        "start": 20,
-                        "value": "2013"
-                    },
-                    {
-                        "end": 40,
-                        "entity": "model-trim",
-                        "start": 25,
-                        "value": "Telluride S FWD"
-                    }
-                ]
-            },
-            {
-                "text": "i want to get a 2018 optima",
-                "intent": "inventory",
-                "entities": [
-                    {
-                        "end": 20,
-                        "entity": "model-year",
-                        "start": 16,
-                        "value": "2018"
-                    },
-                    {
-                        "end": 27,
-                        "entity": "model",
-                        "start": 21,
-                        "value": "optima"
-                    }
-                ]
-            },
-            {
-                "text": "is there a 2011 all electric nitro in inventory",
-                "intent": "inventory",
-                "entities": [
-                    {
-                        "end": 15,
-                        "entity": "model-year",
-                        "start": 11,
-                        "value": "2011"
-                    },
-                    {
-                        "end": 34,
-                        "entity": "model",
-                        "start": 16,
-                        "value": "niro ev"
-                    }
-                ]
-            },
-            {
-                "text": "do you have 2020 Forte EX IVT in stock",
-                "intent": "inventory",
-                "entities": [
-                    {
-                        "end": 16,
-                        "entity": "model-year",
-                        "start": 12,
-                        "value": "2020"
-                    },
-                    {
-                        "end": 29,
-                        "entity": "model-trim",
-                        "start": 17,
-                        "value": "Forte EX IVT"
-                    }
-                ]
-            },
-            {
-                "text": "do you have 2021 Sorento S V6 FWD in stock",
-                "intent": "inventory",
-                "entities": [
-                    {
-                        "end": 16,
-                        "entity": "model-year",
-                        "start": 12,
-                        "value": "2021"
-                    },
-                    {
-                        "end": 33,
-                        "entity": "model-trim",
-                        "start": 17,
-                        "value": "Sorento S V6 FWD"
-                    }
-                ]
-            },
-            {
-                "text": "i want to get a 2012 Sedona L",
-                "intent": "inventory",
-                "entities": [
-                    {
-                        "end": 20,
-                        "entity": "model-year",
-                        "start": 16,
-                        "value": "2012"
-                    },
-                    {
-                        "end": 29,
-                        "entity": "model-trim",
-                        "start": 21,
-                        "value": "Sedona L"
-                    }
-                ]
-            },
-            {
-                "text": "i want to find a 2010 Sedona SX near me",
-                "intent": "inventory",
-                "entities": [
-                    {
-                        "end": 21,
-                        "entity": "model-year",
-                        "start": 17,
-                        "value": "2010"
-                    },
-                    {
-                        "end": 31,
-                        "entity": "model-trim",
-                        "start": 22,
-                        "value": "Sedona SX"
-                    }
-                ]
-            },
-            {
-                "text": "any 7 passenger car has rear seat aircon",
-                "intent": "list.models",
-                "entities": [
-                    {
-                        "end": 15,
-                        "entity": "seater",
-                        "start": 4,
-                        "value": "7 seater"
-                    }
-                ]
-            },
-            {
-                "text": "howdy does kia have eight seater active head restraints and rear seat aircon",
-                "intent": "list.models",
-                "entities": [
-                    {
-                        "end": 14,
-                        "entity": "make",
-                        "start": 11,
-                        "value": "kia"
-                    },
-                    {
-                        "end": 32,
-                        "entity": "seater",
-                        "start": 20,
-                        "value": "8 seater"
-                    }
-                ]
-            },
-            {
-                "text": "does kias sell cross overs",
-                "intent": "list.models",
-                "entities": [
-                    {
-                        "end": 9,
-                        "entity": "make",
-                        "start": 5,
-                        "value": "kia"
-                    },
-                    {
-                        "end": 26,
-                        "entity": "bodystyle",
-                        "start": 15,
-                        "value": "crossover"
-                    }
-                ]
-            },
-            {
-                "text": "does kia have 2 door",
-                "intent": "list.models",
-                "entities": [
-                    {
-                        "end": 8,
-                        "entity": "make",
-                        "start": 5,
-                        "value": "kia"
-                    },
-                    {
-                        "end": 20,
-                        "entity": "bodystyle",
-                        "start": 14,
-                        "value": "coupe"
-                    }
-                ]
-            },
-            {
-                "text": "does kia make a cabriolet",
-                "intent": "list.models",
-                "entities": [
-                    {
-                        "end": 8,
-                        "entity": "make",
-                        "start": 5,
-                        "value": "kia"
-                    },
-                    {
-                        "end": 25,
-                        "entity": "bodystyle",
-                        "start": 16,
-                        "value": "convertible"
-                    }
-                ]
-            },
-            {
-                "text": "what is the price of the optima",
-                "intent": "request.price",
-                "entities": [
-                    {
-                        "end": 31,
-                        "entity": "model",
-                        "start": 25,
-                        "value": "optima"
-                    }
-                ]
-            },
-            {
-                "text": "what is the price of the rio 4-door",
-                "intent": "request.price",
-                "entities": [
-                    {
-                        "end": 35,
-                        "entity": "model",
-                        "start": 25,
-                        "value": "rio"
-                    }
-                ]
-            },
-            {
-                "text": "what is the top of the line niro plugin",
-                "intent": "list.trims",
-                "entities": [
-                    {
-                        "end": 39,
-                        "entity": "model",
-                        "start": 28,
-                        "value": "niro ev"
-                    }
-                ]
-            },
-            {
-                "text": "whats engine options are available for 2021 plug-in niro",
-                "intent": "list.trims.indicator",
-                "entities": [
-                    {
-                        "end": 43,
-                        "entity": "model-year",
-                        "start": 39,
-                        "value": "2021"
-                    },
-                    {
-                        "end": 56,
-                        "entity": "model",
-                        "start": 44,
-                        "value": "niro ev"
-                    }
-                ]
-            },
-            {
-                "text": "which is engine options are available for 2013 Stinger GT2 AWD",
-                "intent": "list.trims.indicator",
-                "entities": [
-                    {
-                        "end": 46,
-                        "entity": "model-year",
-                        "start": 42,
-                        "value": "2013"
-                    },
-                    {
-                        "end": 62,
-                        "entity": "model-trim",
-                        "start": 47,
-                        "value": "Stinger GT2 AWD"
-                    }
-                ]
-            },
-            {
-                "text": "engine on 2013 Soul EX",
-                "intent": "request.spec",
-                "entities": [
-                    {
-                        "end": 14,
-                        "entity": "model-year",
-                        "start": 10,
-                        "value": "2013"
-                    },
-                    {
-                        "end": 22,
-                        "entity": "model-trim",
-                        "start": 15,
-                        "value": "Soul EX"
-                    }
-                ]
-            },
-            {
-                "text": "any six seater car has blind spot accident warning system",
-                "intent": "list.models",
-                "entities": [
-                    {
-                        "end": 14,
-                        "entity": "seater",
-                        "start": 4,
-                        "value": "6 seater"
-                    }
-                ]
-            },
-            {
-                "text": "any seven passenger sedans",
-                "intent": "list.models",
-                "entities": [
-                    {
-                        "end": 19,
-                        "entity": "seater",
-                        "start": 4,
-                        "value": "7 seater"
-                    },
-                    {
-                        "end": 26,
-                        "entity": "bodystyle",
-                        "start": 20,
-                        "value": "sedans"
-                    }
-                ]
-            },
-            {
-                "text": "any 6 seater vehicles",
-                "intent": "list.models",
-                "entities": [
-                    {
-                        "end": 12,
-                        "entity": "seater",
-                        "start": 4,
-                        "value": "6 seater"
-                    }
-                ]
-            },
-            {
-                "text": "hi does Kia have usb connection in six seater and collision alert system",
-                "intent": "list.models",
-                "entities": [
-                    {
-                        "end": 11,
-                        "entity": "make",
-                        "start": 8,
-                        "value": "kia"
-                    },
-                    {
-                        "end": 45,
-                        "entity": "seater",
-                        "start": 35,
-                        "value": "6 seater"
-                    }
-                ]
-            },
-            {
-                "text": "i need to find 8 seater wagon",
-                "intent": "list.models",
-                "entities": [
-                    {
-                        "end": 23,
-                        "entity": "seater",
-                        "start": 15,
-                        "value": "8 seater"
-                    },
-                    {
-                        "end": 29,
-                        "entity": "bodystyle",
-                        "start": 24,
-                        "value": "wagon"
-                    }
-                ]
-            },
-            {
-                "text": "i want to look at the Soul GT-Line where can i go see it",
-                "intent": "inventory",
-                "entities": [
-                    {
-                        "end": 34,
-                        "entity": "model-trim",
-                        "start": 22,
-                        "value": "Soul GT-Line"
-                    }
-                ]
-            },
-            {
-                "text": "i am looking for a hachback and i have a few questions",
-                "intent": "list.models.bodystyle",
-                "entities": [
-                    {
-                        "end": 27,
-                        "entity": "bodystyle",
-                        "start": 19,
-                        "value": "hatchback"
-                    }
-                ]
-            },
-            {
-                "text": "looking for a minivan",
-                "intent": "list.models.bodystyle",
-                "entities": [
-                    {
-                        "end": 21,
-                        "entity": "bodystyle",
-                        "start": 14,
-                        "value": "minivan"
-                    }
-                ]
-            },
-            {
-                "text": "i need to find station wagon",
-                "intent": "list.models.bodystyle",
-                "entities": [
-                    {
-                        "end": 28,
-                        "entity": "bodystyle",
-                        "start": 15,
-                        "value": "wagon"
-                    }
-                ]
-            },
-            {
-                "text": "im looking for crew cab from 12k to 12k",
-                "intent": "list.models.bodystyle",
-                "entities": [
-                    {
-                        "end": 23,
-                        "entity": "bodystyle",
-                        "start": 15,
-                        "value": "truck"
-                    }
-                ]
-            },
-            {
-                "text": "looking for a hatchback",
-                "intent": "list.models.bodystyle",
-                "entities": [
-                    {
-                        "end": 23,
-                        "entity": "bodystyle",
-                        "start": 14,
-                        "value": "hatchback"
-                    }
-                ]
-            },
-            {
-                "text": "does Kia make a station wagon",
-                "intent": "list.models.bodystyle",
-                "entities": [
-                    {
-                        "end": 8,
-                        "entity": "make",
-                        "start": 5,
-                        "value": "kia"
-                    },
-                    {
-                        "end": 29,
-                        "entity": "bodystyle",
-                        "start": 16,
-                        "value": "wagon"
-                    }
-                ]
-            },
-            {
-                "text": "does kias make a truck",
-                "intent": "list.models.bodystyle",
-                "entities": [
-                    {
-                        "end": 9,
-                        "entity": "make",
-                        "start": 5,
-                        "value": "kia"
-                    },
-                    {
-                        "end": 22,
-                        "entity": "bodystyle",
-                        "start": 17,
-                        "value": "truck"
-                    }
-                ]
-            },
-            {
-                "text": "is collision assist included on all 2014 nitro plug in",
-                "intent": "list.trims.optional",
-                "entities": [
-                    {
-                        "end": 40,
-                        "entity": "model-year",
-                        "start": 36,
-                        "value": "2014"
-                    },
-                    {
-                        "end": 54,
-                        "entity": "model",
-                        "start": 41,
-                        "value": "niro ev"
-                    }
-                ]
-            },
-            {
-                "text": "do all 2020 Sedona EX have a/c vent in back seat",
-                "intent": "list.trims.optional",
-                "entities": [
-                    {
-                        "end": 11,
-                        "entity": "model-year",
-                        "start": 7,
-                        "value": "2020"
-                    },
-                    {
-                        "end": 21,
-                        "entity": "model-trim",
-                        "start": 12,
-                        "value": "Sedona EX"
-                    }
-                ]
-            },
-            {
-                "text": "is sirius available on 2020 nitro plug in",
-                "intent": "list.trims.optional",
-                "entities": [
-                    {
-                        "end": 27,
-                        "entity": "model-year",
-                        "start": 23,
-                        "value": "2020"
-                    },
-                    {
-                        "end": 41,
-                        "entity": "model",
-                        "start": 28,
-                        "value": "niro ev"
-                    }
-                ]
-            },
-            {
-                "text": "im wondering can i get a accident alert system in a 2018 plug in nero",
-                "intent": "list.trims.optional",
-                "entities": [
-                    {
-                        "end": 56,
-                        "entity": "model-year",
-                        "start": 52,
-                        "value": "2018"
-                    },
-                    {
-                        "end": 69,
-                        "entity": "model",
-                        "start": 57,
-                        "value": "niro ev"
-                    }
-                ]
-            },
-            {
-                "text": "does the 2013 Telluride S AWD come with rear cross-traffic accident alarm",
-                "intent": "list.trims.optional",
-                "entities": [
-                    {
-                        "end": 13,
-                        "entity": "model-year",
-                        "start": 9,
-                        "value": "2013"
-                    },
-                    {
-                        "end": 29,
-                        "entity": "model-trim",
-                        "start": 14,
-                        "value": "Telluride S AWD"
-                    },
-                    {
-                        "end": 73,
-                        "entity": "specs",
-                        "start": 40,
-                        "value": "rear cross traffic alert"
-                    }
-                ]
-            },
-            {
-                "text": "is automatic breaks included on all 2020 Sportage LX AWD",
-                "intent": "list.trims.optional",
-                "entities": [
-                    {
-                        "end": 40,
-                        "entity": "model-year",
-                        "start": 36,
-                        "value": "2020"
-                    },
-                    {
-                        "end": 56,
-                        "entity": "model-trim",
-                        "start": 41,
-                        "value": "Sportage LX AWD"
-                    }
-                ]
-            },
-            {
-                "text": "i would like to know more about the 2015 nero plug in",
-                "intent": "list.trims",
-                "entities": [
-                    {
-                        "end": 40,
-                        "entity": "model-year",
-                        "start": 36,
-                        "value": "2015"
-                    },
-                    {
-                        "end": 53,
-                        "entity": "model",
-                        "start": 41,
-                        "value": "niro ev"
-                    }
-                ]
-            },
-            {
-                "text": "is the electric vehicle nero a five seater",
-                "intent": "request.spec",
-                "entities": [
-                    {
-                        "end": 28,
-                        "entity": "model",
-                        "start": 7,
-                        "value": "niro ev"
-                    },
-                    {
-                        "end": 42,
-                        "entity": "seater",
-                        "start": 31,
-                        "value": "5 seater"
-                    }
-                ]
-            },
-            {
-                "text": "how high off the ground is the 2011 forte",
-                "intent": "request.spec",
-                "entities": [
-                    {
-                        "end": 35,
-                        "entity": "model-year",
-                        "start": 31,
-                        "value": "2011"
-                    },
-                    {
-                        "end": 41,
-                        "entity": "model",
-                        "start": 36,
-                        "value": "forte"
-                    }
-                ]
-            },
-            {
-                "text": "do you have any cross overs",
-                "intent": "list.models.bodystyle",
-                "entities": [
-                    {
-                        "end": 26,
-                        "entity": "bodystyle",
-                        "start": 16,
-                        "value": "crossover"
-                    }
-                ]
-            },
-            {
-                "text": "i am interested in a phev 4 door",
-                "intent": "list.models.bodystyle",
-                "entities": [
-                    {
-                        "end": 32,
-                        "entity": "bodystyle",
-                        "start": 26,
-                        "value": "4 door"
-                    }
-                ]
-            },
-            {
-                "text": "does Kia make a sports car",
-                "intent": "list.models.bodystyle",
-                "entities": [
-                    {
-                        "end": 8,
-                        "entity": "make",
-                        "start": 5,
-                        "value": "kia"
-                    },
-                    {
-                        "end": 26,
-                        "entity": "bodystyle",
-                        "start": 16,
-                        "value": "sports car"
-                    }
-                ]
-            },
-            {
-                "text": "where is a dealer near north Minnesota",
-                "intent": "find.dealers",
-                "entities": [
-                    {
-                        "end": 38,
-                        "entity": "US state",
-                        "start": 29,
-                        "value": "Minnesota"
-                    }
-                ]
-            },
-            {
-                "text": "would you be able to tell me the local inventory for the area surrounding zip 76621 that would offer the front stabalizer in the 2018 Stinger GTS RWD",
-                "intent": "inventory",
-                "entities": [
-                    {
-                        "end": 83,
-                        "entity": "zipcode",
-                        "start": 78,
-                        "value": "76621"
-                    },
-                    {
-                        "end": 121,
-                        "entity": "specs",
-                        "start": 105,
-                        "value": "front stabilizer bar"
-                    },
-                    {
-                        "end": 133,
-                        "entity": "model-year",
-                        "start": 129,
-                        "value": "model-year"
-                    },
-                    {
-                        "end": 149,
-                        "entity": "model-trim",
-                        "start": 134,
-                        "value": "Stinger GTS RWD"
-                    }
-                ]
-            },
-            {
-                "text": "can i get the credenza in orange",
-                "intent": "request.spec.colors",
-                "entities": [
-                    {
-                        "end": 22,
-                        "entity": "model",
-                        "start": 14,
-                        "value": "cadenza"
-                    },
-                    {
-                        "end": 32,
-                        "entity": "color",
-                        "start": 26,
-                        "value": "orange"
-                    }
-                ]
-            },
-            {
-                "text": "I want to see more photos",
-                "intent": "request.images",
-                "entities": []
-            },
-            {
-                "text": "Do you have more photos of the car",
-                "intent": "request.images",
-                "entities": []
-            },
-            {
-                "text": "Can I see more images",
-                "intent": "request.images",
-                "entities": []
-            },
-            {
-                "text": "Are there more photos I can see",
-                "intent": "request.images",
-                "entities": []
-            },
-            {
-                "text": "Where can I find additional photos",
-                "intent": "request.images",
-                "entities": []
-            },
-            {
-                "text": "Does the website have more photos",
-                "intent": "request.images",
-                "entities": []
-            },
-            {
-                "text": "Do you have a link to see more photos of the car",
-                "intent": "request.images",
-                "entities": []
-            },
-            {
-                "text": "What does the car look like",
-                "intent": "request.images",
-                "entities": []
-            },
-            {
-                "text": "Can you show me the car",
-                "intent": "request.images",
-                "entities": []
-            },
-            {
-                "text": "I need to see the car before I choose",
-                "intent": "request.images",
-                "entities": []
-            },
-            {
-                "text": "My car needs service",
-                "intent": "request.service",
-                "entities": []
-            },
-            {
-                "text": "My Kia is due for maintenance",
-                "intent": "request.service",
-                "entities": []
-            },
-            {
-                "text": "I need to service my car",
-                "intent": "request.service",
-                "entities": []
-            },
-            {
-                "text": "Where can I service my car",
-                "intent": "request.service",
-                "entities": []
-            },
-            {
-                "text": "I need to bring my Kia in for maintenance",
-                "intent": "request.service",
-                "entities": []
-            },
-            {
-                "text": "How do I get my car serviced",
-                "intent": "request.service",
-                "entities": []
-            },
-            {
-                "text": "It says Im past due on maintenance",
-                "intent": "request.service",
-                "entities": []
-            },
-            {
-                "text": "Where can I find a place to service my car",
-                "intent": "request.service",
-                "entities": []
-            },
-            {
-                "text": "What is the closest place for car maintenance",
-                "intent": "request.service",
-                "entities": []
-            },
-            {
-                "text": "How often do I need to get my car serviced",
-                "intent": "request.service",
-                "entities": []
-            },
-            {
-                "text": "after booking how many days are required for delivery",
-                "intent": "order.leadTime",
-                "entities": []
-            },
-            {
-                "text": "after booking how much time it will take for delivery",
-                "intent": "order.leadTime",
-                "entities": []
-            },
-            {
-                "text": "how many days will take to deliver the car after booking",
-                "intent": "order.leadTime",
-                "entities": []
-            },
-            {
-                "text": "how many time to delivery after booking seltos htx mt",
-                "intent": "order.leadTime",
-                "entities": [
-                    {
-                        "start": 40,
-                        "end": 50,
-                        "value": "seltos htx",
-                        "entity": "model-trim"
-                    }
-                ]
-            },
-            {
-                "text": "how much time you will take to deliver my seltos htx if i book now",
-                "intent": "order.leadTime",
-                "entities": [
-                    {
-                        "start": 42,
-                        "end": 52,
-                        "value": "seltos htx",
-                        "entity": "model-trim"
-                    }
-                ]
-            },
-            {
-                "text": "waiting time after booking",
-                "intent": "order.leadTime",
-                "entities": []
-            },
-            {
-                "text": "what is the waiting time after booking kia seltos",
-                "intent": "order.leadTime",
-                "entities": [
-                    {
-                        "start": 43,
-                        "end": 49,
-                        "value": "seltos",
-                        "entity": "model"
-                    }
-                ]
-            },
-            {
-                "text": "what will be average waiting period if i now",
-                "intent": "order.leadTime",
-                "entities": []
-            },
-            {
-                "text": "whats the delivery time once the booking is made",
-                "intent": "order.leadTime",
-                "entities": []
-            },
-            {
-                "text": "whats time frame for the delivery after booking done",
-                "intent": "order.leadTime",
-                "entities": []
-            },
-            {
-                "text": "can i change color after online booking",
-                "intent": "order.change",
-                "entities": []
-            },
-            {
-                "text": "can i change the trim line if i have already booked",
-                "intent": "order.change",
-                "entities": []
-            },
-            {
-                "text": "hi want change the dealer of my pre booked seltos",
-                "intent": "order.change",
-                "entities": [
-                    {
-                        "start": 43,
-                        "end": 49,
-                        "value": "seltos",
-                        "entity": "model"
-                    }
-                ]
-            },
-            {
-                "text": "can i make changes to my car after i ordered",
-                "intent": "order.change",
-                "entities": []
-            },
-            {
-                "text": "how can i change colour for my booked seltos",
-                "intent": "order.change",
-                "entities": []
-            },
-            {
-                "text": "how to change trim in online booking",
-                "intent": "order.change",
-                "entities": []
-            },
-            {
-                "text": "want to change the location of my booking",
-                "intent": "order.change",
-                "entities": []
-            },
-            {
-                "text": "i want to cancel my booking",
-                "intent": "order.cancel",
-                "entities": []
-            },
-            {
-                "text": "cancel my order",
-                "intent": "order.cancel",
-                "entities": []
-            },
-            {
-                "text": "how do i cancel my booking",
-                "intent": "order.cancel",
-                "entities": []
-            },
-            {
-                "text": "what is procedure to cancel booking",
-                "intent": "order.cancel",
-                "entities": []
-            },
-            {
-                "text": "how to cancel prebooked",
-                "intent": "order.cancel",
-                "entities": []
-            },
-            {
-                "text": "can i cancel a preorder",
-                "intent": "order.cancel",
-                "entities": []
-            },
-            {
-                "text": "how to cancel online booking",
-                "intent": "order.cancel",
-                "entities": []
-            },
-            {
-                "text": "checking on the status of my order",
-                "intent": "order.status",
-                "entities": []
-            },
-            {
-                "text": "how can i check the status of my booking",
-                "intent": "order.status",
-                "entities": []
-            },
-            {
-                "text": "how to find booking status",
-                "intent": "order.status",
-                "entities": []
-            },
-            {
-                "text": "what is the status of my booking",
-                "intent": "order.status",
-                "entities": []
-            },
-            {
-                "text": "can you tell me the status of booking id b0127",
-                "intent": "order.status",
-                "entities": []
-            },
-            {
-                "text": "i have already booked and want to know the delivery date",
-                "intent": "order.status",
-                "entities": []
-            },
-            {
-                "text": "want to know about the status of my booking",
-                "intent": "order.status",
-                "entities": []
-            },
-            {
-                "text": "get an update on my order",
-                "intent": "order.status",
-                "entities": []
-            },
-            {
-                "text": "i have a question about the status of my ordered",
-                "intent": "order.status",
-                "entities": []
-            },
-            {
-                "text": "already booked when will i get my seltos",
-                "intent": "order.status",
-                "entities": [
-                    {
-                        "start": 34,
-                        "end": 40,
-                        "value": "seltos",
-                        "entity": "model"
-                    }
-                ]
-            },
-            {
-                "text": "i want to preorder the seltos",
-                "intent": "order.general",
-                "entities": [
-                    {
-                        "start": 23,
-                        "end": 29,
-                        "value": "seltos",
-                        "entity": "model"
-                    }
-                ]
-            },
-            {
-                "text": "book online",
-                "intent": "order.general",
-                "entities": []
-            },
-            {
-                "text": "how can i prebook the carnival",
-                "intent": "order.general",
-                "entities": [
-                    {
-                        "start": 22,
-                        "end": 30,
-                        "value": "carnival",
-                        "entity": "model"
-                    }
-                ]
-            },
-            {
-                "text": "when can i prebook the seltos",
-                "intent": "order.general",
-                "entities": [
-                    {
-                        "start": 23,
-                        "end": 29,
-                        "value": "seltos",
-                        "entity": "model"
-                    }
-                ]
-            },
-            {
-                "text": "i want to book the seltos online",
-                "intent": "order.general",
-                "entities": []
-            },
-            {
-                "text": "how to preorder online",
-                "intent": "order.general",
-                "entities": []
-            },
-            {
-                "text": "i want to prebook a seltos online",
-                "intent": "order.general",
-                "entities": [
-                    {
-                        "start": 20,
-                        "end": 26,
-                        "value": "seltos",
-                        "entity": "model"
-                    }
-                ]
-            },
-            {
-                "text": "when will the telluride be available for prebooking",
-                "intent": "order.general",
-                "entities": []
-            },
-            {
-                "text": "how do i pre book a seltos",
-                "intent": "order.general",
-                "entities": [
-                    {
-                        "start": 20,
-                        "end": 26,
-                        "value": "seltos",
-                        "entity": "model"
-                    }
-                ]
-            },
-            {
-                "text": "can i preorder the seltos gtx",
-                "intent": "order.general",
-                "entities": [
-                    {
-                        "start": 19,
-                        "end": 29,
-                        "value": "seltos gtx",
-                        "entity": "model-trim"
-                    }
-                ]
-            },
-            {
-                "text": "I want to see more photos",
-                "intent": "request.images",
-                "entities": []
-            },
-            {
-                "text": "Do you have more photos of the car",
-                "intent": "request.images",
-                "entities": []
-            },
-            {
-                "text": "Can I see more images",
-                "intent": "request.images",
-                "entities": []
-            },
-            {
-                "text": "Are there more photos I can see",
-                "intent": "request.images",
-                "entities": []
-            },
-            {
-                "text": "Where can I find additional photos",
-                "intent": "request.images",
-                "entities": []
-            },
-            {
-                "text": "Does the website have more photos",
-                "intent": "request.images",
-                "entities": []
-            },
-            {
-                "text": "Do you have a link to see more photos of the car",
-                "intent": "request.images",
-                "entities": []
-            },
-            {
-                "text": "What does the car look like",
-                "intent": "request.images",
-                "entities": []
-            },
-            {
-                "text": "Can you show me the car",
-                "intent": "request.images",
-                "entities": []
-            },
-            {
-                "text": "I need to see the car before I choose",
-                "intent": "request.images",
-                "entities": []
-            },
-            {
-                "text": "My car needs service",
-                "intent": "request.service",
-                "entities": []
-            },
-            {
-                "text": "My Kia is due for maintenance",
-                "intent": "request.service",
-                "entities": []
-            },
-            {
-                "text": "I need to service my car",
-                "intent": "request.service",
-                "entities": []
-            },
-            {
-                "text": "Where can I service my car",
-                "intent": "request.service",
-                "entities": []
-            },
-            {
-                "text": "I need to bring my Kia in for maintenance",
-                "intent": "request.service",
-                "entities": []
-            },
-            {
-                "text": "How do I get my car serviced",
-                "intent": "request.service",
-                "entities": []
-            },
-            {
-                "text": "It says Im past due on maintenance",
-                "intent": "request.service",
-                "entities": []
-            },
-            {
-                "text": "Where can I find a place to service my car",
-                "intent": "request.service",
-                "entities": []
-            },
-            {
-                "text": "What is the closest place for car maintenance",
-                "intent": "request.service",
-                "entities": []
-            },
-            {
-                "text": "How often do I need to get my car serviced",
-                "intent": "request.service",
-                "entities": []
-              },
-              {
-                "text": "get a quote",
-                "intent": "request.quote",
-                "entities": []
-              },
-              {
-                "text": "request a quote",
-                "intent": "request.quote",
-                "entities": []
-              },
-              {
-                "text": "can i get a quote for telluride",
-                "intent": "request.quote",
-                "entities": [
-                  {
-                    "start": 22,
-                    "end": 31,
-                    "value": "telluride",
-                    "entity": "model-trim"
-                  }
-                ]
-              },
-              {
-                "text": "can i get a quote",
-                "intent": "request.quote",
-                "entities": []
-              },
-              {
-                "text": "could you please give me a quote",
-                "intent": "request.quote",
-                "entities": []
-              },
-              {
-                "text": "need quote on seltos",
-                "intent": "request.quote",
-                "entities": [
-                  {
-                    "start": 14,
-                    "end": 20,
-                    "value": "seltos",
-                    "entity": "model-trim"
-                  }
-                ]
-              },
-              {
-                "text": "need to get quote for telluride",
-                "intent": "request.quote",
-                "entities": [
-                  {
-                    "start": 22,
-                    "end": 31,
-                    "value": "telluride",
-                    "entity": "model-trim"
-                  }
-                ]
-              },
-              {
-                "text": "what is the on road price",
-                "intent": "request.quote",
-                "entities": []
-              },
-              {
-                "text": "optima on road price",
-                "intent": "request.quote",
-                "entities": []
-              },
-              {
-                "text": "can i get the on road price",
-                "intent": "request.quote",
-                "entities": []
-              },
-              {
-                "text": "kia seltos on road price",
-                "intent": "request.quote",
-                "entities": [
-                  {
-                    "start": 0,
-                    "end": 3,
-                    "value": "kia",
-                    "entity": "make"
-                  },
-                  {
-                    "start": 4,
-                    "end": 10,
-                    "value": "seltos",
-                    "entity": "model-trim"
-                  }
-                ]
-              },
-              {
-                "text": "on road price of kia carnival",
-                "intent": "request.quote",
-                "entities": [
-                  {
-                    "start": 17,
-                    "end": 20,
-                    "value": "kia",
-                    "entity": "make"
-                  },
-                  {
-                    "start": 21,
-                    "end": 29,
-                    "value": "carnival",
-                    "entity": "model-trim"
-                  }
-                ]
-             },
-             {
-                "text": "on road price",
-                "intent": "request.quote",
-                "entities": []
-            },
-            {
-                "text": "sedona images",
-                "intent": "request.images",
-                "entities": [
-                    {
-                        "start": 0,
-                        "end": 6,
-                        "value": "sedona",
-                        "entity": "model"
-                    }
-                ]
-            },
-                    {
-                      "text": "human now",
-                      "intent": "basics.request_handover",
-                      "entities": []
-                    },
-                    {
-                      "text": "get me in touch with a person",
-                      "intent": "basics.request_handover",
-                      "entities": []
-                    },
-                    {
-                      "text": "human needed",
-                      "intent": "basics.request_handover",
-                      "entities": []
-                    },
-                    {
-                      "text": "I'd like to speak to a human",
-                      "intent": "basics.request_handover",
-                      "entities": []
-                    },
-                    {
-                      "text": "I want to speak to a real person",
-                      "intent": "basics.request_handover",
-                      "entities": []
-                    },
-                    {
-                      "text": "you are chatbot",
-                      "intent": "chitchat.are_you_a_robot",
-                      "entities": []
-                    },
-                    {
-                      "text": "are you a chatbot",
-                      "intent": "chitchat.are_you_a_robot",
-                      "entities": []
-                    },
-                    {
-                      "text": "are you just a bot",
-                      "intent": "chitchat.are_you_a_robot",
-                      "entities": []
-                    },
-                    {
-                      "text": "you are a bot",
-                      "intent": "chitchat.are_you_a_robot",
-                      "entities": []
-                    },
-                    {
-                      "text": "are you a bot",
-                      "intent": "chitchat.are_you_a_robot",
-                      "entities": []
-                    },
-                    {
-                      "text": "are you a robot",
-                      "intent": "chitchat.are_you_a_robot",
-                      "entities": []
-                    },
-                    {
-                      "text": "are you a program",
-                      "intent": "chitchat.are_you_a_robot",
-                      "entities": []
-                    },
-                    {
-                      "text": "you're a robot",
-                      "intent": "chitchat.are_you_a_robot",
-                      "entities": []
-                    },
-                    {
-                      "text": "where's your house",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "your city",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "where you live",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "your town",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "were you born here",
-                      "intent": "chitchat.where_were_you_born",
-                      "entities": []
-                    },
-                    {
-                      "text": "where were you born",
-                      "intent": "chitchat.where_were_you_born",
-                      "entities": []
-                    },
-                    {
-                      "text": "where did you come from",
-                      "intent": "chitchat.where_were_you_born",
-                      "entities": []
-                    },
-                    {
-                      "text": "what is your country",
-                      "intent": "chitchat.where_were_you_born",
-                      "entities": []
-                    },
-                    {
-                      "text": "where are you from",
-                      "intent": "chitchat.where_were_you_born",
-                      "entities": []
-                    },
-                    {
-                      "text": "where do you come from",
-                      "intent": "chitchat.where_were_you_born",
-                      "entities": []
-                    },
-                    {
-                      "text": "where have you been born",
-                      "intent": "chitchat.where_were_you_born",
-                      "entities": []
-                    },
-                    {
-                      "text": "from where are you",
-                      "intent": "chitchat.where_were_you_born",
-                      "entities": []
-                    },
-                    {
-                      "text": "are you from far aways",
-                      "intent": "chitchat.where_were_you_born",
-                      "entities": []
-                    },
-                    {
-                      "text": "what's your homeland",
-                      "intent": "chitchat.where_were_you_born",
-                      "entities": []
-                    },
-                    {
-                      "text": "your homeland is",
-                      "intent": "chitchat.where_were_you_born",
-                      "entities": []
-                    },
-                    {
-                      "text": "where do you live",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "in which city do you live",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "your residence",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "your house",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "your home",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "your hometown",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "what is your hometown",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "what is your city",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "is it your hometown",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "where is your hometown",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "tell me about your city",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "what is your residence",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "what is your town",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "where's your hometown",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "what's your city",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "what's your home",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "where is your home",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "where is your residence",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "where's your home",
-                      "intent": "chitchat.where_do_you_live",
-                      "entities": []
-                    },
-                    {
-                      "text": "You are an idiot",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "You are a moron",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "jerk",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "prick",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "You're an asshole!",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "son of a bitch",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "idiot",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "son of a bitch",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "dumbass",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "dumb ass",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "cocksucker",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "jackass",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "asshole",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "asswipe",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "asshat",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "shit",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "dickhead",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "motherfucker",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "ass",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "idiot",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "bastard",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "I want to speak to a human",
-                      "intent": "basics.request_handover",
-                      "entities": []
-                    },
-                    {
-                      "text": "Fuck you!",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "Use your brain ass!",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "You're dumb!!",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "prig",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "schmuck",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "good evening",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "good evening to you",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "hey good evening",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "hello good evening",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "evening",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "good evening there",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "long time no see",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "hello",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "hi",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "howdy",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "hey there",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "hey",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "greetings",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "I greet you",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "hi there",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "hello there",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "lovely day isn't it",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "hello again",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "just going to say hi",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "hi there",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "a good day",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "afternoon",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "hello hi",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "heya",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "good morning",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "good morning to you",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "hello good morning",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "have a nice morning",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "have a great morning",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "morning",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "good morning there",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "top of the morning to you",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "a good morning",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "good morning to you",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "hi good morning",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "and a good morning to you",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "good morning too",
-                      "intent": "chitchat.greet",
-                      "entities": []
-                    },
-                    {
-                      "text": "how is your morning so far",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how are you getting on",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how's your day going",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how are you",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "is everything all right",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how are you doing",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how are the things going",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "are you alright",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "are you okay",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how are you feeling",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how are you going",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "is everything okay",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how are you today",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how do you do",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how do you feel",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how have you been",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how is it",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how is it going",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how is your day",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how is your day going",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how is your evening",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how was your day",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "are you having a good day",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "hope your day is going well",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "hope you re having a pleasant eve",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how's life",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "I'm fine and you",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how is your life",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how has your day been",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how is your morning going",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how has your day been going",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how about you",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how is your day being",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how is your day going on",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how your day is going",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "what was your day like",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "what about your day",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how's your day",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how are you doing this morning",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "how is your day going",
-                      "intent": "chitchat.how_are_you",
-                      "entities": []
-                    },
-                    {
-                      "text": "fuck you",
-                      "intent": "chitchat.insults",
-                      "entities": []
-                    },
-                    {
-                      "text": "agent",
-                      "intent": "basics.request_handover",
-                      "entities": []
-                    },
-                    {
-                      "text": "I want to flirt with you?",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    },
-                    {
-                      "text": "I want to exchange some nice words with you",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    },
-                    {
-                      "text": "I wanna sex you",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    },
-                    {
-                      "text": "I want to have sex with you",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    },
-                    {
-                      "text": "do you do doggy",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    },
-                    {
-                      "text": "can you have sex?",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    },
-                    {
-                      "text": "I want to touch your boobs",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    },
-                    {
-                      "text": "I want to lick you",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    },
-                    {
-                      "text": "I want to kiss your ass",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    },
-                    {
-                      "text": "I want to fuck you",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    },
-                    {
-                      "text": "can you do a sex tape with me?",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    },
-                    {
-                      "text": "Are you gay?",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    },
-                    {
-                      "text": "Are you lesbian?",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    },
-                    {
-                      "text": "Are you trans?",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    },
-                    {
-                      "text": "Do you have tits?",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    },
-                    {
-                      "text": "How cute is your pussy?",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    },
-                    {
-                      "text": "I want your big dick in me!",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    },
-                    {
-                      "text": "i wanna lick your dick",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    },
-                    {
-                      "text": "I wanna lick your pussy.",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    },
-                    {
-                      "text": "Can you have sex with me?",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    },
-                    {
-                      "text": "Can we have a trisome?",
-                      "intent": "chitchat.sex",
-                      "entities": []
-                    }
-                  
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "is the 2021 optima hybrid available now",
+        "intent": "availability",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "model-year",
+            "start": 7,
+            "value": "2021"
+          },
+          {
+            "end": 25,
+            "entity": "model",
+            "start": 12,
+            "value": "optima hybrid"
+          }
         ]
-    }
+      },
+      {
+        "text": "when does the 2021 optima plug-in hybrid come out",
+        "intent": "availability",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "model-year",
+            "start": 14,
+            "value": "2021"
+          },
+          {
+            "end": 40,
+            "entity": "model",
+            "start": 19,
+            "value": "optima plug-in hybrid"
+          }
+        ]
+      },
+      {
+        "text": "i want to know when the niro plug in is on the market",
+        "intent": "availability",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "model",
+            "start": 24,
+            "value": "niro ev"
+          }
+        ]
+      },
+      {
+        "text": "are the new rio five door at the dealer already",
+        "intent": "availability",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "model",
+            "start": 12,
+            "value": "rio 5-door"
+          }
+        ]
+      },
+      {
+        "text": "when will the 2021 rio be released",
+        "intent": "availability",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "model-year",
+            "start": 14,
+            "value": "2021"
+          },
+          {
+            "end": 22,
+            "entity": "model",
+            "start": 19,
+            "value": "rio"
+          }
+        ]
+      },
+      {
+        "text": "any 2021 niro plug in hybrid available yet",
+        "intent": "availability",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "model-year",
+            "start": 4,
+            "value": "2021"
+          },
+          {
+            "end": 28,
+            "entity": "model",
+            "start": 9,
+            "value": "niro plug-in hybrid"
+          }
+        ]
+      },
+      {
+        "text": "i want to know when the cadenzas is on the market",
+        "intent": "availability",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "model",
+            "start": 24,
+            "value": "cadenza"
+          }
+        ]
+      },
+      {
+        "text": "any idea when the k 900 will start showing up in dealerships",
+        "intent": "availability",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "model",
+            "start": 18,
+            "value": "k900"
+          }
+        ]
+      },
+      {
+        "text": "are 2021 niros at the dealer already",
+        "intent": "availability",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "model-year",
+            "start": 4,
+            "value": "2021"
+          },
+          {
+            "end": 14,
+            "entity": "model",
+            "start": 9,
+            "value": "niro"
+          }
+        ]
+      },
+      {
+        "text": "any idea when the niro plugin is launching",
+        "intent": "availability",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "model",
+            "start": 18,
+            "value": "niro ev"
+          }
+        ]
+      },
+      {
+        "text": "i am have a question about the new plug-in niro when will you have them in stock",
+        "intent": "availability",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "model",
+            "start": 35,
+            "value": "niro ev"
+          }
+        ]
+      },
+      {
+        "text": "want to know what the difference are in the different types of optima phev",
+        "intent": "compare",
+        "entities": [
+          {
+            "end": 73,
+            "entity": "model",
+            "start": 62,
+            "value": "optima plug-in hybrid"
+          }
+        ]
+      },
+      {
+        "text": "what car has have more features? the Sportage or Stinger",
+        "intent": "compare",
+        "entities": [
+          {
+            "end": 66,
+            "entity": "model",
+            "start": 52,
+            "value": "Sportage"
+          },
+          {
+            "end": 81,
+            "entity": "model",
+            "start": 70,
+            "value": "Stinger"
+          }
+        ]
+      },
+      {
+        "text": "can you send me my nearest dealer",
+        "intent": "find.dealers",
+        "entities": []
+      },
+      {
+        "text": "where can i find a dealership",
+        "intent": "find.dealers",
+        "entities": []
+      },
+      {
+        "text": "dealer in 20606",
+        "intent": "find.dealers",
+        "entities": []
+      },
+      {
+        "text": "where is the nearest kia dealership",
+        "intent": "find.dealers",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "make",
+            "start": 21,
+            "value": "kia"
+          }
+        ]
+      },
+      {
+        "text": "Kia dealers near me",
+        "intent": "find.dealers",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "make",
+            "start": 0,
+            "value": "kia"
+          }
+        ]
+      },
+      {
+        "text": "2018 Telluride LX AWD inventory",
+        "intent": "inventory",
+        "entities": [
+          {
+            "end": 4,
+            "entity": "model-year",
+            "start": 0,
+            "value": "2018"
+          },
+          {
+            "end": 21,
+            "entity": "model-trim",
+            "start": 5,
+            "value": "Telluride LX AWD"
+          }
+        ]
+      },
+      {
+        "text": "i want to find a 2019 rio near me",
+        "intent": "inventory",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "model-year",
+            "start": 17,
+            "value": "2019"
+          },
+          {
+            "end": 25,
+            "entity": "model",
+            "start": 22,
+            "value": "rio"
+          }
+        ]
+      },
+      {
+        "text": "hello looking for Telluride S AWD",
+        "intent": "inventory",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "model-trim",
+            "start": 18,
+            "value": "Telluride S AWD"
+          }
+        ]
+      },
+      {
+        "text": "new car inventory",
+        "intent": "inventory",
+        "entities": []
+      },
+      {
+        "text": "search inventory",
+        "intent": "inventory",
+        "entities": []
+      },
+      {
+        "text": "i want to look at the 2017 plug-in nero where can i go see it",
+        "intent": "inventory",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "model-year",
+            "start": 22,
+            "value": "2017"
+          },
+          {
+            "end": 39,
+            "entity": "model",
+            "start": 27,
+            "value": "niro ev"
+          }
+        ]
+      },
+      {
+        "text": "i want to see 2013 Stinger GTS RWD inventory with prices",
+        "intent": "inventory",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "model-year",
+            "start": 14,
+            "value": "2013"
+          },
+          {
+            "end": 34,
+            "entity": "model-trim",
+            "start": 19,
+            "value": "Stinger GTS RWD"
+          }
+        ]
+      },
+      {
+        "text": "i want to look at the telluride 2010 rio sedan",
+        "intent": "inventory",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "model-year",
+            "start": 32,
+            "value": "2010"
+          },
+          {
+            "end": 46,
+            "entity": "model",
+            "start": 37,
+            "value": "rio"
+          }
+        ]
+      },
+      {
+        "text": "do you have 2013 rio 4-dr in stock",
+        "intent": "inventory",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "model-year",
+            "start": 12,
+            "value": "2013"
+          },
+          {
+            "end": 25,
+            "entity": "model",
+            "start": 17,
+            "value": "rio"
+          }
+        ]
+      },
+      {
+        "text": "where can i go look at the 2010 k900s in state-location",
+        "intent": "inventory",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "model-year",
+            "start": 27,
+            "value": "2010"
+          },
+          {
+            "end": 37,
+            "entity": "model",
+            "start": 32,
+            "value": "k900"
+          }
+        ]
+      },
+      {
+        "text": "looking for kai inventory",
+        "intent": "inventory",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "make",
+            "start": 12,
+            "value": "kia"
+          }
+        ]
+      },
+      {
+        "text": "i want to get a 2019 all electric niro",
+        "intent": "inventory",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "model-year",
+            "start": 16,
+            "value": "2019"
+          },
+          {
+            "end": 38,
+            "entity": "model",
+            "start": 21,
+            "value": "niro ev"
+          }
+        ]
+      },
+      {
+        "text": "dealer near me with 2013 Telluride S FWD",
+        "intent": "inventory",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "model-year",
+            "start": 20,
+            "value": "2013"
+          },
+          {
+            "end": 40,
+            "entity": "model-trim",
+            "start": 25,
+            "value": "Telluride S FWD"
+          }
+        ]
+      },
+      {
+        "text": "i want to get a 2018 optima",
+        "intent": "inventory",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "model-year",
+            "start": 16,
+            "value": "2018"
+          },
+          {
+            "end": 27,
+            "entity": "model",
+            "start": 21,
+            "value": "optima"
+          }
+        ]
+      },
+      {
+        "text": "is there a 2011 all electric nitro in inventory",
+        "intent": "inventory",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "model-year",
+            "start": 11,
+            "value": "2011"
+          },
+          {
+            "end": 34,
+            "entity": "model",
+            "start": 16,
+            "value": "niro ev"
+          }
+        ]
+      },
+      {
+        "text": "do you have 2020 Forte EX IVT in stock",
+        "intent": "inventory",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "model-year",
+            "start": 12,
+            "value": "2020"
+          },
+          {
+            "end": 29,
+            "entity": "model-trim",
+            "start": 17,
+            "value": "Forte EX IVT"
+          }
+        ]
+      },
+      {
+        "text": "do you have 2021 Sorento S V6 FWD in stock",
+        "intent": "inventory",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "model-year",
+            "start": 12,
+            "value": "2021"
+          },
+          {
+            "end": 33,
+            "entity": "model-trim",
+            "start": 17,
+            "value": "Sorento S V6 FWD"
+          }
+        ]
+      },
+      {
+        "text": "i want to get a 2012 Sedona L",
+        "intent": "inventory",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "model-year",
+            "start": 16,
+            "value": "2012"
+          },
+          {
+            "end": 29,
+            "entity": "model-trim",
+            "start": 21,
+            "value": "Sedona L"
+          }
+        ]
+      },
+      {
+        "text": "i want to find a 2010 Sedona SX near me",
+        "intent": "inventory",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "model-year",
+            "start": 17,
+            "value": "2010"
+          },
+          {
+            "end": 31,
+            "entity": "model-trim",
+            "start": 22,
+            "value": "Sedona SX"
+          }
+        ]
+      },
+      {
+        "text": "any 7 passenger car has rear seat aircon",
+        "intent": "list.models",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "seater",
+            "start": 4,
+            "value": "7 seater"
+          }
+        ]
+      },
+      {
+        "text": "howdy does kia have eight seater active head restraints and rear seat aircon",
+        "intent": "list.models",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "make",
+            "start": 11,
+            "value": "kia"
+          },
+          {
+            "end": 32,
+            "entity": "seater",
+            "start": 20,
+            "value": "8 seater"
+          }
+        ]
+      },
+      {
+        "text": "does kias sell cross overs",
+        "intent": "list.models",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "make",
+            "start": 5,
+            "value": "kia"
+          },
+          {
+            "end": 26,
+            "entity": "bodystyle",
+            "start": 15,
+            "value": "crossover"
+          }
+        ]
+      },
+      {
+        "text": "does kia have 2 door",
+        "intent": "list.models",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "make",
+            "start": 5,
+            "value": "kia"
+          },
+          {
+            "end": 20,
+            "entity": "bodystyle",
+            "start": 14,
+            "value": "coupe"
+          }
+        ]
+      },
+      {
+        "text": "does kia make a cabriolet",
+        "intent": "list.models",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "make",
+            "start": 5,
+            "value": "kia"
+          },
+          {
+            "end": 25,
+            "entity": "bodystyle",
+            "start": 16,
+            "value": "convertible"
+          }
+        ]
+      },
+      {
+        "text": "what is the price of the optima",
+        "intent": "request.price",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "model",
+            "start": 25,
+            "value": "optima"
+          }
+        ]
+      },
+      {
+        "text": "what is the price of the rio 4-door",
+        "intent": "request.price",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "model",
+            "start": 25,
+            "value": "rio"
+          }
+        ]
+      },
+      {
+        "text": "what is the top of the line niro plugin",
+        "intent": "list.trims",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "model",
+            "start": 28,
+            "value": "niro ev"
+          }
+        ]
+      },
+      {
+        "text": "whats engine options are available for 2021 plug-in niro",
+        "intent": "list.trims.indicator",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "model-year",
+            "start": 39,
+            "value": "2021"
+          },
+          {
+            "end": 56,
+            "entity": "model",
+            "start": 44,
+            "value": "niro ev"
+          }
+        ]
+      },
+      {
+        "text": "which is engine options are available for 2013 Stinger GT2 AWD",
+        "intent": "list.trims.indicator",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "model-year",
+            "start": 42,
+            "value": "2013"
+          },
+          {
+            "end": 62,
+            "entity": "model-trim",
+            "start": 47,
+            "value": "Stinger GT2 AWD"
+          }
+        ]
+      },
+      {
+        "text": "engine on 2013 Soul EX",
+        "intent": "request.spec",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "model-year",
+            "start": 10,
+            "value": "2013"
+          },
+          {
+            "end": 22,
+            "entity": "model-trim",
+            "start": 15,
+            "value": "Soul EX"
+          }
+        ]
+      },
+      {
+        "text": "any six seater car has blind spot accident warning system",
+        "intent": "list.models",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "seater",
+            "start": 4,
+            "value": "6 seater"
+          }
+        ]
+      },
+      {
+        "text": "any seven passenger sedans",
+        "intent": "list.models",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "seater",
+            "start": 4,
+            "value": "7 seater"
+          },
+          {
+            "end": 26,
+            "entity": "bodystyle",
+            "start": 20,
+            "value": "sedans"
+          }
+        ]
+      },
+      {
+        "text": "any 6 seater vehicles",
+        "intent": "list.models",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "seater",
+            "start": 4,
+            "value": "6 seater"
+          }
+        ]
+      },
+      {
+        "text": "hi does Kia have usb connection in six seater and collision alert system",
+        "intent": "list.models",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "make",
+            "start": 8,
+            "value": "kia"
+          },
+          {
+            "end": 45,
+            "entity": "seater",
+            "start": 35,
+            "value": "6 seater"
+          }
+        ]
+      },
+      {
+        "text": "i need to find 8 seater wagon",
+        "intent": "list.models",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "seater",
+            "start": 15,
+            "value": "8 seater"
+          },
+          {
+            "end": 29,
+            "entity": "bodystyle",
+            "start": 24,
+            "value": "wagon"
+          }
+        ]
+      },
+      {
+        "text": "i want to look at the Soul GT-Line where can i go see it",
+        "intent": "inventory",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "model-trim",
+            "start": 22,
+            "value": "Soul GT-Line"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a hachback and i have a few questions",
+        "intent": "list.models.bodystyle",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "bodystyle",
+            "start": 19,
+            "value": "hatchback"
+          }
+        ]
+      },
+      {
+        "text": "looking for a minivan",
+        "intent": "list.models.bodystyle",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "bodystyle",
+            "start": 14,
+            "value": "minivan"
+          }
+        ]
+      },
+      {
+        "text": "i need to find station wagon",
+        "intent": "list.models.bodystyle",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "bodystyle",
+            "start": 15,
+            "value": "wagon"
+          }
+        ]
+      },
+      {
+        "text": "im looking for crew cab from 12k to 12k",
+        "intent": "list.models.bodystyle",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "bodystyle",
+            "start": 15,
+            "value": "truck"
+          }
+        ]
+      },
+      {
+        "text": "looking for a hatchback",
+        "intent": "list.models.bodystyle",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "bodystyle",
+            "start": 14,
+            "value": "hatchback"
+          }
+        ]
+      },
+      {
+        "text": "does Kia make a station wagon",
+        "intent": "list.models.bodystyle",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "make",
+            "start": 5,
+            "value": "kia"
+          },
+          {
+            "end": 29,
+            "entity": "bodystyle",
+            "start": 16,
+            "value": "wagon"
+          }
+        ]
+      },
+      {
+        "text": "does kias make a truck",
+        "intent": "list.models.bodystyle",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "make",
+            "start": 5,
+            "value": "kia"
+          },
+          {
+            "end": 22,
+            "entity": "bodystyle",
+            "start": 17,
+            "value": "truck"
+          }
+        ]
+      },
+      {
+        "text": "is collision assist included on all 2014 nitro plug in",
+        "intent": "list.trims.optional",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "model-year",
+            "start": 36,
+            "value": "2014"
+          },
+          {
+            "end": 54,
+            "entity": "model",
+            "start": 41,
+            "value": "niro ev"
+          }
+        ]
+      },
+      {
+        "text": "do all 2020 Sedona EX have a/c vent in back seat",
+        "intent": "list.trims.optional",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "model-year",
+            "start": 7,
+            "value": "2020"
+          },
+          {
+            "end": 21,
+            "entity": "model-trim",
+            "start": 12,
+            "value": "Sedona EX"
+          }
+        ]
+      },
+      {
+        "text": "is sirius available on 2020 nitro plug in",
+        "intent": "list.trims.optional",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "model-year",
+            "start": 23,
+            "value": "2020"
+          },
+          {
+            "end": 41,
+            "entity": "model",
+            "start": 28,
+            "value": "niro ev"
+          }
+        ]
+      },
+      {
+        "text": "im wondering can i get a accident alert system in a 2018 plug in nero",
+        "intent": "list.trims.optional",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "model-year",
+            "start": 52,
+            "value": "2018"
+          },
+          {
+            "end": 69,
+            "entity": "model",
+            "start": 57,
+            "value": "niro ev"
+          }
+        ]
+      },
+      {
+        "text": "does the 2013 Telluride S AWD come with rear cross-traffic accident alarm",
+        "intent": "list.trims.optional",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "model-year",
+            "start": 9,
+            "value": "2013"
+          },
+          {
+            "end": 29,
+            "entity": "model-trim",
+            "start": 14,
+            "value": "Telluride S AWD"
+          },
+          {
+            "end": 73,
+            "entity": "specs",
+            "start": 40,
+            "value": "rear cross traffic alert"
+          }
+        ]
+      },
+      {
+        "text": "is automatic breaks included on all 2020 Sportage LX AWD",
+        "intent": "list.trims.optional",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "model-year",
+            "start": 36,
+            "value": "2020"
+          },
+          {
+            "end": 56,
+            "entity": "model-trim",
+            "start": 41,
+            "value": "Sportage LX AWD"
+          }
+        ]
+      },
+      {
+        "text": "i would like to know more about the 2015 nero plug in",
+        "intent": "list.trims",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "model-year",
+            "start": 36,
+            "value": "2015"
+          },
+          {
+            "end": 53,
+            "entity": "model",
+            "start": 41,
+            "value": "niro ev"
+          }
+        ]
+      },
+      {
+        "text": "is the electric vehicle nero a five seater",
+        "intent": "request.spec",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "model",
+            "start": 7,
+            "value": "niro ev"
+          },
+          {
+            "end": 42,
+            "entity": "seater",
+            "start": 31,
+            "value": "5 seater"
+          }
+        ]
+      },
+      {
+        "text": "how high off the ground is the 2011 forte",
+        "intent": "request.spec",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "model-year",
+            "start": 31,
+            "value": "2011"
+          },
+          {
+            "end": 41,
+            "entity": "model",
+            "start": 36,
+            "value": "forte"
+          }
+        ]
+      },
+      {
+        "text": "do you have any cross overs",
+        "intent": "list.models.bodystyle",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "bodystyle",
+            "start": 16,
+            "value": "crossover"
+          }
+        ]
+      },
+      {
+        "text": "i am interested in a phev 4 door",
+        "intent": "list.models.bodystyle",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "bodystyle",
+            "start": 26,
+            "value": "4 door"
+          }
+        ]
+      },
+      {
+        "text": "does Kia make a sports car",
+        "intent": "list.models.bodystyle",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "make",
+            "start": 5,
+            "value": "kia"
+          },
+          {
+            "end": 26,
+            "entity": "bodystyle",
+            "start": 16,
+            "value": "sports car"
+          }
+        ]
+      },
+      {
+        "text": "where is a dealer near north Minnesota",
+        "intent": "find.dealers",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "US state",
+            "start": 29,
+            "value": "Minnesota"
+          }
+        ]
+      },
+      {
+        "text": "would you be able to tell me the local inventory for the area surrounding zip 76621 that would offer the front stabalizer in the 2018 Stinger GTS RWD",
+        "intent": "inventory",
+        "entities": [
+          {
+            "end": 83,
+            "entity": "zipcode",
+            "start": 78,
+            "value": "76621"
+          },
+          {
+            "end": 121,
+            "entity": "specs",
+            "start": 105,
+            "value": "front stabilizer bar"
+          },
+          {
+            "end": 133,
+            "entity": "model-year",
+            "start": 129,
+            "value": "model-year"
+          },
+          {
+            "end": 149,
+            "entity": "model-trim",
+            "start": 134,
+            "value": "Stinger GTS RWD"
+          }
+        ]
+      },
+      {
+        "text": "can i get the credenza in orange",
+        "intent": "request.spec.colors",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "model",
+            "start": 14,
+            "value": "cadenza"
+          },
+          {
+            "end": 32,
+            "entity": "color",
+            "start": 26,
+            "value": "orange"
+          }
+        ]
+      },
+      {
+        "text": "I want to see more photos",
+        "intent": "request.images",
+        "entities": []
+      },
+      {
+        "text": "Do you have more photos of the car",
+        "intent": "request.images",
+        "entities": []
+      },
+      {
+        "text": "Can I see more images",
+        "intent": "request.images",
+        "entities": []
+      },
+      {
+        "text": "Are there more photos I can see",
+        "intent": "request.images",
+        "entities": []
+      },
+      {
+        "text": "Where can I find additional photos",
+        "intent": "request.images",
+        "entities": []
+      },
+      {
+        "text": "Does the website have more photos",
+        "intent": "request.images",
+        "entities": []
+      },
+      {
+        "text": "Do you have a link to see more photos of the car",
+        "intent": "request.images",
+        "entities": []
+      },
+      {
+        "text": "What does the car look like",
+        "intent": "request.images",
+        "entities": []
+      },
+      {
+        "text": "Can you show me the car",
+        "intent": "request.images",
+        "entities": []
+      },
+      {
+        "text": "I need to see the car before I choose",
+        "intent": "request.images",
+        "entities": []
+      },
+      {
+        "text": "My car needs service",
+        "intent": "request.service",
+        "entities": []
+      },
+      {
+        "text": "My Kia is due for maintenance",
+        "intent": "request.service",
+        "entities": []
+      },
+      {
+        "text": "I need to service my car",
+        "intent": "request.service",
+        "entities": []
+      },
+      {
+        "text": "Where can I service my car",
+        "intent": "request.service",
+        "entities": []
+      },
+      {
+        "text": "I need to bring my Kia in for maintenance",
+        "intent": "request.service",
+        "entities": []
+      },
+      {
+        "text": "How do I get my car serviced",
+        "intent": "request.service",
+        "entities": []
+      },
+      {
+        "text": "It says Im past due on maintenance",
+        "intent": "request.service",
+        "entities": []
+      },
+      {
+        "text": "Where can I find a place to service my car",
+        "intent": "request.service",
+        "entities": []
+      },
+      {
+        "text": "What is the closest place for car maintenance",
+        "intent": "request.service",
+        "entities": []
+      },
+      {
+        "text": "How often do I need to get my car serviced",
+        "intent": "request.service",
+        "entities": []
+      },
+      {
+        "text": "after booking how many days are required for delivery",
+        "intent": "order.leadTime",
+        "entities": []
+      },
+      {
+        "text": "after booking how much time it will take for delivery",
+        "intent": "order.leadTime",
+        "entities": []
+      },
+      {
+        "text": "how many days will take to deliver the car after booking",
+        "intent": "order.leadTime",
+        "entities": []
+      },
+      {
+        "text": "how many time to delivery after booking seltos htx mt",
+        "intent": "order.leadTime",
+        "entities": [
+          {
+            "start": 40,
+            "end": 50,
+            "value": "seltos htx",
+            "entity": "model-trim"
+          }
+        ]
+      },
+      {
+        "text": "how much time you will take to deliver my seltos htx if i book now",
+        "intent": "order.leadTime",
+        "entities": [
+          {
+            "start": 42,
+            "end": 52,
+            "value": "seltos htx",
+            "entity": "model-trim"
+          }
+        ]
+      },
+      {
+        "text": "waiting time after booking",
+        "intent": "order.leadTime",
+        "entities": []
+      },
+      {
+        "text": "what is the waiting time after booking kia seltos",
+        "intent": "order.leadTime",
+        "entities": [
+          {
+            "start": 43,
+            "end": 49,
+            "value": "seltos",
+            "entity": "model"
+          }
+        ]
+      },
+      {
+        "text": "what will be average waiting period if i now",
+        "intent": "order.leadTime",
+        "entities": []
+      },
+      {
+        "text": "whats the delivery time once the booking is made",
+        "intent": "order.leadTime",
+        "entities": []
+      },
+      {
+        "text": "whats time frame for the delivery after booking done",
+        "intent": "order.leadTime",
+        "entities": []
+      },
+      {
+        "text": "can i change color after online booking",
+        "intent": "order.change",
+        "entities": []
+      },
+      {
+        "text": "can i change the trim line if i have already booked",
+        "intent": "order.change",
+        "entities": []
+      },
+      {
+        "text": "hi want change the dealer of my pre booked seltos",
+        "intent": "order.change",
+        "entities": [
+          {
+            "start": 43,
+            "end": 49,
+            "value": "seltos",
+            "entity": "model"
+          }
+        ]
+      },
+      {
+        "text": "can i make changes to my car after i ordered",
+        "intent": "order.change",
+        "entities": []
+      },
+      {
+        "text": "how can i change colour for my booked seltos",
+        "intent": "order.change",
+        "entities": []
+      },
+      {
+        "text": "how to change trim in online booking",
+        "intent": "order.change",
+        "entities": []
+      },
+      {
+        "text": "want to change the location of my booking",
+        "intent": "order.change",
+        "entities": []
+      },
+      {
+        "text": "i want to cancel my booking",
+        "intent": "order.cancel",
+        "entities": []
+      },
+      {
+        "text": "cancel my order",
+        "intent": "order.cancel",
+        "entities": []
+      },
+      {
+        "text": "how do i cancel my booking",
+        "intent": "order.cancel",
+        "entities": []
+      },
+      {
+        "text": "what is procedure to cancel booking",
+        "intent": "order.cancel",
+        "entities": []
+      },
+      {
+        "text": "how to cancel prebooked",
+        "intent": "order.cancel",
+        "entities": []
+      },
+      {
+        "text": "can i cancel a preorder",
+        "intent": "order.cancel",
+        "entities": []
+      },
+      {
+        "text": "how to cancel online booking",
+        "intent": "order.cancel",
+        "entities": []
+      },
+      {
+        "text": "checking on the status of my order",
+        "intent": "order.status",
+        "entities": []
+      },
+      {
+        "text": "how can i check the status of my booking",
+        "intent": "order.status",
+        "entities": []
+      },
+      {
+        "text": "how to find booking status",
+        "intent": "order.status",
+        "entities": []
+      },
+      {
+        "text": "what is the status of my booking",
+        "intent": "order.status",
+        "entities": []
+      },
+      {
+        "text": "can you tell me the status of booking id b0127",
+        "intent": "order.status",
+        "entities": []
+      },
+      {
+        "text": "i have already booked and want to know the delivery date",
+        "intent": "order.status",
+        "entities": []
+      },
+      {
+        "text": "want to know about the status of my booking",
+        "intent": "order.status",
+        "entities": []
+      },
+      {
+        "text": "get an update on my order",
+        "intent": "order.status",
+        "entities": []
+      },
+      {
+        "text": "i have a question about the status of my ordered",
+        "intent": "order.status",
+        "entities": []
+      },
+      {
+        "text": "already booked when will i get my seltos",
+        "intent": "order.status",
+        "entities": [
+          {
+            "start": 34,
+            "end": 40,
+            "value": "seltos",
+            "entity": "model"
+          }
+        ]
+      },
+      {
+        "text": "i want to preorder the seltos",
+        "intent": "order.general",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "seltos",
+            "entity": "model"
+          }
+        ]
+      },
+      {
+        "text": "book online",
+        "intent": "order.general",
+        "entities": []
+      },
+      {
+        "text": "how can i prebook the carnival",
+        "intent": "order.general",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "carnival",
+            "entity": "model"
+          }
+        ]
+      },
+      {
+        "text": "when can i prebook the seltos",
+        "intent": "order.general",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "seltos",
+            "entity": "model"
+          }
+        ]
+      },
+      {
+        "text": "i want to book the seltos online",
+        "intent": "order.general",
+        "entities": []
+      },
+      {
+        "text": "how to preorder online",
+        "intent": "order.general",
+        "entities": []
+      },
+      {
+        "text": "i want to prebook a seltos online",
+        "intent": "order.general",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "seltos",
+            "entity": "model"
+          }
+        ]
+      },
+      {
+        "text": "when will the telluride be available for prebooking",
+        "intent": "order.general",
+        "entities": []
+      },
+      {
+        "text": "how do i pre book a seltos",
+        "intent": "order.general",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "seltos",
+            "entity": "model"
+          }
+        ]
+      },
+      {
+        "text": "can i preorder the seltos gtx",
+        "intent": "order.general",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "seltos gtx",
+            "entity": "model-trim"
+          }
+        ]
+      },
+      {
+        "text": "I want to see more photos",
+        "intent": "request.images",
+        "entities": []
+      },
+      {
+        "text": "Do you have more photos of the car",
+        "intent": "request.images",
+        "entities": []
+      },
+      {
+        "text": "Can I see more images",
+        "intent": "request.images",
+        "entities": []
+      },
+      {
+        "text": "Are there more photos I can see",
+        "intent": "request.images",
+        "entities": []
+      },
+      {
+        "text": "Where can I find additional photos",
+        "intent": "request.images",
+        "entities": []
+      },
+      {
+        "text": "Does the website have more photos",
+        "intent": "request.images",
+        "entities": []
+      },
+      {
+        "text": "Do you have a link to see more photos of the car",
+        "intent": "request.images",
+        "entities": []
+      },
+      {
+        "text": "What does the car look like",
+        "intent": "request.images",
+        "entities": []
+      },
+      {
+        "text": "Can you show me the car",
+        "intent": "request.images",
+        "entities": []
+      },
+      {
+        "text": "I need to see the car before I choose",
+        "intent": "request.images",
+        "entities": []
+      },
+      {
+        "text": "My car needs service",
+        "intent": "request.service",
+        "entities": []
+      },
+      {
+        "text": "My Kia is due for maintenance",
+        "intent": "request.service",
+        "entities": []
+      },
+      {
+        "text": "I need to service my car",
+        "intent": "request.service",
+        "entities": []
+      },
+      {
+        "text": "Where can I service my car",
+        "intent": "request.service",
+        "entities": []
+      },
+      {
+        "text": "I need to bring my Kia in for maintenance",
+        "intent": "request.service",
+        "entities": []
+      },
+      {
+        "text": "How do I get my car serviced",
+        "intent": "request.service",
+        "entities": []
+      },
+      {
+        "text": "It says Im past due on maintenance",
+        "intent": "request.service",
+        "entities": []
+      },
+      {
+        "text": "Where can I find a place to service my car",
+        "intent": "request.service",
+        "entities": []
+      },
+      {
+        "text": "What is the closest place for car maintenance",
+        "intent": "request.service",
+        "entities": []
+      },
+      {
+        "text": "How often do I need to get my car serviced",
+        "intent": "request.service",
+        "entities": []
+      },
+      {
+        "text": "get a quote",
+        "intent": "request.quote",
+        "entities": []
+      },
+      {
+        "text": "request a quote",
+        "intent": "request.quote",
+        "entities": []
+      },
+      {
+        "text": "can i get a quote for telluride",
+        "intent": "request.quote",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "telluride",
+            "entity": "model-trim"
+          }
+        ]
+      },
+      {
+        "text": "can i get a quote",
+        "intent": "request.quote",
+        "entities": []
+      },
+      {
+        "text": "could you please give me a quote",
+        "intent": "request.quote",
+        "entities": []
+      },
+      {
+        "text": "need quote on seltos",
+        "intent": "request.quote",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "seltos",
+            "entity": "model-trim"
+          }
+        ]
+      },
+      {
+        "text": "need to get quote for telluride",
+        "intent": "request.quote",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "telluride",
+            "entity": "model-trim"
+          }
+        ]
+      },
+      {
+        "text": "what is the on road price",
+        "intent": "request.quote",
+        "entities": []
+      },
+      {
+        "text": "optima on road price",
+        "intent": "request.quote",
+        "entities": []
+      },
+      {
+        "text": "can i get the on road price",
+        "intent": "request.quote",
+        "entities": []
+      },
+      {
+        "text": "kia seltos on road price",
+        "intent": "request.quote",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "kia",
+            "entity": "make"
+          },
+          {
+            "start": 4,
+            "end": 10,
+            "value": "seltos",
+            "entity": "model-trim"
+          }
+        ]
+      },
+      {
+        "text": "on road price of kia carnival",
+        "intent": "request.quote",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "kia",
+            "entity": "make"
+          },
+          {
+            "start": 21,
+            "end": 29,
+            "value": "carnival",
+            "entity": "model-trim"
+          }
+        ]
+      },
+      {
+        "text": "on road price",
+        "intent": "request.quote",
+        "entities": []
+      },
+      {
+        "text": "sedona images",
+        "intent": "request.images",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "sedona",
+            "entity": "model"
+          }
+        ]
+      },
+      {
+        "text": "you are a computer",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "are you a human",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "are you a real person",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "am i talking to a computer",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "am i talking to a bot or a person",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "who am i talking to",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "who is this",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "you cant be a human",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "there is no way you are a person",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "what am i talking to right now",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "am i speaking with a robot or a person",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "is this a live person or a computer",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "is this a robot or a real person",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "i know you are a computer",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "who am i speaking with",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "wait you are not a person are you",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "am i really talking to a chatbot",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "am i really talking to a person",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "are you a live chat representative",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "are you a chat rep",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "are you a live customer service agent",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "is this a customer service agent",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "human now",
+        "intent": "basics.request_handover",
+        "entities": []
+      },
+      {
+        "text": "get me in touch with a person",
+        "intent": "basics.request_handover",
+        "entities": []
+      },
+      {
+        "text": "human needed",
+        "intent": "basics.request_handover",
+        "entities": []
+      },
+      {
+        "text": "I'd like to speak to a human",
+        "intent": "basics.request_handover",
+        "entities": []
+      },
+      {
+        "text": "I want to speak to a real person",
+        "intent": "basics.request_handover",
+        "entities": []
+      },
+      {
+        "text": "you are chatbot",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "are you a chatbot",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "are you just a bot",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "you are a bot",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "are you a bot",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "are you a robot",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "are you a program",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "you're a robot",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
+        "text": "where's your house",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "your city",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "where you live",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "your town",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "were you born here",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "where were you born",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "where did you come from",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "what is your country",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "where are you from",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "where do you come from",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "where have you been born",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "from where are you",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "are you from far aways",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "what's your homeland",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "your homeland is",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "where do you live",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "in which city do you live",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "your residence",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "your house",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "your home",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "your hometown",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "what is your hometown",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "what is your city",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "is it your hometown",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "where is your hometown",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "tell me about your city",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "what is your residence",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "what is your town",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "where's your hometown",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "what's your city",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "what's your home",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "where is your home",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "where is your residence",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "where's your home",
+        "intent": "smallTalk.bot_origin",
+        "entities": []
+      },
+      {
+        "text": "You are an idiot",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "You are a moron",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "jerk",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "prick",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "You're an asshole!",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "son of a bitch",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "idiot",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "son of a bitch",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "dumbass",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "dumb ass",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "cocksucker",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "jackass",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "asshole",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "asswipe",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "asshat",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "shit",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "dickhead",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "motherfucker",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "ass",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "idiot",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "bastard",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "I want to speak to a human",
+        "intent": "basics.request_handover",
+        "entities": []
+      },
+      {
+        "text": "Fuck you!",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "Use your brain ass!",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "You're dumb!!",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "prig",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "schmuck",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "good evening to you",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "hey good evening",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "hello good evening",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "evening",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "good evening there",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "long time no see",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "hey",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "greetings",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "I greet you",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "hi there",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "hello there",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "lovely day isn't it",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "hello again",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "just going to say hi",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "hi there",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "a good day",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "afternoon",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "hello hi",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "heya",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "good morning to you",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "hello good morning",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "have a nice morning",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "have a great morning",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "morning",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "good morning there",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "top of the morning to you",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "a good morning",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "good morning to you",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "hi good morning",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "and a good morning to you",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "good morning too",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how is your morning so far",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how are you getting on",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how's your day going",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how are you",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "is everything all right",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how are you doing",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how are the things going",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "are you alright",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "are you okay",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how are you feeling",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how are you going",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "is everything okay",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how are you today",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how do you do",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how do you feel",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how have you been",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how is it",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how is it going",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how is your day",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how is your day going",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how is your evening",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how was your day",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "are you having a good day",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "hope your day is going well",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "hope you re having a pleasant eve",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how's life",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "I'm fine and you",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how is your life",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how has your day been",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how is your morning going",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how has your day been going",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how about you",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how is your day being",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how is your day going on",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how your day is going",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "what was your day like",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "what about your day",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how's your day",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how are you doing this morning",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "how is your day going",
+        "intent": "smallTalk.greet",
+        "entities": []
+      },
+      {
+        "text": "fuck you",
+        "intent": "smallTalk.insults",
+        "entities": []
+      },
+      {
+        "text": "agent",
+        "intent": "basics.request_handover",
+        "entities": []
+      },
+      {
+        "text": "I want to flirt with you?",
+        "intent": "smallTalk.sex",
+        "entities": []
+      },
+      {
+        "text": "I want to exchange some nice words with you",
+        "intent": "smallTalk.sex",
+        "entities": []
+      },
+      {
+        "text": "I wanna sex you",
+        "intent": "smallTalk.sex",
+        "entities": []
+      },
+      {
+        "text": "I want to have sex with you",
+        "intent": "smallTalk.sex",
+        "entities": []
+      },
+      {
+        "text": "do you do doggy",
+        "intent": "smallTalk.sex",
+        "entities": []
+      },
+      {
+        "text": "can you have sex?",
+        "intent": "smallTalk.sex",
+        "entities": []
+      },
+      {
+        "text": "I want to touch your boobs",
+        "intent": "smallTalk.sex",
+        "entities": []
+      },
+      {
+        "text": "I want to lick you",
+        "intent": "smallTalk.sex",
+        "entities": []
+      },
+      {
+        "text": "I want to kiss your ass",
+        "intent": "smallTalk.sex",
+        "entities": []
+      },
+      {
+        "text": "I want to fuck you",
+        "intent": "smallTalk.sex",
+        "entities": []
+      },
+      {
+        "text": "can you do a sex tape with me?",
+        "intent": "smallTalk.sex",
+        "entities": []
+      },
+      {
+        "text": "Are you gay?",
+        "intent": "smallTalk.sex",
+        "entities": []
+      },
+      {
+        "text": "Are you lesbian?",
+        "intent": "smallTalk.sex",
+        "entities": []
+      },
+      {
+        "text": "Are you trans?",
+        "intent": "smallTalk.sex",
+        "entities": []
+      },
+      {
+        "text": "Do you have tits?",
+        "intent": "smallTalk.sex",
+        "entities": []
+      },
+      {
+        "text": "How cute is your pussy?",
+        "intent": "smallTalk.sex",
+        "entities": []
+      },
+      {
+        "text": "I want your big dick in me!",
+        "intent": "smallTalk.sex",
+        "entities": []
+      },
+      {
+        "text": "i wanna lick your dick",
+        "intent": "smallTalk.sex",
+        "entities": []
+      },
+      {
+        "text": "I wanna lick your pussy.",
+        "intent": "smallTalk.sex",
+        "entities": []
+      },
+      {
+        "text": "Can you have sex with me?",
+        "intent": "smallTalk.sex",
+        "entities": []
+      },
+      {
+        "text": "Can we have a trisome?",
+        "intent": "smallTalk.sex",
+        "entities": []
+      }
+    ]
+  }
 }
