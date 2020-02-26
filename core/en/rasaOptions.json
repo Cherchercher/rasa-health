@@ -118,6 +118,11 @@
         "entities": []
       },
       {
+        "text": "you can't be a human",
+        "intent": "smallTalk.are_you_a_robot",
+        "entities": []
+      },
+      {
         "text": "there is no way you are a person",
         "intent": "smallTalk.are_you_a_robot",
         "entities": []

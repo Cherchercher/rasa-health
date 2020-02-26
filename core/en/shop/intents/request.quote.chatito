@@ -1,45 +1,51 @@
 import ../../common.chatito
+import ../entities/tax.chatito
+import ../entities/attributes.chatito
 
-%[request.quote]('training': '250', 'distribution': 'even')
-    get ~[a quote]
-    request ~[a quote]
-    ~[a quote] for ~[a-an-the?] ~[model]
-    ~[greeting?] can i get ~[a quote] ~[for-on?] ~[model]
-    ~[model] ~[a quote]
-    get ~[a quote] ~[for-on?] ~[model]
-    ~[greeting?] i would like ~[a quote] ~[for-on?] ~[model?]
-    ~[greeting?] i am interested in getting ~[a quote] ~[for-on?] ~[model?]
-    ~[a quote] ~[for-of?] ~[model]
-    ~[greeting?] on road price in ~[location-india]]
-    ~[greeting?] i want to know the on road price ~[for-on?] ~[model?] ~[in?] ~[location-india]
-    ~[greeting?] i am interested in getting ~[a quote] ~[for-on?] ~[model?]
-    ~[what] the on road price ~[for-on?] ~[model?] 
-    ~[greeting?] can i get a ~[a quote]
+%[request.quote]('training': '500', 'distribution': 'even')
+    get ~[quote]
+    request ~[quote]
+    ~[quote] for ~[a-an-the?] ~[model]
+    ~[greeting?] can i get ~[quote] ~[for-on?] ~[model]
+    ~[model] ~[quote]
+    get ~[quote] ~[for-on?] ~[model]
+    ~[greeting?] i would like ~[quote] ~[for-on?] ~[model?]
+    ~[greeting?] i am interested in getting ~[quote] ~[for-on?] ~[model?]
+    ~[quote] ~[for-of?] ~[model]
+    ~[greeting?] ~[quote] in ~[location-india]
+    ~[greeting?] i want to know the ~[quote] ~[for-on?] ~[model?] ~[in?] ~[location-india]
+    ~[greeting?] i am interested in getting ~[quote] ~[for-on?] ~[model?]
+    ~[what] ~[quote] ~[for-on?] ~[model?] 
+    ~[greeting?] can i get a ~[quote]
     give me your best quote
-    could you please give me ~[a quote]
-    just want ~[a quote] with my options
+    ~[please] give me ~[quote]
+    just want ~[quote] with my options
     need to quote ~[model]
-    need ~[a quote] for ~[a-an-the?] ~[model]
-    ~[greeting?] would you be able to give me ~[a quote]
-    ~[greeting?] ~[i am] interested in getting ~[a quote] ~[for?] ~[model]
-    i know what i would like and i would like to get ~[a quote]
+    need ~[quote] for ~[a-an-the?] ~[model]
+    ~[greeting?] would you be able to give me ~[quote]
+    ~[greeting?] ~[i am] interested in getting ~[quote] ~[for?] ~[model]
+    i know what i would like and i would like to get ~[quote]
     i want quotes for ~[model]
     i was just trying to get a quote on the ~[model]
-    need ~[a quote] ~[for-on?] ~[model?]
+    need ~[quote] ~[for-on?] ~[model?]
     need to quote ~[the?] ~[model?]
-    what is the on road price for ~[model]
-    what is the on road price
+    what is the ~[quote] for ~[model]
+    what is the ~[quote]
+    what is @[tax] in the ~[quote]
+    @[make?] ~[model] ~[package?] ~[fuel?] ~[quote] ~[location?]
+    @[make?] ~[model] ~[fuel?] ~[package?] ~[quote] ~[location?]
+    ~[quote] @[seater]
+    ~[quote] for ~[model] @[make?]
+    ~[quote] ~[location]
+    ~[quote] ~[location] or ~[location]
 
 //locations in India
 ~[quote]
     quote
     price quote
+    road price
     on road price
-
-~[a quote]
-    a quote
-    a price quote
-    the on road price
+    on the road price
 
 ~[location-india]
     allahabad
@@ -52,3 +58,12 @@ import ../../common.chatito
 ~[preempt-quote]
     i was just trying to
     i would like a
+
+~[package]
+    high end
+    premium
+    basic
+    top end
+    top variant
+    limousine
+    full option
