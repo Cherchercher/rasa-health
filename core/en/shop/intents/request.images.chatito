@@ -12,11 +12,6 @@ import ../../common.chatito
     can you show me ~[the?] ~[model-car]
     ~[model-car] ~[photos]
 
-~[model-car]
-    *[5%] ~[car/cars]
-    *[5%] @[make] ~[model]
-    *[90%] ~[model]
-
 ~[for-the]
     ~[for-of] ~[the?]
 

@@ -43,6 +43,16 @@ import ../entities/specs.wheels.chatito
     any changes between the kia niro plugin ex from 2018 versus kia niro plugin ex 2019
     any changes for the optima in 2020 model year
 
+%[compare.overall.safety]('training': '200','distribution': 'even')
+    which one is the safest
+    which is the most safe
+    what is the safest car
+    best car for safety
+    which one is the safest
+    which one is safer
+    is it safer than ~[model]
+    is ~[model] safer than ~[model]
+
 //ways users refer to trims
 ~[trims]
     trims
