@@ -34,162 +34,162 @@
       },
       {
         "text": "you are chatbot",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "are you a chatbot",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "are you just a bot",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "you are a bot",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "are you a bot",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "are you a robot",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "are you a program",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "you're a robot",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "is this a real person",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "you are a computer",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "are you a human",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "are you a real person",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "am i talking to a computer",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "am i talking to a bot or a person",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "who am i talking to",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "who is this",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "you cant be a human",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "you can't be a human",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "there is no way you are a person",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "what am i talking to right now",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "am i speaking with a robot or a person",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "is this a live person or a computer",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "is this a robot or a real person",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "i know you are a computer",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "who am i speaking with",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "wait you are not a person are you",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "am i really talking to a chatbot",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "am i really talking to a person",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "are you a live chat representative",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "are you a chat rep",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "are you a live customer service agent",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
         "text": "is this a customer service agent",
-        "intent": "smallTalk.are_you_a_robot",
+        "intent": "smallTalk.bot_identity",
         "entities": []
       },
       {
