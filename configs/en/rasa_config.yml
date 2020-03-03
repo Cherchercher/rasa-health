@@ -5,6 +5,7 @@ importers:
 imports:
   - core/en/owner
   - core/en/shop
+  - core/en/faq
   - core/en/smallTalk
 pipeline:
   - name: tokenizer_whitespace

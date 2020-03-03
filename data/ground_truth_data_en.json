@@ -2766,6 +2766,51 @@
         "text": "Can we have a trisome?",
         "intent": "smallTalk.sex",
         "entities": []
+      },
+      {
+        "text": "I want to become a dealer fo kia",
+        "intent": "faq.dealerFranchise",
+        "entities": []
+      },
+      {
+        "text": "How do i become a dealer fo kia",
+        "intent": "faq.dealerFranchise",
+        "entities": []
+      },
+      {
+        "text": "does uvo connect on kia optima works for watch",
+        "intent": "uvo.support",
+        "entities": []
+      },
+      {
+        "text": "how does uvo work",
+        "intent": "uvo.support",
+        "entities": []
+      },
+      {
+        "text": "how do i update uvo",
+        "intent": "uvo.update",
+        "entities": []
+      },
+      {
+        "text": "i want to update uvo to latest version",
+        "intent": "uvo.update",
+        "entities": []
+      },
+      {
+        "text": "how do i connect to uvo",
+        "intent": "uvo.connect",
+        "entities": []
+      },
+      {
+        "text": "how do i connect to uvo",
+        "intent": "uvo.connect",
+        "entities": []
+      },
+      {
+        "text": "i have a complain about uvo",
+        "intent": "uvo.support",
+        "entities": []
       }
     ]
   }

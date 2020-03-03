@@ -71,6 +71,7 @@ Test the model with actual messages at the root of project directory `sh ./tests
     - list.models
     - list.trims
     - request.price
+    - request.quote: how much is it to drive the car out a shop
     - request.spec
     - whatis.spec
     - request.testDrive
@@ -80,6 +81,18 @@ Test the model with actual messages at the root of project directory `sh ./tests
     - order.cancel
     - order.change
     - order.leadTime
-      - SmallTalk - smallTalk.bot_identity - smallTalk.bot_origin - smallTalk.insults - smallTalk.greet - smallTalk.sex
+  - SmallTalk
+    - smallTalk.bot_identity
+    - smallTalk.bot_origin
+    - smallTalk.insults
+    - smallTalk.greet
+    - smallTalk.sex
+  - FAQs (TBD)
+    - faq.dealerFranchise.chatito
+    - uvo.general
+    - uvo.activate
+    - uvo.connectivity
+    - uvo.support
+    - uvo.update
 
 ### notes on specs
