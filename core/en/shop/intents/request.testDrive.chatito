@@ -1,7 +1,8 @@
 import ../../common.chatito
 import ../entities/locations.chatito
 
-%[request.testDrive]('training': '200', 'distribution': 'even')
+%[request.testDrive]('training': '250', 'distribution': 'even')
+    how does it drive
     ~[test drive]
     ~[schedule] ~[test drive]
     ~[want/need] ~[test drive]
