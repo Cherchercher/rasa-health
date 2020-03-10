@@ -1,23 +1,26 @@
 import ../../common.chatito
 import ../entities/attributes.chatito
-import ../entities/specs.cargo.chatito
-import ../entities/specs.fuelconsumption.chatito
+import ../entities/specs.chatito
 
 //this intent is to get a definite value for a specification
 //requesting the spec's value by matching the specs name or synonym
 //seeks [unknown entity value X] of [specified entity name E] as related to [specified model/trim Y]
 //seeks binary value of specified entity name as related to specified model/trim Y
-%[request.spec#yesno]('training': '250', 'distribution': 'even')
-    is the ~[model] ~[driven wheel]
-    is the @[model] a @[seater]
-    what is the range of the ~[ev-model]
-    what is the maximum range for a ~[model]
+%[request.spec#yesno]('training': '150', 'distribution': 'even')
+    is ~[the-it] ~[trim-only?] ~[driven wheel]
+    is ~[the-it] a @[seater]
+    is ~[the-it] ~[it-or-trim-only] a @[seater]
+    ~[what-is?] range of ~[it-or-trim-only]
+    ~[what-is?] maximum range for ~[it-or-trim-only]
     can it ~[tow capacity#canit]
 
-%[request.spec#whatvalue]('training': '250', 'distribution': 'even')
-    what is the ~[what is spec-value]
-    what is the ~[what is spec-value] ~[for-in-of-on] ~[a-an-the] ~[model]
-    what is the ~[model] ~[combined mpg#whatvalue]
+%[request.spec]('training': '400', 'distribution': 'even')
+    ~[what-is?] ~[what is spec-value]
+    ~[what-is?] ~[what is spec-value] ~[for-in-of-on] ~[a-an-the?] ~[it-or-trim-only]
+    ~[what-is?] ~[it-or-trim-only] ~[combined mpg#whatvalue]
+    ~[it-or-trim-only]
+    ~[quantify] ~[count-spec] ~[optional-specs] ~[it-or-trim-only] ~[have]
+    ~[specs]
 
 ~[what is spec-value]
     ~[towing capacity#whatvalue]
@@ -28,15 +31,15 @@ import ../entities/specs.fuelconsumption.chatito
     ~[combined mpg#whatvalue]
     ~[combined range]
 
+%[request.spec.groudClearance]('training': '50', 'distribution': 'even')
+    how far off the ground is ~[it-or-trim-only]
+    how far from ground to entry is ~[it-or-model-trim]
+    how far off the road is ~[it-or-trim-only]
+    how high off the ground is ~[it-or-trim-only]
+    what is the height of ~[it-or-trim-only]
+    ground clearance
 
-%[request.spec.count]('training': '50', 'distribution': 'even')
-    ~[quantify] ~[count-spec] ~[optional-specs] @[make] @[model-trim] ~[have]
-    how far off the ground is the ~[model]
-    how far from ground to entry is it
-    how far off the road is ~[model]
-    how high off the ground is the ~[model]
-
-%[request.spec.range]('training': '100', 'distribution': 'even')
+%[request.spec.range]('training': '150', 'distribution': 'even')
     how far can it go on the battery
     how far does a @[model] go on ~[battery-range]
     ~[the] @[model] goes how far on a ~[battery-range]
@@ -44,36 +47,48 @@ import ../entities/specs.fuelconsumption.chatito
     how far can it go on a ~[battery-range]
     how far can i drive the @[model] on ~[full charge]
     how far can i drive the @[model] before i need to charge it
-    how many miles can ~[model] go before you have to recharge
+    how many miles can ~[it-or-trim-only] go before you have to recharge
     how far on ev only
     how far can i drive with an ev @[model]
     how far does it go on a full charge
     How far can the @[model] go
     how far will it go on a full charge
-    ~[what] ~[the?] battery range on the ~[model]
+    ~[what] ~[the?] battery range on the ~[it-or-trim-only]
     how far can i drive with ~[atcl] @[model]
     how far on a charge can you go
     how far can you ~[battery-range]
     how many miles with full tank of gas and ~[battery-range]
 
+%[request.spec.mpg]('training': '100', 'distribution': 'even')
+    ~[what-is?] ~[mpg-spec] ~[of/for] the ~[it-or-trim-only]
 
-%[request.spec.mpg]('training': '50', 'distribution': 'even')
-    what is the ~[mpg-spec] ~[of/for] the ~[model]
-    what is the ~[mpg-spec] ~[of/for] the @[model]
-
-%[request.spec.colors]('training': '50', 'distribution': 'even')
-    can i get the @[model] in @[color]
-    ~[optional-specs] @[model] come in @[color]
+%[request.spec.colors]('training': '100')
+    can i get the ~[a-an-the] ~[it-or-trim-only] in @[color]
+    can i get the it in @[color]
+    does ~[optional-specs] it come in @[color]
+    does ~[optional-specs] ~[it-or-trim-only] come in @[color]
 
 %[request.spec#features]('training': '50', 'distribution': 'even')
-    what are the ~[safety] features
-    what are the technology features
-    what are the radio features
+    ~[what-is?] ~[safety] features
+    ~[what-is?] technology features
+    ~[what-is?] radio features
 
 ~[of-for]
     of
     for
 
+~[what-is]
+    what is the
+    what is
+    how it
+
+~[the-it]
+    it
+    the
+
+~[it-or-trim-only]
+    it
+    ~[a-an-the?] ~[trim-only]
 
 //the difference between request and list is the language the user uses to indicate a response type
 //request.spec is for definite values (including binaries, which are definite values)
