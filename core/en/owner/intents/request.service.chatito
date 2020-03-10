@@ -2,15 +2,15 @@ import ../../common.chatito
 
 
 %[request.service]('training': '300', 'distribution': 'even')
-    ~[my?] ~[car/cars] needs service
-    ~[my?] @[make?] ~[model?] is due for maintenance
-    need to service ~[my?] ~[car/cars]
-    where can I service ~[my?] ~[car/cars]
-    need to bring my @[make] in for maintenance
-    need to bring my ~[my?] @[make?] ~[model?] in for maintenance
-    how do I get my ~[car/cars] serviced
+    ~[my?] ~[model-car-1] needs service
+    ~[my?] ~[model-car-1] is due for maintenance
+    need to service ~[my?] ~[model-car-1]
+    where can I service ~[my?] ~[model-car-1]
+    need to bring my ~[model-car-1] in for maintenance
+    need to bring my ~[my?] ~[model-car-1] in for maintenance
+    how do I get my ~[model-car-1] serviced
     how do I get my ~[my?] @[make?] ~[model?] serviced
     it says ~[i-am] past due on maintenance
-    where can I find a place to service ~[my] ~[car/cars]
-    what is the closest place for ~[car/cars] maintenance
-    how often do I need to get ~[my?] ~[car/cars] serviced
+    where can I find a place to service ~[my] ~[model-car-1]
+    what is the closest place for ~[model-car-1] maintenance
+    how often do I need to get ~[my?] ~[model-car-1] serviced

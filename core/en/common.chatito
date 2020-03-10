@@ -35,6 +35,17 @@ import ./shop/entities/color.chatito
     ~[car]
     ~[cars]
 
+~[model-car]
+    *[5%] ~[car/s]
+    *[5%] @[make] ~[model]
+    *[90%] ~[model]
+
+//for maintainance, more general referrence to the cars
+~[model-car-1]
+    *[40%] ~[car/s]
+    *[40%] @[make] ~[model]
+    *[20%] ~[model]
+
 //ways users refer to trims
 ~[trim]
     trim

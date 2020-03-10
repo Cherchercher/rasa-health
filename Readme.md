@@ -1,12 +1,13 @@
 # Linguist
+
 This is the repo for the training data for the multilingual bot.
 Currently it supports training in Chinese, English and German. We are expanding its capacity to Spanish, and 8 other languages.
 
 ### Setup
+
 `pip install rasa-x --extra-index-url https://pypi.rasa.com/simple`
 
 `python setup.py install`
-
 
 ### Chinese NLP
 
@@ -23,7 +24,9 @@ Add proposed phrases with their corresponding intents and entities under `data/g
 Test the model at the root of project directory `sh ./tests/cn/test.sh`. Wrong classifications are listed in `result/intent_errors.json`.
 
 ### Germain NLP
+
 ### Pretrained Model
+
 https://deepset.ai/german-bert
 
 Install `python -m spacy download de_trf_bertbasecased_lg`
@@ -40,11 +43,10 @@ Add proposed phrases with their corresponding intents and entities under `data/g
 
 Test the model at the root of project directory `sh ./tests/de/test.sh`. Wrong classifications are listed in `result/intent_errors.json`
 
-
 ### English NLP Training
 
 Add intents and entities under `core/en/`
-Update configs/en/rasa_config.yml if neccessary 
+Update configs/en/rasa_config.yml if neccessary
 
 Generate training phrases `npx chatito core/en --format=rasa --formatOptions=./core/en/rasaOptions.json --outputPath=core/en --trainingFileName=training_data.json`
 
@@ -52,27 +54,45 @@ Train the model `rasa train nlu --config configs/en/rasa_config.yml --nlu ./core
 
 Add proposed phrases with their corresponding intents and entities under `data/ground_truth_data_en.json`
 
-Cross validate the model at the root of project directory `sh ./tests/en/test.sh`. Model evaluation results are listed in `result/intent_errors.json`
+Cross validate the model at the root of project directory `sh ./tests/en/test.sh`. Model evaluation results are in `results`
 
-Test the model at the root of project directory `sh ./tests/en/test-ground_truth.sh`. Wrong classifications are listed in `result/intent_errors.json`
+Test the model with actual messages at the root of project directory `sh ./tests/en/test-ground_truth.sh`. Wrong intent classifications are listed in `results/intent_errors.json`. Wrong entity classifications are listed in `results/CRFEntityExtractor_errors.json`
 
 ### Enlish NLU Notes
 
-Intents
-    shop
-        -availablity
-        -compare
-        -find.dealers
-        -inventory
-        -list.models
-        -list.trims
-        -request.price
-        -request.spec
-        -whatis.spec
-        -request.testDrive
-        -request.images
-        -order
-    owner
-        -request.service
+- Intents
+  - Owner
+    - request.service
+  - Shop
+    - availablity
+    - compare
+    - find.dealers
+    - inventory
+    - list.models
+    - list.trims
+    - request.price
+    - request.quote: how much is it to drive the car out a shop
+    - request.spec
+    - whatis.spec
+    - request.testDrive
+    - request.images
+    - order.general
+    - order.status
+    - order.cancel
+    - order.change
+    - order.leadTime
+  - SmallTalk
+    - smallTalk.bot_identity
+    - smallTalk.bot_origin
+    - smallTalk.insults
+    - smallTalk.greet
+    - smallTalk.sex
+  - FAQs (TBD)
+    - faq.dealerFranchise.chatito
+    - uvo.general
+    - uvo.activate
+    - uvo.connectivity
+    - uvo.support
+    - uvo.update
 
 ### notes on specs
