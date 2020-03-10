@@ -75,6 +75,7 @@ import ./shop/entities/color.chatito
 ~[trim-only]
     @[model-trim]
     @[model-year] @[model-trim]
+    ~[ev-model]
 
 ~[model-type]
     kia

@@ -2811,6 +2811,11 @@
         "text": "i have a complain about uvo",
         "intent": "uvo.support",
         "entities": []
+      },
+      {
+        "text": "horsepower",
+        "intent": "request.spec",
+        "entities": []
       }
     ]
   }
