@@ -7,8 +7,9 @@ import ../entities/specs.chatito
 //generally want to know more about a trim
 //model slot must be filled
 
-%[list.trims]('training': '200', 'distribution': 'even')
+%[list.trims]('training': '300', 'distribution': 'even')
     @[model]
+    i need help finding ~[model]
     ~[general pre-empt?] ~[model]
     ~[greeting?] i want to know about ~[model]
     i would like to know more about the ~[model]
