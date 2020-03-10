@@ -1,0 +1,107 @@
+import ../../common.chatito
+
+%[chat.tips]('training': '200', 'distribution': 'even')
+    what can you help me with
+    what can you do
+    how do i use this ~[chat]
+    how does this ~[chat] work
+    what are you trained to do
+    can this ~[chat] answer actual questions
+    does this ~[chat] have secretes
+    how does ~[chat] work
+    so little cute ~[chatbot] how are your language skills
+    your chat options suck
+    okay this chat isnt helpful either
+    ~[your] such a stupid ~[chat]
+    this ~[chatbot] thing does not work
+    what a terrible ~[chat]
+
+%[chat.close]('training': '200', 'distribution': 'even')
+    ~[close] ~[chat]
+    ~[please?] ~[close] ~[chat]
+    ~[close] ~[chat] ~[please?]
+    ~[close] this ~[chat] ~[please?]
+    ~[i?] do not want to chat
+    ~[how do i] get this off my screen
+    ~[how do i] ~[close] this ~[chat]
+    ~[how do i] ~[close] chatting
+    do not want ~[to chat]
+    no ~[close] the ~[chat]
+    no i dont want to ~[chat]
+    ~[close] ~[your] goddamn ~[chat]
+    cannot see because ~[chat] is in way
+    can you shut this ~[chat]
+    ~[close] the ~[chat] you moron ~[chatbot]
+    ~[close] the ~[chat] on my computer
+    make the ~[chat] ~[close]
+    discontinue ~[chat] ~[please?]
+    discontinue ~[chat] 
+    ~[please?] remove from my screen
+    ~[how do i] get back to what i was looking at and ~[close] this ~[chat]
+    please get off my screen
+    i am trying to build my car but this stupid ~[chat] is ~[blocking]
+    i ~[cannot] see the site please ~[close] this ~[chat]
+    i ~[cannot] get out of this ~[chat] ~[how do i] ~[close]
+    i ~[cannot] select options because the chat icon is on the way
+    i didnt want ~[to chat] i want to look at the kia site
+    i do not want ~[to chat]
+    i do not want ~[to chat] make the ~[chat] ~[close]
+    i do not wish ~[to chat] please close this ~[chat]
+    i dont want to chat i want this box off of my screen
+    i dont want to chat i want you off the screen
+    i need to end chatting with you
+    i want this ~[chat] taken off
+
+//as a verb
+~[to chat]
+    to chat
+    to talk to
+
+//refers to 'this chat'
+//how does this chat work
+~[chat]
+    chat
+    chatbot
+    chat bot
+    chat box
+    chatbox
+    chat window
+    chat feature
+    chat menu
+
+//refers to a chatbot: is this a bot?
+~[chatbot]
+    chat bot
+    bot
+    robot
+    computer
+    automated chat
+    chat app
+    chat icon
+
+~[close]
+    close
+    exit
+    get rid of
+    shut
+    remove
+    stop
+    delete
+    turn off
+    end
+    discontinue
+    get it off my screen
+    disappear
+
+~[how do i]
+    how do i
+    how can i
+    how do you
+    how can you
+
+//this chat is in my way/blocking the site, etc
+~[blocking]
+    blocking the site
+    blocking my view
+    in the way
+    in my way

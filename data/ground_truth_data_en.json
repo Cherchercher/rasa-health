@@ -206,7 +206,14 @@
       {
         "text": "dealer in 20606",
         "intent": "find.dealers",
-        "entities": []
+         "entities": [
+                    {
+                        "start": 10,
+                        "end": 15,
+                        "value": "20606",
+                        "entity": "model-year"
+                    }
+        ]
       },
       {
         "text": "where is the nearest kia dealership",
