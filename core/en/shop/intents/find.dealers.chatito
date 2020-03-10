@@ -54,6 +54,13 @@ import ../entities/locations.chatito
     I had a ~[bad] experience at ~[dealer]
     the salesman at the ~[dealer] ripped me off
     the ~[dealer] i went to was ~[bad]
+    i have a complaint ~[on-about] ~[dealer]
+
+~[on-about]
+    on
+    about
+    with regard to
+    for
 
 ~[dealer]
     dealer
