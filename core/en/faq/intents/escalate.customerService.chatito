@@ -1,0 +1,31 @@
+import ../../common.chatito
+
+%[escalate.customerService]('training': '100', 'distribution': 'even')
+    my ~[model-car-1] blew up
+    my ~[model-car-1] caught on fire
+    horrible experience with my current @[make?] ~[model-car-1]
+    customer support
+    had a bad experience
+    my ~[grandma] got killed in a car accident
+    no one is getting back to me
+    i was in an accident
+    ~[i-am] going to sue you
+    ~[i-am] going to get my lawyer
+    my ~[model-car-1] is a death trap
+    defective car
+    worst customer service
+
+~[grandma]
+    daugher
+    son
+    mom
+    dad
+    brother
+    sister
+    kid
+    loved one
+    love
+    husband
+    wife
+    boyfriend
+    girlfriend
