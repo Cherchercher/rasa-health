@@ -1,11 +1,13 @@
 import ../../common.chatito
 import ../../shop/entities/locations.chatito
 
-%[uvo.general]('training': '150', 'distribution': 'even')
+%[uvo.general]('training': '100', 'distribution': 'even')
     what is ~[uvo]
     about ~[uvo]
     ~[uvo] link
     how do i get ~[uvo] in my ~[model-car-1]
+
+%[uvo.cost]
     how much ~[uvo] charge
     how much ~[uvo] service charge per month
     what will be the ~[uvo] subscription cost after three years
