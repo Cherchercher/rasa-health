@@ -5,9 +5,9 @@ metadata:
   name: rasa
 spec:
   ports:
-  - name: api
-    port: 80
-    targetPort: api
-    protocol: TCP
+    - name: api
+      port: 80
+      targetPort: api
+      protocol: TCP
   selector:
     app: rasa

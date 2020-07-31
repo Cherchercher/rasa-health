@@ -1,1 +1,0 @@
-[ -d ./results ]&& rm -rf ./results;rasa test nlu -u ./core/cn/ --config ./configs/cn/rasa_config.yml --cross-validation --model models; [[ -s ./results/intent_errors.json ]] && echo 'Error: not all phrases got matched with right intents'|| echo 'success'

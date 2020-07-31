@@ -1,0 +1,174 @@
+import ../entities/common.chatito
+
+%[patient.affirm]('training':'50')
+    yes
+    yes i do
+    i do
+    somtimes yes
+    yeah I do
+    yeah @[frequencies]
+    @[frequencies] yeah
+
+%[patient.deny]
+    no
+    no i dont
+    i dont
+    not anymore
+    never
+
+%[patient.smoke.affirm]
+    yeah i smoke
+    i smoke
+    i do smoke
+    yes i do smoke
+    i smoke sometimes
+    i am a chronic smoker
+
+%[patient.smoke.past]
+    i used to smoke
+    i was a smoker
+
+%[patient.drink.past]
+    i used to drink
+    i was a drinker
+
+%[patient.smoke.deny]
+    no i dont smoke
+    i do not smoke
+
+%[patient.drink.affirm]
+    yes i drink
+    yeah i drink
+    i drink
+    I drink sometimes
+
+%[patient.drink.deny]
+    no i dont drink
+    i am not a drinker
+    i dont drink alcohol
+
+%[patient.smoke.frequency]('training':'70')
+    i smoke @[smoke-frequencies]
+    i smoke @[smoke-frequencies]
+    @[smoke-frequencies]
+    i smoke @[frequencies]
+
+%[patient.drink.frequency]('training':'50')
+    i drink @[frequencies]
+    @[frequencies]
+    @[frequencies] yeah
+    five glasses
+    a few shots
+
+%[patient.drink.type]('training':'50')
+    i drink some @[alcohol] @[frequencies]
+
+%[patient.allergy]
+    i am allergic to ~[medicine]
+
+%[patient.ros.onset]
+    it started last week
+    three days ago
+    last month
+    it begins last month
+
+%[doctor.ros.location]('training':'20')
+    where is the ~[CC] located
+    where did it happen
+
+%[doctor.ros.duration]('training':'20')
+    how long did it last
+    how long has the ~[CC] been going on for
+
+%[patient.ros.alleviating]
+    my stomach feels starts hurting but then it feels better after I eat something mild
+    i have a wound between my toes that gets better overnight
+    it reopens ever day when I wear dress shoes to work
+
+%[patient.ros.aggravating]('training':'20')
+    its worse when I ~[situation]
+    my ear hurts and its worse when I swallow 
+    my ~[CC] gets worse when it is hot
+    it gets worse when i ~[situation]
+
+%[patient.ros.radiation]
+    when I move on my shoulder pain shoots down my arm
+    pain shoots down my arm when I move on my shoulder
+
+%[patient.ros.temporal]('training':'20')
+    is the ~[CC] worse or better at a certain time of the day
+    is the ~[CC] better at a certain time of the day
+    is the ~[CC] worse at a certain time of the day
+
+%[patient.ros.severity]
+    @[numbers]
+    it is very painful
+    very severe
+    very acute
+    acute
+
+%[patient.history.medical_condition]('training':'15')
+    ive been obese my whole life
+    ive been obese for @[duration]
+    i have asthma
+    i have asthma but do not require daily medication for this
+
+%[patient.history.surgery]
+    i had a heart surgery
+    i had a teeth surgery
+    i had a leg implant 
+
+%[patient.history.when]('training':'50')
+    i had ~[CC] @[duration]
+    ive had it for @[duration]
+    i had it for @[duration]
+    ive had it for @[duration]
+
+%[patient.history.family_history]('training':'50')
+    my ~[family] ~[has-had] ~[CC-inherit]
+    my ~[family] ~[has-had] died from ~[CC-inherit]
+    my ~[family] ~[has-had] passed away from ~[CC-inherit]
+
+%[patient.history.current_medication]
+    my ear is very painful and tylenol hasnt helped.
+    i am on ~[medicine]
+    i have been taking ~[medicine]
+    i take ~[medicine] in the morning
+    i am taking ~[medicine] for diabetes
+    i am taking ~[medicine]
+
+~[medicine]
+    advil
+    insulin
+    birth control
+
+%[patient.insurance.coverage.no]
+    i dont have prescription coverage
+    i dont have coverage
+    i dont have great coverage
+    i dont have great insurance coverage
+
+@[smoke-frequencies]
+    3 packs per day
+    three packs per day
+    2 to 3 cigarettes per day
+    for 17 years
+    two to three cigarettes per day
+    two or three cigarettes per day
+    two packs a day
+    a few joins a week
+    a few sigs a day
+    2 to 3 sigs a day
+
+@[alcohol]
+    wine
+    hard alcohol
+    taquilas
+    beer
+    vodka
+    gintonic
+    gin
+
+~[has-had]
+    has
+    had

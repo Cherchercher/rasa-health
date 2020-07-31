@@ -1,9 +1,0 @@
-import ../common.chatito
-
-%[whatis.spec]('training': '100', 'distribution': 'even')
-    Wie kann der @[specs.brain] helfen
-    Was kann der @[specs.brain] machen
-    Was ist diese @[specs.brain]
-    Was passiert mit der @[specs.brain]
-    Was macht der @[specs.brain] in Notfällen
-    Welche Funktionen hat diese @[specs.brain]

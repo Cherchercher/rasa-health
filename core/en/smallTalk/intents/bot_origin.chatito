@@ -1,4 +1,0 @@
-import ../../shop/entities/locations.chatito
-
-%[smallTalk.bot_origin]
-    are you in ~[location]

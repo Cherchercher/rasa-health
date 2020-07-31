@@ -3,12 +3,11 @@ language: en
 importers:
   - name: MultiProjectImporter
 imports:
-  - core/en/owner
-  - core/en/shop
-  - core/en/faq
-  - core/en/smallTalk
+  - core/en/soap
 pipeline:
   - name: tokenizer_whitespace
+    intent_split_symbol: .
+    intent_tokenization_flag: true
   - name: intent_entity_featurizer_regex
   - features:
       - - low
@@ -31,6 +30,16 @@ pipeline:
     fuzzy_matching: true
     fuzzy_threshold: 0.9
     name: ner_crf
+  - name: "CountVectorsFeaturizer"
+    # Analyzer to use, either 'word', 'char', or 'char_wb'
+    "analyzer": "word"
+    # Set the lower and upper boundaries for the n-grams
+    "min_ngram": 1
+    "max_ngram": 1
+    # Set the out-of-vocabulary token
+    "OOV*token": "\_oov*"
+    # Whether to use a shared vocab
+    "use_shared_vocab": False
   - dimensions:
       - number
       - ordinal
@@ -45,10 +54,7 @@ pipeline:
       - temperature
     name: ner_duckling_http
     url: http://127.0.0.1:8000
-  - name: tokenizer_whitespace
-  - name: intent_featurizer_count_vectors
-  - droprate: 0.5
+  - drop_rate: 0.0
     epochs: 200
-    intent_split_symbol: .
-    intent_tokenization_flag: true
-    name: intent_classifier_tensorflow_embedding
+    batch_strategy: sequence
+    name: DIETClassifier

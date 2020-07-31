@@ -1,0 +1,462 @@
+~[freq]
+    once
+    twice
+    three times
+    four times
+    five times
+
+~[interval]
+    a day
+    everyday
+    a week
+    a month
+    a year
+    in the morning
+    at night
+    at noon
+
+~[scenerio]
+    before meal
+    after meal
+    after lunch
+    before lunch
+    with empty stomach
+    before sleep
+    before you go to sleep
+    before breakfast
+    after breakfast
+    when you wake up
+
+~[otherFreq]
+    all the time
+    in general
+    at times
+    from times to times
+    on the weekend
+
+~[every-few]
+    every two days
+    every few days
+    every week
+    every two weeks
+    every month
+    every few months
+
+~[frequeny]
+    every two to three hours
+    3 times every month
+    p.o. on Monday , Wednesday and Friday
+    every day
+    times one
+    3 times
+    every one hour
+    per hour
+    3 to 4 stools per day
+    in the a.m.
+    once
+    two times a week
+    several times a day
+    twice daily
+    3 hours
+    on a regular basis
+    daily
+    per day
+    2 to 3 times per night
+    four to six hours
+    five times a day
+    every 8 hours
+    twice day
+    times four
+    daily
+    night
+    times 6
+    times three
+    ten
+    QID
+    one
+    q day times three months
+    annually
+    monthly
+    ad lib
+    an hour
+    2-3 shots per day
+    one episode
+    every three months
+    2 puffs q6h
+    an as needed basis
+    several
+    three times a week
+    8 hours
+    twice a day
+    needed
+    two occasions
+    four doses
+    three times
+    once a day
+    each day
+    per minute
+    every two hours
+    twice
+    multiple
+    4-5 days
+    three times a day
+
+@[frequencies]
+    ~[happened?] ~[freq] ~[interval]
+    ~[scenerio]
+    everyday ~[scenerio]
+    ~[otherFreq]
+    intermittent 
+    occasional
+    ~[happened?] ~[every-few]
+
+@[time-onset]
+    last week
+    a few days ago
+    a day ago
+    two days ago
+    three days ago
+    four days ago
+    five days ago
+    about a week ago
+    last month
+    in ~[months]
+    last ~[months]
+
+~[months]
+    January
+    February
+    January
+    February
+    March
+    April
+    May
+    June
+    July
+    August
+    Septembe
+    October
+    November
+    December
+
+~[family]
+    father
+    mother
+    sister
+    aunt
+    uncle
+    parent
+    family
+    sibling
+    mom
+    dad
+    grandpa
+    grandfather
+    grandma
+    grandmother
+
+@[future-duration]
+    daily
+    a 14 day course
+    the next two days
+    10 more days
+
+@[duration]
+    over the last three to four weeks
+    over the last few years
+    over the last two years
+    lasting twenty to forty seconds
+    32 years
+    one hour
+    39 and 1/2 weeks
+    8-12 hours
+    few months
+    forty to fifty years prior
+    entire day
+    all times
+    the subsequent two days
+    day and a half
+    the first two hours
+    72 hours
+    a 2-week
+    a week
+    two days
+    twelve years
+    a five minute
+    two week
+    5 days
+    7-10 days
+    nine months
+    the last few weeks
+    a 72 hour
+    nine minutes
+    this time
+    4 times a day
+    eight years
+    10 years
+    five year
+    32 weeks
+    the next day
+    Postoperative days one and two
+    three months
+    another half hour
+    essentially all of the day
+    two hours
+    2-3 weeks
+    an extended period
+    2 to 3 days
+    several years
+    45 minutes to 1 hour
+    2-3 day
+    seven day course
+    three weeks
+    five years
+    7 day
+    few hours
+    the past year
+    period of time
+    three years
+    six weeks
+    one day
+    the past six months
+    1 dat
+    six months
+    the next week
+    the next several days
+    five minutes to two hours
+    the week
+    a three to four week
+    a many year
+    the days
+    then
+    2 week course
+    three-year
+    the postoperative period
+    one week
+    the past 5-6 months
+    the prior two hours
+    past 2 days
+    the past three years
+    March through May of 1993
+    few weeks
+    14 days
+    months
+    several days
+    the week before
+    immediate post-op period
+    six days
+    next week
+    a 24-hour
+    three days
+    the last month
+    14 day
+    32 and 35 weeks
+    a year
+    four to six weeks
+    the past four weeks
+    4-6 weeks
+    recent months
+    the day of postoperative day one
+    the last two to three weeks
+    ten years
+    31 and 06-17 week
+    the course of the day
+    22 year
+    thirty to sixty minutes
+    the final days
+    four days
+    one week
+    the following three days
+    2 week
+    2 preeceeding days
+    1-1/2 years
+    the past 4-5 weeks
+    cctober through april
+    the next few days
+    couple of months
+    seven days
+    one hour
+    an hour to 1 hour
+    four months
+    for years
+    a short time
+    ten day
+    three minutes
+    overnight
+    10 days
+    five minutes
+    one minute
+    18 years
+    a 10 day course
+    3 months
+    a few seconds
+    five days
+    Two years
+    the few months
+    her overnight
+    9 hours
+    24 hr
+    2 weeks
+    the past several months
+    1 day
+    the last four months
+    the last 2-3 days
+    11 hours
+    A week and half ago
+    the 24 hours
+    night
+    several weeks
+    the four days
+    greater than one year
+    90 minutes
+    30 minutes
+    a 2 week course
+    2 1/2 years
+    a few months
+    several hours
+    two weeks
+    the first few days
+    3 weeks
+    two more hours
+    3 to 4 year
+    6 weeks
+    4 hours
+    the several weeks
+    20 minutes
+    the last couple of days
+    the first 24 hours
+    many years
+    two consecutive days
+    the past week
+    a six month
+    one to two hours
+    one month
+    a number of minutes
+    the fourteen day
+    six hours
+    3 times a day for 3 days
+    on and off
+    twelve hours
+    30 days
+    a couple of days
+    one year
+    the next three to seven days
+    the next few minutes
+    24hr
+    12 hours
+    the two days
+    a month long
+    89 mins
+    29-30 week
+    overnight
+    the last few months
+    48 hours
+    20 years
+    15 to 20 minutes
+    the first two days
+    34 weeks
+    the past month
+    several months
+    four years
+    most of the day
+    32 and 03-05 week
+    1 month
+    18 days
+    last year
+    one to two weeks
+    15 minutes
+    3 nights
+    days
+    few days
+    five day
+    two months
+    the course of the night
+    a few hours
+    a two-day
+    9/25-10/6
+    2-3 years
+    many months
+    5 hours
+    103 minutes
+    ten days
+    2 days
+    24 hour
+    a 4 day
+    the several months
+    18 hours
+    24 hours
+    six weeks ago
+    two years
+    three day
+    two to three weeks
+    a seven day
+    the last 2 weeks
+    the past 3 days
+    the past @[numbers] years
+    twenty years
+    three to five weeks
+    the past 2 weeks
+    3 days
+    year
+    twelve days
+    five weeks
+    a two day
+    a number of years
+    four weeks
+    2 months
+    25 years
+
+~[CC-inherit]
+    huntingtons disease
+    high blood pressure
+    alzheimer arthritis
+    obesity
+    turner syndrome
+    cry of the cat syndrome
+    klinefelter syndrome
+    dementia
+    a stroke
+    breast cancer
+    a heart attack
+    asthma
+    heart problems
+
+~[CC]
+    ~[CC-inherit]
+    stomachache
+    acne
+    chills
+    cough
+    shortness of breath
+    difficulty breathing
+    fatigue
+    muscle or body aches
+    headache
+    loss of taste
+    loss of smell
+    sore throat
+    congestion
+    runny nose
+    nausea
+    vomiting
+    diarrhea
+    bleeding
+    infection
+    deep venous
+
+~[surgery]
+    retropubic prostatectomy
+    eye surgery
+    heart surgery
+
+@[numbers]
+    one
+    two
+    three
+    four
+    five
+    six
+    seven
+    eight
+    nine
+    ten

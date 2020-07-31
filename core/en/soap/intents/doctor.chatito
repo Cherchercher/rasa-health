@@ -1,0 +1,136 @@
+import ../entities/common.chatito
+
+%[doctor.smoke]
+    do you smoke
+    are you a smoker
+    do you smoke cigarettes
+    do you smoke cigar
+
+%[doctor.drink]
+    do you drink
+    are you a drinker
+    do you drink alcohol
+    do you drink booze
+
+%[doctor.smoke.frequency]
+    how often do you smoke
+    how much do you smoke
+    how frequent do you smoke
+
+%[doctor.drink.type]
+    what do you drink
+    what do you usually drink
+
+%[doctor.frequency]
+    how often do you drink
+    how many glasses do you drink
+
+%[doctor.allergy]
+    do you have any allergy
+    are you allergic to anything
+    do you have drug allergy
+    do you have drug allergic reaction
+    are you allergic to any medicine
+    are you allergic to any drug
+
+%[doctor.ros.onset]('training':'10')
+    when did it start
+    when did the ~[CC] begin
+
+%[doctor.ros.location]('training':'10')
+    where is the ~[CC] located
+    where is it
+    where do you feel it
+
+%[doctor.ros.duration]('training':'10')
+    how long did it last
+    how long is the symptom
+    how long has the ~[CC] been going on for
+
+%[doctor.ros.alleviating]('training':'10')
+    what makes the ~[CC] better
+    does it get better when you ~[situation]
+
+%[doctor.ros.aggravating]('training':'10')
+    what makes the ~[CC] worse
+    does it get worse when you ~[situation]
+
+%[doctor.ros.radiation]('training':'15')
+    does the ~[CC] move ~[or stay in one location?]
+
+%[doctor.ros.temporal]('training':'20')
+    is the ~[CC] worse or better at a certain time of the day
+    is the ~[CC] better at a certain time of the day
+    is the ~[CC] worse at a certain time of the day
+
+%[doctor.ros.severity]('training':'10')
+    using a scale of 1 to 10 with 1 being the least and 10 being the worst how do you rate the ~[CC]
+    from a scale of 1 to 10 how do you rate the ~[CC]
+
+%[doctor.history.medical_condition]
+    do you have past medical conditions
+    do you have any medical condition
+    do you have any pertinent medical condition
+
+%[doctor.history.surgery]
+    did you have any surgery
+    have you had surgery before
+
+%[doctor.history.surgery.when]
+    when did you have your surgery
+    when did you have the surgery
+
+%[doctor.history.family_history]('training':'10')
+    did you family have ~[CC]
+    does your familiy have any medical condition
+
+%[doctor.history.current_medication]
+    are you on any medication
+    are you on birth control
+    do you take any medicine
+    are you taking any medication
+    are you taking any medicine
+
+%[doctor.history.prescription]('training':'70')
+    take it @[frequencies]
+    take 2 pills @[future-duration?]
+    take 2 per day @[future-duration?]
+    i will decrease bladder scan residual urine frequency to @[frequencies] @[future-duration?]
+    i will prescribe you some acetaminophen
+    please take it @[frequencies] after meals @[future-duration?]
+    i will reduce it to half a pill per day @[future-duration?]
+
+%[doctor.history.prescription.instead]('training':'10')
+    try @[medications] instead of @[medications] again
+    try @[medications] instead
+    another option will be to use @[medications]
+    another option would be to use @[medications]
+    lets try @[medications] instead
+
+%[doctor.advice.noinclude]('training':'20')
+    you might have some ~[CC] after taking laparoscopic cholecystectomy
+    you might feel sleepy after taking the @[medications]
+    you might feel drowsy with the @[medications] so dont drive after
+
+%[doctor.additional.info]
+    Your ideal weight is 90kg
+    Your total calorie requirement for weight maintenance is estimated at 1759 calories a day.  
+    Your diet history reflects that she is making some very healthy food choices on a regular basis.  
+    You does emphasize a lot of fruits and vegetables, trying to get a fruit or a vegeta
+
+@[medications]
+    zyrtec
+    allegra
+    loratadine
+    laparoscopic cholecystectomy
+    pptifast
+    plavix
+    atenolol
+    lipitor
+
+~[situation]
+    exercise
+    get up in the morning
+    bend your back
+    lift heavy weights
+    swallow
