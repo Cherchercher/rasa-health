@@ -7,9 +7,10 @@ Currently it supports training in Chinese, English, Japanese and German. We are 
 1. enable Duckling:
 docker run -p 8000:8000 rasa/duckling
 
-2. run image:
+2. build image:
 docker build -t rasa-health .
-docker run rasa-health
+
+3. docker run rasa-health
 
 ### Setup without docker
 pip install rasa
